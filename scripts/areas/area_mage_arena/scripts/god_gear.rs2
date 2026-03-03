@@ -1,27 +1,27 @@
-[opheld2,saradomin_cape] if (~check_conflicting_god_staff(zamorak_staff, guthix_staff) = true) ~equip(last_slot);
-[opheld2,zamorak_cape] if (~check_conflicting_god_staff(saradomin_staff, guthix_staff) = true) ~equip(last_slot);
-[opheld2,guthix_cape] if (~check_conflicting_god_staff(saradomin_staff, zamorak_staff) = true) ~equip(last_slot);
+[opheld2,saradomin_cape] if (~check_conflicting_god_staff(zamorak_staff, guthix_staff) = ^true) ~equip(last_slot);
+[opheld2,zamorak_cape] if (~check_conflicting_god_staff(saradomin_staff, guthix_staff) = ^true) ~equip(last_slot);
+[opheld2,guthix_cape] if (~check_conflicting_god_staff(saradomin_staff, zamorak_staff) = ^true) ~equip(last_slot);
 
-[opheld2,saradomin_staff] if (~check_conflicting_god_cape(zamorak_cape, guthix_cape) = true) ~equip(last_slot);
-[opheld2,zamorak_staff] if (~check_conflicting_god_cape(saradomin_cape, guthix_cape) = true) ~equip(last_slot);
-[opheld2,guthix_staff] if (~check_conflicting_god_cape(saradomin_cape, zamorak_cape) = true) ~equip(last_slot);
+[opheld2,saradomin_staff] if (~check_conflicting_god_cape(zamorak_cape, guthix_cape) = ^true) ~equip(last_slot);
+[opheld2,zamorak_staff] if (~check_conflicting_god_cape(saradomin_cape, guthix_cape) = ^true) ~equip(last_slot);
+[opheld2,guthix_staff] if (~check_conflicting_god_cape(saradomin_cape, zamorak_cape) = ^true) ~equip(last_slot);
 
 
-[proc,check_conflicting_god_cape](namedobj $item1, namedobj $item2)(boolean)
+[proc,check_conflicting_god_cape](namedobj $item1, namedobj $item2)(int)
 if (inv_total(worn, $item1) > 0 | inv_total(worn, $item2) > 0) {
     mes("You may not wield this staff whilst wearing the cape of another god.");
     mes("The conflicting powers of staff and cape drive them apart.");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,check_conflicting_god_staff](namedobj $item1, namedobj $item2)(boolean)
+[proc,check_conflicting_god_staff](namedobj $item1, namedobj $item2)(int)
 if (inv_total(worn, $item1) > 0 | inv_total(worn, $item2) > 0) {
     mes("You may not wear this cape whilst wielding the staff of another god.");
     mes("The conflicting powers of staff and cape drive them apart.");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 [opheld5,saradomin_cape] @drop_god_cape;
 [opheld5,zamorak_cape] @drop_god_cape;

@@ -13,7 +13,7 @@ if ($loc = null | $seq = null) {
 }
 
 loc_findallzone(coord);
-while (loc_findnext = true) {
+while (loc_findnext = ^true) {
     if (loc_type = $loc) {
         loc_anim($seq);
     }

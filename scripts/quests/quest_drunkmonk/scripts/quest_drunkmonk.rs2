@@ -1,15 +1,15 @@
 [timer,blanket_ladder]
-if(distance(^blanket_ladder_coord, coord) <= 2 & ~drunkmonk_ladder_active = false) {
+if(distance(^blanket_ladder_coord, coord) <= 2 & ~drunkmonk_ladder_active = ^false) {
     mes("A ladder mysteriously appears.");
     // Temp note: dur does not need updated
     loc_add(^blanket_ladder_coord, loc_1765, 1, centrepiece_straight, 200);
 }
 
-[proc,drunkmonk_ladder_active]()(boolean)
-if(loc_find(^blanket_ladder_coord, loc_1765) = true) {
-    return(true);
+[proc,drunkmonk_ladder_active]()(int)
+if(loc_find(^blanket_ladder_coord, loc_1765) = ^true) {
+    return(^true);
 }
-return(false);
+return(^false);
 
 [label,drunkmonk_party]
 if_close;
@@ -23,19 +23,19 @@ npc_setmode(playerface);
 ~spawn_drunkmonk_balloons;
 ~monk_dance("Let's boogie!", 2);
 ~player_monkdance("Oh baby!", 2);
-if(.npc_find(coord, monk_ardougne, 5, 1) = true) { // this will refind on each attempt: https://youtu.be/dU6r-_242kk?si=lnwo34gbW9_pX1dv&t=140
+if(.npc_find(coord, monk_ardougne, 5, 1) = ^true) { // this will refind on each attempt: https://youtu.be/dU6r-_242kk?si=lnwo34gbW9_pX1dv&t=140
     ~.monk_dance("GO!", -1);
 }
 p_delay(2);
 ~monk_dance("Get down!", 2);
 ~player_monkdance("Feel the rhythm!", 2);
-if(.npc_find(coord, monk_ardougne, 5, 1) = true) {
+if(.npc_find(coord, monk_ardougne, 5, 1) = ^true) {
     ~.monk_dance("Dance!", -1);
 }
 p_delay(2);
 ~monk_dance("Oh my!", 2);
 ~player_monkdance("Watch me go!", 2);
-if(.npc_find(coord, monk_ardougne, 5, 1) = true) {
+if(.npc_find(coord, monk_ardougne, 5, 1) = ^true) {
     ~.monk_dance("You go!", -1);
 }
 p_delay(2);
@@ -66,7 +66,7 @@ if($delay >= 0) {
 def_int $count = 0;
 while($count < ^balloons_per_drop) {
     def_coord $balloon_coord = ~drunkmonk_balloon_coord;
-    if(map_blocked($balloon_coord) = false & map_indoors($balloon_coord) = true & map_locaddunsafe($balloon_coord) = false) {
+    if(map_blocked($balloon_coord) = ^false & map_indoors($balloon_coord) = ^true & map_locaddunsafe($balloon_coord) = ^false) {
         // Temp note: dur does not need updated
         loc_add($balloon_coord, ~random_balloon, random(4), centrepiece_straight, 200);
     }

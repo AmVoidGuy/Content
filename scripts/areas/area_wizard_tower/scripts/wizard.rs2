@@ -1,7 +1,7 @@
 [ai_queue1,wizard] ~npc_default_retaliate_ap;
 [ai_opplayer2,wizard] npc_setmode(applayer2);
 [ai_applayer2,wizard]
-if (~npc_combat_spell_checks = false) {
+if (~npc_combat_spell_checks = ^false) {
     return;
 }
 

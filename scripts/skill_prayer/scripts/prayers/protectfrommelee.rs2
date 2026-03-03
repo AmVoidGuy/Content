@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_protectfrommelee]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_protectfrommelee;
 }
 %prayer14 = %prayer14;
@@ -16,7 +16,7 @@ if (%prayer14 = ^true) {
     ~prayer_deactivate(^prayer_protectfrommelee);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer14 = ^false;
     return;
 }

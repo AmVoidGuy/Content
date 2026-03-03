@@ -44,7 +44,7 @@ inv_del(inv, $equipment, 1);
 ~objbox($equipment, "The <$name> burns up in the lava!", 250, 0, divide(^objbox_height, 2));
 
 [label,attempt_fish_lava_eel]
-if (~oil_rod_fishing_check_requirements = false) {
+if (~oil_rod_fishing_check_requirements = ^false) {
     return;
 }
 if (%action_delay < map_clock) {
@@ -68,7 +68,7 @@ if (%action_delay = map_clock) {
 
 
 [label,fish_lava_eel]
-if (~oil_rod_fishing_check_requirements = false) {
+if (~oil_rod_fishing_check_requirements = ^false) {
     return;
 }
 if (%action_delay < map_clock) {
@@ -79,28 +79,28 @@ if (%action_delay < map_clock) {
 }
 p_opnpc(3);
 
-[proc,oil_rod_fishing_check_requirements]()(boolean)
+[proc,oil_rod_fishing_check_requirements]()(int)
 // check level
 if (stat(fishing) < 53) {
     anim(null, 0);
     ~mesbox("You need to be at least level 53 Fishing to bait these eels.");
-    return(false);
+    return(^false);
 }
 // check if they have fishing equipment
 if (inv_total(inv, oily_fishing_rod) < 1) {
     anim(null, 0);
     ~mesbox("You need a flame-proof fishing rod to bait these fish.");
-    return(false);
+    return(^false);
 }
 if (inv_total(inv, fishing_bait) < 1) {
     anim(null, 0);
     ~mesbox("You don't have any fishing bait left.");
-    return(false);
+    return(^false);
 }
 // check if inv is full
 if (inv_freespace(inv) < 1 & inv_total(inv, fishing_bait) > 1) {
     anim(null, 0);
     ~mesbox("You can't carry any more eels.");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);

@@ -17,13 +17,13 @@ if (string_length($message) > 0) {
 // checks if you actually have the fish equipment required.
 // usually called right after level check, and right before inv space check.
 // inv space check doesnt seem to have consistent behavior so its not included in this proc.
-[proc,check_fish_equipment](namedobj $fish_equipment)(boolean)
+[proc,check_fish_equipment](namedobj $fish_equipment)(int)
 def_struct $struct = oc_param($fish_equipment, fish_equipment_struct);
 // check if they have fishing equipment
 if (inv_total(inv, $fish_equipment) < 1) {
     anim(null, 0);
     ~mesbox(struct_param($struct, fish_equipment_failmessage));
-    return(false);
+    return(^false);
 }
 // check if player has enough bait
 if ($struct ! null) {
@@ -31,10 +31,10 @@ if ($struct ! null) {
     if ($bait ! null & inv_total(inv, $bait) < 1) {
         anim(null, 0);
         ~mesbox("You don't have any <struct_param($struct, baitmessage)> left.");
-        return(false);
+        return(^false);
     }
 }
-return(true);
+return(^true);
 
 // proc for fish rolls
 [proc,fish_roll](namedobj $fish1, namedobj $fish2, namedobj $equipment, namedobj $bait)
@@ -45,7 +45,7 @@ if (npc_param(is_whirlpool) = ^true) {
 
 if ($fish2 ! null) { // if fish2 isnt null and roll for 2nd fish passes
     def_struct $struct2 = oc_param($fish2, fishing_struct);
-    if (stat_random(fishing, struct_param($struct2, success_low), struct_param($struct2, success_high)) = true) {
+    if (stat_random(fishing, struct_param($struct2, success_low), struct_param($struct2, success_high)) = ^true) {
         if ($bait ! null) {
             // delete bait
             inv_del(inv, $bait, 1);
@@ -59,7 +59,7 @@ if ($fish2 ! null) { // if fish2 isnt null and roll for 2nd fish passes
 }
 if ($fish1 ! null) { // else if fish1 isnt null and roll for 1st fish passes
     def_struct $struct1 = oc_param($fish1, fishing_struct);
-    if (stat_random(fishing, struct_param($struct1, success_low), struct_param($struct1, success_high)) = true) {
+    if (stat_random(fishing, struct_param($struct1, success_low), struct_param($struct1, success_high)) = ^true) {
         if ($bait ! null) {
             // delete bait
             inv_del(inv, $bait, 1);
@@ -75,7 +75,7 @@ if ($fish1 ! null) { // else if fish1 isnt null and roll for 1st fish passes
 [proc,fish_roll_loc](namedobj $fish1, namedobj $fish2, namedobj $bait)
 if ($fish2 ! null) { // if fish2 isnt null and roll for 2nd fish passes
     def_struct $struct2 = oc_param($fish2, fishing_struct);
-    if (stat_random(fishing, struct_param($struct2, success_low), struct_param($struct2, success_high)) = true) {
+    if (stat_random(fishing, struct_param($struct2, success_low), struct_param($struct2, success_high)) = ^true) {
         if ($bait ! null) {
             // delete bait
             inv_del(inv, $bait, 1);
@@ -89,7 +89,7 @@ if ($fish2 ! null) { // if fish2 isnt null and roll for 2nd fish passes
 }
 if ($fish1 ! null) { // else if fish1 isnt null and roll for 1st fish passes
     def_struct $struct1 = oc_param($fish1, fishing_struct);
-    if (stat_random(fishing, struct_param($struct1, success_low), struct_param($struct1, success_high)) = true) {
+    if (stat_random(fishing, struct_param($struct1, success_low), struct_param($struct1, success_high)) = ^true) {
         if ($bait ! null) {
             // delete bait
             inv_del(inv, $bait, 1);

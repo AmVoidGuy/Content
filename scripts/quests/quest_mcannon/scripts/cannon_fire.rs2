@@ -4,7 +4,7 @@
 // but at https://youtu.be/WWyNTsMXjTE?t=219 the cannon does
 
 // i think this is because picking up the cannon doesnt reset the timer.
-if (%ownedmcannon = null | loc_find(%ownedmcannon, dwarf_multicannon1) = false) {
+if (%ownedmcannon = null | loc_find(%ownedmcannon, dwarf_multicannon1) = ^false) {
     return;
 }
 def_coord $center = movecoord(loc_coord, 1, 0, 1);
@@ -12,7 +12,7 @@ def_coord $close_range = movecoord($center, 0, 0, 3);
 def_coord $medium_range = movecoord($center, 0, 0, 7);
 def_coord $long_range = movecoord($center, 0, 0, 14);
 def_seq $seq = mcannon_ne_turn;
-def_boolean $fired = false;
+def_int $fired = ^false;
 // start north, going clockwise
 if ($dir = 0) {
     // automatically starts spinning: https://youtu.be/TeQXQDaawO0?t=234
@@ -65,25 +65,25 @@ if ($dir = 0) {
 }
 
 // Check close range
-if (npc_hunt($close_range, 1, 1) = true) {
-    if (lineofsight($center, npc_coord) = true) {
-        $fired = true;
+if (npc_hunt($close_range, 1, 1) = ^true) {
+    if (lineofsight($center, npc_coord) = ^true) {
+        $fired = ^true;
         gosub(cannon_fire);
     }
 }
 
 // Check med range
-if ($fired = false & npc_hunt($medium_range, 2, 1) = true) {
-    if (lineofsight($center, npc_coord) = true) {
-        $fired = true;
+if ($fired = ^false & npc_hunt($medium_range, 2, 1) = ^true) {
+    if (lineofsight($center, npc_coord) = ^true) {
+        $fired = ^true;
         gosub(cannon_fire);
     }
 }
 
 // Check long range
-if ($fired = false & npc_hunt($long_range, 5, 1) = true) {
-    if (lineofsight($center, npc_coord) = true) {
-        $fired = true;
+if ($fired = ^false & npc_hunt($long_range, 5, 1) = ^true) {
+    if (lineofsight($center, npc_coord) = ^true) {
+        $fired = ^true;
         gosub(cannon_fire);
     }
 }
@@ -98,10 +98,10 @@ if(npc_type = ikov_firewarrior) { // separate from attackable check
     ~chatnpc("<p,angry>Your puny weapons do nothing against me human! Come back when you can give me a real fight!");
     return;
 }
-if (~npc_is_attackable = false) {
+if (~npc_is_attackable = ^false) {
     return;
 }
-if (~player_in_combat_check = false) { // https://youtu.be/TeQXQDaawO0?t=247
+if (~player_in_combat_check = ^false) { // https://youtu.be/TeQXQDaawO0?t=247
     return;
 }
 // map_projanim	id=53, starttime=0, endtime=40, angle=2, progress=11, startheight=36, endheight=35
@@ -110,7 +110,7 @@ def_int $duration = ~npc_projectile(movecoord(%ownedmcannon, 1, 0, 1), npc_uid, 
 %rockthrower = sub(%rockthrower, 1);
 ~sound_within_distance(mcannon_fire, 0, %ownedmcannon, 10);
 def_int $damage = 0;
-if (~player_npc_hit_roll(%damagetype) = true) {
+if (~player_npc_hit_roll(%damagetype) = ^true) {
     $damage = randominc(min(30, npc_param(max_dealt)));
     def_int $damage_capped = min($damage, npc_stat(hitpoints));
     stat_advance(ranged, multiply(scale(%npc_combat_xp_multiplier, 1000, scale(200, 100, $damage_capped)), 10));
@@ -133,7 +133,7 @@ if (npc_type = king_dragon) {
 }
 
 [proc,destroy_cannon]
-if (%ownedmcannon ! null & loc_find(%ownedmcannon, dwarf_multicannon1) = true) {
+if (%ownedmcannon ! null & loc_find(%ownedmcannon, dwarf_multicannon1) = ^true) {
     spotanim_map(smokepuff_huge, movecoord(%ownedmcannon, 1, 0, 1), 200, 0);
 
     mes("Your cannon has been destroyed!");

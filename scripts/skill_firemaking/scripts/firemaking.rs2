@@ -29,7 +29,7 @@ if (stat(firemaking) < $level) {
     mes("You need a Firemaking level of <tostring($level)> to burn <oc_name($log)>.");
     return;
 }
-if (~area_allow_loc_add(obj_coord) = false) {
+if (~area_allow_loc_add(obj_coord) = ^false) {
     mes("You can't light a fire here.");
     return;
 }
@@ -47,7 +47,7 @@ if (%action_delay < map_clock) {
     mes("You attempt to light the logs.");
     %action_delay = calc(map_clock + 3);
 } else if (%action_delay = map_clock) {
-    if(stat_random(firemaking, 64, 512) = true) { // firemaking roll
+    if(stat_random(firemaking, 64, 512) = ^true) { // firemaking roll
         %action_delay = calc(map_clock + 4);
         // attempt to firemaking each direction: west east south north
         // if player isnt standing on the log anymore, the fire is lit
@@ -74,7 +74,7 @@ if (stat(firemaking) < $level) {
     return;
 }
 // check if the coord is already occupied by an interactable loc
-if (~area_allow_loc_add(coord) = false) {
+if (~area_allow_loc_add(coord) = ^false) {
     mes("You can't light a fire here.");
     return;
 }
@@ -91,7 +91,7 @@ if (%action_delay < map_clock) {
     mes("You attempt to light the logs.");
     %action_delay = calc(map_clock + 3);
 } else if (%action_delay = map_clock) {
-    if(stat_random(firemaking, 64, 512) = true) { // firemaking roll
+    if(stat_random(firemaking, 64, 512) = ^true) { // firemaking roll
         %action_delay = calc(map_clock + 4);
         ~push_player(obj_coord);
         ~firemaking_success(obj_coord, $log); // if fully blocked then just light the log and dont move
@@ -120,21 +120,21 @@ loc_add($fire_coord, loc_2732, 1, centrepiece_straight, $delay);
 world_delay(add($delay, -2));
 obj_addall($fire_coord, ashes, 1, 100);
 
-[proc,area_allow_loc_add](coord $coord)(boolean)
-if (map_locaddunsafe($coord) = true) {
-    return(false);
+[proc,area_allow_loc_add](coord $coord)(int)
+if (map_locaddunsafe($coord) = ^true) {
+    return(^false);
 }
-if (map_blocked($coord) = true) {
-    return(false);
+if (map_blocked($coord) = ^true) {
+    return(^false);
 }
-if (~inzone_coord_pair_table(bank_zones, coord) = true) { // zone based checks use coord instead of loc_coord
-    return(false);
+if (~inzone_coord_pair_table(bank_zones, coord) = ^true) { // zone based checks use coord instead of loc_coord
+    return(^false);
 }
-return(true);
+return(^true);
 
 [proc,push_player](coord $origin_coord)
 anim(null, 0);
-if (~in_duel_arena($origin_coord) = true) {
+if (~in_duel_arena($origin_coord) = ^true) {
     // https://youtu.be/L3OwjH-iXQU
     //  - could still fm in the duel arena. 
     //  - It just didnt move the player at all
@@ -146,19 +146,19 @@ if (~in_duel_arena($origin_coord) = true) {
 if (coord ! $origin_coord) {
     return;
 }
-if (lineofwalk(coord, movecoord(coord, -1, 0, 0)) = true & coord = $origin_coord) { // check west
+if (lineofwalk(coord, movecoord(coord, -1, 0, 0)) = ^true & coord = $origin_coord) { // check west
     p_teleport(movecoord(coord, -1, 0, 0));
     p_delay(0);
 }
-if (lineofwalk(coord, movecoord(coord, 1, 0, 0)) = true & coord = $origin_coord) { // check east
+if (lineofwalk(coord, movecoord(coord, 1, 0, 0)) = ^true & coord = $origin_coord) { // check east
     p_teleport(movecoord(coord, 1, 0, 0));
     p_delay(0);
 }
-if (lineofwalk(coord, movecoord(coord, 0, 0, -1)) = true & coord = $origin_coord) { // check south
+if (lineofwalk(coord, movecoord(coord, 0, 0, -1)) = ^true & coord = $origin_coord) { // check south
     p_teleport(movecoord(coord, 0, 0, -1));
     p_delay(0);
 }
-if (lineofwalk(coord, movecoord(coord, 0, 0, 1)) = true & coord = $origin_coord) { // check north
+if (lineofwalk(coord, movecoord(coord, 0, 0, 1)) = ^true & coord = $origin_coord) { // check north
     p_teleport(movecoord(coord, 0, 0, 1));
     p_delay(0);
 }

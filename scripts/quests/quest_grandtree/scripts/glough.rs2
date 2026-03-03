@@ -29,7 +29,7 @@ switch_int(%grandtree) {
         ~chatnpc("<p,angry>Guards! Guards!");
         if_close;
         // 50t osrs, this (probably?) uses an attackable guard before late 2005 (lol)
-        if(npc_find(coord, gnomekingsguard, 7, 0) = false) {
+        if(npc_find(coord, gnomekingsguard, 7, 0) = ^false) {
             npc_add(1_38_54_44_6, gnomekingsguard, 50);
         }
         npc_setmode(none);
@@ -51,7 +51,7 @@ switch_int(%grandtree) {
         p_telejump(^grandtree_jail_coord);
         ~grandtree_spawn_charlie;
         p_delay(2); // 3t delay before talking when initially sent, but if you retalk it's 4t
-        if(npc_find(coord, grandtree_charlie, 2, 0) = true) {
+        if(npc_find(coord, grandtree_charlie, 2, 0) = ^true) {
             ~chatnpc("<p,sad>So they got you as well?");
             ~chatplayer("<p,angry>It's Glough! He's trying to cover something up.");
             @charlie_shouldnt_tell;

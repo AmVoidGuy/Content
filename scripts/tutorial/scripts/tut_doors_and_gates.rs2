@@ -1,6 +1,6 @@
 [proc,tut_island_survial_gate]
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
     if(loc_category = tutorial_gate) {
         def_coord $central_coord = loc_coord;
         def_int $orig_angle = loc_angle;
@@ -42,8 +42,8 @@ if (%tutorial < ^newbie_basics_instructor_interact_with_scenery) {
     return;
 }
 
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^newbie_basics_instructor_interact_with_scenery) {
     %tutorial = ^newbie_basics_instructor_interacted_with_door;
     ~tutorial_step_moving_around;
@@ -51,8 +51,8 @@ if (%tutorial = ^newbie_basics_instructor_interact_with_scenery) {
 
 // Door to Master Chef
 [oploc1,newbie_door2]
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^tutorial_opened_gate_to_chef) {
     %tutorial = ^newbie_cook_instructor_start;
     ~set_tutorial_progress;
@@ -65,8 +65,8 @@ if (%tutorial < ^newbie_cook_instructor_opened_music_tab) {
     return;
 }
 
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^newbie_cook_instructor_opened_music_tab) {
     hint_stop();
     %tutorial = ^newbie_cook_instructor_completed;
@@ -81,8 +81,8 @@ if (%tutorial < ^tutorial_has_toggled_on_run) {
     return;
 }
 
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^tutorial_has_toggled_on_run) {
     %tutorial = ^newbie_quest_instructor_start;
     ~set_tutorial_progress;
@@ -91,7 +91,7 @@ if (%tutorial = ^tutorial_has_toggled_on_run) {
 // Ladder to Mine
 [oploc1,newbieladdertop1]
 if (%tutorial < ^newbie_quest_instructor_finished) {
-    if (npc_find(0_48_48_12_52, newbie_quest_instructor, 10, 0) = true) {
+    if (npc_find(0_48_48_12_52, newbie_quest_instructor, 10, 0) = ^true) {
         @newbie_quest_instructor_not_ready_to_leave_yet;
     }
 }
@@ -100,12 +100,12 @@ if (%tutorial = ^newbie_quest_instructor_finished) {
     %tutorial = ^newbie_mining_instructor_start;
 }
 ~set_tutorial_progress;
-~climb_ladder(movecoord(coord, 0, 0, 6400), false);
+~climb_ladder(movecoord(coord, 0, 0, 6400), ^false);
 
 // Ladder out of mine to quest guide
 [oploc1,newbieladder1]
 p_arrivedelay;
-~climb_ladder(movecoord(coord, 0, 0, -6400), true);
+~climb_ladder(movecoord(coord, 0, 0, -6400), ^true);
 
 // Gate to Combat Instructor
 [oploc1,_tut_mining_exit]
@@ -130,7 +130,7 @@ p_delay(1);
 
 [proc,tut_open_mining_gate]
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
      if(loc_category = tut_mining_exit) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;
@@ -151,13 +151,13 @@ sound_synth(door_open, 0, 0);
 [oploc1,_rat_pit_cage]
 if (%tutorial < ^newbie_combat_instructor_opened_combat_interface
     | %tutorial > ^newbie_combat_instructor_before_attacking_ranged) {
-    if (npc_find(0_48_148_35_38, newbie_combat_instructor, 10, 0) = true) {
+    if (npc_find(0_48_148_35_38, newbie_combat_instructor, 10, 0) = ^true) {
         @newbie_combat_instructor_get_away_from_there;
     }
 }
 
 if (%tutorial = ^newbie_combat_instructor_before_attacking_ranged) {
-    if (npc_find(0_48_148_35_38, newbie_combat_instructor, 10, 0) = true) {
+    if (npc_find(0_48_148_35_38, newbie_combat_instructor, 10, 0) = ^true) {
         @newbie_combat_instructor_dont_enter_the_pit_ranged;
     }
 }
@@ -180,7 +180,7 @@ p_delay(1);
 
 [proc,tut_open_rat_pit]
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
     if(loc_category = rat_pit_cage) {
         def_coord $central_coord = loc_coord;
         def_int $orig_angle = loc_angle;
@@ -200,7 +200,7 @@ sound_synth(door_open, 0, 0);
 
 [oploc1,newbieladder2]
 if (%tutorial < ^newbie_combat_instructor_after_attacking_ranged) {
-    if (npc_find(0_48_148_35_38, newbie_combat_instructor, 10, 0) = true) {
+    if (npc_find(0_48_148_35_38, newbie_combat_instructor, 10, 0) = ^true) {
         @newbie_combat_instructor_youre_not_ready_to_continue;
     }
 }
@@ -209,19 +209,19 @@ if(%tutorial = ^newbie_combat_instructor_after_attacking_ranged) {
     %tutorial = ^tutorial_open_banking;
     ~set_tutorial_progress;
 }
-~climb_ladder(movecoord(coord, 0, 0, -6400), true);
+~climb_ladder(movecoord(coord, 0, 0, -6400), ^true);
 
 [oploc1,newbieladdertop2]
 p_arrivedelay;
-~climb_ladder(movecoord(coord, 0, 0, 6400), false);
+~climb_ladder(movecoord(coord, 0, 0, 6400), ^false);
 
 [oploc1,newbie_door6]
 if (%tutorial < ^tutorial_opened_bank) {
     ~mesbox("You need to open your bank first.");
     return;
 }
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^tutorial_opened_bank) {
     hint_stop();
     %tutorial = ^tutorial_opened_newbie_account_instructor_door;
@@ -233,8 +233,8 @@ if (%tutorial < ^newbie_account_instructor_talked_to) {
     ~mesbox("You need to talk to the Financial Advisor before you are allowed to proceed through this door.");
     return;
 }
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^newbie_account_instructor_talked_to) {
     hint_stop();
     %tutorial = ^tutorial_exit_newbie_account_instructors_room;
@@ -247,8 +247,8 @@ if (%tutorial < ^brother_noob_finish) {
     return;
 }
 
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 if (%tutorial = ^brother_noob_finish) {
     hint_stop();
     %tutorial = ^tutorial_exit_chapel;

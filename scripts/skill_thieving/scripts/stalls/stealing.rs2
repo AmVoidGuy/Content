@@ -71,7 +71,7 @@ if ($free_space = 0) {
 
 ~steal_from_stall($data, $loc_coord, $loc_angle, $loc_shape);
 
-[proc,stealing_check_for_guard](dbrow $data)(boolean)
+[proc,stealing_check_for_guard](dbrow $data)(int)
 def_int $npc_count = db_getfieldcount($data, stealing:guard);
 def_npc $npc1 = db_getfield($data, stealing:guard, min(0, $npc_count));
 def_npc $npc2 = db_getfield($data, stealing:guard, min(1, $npc_count));
@@ -80,20 +80,20 @@ def_npc $npc4 = db_getfield($data, stealing:guard, min(3, $npc_count));
 def_npc $npc5 = db_getfield($data, stealing:guard, min(4, $npc_count));
 
 npc_huntall(coord, 5, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if ((npc_type = $npc1 | npc_type = $npc2 | npc_type = $npc3 | npc_type = $npc4 | npc_type = $npc5)
-        & npc_getmode ! opplayer2 & lineofsight(npc_coord, coord) = true) {
+        & npc_getmode ! opplayer2 & lineofsight(npc_coord, coord) = ^true) {
         npc_say("Hey! Get your hands off there!");
         ~npc_retaliate(0);
-        return(true);
+        return(^true);
     }
 }
 
-[proc,stealing_check_for_owner](dbrow $data)(boolean)
+[proc,stealing_check_for_owner](dbrow $data)(int)
 def_npc $owner = db_getfield($data, stealing:owner, 0);
-if (npc_find(coord, $owner, 5, 0) = true & lineofsight(npc_coord, coord) = true) {
+if (npc_find(coord, $owner, 5, 0) = ^true & lineofsight(npc_coord, coord) = ^true) {
     npc_say("Hey! Get your hands off there!");
-    return(true);
+    return(^true);
 }
 
 [label,stall_owner_alert_guards]
@@ -102,9 +102,9 @@ p_delay(1);
 npc_say("Guards guards!");
 
 npc_huntall(npc_coord, 5, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if ((npc_type = ardougne_guard | npc_type = knight_of_ardougne | npc_type = knight_of_ardougne2 | npc_type = paladin | npc_type = hero)
-        & npc_getmode ! opplayer2 & lineofsight(npc_coord, coord) = true) {
+        & npc_getmode ! opplayer2 & lineofsight(npc_coord, coord) = ^true) {
         ~npc_retaliate(0);
     }
 }

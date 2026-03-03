@@ -25,13 +25,13 @@ def_int $maxhit = ~npc_melee_maxhit;
 // npc_say("Clock: <tostring(map_clock)>, NPC A: <tostring($attack_roll)>, Player D: <tostring($defence_roll)>, NPC Max: <tostring($maxhit)>");
 
 if (randominc($attack_roll) > randominc($defence_roll)) {
-    ~playerhit_n_melee(true, randominc($maxhit), npc_param(attackrate));
+    ~playerhit_n_melee(^true, randominc($maxhit), npc_param(attackrate));
     ~npc_poison_player;
     return;
 }
-~playerhit_n_melee(true, 0, npc_param(attackrate));
+~playerhit_n_melee(^true, 0, npc_param(attackrate));
 
-[proc,playerhit_n_melee](boolean $check_protect_prayer, int $damage, int $delay)
+[proc,playerhit_n_melee](int $check_protect_prayer, int $damage, int $delay)
 //~damage_self($damage);
 if_close; // close the player interface when taking a hit.
 // not sure if this is correct
@@ -41,7 +41,7 @@ if (npc_stat(hitpoints) = 0) {
     return; // melee npc's on 0 health play the hit animation but dont actually damage you
     // but ranged/mage npcs do! This is unique to melee!
 }
-if ($check_protect_prayer = true & ~check_protect_prayer(^melee_style) = true) { 
+if ($check_protect_prayer = ^true & ~check_protect_prayer(^melee_style) = ^true) { 
     $damage = 0;
 }
 queue(combat_damage_player, 0, $damage);

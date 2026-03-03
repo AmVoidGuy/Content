@@ -5,5 +5,5 @@ scope=perm
 scope=perm
 
 [hemenster_pipe_stashed]
-type=boolean
+type=int
 scope=perm

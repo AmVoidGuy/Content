@@ -17,7 +17,7 @@ if(inv_total(inv, archery_ticket) < $price) {
     mes("You'd need <$price_str> Archery Tickets to buy that.");
     return;
 }
-if(inv_itemspace(inv, $obj, $count, inv_size(inv)) = false & $price ! inv_total(inv, archery_ticket)) {
+if(inv_itemspace(inv, $obj, $count, inv_size(inv)) = ^false & $price ! inv_total(inv, archery_ticket)) {
     mes("You don't have enough inventory space to buy that.");
     return;
 }

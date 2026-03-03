@@ -19,7 +19,7 @@ def_coord $rand_coord;
 def_int $i;
 while ($i < 50) {
     $rand_coord = enum(int, coord, nc_param($npc, fishing_movement_enum), random($output_count));
-    if (~check_fishing_spot_empty($rand_coord) = true) {
+    if (~check_fishing_spot_empty($rand_coord) = ^true) {
         return ($rand_coord);
     }
     $i = calc($i + 1);
@@ -27,11 +27,11 @@ while ($i < 50) {
 return(npc_coord);
 
 //proc checks if fishing spot is empty
-[proc,check_fishing_spot_empty](coord $rand_coord)(boolean)
+[proc,check_fishing_spot_empty](coord $rand_coord)(int)
 npc_findallany($rand_coord, 0, 0);
-while (.npc_findnext = true) {
+while (.npc_findnext = ^true) {
     if (.npc_coord = $rand_coord & (nc_category(.npc_type) = saltfish | nc_category(.npc_type) = freshfish | nc_category(.npc_type) = saltfish | nc_category(.npc_type) = rarefish | nc_category(.npc_type) = memberfish | .npc_type = 0_45_152_lavafish)) {
-        return (false);
+        return (^false);
     }
 }
-return (true);
+return (^true);

@@ -14,21 +14,21 @@
 // info: Search (hunt) for players in a given area
 [command,huntall](coord $source, int $distance, int $checkvis)
 // info: Use the next result from huntall
-[command,huntnext]()(boolean)
+[command,huntnext]()(int)
 // info: Use the next result from huntall on the secondary pointer
-[command,.huntnext]()(boolean)
+[command,.huntnext]()(int)
 // info: Search (hunt) for one npc in a given area, prioritized by distance
-[command,npc_hunt](coord $source, int $distance, int $checkvis)(boolean)
+[command,npc_hunt](coord $source, int $distance, int $checkvis)(int)
 // info: Search (hunt) for one npc in a given area, prioritized by distance, secondary pointer
-[command,.npc_hunt](coord $source, int $distance, int $checkvis)(boolean)
+[command,.npc_hunt](coord $source, int $distance, int $checkvis)(int)
 // info: Search (hunt) for npcs in a given area
 [command,npc_huntall](coord $source, int $distance, int $checkvis)
 // info: Returns true if $pos is in the area between $from and $to
-[command,inzone](coord $from, coord $to, coord $pos)(boolean)
+[command,inzone](coord $from, coord $to, coord $pos)(int)
 // info: Returns true if $pos is in the area between $from and $to
-[command,.inzone](coord $from, coord $to, coord $pos)(boolean) // todo: replace all instances of this with inzone, should not have secondary
+[command,.inzone](coord $from, coord $to, coord $pos)(int) // todo: replace all instances of this with inzone, should not have secondary
 // info: Returns true if $from has an unbroken line-of-walk to $to
-[command,lineofwalk](coord $from, coord $to)(boolean)
+[command,lineofwalk](coord $from, coord $to)(int)
 // info: Play a spotanim on a tile
 [command,spotanim_map](spotanim $anim, coord $coord, int $height, int $delay)
 // [command,map_anim](coord $coord, spotanim $spotanim, int $height, int $delay) // this is the name for the packet
@@ -59,11 +59,11 @@
 // info: Get how many players are currently in the world
 [command,playercount]()(int)
 // info: Returns true if the map tile at $coord is blocked
-[command,map_blocked](coord $coord)(boolean)
+[command,map_blocked](coord $coord)(int)
 // info: Returns true if the map tile at $coord is indoors
-[command,map_indoors](coord $coord)(boolean)
+[command,map_indoors](coord $coord)(int)
 // info: Returns true if $from has an unbroken line-of-walk to $to
-[command,lineofsight](coord $from, coord $to)(boolean)
+[command,lineofsight](coord $from, coord $to)(int)
 // info: Delay this script for $delay ticks on the world, not tied to any player/npc
 [command,world_delay](int $delay)
 // info: Cast a projectile targeting a player
@@ -73,21 +73,21 @@
 // info: Cast a projectile targeting a coord
 [command,projanim_map](coord $from, coord $to, spotanim $spotanim, int $fromHeight, int $toHeight, int $delay, int $duration, int $peak, int $arc)
 // info: Returns true if it's unsafe to spawn a loc on this tile
-[command,map_locaddunsafe](coord $coord)(boolean)
+[command,map_locaddunsafe](coord $coord)(int)
 // info: Get a random coord centered on $coord within $minradius and $maxradius, using ^map_findsquare_ constants for $type
 [command,map_findsquare](coord $coord, int $minradius, int $maxradius, int $type)(coord)
 // info: Returns true if the map tile at $coord is in a multi-way combat area
-[command,map_multiway](coord $coord)(boolean)
+[command,map_multiway](coord $coord)(int)
 
 // Player ops (2000-2499)
 // info: Get access to $player if they are in the world
-[command,finduid](player_uid $player)(boolean)
+[command,finduid](player_uid $player)(int)
 // info: Get access to $player (secondary pointer) if they are in the world
-[command,.finduid](player_uid $player)(boolean)
+[command,.finduid](player_uid $player)(int)
 // info: Get protected access to $player if they are in the world and accessible
-[command,p_finduid](player_uid $player)(boolean)
+[command,p_finduid](player_uid $player)(int)
 // info: Get protected access to $player (secondary pointer) if they are in the world and accessible
-[command,.p_finduid](player_uid $player)(boolean)
+[command,.p_finduid](player_uid $player)(int)
 // info: Strong-queue a script on the player
 [command,strongqueue](queue $queue, int $delay, int $arg)
 // info: Strong-queue a script on the secondary player
@@ -237,9 +237,9 @@
 // info: Drain current level of $stat for the secondary player
 [command,.stat_drain](stat $stat, int $constant, int $percent)
 // info: Roll a skill success check
-[command,stat_random](stat $stat, int $low, int $high)(boolean)
+[command,stat_random](stat $stat, int $low, int $high)(int)
 // info: Roll a skill success check for the secondary player
-[command,.stat_random](stat $stat, int $low, int $high)(boolean)
+[command,.stat_random](stat $stat, int $low, int $high)(int)
 // info: Get the player's UID to use in finduid/p_finduid later
 [command,uid]()(player_uid)
 // info: Get the secondary player's UID to use in finduid/p_finduid later
@@ -261,9 +261,9 @@
 // info: Open two modals for the secondary player, one in the main viewport and one on the side tab
 [command,.if_openmain_side](interface $interface1, interface $interface2)
 // info: Hide a component
-[command,if_sethide](component $component, boolean $hide)
+[command,if_sethide](component $component, int $hide)
 // info: Hide a component for the secondary player
-[command,.if_sethide](component $component, boolean $hide)
+[command,.if_sethide](component $component, int $hide)
 // info: Set a component's model to an object
 [command,if_setobject](component $component, obj $obj, int $scale)
 // info: Set a component's model to an object for the secondary player
@@ -370,13 +370,13 @@
 // info: Long queue a script on the secondary player with special behavior if it hasn't ran by the time the player logs out (var args)
 [command,.longqueue*](queue $queue, int $delay, int $logout_action)
 // info: Returns true if the player has an open modal or is delayed
-[command,busy]()(boolean)
+[command,busy]()(int)
 // info: Returns true if the secondary player has an open modal or is delayed
-[command,.busy]()(boolean)
+[command,.busy]()(int)
 // info: Returns true if the player has an interaction or waypoints to walk to
-[command,busy2]()(boolean)
+[command,busy2]()(int)
 // info: Returns true if the secondary player has an interaction or waypoints to walk to
-[command,.busy2]()(boolean)
+[command,.busy2]()(int)
 // info: Get the number of queued scripts that are specifically $queue
 [command,getqueue](queue $queue)(int)
 // info: Get the number of queued scripts that are specifically $queue for the secondary player
@@ -444,7 +444,7 @@
 // info: Requires protected access - cast a spell on the active_player
 [command,p_opplayert](component $spell)
 // info: Allow the player to redesign their appearance (the packet is sent to the server)
-[command,allowdesign](boolean $allow)
+[command,allowdesign](int $allow)
 // info: Used in inv_buttond, similar to last_useslot, this is the other item in scope
 [command,last_targetslot]()(int)
 // info: Set the player's walktrigger
@@ -462,13 +462,13 @@
 // info: Returns ^true if the player is ready for another AFK event
 [command,afk_event]()(int)
 // info: Get the player's low memory mode
-[command,lowmem]()(boolean)
+[command,lowmem]()(int)
 // info: Set the player's identity kit
 [command,setidkit](idkit $kit, int $color)
 // info: Set the active_player to the hero that's done the most damage to the current active_player
-[command,findhero]()(boolean)
+[command,findhero]()(int)
 // info: Set the secondary active_player to the hero that's done the most damage to the current secondary active_player
-[command,.findhero]()(boolean)
+[command,.findhero]()(int)
 // info: Track damage dealt to the active_player from .active_player
 [command,both_heropoints](int $damage)
 // info: Set the player's gender
@@ -496,9 +496,9 @@
 
 // Npc ops (2500-2999)
 // info: Get access to the npc if they are in the world
-[command,npc_finduid](npc_uid $uid)(boolean)
+[command,npc_finduid](npc_uid $uid)(int)
 // info: Get access to the secondary npc if they are in the world
-[command,.npc_finduid](npc_uid $uid)(boolean)
+[command,.npc_finduid](npc_uid $uid)(int)
 // info: Spawn a new NPC in the world
 [command,npc_add](coord $coord, npc $npc, int $duration)
 // info: Spawn a new NPC in the world
@@ -528,13 +528,13 @@
 // info: Make the secondary npc face a coord
 [command,.npc_facesquare](coord $coord)
 // info: Return true if a specific npc exists at $coord and passes a visibility check
-[command,npc_find](coord $coord, npc $npc, int $distance, int $checkvis)(boolean)
+[command,npc_find](coord $coord, npc $npc, int $distance, int $checkvis)(int)
 // info: Return true if a specific secondary npc exists at $coord and passes a visibility check
-[command,.npc_find](coord $coord, npc $npc, int $distance, int $checkvis)(boolean)
+[command,.npc_find](coord $coord, npc $npc, int $distance, int $checkvis)(int)
 // info: Return true if a specific npc_category exists at $coord and passes a visibility check
-[command,npc_findcat](coord $coord, category $category, int $distance, int $checkvis)(boolean)
+[command,npc_findcat](coord $coord, category $category, int $distance, int $checkvis)(int)
 // info: Return true if a specific secondary npc_category exists at $coord and passes a visibility check
-[command,.npc_findcat](coord $coord, category $category, int $distance, int $checkvis)(boolean)
+[command,.npc_findcat](coord $coord, category $category, int $distance, int $checkvis)(int)
 // info: Search for npcs in a given area
 [command,npc_findall](coord $coord, npc $npc, int $distance, int $checkvis)
 // info: Search for secondary npcs in a given area
@@ -544,9 +544,9 @@
 // info: Search for any secondary npc in a given area
 [command,.npc_findallany](coord $coord, int $distance, int $checkvis)
 // info: Return true if a specific npc exists at $coord
-[command,npc_findexact](coord $coord, npc $npc)(boolean)
+[command,npc_findexact](coord $coord, npc $npc)(int)
 // info: Return true if a specific secondary npc exists at $coord
-[command,.npc_findexact](coord $coord, npc $npc)(boolean)
+[command,.npc_findexact](coord $coord, npc $npc)(int)
 // info: Return true if the player that has dealt the most damage to this npc is in the world
 [command,npc_findhero]()(int)
 // info: Get a param on the current npc
@@ -604,9 +604,9 @@
 // info: Find all NPCs around $coord (limited to the nearest 8x8 zone area)
 [command,npc_findallzone](coord $coord)
 // info: Set the active NPC to the next result from the most recent npc search
-[command,npc_findnext]()(boolean)
+[command,npc_findnext]()(int)
 // info: Set the secondary NPC to the next result from the most recent npc search
-[command,.npc_findnext]()(boolean)
+[command,.npc_findnext]()(int)
 // info: Teleport the npc to $coord, short distances (1-2 tiles) will visually walk/run
 [command,npc_tele](coord $coord)
 // info: Teleport the secondary npc to $coord, short distances (1-2 tiles) will visually walk/run
@@ -636,11 +636,11 @@
 // info: If the NPC moved this cycle, wait a tick before continuing
 [command,npc_arrivedelay]
 // info: Return true if the npc has the specified op
-[command,npc_hasop](int $op)(boolean)
+[command,npc_hasop](int $op)(int)
 // info: Return true if the secondary npc has the specified op
-[command,.npc_hasop](int $op)(boolean)
+[command,.npc_hasop](int $op)(int)
 // info: check if the npc's target is within the npc's maxrange
-[command,npc_inrange]()(boolean)
+[command,npc_inrange]()(int)
 
 // Loc ops (3000-3499)
 // info: Spawn a loc at $coord
@@ -668,15 +668,15 @@
 // info: Delete the secondary loc, it will respawn in $duration cycles if it's a permanent loc
 [command,.loc_del](int $duration)
 // info: Return true if a specific loc exists at $coord
-[command,loc_find](coord $coord, loc $loc)(boolean)
+[command,loc_find](coord $coord, loc $loc)(int)
 // info: Return true if a specific loc exists at $coord
-[command,.loc_find](coord $coord, loc $loc)(boolean)
+[command,.loc_find](coord $coord, loc $loc)(int)
 // info: Find all locs around $coord (limited to the nearest 8x8 zone area)
 [command,loc_findallzone](coord $coord)
 // info: Use the next result from loc_findallzone
-[command,loc_findnext]()(boolean)
+[command,loc_findnext]()(int)
 // info: Use the next result from loc_findallzone
-[command,.loc_findnext]()(boolean)
+[command,.loc_findnext]()(int)
 // info: Get a param on the current loc
 [command,loc_param]/*(param $param)(dynamic)*/
 // info: Get the current loc's type
@@ -712,13 +712,13 @@
 // info: Get the current object's coord
 [command,obj_coord]()(coord)
 // info: Return true if a specific object exists at $coord
-[command,obj_find](coord $coord, obj $obj)(boolean)
+[command,obj_find](coord $coord, obj $obj)(int)
 // info: Find all Objs around $coord (limited to the nearest 8x8 zone area)
 [command,obj_findallzone](coord $coord)
 // info: Use the next result from obj_findallzone
-[command,obj_findnext]()(boolean)
+[command,obj_findnext]()(int)
 // info: Use the next result from obj_findallzone
-[command,.obj_findnext]()(boolean)
+[command,.obj_findnext]()(int)
 
 // Npc config ops (4000-4099)
 // info: Get the name from a npc config
@@ -762,7 +762,7 @@
 // info: Get the description text from an obj config
 [command,oc_desc](obj $obj)(string)
 // info: Get the members requirement from an obj config
-[command,oc_members](obj $obj)(boolean)
+[command,oc_members](obj $obj)(int)
 // info: Get the weight from an obj config
 [command,oc_weight](obj $obj)(int)
 // info: Get the first "wearpos" - wear position - worn slot from an obj config
@@ -774,7 +774,7 @@
 // info: Get the cost from an obj config
 [command,oc_cost](obj $obj)(int)
 // info: Return true if an obj is tradeable
-[command,oc_tradeable](obj $obj)(boolean)
+[command,oc_tradeable](obj $obj)(int)
 // info: Get the internal debug name from an obj config
 [command,oc_debugname](obj $obj)(string)
 // info: Get the certed version of an obj
@@ -782,11 +782,11 @@
 // info: Get the uncerted version of an obj
 [command,oc_uncert](obj $obj)(obj)
 // info: Return true if an obj is stackable
-[command,oc_stackable](obj $obj)(boolean)
+[command,oc_stackable](obj $obj)(int)
 
 // Inventory ops (4300-4399)
 // info: Get the inv config's allstock state
-[command,inv_allstock](inv $inv)(boolean)
+[command,inv_allstock](inv $inv)(int)
 // info: Get the inv config's size
 [command,inv_size](inv $inv)(int)
 // info: Get the secondary inv config's size
@@ -838,9 +838,9 @@
 // info: Get the object in $slot in a secondary inventory
 [command,.inv_getobj](inv $inv, int $slot)(obj)
 // info: Check if an object fits in an inventory
-[command,inv_itemspace](inv $inv, obj $obj, int $count, int $size)(boolean)
+[command,inv_itemspace](inv $inv, obj $obj, int $count, int $size)(int)
 // info: Check if an object fits in a secondary inventory
-[command,.inv_itemspace](inv $inv, obj $obj, int $count, int $size)(boolean)
+[command,.inv_itemspace](inv $inv, obj $obj, int $count, int $size)(int)
 // info: Check if an object fits in an inventory, returning the overflowed amount, if any
 [command,inv_itemspace2](inv $inv, obj $obj, int $count, int $size)(int)
 // info: Check if an object fits in a secondary inventory, returning the overflowed amount, if any
@@ -1014,7 +1014,7 @@
 // info: Raise a script error on the server
 [command,error](string $text)
 // info: Return true if the world is in a production environment
-[command,map_live]()(boolean)
+[command,map_live]()(int)
 // info: Start tracking time
 [command,timespent]
 // info: Get the time spent since the timespent command was ran. This can be ^micros or ^millis
@@ -1024,16 +1024,16 @@
 
 // [command,inv_setvar](inv $inv, int $slot, obj $obj, int $value)
 // [command,inv_getvar](inv $inv, int $slot, obj $obj)(int)
-// [command,region_findbycoord](coord $coord)(boolean)
+// [command,region_findbycoord](coord $coord)(int)
 // [command,controller_coord]()(coord)
 // [command,controller_del]
 // [command,mes_typed](int $type, string $message)
 // [command,controller_queue](int $id, int $type, int $delay)
-// [command,controller_findexact](regioncoord $coord, int $type)(boolean)
+// [command,controller_findexact](regioncoord $coord, int $type)(int)
 // [command,region_getcoord](int $int1, int $int2, int $int3)(regioncoord)
 // [command,sound_area](coord $coord, int $int1, synth $sound, int $int2, int $int3)
 // [command,p_transmogrify](npc $npc)
-// [command,if_setevents](component $component, int $int1, int $int2, boolean $boolean1, int $int3, int $int4, int $int5, boolean $boolean2, boolean $boolean3)
+// [command,if_setevents](component $component, int $int1, int $int2, int $int1, int $int3, int $int4, int $int5, int $int2, int $int3)
 // [command,runclientscript](string $string)
 // [command,obj_getvar]
 // [command,obj_setvar]

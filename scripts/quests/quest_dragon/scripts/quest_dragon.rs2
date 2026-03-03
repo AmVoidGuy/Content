@@ -24,7 +24,7 @@
 // https://youtube.com/playlist?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&si=OBw8ZF5_Oz5oKwKK
 
 [queue,dragon_complete]
-if (inzone(0_44_150_31_28, 0_44_150_47_46, coord) = true) { // only tele if in the elvarg lair
+if (inzone(0_44_150_31_28, 0_44_150_47_46, coord) = ^true) { // only tele if in the elvarg lair
     p_teleport(0_44_150_30_36);
 }
 %dragon_ned_hired = ^false;

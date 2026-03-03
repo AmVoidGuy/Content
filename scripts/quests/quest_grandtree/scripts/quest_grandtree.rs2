@@ -16,7 +16,7 @@ mes("The trapdoor won't open!");
 
 [proc,grandtree_spawn_charlie]
 if(%grandtree >= ^grandtree_found_prisoner & %grandtree <= ^grandtree_found_invasion_plans
-    & npc_findexact(movecoord(^grandtree_jail_coord, 0, 0, -1), grandtree_charlie) = false) {
+    & npc_findexact(movecoord(^grandtree_jail_coord, 0, 0, -1), grandtree_charlie) = ^false) {
     npc_add(movecoord(^grandtree_jail_coord, 0, 0, -1), grandtree_charlie, 500);
 }
 
@@ -33,15 +33,15 @@ p_arrivedelay;
 ~agility_climb_up(0, movecoord(loc_coord, -1, -1, -1));
 
 [oplocu,_grandtree_pillar]
-if (oc_tradeable(last_useitem) = true | last_useitem = grandtree_twigt | last_useitem = grandtree_twigu | last_useitem = grandtree_twigz | last_useitem = grandtree_twigo) {
+if (oc_tradeable(last_useitem) = ^true | last_useitem = grandtree_twigt | last_useitem = grandtree_twigu | last_useitem = grandtree_twigz | last_useitem = grandtree_twigo) {
     anim(human_pickuptable, 0);
     sound_synth(put_down, 0, 0);
     inv_dropslot(inv, loc_coord, last_useslot, calc(calc(^lootdrop_duration * 5) / 2)); // 500t osrs
     if(%grandtree = ^grandtree_given_twigs & 
-        obj_find(2_38_54_53_11, grandtree_twigt) = true & 
-        obj_find(2_38_54_54_11, grandtree_twigu) = true & 
-        obj_find(2_38_54_55_11, grandtree_twigz) = true & 
-        obj_find(2_38_54_56_11, grandtree_twigo) = true) {
+        obj_find(2_38_54_53_11, grandtree_twigt) = ^true & 
+        obj_find(2_38_54_54_11, grandtree_twigu) = ^true & 
+        obj_find(2_38_54_55_11, grandtree_twigz) = ^true & 
+        obj_find(2_38_54_56_11, grandtree_twigo) = ^true) {
         %grandtree = ^grandtree_unlocked_trapdoor;
         sound_synth(machinery, 0, 0); 
         ~mesbox("You hear the grinding of an ancient pulley system.");
@@ -91,7 +91,7 @@ if(last_useitem = grandtree_gloughskey) {
 }
 // no nothing interesting happens
 
-[oploc1,grandtree_cupboardclosed] @open_cupboard(false);
+[oploc1,grandtree_cupboardclosed] @open_cupboard(^false);
 
 [oploc2,grandtree_cupboardopen]
 if((%grandtree = ^grandtree_spoken_prisoner | %grandtree = ^grandtree_found_journal) & ~obj_gettotal(grandtree_journal) = 0) {
@@ -107,11 +107,11 @@ if((%grandtree = ^grandtree_spoken_prisoner | %grandtree = ^grandtree_found_jour
 mes("You search the cupboard but you find nothing.");
 
 [oploc3,grandtree_cupboardopen] 
-@close_cupboard(false);
+@close_cupboard(^false);
 
 [oploc1,_shipyard_gate]
 if(%grandtree >= ^grandtree_released_prison) {
-    if(coordx(coord) < coordx(loc_coord) & npc_find(coord, grandtree_shipyardguard, 5, 0) = true) {
+    if(coordx(coord) < coordx(loc_coord) & npc_find(coord, grandtree_shipyardguard, 5, 0) = ^true) {
         @shipyardworker_gate;
     } else {
         @open_shipyard_gate;
@@ -126,7 +126,7 @@ if(coordx(coord) < coordx(loc_coord)) {
     p_teleport(movecoord(loc_coord, -1, 0, 0));
 }
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
      if(loc_category = shipyard_gate) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;

@@ -28,7 +28,7 @@ if (string_length(db_getfield($data, cooking_generic:cantcookmessage_fire, 0)) >
 }
 // check if mems obj
 def_namedobj $cooked_item = db_getfield($data,cooking_generic:cooked,0);
-if (oc_members($cooked_item) = true | oc_members($uncooked_item) = true) {
+if (oc_members($cooked_item) = ^true | oc_members($uncooked_item) = ^true) {
     // complete guess btw, i have no idea what sorta message they'd use here. Perhaps theres early osrs footage of this but ive not found any.
     if (map_members = ^false) {
         mes("You can only make that on a members' server.");
@@ -99,12 +99,12 @@ if (inv_total(worn, gauntlets_of_cooking) > 0 & ($low_gauntlets > null | $high_g
     $low = $low_cookomatic;
     $high = $high_cookomatic;
 }
-def_boolean $passes_roll;
+def_int $passes_roll;
 // field can specify 0 to always burn, or 1 to always cook
 if ($low = 0 & $high = 0) {
-    $passes_roll = false;
+    $passes_roll = ^false;
 } else if ($low = 1 & $high = 1) {
-    $passes_roll = true;
+    $passes_roll = ^true;
 } else {
     $passes_roll = stat_random(cooking, $low, $high);
 }
@@ -115,7 +115,7 @@ def_int $experience = db_getfield($data,cooking_generic:experience,0);
 
 
 // i put this in a label so its easier to transition to weak queues later on
-[label,cook_item](boolean $passes_roll, seq $anim, string $cookmessage, string $succesmessage, string $burnmessage, obj $uncooked_item, namedobj $cooked_item, namedobj $burnt_item, namedobj $additional_item, int $experience)
+[label,cook_item](int $passes_roll, seq $anim, string $cookmessage, string $succesmessage, string $burnmessage, obj $uncooked_item, namedobj $cooked_item, namedobj $burnt_item, namedobj $additional_item, int $experience)
 mes($cookmessage);
 anim($anim, 0);
 sound_synth(fry, 0, 0);
@@ -130,7 +130,7 @@ switch_obj($uncooked_item) {
 p_delay(1);
 inv_del(inv, $uncooked_item, 1);
 
-if ($passes_roll = true) {
+if ($passes_roll = ^true) {
     inv_add(inv, $cooked_item, 1);
     if (compare($succesmessage, "0") ! 0) {
         mes($succesmessage);

@@ -90,7 +90,7 @@ if(%itwatchtower = ^itwatchtower_not_started) {
 } else {
     ~chatnpc_specific(nc_name(tower_guard), tower_guard, "<p,neutral>It is the wizards' helping hand - let 'em up.");
     if_close;
-    ~climb_ladder(movecoord(coord, 0, 1, 0), true);
+    ~climb_ladder(movecoord(coord, 0, 1, 0), ^true);
 }
 
 // checks if the player has a map, lightsource, and tinderbox. possible outcomes are:
@@ -258,13 +258,13 @@ mes("I am going to need someone with experience to help me with this.");
 
 [oploc1,watchladderup]
 if(%itwatchtower >= ^itwatchtower_complete) {
-    ~climb_ladder(2_45_73_53_40, true);
+    ~climb_ladder(2_45_73_53_40, ^true);
     return;
 }
-~climb_ladder(2_39_48_53_40, true);
+~climb_ladder(2_39_48_53_40, ^true);
 
 [oploc1,watchladderdown]
-~climb_ladder(1_39_48_53_40, true);
+~climb_ladder(1_39_48_53_40, ^true);
 
 [oploc1,ogreguardgate1] @open_gutanoth_gate(^left, ogre_guard1);
 [oploc1,ogreguardgate1right] @open_gutanoth_gate(^right, ogre_guard1);
@@ -273,7 +273,7 @@ if(%itwatchtower >= ^itwatchtower_complete) {
 
 [label,open_gutanoth_gate](int $side, npc $guard)
 if(($guard = ogre_guard1 & %gutanoth_gold < ^gutanoth_found_gold) |  ($guard = ogre_guard2 & %itwatchtower < 4)) {
-    if(npc_find(coord, $guard, 6, 2) = true) {
+    if(npc_find(coord, $guard, 6, 2) = ^true) {
         if(npc_type = ogre_guard1) @ogre_guard1_dialogue;
         else @ogre_guard2_dialogue;
     }
@@ -301,21 +301,21 @@ if(last_useitem = rope) {
     loc_change(loc_2324, 5);
     p_delay(0);
     loc_anim(ropeswing_long);
-    ~agility_exactmove(human_ropeswing_long, 20, 0, coord, movecoord(loc_coord, 6, 0, 0), 45, 70, ^exact_east, false);
+    ~agility_exactmove(human_ropeswing_long, 20, 0, coord, movecoord(loc_coord, 6, 0, 0), 45, 70, ^exact_east, ^false);
     mes("You skillfully swing across.");
     return;
 }
 mes("You see no way to do that.");
 
 [oploc1,shamanentrance]
-if(npc_find(coord, enclave_guard, 5, 0) = true) {
+if(npc_find(coord, enclave_guard, 5, 0) = ^true) {
     ~chatnpc("<p,angry>No you don't!");
     ~npc_retaliate(0);
 }
 
 [oploc1,ganothbattlement]
 if(getbit_range(%itwatchtower_bits, ^itwatchtower_market_lower, ^itwatchtower_market_upper) < 2) {
-    if(npc_find(coord, ogre_guard3, 7, 0) = true) @ogre_guard3_dialogue;
+    if(npc_find(coord, ogre_guard3, 7, 0) = ^true) @ogre_guard3_dialogue;
     return;
 }
 def_int $dir = ^exact_east; 
@@ -326,7 +326,7 @@ if(coordx(coord) > coordx(loc_coord)) {
 }
 p_delay(0);
 mes("You climb over the low wall.");
-~agility_exactmove(human_walk_style, 30, 2, coord, $end, 30, 90, $dir, true);
+~agility_exactmove(human_walk_style, 30, 2, coord, $end, 30, 90, $dir, ^true);
 
 [opheld2,rockcake]
 mes("You feel strangely heavier...");
@@ -390,7 +390,7 @@ if(stat(agility) < 25) {
     mes("You need an Agility level of 25 to attempt this jump."); // OSRS
     return;
 }
-if(npc_find(coord, ogre_guard4, 8, 0) = true) {
+if(npc_find(coord, ogre_guard4, 8, 0) = ^true) {
     ~chatnpc("<p,neutral>Oi! Little thing, if you want to cross here,|you can pay me first - 20 gold pieces!");
     ~chatplayer("<p,quiz>20 gold pieces to jump off a bridge!!?");
     ~chatnpc("<p,happy>That's what I said, like it or lump it.");
@@ -511,7 +511,7 @@ mes("You pull the lever...");
 anim(human_leverdown, 0); // OSRS uses seq's not in 225, going to assume here
 sound_synth(lever, 0, 0);
 p_delay(0);
-if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_found_all_crystals) {
+if(~watchtower_has_all_crystals = ^true & %itwatchtower = ^itwatchtower_found_all_crystals) {
     mes("The magic forcefield activates.");
     // QUEST REWARD
     %itwatchtower = ^itwatchtower_complete;
@@ -531,7 +531,7 @@ if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_found_all
     inv_add(inv, watchtowerspell, 1);
     queue(itwatchtower_quest_complete, 0, 0);
     %qp = add(%qp, ^itwatchtower_questpoints);
-    if(npc_find(coord, watchtower_wizard, 6, 0) = true) {
+    if(npc_find(coord, watchtower_wizard, 6, 0) = ^true) {
         ~chatnpc("<p,happy>Marvellous! It works!|The town will now be safe.");
         ~chatnpc("<p,happy>Your help was invaluable.|Take this payment as a token of my gratitude...");
         ~chatnpc("<p,happy>Also, let me improve your Magic level for you.");
@@ -541,11 +541,11 @@ if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_found_all
 }
 mes("It had no effect.");
 
-[proc,watchtower_has_all_crystals]()(boolean)
+[proc,watchtower_has_all_crystals]()(int)
 if(inv_total(inv, powering_crystal1) > 0 & inv_total(inv, powering_crystal2) > 0 & inv_total(inv, powering_crystal3) > 0 & inv_total(inv, powering_crystal4) > 0) {
-    return (true);
+    return (^true);
 }
-return (false);
+return (^false);
 
 [opheld1,watchtowerspell]
 if(%itwatchtower = ^itwatchtower_complete) %itwatchtower = ^itwatchtower_complete_read_scroll;

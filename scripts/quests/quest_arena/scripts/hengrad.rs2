@@ -30,7 +30,7 @@ if(%arenaquest = ^arena_sent_jail) {
     p_delay(calc(4 - $delay_diff));
     npc_anim(human_closedoorr, 0);
     p_delay(0);
-    if(loc_find(0_40_49_40_6, arena_prisondoor) = true) {
+    if(loc_find(0_40_49_40_6, arena_prisondoor) = ^true) {
         def_int $x;
         def_int $z;
         def_coord $loc_coord = loc_coord;
@@ -52,7 +52,7 @@ if(%arenaquest = ^arena_sent_jail) {
     p_delay(1);
     npc_say("Get out there!");
     npc_setmode(null);
-    if(loc_find(0_40_49_46_16, fightarena_door2) = true) {
+    if(loc_find(0_40_49_46_16, fightarena_door2) = ^true) {
         def_int $x;
         def_int $z;
         def_coord $loc_coord = loc_coord;
@@ -73,7 +73,7 @@ if(%arenaquest = ^arena_sent_jail) {
     ~chatnpc("<p,shifty>I don't know how you managed to escape the arena, but you may not be as lucky next time. Get out of here while you can.");
 } else {
     ~chatplayer("<p,quiz>Do you know a Justin or Jeremy Servil?");
-    if(~wearing_khazard_armour = true) {
+    if(~wearing_khazard_armour = ^true) {
         ~chatnpc("<p,shifty>You're not a real guard. I've been in here long enough to know that. What's your business?");
         ~chatplayer("<p,neutral>I've been sent to rescue Sir Servil and his son.");
     }

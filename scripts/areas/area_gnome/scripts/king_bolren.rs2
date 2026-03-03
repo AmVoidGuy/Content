@@ -109,7 +109,7 @@ switch_int(%treequest) {
         ~gnome_chant(0_39_49_46_36, 0_39_49_45_35, "En tania.");
         ~gnome_chant(0_39_49_45_32, 0_39_49_46_31, "Su tana.");
         ~gnome_chant(0_39_49_46_36, 0_39_49_45_35, "En tania.");
-        if(npc_find(coord, king_bolren, 4, 0) = false) { 
+        if(npc_find(coord, king_bolren, 4, 0) = ^false) { 
             return; // should never happen, just switching active npc
         }
         npc_anim(midget_cast_globes, 20);
@@ -134,13 +134,13 @@ switch_int(%treequest) {
 }
 
 [proc,gnome_chant](coord $coord1, coord $coord2, string $message)
-if (npc_findexact($coord1, chantergnome) = true) {
+if (npc_findexact($coord1, chantergnome) = ^true) {
     npc_facesquare(movecoord(coord, 2, 0, 0));
     npc_say($message);
     npc_anim(midget_chanting, 0);
 }
 
-if (npc_findexact($coord2, chantergnome) = true) {
+if (npc_findexact($coord2, chantergnome) = ^true) {
     npc_facesquare(movecoord(coord, 2, 0, 0));
     npc_say($message);
     npc_anim(midget_chanting, 0);

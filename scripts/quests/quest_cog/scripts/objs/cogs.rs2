@@ -1,20 +1,20 @@
 [opobj3,whitecog]
-if (~can_pickup_cog = true) {
+if (~can_pickup_cog = ^true) {
     @pickup_obj;
 }
 
 [opobj3,bluecog]
-if (~can_pickup_cog = true) {
+if (~can_pickup_cog = ^true) {
     @pickup_obj;
 }
 
 [opobj3,redcog]
-if (~can_pickup_cog = true) {
+if (~can_pickup_cog = ^true) {
     @pickup_obj;
 }
 
 [opobj3,blackcog]
-if (~can_pickup_cog = true) {
+if (~can_pickup_cog = ^true) {
     if(testbit(%cog_bits, ^quest_cog_cooled) = ^true) {
         @pickup_obj;
     }
@@ -29,7 +29,7 @@ if (~can_pickup_cog = true) {
 
 [opobju,blackcog]
 if(last_useitem = bucket_water) {
-    if (~can_pickup_cog = true) {
+    if (~can_pickup_cog = ^true) {
         inv_del(inv, bucket_water, 1);
         inv_add(inv, bucket_empty, 1);
         %cog_bits = setbit(%cog_bits, ^quest_cog_cooled);
@@ -39,19 +39,19 @@ if(last_useitem = bucket_water) {
     ~displaymessage(^dm_default);
 }
 
-[proc,can_pickup_cog]()(boolean)
+[proc,can_pickup_cog]()(int)
 if (~get_cog_progress = ^quest_cog_not_started) {
     mes("You must speak to Brother Kojo to begin this quest.");
-    return(false);
+    return(^false);
 }
 
 if (~get_cog_progress = ^quest_cog_complete) {
     mes("You have already completed this quest.");
-    return(false);
+    return(^false);
 }
 
 if (inv_totalcat(inv, cog) > 0) {
     mes("The cogs are too heavy to carry more than one at a time.");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);

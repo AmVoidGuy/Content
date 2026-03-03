@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_protectfrommagic]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_protectfrommagic;
 }
 %prayer12 = %prayer12;
@@ -16,7 +16,7 @@ if (%prayer12 = ^true) {
     ~prayer_deactivate(^prayer_protectfrommagic);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer12 = ^false;
     return;
 }

@@ -120,7 +120,7 @@ if(%hopper_full = ^true) {
         mes("The flour bin downstairs is now full.");
     }
 
-    if (loc_find($millbase_coord, millbase) = true) {
+    if (loc_find($millbase_coord, millbase) = ^true) {
         loc_change(millbase_flour, 500);
     }
 }

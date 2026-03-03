@@ -8,7 +8,7 @@ members=yes
 2dxan=116
 weight=3oz
 iop1=Eat
-param=cures_poison,yes
+param=cures_poison,1
 
 [macro_pickaxehandle]
 name=Pickaxe handle

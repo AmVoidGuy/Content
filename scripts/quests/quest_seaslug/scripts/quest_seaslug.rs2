@@ -42,7 +42,7 @@ if(stat(firemaking) < 30) {
     mes("You need a Firemaking level of 30 or above.");
     return;
 }
-if(stat_random(firemaking, 64, 512) = false) {
+if(stat_random(firemaking, 64, 512) = ^false) {
     mes("You rub together the dry sticks and the sticks smoke momentarily then die out.");
     return;
 }
@@ -73,7 +73,7 @@ if(%seaslugquest >= ^seaslug_spoken_kent & %seaslugquest < ^seaslug_complete) {
     } 
     mes("The fishermen seem afraid of your torch.");
 }
-~climb_ladder(movecoord(coord(), 0, 1, 0), true);
+~climb_ladder(movecoord(coord(), 0, 1, 0), ^true);
 
 [oploc1,loosepanel]
 mes("You kick the loose panel.");
@@ -114,7 +114,7 @@ if(%seaslugquest = ^seaslug_need_kennith_path) {
 p_delay(4);
 
 [oploc1,kennithwall]
-if (npc_find(movecoord(coord, 0, 0, 2), kennith, 5, 0) = true) {
+if (npc_find(movecoord(coord, 0, 0, 2), kennith, 5, 0) = ^true) {
     @kennith_chat;
 }
 

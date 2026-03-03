@@ -3,7 +3,7 @@ if((%grandtree ! ^grandtree_released_prison & %grandtree ! ^grandtree_obtained_l
     ~mesbox("The foreman is too busy to talk.");
     return;
 }
-if(inzone(0_46_47_0_0, 0_46_47_32_63, npc_coord) = true) {
+if(inzone(0_46_47_0_0, 0_46_47_32_63, npc_coord) = ^true) {
     @grandtree_foreman_whyhere;
 }
 ~chatplayer("<p,neutral>Hello, are you in charge?");
@@ -23,7 +23,7 @@ runanim(null);
 p_walk(0_46_47_45_40);
 p_delay(2);
 p_teleport(0_46_47_11_25);
-if(npc_find(coord, grandtree_foreman, 10, 0) = false) {
+if(npc_find(coord, grandtree_foreman, 10, 0) = ^false) {
     npc_add(movecoord(coord, -1, 0, -1), grandtree_foreman, 200); // 200t osrs
     npc_setmode(none);
 }
@@ -128,7 +128,7 @@ if(npc_findhero = ^true) {
 }
 
 [queue,queue_defeat_grandtree_foreman](npc_uid $npc)
-if(npc_finduid($npc) = true) {
+if(npc_finduid($npc) = ^true) {
     if(%grandtree = ^grandtree_released_prison) %grandtree = ^grandtree_obtained_lumber_order;
     mes("The foreman drops a piece of paper as he dies.");
     obj_add(npc_coord, grandtree_order, 1, ^lootdrop_duration);

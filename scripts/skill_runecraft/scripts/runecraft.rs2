@@ -53,7 +53,7 @@ if ($data = null) {
 }
 def_int $levelreq = db_getfield($data, runecraft_table:level, 0);
 def_namedobj $rune = db_getfield($data, runecraft_table:rune, 0);
-if (oc_members($rune) = true) {
+if (oc_members($rune) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_do_that); // guess
         return;
@@ -107,7 +107,7 @@ if ($data = null) {
 }
 // if they're already in the temple
 if ($last_item = db_getfield($data, runecraft_table:talisman, 0)) {
-    if (~inmap(map_findsquare(db_getfield($data, runecraft_table:enter_coord, 0)), coord) = true) {
+    if (~inmap(map_findsquare(db_getfield($data, runecraft_table:enter_coord, 0)), coord) = ^true) {
         mes("You are standing in the <db_getfield($data, runecraft_table:name, 0)> temple.");
         return;
     }
@@ -127,17 +127,17 @@ if ($data = null) {
 }
 // if they're already in the temple
 if ($last_item = db_getfield($data, runecraft_table:talisman, 0)) {
-    if (~inmap(map_findsquare(db_getfield($data, runecraft_table:enter_coord, 0)), coord) = true) {
+    if (~inmap(map_findsquare(db_getfield($data, runecraft_table:enter_coord, 0)), coord) = ^true) {
         mes("You are standing in the <db_getfield($data, runecraft_table:name, 0)> temple.");
         return;
     }
     // if in shack
-    if(inzone(^shack_nw, ^shack_se, coord) = true) {
+    if(inzone(^shack_nw, ^shack_se, coord) = ^true) {
         mes("You can feel the power flowing through the talisman.");
         mes("There must be something special about this place.");
         return;
     }
-    if (inzone(^zanaris_nw, ^zanaris_se, coord) = true) {
+    if (inzone(^zanaris_nw, ^zanaris_se, coord) = ^true) {
         ~talisman_locate_coord(db_getfield($data, runecraft_table:altar_coord, 0), coord);
         return;
     }

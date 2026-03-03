@@ -45,14 +45,14 @@ if (compare(~string_right($noun, 3), "ces") = 0 | compare(~string_right($noun, 3
     return ($noun);
 }
 
-[proc,string_isnullorempty](string $string)(boolean)
+[proc,string_isnullorempty](string $string)(int)
 if (compare($string, "null") = 0 | compare($string, "") = 0) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
-[proc,tostring_boolean](boolean $boolean)(string)
-if ($boolean = true) {
+[proc,tostring_int](int $int)(string)
+if ($int = ^true) {
     return ("true");
 } else {
     return ("false");

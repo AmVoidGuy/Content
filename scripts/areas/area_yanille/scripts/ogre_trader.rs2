@@ -23,7 +23,7 @@ if (stat(thieving) < 15) {
     ~mesbox("You need a Thieving level of 15 to steal from this stall."); // OSRS (matches RSC)
     return;
 }
-if(npc_find(coord, ogre_trader2, 3, 2) = true) {
+if(npc_find(coord, ogre_trader2, 3, 2) = ^true) {
     ~chatnpc("<p,angry>Grr! Get your hands off those cakes!");
     ~npc_retaliate(0);
     return;

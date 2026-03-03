@@ -10,7 +10,7 @@ if(%desertrescue >= ^desertrescue_given_pineapple) {
         p_delay(max(0, calc(3 - $dist)));
     }
     // Temp note: dur updated
-    if(loc_find(0_49_47_33_38, bedabin_tentdoor) = true) loc_change(bedabin_tentdoor_open, 3);
+    if(loc_find(0_49_47_33_38, bedabin_tentdoor) = ^true) loc_change(bedabin_tentdoor_open, 3);
     p_teleport(0_49_47_33_38);
     p_delay(3);
     return;
@@ -33,7 +33,7 @@ if(%desertrescue >= ^desertrescue_given_pineapple) {
             p_delay(max(0, calc(3 - $dist)));
         }
         // Temp note: dur updated
-        if(loc_find(0_49_47_33_38, bedabin_tentdoor) = true) loc_change(bedabin_tentdoor_open, 3);
+        if(loc_find(0_49_47_33_38, bedabin_tentdoor) = ^true) loc_change(bedabin_tentdoor_open, 3);
         p_teleport(0_49_47_33_38);
         p_delay(3);
     }
@@ -52,7 +52,7 @@ if(testbit(%desertrescue_map_mechanisms, ^desertrescue_gained_tent_access) = ^tr
         p_teleport(0_49_47_33_38); // no delay
     }
     return;
-} else if(npc_find(coord, bedabin_guard, 5, 0) = true) { // you can kill these in 225, changed in Oct 2004 so need to confirm original behaviour
+} else if(npc_find(coord, bedabin_guard, 5, 0) = ^true) { // you can kill these in 225, changed in Oct 2004 so need to confirm original behaviour
     if(%desertrescue >= ^desertrescue_given_pineapple) {
         ~chatnpc("<p,happy>Sorry, but you can't use the tent without permission.|But thanks for all your help with the Bedabin people.");
     } else if(%desertrescue = ^desertrescue_shown_plans_shabim) {
@@ -88,7 +88,7 @@ if(last_useitem = thcaptplans) {
             %desertrescue_map_mechanisms = setbit(%desertrescue_map_mechanisms, ^desertrescue_gained_tent_access);
             p_teleport(movecoord(coord, 0, 0, 1));
             // Temp note: dur updated
-            if(loc_find(0_49_47_33_38, bedabin_tentdoor) = true) loc_change(bedabin_tentdoor_open, 3);
+            if(loc_find(0_49_47_33_38, bedabin_tentdoor) = ^true) loc_change(bedabin_tentdoor_open, 3);
         case ^desertrescue_retrieved_plans :
             ~chatnpc("<p,neutral>Hmm, those plans look interesting. Go and show them to Al Shabim... I'm sure he'll be pleased to see them.");
     }

@@ -48,10 +48,10 @@ inv_setslot(worn, ^wearpos_rhand, ball_gnomeball_game, 1);
 [ai_timer,gnomeballer_green] @gnome_winger_timer;
 
 [label,gnome_winger_timer]
-if (finduid(%npc_attacking_uid) = true) {
+if (finduid(%npc_attacking_uid) = ^true) {
     if (npc_type = gnomeballer_green_withball) {
         // yes it checks inv too, i checked with smuggling extra gnomeball in osrs with telegrab
-        if (~inzone_coord_pair_table(gnomeball_zones, coord) = true & inv_getobj(worn, ^wearpos_rhand) = null & inv_total(inv, ball_gnomeball_game) < 1) {
+        if (~inzone_coord_pair_table(gnomeball_zones, coord) = ^true & inv_getobj(worn, ^wearpos_rhand) = null & inv_total(inv, ball_gnomeball_game) < 1) {
             ~npc_gnomeball_pass(npc_coord, coord);
             return;
         }
@@ -67,7 +67,7 @@ npc_settimer(add(random(10), 2));
 [proc,npc_gnomeball_pass](coord $npc_coord, coord $coord)
 npc_settimer(9); // osrs
 if_close;
-if (p_finduid(%npc_attacking_uid) = true) {
+if (p_finduid(%npc_attacking_uid) = ^true) {
     p_delay(0);
     mes("The gnome passes the ball back.");
     def_int $duration = ~player_projectile($npc_coord, $coord, uid, gnomeball_travel, 36, 40, 34, 15, 6, 11, 5);

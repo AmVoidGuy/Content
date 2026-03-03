@@ -8,7 +8,7 @@ if (stat(fishing) < 20) {
     return;
 }
 // check if they have fishing equipment & bait
-if (~check_fish_equipment(fly_fishing_rod) = false) {
+if (~check_fish_equipment(fly_fishing_rod) = ^false) {
     return;
 }
 if (%action_delay < map_clock) {
@@ -36,7 +36,7 @@ if (stat(fishing) < 20) {
     return;
 }
 // check if they still have fishing equipment & bait
-if (~check_fish_equipment(fly_fishing_rod) = false) {
+if (~check_fish_equipment(fly_fishing_rod) = ^false) {
     return;
 }
 // check if inv is full
@@ -66,7 +66,7 @@ if (stat(fishing) < 25) {
     return;
 }
 // check if they have fishing equipment & bait
-if (~check_fish_equipment(fishing_rod) = false) {
+if (~check_fish_equipment(fishing_rod) = ^false) {
     return;
 }
 if (%action_delay < map_clock) {
@@ -94,7 +94,7 @@ if (stat(fishing) < 25) {
     return;
 }
 // check if they still have fishing equipment & bait
-if (~check_fish_equipment(fishing_rod) = false) {
+if (~check_fish_equipment(fishing_rod) = ^false) {
     return;
 }
 // check if inv is full

@@ -4,7 +4,7 @@
 if (inv_total(inv, christmas_cracker) = 0) {
     return;
 }
-if(.busy = true) {
+if(.busy = ^true) {
     mes("<.displayname> is busy.");
     return;
 }

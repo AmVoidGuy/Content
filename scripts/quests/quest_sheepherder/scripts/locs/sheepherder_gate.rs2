@@ -1,5 +1,5 @@
 [oploc1,_sheepherder_gate]
-if(~check_axis(coord, loc_coord, loc_angle) = true) {
+if(~check_axis(coord, loc_coord, loc_angle) = ^true) {
     if (%sheepherderquest = ^sheepherder_not_started) {
         ~mesbox("This is a restricted area.|You cannot enter without protective clothing.");
         return;
@@ -21,7 +21,7 @@ if(coordx(coord) <= coordx(loc_coord)) {
 
 [proc,open_sheepherder_gate]
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
      if(loc_category = sheepherder_gate) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;

@@ -89,7 +89,7 @@ def_int $feather_count = divide(min(inv_total(inv, feather), 24), 4);
 def_int $shaft_count = min(inv_total(inv, ogre_arrow_shaft), 6);
 def_int $arrow_count = min($feather_count, $shaft_count);
 
-if(inv_itemspace(inv, ogre_headless_arrow, $arrow_count, inv_size(inv)) = false & (inv_total(inv, feather) > 4 | inv_total(inv, ogre_arrow_shaft) > 1)) {
+if(inv_itemspace(inv, ogre_headless_arrow, $arrow_count, inv_size(inv)) = ^false & (inv_total(inv, feather) > 4 | inv_total(inv, ogre_arrow_shaft) > 1)) {
     mes("You don't have enough inventory space to feather any shafts."); // OSRS
     return;
 }

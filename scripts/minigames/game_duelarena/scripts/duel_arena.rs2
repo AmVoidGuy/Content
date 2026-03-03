@@ -1,5 +1,5 @@
 [opplayer1,_]
-if (.busy = true) {
+if (.busy = ^true) {
     mes("Other player is busy at the moment."); // https://youtu.be/YkJQDvB14-U?t=26
     return;
 }
@@ -10,12 +10,12 @@ if (map_members = ^false) { // theres an area f2p worlds have access to that let
 }
 
 // prevent people from dueling in a duel or if you arent in the duel area
-if (~in_duel_arena(coord) = true | ~inzone_coord_pair_table(duel_arena_zones, coord) = false) {
+if (~in_duel_arena(coord) = ^true | ~inzone_coord_pair_table(duel_arena_zones, coord) = ^false) {
     mes("You can't do that here."); // https://youtu.be/nUwvlFkcsqA?t=17
     return;
 }
 // if the other player isnt in the duel area
-if (~inzone_coord_pair_table(duel_arena_zones, .coord) = false) {
+if (~inzone_coord_pair_table(duel_arena_zones, .coord) = ^false) {
     mes("That player is not in the duel challenge area."); // https://youtu.be/YlnPnlfgMQ4?t=51
     return;
 }
@@ -25,7 +25,7 @@ mes("Sending duel offer...");
 %duel2accept = .uid;
 
 if (.%duel2accept = uid & %duelstatus = ^duelstatus_received) {
-    if (.p_finduid(.uid) = true) {
+    if (.p_finduid(.uid) = ^true) {
         .p_stopaction;
     }
     %dueloptions = 0;
@@ -57,7 +57,7 @@ inv_stoptransmit(duel_select_type:otherinv);
 inv_stoptransmit(duel_side:inv);
 
 
-if (.finduid(%duel2accept) = true) {
+if (.finduid(%duel2accept) = ^true) {
     .%duel2accept = null;
     .if_close;
     if (%duelstatus ! ^duelstatus_pending_accept & .%duelstatus ! ^duelstatus_pending_accept) {
@@ -74,7 +74,7 @@ inv_stoptransmit(duel_confirm:otherinv);
 if (%duelstatus >= ^duelstatus_confirm) { 
     return; // duel accepted
 }
-if (.finduid(%duel2accept) = true) {
+if (.finduid(%duel2accept) = ^true) {
     .if_close;
     .mes("Other player declined stake and duel options."); // 2006 https://youtu.be/HFp6hOkiCns?t=304
     .%duel2accept = null;
@@ -84,8 +84,8 @@ if (.finduid(%duel2accept) = true) {
 
 [if_button,duel_select_type:accept]
 %duelstatus = ^duelstatus_pending_accept;
-if (.finduid(%duel2accept) = true & ~enough_duel_space = true) { // https://youtu.be/WHpZQ5fbr5w
-    if (.%duelstatus = ^duelstatus_pending_accept & ~.enough_duel_space = true) {
+if (.finduid(%duel2accept) = ^true & ~enough_duel_space = ^true) { // https://youtu.be/WHpZQ5fbr5w
+    if (.%duelstatus = ^duelstatus_pending_accept & ~.enough_duel_space = ^true) {
         // Accept stake and move onto second screen!
         inv_stoptransmit(duel_select_type:inv);
         inv_stoptransmit(duel_select_type:otherinv);
@@ -144,7 +144,7 @@ if (.finduid(%duel2accept) = true & ~enough_duel_space = true) { // https://yout
     }
 }
 
-[proc,enough_duel_space]()(boolean)
+[proc,enough_duel_space]()(int)
 def_int $space_needed = 0;
 if (testbit(%dueloptions, ^no_weapons) = ^true) {
     $space_needed = add($space_needed, ~enum_inv_itemspace(worn, inv, duel_arena_weapon_slots));
@@ -157,17 +157,17 @@ if (testbit(%dueloptions, ^no_jewelry) = ^true) {
 }
 if ($space_needed > inv_freespace(inv)) {
     if_settext(duel_select_type:status, "You do not have enough space for the items removed.");
-    return(false);
+    return(^false);
 }
 $space_needed = add($space_needed, ~moveallinv_itemspace2(dueloffer, inv));
 $space_needed = add($space_needed, ~both_moveallinv_itemspace2(dueloffer, inv));
 if ($space_needed > inv_freespace(inv)) {
     if_settext(duel_select_type:status, "You do not have enough space for the stake.");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,.enough_duel_space]()(boolean)
+[proc,.enough_duel_space]()(int)
 def_int $space_needed = 0;
 if (testbit(.%dueloptions, ^no_weapons) = ^true) {
     $space_needed = add($space_needed, ~.enum_inv_itemspace(worn, inv, duel_arena_weapon_slots));
@@ -180,21 +180,21 @@ if (testbit(.%dueloptions, ^no_jewelry) = ^true) {
 }
 if ($space_needed > .inv_freespace(inv)) {
     .if_settext(duel_select_type:status, "You do not have enough space for the items removed.");
-    return(false);
+    return(^false);
 }
 $space_needed = add($space_needed, ~.moveallinv_itemspace2(dueloffer, inv));
 $space_needed = add($space_needed, ~.both_moveallinv_itemspace2(dueloffer, inv));
 if ($space_needed > .inv_freespace(inv)) {
     .if_settext(duel_select_type:status, "You do not have enough space for the stake.");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 
 [if_button,duel_confirm:accept]
 %duelstatus = ^duelstatus_pending_confirm;
 
-if (.finduid(%duel2accept) = true) {
+if (.finduid(%duel2accept) = ^true) {
     if (.%duelstatus = ^duelstatus_pending_confirm) {
         mes("Accepted stake and duel options.");
         .mes("Accepted stake and duel options.");
@@ -232,7 +232,7 @@ inv_moveitem(dueloffer, inv, $obj, $total);
 
 %duelstatus = ^duelstatus_reset;
 if_settext(duel_select_type:status, "");
-if (.finduid(%duel2accept) = true) {
+if (.finduid(%duel2accept) = ^true) {
     session_log(^log_moderator, "Removed stake <oc_debugname($obj)> x<tostring($total)> to <.name>");
     .%duelstatus = ^duelstatus_reset;
     .if_settext(duel_select_type:status, "");
@@ -254,12 +254,12 @@ if ($amount <= 0) {
 
 def_obj $obj = inv_getobj(inv, $slot);
 
-if (oc_tradeable($obj) = false) {
+if (oc_tradeable($obj) = ^false) {
     mes("You can't stake that item."); // RS3 message: https://archive.org/details/runelibris
     return;
 }
 
-if (oc_members($obj) = true & map_members = ^false) { // cant duel on f2p worlds anyway but just incase
+if (oc_members($obj) = ^true & map_members = ^false) { // cant duel on f2p worlds anyway but just incase
     mes("You can't stake that item."); // RS3 message: https://archive.org/details/runelibris
     return;
 }
@@ -270,51 +270,51 @@ inv_moveitem(inv, dueloffer, $obj, $total);
 
 %duelstatus = ^duelstatus_reset;
 if_settext(duel_select_type:status, "");
-if (.finduid(%duel2accept) = true) {
+if (.finduid(%duel2accept) = ^true) {
     session_log(^log_moderator, "Added stake <oc_debugname($obj)> x<tostring($total)> to <.name>");
     .%duelstatus = ^duelstatus_reset;
     .if_settext(duel_select_type:status, "");
 }
 
 
-[proc,duel_arena_checks]()(boolean)
-if (~inzone_coord_pair_table(duel_arena_zones, coord) = true & ~in_duel_arena(coord) = false) {
+[proc,duel_arena_checks]()(int)
+if (~inzone_coord_pair_table(duel_arena_zones, coord) = ^true & ~in_duel_arena(coord) = ^false) {
     mes("You cannot attack players in the challenge area."); // https://youtu.be/r606q1TBTJ8?t=53 https://youtu.be/zcFLOWkTSIo?t=3
-    return(false);
+    return(^false);
 }
 if (.uid ! %duel2accept) {
     mes("You can only attack your opponent!"); // https://storage.googleapis.com/tannerdino/images/batwifahat-purpl.jpg
-    return(false);
+    return(^false);
 }
 if (%duelstatus < ^duelstatus_start | .%duelstatus < ^duelstatus_start) {
     mes("The duel has not started yet!"); // https://youtu.be/64GEUr-lgS8?t=106
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,in_duel_arena](coord $coord)(boolean)
-if (~inzone_coord_pair_table(duel_arena_fight_zones, $coord) = true | ~inzone_coord_pair_table(duel_arena_obstacle_fight_zones, $coord) = true) {
-    return(true);
+[proc,in_duel_arena](coord $coord)(int)
+if (~inzone_coord_pair_table(duel_arena_fight_zones, $coord) = ^true | ~inzone_coord_pair_table(duel_arena_obstacle_fight_zones, $coord) = ^true) {
+    return(^true);
 }
-return(false);
+return(^false);
 
-[proc,.in_duel_arena](coord $coord)(boolean)
-if (~.inzone_coord_pair_table(duel_arena_fight_zones, $coord) = true | ~.inzone_coord_pair_table(duel_arena_obstacle_fight_zones, $coord) = true) {
-    return(true);
+[proc,.in_duel_arena](coord $coord)(int)
+if (~.inzone_coord_pair_table(duel_arena_fight_zones, $coord) = ^true | ~.inzone_coord_pair_table(duel_arena_obstacle_fight_zones, $coord) = ^true) {
+    return(^true);
 }
-return(false);
+return(^false);
 
 [proc,duel_arena_login]
-if (~in_duel_arena(coord) = false) {
+if (~in_duel_arena(coord) = ^false) {
     return;
 }
 ~duel_reset_all;
 
 [proc,duel_arena_logout]
-if (~in_duel_arena(coord) = false) {
+if (~in_duel_arena(coord) = ^false) {
     return;
 }
-if (.finduid(%duel2accept) = true) {
+if (.finduid(%duel2accept) = ^true) {
     .%duelstatus = ^duelstatus_reset;
     .%duel2accept = null;
     .if_close;

@@ -15,15 +15,15 @@ if(%itgronigen = ^itgronigen_not_started) {
 
 [oploc1,loc_2188]
 p_arrivedelay;
-~climb_ladder(0_38_49_12_56, true);
+~climb_ladder(0_38_49_12_56, ^true);
 
 [oploc1,loc_2189]
 p_arrivedelay;
-~climb_ladder(0_38_49_8_29, true);
+~climb_ladder(0_38_49_8_29, ^true);
 
 [oploc1,domeladderdown]
 p_arrivedelay;
-~climb_ladder(0_37_147_55_30, false);
+~climb_ladder(0_37_147_55_30, ^false);
 
 [oploc1,shutdungeonchest] 
 mes("You open the chest.");
@@ -111,7 +111,7 @@ if(%itkeepgatelock = 0 & coordz(coord) > coordz(loc_coord)) {
 [label,open_keep_gate]
 // some guides mention you have to kill the goblin and some don't, RSC just has it aggro you 
 // so we'll do that for now
-if(npc_find(coord, goblin_guard, 8, 0) = true) {
+if(npc_find(coord, goblin_guard, 8, 0) = ^true) {
     ~npc_retaliate(0);
 }
 if(coordz(coord) > coordz(loc_coord)) { 
@@ -123,7 +123,7 @@ if(coordz(coord) > coordz(loc_coord)) {
 def_coord $initial_coord = loc_coord;
 
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
      if(loc_category = observatory_dungeon_gate) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;
@@ -154,7 +154,7 @@ p_delay(2); // delays for 3t before doing anything, might be a rework thing
 switch_int(%itgronigen) {
     case ^itgronigen_complete, ^itgronigen_claimed_wine : @observatory_telescope;
     case ^itgronigen_sent_telescope :
-        if (npc_find(coord, observatory_professor2, 7, 0) = true) {
+        if (npc_find(coord, observatory_professor2, 7, 0) = ^true) {
             ~chatnpc("<p,happy>Well done, well done!!|Let's see what the stars have in store for us today.");
             @observatory_telescope;
         }
@@ -203,7 +203,7 @@ if($constellation > 6) { // because model 3056 isn't a constellation for some re
 if_setmodel(telescope:com_92, calc(3049 + $constellation));
 
 [queue,constellation_dialogue](int $constellation_numb)
-if (npc_find(coord, observatory_professor2, 7, 0) = false) {
+if (npc_find(coord, observatory_professor2, 7, 0) = ^false) {
     return;
 }
 switch_int(~p_choice2("I can see a constellation.", 1, "What am I looking at?", 2)) {

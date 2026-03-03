@@ -3,20 +3,20 @@
 
 [label,player_combat_start_ap]
 def_int $attackrange = ~player_attackrange(inv_getobj(worn, ^wearpos_rhand));
-if (($attackrange <= 1 & ~player_in_combat_check = false) | npc_range(coord) > $attackrange) {
+if (($attackrange <= 1 & ~player_in_combat_check = ^false) | npc_range(coord) > $attackrange) {
     p_aprange($attackrange);
     return;
 }
 @player_combat_start;
 
 [label,player_combat_start]
-if (~player_in_combat_check = false) {
+if (~player_in_combat_check = ^false) {
     return;
 }
 if (%damagetype = ^ranged_style) {
     @player_ranged_attack;
 }
-if (~player_autocast_enabled = true) {
+if (~player_autocast_enabled = ^true) {
     @player_magic_attack;
 }
 @player_melee_attack;
@@ -34,20 +34,20 @@ if (($attackrange <= 1) | npc_range(coord) > $attackrange) {
 if (%damagetype = ^ranged_style) {
     @player_ranged_attack;
 }
-if (~player_autocast_enabled = true) {
+if (~player_autocast_enabled = ^true) {
     @player_magic_attack;
 }
 @player_melee_attack;
 
-[proc,player_npc_hit_roll](int $damagetype)(boolean)
+[proc,player_npc_hit_roll](int $damagetype)(int)
 def_int $attack_roll = ~player_attack_roll_specific($damagetype);
 def_int $defence_roll = ~npc_defence_roll_specific($damagetype);
 //mes("Clock: <tostring(map_clock)>, Player A: <tostring($attack_roll)>, NPC D: <tostring($defence_roll)>, Player Max: <tostring(%com_maxhit)>");
 //mes("Attack roll: <tostring($attack_roll)>, Defence roll: <tostring($defence_roll)>");
 if (randominc($attack_roll) > randominc($defence_roll)) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
 // returns the correct combat calculated attack damage for weapon
 [proc,player_attack_roll_specific](int $damagetype)(int)
@@ -81,8 +81,8 @@ switch_int ($damagetype) {
     case ^magic_style : return(.%com_magicdef);
 }
 
-[proc,player_in_combat_check]()(boolean)
-if (map_multiway(npc_coord) = false) {
+[proc,player_in_combat_check]()(int)
+if (map_multiway(npc_coord) = ^false) {
     // player has been attacked in the last 8 ticks, and not by the current npc
     // or player has been attacked in the last 8 ticks, and %aggressive_npc is null (for pvp)
     // "I'm already under attack!" probably existed for op2'ing an npc
@@ -92,51 +92,51 @@ if (map_multiway(npc_coord) = false) {
     // - may 2006: https://www.youtube.com/watch?v=4uVvAwcJd9M&t=307s
     if (add(%lastcombat_pvp, 8) > map_clock) {
         mes("I'm already under attack!");
-        return(false);
+        return(^false);
     }
     if (add(%lastcombat, 8) > map_clock & (%aggressive_npc ! npc_uid & %aggressive_npc ! null)) {
         mes("I'm already under attack!");
-        return(false);
+        return(^false);
     }
     // npc has been attacked in the last 8 ticks, and not by the current player
     if ((add(%npc_lastcombat, 8) > map_clock & %npc_aggressive_player ! uid)) {
         mes("Someone else is fighting that.");
-        return(false);
+        return(^false);
     }
 }
 if (%npc_macro_event_target ! null & %npc_macro_event_target ! uid) {
     mes("It's not after you."); // https://youtu.be/y58EFTJNIH8
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 // version of this has no period, used for crumble undead?
-[proc,player_in_combat_check2]()(boolean)
-if (map_multiway(npc_coord) = false) {
+[proc,player_in_combat_check2]()(int)
+if (map_multiway(npc_coord) = ^false) {
     // "I'm already under attack" with no period:
     // - 2004: https://web.archive.org/web/20130303093547/http://img86.exs.cx/img86/271/80mage.jpg
     if (add(%lastcombat_pvp, 8) > map_clock) {
         mes("I'm already under attack");
-        return(false);
+        return(^false);
     }
     if (add(%lastcombat, 8) > map_clock & (%aggressive_npc ! npc_uid & %aggressive_npc ! null)) {
         mes("I'm already under attack");
-        return(false);
+        return(^false);
     }
     // npc has been attacked in the last 8 ticks, and not by the current player
     if ((add(%npc_lastcombat, 8) > map_clock & %npc_aggressive_player ! uid)) {
         mes("Someone else is fighting that.");
-        return(false);
+        return(^false);
     }
 }
 if (%npc_macro_event_target ! null & %npc_macro_event_target ! uid) {
     mes("It's not after you."); // https://youtu.be/y58EFTJNIH8
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 [proc,player_attackrange](obj $rhand)(int)
-if (~player_autocast_enabled = true){
+if (~player_autocast_enabled = ^true){
     return(10);
 }
 def_int $attackrange = 0;

@@ -64,7 +64,7 @@ if (stat(thieving) < 25) {
     return;
 }
 
-if(stat_random(thieving, 100, 240) = false) {
+if(stat_random(thieving, 100, 240) = ^false) {
     npc_say("What do you think you're doing?");
     mes("You fail to pick the workman's pocket.");
     npc_setmode(playerface);
@@ -127,14 +127,14 @@ if (last_useitem = digexpertscroll) {
 
 
 [label,digworkman1_intervene]
-if (npc_find(coord, digworkman1, 10, 0) = true) {
+if (npc_find(coord, digworkman1, 10, 0) = ^true) {
     ~chatnpcnoturn("<p,angry>Oi! What do you think you're doing? There's fragile specimens around here!");
 } else {
     mes("There needs to be a workman present when you dig.");
 }
 
 [label,digworkman1_intervene_winch]
-if (npc_find(coord, digworkman1, 10, 0) = true) {
+if (npc_find(coord, digworkman1, 10, 0) = ^true) {
     ~chatnpcnoturn("<p,neutral>Sorry, this area is private. The only way you'll get to use these is by impressing the archaeological expert up at the centre.");
     ~chatnpcnoturn("<p,bored>Find something worthwhile and he might let you use the winches. Until then, get lost!");
 } else {
@@ -144,7 +144,7 @@ if (npc_find(coord, digworkman1, 10, 0) = true) {
 }
 
 [label,digworkman1_intervene_site](int $exam_level)
-if (npc_find(coord, digworkman1, 10, 0) = true) {
+if (npc_find(coord, digworkman1, 10, 0) = ^true) {
     ~chatnpcnoturn("<p,confused>Sorry, you haven't passed the level <tostring($exam_level)>  Earth Sciences exam; I can't let you dig here.");
 } else {
     mes("You haven't passed the level <tostring($exam_level)> Earth Sciences exam; You can't dig here.");

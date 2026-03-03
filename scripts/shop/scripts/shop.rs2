@@ -24,26 +24,26 @@ if_openmain_side(shop_template, shop_template_side);
 inv_stoptransmit(shop_template_side:inv);
 inv_stoptransmit(shop_template:inv);
 
-[proc,can_sell_obj](obj $item)(boolean)
-def_boolean $item_is_tradable = oc_tradeable(oc_uncert($item));
+[proc,can_sell_obj](obj $item)(int)
+def_int $item_is_tradable = oc_tradeable(oc_uncert($item));
 if ($item = coins) {
     mes("You can't sell this item to a shop.");
-    return (false);
-} else if ($item_is_tradable = false | (map_members = ^false & oc_members($item) = true)) {
+    return (^false);
+} else if ($item_is_tradable = ^false | (map_members = ^false & oc_members($item) = ^true)) {
     mes("You can't sell this item.");
-    return (false);
-} else if ((%shop = generalshop3 & $item = silk) | inv_allstock(%shop) = false & inv_stockbase(%shop, oc_uncert($item)) = -1) { // can't sell silk to al-kharid general store
+    return (^false);
+} else if ((%shop = generalshop3 & $item = silk) | inv_allstock(%shop) = ^false & inv_stockbase(%shop, oc_uncert($item)) = -1) { // can't sell silk to al-kharid general store
     mes("You can't sell this item to this shop.");
-    return (false);
+    return (^false);
 }
-return (true);
+return (^true);
 
 // sell value
 [inv_button1,shop_template_side:inv]
 def_obj $item = oc_uncert(inv_getobj(inv, last_slot));
 def_string $item_name = oc_name($item);
 def_int $item_value = ~adjusted_item_cost_selling($item, inv_total(%shop, $item));
-if(~can_sell_obj($item) = false) {
+if(~can_sell_obj($item) = ^false) {
     return;
 }
 mes("<$item_name>: shop will buy for <tostring($item_value)>gp.");
@@ -101,16 +101,16 @@ wealth_event(^wealth_shop_buy, oc_debugname($obj), $i, $total_cost);
 def_int $shop_total = inv_total(%shop, oc_uncert($obj));
 def_int $total_value = 0;
 def_int $sell_amount = ~calculate_items_amount_sold($obj, $amount);
-if(~can_sell_obj($obj) = false) {
+if(~can_sell_obj($obj) = ^false) {
     return;
 }
 // Check if you will have space in your inventory to hold the coins after selling
-if(inv_itemspace(inv, coins, $sell_amount, inv_size(inv)) = false & oc_stackable($obj) = true & inv_total(inv, $obj) > $sell_amount) {
+if(inv_itemspace(inv, coins, $sell_amount, inv_size(inv)) = ^false & oc_stackable($obj) = ^true & inv_total(inv, $obj) > $sell_amount) {
     mes("You don't have enough inventory space.");
     return;
 }
 // Check if the shop will have enough space to hold the obj
-if(inv_itemspace(%shop, oc_uncert($obj), $sell_amount, inv_size(%shop)) = false) {
+if(inv_itemspace(%shop, oc_uncert($obj), $sell_amount, inv_size(%shop)) = ^false) {
     mes("The shop has run out of space.");
     return;
 }

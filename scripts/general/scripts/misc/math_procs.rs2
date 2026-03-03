@@ -18,8 +18,8 @@ $int1 = calc($int1 / $d);
 $int2 = calc($int2 / $d);
 return($int1, $int2);
 
-[proc,not_bool](boolean $bool)(boolean)
-if ($bool = true) {
-    return (false);
+[proc,not_bool](int $bool)(int)
+if ($bool = ^true) {
+    return (^false);
 }
-return (true);
+return (^true);

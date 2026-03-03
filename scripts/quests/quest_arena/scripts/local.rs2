@@ -9,7 +9,7 @@ switch_int(%arenaquest) {
         ~chatnpc("<p,shock>Hey you're the guy from the arena! How'd you get out!");
     case ^arena_entered_ogre_fight :
         ~chatplayer("<p,neutral>Hello.");
-        if(~wearing_khazard_armour = false) {
+        if(~wearing_khazard_armour = ^false) {
             ~chatnpc("<p,happy>Hello stranger. Khazard's got some great fights lined up this week. I can't wait.");
             return;
         }
@@ -19,7 +19,7 @@ switch_int(%arenaquest) {
     case ^arena_started, ^arena_obtained_armour, ^arena_spoken_drunkguard, ^arena_given_khali_brew :
         // mesanims from rs3, lines up with this fortunately: https://web.archive.org/web/20051025134523im_/http://runeweb.net/rathofdoom/quests/fightarena/2.png
         ~chatplayer("<p,neutral>Hello.");
-        if(~wearing_khazard_armour = true) {
+        if(~wearing_khazard_armour = ^true) {
             ~chatnpc("<p,happy>I heard the Servil family are fighting soon. Should be very entertaining.");
             return;
         }

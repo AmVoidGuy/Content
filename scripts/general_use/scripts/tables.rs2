@@ -1,5 +1,5 @@
 [oplocu,_usable_table]
-if (oc_tradeable(last_useitem) = false) {
+if (oc_tradeable(last_useitem) = ^false) {
     mes("You cannot put that on a table."); // osrs
     return;
 }

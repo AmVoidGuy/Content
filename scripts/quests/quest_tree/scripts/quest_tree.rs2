@@ -32,7 +32,7 @@ switch_int(%treequest) {
 [oploc1,khazard_stronghold_door]
 if(coordz(coord) > coordz(loc_coord)) {
     // bigdoor_open (sound)
-    ~open_and_close_door(desertdoor_inactive, ~check_axis(coord, loc_coord, loc_angle), false);
+    ~open_and_close_door(desertdoor_inactive, ~check_axis(coord, loc_coord, loc_angle), ^false);
     return;
 }
 if(%treequest >= ^tree_finding_trackers) {
@@ -51,9 +51,9 @@ if(%treequest >= ^tree_ballista_fired) {
     if_close;
     def_coord $start = movecoord(loc_coord, 0, 0, -1);
     ~forcewalk2($start);
-    ~agility_exactmove(human_walk_crumbledwall, 30, 2, $start, movecoord($start, 0, 0, 2), 30, 100, ^exact_north, true);
+    ~agility_exactmove(human_walk_crumbledwall, 30, 2, $start, movecoord($start, 0, 0, 2), 30, 100, ^exact_north, ^true);
     p_teleport(movecoord(coord, 0, 0, 1));
-    if(%treequest = ^tree_ballista_fired & npc_find(coord, khazard_commander, 4, 0) = true) {
+    if(%treequest = ^tree_ballista_fired & npc_find(coord, khazard_commander, 4, 0) = ^true) {
         // todo: OSRS respawns the NPC if dead, but it also doesn't have this cutscene (prob cause of the delays + aggo npc)
         p_delay(1);
         npc_say("What? How did you manage to get in here.");
@@ -69,7 +69,7 @@ mes("The wall is damaged, but not enough to climb.");
 
 [oploc1,chestclosed_khazard]
 ~open_chest(chestopen_khazard);
-if(npc_find(coord, khazard_commander, 5, 0) = true) {
+if(npc_find(coord, khazard_commander, 5, 0) = ^true) {
     npc_say("Oi! You! Get out of there.");
     ~npc_retaliate(0);
 }
@@ -84,7 +84,7 @@ if(%treequest = ^tree_ballista_fired) {
 }
 inv_add(inv, orb_of_protection, 1);
 ~mesbox("You search the chest.|Inside you find the gnomes' stolen orb of protection.");
-if(npc_find(coord, khazard_commander, 5, 0) = true) {
+if(npc_find(coord, khazard_commander, 5, 0) = ^true) {
     npc_say("Oi! You! Hands off the property of General Khazard.");
     ~npc_retaliate(0);
 }

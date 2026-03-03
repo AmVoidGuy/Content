@@ -87,7 +87,7 @@ if(testbit(%ibanmulti, ^upass_started_bit) = ^false) {
     return;
 }
 if(testbit(%ibanmulti, ^upass_started_bit) = ^true & %upass = ^upass_not_started) {
-    if(npc_find(coord, caveguide1, 7, 0) = true) {
+    if(npc_find(coord, caveguide1, 7, 0) = ^true) {
         @koftik_first_dialogue;
     }
     return; // failsafe in case npc_find returns false
@@ -103,8 +103,8 @@ p_delay(3);
 p_teleport(0_38_51_4_51);
 
 [label,open_randas_diary]
-if_sethide(book:com_1, true);
-if_sethide(book:com_3, true);
+if_sethide(book:com_1, ^true);
+if_sethide(book:com_3, ^true);
 ~book("The Diary of Randas", "It began as a whisper in my ears. Dismissing the sounds as the whistling of the wind, I steeled myself against these forces, and continued on my way.||But the whispers became|moans...|||At once fearsome and enticing like the call of some beautiful siren.|||Join us!||Our greatness lies within you, but only Zamorak can unlock your potential...");
 
 [label,destroy_orboflight](obj $orb)
@@ -186,8 +186,8 @@ if (inv_total(inv, caveorb4) > 0) {
 [label,upass_orboflight_trap]
 ~forcewalk(movecoord(loc_coord, 1, 0, 0));
 p_delay(0);
-if(loc_find(0_37_151_12_3, upass_logtrap) = true) loc_anim(swinginglogtrap_release);
-~agility_exactmove(human_blown_start, 20, 2, coord, movecoord(coord, 5, 0, 0), 20, 80, ^exact_west, false);
+if(loc_find(0_37_151_12_3, upass_logtrap) = ^true) loc_anim(swinginglogtrap_release);
+~agility_exactmove(human_blown_start, 20, 2, coord, movecoord(coord, 5, 0, 0), 20, 80, ^exact_west, ^false);
 anim(human_stunned, 0);
 spotanim_pl(stunned, 124, 0);
 sound_synth(stunned, 0, 0);
@@ -226,7 +226,7 @@ if(last_useitem = spade) {
 [oploc1,cave_railings2]
 mes("You attempt to pick the lock...");
 def_int $roll = random(100);
-if (stat_random(thieving, 128, 400) = false) {
+if (stat_random(thieving, 128, 400) = ^false) {
     mes("You fail to pick the lock.");
     return;
 }
@@ -251,7 +251,7 @@ if(stat(thieving) < 50) {
 }
 mes("You attempt to pick the lock...");
 def_int $roll = random(100);
-if (stat_random(thieving, 128, 400) = false) {
+if (stat_random(thieving, 128, 400) = ^false) {
     mes("You fail to pick the lock.");
     return;
 }
@@ -337,13 +337,13 @@ if (testbit(%ibanmulti, ^upass_read_well_inscription) = ^false) {
 }
 @upass_well_inscription;
 
-[proc,upass_unicorn_door_unlocked]()(boolean)
+[proc,upass_unicorn_door_unlocked]()(int)
 if(testbit(%ibanmulti, ^upass_thrown_jerro_badge) = ^true & testbit(%ibanmulti, ^upass_thrown_carl_badge) = ^true 
         & testbit(%ibanmulti, ^upass_thrown_harry_badge) = ^true 
         & testbit(%ibanmulti, ^upass_thrown_unicorn_horn) = ^true) {
-    return (true);
+    return (^true);
 }
-return (false);
+return (^false);
 
 [oplocu,bloodwell_upass]
 // no howl sound: https://youtu.be/n_ip_vEDbCA?si=lCRUSgavmsiM68TL&t=824
@@ -381,7 +381,7 @@ switch_obj(last_useitem) {
         ~displaymessage(^dm_default);
         return;
 }
-if(~upass_unicorn_door_unlocked = true) {
+if(~upass_unicorn_door_unlocked = ^true) {
     sound_synth(lockeddoor, 0, 0);
     mes("You hear a click from nearby...");
     mes("It sounded like it came from the skull above the door"); // no period
@@ -396,7 +396,7 @@ if(~upass_unicorn_door_unlocked = true) {
 if(coordz(loc_coord) < 6400) {
     p_teleport(0_37_151_2_55);
 } else {
-    if(~upass_unicorn_door_unlocked = false) {
+    if(~upass_unicorn_door_unlocked = ^false) {
         mes("The door is locked.");
         return;
     }
@@ -593,7 +593,7 @@ if(coordx(loc_coord) < coordx(coord)) {
     if(getbit_range(%ibanmulti, ^upass_blood_on_doll, ^upass_shadow_on_doll) = calc(pow(2,4) - 1) & inv_total(inv, ibandoll) > 0 
         & %upass < ^upass_defeated_iban) {
         if(%upass = ^upass_found_doll) %upass = ^upass_confronted_iban;
-        if(npc_findexact(1_33_72_21_39, iban) = true) {
+        if(npc_findexact(1_33_72_21_39, iban) = ^true) {
             mes("Iban seems to sense danger.");
             mes("Iban: Who dares to bring the witch's magic into my temple?");
             mes("His eyes fixate on you as he raises his arm...");
@@ -639,7 +639,7 @@ if(last_useitem = ibandoll) {
     // check if doll is complete, todo: how does this work if iban is currently dead
     if(getbit_range(%ibanmulti, ^upass_blood_on_doll, ^upass_shadow_on_doll) = calc(pow(2,4) - 1)
         & %upass <= ^upass_confronted_iban
-        & npc_findexact(1_33_72_21_39, iban) = true) {
+        & npc_findexact(1_33_72_21_39, iban) = ^true) {
         mes("You throw the doll of Iban into the pit...");
         p_delay(1);
         mes("Iban: What's happening? It's dark here...so dark!");
@@ -678,7 +678,7 @@ if(last_useitem = ibandoll) {
         mes("...And you're thrown from the temple platform.");
         cam_reset;
         p_teleport(0_38_150_50_7);
-    } else if(%upass >= ^upass_defeated_iban | npc_findexact(1_33_72_21_39, iban) = false) {
+    } else if(%upass >= ^upass_defeated_iban | npc_findexact(1_33_72_21_39, iban) = ^false) {
         mes("Iban is already dead...");
     } else {
         mes("The doll is still incomplete.");
@@ -686,7 +686,7 @@ if(last_useitem = ibandoll) {
 }
 
 [oploc1,upass_last_out]
-if(npc_find(coord, caveguide5, 9, 0) = true) {
+if(npc_find(coord, caveguide5, 9, 0) = ^true) {
     @koftik_whereami;
 }
 

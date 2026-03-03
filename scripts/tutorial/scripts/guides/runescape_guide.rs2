@@ -8,7 +8,7 @@ switch_int(%tutorial) {
 }
 
 [label,newbie_basics_instructor_welcome]
-if (map_live = false) {
+if (map_live = ^false) {
     ~chatnpc("<p,neutral>Do you want to skip the tutorial?");
     def_int $choice = ~p_choice2("Yes please.", 1, "No, thank you.", 2);
     if ($choice = 1) {
@@ -41,7 +41,7 @@ if (map_live = false) {
 
 [proc,set_hint_newbie_basics_instructor]
 if (%tutorial < ^newbie_basics_instructor_interact_with_scenery) {
-    if (npc_find(0_48_48_21_35, newbie_basics_instructor, 10, 0) = true) {
+    if (npc_find(0_48_48_21_35, newbie_basics_instructor, 10, 0) = ^true) {
       hint_npc;
     }
 }

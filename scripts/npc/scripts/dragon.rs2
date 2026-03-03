@@ -25,15 +25,15 @@
 // if (%npc_action_delay > map_clock) {
 //     return;
 // }
-// if (~npc_check_notcombat = false) {
+// if (~npc_check_notcombat = ^false) {
 //     npc_setmode(null);
 //     return;
 // }
-// if (~npc_check_notcombat_self = false) {
+// if (~npc_check_notcombat_self = ^false) {
 //     return;
 // }
 // // 1/2 chance to switch to op, with line of walk check (same as elvarg for now)
-// if (random(2) = 0 & lineofwalk(npc_coord, coord) = true) {
+// if (random(2) = 0 & lineofwalk(npc_coord, coord) = ^true) {
 //     npc_setmode(opplayer2);
 // }
 // ~dragon_fire;
@@ -44,11 +44,11 @@
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 // edit: elvarg was reworked after the dragon slayer rework.
@@ -70,11 +70,11 @@ if (%death = ^true) {
     return;
 }
 if (%npc_action_delay > map_clock) return;
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 anim(%com_defendanim, 0);

@@ -121,7 +121,7 @@ if($option = 1) {
 }
 
 [proc,gertrude_give_cat]
-if (inv_totalcat(inv, kitten) = 0 | inv_totalcat(bank, kitten) = 0 | inv_totalcat(inv, cat) = 0 | inv_totalcat(bank, cat) = 0 | npc_finduid(%follower_uid) = false | %follower_obj ! null & oc_category(%follower_obj) ! kitten | %follower_obj ! null & oc_category(%follower_obj) ! cat) {
+if (inv_totalcat(inv, kitten) = 0 | inv_totalcat(bank, kitten) = 0 | inv_totalcat(inv, cat) = 0 | inv_totalcat(bank, cat) = 0 | npc_finduid(%follower_uid) = ^false | %follower_obj ! null & oc_category(%follower_obj) ! kitten | %follower_obj ! null & oc_category(%follower_obj) ! cat) {
     def_npc $cat;
     switch_int (random(6)) {
         case 0 : $cat = kittenpet1;

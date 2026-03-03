@@ -4,7 +4,7 @@
 // auto retaliate
 [if_button,controls:com_2]
 if_close; // closes interfaces in osrs
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_stopaction; // https://oldschool.runescape.wiki/w/Update:Slayer_Cave_%26_High_Risk_Worlds
     %option_nodef = ^player_auto_retaliate_on;
     return;
@@ -13,7 +13,7 @@ if (p_finduid(uid) = true) {
 
 [if_button,controls:com_3]
 if_close; // might be strongqueued in osrs
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_stopaction; // https://oldschool.runescape.wiki/w/Update:Slayer_Cave_%26_High_Risk_Worlds
     %option_nodef = ^player_auto_retaliate_off;
     return;
@@ -24,7 +24,7 @@ if (p_finduid(uid) = true) {
 // Player run
 [if_button,controls:com_4] 
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_clearpendingaction; // https://youtu.be/XhJ0tjJ9J60?t=62
     p_run(^player_run_off);
     return;
@@ -33,7 +33,7 @@ if (p_finduid(uid) = true) {
 
 [if_button,controls:com_5]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_clearpendingaction;
     if (runenergy < 100) {
         p_run(^player_run_off);
@@ -65,11 +65,11 @@ if (p_finduid(uid) = true) {
 
 [label,controls_emote](seq $anim)
 if_close;
-if (p_finduid(uid) = false) {
+if (p_finduid(uid) = ^false) {
     // mes("You're already doing an emote!");
     return;
 }
-if (~inzone_coord_pair_table(trawler_wreck_zones, coord) = true) {
+if (~inzone_coord_pair_table(trawler_wreck_zones, coord) = ^true) {
     mes("You cannot perform that emote whilst swimming."); // osrs
     return;
 }

@@ -1,14 +1,14 @@
-[oploc1,dungeonjail] @unlock_taverley_jaildoor(false);
+[oploc1,dungeonjail] @unlock_taverley_jaildoor(^false);
 [oplocu,dungeonjail]
 if(last_useitem = jail_key) {
-    @unlock_taverley_jaildoor(true);
+    @unlock_taverley_jaildoor(^true);
 } 
 ~displaymessage(^dm_default);
 
-[oploc1,deepdungeondoor] @unlock_taverley_jaildoor(false);
+[oploc1,deepdungeondoor] @unlock_taverley_jaildoor(^false);
 [oplocu,deepdungeondoor]
 if(last_useitem = dusty_key) {
-    @unlock_taverley_jaildoor(true);
+    @unlock_taverley_jaildoor(^true);
 } 
 ~displaymessage(^dm_default);
 
@@ -18,16 +18,16 @@ switch_coord(loc_coord) {
     case default : mes("This door doesn't seem to open from here...");
 }
 
-[label,unlock_taverley_jaildoor](boolean $key_used)
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
+[label,unlock_taverley_jaildoor](int $key_used)
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
 def_string $name = lowercase(loc_name);
-if($entering = true & $key_used = false) {
+if($entering = ^true & $key_used = ^false) {
     // the dusty key door loc is called "gate" in OSRS (and in 2007: https://youtu.be/_NuF1ZpxSXw?si=qskufTNPRUqU0rjZ&t=113),
     // these messages there use gate instead of door so we'll just futureproof here 
     mes("This <$name> is locked.");
     return;
 }
-if($key_used = true) {
+if($key_used = ^true) {
     mes("You unlock the <$name>.");
 } else {
     mes("The <$name> locks shut behind you.");

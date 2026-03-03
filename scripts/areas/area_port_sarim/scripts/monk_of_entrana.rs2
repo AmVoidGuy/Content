@@ -12,7 +12,7 @@ if($option = 1){
     ~chatplayer("<p,happy>Yes, okay, I'm ready to go.");
     ~chatnpc("<p,neutral>Very well. One moment please.");
     ~mesbox("The monk quickly searches you.");
-    if(~has_entrana_restricted_items = true) {
+    if(~has_entrana_restricted_items = ^true) {
         ~chatnpc("<p,angry>NO WEAPONS OR ARMOUR are permitted on holy Entrana AT ALL. We will not allow you to travel there in breach of mighty Saradomin's edict.");
         ~chatnpc("<p,neutral>Do not try and deceive us again. Come back when you have laid down your Zamorakian instruments of death.");
         return;
@@ -23,7 +23,7 @@ if($option = 1){
     ~set_sail("Entrana", "After a quick search, the monk smiles at you and allows you to board.", 1_44_52_18_3, ^sail_port_sarim_to_entrana, 13);
 }
 
-[proc,has_entrana_restricted_items]()(boolean)
+[proc,has_entrana_restricted_items]()(int)
 if ((inv_totalcat(inv, armour_hands) > 0 | inv_totalcat(worn, armour_hands) > 0)
     | (inv_totalcat(inv, weapon_staff) > 0 | inv_totalcat(worn, weapon_staff) > 0) 
     | (inv_totalcat(inv, armour_helmet) > 0 | inv_totalcat(worn, armour_helmet) > 0) 
@@ -46,6 +46,6 @@ if ((inv_totalcat(inv, armour_hands) > 0 | inv_totalcat(worn, armour_hands) > 0)
     | (inv_totalcat(inv, weapon_scythe) > 0 | inv_totalcat(worn, weapon_scythe) > 0) 
     | (inv_totalcat(inv, weapon_bow) > 0 | inv_totalcat(worn, weapon_bow) > 0) 
     | (inv_totalcat(inv, cannon_parts) > 0)) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);

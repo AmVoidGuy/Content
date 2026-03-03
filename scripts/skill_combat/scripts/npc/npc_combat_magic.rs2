@@ -15,14 +15,14 @@ if (map_clock < %frozen) {
 ~npc_cast_spell_with_forced_max_hit($spell,$attackspeed,null);
 
 [proc,npc_cast_spell_with_forced_max_hit](int $spell, int $attackspeed, int $defined_max_hit)
-if (~npc_combat_spell_checks = false) {
+if (~npc_combat_spell_checks = ^false) {
     return;
 }
 def_dbrow $spell_data = ~get_spell_data($spell);
-if (~npc_freeze_allowed($spell_data) = false) {
+if (~npc_freeze_allowed($spell_data) = ^false) {
     return;
 }
-if (~npc_debuff_allowed($spell_data) = false) {
+if (~npc_debuff_allowed($spell_data) = ^false) {
     return;
 }
 def_int $duration = ~npc_spell_cast($spell_data, $attackspeed);
@@ -34,7 +34,7 @@ if($defined_max_hit ! null) {
     $maxhit = db_getfield($spell_data, magic_spell_table:maxhit, 0);
 }
 
-if (~npc_player_hit_roll(^magic_style) = true & ~check_protect_prayer(^magic_style) = false) {
+if (~npc_player_hit_roll(^magic_style) = ^true & ~check_protect_prayer(^magic_style) = ^false) {
     ~npc_spell_success($spell_data, $maxhit, $duration);
     ~npc_stat_change_effect($spell_data);
     ~npc_freeze_effect($spell_data);
@@ -49,31 +49,31 @@ if (~npc_player_hit_roll(^magic_style) = true & ~check_protect_prayer(^magic_sty
 %frozen = calc(map_clock + $duration + 1);
 walktrigger(frozen);
 
-[proc,npc_combat_spell_checks]()(boolean)
+[proc,npc_combat_spell_checks]()(int)
 if (stat(hitpoints) = 0) { // no idea if this should exist
-    return(false);
+    return(^false);
 }
 if (%npc_action_delay > map_clock) {
     npc_setmode(applayer2);
-    return(false);
+    return(^false);
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
-    return(false);
+    return(^false);
 }
-if (~npc_check_notcombat_self = false) {
-    return(false);
+if (~npc_check_notcombat_self = ^false) {
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,npc_freeze_allowed](dbrow $spell_data)(boolean)
+[proc,npc_freeze_allowed](dbrow $spell_data)(int)
 if (db_getfield($spell_data, magic_spell_table:freeze_time, 0) > 0) {
     if (%frozen > map_clock) {
-        return(false);
+        return(^false);
     }
 }
 
-[proc,npc_debuff_allowed](dbrow $spell_data)(boolean)
+[proc,npc_debuff_allowed](dbrow $spell_data)(int)
 def_stat $stat;
 def_int $constant;
 def_int $percent;
@@ -82,11 +82,11 @@ def_int $spell = db_getfield($spell_data, magic_spell_table:spell, 0);
 while ($i < db_getfieldcount($spell_data, magic_spell_table:stat_change) & $spell ! ^flames_of_zamorak & $spell ! ^claws_of_guthix & $spell ! ^saradomin_strike) {
     $stat, $constant, $percent = db_getfield($spell_data, magic_spell_table:stat_change, $i);
     if (stat($stat) < stat_base($stat)) {
-        return(false);
+        return(^false);
     }
     $i = add($i, 1);
 }
-return(true);
+return(^true);
 
 [proc,npc_spell_cast](dbrow $spell_data, int $attackspeed)(int)
 if_close;

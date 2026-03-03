@@ -112,7 +112,7 @@ switch_int(%tutorial) {
 ~chatnpc("<p,neutral>Ok then, <displayname>.");
 
 [proc,newbie_mining_instructor_replace_items]
-if (%tutorial > ^newbie_mining_instructor_prospected_copper_second & ~tutorial_has_obj_on_person(bronze_pickaxe) = false) {
+if (%tutorial > ^newbie_mining_instructor_prospected_copper_second & ~tutorial_has_obj_on_person(bronze_pickaxe) = ^false) {
     inv_add(inv, bronze_pickaxe, 1);
     ~objbox(bronze_pickaxe, "Dezzick gives you a |@blu@Bronze pickaxe!", 250, 0, 0);
 }
@@ -124,6 +124,6 @@ if (%tutorial > ^newbie_mining_instructor_before_smelt_bronze_bar & inv_total(in
 
 // quest guide ladder 3088 3120 0
 [proc,set_hint_icon_newbie_mining_instructor]
-if (npc_find(0_48_148_7_33, newbie_mining_instructor, 10, 0) = true) {
+if (npc_find(0_48_148_7_33, newbie_mining_instructor, 10, 0) = ^true) {
     hint_npc;
 }

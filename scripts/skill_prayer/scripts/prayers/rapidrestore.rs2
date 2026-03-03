@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_rapidrestore]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_rapidrestore;
 }
 %prayer6 = %prayer6;
@@ -19,7 +19,7 @@ if (%prayer6 = ^true) {
     settimer(stat_regen, 100);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer6 = ^false;
     return;
 }

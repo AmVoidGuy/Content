@@ -13,8 +13,8 @@ p_delay(0);
 [oploc1,ikov_dooroffearr] @open_ikov_northgate(^right);
 
 [label,open_ikov_northgate](int $side)
-def_boolean $entering = ~check_axis_locactive(coord);
-if($entering = true | inv_total(worn, ikov_pendantoflucien) > 0) {
+def_int $entering = ~check_axis_locactive(coord);
+if($entering = ^true | inv_total(worn, ikov_pendantoflucien) > 0) {
     ~open_and_close_double_door2($entering, $side, grate_open);
     return;
 }
@@ -26,8 +26,8 @@ p_exactmove(coord, movecoord(coord, 0, 0, -1), 30, 56, ^exact_north);
 [oploc1,ikov_mendedleverdoorr] @open_ikov_southgate(^right);
 
 [label,open_ikov_southgate](int $side)
-def_boolean $entering = ~check_axis_locactive(coord);
-if($entering = false | testbit(%ikov_dungeon, ^ikov_lever) = ^true) {
+def_int $entering = ~check_axis_locactive(coord);
+if($entering = ^false | testbit(%ikov_dungeon, ^ikov_lever) = ^true) {
     ~open_and_close_double_door2($entering, $side, grate_open);
     return;
 }
@@ -39,7 +39,7 @@ cleartimer(move_ikovtrigger);
 
 [timer,move_ikovtrigger]
 // coming from west side is queued and will take 1t longer, coming from east side is not, meaning you can cancel coming from west side
-if(inzone(^ikovbridge_zone_lower, ^ikovbridge_zone_upper, coord) = true) {
+if(inzone(^ikovbridge_zone_lower, ^ikovbridge_zone_upper, coord) = ^true) {
     if(coordx(coord) = coordx(^ikovbridge_zone_lower)) {
         queue(ikov_movequeue, 0, 0);
     } else {
@@ -50,7 +50,7 @@ if(inzone(^ikovbridge_zone_lower, ^ikovbridge_zone_upper, coord) = true) {
 [queue,ikov_movequeue] @ikov_movebridge;
 
 [label,ikov_movebridge]
-if(inzone(^ikovbridge_zone_lower, ^ikovbridge_zone_upper, coord) = false) {
+if(inzone(^ikovbridge_zone_lower, ^ikovbridge_zone_upper, coord) = ^false) {
     return;
 }
 def_int $crossed_bridge = testbit(%ikov_dungeon, ^ikov_bridge);
@@ -73,7 +73,7 @@ if($crossed_bridge = ^true) {
 mes("The bridge gives way under your weight!");
 sound_synth(lava_bridge, 32, 0);
 spotanim_map(lavasplash, 0_41_153_25_35, 0, 46);
-~agility_exactmove(human_walk_logbalance_stumble, 0, 0, coord, 0_41_153_25_35, 44, 56, ^exact_west, false);
+~agility_exactmove(human_walk_logbalance_stumble, 0, 0, coord, 0_41_153_25_35, 44, 56, ^exact_west, ^false);
 say("Ow! Hot! Hot!");
 ~damage_self(20); // https://youtu.be/sCl0GprumNE?si=dLJV4idmreMQGHfI&t=188, moved to end in OSRS
 p_delay(0);
@@ -183,7 +183,7 @@ p_arrivedelay; // https://youtu.be/cePHhIOqsqg?si=-8QJd7t7ZIBz4K7y&t=667
 cam_moveto(0_41_154_17_12, 1000, 100, 232);
 cam_lookat(0_41_154_22_14, 50, 100, 232);
 cam_lookat(0_41_154_22_10, 50, 3, 10);
-if(npc_find(coord, ikov_firewarrior, 5, 0) = false) { // will spawn another if 6 or more away
+if(npc_find(coord, ikov_firewarrior, 5, 0) = ^false) { // will spawn another if 6 or more away
     spotanim_map(smokepuff, 0_41_154_22_10, 0, 0);
     sound_synth(smokepuff, 0, 0);
     p_delay(0);

@@ -39,6 +39,6 @@ if (%tutorial = ^tutorial_opened_newbie_account_instructor_door) {
 [label,newbie_account_instructor_no_thanks]
 
 [proc,set_hint_icon_newbie_account_instructor]
-if (npc_find(0_48_48_56_52, newbie_account_instructor, 5, 0) = true) {
+if (npc_find(0_48_48_56_52, newbie_account_instructor, 5, 0) = ^true) {
     hint_npc;
 }

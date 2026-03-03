@@ -1,5 +1,5 @@
 [opnpc1,murphy]
-if(~has_sextant_clue = true) {
+if(~has_sextant_clue = ^true) {
     if(~get_chart_progress = ^trail_chart_spoken_prof) {
         ~chatplayer("<p,happy>Ahoy there!");
         ~chatnpc("<p,happy>Ahoy!");

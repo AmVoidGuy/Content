@@ -2,7 +2,7 @@
 
 [oploc2,shilocart]
 ~mesbox("This looks like a sturdy travelling cart.|A nearby man walks over to you."); // rsc
-if(npc_find(coord, shilocartdriver, 7, 0) = true) {
+if(npc_find(coord, shilocartdriver, 7, 0) = ^true) {
     @shilocartdriver_dialogue;
 }
 

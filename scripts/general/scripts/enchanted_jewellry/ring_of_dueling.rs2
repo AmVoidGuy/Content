@@ -15,7 +15,7 @@ if (~wilderness_level(coord) > 20) {
     mes("You can't use this teleport after level 20 wilderness.");
     return;
 }
-if (~pre_tele_checks(coord) = false) {
+if (~pre_tele_checks(coord) = ^false) {
     return;
 }
 ~player_teleport_normal(map_findsquare(0_51_50_51_35, 0, 2, ^map_findsquare_lineofwalk));

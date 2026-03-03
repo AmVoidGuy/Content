@@ -95,13 +95,13 @@ if (~p_choice2_header("Yes please!", 1, "No thanks!", 2, "Would you like to sque
     ~forcewalk(0_43_145_42_59);
     anim(human_pickupfloor, 0);
     p_delay(1);
-    ~agility_exactmove(human_crawling, 0, 0, coord, 0_43_145_43_60, 6, 20, ^exact_east, false);
+    ~agility_exactmove(human_crawling, 0, 0, coord, 0_43_145_43_60, 6, 20, ^exact_east, ^false);
     // guess
-    if (stat_random(agility, 60, 254) = false) {
+    if (stat_random(agility, 60, 254) = ^false) {
         mes("You get stuck as you try to squeeze into the crevice.");
         p_delay(5);
         mes("It takes you a while to get back out again.");
-        ~agility_exactmove(human_crawling, 0, 0, coord, 0_43_145_42_59, 6, 20, ^exact_west, false);
+        ~agility_exactmove(human_crawling, 0, 0, coord, 0_43_145_42_59, 6, 20, ^exact_west, ^false);
         return;
     }
     mes("You successfully squeeze through the crevice into a small tunnel.");
@@ -131,7 +131,7 @@ else {
 }
 
 [oploc2,legends_cupboardopen]
-if(npc_find(coord, radimus_erkle, 5, 0) = false) {
+if(npc_find(coord, radimus_erkle, 5, 0) = ^false) {
     return;
 }
 if(%legendsquest >= ^legends_complete) {
@@ -150,21 +150,21 @@ if (inv_total(inv, machette) > 0 | inv_total(worn, machette) > 0) {
 }
 
 [oploc3,legends_cupboardopen]
-@close_cupboard(true);
+@close_cupboard(^true);
 
-[proc,player_in_fire_octagram]()(boolean)
-if(~inzone_coord_pair_table(legends_fire_wall_correct, coord) = true) {
-    return (false);
+[proc,player_in_fire_octagram]()(int)
+if(~inzone_coord_pair_table(legends_fire_wall_correct, coord) = ^true) {
+    return (^false);
 }
 huntall(0_43_145_40_48, 9, 0);
-while(.huntnext = true) {
-    if (~inzone_coord_pair_table(legends_fire_wall_correct, .coord) = true) {
+while(.huntnext = ^true) {
+    if (~inzone_coord_pair_table(legends_fire_wall_correct, .coord) = ^true) {
         mes("The shaman looks busy.");
         mes("Perhaps you should wait here until he's not busy anymore.");
-        return (true);
+        return (^true);
     }
 }
-return (false);
+return (^false);
 
 [proc,legends_fire_wall_walk]
 if(loc_type = lqfirewall_straight) {
@@ -197,7 +197,7 @@ p_delay(1);
 [label,legends_touch_fire_wall]
 // todo: jump out option
 if (%legendsquest >= ^legends_defeated_nezikchened_fire) {
-    if(~player_in_fire_octagram = true) {
+    if(~player_in_fire_octagram = ^true) {
         return;
     }
     mes("You feel completely fine to walk through these flames.");
@@ -223,7 +223,7 @@ else {
 
 [label,legends_investigate_fire_wall]
 if (%legendsquest >= ^legends_defeated_nezikchened_fire) {
-    if(~player_in_fire_octagram = true) {
+    if(~player_in_fire_octagram = ^true) {
         return;
     }
     mes("You feel completely fine to walk through these flames.");
@@ -233,7 +233,7 @@ if (%legendsquest >= ^legends_defeated_nezikchened_fire) {
 }
 ~mesbox("You look closely at the flames. They seem to form a straight wall.|Something about them looks very strange: they look completely|supernatural. For example, they seem to come from|straight out of the ground.");
 say("Mmmm, pretty!");
-if (~player_in_fire_octagram = true) {
+if (~player_in_fire_octagram = ^true) {
     def_int $choice = ~p_choice2_header("Leap out of the flaming octagram.", 1, 
                                         "Attract the shaman's attention.", 2, 
                                         "What would you like to do?");
@@ -245,7 +245,7 @@ if (~player_in_fire_octagram = true) {
         p_delay(0);
         mes("You take a run up...");
         p_delay(2);
-        if(stat_random(agility, 50, 250) = true) { // guessing, not sure how this is randomized
+        if(stat_random(agility, 50, 250) = ^true) { // guessing, not sure how this is randomized
             mes("You sail over the top of the flame wall...");
             p_delay(1);
             p_teleport(movecoord(coord, 0, 0, 2));
@@ -270,7 +270,7 @@ if (~player_in_fire_octagram = true) {
 }
 ~mesbox("You see a white clad figure in the midst of the flames...");
 ~mesbox("You see the white robed figure inside the flaming octagram gesturing to you.");
-if (npc_find(coord, ungadulu_good, 10, 0) = true) {
+if (npc_find(coord, ungadulu_good, 10, 0) = ^true) {
     @ungadulu_no_closer;
 } else { // killed or possessed
     mes("The shaman isn't interested in you at the moment.");
@@ -279,7 +279,7 @@ if (npc_find(coord, ungadulu_good, 10, 0) = true) {
 [label,legends_use_on_fire_wall]
 if (last_useitem = goldbowlbless_pure) {
     // https://youtu.be/uF1a9xsV7zo?si=XkkWfOB4Hj2Bewwl&t=1764
-    if(~player_in_fire_octagram = true) {
+    if(~player_in_fire_octagram = ^true) {
         return;
     }
     loc_del(2);
@@ -334,7 +334,7 @@ if (%legendsquest >= ^legends_found_entrance) {
         mes("You contort your body to fit the crevice.");
         p_delay(0);
         // guess
-        if (stat_random(agility, 125, 250) = false) {
+        if (stat_random(agility, 125, 250) = ^false) {
             mes("You get cramped in the tiny space and start to suffocate.");
             p_delay(1);
             mes("You wriggle and wriggle but you cannot get out...");
@@ -380,8 +380,8 @@ p_teleport(0_43_45_29_54);
 [oploc1,lgstrengthtrialgater] @open_inner_ancient_gate(^right);
 
 [label,open_outer_ancient_gate](int $side)
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
-if ($entering = false) {
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
+if ($entering = ^false) {
     ~mesbox("You see a lever which you pull on to open the door.");
     if_close;
     anim(human_push, 0);
@@ -396,8 +396,8 @@ p_delay(1);
 ~mesbox("You push on the doors, they're really shut. It looks like the doors have a huge locking mechanism. Although ancient, it looks very sophisticated.");
 
 [label,search_outer_ancient_gate](int $side)
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
-if ($entering = false) {
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
+if ($entering = ^false) {
     ~mesbox("You see a lever which you pull on to open the door.");
     if_close;
     anim(human_push, 0);
@@ -429,7 +429,7 @@ p_delay(2);
 say("Easy does it...");
 anim(human_pickuptable, 0);
 // todo: real rate?
-if (stat_random(thieving, 0, 255) = false) {
+if (stat_random(thieving, 0, 255) = ^false) {
     ~mesbox("But you fail to pick the lock.");
     // todo: is it actually possible to break the lockpick here?
     //inv_del(inv, lockpick, 1);
@@ -450,7 +450,7 @@ if ($last_item = lockpick) {
 ~displaymessage(^dm_default);
 
 [label,open_inner_ancient_gate](int $side)
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
 if(coordz(coord) >= coordz(loc_coord)) {
     ~mesbox("Two huge metal doors bar the way further... There is an intense|and unpleasant feeling from this place and as you peer through the|cracks in the door you can see why. You see dark, shadowy shapes|flapping around in the still dark air.");
 }
@@ -478,7 +478,7 @@ if ($choice = 1) {
     // lose 1-2 more if you continue instead of clicking out of the mesbox
     anim(human_push, 0);
     // todo: real rate?
-    if (stat_random(strength, 0, 255) = true) {
+    if (stat_random(strength, 0, 255) = ^true) {
         say("Shhhhhhhshshehshsh"); // this keyboard mashing is no longer in osrs
         ~mesbox("...and you just manage to force the doors open slightly, just enough to force yourself through.");
         ~open_and_close_double_door2($entering, $side, door_open);
@@ -532,7 +532,7 @@ mes("You swing your pick at the rock.");
 anim(oc_param($pickaxe, mining_animation), 0);
 sound_synth(mine_quick, 0, 10);
 // todo: real rate?
-if (stat_random(mining, 90, 255) = true) {
+if (stat_random(mining, 90, 255) = ^true) {
     // no delays on any of this
     // https://youtu.be/uF1a9xsV7zo?t=1256
     mes("You manage to smash the rock to bits.");
@@ -599,14 +599,14 @@ if(coordz(coord) > 9295) {
 }
 // todo: real rate?
 // this one feels more punishing than the doors/boulders
-if (stat_random(agility, 50, 200) = true) {
+if (stat_random(agility, 50, 200) = ^true) {
     mes("You take a good run up and sail majestically over the wall.");
-    ~agility_exactmove(human_spot_jump, 30, 2, $start, $end, 37, 50, $dir, false);
+    ~agility_exactmove(human_spot_jump, 30, 2, $start, $end, 37, 50, $dir, ^false);
     mes("You land perfectly and stand ready for action.");
 }
 else {
     mes("You fail to jump the wall properly and clip the wall with your leg.");
-    ~agility_exactmove(human_spot_jump, 30, 2, $start, $end, 37, 50, $dir, false);
+    ~agility_exactmove(human_spot_jump, 30, 2, $start, $end, 37, 50, $dir, ^false);
     mes("You're spun around mid air and hit the floor heavily.");
     p_delay(2);
     mes("The fall knocks the wind out of you.");
@@ -750,7 +750,7 @@ else {
 
 [oploc2,lg_gemplacerock]
 if (getbit_range(%legends_bits, ^legends_opal_used, ^legends_emerald_used) = ^legends_all_gems_used) {
-    if(obj_find(0_43_145_13_17, book_of_binding) = true) {
+    if(obj_find(0_43_145_13_17, book_of_binding) = ^true) {
         mes("You see that a book has appeared in the centre of the room.");
         return;
     }
@@ -768,7 +768,7 @@ if ($data = null) {
 def_namedobj $gem = db_getfield($data, legends_gem_data:gem_named, 0);
 def_int $gem_bit = db_getfield($data, legends_gem_data:gem_bit, 0);
 if (testbit(%legends_bits, $gem_bit) = ^true) {
-    if(obj_find(loc_coord, $gem) = false) obj_add(loc_coord, $gem, 1, 8);
+    if(obj_find(loc_coord, $gem) = ^false) obj_add(loc_coord, $gem, 1, 8);
     mes("A barely visible <lowercase(oc_name($gem))> becomes visible again, spinning above the rock.");
     mes("The gem soon begins to fade.");
 }
@@ -796,7 +796,7 @@ if (last_useitem = $gem) {
     }
     if (testbit(%legends_bits, $gem_bit) = ^true) {
         mes("You have already placed a <$gem_name> above this rock.");
-        if(obj_find(loc_coord, $gem) = false) obj_add(loc_coord, $gem, 1, 8);
+        if(obj_find(loc_coord, $gem) = ^false) obj_add(loc_coord, $gem, 1, 8);
         mes("A barely visible <$gem_name> becomes visible again, spinning above the rock.");
         mes("The gem soon begins to fade.");
         return;
@@ -821,12 +821,12 @@ if ($data = null) {
 def_namedobj $gem = db_getfield($data, legends_gem_data:gem_named, 0);
 def_coord $rock_coord = db_getfield($data, legends_gem_data:rock_coord, 0);
 def_int $gem_bit = db_getfield($data, legends_gem_data:gem_bit, 0);
-if (loc_find($rock_coord, lg_gemplacerock) = true & distance(coord, $rock_coord) <= 1) {
+if (loc_find($rock_coord, lg_gemplacerock) = ^true & distance(coord, $rock_coord) <= 1) {
     def_string $name = lowercase(oc_name(inv_getobj(inv, $last_slot)));
     if (testbit(%legends_bits, $gem_bit) = ^true & (inv_total(inv, book_of_binding) = 0 | %legendsquest < ^legends_complete)) {
         mes("You have already placed the <$name> above this rock.");
         mes("The gem soon begins to fade.");
-        if(obj_find($rock_coord, $gem) = false) obj_add(loc_coord, $gem, 1, 8);
+        if(obj_find($rock_coord, $gem) = ^false) obj_add(loc_coord, $gem, 1, 8);
         return;
     }
     mes("As you drop the gem, it slowly glides over to the sharp rock.");
@@ -871,14 +871,14 @@ if(obj_coord = $rock_coord) {
 @pickup_obj;
 
 [opheld5,_legends_gem]
-if(~inzone_coord_pair_table(legends_gem_room, coord) = true) {
+if(~inzone_coord_pair_table(legends_gem_room, coord) = ^true) {
     ~legends_drop_gem(last_slot);
     return;
 }
 ~dropslot(last_slot);
 
 [proc,check_gem_puzzle_complete]
-if (p_finduid(uid) = false) {
+if (p_finduid(uid) = ^false) {
     return;
 }
 mes("You feel a powerful force picking you up....");
@@ -908,7 +908,7 @@ while ($i < $gem_count) {
     }
     def_namedobj $gem = db_getfield($data, legends_gem_data:gem_named, 0);
     def_coord $rock_coord = db_getfield($data, legends_gem_data:rock_coord, 0);
-    if(obj_find($rock_coord, $gem) = false) obj_add($rock_coord, $gem, 1, 30);
+    if(obj_find($rock_coord, $gem) = ^false) obj_add($rock_coord, $gem, 1, 30);
     $i = calc($i + 1);
 }
 world_delay(1);
@@ -927,7 +927,7 @@ while($i < 13) {
     ~coord_projectile(^legends_ruby_coord, 0_43_145_13_17, shooting_star, 48, 0, 46, 45, 10, 45, 10);
     ~coord_projectile(^legends_emerald_coord, 0_43_145_13_17, shooting_star, 48, 0, 46, 45, 10, 45, 10);
     $i = calc($i + 1);
-    if($i = 13 & finduid(uid) = true) {
+    if($i = 13 & finduid(uid) = ^true) {
         mes("...Strangely a book appears near the middle of the room.");
         obj_add(0_43_145_13_17, book_of_binding, 1, 500); // lasts 500t
     }
@@ -956,7 +956,7 @@ mes("There's nothing interesting about these remains.");
 if(coordz(coord) > coordz(loc_coord)) {
     mes("The gate shimmers and changes as you approach.");
     mes("You feel yourself being pulled through the portal.");
-    ~agility_exactmove(human_blown_start, 0, 1, coord, 0_43_145_11_32, 0, 130, ^exact_south, false);
+    ~agility_exactmove(human_blown_start, 0, 1, coord, 0_43_145_11_32, 0, 130, ^exact_south, ^false);
     return;
 }
 ~mesbox("This door is fused with rock, it doesn't seem possible to open it.|But it does look slightly strange in some way.");
@@ -1141,7 +1141,7 @@ if(last_useitem = yommiseeds_germ) {
         return;
     }
     // https://x.com/JagexAsh/status/1156958470324834306
-    if(stat_random(herblore, 40, 243) = false | %legendsquest < ^legends_sacred_water_collected) {
+    if(stat_random(herblore, 40, 243) = ^false | %legendsquest < ^legends_sacred_water_collected) {
         inv_del(inv, yommiseeds_germ, 1);
         ~mesbox("You planted the seed incorrectly in the fertile soil. The plant withers and dies.");
         return;
@@ -1157,7 +1157,7 @@ if(last_useitem = yommiseeds_germ) {
     loc_change(yommitree_sapling, 100);
     p_delay(1);
     world_delay(49); // 51t (something is wrong with world delay lol)
-    if(loc_find(loc_coord, yommitree_sapling) = true) {
+    if(loc_find(loc_coord, yommitree_sapling) = ^true) {
         loc_change(yommitree_saplingdead, 50);
     }
 }
@@ -1179,7 +1179,7 @@ if(last_useitem = goldbowlbless_pure) {
     p_delay(1);
     mes("It looks tall enough now to make a good-sized totem pole.");
     world_delay(49); // 51t
-    if(loc_find(loc_coord, yommitree_adult) = true) {
+    if(loc_find(loc_coord, yommitree_adult) = ^true) {
         loc_change(yommitree_adult_dead, 50);
     }
 }
@@ -1202,7 +1202,7 @@ if(oc_category(last_useitem) = weapon_axe) {
     p_delay(1);
     anim(null, 0);
     world_delay(49); // 51t (something is wrong with world delay lol)
-    if(loc_find(loc_coord, yommitree_felled) = true) {
+    if(loc_find(loc_coord, yommitree_felled) = ^true) {
         loc_change(yommitree_felled_rotten, 50);
     }
 }
@@ -1224,7 +1224,7 @@ if(oc_category(last_useitem) = weapon_axe) {
     loc_change(yommitree_trimmed, 100);
     anim(null, 0);
     world_delay(49); // 51t (something is wrong with world delay lol)
-    if(loc_find(loc_coord, yommitree_trimmed) = true) {
+    if(loc_find(loc_coord, yommitree_trimmed) = ^true) {
         loc_change(yommitree_trimmed_rotten, 50);
     }
 }
@@ -1246,7 +1246,7 @@ if(oc_category(last_useitem) = weapon_axe) {
     loc_change(yommitree_totem, 100);
     anim(null, 0);
     world_delay(49); // 51t (something is wrong with world delay lol)
-    if(loc_find(loc_coord, yommitree_totem) = true) {
+    if(loc_find(loc_coord, yommitree_totem) = ^true) {
         loc_change(yommitree_totem_rotten, 50);
     }
 }
@@ -1484,7 +1484,7 @@ p_delay(4);
 // https://youtu.be/uF1a9xsV7zo?t=931
 // fail rate doesn't appear to be impacted by having vs not having the sketch, despite OSRS wiki saying otherwise
 // likely does use stat_random though: https://x.com/JagexAsh/status/1346079741821022209
-if (stat_random(smithing, 31, 256) = false) {
+if (stat_random(smithing, 31, 256) = ^false) {
     mes("You make a mistake forging the bowl.");
     // 135/256 chance of removing a second gold bar
     // https://x.com/JagexAsh/status/1346079741821022209
@@ -1532,7 +1532,7 @@ mes("The gate changes!");
 anim(null, 0);
 spotanim_pl(null, 92, 0);
 p_delay(0);
-~agility_exactmove(human_blown_start, 0, 1, coord, 0_43_145_11_40, 0, 130, ^exact_north, false);
+~agility_exactmove(human_blown_start, 0, 1, coord, 0_43_145_11_40, 0, 130, ^exact_north, ^false);
 anim(null, 0);
 ~objbox(stafforb, "The orb shatters with the power of the magic. The spell works and you magically appear in a different part of the cave system. It seems that the gate was a test of magical ability.", 250, 0, 0);
 ~mesbox("As soon as you enter the room, you are filled with dread. In the centre of the room is a large gaping hole. It goes down a long way...");
@@ -1578,7 +1578,7 @@ if_close;
 mes("You prepare to climb down the rope.");
 p_delay(2);
 if(testbit(%legends_bits, ^legends_drank_bravery_potion) = ^true) {
-    if(stat_random(agility, 60, 253) = false) {
+    if(stat_random(agility, 60, 253) = ^false) {
         mes("Fear stabs at your heart....");
         say("Gulp!");
         p_delay(1);
@@ -1633,16 +1633,16 @@ if_close;
 mes("You step forward carefully onto the pathway.");
 p_teleport(loc_coord);
 p_delay(1);
-if(stat_random(agility, 110, 250) = false) {
+if(stat_random(agility, 110, 250) = ^false) {
     mes("You slip and fall!");
     say("Arrgggghhhhhhhhhhhhhhh...........!!!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(human_stumble_and_hang, 30, 1, coord, movecoord(loc_coord, 0, 0, 1), 37, 70, ^exact_east, false);
+    ~agility_exactmove(human_stumble_and_hang, 30, 1, coord, movecoord(loc_coord, 0, 0, 1), 37, 70, ^exact_east, ^false);
     ~bas_set_all(human_stumble_and_hang_ready);
     p_delay(5);
     ~update_bas;
     mes("You feel a little nervous from your near fall...");
-    ~agility_exactmove(human_stumble_and_hang_climbup, 30, 1, coord, movecoord(loc_coord, -1, 0, 0), 37, 70, ^exact_east, false);
+    ~agility_exactmove(human_stumble_and_hang_climbup, 30, 1, coord, movecoord(loc_coord, -1, 0, 0), 37, 70, ^exact_east, ^false);
     mes("You lose some Agility!");
     mes("You wrench your arm as you grab for a handhold.");
     ~damage_self(~random_range(1, 10));
@@ -1668,16 +1668,16 @@ if_close;
 mes("You start to climb the precarious rocks.");
 p_teleport(loc_coord);
 p_delay(1);
-if(stat_random(agility, 110, 250) = false) {
+if(stat_random(agility, 110, 250) = ^false) {
     mes("You slip and fall!");
     say("Arrgggghhhhhhhhhhhhhhh...........!!!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(human_stumble_and_hang, 30, 1, coord, movecoord(loc_coord, 1, 0, -1), 37, 50, ^exact_west, false);
+    ~agility_exactmove(human_stumble_and_hang, 30, 1, coord, movecoord(loc_coord, 1, 0, -1), 37, 50, ^exact_west, ^false);
     ~bas_set_all(human_stumble_and_hang_ready);
     p_delay(5);
     ~update_bas;
     mes("You feel a little nervous from your near fall...");
-    ~agility_exactmove(human_stumble_and_hang_climbup, 30, 1, coord, movecoord(loc_coord, 1, 0, 0), 37, 70, ^exact_west, false);
+    ~agility_exactmove(human_stumble_and_hang_climbup, 30, 1, coord, movecoord(loc_coord, 1, 0, 0), 37, 70, ^exact_west, ^false);
     mes("You lose some Agility!");
     mes("You wrench your arm as you grab for a handhold.");
     ~damage_self(~random_range(1, 10));
@@ -1704,16 +1704,16 @@ if_close;
 mes("You step forward carefully onto the pathway.");
 p_teleport(loc_coord);
 p_delay(1);
-if(stat_random(agility, 110, 250) = false) {
+if(stat_random(agility, 110, 250) = ^false) {
     mes("You slip and fall!");
     say("Arrgggghhhhhhhhhhhhhhh...........!!!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(human_stumble_and_hang, 30, 1, coord, movecoord(loc_coord, -1, 0, 0), 37, 70, ^exact_north, false);
+    ~agility_exactmove(human_stumble_and_hang, 30, 1, coord, movecoord(loc_coord, -1, 0, 0), 37, 70, ^exact_north, ^false);
     ~bas_set_all(human_stumble_and_hang_ready);
     p_delay(5);
     ~update_bas;
     mes("You feel a little nervous from your near fall...");
-    ~agility_exactmove(human_stumble_and_hang_climbup, 30, 1, coord, movecoord(loc_coord, 0, 0, -1), 37, 70, ^exact_north, false);
+    ~agility_exactmove(human_stumble_and_hang_climbup, 30, 1, coord, movecoord(loc_coord, 0, 0, -1), 37, 70, ^exact_north, ^false);
     mes("You lose some Agility!");
     mes("You wrench your arm as you grab for a handhold.");
     ~damage_self(~random_range(1, 10));
@@ -1742,10 +1742,10 @@ if_close;
 mes("You start to prepare to climb over the rocks.");
 p_teleport(loc_coord);
 p_delay(1);
-if(stat_random(agility, 110, 250) = false) {
+if(stat_random(agility, 110, 250) = ^false) {
     mes("You slip and fall!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(human_wobbleandfall_l, 30, 0, coord, movecoord(loc_coord, -2, 0, 2), 52, 100, ^exact_east, false);
+    ~agility_exactmove(human_wobbleandfall_l, 30, 0, coord, movecoord(loc_coord, -2, 0, 2), 52, 100, ^exact_east, ^false);
     ~set_walkbas(human_falling_end);
     p_delay(1);
     ~update_bas;
@@ -1792,10 +1792,10 @@ if_close;
 mes("You start to prepare to climb over the rocks.");
 p_teleport(loc_coord);
 p_delay(1);
-if(stat_random(agility, 110, 250) = false) {
+if(stat_random(agility, 110, 250) = ^false) {
     mes("You slip and fall!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(human_wobbleandfall_l, 30, 0, coord, movecoord(loc_coord, 3, 0, 0), 52, 100, ^exact_south, false);
+    ~agility_exactmove(human_wobbleandfall_l, 30, 0, coord, movecoord(loc_coord, 3, 0, 0), 52, 100, ^exact_south, ^false);
     ~set_walkbas(human_falling_end);
     p_delay(1);
     ~update_bas;
@@ -1842,10 +1842,10 @@ if_close;
 mes("You start to prepare to climb over the rocks.");
 p_teleport(movecoord(loc_coord, 1, 0, 1));
 p_delay(1);
-if(stat_random(agility, 110, 250) = false) {
+if(stat_random(agility, 110, 250) = ^false) {
     mes("You slip and fall!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(human_wobbleandfall_l, 30, 0, coord, movecoord(coord, 2, 0, -2), 52, 100, ^exact_south, false);
+    ~agility_exactmove(human_wobbleandfall_l, 30, 0, coord, movecoord(coord, 2, 0, -2), 52, 100, ^exact_south, ^false);
     ~set_walkbas(human_falling_end);
     p_delay(1);
     ~update_bas;
@@ -1879,9 +1879,9 @@ p_teleport(movecoord(loc_coord, 0, 0, -1));
 
 [oploc2,furnace_legendsquest]
 ~mesbox("You search the lava furnace. You find a small compartment that you may be able to use. Strangely, it looks as if It looks designed it is designed for a specific purpose... to fuse things together at very high temperatures...");
-@legends_furnace_pieces(true);
+@legends_furnace_pieces(^true);
 
-[label,legends_furnace_pieces](boolean $searching)
+[label,legends_furnace_pieces](int $searching)
 def_int $total = calc(getbit_range(%legends_bits, ^legends_smelting_chunk, ^legends_smelting_chunk) 
                         + getbit_range(%legends_bits, ^legends_smelting_hunk, ^legends_smelting_hunk) 
                         + getbit_range(%legends_bits, ^legends_smelting_lump, ^legends_smelting_lump));
@@ -1893,7 +1893,7 @@ if($total = 0) {
     ~mesbox("The compartment in the furnace looks like it should hold something.|It looks like it needs one more piece.");
 } else {
     anim(human_furnace, 0);
-    if($searching = true) {
+    if($searching = ^true) {
         ~mesbox("You find the pieces of crystal fit perfectly into the strangely shaped compartments. You use your crafting skill to control the furnace.");
     } else {
         ~mesbox("You place the final segment of the crystal into the strangely shaped compartment, all the pieces seem to fit. You use your crafting skill to control the furnace.");
@@ -1924,7 +1924,7 @@ if(last_useitem = heartcrystal_sectionc | last_useitem = heartcrystal_sectionb |
     ~objbox($crystal, "You place the piece of crystal into a specially shaped compartment of the furnace.", 250, 0, ^objbox_height);
     inv_del(inv, $crystal, 1);
     %legends_bits = setbit(%legends_bits, oc_param($crystal, crystal_bit));
-    @legends_furnace_pieces(false);
+    @legends_furnace_pieces(^false);
 }
 mes("The furnace doesn't seem to be working.");
 
@@ -1993,7 +1993,7 @@ p_delay(1);
 ~mesbox("You see a shimmering field right in front of your eyes. It seems to float in the air. You touch it with your hand and it seems to resist your movements. It will definitely bar you from getting into the next cave.");
 
 [opheld1,holyforce]
-if(npc_find(coord, echned_zekin, 5, 0) = true) {
+if(npc_find(coord, echned_zekin, 5, 0) = ^true) {
     @use_holy_force;
 } else {
     mes("There is no suitable candidate to cast this spell on.");
@@ -2041,7 +2041,7 @@ if(last_useitem = thtotempole) {
         inv_del(inv, thtotempole, 1);
         def_coord $coord = map_findsquare(coord, 1, 7, ^map_findsquare_lineofwalk);
         // https://www.youtube.com/live/8fW1_vt07Z4?si=hyMZCBFKax08k9L2&t=7655, TODO: not sure about distance
-        if(npc_find(coord, gujuo, 8, 0) = false) {
+        if(npc_find(coord, gujuo, 8, 0) = ^false) {
             npc_add($coord, gujuo, 500);
             npc_walk(movecoord(coord, 1, 0, 0));
             npc_setmode(opplayer2);

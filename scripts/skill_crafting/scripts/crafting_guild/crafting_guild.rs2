@@ -1,5 +1,5 @@
 [oploc1,crafting_guild_door]
-if (~check_axis(coord, loc_coord, loc_angle) = true) {
+if (~check_axis(coord, loc_coord, loc_angle) = ^true) {
     if (stat(crafting) < 40) {
         ~chatnpc_specific(nc_name(master_crafter), master_crafter, "<p,neutral>Sorry only experienced craftsmen are allowed in here.|You must be level 40 or above to enter.");
         return;
@@ -11,10 +11,10 @@ if (~check_axis(coord, loc_coord, loc_angle) = true) {
         }
         return;
     }
-    ~open_and_close_door(loc_param(next_loc_stage), true, false);
+    ~open_and_close_door(loc_param(next_loc_stage), ^true, ^false);
     ~chatnpc_specific(nc_name(master_crafter), master_crafter, "<p,neutral>Welcome to the Guild of Master Craftsmen.");
 } else {
-    ~open_and_close_door(loc_param(next_loc_stage), false, false);
+    ~open_and_close_door(loc_param(next_loc_stage), ^false, ^false);
 }
 
 [opnpc1,master_crafter]

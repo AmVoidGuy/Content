@@ -1,5 +1,5 @@
 [label,pvp_ranged_attack]
-if (~duel_arena_ranged_check = false) {
+if (~duel_arena_ranged_check = ^false) {
     return;
 }
 if (.%death = ^true) {
@@ -33,9 +33,9 @@ p_opplayer(2);
 def_int $damage = 0;
 // not sure if xp multipler exists for us or not?!
 // https://oldschool.runescape.wiki/w/Combat#PvP_bonus_experience
-if (~pvp_hit_roll(%damagetype) = true) {
+if (~pvp_hit_roll(%damagetype) = ^true) {
     def_int $maxhit = %com_maxhit;
-    if (~.check_protect_prayer(^ranged_style) = true) {
+    if (~.check_protect_prayer(^ranged_style) = ^true) {
         $maxhit = scale(6, 10, $maxhit); // reduction of 40%
     }
     $damage = min(randominc($maxhit), .stat(hitpoints)); // tick eating existed! https://oldschool.runescape.wiki/w/Update:The_Wintertodt
@@ -85,10 +85,10 @@ if($ammo = holy_water) {
     return;
 }
 if (random(^dropammo_chance) ! 0) {
-    if (~in_duel_arena(coord) = true) {
+    if (~in_duel_arena(coord) = ^true) {
         inv_moveitem(worn, duelarrows, $ammo, 1);
         return;
-    } else if (map_blocked(.coord) = false) {
+    } else if (map_blocked(.coord) = ^false) {
         inv_dropitem_delayed(worn, .coord, $ammo, 1, ^lootdrop_duration, max($delay, 0));
         return;
     }
@@ -101,10 +101,10 @@ if($ammo = holy_water) {
     return;
 }
 if (random(^dropammo_chance) ! 0) {
-    if (~in_duel_arena(coord) = true) {
+    if (~in_duel_arena(coord) = ^true) {
         inv_moveitem(worn, duelarrows, $ammo, 1);
         return;
-    } else if (map_blocked($coord) = false) {
+    } else if (map_blocked($coord) = ^false) {
         inv_dropitem_delayed(worn, $coord, $ammo, 1, ^lootdrop_duration, max($delay, 0));
         return;
     }

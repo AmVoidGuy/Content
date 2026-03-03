@@ -1,16 +1,16 @@
 [if_button,gnomeball:com_6]
 if_close;
-if (p_finduid(uid) = true) {
-    if (loc_find(^gnomeball_goal_coord, goal_gnomeball_game) = true) {
+if (p_finduid(uid) = ^true) {
+    if (loc_find(^gnomeball_goal_coord, goal_gnomeball_game) = ^true) {
         @gnomeball_shoot;
     }
 }
 
 [label,gnomeball_shoot]
-if (lineofsight(coord, loc_coord) = false) {
+if (lineofsight(coord, loc_coord) = ^false) {
     return;
 }
-if (~inzone_coord_pair_table(gnomeball_zones, coord) = false) {
+if (~inzone_coord_pair_table(gnomeball_zones, coord) = ^false) {
     mes("You may only score while on the pitch.");
     return;
 }
@@ -57,10 +57,10 @@ if ($land_coord = loc_coord) {
     cam_moveto(movecoord(loc_coord, -5, 0, 2), 300, 10, 20);
     cam_lookat(movecoord(loc_coord, -7, 0, 5), 250, 10, 20);
     // todo: goal jingle
-    if (npc_find(^gnomeball_cheer_coord1, gnomecheerleader, 0, 0) = true) {
+    if (npc_find(^gnomeball_cheer_coord1, gnomecheerleader, 0, 0) = ^true) {
         npc_say("GOAL");
     }
-    if (npc_find(^gnomeball_cheer_coord2, gnomecheerleader, 0, 0) = true) {
+    if (npc_find(^gnomeball_cheer_coord2, gnomecheerleader, 0, 0) = ^true) {
         npc_say("GOAL");
     }  
 } else {
@@ -78,7 +78,7 @@ cam_reset;
 // from 100 goals at 1 ranged, 10 tiles away:
 // - 9 goals, 91 misses
 // ash says distance matters, but it doesnt seem like it matters a huge amount
-if (stat_random(ranged, 25, sub(300, multiply(distance(coord, $coord), 5))) = true) {
+if (stat_random(ranged, 25, sub(300, multiply(distance(coord, $coord), 5))) = ^true) {
     return($coord);
 }
 

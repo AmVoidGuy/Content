@@ -12,12 +12,12 @@ p_telejump($coord);
 ~set_forcemove_bas($walk_seq);
 def_int $change_x = calc(coordx($dest) - coordx(coord));
 def_int $change_z = calc(coordz($dest) - coordz(coord));
-~agility_walk($change_x, $change_z, true);
+~agility_walk($change_x, $change_z, ^true);
 stat_advance(agility, $xp);
 
-[proc,agility_walk](int $change_x, int $change_z, boolean $reset_bas)
+[proc,agility_walk](int $change_x, int $change_z, int $reset_bas)
 if($change_x = 0 & $change_z = 0) {
-    if($reset_bas = true) ~update_bas;
+    if($reset_bas = ^true) ~update_bas;
     return;
 }
 def_int $move_x = 0;
@@ -61,16 +61,16 @@ if ($change_z >= 1) {
     $move_z = -1;
 }
 // if diagonal isn't blocked but adj's are blocked, this will prevent a diagonal movement
-if (map_blocked(movecoord(coord, 0, 0, $move_z)) = true) { // z block
+if (map_blocked(movecoord(coord, 0, 0, $move_z)) = ^true) { // z block
     $move_z = 0;
 }
-if (map_blocked(movecoord(coord, $move_x, 0, 0)) = true) { // x block
+if (map_blocked(movecoord(coord, $move_x, 0, 0)) = ^true) { // x block
     $move_x = 0;
 }
-if (map_blocked(movecoord(coord, $move_x, 0, $move_z)) = true) { // diagonal blocked, convert to horiz/vert movement
-    if (map_blocked(movecoord(coord, $move_x, 0, 0)) = false) { // try vert
+if (map_blocked(movecoord(coord, $move_x, 0, $move_z)) = ^true) { // diagonal blocked, convert to horiz/vert movement
+    if (map_blocked(movecoord(coord, $move_x, 0, 0)) = ^false) { // try vert
         $move_z = 0;
-    } else if (map_blocked(movecoord(coord, 0, 0, $move_z)) = false) { // try horiz
+    } else if (map_blocked(movecoord(coord, 0, 0, $move_z)) = ^false) { // try horiz
         $move_x = 0;
     } else {
         $move_x = 0;
@@ -91,9 +91,9 @@ p_delay(0);
 ~clipped_telewalk($change_x, $change_z);
 
 // Proc for combining all general parts of an exactmove used in the agility skill (animation, delay, locmerge)
-[proc,agility_exactmove](seq $anim, int $anim_delay, int $movement_delay, coord $start_coord, coord $end_coord, int $start_cycle, int $end_cycle, int $direction, boolean $merge_with_loc)
+[proc,agility_exactmove](seq $anim, int $anim_delay, int $movement_delay, coord $start_coord, coord $end_coord, int $start_cycle, int $end_cycle, int $direction, int $merge_with_loc)
 anim($anim, $anim_delay);
-if($merge_with_loc = true) {
+if($merge_with_loc = ^true) {
     p_locmerge($start_cycle, $end_cycle, $start_coord, $end_coord); 
 }
 p_exactmove($start_coord, $end_coord, $start_cycle, $end_cycle, $direction);
@@ -124,7 +124,7 @@ if (stat(hitpoints) = 0){
 [proc,forcemove](coord $dest_coord)
 def_int $change_x = calc(coordx($dest_coord) - coordx(coord));
 def_int $change_z = calc(coordz($dest_coord) - coordz(coord));
-~agility_walk($change_x, $change_z, false);
+~agility_walk($change_x, $change_z, ^false);
 
 // does a delayed walk to a certain coord using p_teleport (we can't use p_walk for this)
 [proc,forcewalk](coord $dest_coord)(int)
@@ -164,6 +164,6 @@ switch_seq($walk_seq) {
 
 // Finds an identical loc on the $merge_pos coord to switch active_loc to
 [proc,change_merged_loc](coord $merge_pos)
-if (loc_find($merge_pos, loc_type) = true) {
+if (loc_find($merge_pos, loc_type) = ^true) {
     return;
 }

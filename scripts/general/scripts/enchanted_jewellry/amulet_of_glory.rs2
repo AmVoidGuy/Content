@@ -22,7 +22,7 @@ if (~wilderness_level(coord) > 30) {
     mes("You can't use this teleport after level 30 wilderness.");
     return;
 }
-if (~pre_tele_checks(coord) = false) {
+if (~pre_tele_checks(coord) = ^false) {
     return;
 }
 mes($message);

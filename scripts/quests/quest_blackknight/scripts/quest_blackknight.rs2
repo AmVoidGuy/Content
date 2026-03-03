@@ -12,23 +12,23 @@ mes("You can't open this door.");
 mes("You can't open this door.");
 
 [oploc1,bkfortressdoor1]
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-if ($is_outside = true & ((inv_getobj(worn, ^wearpos_hat) ! bronze_med_helm) | (inv_getobj(worn, ^wearpos_torso) ! iron_chainbody))) {
-    if (npc_find(0_47_54_8_56, fortressguard, 5, 1) = true) {
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+if ($is_outside = ^true & ((inv_getobj(worn, ^wearpos_hat) ! bronze_med_helm) | (inv_getobj(worn, ^wearpos_torso) ! iron_chainbody))) {
+    if (npc_find(0_47_54_8_56, fortressguard, 5, 1) = ^true) {
         @blackknight_entrance_fortressguard;
     }
 } else {
-    ~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+    ~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 }
 
 [oploc1,bkfortressdoor3]
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-if ($is_outside = false) {
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+if ($is_outside = ^false) {
     // black knights guarding the ladder down to the grill will aggress the player
     // - https://youtu.be/6RNx7Sbut8A?t=250
     ~black_knights_aggro(coord, coord);
 }
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);
 
 [label,blackknight_entrance_fortressguard]
 ~chatnpc("<p,angry>Hey, you can't come in here!|This is a high security military installation.");
@@ -54,15 +54,15 @@ if ($option = 1) {
 }
 
 [oploc1,bkfortressdoor2]
-def_boolean $is_inside = ~check_axis(coord, loc_coord, loc_angle);
+def_int $is_inside = ~check_axis(coord, loc_coord, loc_angle);
 def_coord $blackknight_near_banquet_hall = 0_47_54_11_59;
 def_coord $blackknight_outside = 0_47_54_8_57;
-if ($is_inside = false) {
-    if (npc_find(coord, fortressguard, 10, 1) = true) {
+if ($is_inside = ^false) {
+    if (npc_find(coord, fortressguard, 10, 1) = ^true) {
         @blackknight_banquet_hall_fortressguard;
     }
 } else {
-    ~open_and_close_door(loc_param(next_loc_stage), $is_inside, false);
+    ~open_and_close_door(loc_param(next_loc_stage), $is_inside, ^false);
 }
 
 [label,blackknight_banquet_hall_fortressguard]
@@ -72,7 +72,7 @@ if ($option = 1) {
     ~chatplayer("<p,neutral>Ok I won't.");
 } else {
    ~chatplayer("<p,neutral>I don't care. I'm going in anyway.");
-   ~open_and_close_door(loc_param(next_loc_stage), false, false);
+   ~open_and_close_door(loc_param(next_loc_stage), ^false, ^false);
    // search for one black knight to yell
    // - https://youtu.be/vNPISjaWfvQ?t=123
    // - https://youtu.be/6RNx7Sbut8A?t=306
@@ -157,13 +157,13 @@ session_log(^log_adventure, "Quest complete: Black Knight's Fortress");
 ~send_quest_complete(questlist:fortress, coins, 250, ^blackknight_questpoints, "You have completed the\\nBlack Knights' Fortress Quest!");
 
 [proc,black_knights_aggro](coord $first_search_coord, coord $all_search_coord)
-if (npc_find($first_search_coord, aggressive_black_knight, 5, 0) = true) {
+if (npc_find($first_search_coord, aggressive_black_knight, 5, 0) = ^true) {
     npc_say("Die intruder!!!");
 }
 // def does this findall thing https://youtu.be/6RNx7Sbut8A?t=423
 // isnt the case in osrs!
 npc_findall($all_search_coord, aggressive_black_knight, 5, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if (npc_getmode ! opplayer2) {
         npc_setmode(opplayer2);
     }

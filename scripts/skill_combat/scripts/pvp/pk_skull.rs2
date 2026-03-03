@@ -1,15 +1,15 @@
 // requires .active_player and active_player
-[proc,deserves_pk_skull]()(boolean)
-if (~in_duel_arena(coord) = true) {
-    return(false);
+[proc,deserves_pk_skull]()(int)
+if (~in_duel_arena(coord) = ^true) {
+    return(^false);
 }
 if (.%pk_prey1 = uid | .%pk_prey2 = uid | %pk_predator1 = .uid | %pk_predator2 = .uid | %pk_predator3 = .uid) {
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 [proc,set_pk_vars]
-if (~deserves_pk_skull = true) {
+if (~deserves_pk_skull = ^true) {
     ~pk_skull(^pk_skull_duration);
 }
 // for preys

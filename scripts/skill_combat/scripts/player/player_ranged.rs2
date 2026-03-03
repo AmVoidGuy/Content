@@ -1,5 +1,5 @@
 [label,player_ranged_attack]
-if (~npc_is_attackable = false) {
+if (~npc_is_attackable = ^false) {
     return;
 }
 
@@ -32,13 +32,13 @@ if ($ammo = null) {
 
 // check hit, give combat xp
 def_int $damage = 0;
-if (~player_npc_hit_roll(%damagetype) = true) {
+if (~player_npc_hit_roll(%damagetype) = ^true) {
     def_int $maxhit = %com_maxhit;
     if (npc_type = count_draynor & inv_total(inv, garlic) > 0) {
         $maxhit = add($maxhit, 1);
     }
     if (inv_total(worn, holy_water) > 0) {
-        if(npc_param(demonbane_vulnerable) = true) {
+        if(npc_param(demonbane_vulnerable) = ^true) {
             $maxhit = scale(160, 100, %com_maxhit);
             if(npc_type = nezikchened) {
                 $maxhit = add($maxhit, 5);
@@ -126,7 +126,7 @@ if($ammo = holy_water) {
     return;
 }
 if (random(^dropammo_chance) ! 0) {
-    if (map_blocked(npc_coord) = false) {
+    if (map_blocked(npc_coord) = ^false) {
         inv_dropitem_delayed(worn, npc_coord, $ammo, 1, ^lootdrop_duration, $delay);
         return;
     }
@@ -134,7 +134,7 @@ if (random(^dropammo_chance) ! 0) {
 inv_del(worn, $ammo, 1);
 
 [proc,ranged_dropammo_holywater](coord $coord, int $delay)
-if (~in_duel_arena(coord) = true) {
+if (~in_duel_arena(coord) = ^true) {
     return;
 }
 inv_del(worn, holy_water, 1);

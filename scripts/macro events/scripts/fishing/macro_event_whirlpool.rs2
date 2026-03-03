@@ -8,7 +8,7 @@ npc_changetype(npc_param(whirlpool), 60);
 // doesnt continue to fish https://youtu.be/ji4qvtcLKpI?list=PLn23LiLYLb1am4weMQzkWn5m9b3m9fXv9&t=112
 // anim plays out... people dont seem to lose their equipment at the whirlpool unless they *reclick* on it
 [proc,macro_whirlpool_attempt_take_equipment](namedobj $fishing_equipment)
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     %macro_whirlpool_counter = calc(%macro_whirlpool_counter + 1);
     if (%macro_whirlpool_counter < 5) {
         return;

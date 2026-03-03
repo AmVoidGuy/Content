@@ -206,15 +206,15 @@ if(inv_total(inv, blurite_ore) >= 1 & inv_total(inv, iron_bar) >= 2) {
     ~chatnpc("<p,neutral>Well, come back when you do. Remember: I need a blurite ore and two iron bars.");
 }
 
-[proc,vyvin_distracted]()(boolean)
+[proc,vyvin_distracted]()(int)
 // check if Vyvin is nearby, if hes standing near of the player
 // they wont be able to search the cupboard
-if (npc_find(coord, sir_vyvin, 1, 0) = true) {
+if (npc_find(coord, sir_vyvin, 1, 0) = ^true) {
     ~chatnpc("<p,angry>HEY! Just WHAT do you THINK you are DOING??? STAY OUT of MY cupboard!");
     ~mesbox("Maybe you need to get Sir Vyvin further away from his cupboard...");
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 [queue,squire_complete]
 %squire = ^squire_complete;

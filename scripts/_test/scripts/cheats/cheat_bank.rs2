@@ -1,6 +1,6 @@
 [debugproc,bank]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @openbank;
 } else {
     @please_finish;
@@ -8,7 +8,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,bank_preset]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_int $choice = ~p_choice2_header("Yes.", 1, "No.", 2, "This clears your bank. Continue?");
     if ($choice = 2) {
         return;
@@ -205,7 +205,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,bank_f2p]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     inv_clear(bank);
 
     inv_add(bank, rune_scimitar, 255);
@@ -279,7 +279,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,magicbank]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;
@@ -342,7 +342,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,clearbank]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     inv_clear(bank);
 } else {
     @please_finish;
@@ -350,7 +350,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,fmbank]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;
@@ -375,7 +375,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,foodbank]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;
@@ -633,7 +633,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,fletchbank]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;
@@ -697,7 +697,7 @@ if (p_finduid(uid) = true) {
 
 [debugproc,wptest]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;

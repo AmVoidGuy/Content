@@ -56,10 +56,10 @@ switch_int($option) {
     }
 }
 
-[proc,grip_attack]()(boolean)
+[proc,grip_attack]()(int)
 if (%heroquest >= ^hero_phoenix_talked_charlie & %phoenixgang >= ^phoenixgang_complete) {
-  return(true);
+  return(^true);
 }
 ~chatplayer("<p,neutral>I can't attack the head guard here! There are too many witnesses around to see me do it! I'd have the whole of Brimhaven after me! Besides, if he dies I want the promotion!");
 ~mesbox("Perhaps you need another player's help...?");
-return(false);
+return(^false);

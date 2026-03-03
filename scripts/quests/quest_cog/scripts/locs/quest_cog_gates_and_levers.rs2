@@ -8,14 +8,14 @@ if (testbit(%cogquest, ^quest_cog_rat_door_bit) = ^true) {
 }
 
 [label,clock_tower_first_door_for_rat_cage]
-def_boolean $is_inside = ~check_axis(coord, loc_coord, loc_angle);
-if ($is_inside = true) {
+def_int $is_inside = ~check_axis(coord, loc_coord, loc_angle);
+if ($is_inside = ^true) {
     // Temp note: dur does not need updated
     loc_del(500);
     loc_add(movecoord(loc_coord, 1, 0, 0), poshdooropen, 3, loc_shape, 500);
     sound_synth(grate_open, 0, 0);
 
-    if(loc_find(0_40_150_31_61, ctlevera) = true) {
+    if(loc_find(0_40_150_31_61, ctlevera) = ^true) {
         // Temp note: dur does not need updated
         loc_del(500);
         loc_add(loc_coord, ctlevera2, loc_angle, loc_shape, 500);
@@ -35,7 +35,7 @@ sound_synth(lever, 0, 0);
 loc_del(500);
 loc_add(loc_coord, ctlevera2, loc_angle, loc_shape, 500);
 
-if(loc_find(0_40_150_35_57, ctratgatea) = true) {
+if(loc_find(0_40_150_35_57, ctratgatea) = ^true) {
     // Temp note: dur does not need updated
     loc_del(500);
     loc_add(movecoord(loc_coord, 1, 0, 0), poshdooropen, 3, loc_shape, 500);
@@ -51,7 +51,7 @@ sound_synth(lever, 0, 0);
 loc_del(500);
 loc_add(loc_coord, ctlevera, loc_angle, loc_shape, 500);
 
-if(loc_find(0_40_150_36_57, poshdooropen) = true) {
+if(loc_find(0_40_150_36_57, poshdooropen) = ^true) {
     // Temp note: dur does not need updated
     loc_del(500);
     loc_add(movecoord(loc_coord, -1, 0, 0), ctratgatea, 2, loc_shape, 2);

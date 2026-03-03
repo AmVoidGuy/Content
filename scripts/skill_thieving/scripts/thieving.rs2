@@ -9,7 +9,7 @@ if(npc_stat(hitpoints) = 0) {
     mes("Too late, they're dead.");
     return;
 }
-if (~check_if_success_pick_pocket($data) = false) {
+if (~check_if_success_pick_pocket($data) = ^false) {
     def_int $stun_ticks = db_getfield($data, pickpocket:stun_ticks, 0);
     def_int $stun_damage = db_getfield($data, pickpocket:stun_damage, 0);
     ~fail_pick_pocket($stun_damage, $stun_ticks, $pocket);
@@ -23,7 +23,7 @@ stat_advance(thieving, $experience);
 sound_synth(pick, 0, 0);
 mes("You pick the <$pocket>.");
 
-[proc,check_if_success_pick_pocket](dbrow $data)(boolean)
+[proc,check_if_success_pick_pocket](dbrow $data)(int)
 return(stat_random(thieving, db_getfield($data, pickpocket:success_chance, 0)));
 
 [proc,fail_pick_pocket](int $damage, int $stun_ticks, string $pocket)
@@ -52,9 +52,9 @@ walktrigger(stunned);
 [proc,steal_from_stall](dbrow $data, coord $loc_coord, int $loc_angle, locshape $loc_shape)
 // if guard sees (for first time), stop player from stealing.
 // guards proioritize over sellers
-if (~stealing_check_for_guard($data) = true) {
+if (~stealing_check_for_guard($data) = ^true) {
     return;
-} else if (~stealing_check_for_owner($data) = true) {
+} else if (~stealing_check_for_owner($data) = ^true) {
    return;
 }
 def_int $experience = db_getfield($data, stealing:experience, 0);

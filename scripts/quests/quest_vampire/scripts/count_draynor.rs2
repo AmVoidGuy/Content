@@ -24,11 +24,11 @@ if (%death = ^true) {
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 anim(%com_defendanim, 0);
@@ -40,7 +40,7 @@ if (npc_param(attack_sound) ! null) {
 ~npc_meleeattack;
 
 [ai_queue2,count_draynor]
-if (finduid(%npc_aggressive_player) = true) {
+if (finduid(%npc_aggressive_player) = ^true) {
     ~count_draynor_garlic;
 }
 ~npc_default_damage(last_int);
@@ -48,7 +48,7 @@ if (finduid(%npc_aggressive_player) = true) {
 
 [ai_queue3,count_draynor]
 if (npc_findhero = ^true) {
-    if (p_finduid(uid) = true) {
+    if (p_finduid(uid) = ^true) {
         @count_draynor_use_stake;
     }
 }
@@ -80,7 +80,7 @@ if (%vampire < ^vampire_complete) {
 }
 
 [ai_timer,count_draynor]
-if (finduid(%npc_attacking_uid) = true) {
+if (finduid(%npc_attacking_uid) = ^true) {
     if (npc_range(coord) > 10 | coordy(coord) ! coordy(npc_coord)) {
         npc_del;
     }

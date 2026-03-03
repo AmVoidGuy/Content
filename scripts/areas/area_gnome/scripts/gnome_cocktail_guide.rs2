@@ -20,8 +20,8 @@ if (%open_book = giannes_cook_book) {
 [label,open_cocktail_guide_index]
 %book_page = 0;
 %open_book = cocktail_guide;
-if_sethide(blurberry_cocktail_guide2:gnome_food_index_layer, true);
-if_sethide(blurberry_cocktail_guide2:cocktail_index_layer, false);
+if_sethide(blurberry_cocktail_guide2:gnome_food_index_layer, ^true);
+if_sethide(blurberry_cocktail_guide2:cocktail_index_layer, ^false);
 if_settext(blurberry_cocktail_guide2:book_title, "The Blurberry Cocktail Guide");
 if_openmain(blurberry_cocktail_guide2);
 
@@ -31,13 +31,13 @@ if ($page_number = 0 | $page_number > enum_getoutputcount(cocktail_guide_title))
     @open_cocktail_guide_index;
 }
 if ($page_number = enum_getoutputcount(cocktail_guide_title)) {
-    if_sethide(blurberry_cocktail_guide:rightarrow_layer, true);
+    if_sethide(blurberry_cocktail_guide:rightarrow_layer, ^true);
 } else {
-    if_sethide(blurberry_cocktail_guide:rightarrow_layer, false);
+    if_sethide(blurberry_cocktail_guide:rightarrow_layer, ^false);
 }
 
 if_settext(blurberry_cocktail_guide:page_title, enum(int, string, cocktail_guide_title, $page_number));
-if_sethide(blurberry_cocktail_guide:cook_obj, false);
+if_sethide(blurberry_cocktail_guide:cook_obj, ^false);
 if_setobject(blurberry_cocktail_guide:cook_obj, enum(int, namedobj, cocktail_guide_model, $page_number), 300);
 if_settext(blurberry_cocktail_guide:text_left, "Ingredients:\\n\\n<enum(int, string, cocktail_guide_text_left, $page_number)>");
 if_settext(blurberry_cocktail_guide:text_right, "Mix the ingredients\\ntogether in the cocktail\\nshaker.  Shake well and\\npour into a glass.\\n\\n<enum(int, string, cocktail_guide_text_right, $page_number)>");

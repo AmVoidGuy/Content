@@ -48,7 +48,7 @@ if(%scorpcatcher < ^scorpcatcher_first_hint) {
     mes("Looks like a wall...");
     return;
 }
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
 mes("You've found a secret door");
 ~open_and_close_door2(oldwall, ~check_axis(coord, loc_coord, loc_angle), door_open);
 

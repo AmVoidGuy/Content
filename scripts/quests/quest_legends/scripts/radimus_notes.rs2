@@ -26,7 +26,7 @@ if(getbit_range(%legends_bits, ^legends_jungle_west_mapped, ^legends_jungle_east
     inv_add(inv, thkaramjamapcomp, 1);
     return;
 }
-if (~inzone_coord_pair_table(kharazi_jungle_west, coord) = true) {
+if (~inzone_coord_pair_table(kharazi_jungle_west, coord) = ^true) {
     if (testbit(%legends_bits, ^legends_jungle_west_mapped) = ^true) {
         ~objbox(thkaramjamap, "You have already completed this part of the map.", 250, 0, 0);
         @kharazi_jungle_mapping;
@@ -35,7 +35,7 @@ if (~inzone_coord_pair_table(kharazi_jungle_west, coord) = true) {
         @map_jungle(^legends_jungle_west_mapped);
     }
 }
-else if (~inzone_coord_pair_table(kharazi_jungle_middle, coord) = true) {
+else if (~inzone_coord_pair_table(kharazi_jungle_middle, coord) = ^true) {
     if (testbit(%legends_bits, ^legends_jungle_middle_mapped) = ^true) {
         ~objbox(thkaramjamap, "You have already completed this part of the map.", 250, 0, 0);
         @kharazi_jungle_mapping;
@@ -44,7 +44,7 @@ else if (~inzone_coord_pair_table(kharazi_jungle_middle, coord) = true) {
         @map_jungle(^legends_jungle_middle_mapped);
     }
 }
-else if (~inzone_coord_pair_table(kharazi_jungle_east, coord) = true) {
+else if (~inzone_coord_pair_table(kharazi_jungle_east, coord) = ^true) {
     if (testbit(%legends_bits, ^legends_jungle_east_mapped) = ^true) {
         ~objbox(thkaramjamap, "You have already completed this part of the map.", 250, 0, 0);
         @kharazi_jungle_mapping;
@@ -75,7 +75,7 @@ if (stat(crafting) < 50) {
     return;
 }
 ~mesbox("You prepare to start mapping this area...");
-if (stat_random(crafting, 100, 250) = false) {
+if (stat_random(crafting, 100, 250) = ^false) {
     def_int $rand = random(128);
     if($rand < 40) {
         ~objbox(thkaramjamap, "You make a mess but are able to rescue the paper.", 250, 0, 0);

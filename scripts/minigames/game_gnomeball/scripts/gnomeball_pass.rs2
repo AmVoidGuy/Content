@@ -4,28 +4,28 @@
 [applayert,gnomeball:com_7] @pvp_gnomeball_pass;
 
 [label,pvp_gnomeball_pass]
-def_boolean $player1_ingame = ~inzone_coord_pair_table(gnomeball_zones, coord);
-def_boolean $player2_ingame = ~.inzone_coord_pair_table(gnomeball_zones, .coord);
-if (inv_total(worn, ball_gnomeball_game) < 1 & $player1_ingame = true) {
+def_int $player1_ingame = ~inzone_coord_pair_table(gnomeball_zones, coord);
+def_int $player2_ingame = ~.inzone_coord_pair_table(gnomeball_zones, .coord);
+if (inv_total(worn, ball_gnomeball_game) < 1 & $player1_ingame = ^true) {
     mes("You need a ball in your hand to throw.");
     return;
 }
-if (inv_getobj(worn, ^wearpos_rhand) ! null & $player1_ingame = false) {
+if (inv_getobj(worn, ^wearpos_rhand) ! null & $player1_ingame = ^false) {
     mes("You need your right hand free to pass a ball."); // osrs
     return;
 }
 // https://oldschool.runescape.wiki/w/Update:Patch_Notes_(3_October_2013)
 // if close early: "Players can no longer use a gnomeball to interrupt other players' Make-X actions without the gnomeball being thrown."
 .if_close;
-if (.p_finduid(.uid) = false) {
+if (.p_finduid(.uid) = ^false) {
     mes("<.displayname> is busy."); // osrs
     return;
 }
-if ($player1_ingame = true & $player2_ingame = false) {
+if ($player1_ingame = ^true & $player2_ingame = ^false) {
     mes("<.displayname> is not playing gnomeball.");
     return;
 }
-if ($player1_ingame = false & $player2_ingame = true) {
+if ($player1_ingame = ^false & $player2_ingame = ^true) {
     mes("You cannot pass to someone in the game from here.");
     return;
 }
@@ -33,8 +33,8 @@ if (.inv_getobj(worn, ^wearpos_rhand) ! null) {
     mes("<.displayname> has something in <.text_gender("his", "her")> hand.");
     return;
 }
-if ($player1_ingame = true & $player2_ingame = true) {
-    if (~gnomeball_inplay(null) = true) {
+if ($player1_ingame = ^true & $player2_ingame = ^true) {
+    if (~gnomeball_inplay(null) = ^true) {
         mes("They already have a ball in play.");
         return;
     }

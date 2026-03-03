@@ -1,5 +1,5 @@
 [opnpc1,garv]
-if (~unlock_brimhaven_mansion = true) {
+if (~unlock_brimhaven_mansion = ^true) {
   return;
 }
 ~chatnpc("<p,neutral>Hello. What do you want?");
@@ -27,31 +27,31 @@ if(%heroquest = ^hero_complete & %phoenixgang >= ^phoenixgang_complete) {
   mes("You don't have any reason to go in there.");
   return;
 }
-if (npc_find(coord, garv, 7, 0) = true) {
+if (npc_find(coord, garv, 7, 0) = ^true) {
   facesquare(npc_coord);
   ~chatnpc("<p,angry>Oi! Where do you think you're going pal?");
-  if (~unlock_brimhaven_mansion = true) {
+  if (~unlock_brimhaven_mansion = ^true) {
     return;
   }
 }
 ~displaymessage(^dm_default);
 
-[proc,unlock_brimhaven_mansion]()(boolean)
+[proc,unlock_brimhaven_mansion]()(int)
 if (%heroquest = ^hero_blackarm_id_papers_obtained) { 
   ~chatplayer("<p,neutral>Hi. I'm Hertigen. I've come to work here.");
-  if(~wearing_black_armour = false) { // https://youtu.be/rEzuCix51aM?t=1503 
+  if(~wearing_black_armour = ^false) { // https://youtu.be/rEzuCix51aM?t=1503 
     ~chatnpc("<p,angry>Hartigen the Black Knight? I don't think so. He doesn't dress like that."); 
-    return(false);
+    return(^false);
   }
   ~chatnpc("<p,neutral>I assume you have your I.D. papers then?");
   if (inv_total(inv, id_papers) > 0) {
     ~chatnpc("<p,neutral>You'd better come in then. Grip will want to talk to you.");
     %heroquest = ^hero_blackarm_mansion_unlocked;
-    return(true);
+    return(^true);
   } else {
     ~chatplayer("<p,neutral>Uh... yeeeeaaaaah.... about that.... I must have left them in my other suit of armour....");
-    return(false);
+    return(^false);
   }
 } else {
-  return(false);
+  return(^false);
 }

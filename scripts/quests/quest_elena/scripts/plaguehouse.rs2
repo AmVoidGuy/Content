@@ -20,24 +20,24 @@ p_telejump(0_39_51_40_7);
 
 [oplocu,elenagateshut]
 switch_obj(last_useitem) {
-    case elenakey : ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), false);
+    case elenakey : ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), ^false);
 }
 
 [oploc1,elenagateshut] // elena door
-if (~check_axis(coord, loc_coord, loc_angle) = false) {
-    ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), false);
+if (~check_axis(coord, loc_coord, loc_angle) = ^false) {
+    ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), ^false);
     return;
 }
 switch_int(%elenaquest) {
-    case ^quest_elena_freed_elena, ^elena_complete, ^elena_complete_read_scroll : ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), false);
+    case ^quest_elena_freed_elena, ^elena_complete, ^elena_complete_read_scroll : ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), ^false);
     case default :
         if (inv_total(inv, elenakey) > 0) {
             ~mesbox("You unlock the door.");
             if_close; // if you see this well just know this is kinda retarded but kk -jordan
-            ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), false);
+            ~open_and_close_door(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), ^false);
         } else {
             ~mesbox("The door is locked.");
-            if (npc_find(coord, elenap, 5, 0) = true) {
+            if (npc_find(coord, elenap, 5, 0) = ^true) {
                 ~chatnpc("<p,shock>Hey get me out of here please!");
                 ~chatplayer("<p,sad>I would do but I don't have a key.");
                 ~chatnpc("<p,confused>I think there may be one around somewhere. I'm sure I heard them stashing it somewhere.");

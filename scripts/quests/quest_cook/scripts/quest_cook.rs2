@@ -92,7 +92,7 @@ session_log(^log_adventure, "Quest complete: Cook's Assistant");
 
 [oplocu,cooksquestrange]
 if (%cookquest < ^cook_complete) {
-    if(npc_find(coord, cook, 5, 0) = true) {
+    if(npc_find(coord, cook, 5, 0) = ^true) {
         ~chatnpc("<p,angry>Hey! Who said you could use that?");
     }
     return;

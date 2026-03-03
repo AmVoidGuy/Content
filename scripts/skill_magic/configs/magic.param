@@ -8,8 +8,8 @@ type=string
 default=You need to cast superheat item on ore.
 
 [telegrab_disabled]
-type=boolean
-default=no
+type=int
+default=0
 
 [charge_orb_name]
 type=string

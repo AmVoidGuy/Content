@@ -50,7 +50,7 @@ switch_int(%grandtree) {
         ~chatnpc("<p,angry>Guard!");
         if_close;
         p_delay(6); // 7t
-        if(.npc_find(coord, gnomekingsguard, 8, 0) = true) { // not sure about the dist
+        if(.npc_find(coord, gnomekingsguard, 8, 0) = ^true) { // not sure about the dist
             ~.chatnpc("<p,neutral>Sire!");
             ~chatnpc("<p,neutral>Go and check out that passage!");
             if_close;
@@ -215,7 +215,7 @@ switch_int(%grandtree) {
                     p_delay($npc_dist);
                 }
                 npc_facesquare(movecoord(^narnode_trapdoor_coord, -1, 0, -1));
-                if(loc_find(movecoord(^narnode_trapdoor_coord, -1, 0, -1), grandtree_trapdoorunder) = true) {
+                if(loc_find(movecoord(^narnode_trapdoor_coord, -1, 0, -1), grandtree_trapdoorunder) = ^true) {
                     // Temp note: dur does not need updated ? @indio
                     loc_change(grandtree_trapdooropen, 10);
                 }
@@ -228,7 +228,7 @@ switch_int(%grandtree) {
                 npc_setmode(null);
                 p_telejump(movecoord(coord, -1, 0, 6399));
                 p_delay(2);
-                if(npc_find(coord, grandtree_narnode, 7, 0) = true) {
+                if(npc_find(coord, grandtree_narnode, 7, 0) = ^true) {
                     $npc_dist = ~total_distance(npc_coord, movecoord(coord, 1, 0, 0));
                     npc_walk(movecoord(coord, 1, 0, 0));
                     if($npc_dist > 0) {

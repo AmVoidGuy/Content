@@ -80,7 +80,7 @@ if(last_useitem = lockpick) {
 ~displaymessage(^dm_default);
 
 
-[proc,attempt_open_locked_door](loc $loc, boolean $entering)
+[proc,attempt_open_locked_door](loc $loc, int $entering)
 if (map_members = ^false) {
     mes(^mes_members_thieving);
     return;
@@ -93,29 +93,29 @@ if ($data = null) {
     return;
 }
 
-def_boolean $locked = $entering;
-if (db_getfield($data, locked_door:lock_inversed, 0) = true) {
+def_int $locked = $entering;
+if (db_getfield($data, locked_door:lock_inversed, 0) = ^true) {
     $locked = ~not_bool($entering);
 }
 
 // check if player is outside
-if ($locked = true) {
+if ($locked = ^true) {
     mes("This door is locked.");
     sound_synth(locked, 0, 0);
     return;
 }
 
 def_loc $replacement = db_getfield($data, locked_door:replacement, 0);
-def_boolean $gate = db_getfield($data, locked_door:gate, 0);
-def_boolean $mirror = db_getfield($data, locked_door:mirror, 0);
+def_int $gate = db_getfield($data, locked_door:gate, 0);
+def_int $mirror = db_getfield($data, locked_door:mirror, 0);
 mes("You go through the door.");
-if ($gate = true) {
+if ($gate = ^true) {
     ~open_and_close_metal_gate2($replacement, $entering, $mirror);
 } else {
-    ~open_and_close_door($replacement, $entering, true);
+    ~open_and_close_door($replacement, $entering, ^true);
 }
 
-[proc,pick_locked_door](loc $loc, coord $loc_coord, boolean $entering)
+[proc,pick_locked_door](loc $loc, coord $loc_coord, int $entering)
 if (map_members = ^false) {
     mes(^mes_members_thieving);
     return;
@@ -128,15 +128,15 @@ if ($data = null) {
     return;
 }
 
-def_boolean $locked = $entering;
-if (db_getfield($data, locked_door:lock_inversed, 0) = true) {
+def_int $locked = $entering;
+if (db_getfield($data, locked_door:lock_inversed, 0) = ^true) {
     $locked = ~not_bool($entering);
 }
 
 def_loc $replacement = db_getfield($data, locked_door:replacement, 0);
-def_boolean $gate = db_getfield($data, locked_door:gate, 0);
-def_boolean $mirror = db_getfield($data, locked_door:mirror, 0);
-if ($locked = true) {
+def_int $gate = db_getfield($data, locked_door:gate, 0);
+def_int $mirror = db_getfield($data, locked_door:mirror, 0);
+if ($locked = ^true) {
 
     mes("You attempt to pick the lock.");
 
@@ -144,7 +144,7 @@ if ($locked = true) {
     def_int $thieving_level = db_getfield($data, locked_door:level, 0);
 
     if(db_getfieldcount($data, locked_door:trap_successchance) > 0) {
-        if (stat_random(thieving, db_getfield($data, locked_door:trap_successchance, 0)) = false) {
+        if (stat_random(thieving, db_getfield($data, locked_door:trap_successchance, 0)) = ^false) {
             mes("You have activated a trap on the lock.");
             queue(damage_player, 0, divide(stat(hitpoints), 10));
             return;
@@ -166,7 +166,7 @@ if ($locked = true) {
         }
     }
 
-    if (stat_random(thieving, db_getfield($data, locked_door:door_successchance, 0)) = false) {
+    if (stat_random(thieving, db_getfield($data, locked_door:door_successchance, 0)) = ^false) {
         mes("You fail to pick the lock.");
         return;
     }
@@ -176,10 +176,10 @@ if ($locked = true) {
     def_int $experience = db_getfield($data, locked_door:experience, 0);
     stat_advance(thieving, $experience);
 
-    if ($gate = true) {
+    if ($gate = ^true) {
         ~open_and_close_metal_gate2($replacement, $entering, $mirror);
     } else {
-        ~open_and_close_door($replacement, $entering, true);
+        ~open_and_close_door($replacement, $entering, ^true);
     }
     p_delay(0);
     facesquare($loc_coord);
@@ -188,8 +188,8 @@ if ($locked = true) {
 mes("The door is already unlocked.");
 p_delay(0);
 mes("You go through the door.");
-if ($gate = true) {
+if ($gate = ^true) {
     ~open_and_close_metal_gate2($replacement, $entering, $mirror);
 } else {
-    ~open_and_close_door($replacement, $entering, true);
+    ~open_and_close_door($replacement, $entering, ^true);
 }

@@ -40,10 +40,10 @@ if ((%demonstart > ^demon_silverlight) | inv_total(inv, silverlight_key_3) > 0 |
 } 
 
 
-[proc,demon_has_prysin_key]()(boolean)
+[proc,demon_has_prysin_key]()(int)
 if (%demonstart >= ^demon_silverlight | inv_total(inv, silverlight_key_3) > 0 | inv_total(bank, silverlight_key_3) > 0){
-    return(true);
+    return(^true);
 }
 else{
-    return(false);
+    return(^false);
 }

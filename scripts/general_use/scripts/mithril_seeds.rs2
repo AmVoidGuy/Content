@@ -1,10 +1,10 @@
 [opheld1,mithril_seed]
 p_stopaction;
-if (~area_allow_loc_add(coord) = false) {
+if (~area_allow_loc_add(coord) = ^false) {
     mes("You can't plant your flowers here."); // OSRS
     return;
 } 
-if (~inzone_coord_pair_table(party_room_zones, coord) = true) {
+if (~inzone_coord_pair_table(party_room_zones, coord) = ^true) {
     // osrs
     mes("Party Pete won't be happy if you plant your flowers here.");
     return;

@@ -134,7 +134,7 @@ if(last_useitem = woodplank | last_useitem = molten_glass | last_useitem = bronz
 // is mostly RSC + grammar corrected
 ~chatnpc("<p,neutral>Hello adventurer.|What brings you to these parts?");
 def_int $ops;
-if(~has_sextant_clue = true) {
+if(~has_sextant_clue = ^true) {
     $ops = ~p_choice5("I am lost!!!", 1, "I'd like to have a look through that telescope.", 2, "What's the ladder over there for?", 3, "Talk about Treasure Trails.", 5, "It is of no concern of yours...", 4);
 } else {
     $ops = ~p_choice4("I am lost!!!", 1, "I'd like to have a look through that telescope.", 2, "What's the ladder over there for?", 3, "It is of no concern of yours...", 4);
@@ -191,7 +191,7 @@ switch_int ($ops) {
 ~chatnpc("<p,happy>Aha, my friend returns.");
 ~chatnpc("<p,happy>Thanks for all your help with the telescope.|What can I do for you?"); // still has this linebreak in OSRS
 def_int $ops;
-if(~has_sextant_clue = true) {
+if(~has_sextant_clue = ^true) {
     $ops = ~p_choice3("Do you need any more help with the telescope?", 1, "Talk about Treasure Trails.", 3, "Nothing, thanks.", 2);
 } else {
     $ops = ~p_choice2("Do you need any more help with the telescope?", 1, "Nothing, thanks.", 2);

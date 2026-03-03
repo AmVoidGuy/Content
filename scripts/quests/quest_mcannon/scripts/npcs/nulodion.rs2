@@ -91,26 +91,26 @@ inv_add(inv, ammo_mould, 1);
 [label,lost_my_cannon]
 ~chatplayer("<p,sad>I've lost my cannon...");
 ~chatnpc("<p,neutral>That's unfortunate... but don't worry, I can sort you out.");
-if (%ownedmcannon = null | loc_find(%ownedmcannon, dwarf_multicannon1) = true) {
+if (%ownedmcannon = null | loc_find(%ownedmcannon, dwarf_multicannon1) = ^true) {
     ~chatnpc("<p,sad>Oh dear, I'm only allowed to replace cannons|that were stolen in action.|I'm sorry but you'll have to buy a new set.");
     return;
 }
 if (%ownedmcannon ! null) {
-    if (loc_find(%ownedmcannon, multicannon_base) = true) {
+    if (loc_find(%ownedmcannon, multicannon_base) = ^true) {
         ~chatnpc("<p,confused>Hmmm. I think you'll find the base still happily parked on the spot where you put it."); // osrs
         ~chatplayer("<p,confused>Oh, is it still there? I thought I'd lost it.");
         ~chatnpc("<p,laugh>Ha ha ha, what a muddle-headed numpty you are!");
         ~chatplayer("<p,angry>...");
         return;
     }
-    if (loc_find(%ownedmcannon, multicannon_stand) = true) {
+    if (loc_find(%ownedmcannon, multicannon_stand) = ^true) {
         ~chatnpc("<p,confused>Hmmm. I think you'll find the base and stand still happily parked on the spot where you put them."); // osrs
         ~chatplayer("<p,confused>Oh, is it still there? I thought I'd lost it.");
         ~chatnpc("<p,laugh>Ha ha ha, what a muddle-headed numpty you are!");
         ~chatplayer("<p,angry>...");
         return;
     }
-    if (loc_find(%ownedmcannon, multicannon_barrels) = true) {
+    if (loc_find(%ownedmcannon, multicannon_barrels) = ^true) {
         ~chatnpc("<p,confused>Hmmm. I think you'll find most of the cannon still happily parked on the spot where you put it."); // osrs
         ~chatplayer("<p,confused>Oh, is it still there? I thought I'd lost it.");
         ~chatnpc("<p,laugh>Ha ha ha, what a muddle-headed numpty you are!");

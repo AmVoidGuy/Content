@@ -63,7 +63,7 @@ if(%if2 > 0) {
 
 buildappearance(worn);
 inv_del(inv, coins, 3000);
-if (npc_find(coord, makeover_mage, 5, 0) = false) {
+if (npc_find(coord, makeover_mage, 5, 0) = ^false) {
     return;
 }
 switch_int(random(4)) {

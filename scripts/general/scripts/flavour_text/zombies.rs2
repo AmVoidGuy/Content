@@ -11,7 +11,7 @@
 [ai_timer,dragonslayer_zombie] @zombie_brains;
 
 [label,zombie_brains]
-if (finduid(%npc_attacking_uid) = true) {
+if (finduid(%npc_attacking_uid) = ^true) {
     if (distance(coord, npc_coord) < 10 & coordy(coord) = coordy(npc_coord)) {
         sound_synth(zombie_moan, 0, 0);
     }

@@ -1,12 +1,12 @@
 [oploc1,mournerstewdoorup] 
-if(~check_axis(coord, loc_coord, loc_angle) = false & inv_total(worn, doctor_gown) = 0) {
+if(~check_axis(coord, loc_coord, loc_angle) = ^false & inv_total(worn, doctor_gown) = 0) {
     mes("The mourner is refusing to open the door.");
     return;
 }
 ~open_and_close_door2(mournerstewdoorupopen, ~check_axis(coord, loc_coord, loc_angle), door_open);
 
 [oploc1,mournerstewdoor] 
-if(~check_axis(coord, loc_coord, loc_angle) = false) {
+if(~check_axis(coord, loc_coord, loc_angle) = ^false) {
     ~open_and_close_door2(mournerstewdooropen, ~check_axis(coord, loc_coord, loc_angle), door_open);
 } else {
     @west_ardougne_mourner_headquarters_doors;
@@ -26,19 +26,19 @@ mes("You pull on the large wooden doors...");
 if(%biohazard = ^biohazard_complete) {
     def_coord $loc_coord = loc_coord;
     mes("...You open them and walk through.");
-    if(loc_find(0_39_51_62_36, ardougnewalldoor_right) = true) {
+    if(loc_find(0_39_51_62_36, ardougnewalldoor_right) = ^true) {
         // Temp note: dur updated
         loc_add(loc_coord, ardougnewalldoor_left, 2, loc_shape, 5);
     }
-    if(loc_find(0_39_51_61_36, ardougnewalldoor_left) = true) {
+    if(loc_find(0_39_51_61_36, ardougnewalldoor_left) = ^true) {
         // Temp note: dur updated
         loc_add(loc_coord, ardougnewalldoor_right, 0, loc_shape, 5);
     }
-    if(loc_find(0_39_51_62_35, ardougnewalldoor_left) = true) {
+    if(loc_find(0_39_51_62_35, ardougnewalldoor_left) = ^true) {
         // Temp note: dur updated
         loc_add(loc_coord, ardougnewalldoor_right, 2, loc_shape, 5);
     }
-    if(loc_find(0_39_51_61_35, ardougnewalldoor_right) = true) {
+    if(loc_find(0_39_51_61_35, ardougnewalldoor_right) = ^true) {
         // Temp note: dur updated
         loc_add(loc_coord, ardougnewalldoor_left, 0, loc_shape, 5);
     }

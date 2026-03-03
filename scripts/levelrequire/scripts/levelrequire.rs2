@@ -84,66 +84,66 @@ if (stat_base(strength) < $level | stat_base(defence) < $level) {
 ~equip($slot);
 
 [label,levelrequire_dragon_slayer_quest_defence](int $level, int $slot)
-if (~levelrequire_dragon_slayer_quest = false) {
+if (~levelrequire_dragon_slayer_quest = ^false) {
     return;
 }
 @levelrequire_defence($level, $slot);
 
 [label,levelrequire_dragon_slayer_quest_ranged_and_defence](int $ranged_level, int $defence_level, int $slot)
-if (~levelrequire_dragon_slayer_quest = false) {
+if (~levelrequire_dragon_slayer_quest = ^false) {
     return;
 }
 @levelrequire_ranged_and_defence($ranged_level, $defence_level, $slot);
 
 [label,levelrequire_heroes_quest_attack](int $level, int $slot)
-if (~levelrequire_heroes_quest = false) {
+if (~levelrequire_heroes_quest = ^false) {
     return;
 }
 @levelrequire_attack_caps($level, $slot);
 
 [label,levelrequire_legends_quest_defence](int $level, int $slot)
-if (~levelrequire_legends_quest = false) {
+if (~levelrequire_legends_quest = ^false) {
     return;
 }
 @levelrequire_defence_caps($level, $slot);
 
 [label,levelrequire_zanaris_quest_attack](int $level, int $slot)
-if (~levelrequire_zanaris_quest = false) {
+if (~levelrequire_zanaris_quest = ^false) {
     return;
 }
 @levelrequire_attack_caps($level, $slot);
 
-[proc,levelrequire_dragon_slayer_quest]()(boolean)
+[proc,levelrequire_dragon_slayer_quest]()(int)
 if (%dragonquest < ^dragon_complete) {
     mes("You have not earned the right to wear this yet.");
     mes("You need to complete the Dragon Slayer quest first."); // todo confirm for 2004
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,levelrequire_heroes_quest]()(boolean)
+[proc,levelrequire_heroes_quest]()(int)
 if (%heroquest < ^hero_complete) {
     mes("You have not earned the right to wield this yet.");
     mes("You need to complete the Heroes' Guild entry quest."); // todo confirm for 2004
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,levelrequire_legends_quest]()(boolean)
+[proc,levelrequire_legends_quest]()(int)
 if (%legendsquest < ^legends_complete) {
     mes("You have not earned the right to wear this yet.");
     mes("You need to complete the Legends' Quest."); // todo confirm for 2004
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,levelrequire_zanaris_quest]()(boolean)
+[proc,levelrequire_zanaris_quest]()(int)
 if (%zanaris < ^zanaris_complete) {
     mes("You have not earned the right to wear this yet.");
     mes("You need to complete the Lost City of Zanaris Quest."); // todo confirm for 2004
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 [label,levelrequire_iban_staff](int $slot)
 // https://oldschool.runescape.wiki/w/Update:Various_tweaks_to_the_game

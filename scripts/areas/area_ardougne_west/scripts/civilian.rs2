@@ -28,7 +28,7 @@
 @civilian_talk_about_cats;
 
 [label,civilian_talk_about_cats]
-if (~civilian_player_has_cat = true) {
+if (~civilian_player_has_cat = ^true) {
     @multi2("I have a cat that I could sell.", civilian_i_have_a_cat_i_could_sell, "Nope, they're not easy to get hold of.", civilian_ok_then_youve_got_a_deal);
 }
 if(inv_total(inv, cavewitchcat) > 0) {
@@ -60,11 +60,11 @@ if(inv_total(inv, cavewitchcat) > 0) {
 ~chatplayer("<p,happy>Ok then, you've got a deal.");
 ~chatnpc("<p,happy>Great! Hand over the cat and I'll give you the runes.");
 
-[proc,civilian_player_has_cat]()(boolean)
+[proc,civilian_player_has_cat]()(int)
 if (inv_totalcat(inv, cat) > 0  | inv_totalcat(inv, overgrown) > 0) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
 [label,civilian_give_runes]
 if(oc_category(last_useitem) = cat | oc_category(last_useitem) = overgrown) {

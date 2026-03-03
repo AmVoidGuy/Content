@@ -45,7 +45,7 @@ if(inv_total(inv, barcrawl_card) = 0 & inv_total(bank, barcrawl_card) = 0) {
     ~chatplayer("<p,neutral>Not too bad, my barcrawl card is in my bank now.");
     ~chatnpc("<p,neutral>You need to take it with you when you're going on a barcrawl.");
 } else {
-    if(~visited_all_bars = true) {
+    if(~visited_all_bars = ^true) {
         ~chatplayer("<p,confused>I tink I jusht 'bout done dem all... but I losht count...");
         %barcrawl = ^barcrawl_complete;
         // remove any dupe cards the player might have, this wont prevent drop tricking to keep one

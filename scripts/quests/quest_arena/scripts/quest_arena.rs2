@@ -30,13 +30,13 @@ inv_add(inv, khazard_helmet, 1);
 ~mesbox("You search the chest, and find the|helmet and armour of a Khazard guard.");
 
 [oploc1,fightarena_door1]
-if(~check_axis(coord, loc_coord, loc_angle) = true) {
-    ~open_and_close_door(desertdoor_inactive, true, false);
+if(~check_axis(coord, loc_coord, loc_angle) = ^true) {
+    ~open_and_close_door(desertdoor_inactive, ^true, ^false);
     return;
 }
 // no "locked" sound... (osrs has it): https://youtu.be/Oltfw1gvWjQ?si=pAK0N9CJmLUyWOBk&t=106
 ~chatplayer("<p,neutral>This door appears to be locked.");
-if (npc_find(coord, arena_guard1, 5, 0) = false) {
+if (npc_find(coord, arena_guard1, 5, 0) = ^false) {
     return;
 }
 switch_int(%arenaquest) {
@@ -51,13 +51,13 @@ switch_int(%arenaquest) {
         }
         ~chatnpc("<p,bored>Nice observation guard. You could have just asked to be let in like a normal person.");
 }
-~open_and_close_door(desertdoor_inactive, false, false);
+~open_and_close_door(desertdoor_inactive, ^false, ^false);
 
-[proc,wearing_khazard_armour]()(boolean)
+[proc,wearing_khazard_armour]()(int)
 if(inv_total(worn, khazard_helmet) > 0 & inv_total(worn, khazard_platemail) > 0) {
-    return (true);
+    return (^true);
 }
-return (false);
+return (^false);
 
 [oploc1,arena_prisondoor]
 // https://youtu.be/IOFokveRlxo?si=ub-OWnA_SJAqjFbp&t=458
@@ -78,7 +78,7 @@ if(last_useitem = khazard_cellkeys) {
 // use keys
 if(last_useitem = khazard_cellkeys) {
     if(%arenaquest = ^arena_given_khali_brew) {
-        if (npc_find(coord, jeremy_servil, 4, 0) = true & npc_getmode ! null) {
+        if (npc_find(coord, jeremy_servil, 4, 0) = ^true & npc_getmode ! null) {
             @free_jeremy_servil;
         }
     } else if(%arenaquest < ^arena_defeated_bouncer & %arenaquest >= ^arena_entered_ogre_fight) { // rs3 cage works differently so using pre-rework messages from OSRS
@@ -94,14 +94,14 @@ if(last_useitem = khazard_cellkeys) {
 if(coordx(coord) > coordx(loc_coord) | coordz(coord) < coordz(loc_coord)) {
     switch_int(%arenaquest) { 
         case ^arena_freed_servils, ^arena_defeated_genkhazard, ^arena_complete, ^arena_complete_defeated_genkhazard :
-            if (npc_find(coord, arena_guard4, 7, 0) = false) {
+            if (npc_find(coord, arena_guard4, 7, 0) = ^false) {
                 mes("This door appears to be locked."); // probably (this from RS3)? not sure
                 return;
             }
             @khazard_guard_killed_bouncer;
         case ^arena_entered_ogre_fight, ^arena_defeated_ogre : @open_arena_door;
         case default :
-            if (npc_find(coord, arena_guard4, 7, 0) = false) {
+            if (npc_find(coord, arena_guard4, 7, 0) = ^false) {
                 mes("This door appears to be locked.");
                 return;
             }
@@ -143,7 +143,7 @@ p_teleport(0_40_49_47_16);
 cam_moveto(0_40_49_45_24, 270, 0, 100);
 cam_lookat(0_40_49_43_17, 200, 0, 100);
 p_delay(1);
-if(loc_find(0_40_49_46_16, fightarena_door2) = true) {
+if(loc_find(0_40_49_46_16, fightarena_door2) = ^true) {
     def_int $x;
     def_int $z;
     def_coord $loc_coord = loc_coord;
@@ -165,7 +165,7 @@ cam_lookat(0_40_49_43_15, 270, 2, 1);
 ~forcemove(movecoord(coord, 0, 0, 1));
 p_delay(1);
 cam_reset;
-if (%arenaquest = ^arena_entered_ogre_fight & npc_find(coord, jeremy_servil_arena, 8, 0) = true) {
+if (%arenaquest = ^arena_entered_ogre_fight & npc_find(coord, jeremy_servil_arena, 8, 0) = ^true) {
     ~chatnpc("<p,shock>Quick, help him! That beast will kill him. He's too old to fight.");
     @ogre_attack_justin;
 } else if (%arenaquest = ^arena_sent_jail) {
@@ -186,7 +186,7 @@ $x, $z = ~door_open($angle, loc_shape);
 loc_change(inviswall, 3);
 loc_add(movecoord($loc_coord, $x, 0, $z), desertdoor_inactive, modulo(add($angle, 1), 4), $shape, 3);
 ~forcemove(movecoord(coord, -2, 0, 2));
-if (%arenaquest = ^arena_defeated_ogre & npc_find(coord, general_khazard, 8, 0) = true) {
+if (%arenaquest = ^arena_defeated_ogre & npc_find(coord, general_khazard, 8, 0) = ^true) {
     @general_khazard_welldone;
 } 
 
@@ -195,10 +195,10 @@ if (%arenaquest = ^arena_defeated_ogre & npc_find(coord, general_khazard, 8, 0) 
 if_close;
 def_coord $cam_coord = 0_40_49_39_23;
 def_coord $scorp_spawn = 0_40_49_47_23;
-if (npc_find($scorp_spawn, arena_scorpion, 14, 0) = true) {
+if (npc_find($scorp_spawn, arena_scorpion, 14, 0) = ^true) {
     if(npc_getmode = none) { // npc in cutscene already, do nothing
         return;
-    } else if(inzone($scorp_spawn, 0_40_49_49_24, npc_coord) = false) {
+    } else if(inzone($scorp_spawn, 0_40_49_49_24, npc_coord) = ^false) {
         if(add(%npc_lastcombat, 8) <= map_clock) {
             // out of combat and out of cage so attack player, otherwise we'll just set ptr and start cutscene
             ~npc_retaliate(0);
@@ -215,7 +215,7 @@ cam_lookat($scorp_spawn, 100, 0, 100);
 cam_moveto(0_40_49_41_23, 450, 4, 2);
 npc_walk($scorp_spawn);
 p_delay(2);
-if(loc_find(0_40_49_46_23, arena_inactivegate_r) = true & .loc_find(0_40_49_46_24, arena_inactivegate) = true) {
+if(loc_find(0_40_49_46_23, arena_inactivegate_r) = ^true & .loc_find(0_40_49_46_24, arena_inactivegate) = ^true) {
     // Temp note: dur updated
     loc_del(6);
     loc_add(movecoord(loc_coord, 1, 0, 0), loc_type, 3, loc_shape, 6);
@@ -232,10 +232,10 @@ cam_reset;
 if_close;
 def_coord $cam_coord = 0_40_49_39_23;
 def_coord $bouncer_spawn = 0_40_49_47_26;
-if (npc_find($bouncer_spawn, arena_bouncer, 14, 0) = true) {
+if (npc_find($bouncer_spawn, arena_bouncer, 14, 0) = ^true) {
     if(npc_getmode = none) { // npc in cutscene already, do nothing
         return;
-    } else if(inzone($bouncer_spawn, 0_40_49_49_27, npc_coord) = false) {
+    } else if(inzone($bouncer_spawn, 0_40_49_49_27, npc_coord) = ^false) {
         if(add(%npc_lastcombat, 8) <= map_clock) {
             // out of combat and out of cage so attack player, otherwise we'll just set ptr and start cutscene
             ~npc_retaliate(0);
@@ -252,7 +252,7 @@ cam_lookat($bouncer_spawn, 100, 0, 100);
 cam_moveto(0_40_49_41_26, 450, 4, 2);
 npc_walk($bouncer_spawn);
 p_delay(2);
-if(loc_find(0_40_49_46_26, arena_inactivegate_r) = true & .loc_find(0_40_49_46_27, arena_inactivegate) = true) {
+if(loc_find(0_40_49_46_26, arena_inactivegate_r) = ^true & .loc_find(0_40_49_46_27, arena_inactivegate) = ^true) {
     // Temp note: dur updated
     loc_del(6);
     loc_add(movecoord(loc_coord, 1, 0, 0), loc_type, 3, loc_shape, 6);

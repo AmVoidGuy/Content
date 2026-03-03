@@ -16,7 +16,7 @@ if(coordz(coord) > 6400) {
 }
 // Not sure how exactly this is determined, areas like the essence mines and zanaris work, but the fisher realm
 // and the watchtower instance don't work
-if(~inzone_coord_pair_table(sextant_disabled_zones, coord) = true) {
+if(~inzone_coord_pair_table(sextant_disabled_zones, coord) = ^true) {
     if_close;
     ~mesbox("The sextant doesn't seem to work here.");
     return;

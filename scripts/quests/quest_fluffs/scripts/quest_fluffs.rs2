@@ -7,7 +7,7 @@ if(npc_type = wilough) {
 switch_int (%fluffs) {
     case ^fluffs_not_started :
         ~chatplayer("<p,happy>Hello youngster!");
-        if(.npc_find(coord, $other_boy, 3, ^vis_lineofsight) = true) {
+        if(.npc_find(coord, $other_boy, 3, ^vis_lineofsight) = ^true) {
             ~chatnpc("<p,bored>We don't talk to strange old people.");
             ~.chatnpc("<p,bored>No we don't!");
         } else {
@@ -24,7 +24,7 @@ switch_int (%fluffs) {
         ~chatnpc("<p,angry>You think you're tough do you?");
         ~chatplayer("<p,shock>Pardon?");
         ~chatnpc("<p,angry>I can beat anyone up!");
-        if(.npc_find(coord, $other_boy, 3, ^vis_lineofsight) = true) {
+        if(.npc_find(coord, $other_boy, 3, ^vis_lineofsight) = ^true) {
             ~.chatnpc("<p,angry>He can you know!");
         } 
         ~chatplayer("<p,bored>Really?");
@@ -35,7 +35,7 @@ switch_int (%fluffs) {
 ~chatplayer("<p,neutral>Hello there, I've been looking for you.");
 ~chatnpc("<p,confused>I didn't mean to take it!|I just forgot to pay."); //imgur.com/jk6y117
 ~chatplayer("<p,confused>What? I'm trying to help your mum find Fluffs.");
-if(.npc_find(npc_coord, $other_boy, 3, ^vis_lineofsight) = true) { 
+if(.npc_find(npc_coord, $other_boy, 3, ^vis_lineofsight) = ^true) { 
     ~.chatnpc("<p,neutral>I might be able to help. Fluffs followed me to our secret play area and I haven't seen her since.");
     ~chatplayer("<p,quiz>Where is this play area?");
     ~.chatnpc("<p,neutral>If I told you that, it wouldn't be a secret.");
@@ -60,7 +60,7 @@ switch_int ($option) {
         ~chatnpc("<p,happy>100 coins should cover it.");
         ~chatplayer("<p,angry>100 coins!|Why should I pay you?");
         ~chatnpc("<p,neutral>You shouldn't,|but I won't help otherwise.|I never liked that cat anyway,|so what do you say?");
-        @fluffs_pay(false);
+        @fluffs_pay(^false);
     case 3 :
         ~chatplayer("<p,bored>Well, never mind, it's Fluffs' loss.");
         ~chatnpc("<p,bored>I'm sure my mum will get over it.");
@@ -84,13 +84,13 @@ switch_int ($option) {
         ~chatnpc("<p,happy>100 coins should cover it.");
         ~chatplayer("<p,angry>100 coins!|Why should I pay you?");
         ~chatnpc("<p,neutral>You shouldn't,|but we won't help otherwise.|We never liked that cat anyway,|so what do you say?");
-        @fluffs_pay(true);
+        @fluffs_pay(^true);
     case 3 :
         ~chatplayer("<p,bored>Well, never mind, it's Fluffs' loss.");
         ~.chatnpc("<p,bored>I'm sure my mum will get over it.");
 }
 
-[label,fluffs_pay](boolean $secondary)
+[label,fluffs_pay](int $secondary)
 def_int $option = ~p_choice2("I'm not paying you a penny.", 1, "Okay then, I'll pay.", 2); //imgur.com/PU4c51N
 switch_int ($option) {
     case 1 :
@@ -106,7 +106,7 @@ switch_int ($option) {
         inv_del(inv, coins, 100);
         ~objbox(coins_25, "You give the lad 100 coins.", 250, 0, divide(^objbox_height, 2)); //imgur.com/jhDCIvP
         ~chatplayer("<p,neutral>There you go, now where did you see Fluffs ?"); //intentional
-        if($secondary = true) ~.chatnpc("<p,neutral>We play at an abandoned lumber mill to the north east.|Just beyond the Jolly Boar Inn.|I saw Fluffs running around in there.");
+        if($secondary = ^true) ~.chatnpc("<p,neutral>We play at an abandoned lumber mill to the north east.|Just beyond the Jolly Boar Inn.|I saw Fluffs running around in there.");
         else ~chatnpc("<p,neutral>I play at an abandoned lumber mill to the north east.|Just beyond the Jolly Boar Inn.|I saw Fluffs running around in there.");
         ~chatplayer("<p,neutral>Anything else?");
         ~chatnpc("<p,neutral>Well, you'll have to find the broken fence to get in.|I'm sure you can manage that.");
@@ -133,7 +133,7 @@ if(%lumberyard_fence_used > map_clock) {
     return;
 }
 %lumberyard_fence_used = calc(map_clock + 3);
-~agility_exactmove(human_walk_style, 0, 2, $start_coord, $end_coord, 0, 60, $dir, true);
+~agility_exactmove(human_walk_style, 0, 2, $start_coord, $end_coord, 0, 60, $dir, ^true);
 
 [opheldu,doogleleaves]
 if(last_useitem = raw_sardine) {

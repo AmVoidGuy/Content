@@ -26,11 +26,11 @@ npc_setmode(opplayer2);
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 if (npc_range(coord) < 2) {
@@ -59,7 +59,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
 }
 // https://oldschool.runescape.wiki/w/Update:POH_room_increase_and_more 
 // his ranged attack was negated by protect from melee
-if (~check_protect_prayer(^melee_style) = true) {
+if (~check_protect_prayer(^melee_style) = ^true) {
     $damage = 0;
 }
 queue(combat_damage_player, calc($delay/60), $damage);
@@ -68,7 +68,7 @@ queue*(playerhit_n_retaliate, calc($delay/60))(npc_uid);
 ~npc_set_attack_vars;
 
 [ai_timer,_macro_event_rock_golem]
-if (~macro_event_lost_hostile = true) {
+if (~macro_event_lost_hostile = ^true) {
     npc_del;
     return;
 }

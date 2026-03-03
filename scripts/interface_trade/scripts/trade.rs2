@@ -24,11 +24,11 @@ while ($i < $size) {
 // ----
 
 [opplayer4,_]
-if (~in_duel_arena(coord) = true) {
+if (~in_duel_arena(coord) = ^true) {
     mes("You can't trade in a duel arena."); // https://youtu.be/nUwvlFkcsqA?t=19
     return; 
 }
-if (.busy = true) {
+if (.busy = ^true) {
     mes("<.displayname> is busy at the moment.");
     return;
 }
@@ -47,7 +47,7 @@ mes("Sending trade offer...");
 %tradepartner = .uid;
 
 if (.%tradepartner = uid & %tradestatus = ^tradestatus_received) {
-    if (.p_finduid(.uid) = true) {
+    if (.p_finduid(.uid) = ^true) {
         .p_stopaction;
     }
     if_settext(trademain:status, "");
@@ -75,7 +75,7 @@ if (.%tradepartner = uid & %tradestatus = ^tradestatus_received) {
 [if_button,trademain:accept]
 %tradestatus = ^tradestatus_pending_accept;
 
-if (.finduid(%tradepartner) = true) {
+if (.finduid(%tradepartner) = ^true) {
     if (.%tradestatus = ^tradestatus_pending_accept) {
         inv_stoptransmit(trademain:inv);
         inv_stoptransmit(trademain:otherinv);
@@ -88,7 +88,7 @@ if (.finduid(%tradepartner) = true) {
         ~inv_remove_leading_empty_slots(tradeoffer);
         ~.inv_remove_leading_empty_slots(tradeoffer);
 
-        if (~enough_trade_space = false) {
+        if (~enough_trade_space = ^false) {
             mes("Other player doesn't have enough inventory space for this trade.");
             // osrs: You don't have enough inventory space for this trade.
             // 2007: https://youtu.be/W_NrcAybPzE?t=8
@@ -98,7 +98,7 @@ if (.finduid(%tradepartner) = true) {
             return;
         }
 
-        if (~.enough_trade_space = false) {
+        if (~.enough_trade_space = ^false) {
             mes("You don't have enough inventory space for this trade.");
             // osrs: Other player doesn't have enough inventory space for this trade.
             // 2007: https://youtu.be/W_NrcAybPzE?t=8
@@ -158,7 +158,7 @@ if (.finduid(%tradepartner) = true) {
     }
 }
 
-[proc,enough_trade_space]()(boolean)
+[proc,enough_trade_space]()(int)
 // check if contents of tempinv fits in other player's inv
 def_int $space = .inv_freespace(inv);
 def_int $size = inv_size(tradeoffer);
@@ -166,58 +166,58 @@ def_int $slot = 0;
 while ($slot < $size) {
     def_obj $obj = inv_getobj(tradeoffer, $slot);
     if ($obj ! null) {
-        if (oc_stackable($obj) = true) {
+        if (oc_stackable($obj) = ^true) {
             def_int $total = .inv_total(inv, $obj);
             if ($total > 0) {
                 if (calc(^max_32bit_int - $total - inv_getnum(tradeoffer, $slot)) < 0) {
-                    return(false);
+                    return(^false);
                 }
             } else {
                 $space = sub($space, 1);
                 if ($space < 0) {
-                    return(false);
+                    return(^false);
                 }
             }
         } else {
             $space = sub($space, 1);
             if ($space < 0) {
-                return(false);
+                return(^false);
             }
         }
     }
     $slot = add($slot, 1);
 }
-return(true);
+return(^true);
 
-[proc,.enough_trade_space]()(boolean)
+[proc,.enough_trade_space]()(int)
 def_int $space = inv_freespace(inv);
 def_int $size = .inv_size(tradeoffer);
 def_int $slot = 0;
 while ($slot < $size) {
     def_obj $obj = .inv_getobj(tradeoffer, $slot);
     if ($obj ! null) {
-        if (oc_stackable($obj) = true) {
+        if (oc_stackable($obj) = ^true) {
             def_int $total = inv_total(inv, $obj);
             if ($total > 0) {
                 if (calc(^max_32bit_int - $total - .inv_getnum(tradeoffer, $slot)) < 0) {
-                    return(false);
+                    return(^false);
                 }
             } else {
                 $space = sub($space, 1);
                 if ($space < 0) {
-                    return(false);
+                    return(^false);
                 }
             }
         } else {
             $space = sub($space, 1);
             if ($space < 0) {
-                return(false);
+                return(^false);
             }
         }
     }
     $slot = add($slot, 1);
 }
-return(true);
+return(^true);
 
 [proc,inv_remove_leading_empty_slots](inv $inv)
 def_int $slot = 0;
@@ -244,7 +244,7 @@ inv_stoptransmit(tradeside:inv);
 
 ~moveallinv(tradeoffer, inv);
 
-if (.finduid(%tradepartner) = true) {
+if (.finduid(%tradepartner) = ^true) {
     .%tradepartner = null;
     .if_close;
     if (%tradestatus ! 1 & .%tradestatus ! 1) {
@@ -257,7 +257,7 @@ if (.finduid(%tradepartner) = true) {
 [if_button,tradeconfirm:accept]
 %tradestatus = ^tradestatus_pending_confirm;
 
-if (.finduid(%tradepartner) = true) {
+if (.finduid(%tradepartner) = ^true) {
     if (.%tradestatus = ^tradestatus_pending_confirm) {
         mes("Accepted trade.");
         .mes("Accepted trade.");
@@ -283,7 +283,7 @@ inv_stoptransmit(tradeconfirm:otherinv1);
 inv_stoptransmit(tradeconfirm:otherinv2);
 
 ~moveallinv(tradeoffer, inv);
-if (.finduid(%tradepartner) = true) {
+if (.finduid(%tradepartner) = ^true) {
     .%tradepartner = null;
     .if_close;
     .mes("Other player declined trade."); // osrs
@@ -312,7 +312,7 @@ inv_moveitem(tradeoffer, inv, $obj, $total);
 
 %tradestatus = ^tradestatus_reset;
 if_settext(trademain:status, "");
-if (.finduid(%tradepartner) = true) {
+if (.finduid(%tradepartner) = ^true) {
     session_log(^log_moderator, "Removed offer <oc_debugname($obj)> x<tostring($total)> to <.name>");
     .%tradestatus = ^tradestatus_reset;
     .if_settext(trademain:status, "");
@@ -335,12 +335,12 @@ if ($amount <= 0) {
 
 def_obj $obj = inv_getobj(inv, $slot);
 
-if (oc_tradeable($obj) = false) {
+if (oc_tradeable($obj) = ^false) {
     mes("You can't trade this item.");
     return;
 }
 
-if (oc_members($obj) = true & map_members = ^false) {
+if (oc_members($obj) = ^true & map_members = ^false) {
     mes("You can't trade this item.");
     return;
 }
@@ -351,7 +351,7 @@ inv_moveitem(inv, tradeoffer, $obj, $total);
 
 %tradestatus = ^tradestatus_reset;
 if_settext(trademain:status, "");
-if (.finduid(%tradepartner) = true) {
+if (.finduid(%tradepartner) = ^true) {
     session_log(^log_moderator, "Added offer <oc_debugname($obj)> x<tostring($total)> to <.name>");
     .%tradestatus = ^tradestatus_reset;
     .if_settext(trademain:status, "");

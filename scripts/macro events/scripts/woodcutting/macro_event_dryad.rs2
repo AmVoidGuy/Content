@@ -18,7 +18,7 @@ npc_delay(1);
 npc_setmode(opplayer2);
 
 [ai_timer,_macro_event_dryad]
-if (~macro_event_lost_hostile = true) {
+if (~macro_event_lost_hostile = ^true) {
     npc_del;
     return;
 }

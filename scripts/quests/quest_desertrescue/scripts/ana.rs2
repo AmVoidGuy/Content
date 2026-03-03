@@ -1,5 +1,5 @@
 [opnpc1,ana]
-if(%desertrescue = ^desertrescue_saved_ana & inzone(0_51_48_36_37, 0_51_48_50_50, coord) = true) {
+if(%desertrescue = ^desertrescue_saved_ana & inzone(0_51_48_36_37, 0_51_48_50_50, coord) = ^true) {
     ~chatnpc("<p,happy>Great! Thanks for getting me out of that mine! And that barrel wasn't too bad anyway! Pop by again sometime, I'm sure we'll have a barrel of laughs!");
     if(inv_total(inv, thgoodminekey) = 0) {
         ~chatnpc("<p,happy>Oh! I nearly forgot! Here's a key I found in the tunnels. It might be of some use to you, not sure what it opens. Sorry, but I have to go now.");
@@ -10,13 +10,13 @@ if(%desertrescue = ^desertrescue_saved_ana & inzone(0_51_48_36_37, 0_51_48_50_50
     mes("Ana spots Irena and waves...");
     p_delay(2);
     npc_del;
-    if(npc_find(coord, irena, 8, 0) = true) {
+    if(npc_find(coord, irena, 8, 0) = ^true) {
         npc_say("Hi Ana!");
         p_delay(0);
     }
     @irena_ana_found;
 }
-if(inzone(0_51_147_30_50, 0_51_147_50_63, coord) = false) return;
+if(inzone(0_51_147_30_50, 0_51_147_50_63, coord) = ^false) return;
 if(%desertrescue >= ^desertrescue_saved_ana | inv_total(inv, thanainabarrel) > 0) {
     mes("This slave does not appear interested in talking to you.");
     return;
@@ -28,12 +28,12 @@ if(getbit_range(%desertrescue_map_mechanisms, ^desertrescue_ana_minecart_barrel,
     mes("And sent her back to the mines...");
     p_delay(2);
 }
-if(~wearing_slave_robes() = false) {
+if(~wearing_slave_robes() = ^false) {
     npc_say("Ooops... looks like a guard ");
     p_delay(2);
     npc_say("has seen your fancy clothes.");
     p_delay(2);
-    if(npc_find(coord, desertminingmercenary2, 4, 2) = true | npc_find(coord, desertminingmercenary1, 4, 2) = true) { // check dist on this
+    if(npc_find(coord, desertminingmercenary2, 4, 2) = ^true | npc_find(coord, desertminingmercenary1, 4, 2) = ^true) { // check dist on this
         @mining_camp_caught;
     }
 }
@@ -93,8 +93,8 @@ if(last_useitem = thminebarrel_empty) {
 ~chatnpc_specific("Ana (in a Barrel)", anabarrel, "<p,angry>@dbl@-- Ana looks pretty angry, she starts shouting at you. --|Get me out of here!|Do you hear me!|Get me OUT OF HERE I say!");
 
 [opheld5,thanainabarrel]
-if(~inzone_coord_pair_table(mining_camp_zones, coord) = false) { 
-    if(~inzone_coord_pair_table(desert_zones, coord) = true) {
+if(~inzone_coord_pair_table(mining_camp_zones, coord) = ^false) { 
+    if(~inzone_coord_pair_table(desert_zones, coord) = ^true) {
         ~chatnpc_specific("Ana (in a Barrel)", anabarrel, "<p,confused>You can't drop me here!|I'll die in the desert on my own.|Take me to the Shantay pass near Al Kharid.");
     } else {
         ~chatnpc_specific("Ana (in a Barrel)", anabarrel, "<p,confused>You can't drop me here!|Take me to the Shantay pass near Al Kharid.");
@@ -102,7 +102,7 @@ if(~inzone_coord_pair_table(mining_camp_zones, coord) = false) {
     return;
 }
 ~chatnpc_specific("Ana (in a Barrel)", anabarrel, "<p,idle>You drop the barrel on the floor, Ana gets out.");
-if(inzone(0_51_47_20_23, 0_51_47_23_29, coord) = true) { // if in jail do nothing (OSRS behaviour)
+if(inzone(0_51_47_20_23, 0_51_47_23_29, coord) = ^true) { // if in jail do nothing (OSRS behaviour)
     return;
 }
 if_close;
@@ -113,7 +113,7 @@ npc_say("How dare you put me in that barrel you barbarian!");
 mes("Ana's outburst attracts the guards, they come running over.");
 p_delay(2);
 // doesn't spawn one in osrs
-if(.npc_find(coord, desertminingmercenary2, 6, 2) = true | .npc_find(coord, desertminingmercenary1, 6, 2) = true) { 
+if(.npc_find(coord, desertminingmercenary2, 6, 2) = ^true | .npc_find(coord, desertminingmercenary1, 6, 2) = ^true) { 
     .npc_say("Hey! What's going on here then?");
     ~.npc_retaliate(0);
 }
@@ -123,7 +123,7 @@ npc_del;
 p_delay(4);
 mes("You are roughed up by the guards and manhandled into a cell.");
 p_delay(3);
-if(inzone(0_51_147_0_0, 0_51_147_63_63, coord) = true) p_teleport(^desertrescue_underground_prison_coord);
+if(inzone(0_51_147_0_0, 0_51_147_63_63, coord) = ^true) p_teleport(^desertrescue_underground_prison_coord);
 else p_teleport(^desertrescue_prison_coord);
 
 [label,ana_out]
@@ -143,7 +143,7 @@ else p_teleport(^desertrescue_prison_coord);
 
 [label,ana_key]
 ~chatplayer("<p,neutral>I used a key.");
-if(.npc_find(coord, desertminingmercenary2, 6, 2) = true | .npc_find(coord, desertminingmercenary1, 6, 2) = true) { // pretty sure this is 6 tiles
+if(.npc_find(coord, desertminingmercenary2, 6, 2) = ^true | .npc_find(coord, desertminingmercenary1, 6, 2) = ^true) { // pretty sure this is 6 tiles
     // reworked version is a bit different, copying rsc with osrs delays
     .npc_say("I heard that! So you used a key did you?!");
     mes("Guard: I heard that! So you used a key did you?!");
@@ -167,7 +167,7 @@ if(.npc_find(coord, desertminingmercenary2, 6, 2) = true | .npc_find(coord, dese
 
 [label,ana_rubbishguards]
 ~chatplayer("<p,happy>Huh, these guards are rubbish, it was easy to sneak past them!");
-if(.npc_find(coord, desertminingmercenary2, 6, 2) = true | .npc_find(coord, desertminingmercenary1, 6, 2) = true) {
+if(.npc_find(coord, desertminingmercenary2, 6, 2) = ^true | .npc_find(coord, desertminingmercenary1, 6, 2) = ^true) {
     // reworked version is a bit different, copying rsc with osrs delays
     .npc_say("I heard that! So you managed to sneak in did you!");
     mes("Guard: I heard that! So you managed to sneak in did you!");

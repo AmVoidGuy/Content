@@ -29,7 +29,7 @@ loc_change(shutghostcoffin, 300);
 if(%prieststart = ^priest_complete) { // Don't send ghost if the quest is complete
     return;
 }
-if (npc_find(loc_coord, ghostx, 4, 0) = false) {
+if (npc_find(loc_coord, ghostx, 4, 0) = ^false) {
     npc_add(0_50_49_49_58, ghostx, 100);
 }
 
@@ -54,7 +54,7 @@ if (last_useitem = ghostskull & %prieststart = ^priest_obtained_skull) {
 if (last_useitem = ghostskull & %prieststart = ^priest_obtained_skull) {
     ~mesbox("You put the skull in the coffin.");
     inv_del(inv, ghostskull, 1);
-    if(npc_find(coord, ghostx, 4, 0) = true) {
+    if(npc_find(coord, ghostx, 4, 0) = ^true) {
         npc_del;
     }
     queue(priest_quest_complete, 0, 0);

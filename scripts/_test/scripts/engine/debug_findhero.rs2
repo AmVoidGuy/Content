@@ -1,7 +1,7 @@
 [debugproc,findhero]
-if (findhero = true) {
+if (findhero = ^true) {
     mes(.displayname);
-    if (.findhero = true) {
+    if (.findhero = ^true) {
         mes(displayname);
     }
 }
@@ -9,7 +9,7 @@ if (findhero = true) {
 
 [debugproc,both_heropoints]
 huntall(coord, 5, 0);
-while (.huntnext = true) {
+while (.huntnext = ^true) {
     if (uid ! .uid) {
         both_heropoints(1);
         mes("both_heropoints(1);");

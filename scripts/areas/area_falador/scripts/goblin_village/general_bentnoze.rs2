@@ -8,7 +8,7 @@ if(map_members = ^true & inv_total(inv, trail_clue_hard_riddle017) > 0) {
             ~chatnpc("<p,goblinchat>That not much use - human go fetch it!");
             return;
         }
-        if(~trail_puzzle_complete = true) {
+        if(~trail_puzzle_complete = ^true) {
             ~chatnpc("<p,goblinchat>Thank you human!");
             inv_del(inv, trail_clue_hard_riddle017_puzzlebox, 1);
             ~progress_clue_hard(trail_clue_hard_riddle017, "Bentnoze has given you another clue scroll!");
@@ -21,7 +21,7 @@ if(map_members = ^true & inv_total(inv, trail_clue_hard_riddle017) > 0) {
     ~give_trail_puzzle(trail_clue_hard_riddle017_puzzlebox, "Bentnoze has given you a puzzle box!");
     return;
 }
-if (~quest_dragon_getting_map_parts = true & %dragon_goblin = ^quest_dragon_knows_about_goblin) {
+if (~quest_dragon_getting_map_parts = ^true & %dragon_goblin = ^quest_dragon_knows_about_goblin) {
     def_int $choice = ~p_choice2("I've heard that one of your number has got hold of part of a map.", 0, "So how is life for the goblins?", 1);
     if ($choice = 0) {
         // chatnpc is neutral in osrs

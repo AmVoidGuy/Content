@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_strengthburst]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_strengthburst;
 }
 %prayer1 = %prayer1;
@@ -16,7 +16,7 @@ if (%prayer1 = ^true) {
     ~prayer_deactivate(^prayer_strengthburst);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer1 = ^false;
     return;
 }

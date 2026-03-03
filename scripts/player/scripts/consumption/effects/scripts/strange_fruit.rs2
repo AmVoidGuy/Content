@@ -11,4 +11,4 @@ healenergy(1000);
 // https://archive.is/6SmRo provides 30 ticks of poison immunity
 %poison = min(%poison,-1);
 ~set_poison_timer;
-~consume_effect_messages($consumable, stat(hitpoints), false);
+~consume_effect_messages($consumable, stat(hitpoints), ^false);

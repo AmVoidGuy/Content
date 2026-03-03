@@ -2,27 +2,27 @@
 [oploc1,melzardoor] 
 sound_synth(locked, 0, 0);
 mes("The door is securely locked.");
-// def_boolean $entering = ~check_axis_locactive(coord);
-// if ($entering = true) {
+// def_int $entering = ~check_axis_locactive(coord);
+// if ($entering = ^true) {
 //     sound_synth(locked, 0, 0);
 //     mes("The door is securely locked.");
 //     return;
 // }
-// ~open_and_close_door(poordoor, $entering, false);
+// ~open_and_close_door(poordoor, $entering, ^false);
 
 [oplocu,melzardoor] // https://youtu.be/tmPf68hogzw?t=54
  if (last_useitem = melzarkey) {
-    ~open_and_close_door(poordoor, ~check_axis_locactive(coord), false);
+    ~open_and_close_door(poordoor, ~check_axis_locactive(coord), ^false);
 } else {
     ~displaymessage(^dm_default);
 }
 
 [oploc1,funexit]
-if (~check_axis_locactive(coord) = false) {
+if (~check_axis_locactive(coord) = ^false) {
     mes("The door is locked."); // osrs
     return;
 }
-~open_and_close_door(poordoor, true, false);
+~open_and_close_door(poordoor, ^true, ^false);
 
 
 // broken ladder
@@ -32,7 +32,7 @@ mes("The ladder is broken, I can't climb it."); // osrs
 // ladder
 [oploc1,funladdertop]
 // No arrivedelay in osrs
-~climb_ladder(movecoord(coord, 0, 0, 6400), true);
+~climb_ladder(movecoord(coord, 0, 0, 6400), ^true);
 
 // red door
 [oploc1,reddoor] mes("This door is securely locked."); // osrs
@@ -59,7 +59,7 @@ mes("The ladder is broken, I can't climb it."); // osrs
     // mes("The key disintegrates as it unlocks the door."); // osrs
     mes("The key disintegrates as it unlocks the door..."); // screenshot
     inv_del(inv, $key, 1);
-    ~open_and_close_door(poordoor, ~check_axis_locactive(coord), false);
+    ~open_and_close_door(poordoor, ~check_axis_locactive(coord), ^false);
 } else {
     ~displaymessage(^dm_default); // osrs
 }
@@ -157,7 +157,7 @@ p_delay(0);
 loc_change(funchestshut, 300);
 
 [oploc1,funchestopen]
-if (~quest_dragon_getting_map_parts = false | ~obj_gettotal(mappart1) > 0 | ~obj_gettotal(dragonmap) > 0) {
+if (~quest_dragon_getting_map_parts = ^false | ~obj_gettotal(mappart1) > 0 | ~obj_gettotal(dragonmap) > 0) {
     mes("You find nothing in the chest.");
 } else {
     // objbox looks soooo bad for our version, no way they used it

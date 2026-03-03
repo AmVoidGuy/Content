@@ -21,7 +21,7 @@ param=death_anim,demon_death
 param=attack_sound,black_demon_attack
 param=defend_sound,black_demon_hit
 param=death_sound,black_demon_death
-param=demonbane_vulnerable,yes
+param=demonbane_vulnerable,1
 param=death_drop,ashes
 timer=100
 // osrs stats and Vislvl match 1:1

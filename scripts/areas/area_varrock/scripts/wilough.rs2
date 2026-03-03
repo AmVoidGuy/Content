@@ -12,7 +12,7 @@ if(~obj_gettotal(trail_clue_hard_riddle016_puzzlebox) > 0) {
         ~chatnpc("<p,angry>That's not much use - go and fetch it!");
         return;
     }
-    if(~trail_puzzle_complete = true) {
+    if(~trail_puzzle_complete = ^true) {
         ~chatnpc("<p,neutral>Thanks <text_gender("mister!", "miss")>!");
         inv_del(inv, trail_clue_hard_riddle016_puzzlebox, 1);
         ~progress_clue_hard(trail_clue_hard_riddle016, "Wilough has given you another clue scroll!");

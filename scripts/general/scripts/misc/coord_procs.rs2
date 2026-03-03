@@ -1,12 +1,12 @@
-[proc,inmap](coord $coord1, coord $coord2)(boolean)
+[proc,inmap](coord $coord1, coord $coord2)(int)
 def_int $mapx1 = divide(coordx($coord1), 64);
 def_int $mapz1 = divide(coordz($coord1), 64);
 def_int $mapx2 = divide(coordx($coord2), 64);
 def_int $mapz2 = divide(coordz($coord2), 64);
 if ($mapx1 = $mapx2 & $mapz1 = $mapz2) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
 [proc,mapsquare](coord $coord)(int, int)
 def_int $map_x = calc(coordx($coord) / 64);
@@ -44,35 +44,35 @@ return("x: <tostring($x)> z: <tostring($z)> level: <tostring($y)> jcoord: <tostr
 
 // this is a helper proc that uses coord_pair_table in skill_firemaking\configs
 // example usage:
-// if (~inzone_coord_pair_table(bank_zones, coord) = true)
+// if (~inzone_coord_pair_table(bank_zones, coord) = ^true)
 // useful for firemaking, random events, mithril seeds, etc.
-[proc,inzone_coord_pair_table](dbrow $data, coord $coord)(boolean)
+[proc,inzone_coord_pair_table](dbrow $data, coord $coord)(int)
 def_coord $coord1;
 def_coord $coord2;
 def_int $i = 0;
 while($i < db_getfieldcount($data, coord_pair_table:coord_pair)) {
     $coord1, $coord2 = db_getfield($data, coord_pair_table:coord_pair, $i);
-    if(inzone($coord1, $coord2, $coord) = true) {
-        return (true);
+    if(inzone($coord1, $coord2, $coord) = ^true) {
+        return (^true);
     } else {
         $i = add($i, 1);
     }
 }
-return (false);
+return (^false);
 
-[proc,.inzone_coord_pair_table](dbrow $data, coord $coord)(boolean)
+[proc,.inzone_coord_pair_table](dbrow $data, coord $coord)(int)
 def_coord $coord1;
 def_coord $coord2;
 def_int $i = 0;
 while($i < db_getfieldcount($data, coord_pair_table:coord_pair)) {
     $coord1, $coord2 = db_getfield($data, coord_pair_table:coord_pair, $i);
-    if(.inzone($coord1, $coord2, $coord) = true) {
-        return (true);
+    if(.inzone($coord1, $coord2, $coord) = ^true) {
+        return (^true);
     } else {
         $i = add($i, 1);
     }
 }
-return (false);
+return (^false);
 
 // returns ^exact_north, ^exact_east, ^exact_south, ^exact_west
 [proc,coord_direction](coord $coord1, coord $coord2)(int)
@@ -227,7 +227,7 @@ def_int $z2 = coordz($coord2);
 def_coord $random_coord = movecoord($coord1, random(sub($x2, $x1)), 0, random(sub($z2, $z1)));
 
 def_int $i = 0;
-while (map_blocked($random_coord) = true) {
+while (map_blocked($random_coord) = ^true) {
     $random_coord = movecoord($coord1, random(sub($x2, $x1)), 0, random(sub($z2, $z1)));
     $i = calc($i + 1);
     if ($i = 50) {

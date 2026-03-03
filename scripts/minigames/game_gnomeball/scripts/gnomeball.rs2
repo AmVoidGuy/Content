@@ -18,9 +18,9 @@ if (%gnomeball_progress = ^gnomeball_game_started) {
 [oploc1,gate_gnomeball_game]
 def_obj $rhand = inv_getobj(worn, ^wearpos_rhand);
 def_obj $lhand = inv_getobj(worn, ^wearpos_lhand);
-def_boolean $exiting = ~check_axis(coord, loc_coord, loc_angle);
-if ($exiting = false) { 
-    if (~inv_slotspace(worn, inv, worn_hands) = false) {
+def_int $exiting = ~check_axis(coord, loc_coord, loc_angle);
+if ($exiting = ^false) { 
+    if (~inv_slotspace(worn, inv, worn_hands) = ^false) {
         mes("You do not have free inventory space for what you carry.");
         return;
     }
@@ -30,7 +30,7 @@ if ($exiting = false) {
     if ($lhand ! null) {
         ~unequip(^wearpos_lhand);
     }
-    ~open_and_close_door(loc_param(next_loc_stage), $exiting, false);
+    ~open_and_close_door(loc_param(next_loc_stage), $exiting, ^false);
     if (inv_total(worn, ball_gnomeball_game) > 0 | inv_total(inv, ball_gnomeball_game) > 0) {
         mes("The ref takes your ball for safe keeping. You will get it back when you leave.");
         inv_delslot(worn, ^wearpos_rhand);
@@ -39,7 +39,7 @@ if ($exiting = false) {
     }
     if_settab(gnomeball, 0);
 } else {
-    ~open_and_close_door(loc_param(next_loc_stage), $exiting, false);
+    ~open_and_close_door(loc_param(next_loc_stage), $exiting, ^false);
     if (%gnomeball_owedball = ^true) {
         // give free gnomeball
         if (inv_freespace(inv) = 0) {
@@ -74,7 +74,7 @@ if (inv_getobj(worn, ^wearpos_rhand) = ball_gnomeball_game) {
 %gnomeball_owedball = ^false;
 %score_gnomeball_game = 0;
 npc_findallany(^gnomeball_centre_coord, 14, ^vis_off);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if (%npc_attacking_uid = uid) {
         if (npc_param(gnome_original) ! null & npc_type = nc_param(npc_param(gnome_original), gnome_hasball)) {
             npc_changetype_keepall(npc_param(gnome_original), ^max_32bit_int);
@@ -82,20 +82,20 @@ while (npc_findnext = true) {
     }
 }
 
-[proc,gnomeball_inplay]()(boolean)
+[proc,gnomeball_inplay]()(int)
 .npc_findallany(^gnomeball_centre_coord, 14, ^vis_off);
-while (.npc_findnext = true) {
+while (.npc_findnext = ^true) {
     if (.%npc_attacking_uid = uid) {
         def_npc $original = nc_param(.npc_type, gnome_original);
         if ($original ! null & .npc_type = nc_param($original, gnome_hasball)) {
-            return(true);
+            return(^true);
         }
     }
 }
-return(false);
+return(^false);
 
 [opheld5,ball_gnomeball_game]
-if (~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
+if (~inzone_coord_pair_table(gnomeball_zones, coord) = ^true) {
     mes("The ball magically returns to the ref as you put it down.");
     inv_delslot(inv, last_slot);
     anim(human_pickupfloor, 0);
@@ -105,7 +105,7 @@ if (~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
 ~dropslot(last_slot);
 
 [proc,gnomeball_login]
-if (~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
+if (~inzone_coord_pair_table(gnomeball_zones, coord) = ^true) {
     p_telejump(0_37_54_14_32);
     // Test 1:
     // - enter with gnome ball
@@ -134,7 +134,7 @@ if (~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
     %gnomeball_owedball = ^false;
     %score_gnomeball_game = 0;
     npc_findallany(^gnomeball_centre_coord, 14, ^vis_off);
-    while (npc_findnext = true) {
+    while (npc_findnext = ^true) {
         if (%npc_attacking_uid = uid) {
             if (npc_param(gnome_original) ! null & npc_type = nc_param(npc_param(gnome_original), gnome_hasball)) {
                 npc_changetype_keepall(npc_param(gnome_original), ^max_32bit_int);

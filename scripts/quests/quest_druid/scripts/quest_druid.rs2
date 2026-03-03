@@ -6,7 +6,7 @@ session_log(^log_adventure, "Quest complete: Druidic Ritual");
 queue*(druid_fundamentals, 0)($uid);
 
 [queue,druid_fundamentals](npc_uid $uid)
-if(npc_finduid($uid) = true) {
+if(npc_finduid($uid) = ^true) {
     ~chatnpc("<p,happy>I will now explain the fundamentals of Herblore:");
     @kaqemeex_herblore_fundamentals;
 }

@@ -8,7 +8,7 @@ mes("You climb down the ladder.");
 
 [oploc1,magearena_ladder_from_cellar]
 p_arrivedelay;
-~climb_ladder(movecoord(coord, 549, 0, -756), true);
+~climb_ladder(movecoord(coord, 549, 0, -756), ^true);
 
 
 [oploc1,magearena_waterportal1] @jump_in_sparkling_pool(^sparkling_pool_chamber_coord);
@@ -85,7 +85,7 @@ if (coordz(coord) > coordz(loc_coord)) {
         ~mesbox("You cannot enter without the permission of Kolodion."); // rsc, might be mes
         return;
     }
-    if (~can_enter_mage_arena = false) {
+    if (~can_enter_mage_arena = ^false) {
         ~mesbox("You cannot enter the arena while carrying weapons or armour."); // rsc, might be mes
         return;
     }
@@ -96,7 +96,7 @@ if (coordz(coord) > coordz(loc_coord)) {
 mes("You pass through the mystical barrier."); //rsc
 
 
-[proc,can_enter_mage_arena]()(boolean)
+[proc,can_enter_mage_arena]()(int)
 if ((inv_totalcat(inv, armour_hands) > 0 | inv_totalcat(worn, armour_hands) > 0)
     | (inv_totalcat(inv, armour_helmet) > 0 | inv_totalcat(worn, armour_helmet) > 0) 
     | (inv_totalcat(inv, armour_body) > 0 | inv_totalcat(worn, armour_body) > 0) 
@@ -130,15 +130,15 @@ if ((inv_totalcat(inv, armour_hands) > 0 | inv_totalcat(worn, armour_hands) > 0)
     | (inv_totalcat(inv, trail_casket_medium) > 0)
     | (inv_totalcat(inv, trail_casket_hard) > 0)
     | (inv_totalcat(inv, cannon_parts) > 0)) {
-    return (false);
+    return (^false);
 }
-return (true);
+return (^true);
 
-[proc,mage_arena_in_progress]()(boolean)
+[proc,mage_arena_in_progress]()(int)
 if (%magearena < ^mage_arena_complete & %magearena > ^mage_arena_started) {
-    return (true);
+    return (^true);
 }
-return (false);
+return (^false);
 
 [queue,finish_mage_arena]
 p_delay(3);
@@ -148,7 +148,7 @@ sound_synth(teleport_all, 0, 0);
 p_delay(2);
 p_teleport(map_findsquare(^mage_arena_finish_coord, 0, 2, ^map_findsquare_lineofwalk));
 anim(null, 0);
-if (npc_find(coord, arenamage1, 5, 0) = true) {
+if (npc_find(coord, arenamage1, 5, 0) = ^true) {
     ~chatnpc("<p,happy>Well done, young adventurer; you truly are a worthy|battle mage.");
     @arenamage1_what_now;
     return;

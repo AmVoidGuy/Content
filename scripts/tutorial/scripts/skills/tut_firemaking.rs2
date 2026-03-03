@@ -13,7 +13,7 @@ if (stat(firemaking) < $level) {
 }
 // check if the coord is already occupied by an interactable loc
 // unconfirmed
-if (map_locaddunsafe(obj_coord) = true | ~inzone_coord_pair_table(bank_zones, coord) = true | ~inzone_coord_pair_table(party_room_zones, coord) = true) {
+if (map_locaddunsafe(obj_coord) = ^true | ~inzone_coord_pair_table(bank_zones, coord) = ^true | ~inzone_coord_pair_table(party_room_zones, coord) = ^true) {
     // https://youtu.be/ui3I-OPLqzE?t=253 doesn't use the mesbox
     mes("You can't light a fire here.");
     return;
@@ -43,11 +43,11 @@ if (stat(firemaking) < $level) {
     return;
 }
 // check if the coord is already occupied by an interactable loc
-if (map_locaddunsafe(coord) = true | map_blocked(coord) = true) {
+if (map_locaddunsafe(coord) = ^true | map_blocked(coord) = ^true) {
     mes("You can't light a fire here.");
     return;
 }
-if (~inzone_coord_pair_table(bank_zones, coord) = true) {
+if (~inzone_coord_pair_table(bank_zones, coord) = ^true) {
     mes("You can't light a fire here.");
     return;
 }

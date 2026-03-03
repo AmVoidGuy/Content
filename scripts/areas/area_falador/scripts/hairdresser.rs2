@@ -104,7 +104,7 @@ if (%if1 = 1) {
 buildappearance(worn);
 inv_del(inv, coins, 2000);
 
-if (npc_find(coord, hairdresser, 5, 0) = true) {
+if (npc_find(coord, hairdresser, 5, 0) = ^true) {
     ~chatnpc("<p,happy>It really suits you!");
 }
 
@@ -163,7 +163,7 @@ if (%if1 = 1) {
 buildappearance(worn);
 inv_del(inv, coins, 1000);
 
-if (npc_find(coord, hairdresser, 5, 0) = true) {
+if (npc_find(coord, hairdresser, 5, 0) = ^true) {
     ~chatnpc("<p,happy>Hope you like the new do!");
 }
 
@@ -220,6 +220,6 @@ if (%if1 = 1) {
 buildappearance(worn);
 inv_del(inv, coins, 1000);
 
-if (npc_find(coord, hairdresser, 5, 0) = true) {
+if (npc_find(coord, hairdresser, 5, 0) = ^true) {
     ~chatnpc("<p,happy>Mmm... very distinguished!");
 }

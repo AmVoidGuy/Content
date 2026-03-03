@@ -3,7 +3,7 @@
 ~chatnpc("<p,neutral>Hi. I'm a little busy right now."); 
 
 [label,talk_grubor_thru_door]
-if (npc_find(coord, grubor, 10, 0) = true) {
+if (npc_find(coord, grubor, 10, 0) = ^true) {
   facesquare(npc_coord);
   ~chatnpc("<p,quiz>Yes? What do you want?");
   if (%heroquest < ^hero_blackarm_gangmember_spoken | %phoenixgang >= ^phoenixgang_joined) { 

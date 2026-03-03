@@ -1,15 +1,15 @@
 [oploc1,loc_2025]
 // check if high enough fishing level
-def_boolean $is_inside = ~check_axis(coord, loc_coord, loc_angle);
-if ($is_inside = false) {
+def_int $is_inside = ~check_axis(coord, loc_coord, loc_angle);
+if ($is_inside = ^false) {
     if (stat(fishing) < 68) {
-        if (npc_find(coord, master_fisher, 10, 0) = true) {
+        if (npc_find(coord, master_fisher, 10, 0) = ^true) {
             ~chatnpc("<p,happy>Hello, only the top fishers are allowed in here, you need a fishing level of 68 to enter.");
         }
         return;
     }
 }
-~open_and_close_door(loc_param(next_loc_stage), $is_inside, false);
+~open_and_close_door(loc_param(next_loc_stage), $is_inside, ^false);
 
 [opnpc1,master_fisher]
 if (stat(fishing) < 68) {

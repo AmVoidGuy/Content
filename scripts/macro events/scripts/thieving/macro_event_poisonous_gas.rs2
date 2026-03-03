@@ -25,7 +25,7 @@ say("I better run!"); // 2004 https://i.imgur.com/nwQIetY.png
 // - Should this damage other players? If so, how is that possible without an npc?
 // - Could use a ~loc_within_distance approach but varp is safer. 
 [timer,poison_gas]
-if (loc_find(%macro_event_target_coord, chest_macro_gas) = true) { // set active loc
+if (loc_find(%macro_event_target_coord, chest_macro_gas) = ^true) { // set active loc
     // if player is within 1 tile of gas, apply damage (2-3)
     if (distance(loc_coord, coord) <= 1 & coordy(loc_coord) = coordy(coord)) {
         // todo: figure out the mes for this thing
@@ -43,6 +43,6 @@ if (loc_find(%macro_event_target_coord, chest_macro_gas) = true) { // set active
 if (%macro_event_target_coord = null) {
     return;
 }
-if (loc_find(%macro_event_target_coord, chest_macro_gas) = true) {
+if (loc_find(%macro_event_target_coord, chest_macro_gas) = ^true) {
     settimer(poison_gas, 1);
 }

@@ -1,5 +1,5 @@
 [ai_timer,_petcat]
-if (finduid(%npc_attacking_uid) = true) {
+if (finduid(%npc_attacking_uid) = ^true) {
     if (coordy(coord) ! coordy(npc_coord) | npc_range(coord) > 15) {
         npc_tele(map_findsquare(coord, 1, 1, ^map_findsquare_lineofwalk));
     }
@@ -12,7 +12,7 @@ if (%follower_uid = null) {
     cleartimer(petcat_growth);
     return;
 }
-if (npc_finduid(%follower_uid) = true) {
+if (npc_finduid(%follower_uid) = ^true) {
     def_category $cat_cat = oc_category(nc_param(npc_type, pet_item_id));
     if ($cat_cat = overgrown) {
         cleartimer(petcat_growth);
@@ -177,7 +177,7 @@ if (oc_category(nc_param(npc_type, pet_item_id)) = overgrown) {
     mes("The cat is just too big to catch vermin.");
     return;
 }
-if (.npc_find(coord, rat, 10, 1) = true) {  
+if (.npc_find(coord, rat, 10, 1) = ^true) {  
     def_int $chance = random(2); //50%
     def_int $vermin = getbit_range(%cat_growth, 20, 26);
     say("Go on kitty...kill that rat!"); //imgur.com/4wTXnUT 26/07/2004
@@ -186,7 +186,7 @@ if (.npc_find(coord, rat, 10, 1) = true) {
     p_delay(0);
     .npc_say("Eek!");
     sound_synth(rat_hit, 0, 0);
-    if(lineofwalk(coord, .npc_coord) = false) {
+    if(lineofwalk(coord, .npc_coord) = ^false) {
         mes("Your cat cannot get to its prey."); //osrs
         return;
     }
@@ -216,7 +216,7 @@ if (map_members = ^false) {
     mes(^mes_members_do_that); //todo: verify if there is a specific message for trying to drop in f2p
     return;
 }
-if (npc_finduid(%follower_uid) = true) {
+if (npc_finduid(%follower_uid) = ^true) {
     mes("You already have a follower."); //osrs
     return;
 }
@@ -234,7 +234,7 @@ npc_say("Miaow!");
 settimer(petcat_growth, 150);
 
 [proc,follower_death]
-if (npc_finduid(%follower_uid) = true) {
+if (npc_finduid(%follower_uid) = ^true) {
     %follower_uid = null;
     %follower_obj = null;
     %cat_growth = 0;
@@ -242,7 +242,7 @@ if (npc_finduid(%follower_uid) = true) {
 }
 
 [proc,follower_logout]
-if (npc_finduid(%follower_uid) = true) {
+if (npc_finduid(%follower_uid) = ^true) {
     npc_del;
     %follower_uid = null;
 }
@@ -253,7 +253,7 @@ if (%follower_obj ! null) {
         %follower_obj = null;
         return;
     }
-    if(npc_finduid(%follower_uid) = false) {
+    if(npc_finduid(%follower_uid) = ^false) {
         npc_add(coord, oc_param(%follower_obj, follower_id), ^max_32bit_int);
         %npc_attacking_uid = uid;
         %follower_uid = npc_uid;

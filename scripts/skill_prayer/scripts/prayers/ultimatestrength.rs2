@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_ultimatestrength]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_ultimatestrength;
 }
 %prayer10 = %prayer10;
@@ -16,7 +16,7 @@ if (%prayer10 = ^true) {
     ~prayer_deactivate(^prayer_ultimatestrength);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer10 = ^false;
     return;
 }

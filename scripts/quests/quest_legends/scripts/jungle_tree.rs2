@@ -9,11 +9,11 @@ if (inv_total(inv, thkaramjamap) = 0 & inv_total(inv, thkaramjamapcomp) = 0 & %l
     ~mesbox("You'll get lost in this jungle without a map. You decide not to go any further.");
     return;
 }
-def_namedobj $axe = ~woodcutting_axe_checker(false);
+def_namedobj $axe = ~woodcutting_axe_checker(^false);
 if ($axe = null) {
     // OSRS message
     ~mesbox("You'll need an axe to get through this rough jungle. You don't think it would be a good idea to continue without one you've got the level to use.");
-    if (~inzone_coord_pair_table(kharazi_dense_jungle, coord) = true) {
+    if (~inzone_coord_pair_table(kharazi_dense_jungle, coord) = ^true) {
         @dense_jungle_escape;
     }
     return;
@@ -21,7 +21,7 @@ if ($axe = null) {
 if (inv_total(inv, machette) = 0 & inv_total(worn, machette) = 0) {
     // Says bush even for tree
     ~mesbox("You need a machete to cut your way through this dense jungle bush.");
-    if (~inzone_coord_pair_table(kharazi_dense_jungle, coord) = true) {
+    if (~inzone_coord_pair_table(kharazi_dense_jungle, coord) = ^true) {
         @dense_jungle_escape;
     }
     return;
@@ -81,7 +81,7 @@ if (%action_delay < map_clock) {
 
 [label,chop_jungle]
 // check if player has axe and level, ifso return best axe
-def_namedobj $axe = ~woodcutting_axe_checker(true);
+def_namedobj $axe = ~woodcutting_axe_checker(^true);
 if ($axe = null) {
     return;
 }
@@ -121,7 +121,7 @@ if (%action_delay = map_clock) {
     def_int $respawnrate = db_getfield($data, woodcutting_trees:respawnrate, 0);
     def_int $deplete_chance = 4; // 3/4 chance to deplete - this is a guess
     // axe does not seem to have any effect, wc level does? (need more data)
-    if (stat_random(woodcutting, 70, 233) = true) {
+    if (stat_random(woodcutting, 70, 233) = ^true) {
         // Jungle trees/bushes just silently fail to give logs/xp if no space
         // There's also a chance to receive no logs. This seems to be about a 50% chance (tested w/100 rolls on OSRS)
         if (inv_freespace(inv) > 0 & random(2) = 0) {
@@ -145,7 +145,7 @@ if (%action_delay = map_clock) {
             }
 
             // todo: test on OSRS
-            if (map_blocked($dest) = true & ~jungle_at_dest($dest) = false) {
+            if (map_blocked($dest) = ^true & ~jungle_at_dest($dest) = ^false) {
                 mes("This way is blocked off, no chance to get through here!");
             }
             else {
@@ -166,13 +166,13 @@ if (%action_delay = map_clock) {
 }
 p_oploc(3);
 
-[proc,jungle_at_dest](coord $dest)(boolean)
-if (.loc_find($dest, kharazi_jungle_plant1) = true | .loc_find($dest, kharazi_jungle_plant2) = true | 
-    .loc_find($dest, kharazi_jungle_tree_logs) = true | .loc_find($dest, kharazi_jungle_tree1) = true | 
-    .loc_find($dest, kharazi_jungle_tree2) = true) {
-        return (true);
+[proc,jungle_at_dest](coord $dest)(int)
+if (.loc_find($dest, kharazi_jungle_plant1) = ^true | .loc_find($dest, kharazi_jungle_plant2) = ^true | 
+    .loc_find($dest, kharazi_jungle_tree_logs) = ^true | .loc_find($dest, kharazi_jungle_tree1) = ^true | 
+    .loc_find($dest, kharazi_jungle_tree2) = ^true) {
+        return (^true);
 }
-return (false);
+return (^false);
 
 [label,dense_jungle_escape]
 ~mesbox("It looks like you're lost in the jungle!|Would you like to try and scrabble out?");
@@ -181,9 +181,9 @@ if($op = 2) {
     mes("You decide to stay where you are.");
     return;
 }
-if(inzone(0_45_45_50_57,0_45_45_61_61,coord) = true) p_teleport(0_45_45_57_63);
-else if(inzone(0_44_45_42_54,0_44_45_57_59,coord) = true) p_teleport(0_44_45_50_61);
-else if(inzone(0_43_45_37_55,0_43_45_50_61,coord) = true) p_teleport(0_43_45_43_62);
+if(inzone(0_45_45_50_57,0_45_45_61_61,coord) = ^true) p_teleport(0_45_45_57_63);
+else if(inzone(0_44_45_42_54,0_44_45_57_59,coord) = ^true) p_teleport(0_44_45_50_61);
+else if(inzone(0_43_45_37_55,0_43_45_50_61,coord) = ^true) p_teleport(0_43_45_43_62);
 else p_teleport(0_44_45_4_61); // other 2 zones tele to same pos
 mes("You scrabble out of the jungle.");
 mes("You're scratched to pieces by the dense jungle trees,");

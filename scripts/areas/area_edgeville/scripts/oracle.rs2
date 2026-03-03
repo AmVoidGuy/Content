@@ -6,7 +6,7 @@ if(map_members = ^true & inv_total(inv, trail_clue_medium_anagram007) > 0) {
     @trail_oracle;
 }
 
-if (~quest_dragon_getting_map_parts = true & %dragon_oracle >= ^quest_dragon_knows_about_oracle) {
+if (~quest_dragon_getting_map_parts = ^true & %dragon_oracle >= ^quest_dragon_knows_about_oracle) {
     @multi2("I seek a piece of the map to the island of Crandor.", oracle_seek_map_piece, "Can you impart your wise knowledge to me, O Oracle?", oracle_random);
 }
 @oracle_random;

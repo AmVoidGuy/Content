@@ -1,7 +1,7 @@
 // official name
 [debugproc,maxme]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_int $max_xp = 130344310;
     stat_advance(attack, $max_xp);
     stat_advance(defence, $max_xp);

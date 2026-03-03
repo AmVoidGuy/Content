@@ -1,6 +1,6 @@
 [oploc1,guidordoor]
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
-if($entering = false) {
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
+if($entering = ^false) {
     ~open_and_close_door2(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), door_open);
     return;
 }
@@ -14,7 +14,7 @@ if(inv_total(worn, priest_gown) > 0 & inv_total(worn, priest_robe) > 0) {
     return;
 }
 mes("Guidor's wife refuses to let you enter.");
-if(npc_find(coord, guidors_wife, 5, 0) = true) {
+if(npc_find(coord, guidors_wife, 5, 0) = ^true) {
     ~chatnpc("<p,sad>Please leave my husband alone. He's very sick, and I don't want anyone bothering him.");
     ~chatplayer("<p,quiz>I'm sorry to hear that.|Is there anything I can do?");
     ~chatnpc("<p,sad>Thank you, but I just want him to see a priest.");
@@ -22,7 +22,7 @@ if(npc_find(coord, guidors_wife, 5, 0) = true) {
 }
 
 [oploc1,loc_2067]
-if(npc_find(coord, mournerwatchtower, 5, 0) = true) {
+if(npc_find(coord, mournerwatchtower, 5, 0) = ^true) {
     // https://youtu.be/_ZNalEQB70o?si=0Dlqc2ZXalgpWD7H&t=270
     ~chatnpc("<p,neutral>Keep away civilian.");
     ~chatplayer("<p,neutral>What's it to you?");
@@ -61,7 +61,7 @@ inv_add(inv, birdfeed, 1);
 
 
 [opheld1,pigeons]
-if(%biohazard = ^biohazard_used_birdfeed & inzone(0_39_51_63_35, 0_40_51_5_43, coord) = true) {
+if(%biohazard = ^biohazard_used_birdfeed & inzone(0_39_51_63_35, 0_40_51_5_43, coord) = ^true) {
     mes("The pigeons fly towards the watch tower");
     inv_del(inv, pigeons, 1);
     inv_add(inv, pigeoncage, 1);
@@ -79,11 +79,11 @@ mes("The pigeons don't want to leave");
 [label,biohazard_climb_ladder](coord $dest)
 if_close;
 mes("You climb up the rope ladder...");
-if (loc_find(0_39_51_61_3, bioladderwall) = true) {
+if (loc_find(0_39_51_61_3, bioladderwall) = ^true) {
     // Temp note: dur updated
     loc_change(bioladder, 5);
 }
-if (loc_find(0_39_51_62_3, bioladderwall) = true) {
+if (loc_find(0_39_51_62_3, bioladderwall) = ^true) {
     // Temp note: dur updated
     loc_change(bioladder, 5);
 }
@@ -115,30 +115,30 @@ if(~obj_gettotal(doctor_gown) = 0 & %biohazard >= ^biohazard_poisoned_stew) {
 }
 mes("but you find nothing of interest.");
 
-[oploc1,mournerquaters_gatel] @open_mournerhq_gate(^left, false);
-[oploc1,mournerquaters_gater] @open_mournerhq_gate(^right, false);
+[oploc1,mournerquaters_gatel] @open_mournerhq_gate(^left, ^false);
+[oploc1,mournerquaters_gater] @open_mournerhq_gate(^right, ^false);
 
 [oplocu,mournerquaters_gatel] 
-if(last_useitem = mournerkeytw) @open_mournerhq_gate(^left, true);
+if(last_useitem = mournerkeytw) @open_mournerhq_gate(^left, ^true);
 ~displaymessage(^dm_default);
 
 [oplocu,mournerquaters_gater]
-if(last_useitem = mournerkeytw) @open_mournerhq_gate(^right, true);
+if(last_useitem = mournerkeytw) @open_mournerhq_gate(^right, ^true);
 ~displaymessage(^dm_default);
 
-[label,open_mournerhq_gate](int $side, boolean $used_key)
+[label,open_mournerhq_gate](int $side, int $used_key)
 def_loc $loc_type = loc_type;
 def_locshape $loc_shape = loc_shape;
 def_int $loc_angle = loc_angle;
 def_coord $loc_coord = loc_coord;
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
-if($entering = true & inv_total(inv, mournerkeytw) = 0 & $used_key = false) { // cant enter with oploc1
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
+if($entering = ^true & inv_total(inv, mournerkeytw) = 0 & $used_key = ^false) { // cant enter with oploc1
     mes("The gate is locked.");
     p_delay(3);
     mes("You need a key.");
     return;
 }
-if($used_key = true) {
+if($used_key = ^true) {
     mes("The key fits the gate.");
     p_delay(3);
 }

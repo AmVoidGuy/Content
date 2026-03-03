@@ -35,7 +35,7 @@ npc_delay(2);
 
 def_coord $coord = npc_coord;
 npc_del;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_delay(1); // temp
 }
 npc_add($coord, kologre, 1000);
@@ -59,7 +59,7 @@ npc_delay(2);
 
 def_coord $coord = npc_coord;
 npc_del;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_delay(1); // temp
 }
 npc_add($coord, kolspider, 1000);
@@ -83,7 +83,7 @@ npc_delay(2);
 
 def_coord $coord = npc_coord;
 npc_del;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_delay(1); // temp
 }
 npc_add(movecoord($coord, 1, 0, 1), kolethereal, 1000);
@@ -107,7 +107,7 @@ npc_delay(2);
 
 def_coord $coord = npc_coord;
 npc_del;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_delay(1); // temp
 }
 npc_add($coord, koldemon, 1000);

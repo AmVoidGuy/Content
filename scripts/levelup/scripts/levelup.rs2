@@ -36,14 +36,14 @@ spotanim_pl(levelup_anim, 124, 0);
 // https://www.reddit.com/r/2007scape/comments/l7yh5p/the_new_level_up_fireworks_noise_is_extremely/
 // https://www.reddit.com/r/2007scape/comments/l9bp4q/when_did_they_implement_insanely_annoying/ 
 def_enum $unlocks_levels = db_getfield($unlock_row, levelup:unlocks_levels, 0);
-def_boolean $has_unlocks = false;
+def_int $has_unlocks = ^false;
 if ($unlocks_levels ! null) {
     $has_unlocks = ~enum_containsintvalue($unlocks_levels, $level);
 }
 // play the jingle
 def_string $jingle;
 def_int $jingle_millis;
-if ($has_unlocks = false) {
+if ($has_unlocks = ^false) {
     $jingle = db_getfield($unlock_row, levelup:levelup_jingle, 0);
     $jingle_millis = db_getfield($unlock_row, levelup:levelup_jingle_millis, 0);
 } else {
@@ -56,7 +56,7 @@ if_settext(db_getfield($unlock_row, levelup:title, 0), "@dbl@<$message>");
 if_settext(db_getfield($unlock_row, levelup:body, 0), "<db_getfield($unlock_row, levelup:level_prefix, 0)> <tostring($level)>.");
 if_openchat(db_getfield($unlock_row, levelup:interface, 0));
 p_pausebutton;
-if ($has_unlocks = false) {
+if ($has_unlocks = ^false) {
     return;
 }
 jump(~levelup_unlocks($stat));

@@ -4,11 +4,11 @@
 // create an apnpct trigger for it in this script
 
 [label,player_magic_attack]
-if (~npc_is_attackable = false) { // test: wormbrain's special mes shows before if you dont have enough runes to autocast a specific spell
+if (~npc_is_attackable = ^false) { // test: wormbrain's special mes shows before if you dont have enough runes to autocast a specific spell
     return;
 }
 def_dbrow $spell_data = ~get_spell_data(%autocast_spell);
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     if (%autocast_spell = db_getfield($spell_data, magic_spell_table:spell, 0)) { // matches osrs behavior
         ~player_autocast_reset;
     }
@@ -65,18 +65,18 @@ if (npc_type = ungadulu_good) {
 
 [proc,pvm_default_spell](int $spell)
 def_dbrow $spell_data = ~get_spell_data($spell);
-if (~pvm_combat_spell_checks($spell_data) = false) {
+if (~pvm_combat_spell_checks($spell_data) = ^false) {
     return;
 }
-if (~pvm_freeze_allowed($spell_data) = false) {
+if (~pvm_freeze_allowed($spell_data) = ^false) {
     return;
 }
-if (~pvm_debuff_allowed($spell_data) = false) {
+if (~pvm_debuff_allowed($spell_data) = ^false) {
     return;
 }
 def_int $duration = ~pvm_spell_cast($spell_data);
 // if player DOESNT splash:
-if (~player_npc_hit_roll(^magic_style) = true) {
+if (~player_npc_hit_roll(^magic_style) = ^true) {
     def_int $maxhit = ~magic_spell_maxhit($spell_data);
     if (npc_type = count_draynor & inv_total(inv, garlic) > 0) {
         $maxhit = add($maxhit, 1);
@@ -89,46 +89,46 @@ if (~player_npc_hit_roll(^magic_style) = true) {
 }
 
 // no 0 hp check for magic: you can attack slayer npcs when they're at 0 hp
-[proc,pvm_combat_spell_checks](dbrow $spell_data)(boolean)
+[proc,pvm_combat_spell_checks](dbrow $spell_data)(int)
 if_close;
 p_stopaction;
 if (map_clock < %action_delay) {
     p_opnpct(db_getfield($spell_data, magic_spell_table:spellcom, 0));
-    return(false);
+    return(^false);
 }
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     if (%autocast_spell = db_getfield($spell_data, magic_spell_table:spell, 0)) { // matches osrs behavior
         ~player_autocast_reset;
     }
-    return(false);
+    return(^false);
 }
-if (~player_in_combat_check = false) {
-    return(false);
+if (~player_in_combat_check = ^false) {
+    return(^false);
 }
 // check if npc is attackable
-if (~npc_is_attackable_opt = false) {
-    return(false);
+if (~npc_is_attackable_opt = ^false) {
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,pvm_freeze_allowed](dbrow $spell_data)(boolean)
+[proc,pvm_freeze_allowed](dbrow $spell_data)(int)
 // check if npc is already frozen
 if (db_getfield($spell_data, magic_spell_table:freeze_time, 0) > 0) {
     if (%npc_stunned > map_clock) {
         mes("Your target is already held by a magical force.");
-        return(false);
+        return(^false);
     }
     // immune message existed in 2005 https://oldschool.runescape.wiki/w/Update:Magic_and_Wilderness_Updates
     if (calc(%npc_stunned + 5) > map_clock) {
         // osrs wiki trivia says that snare didnt have this? No proof though
         // ive found proof of bind and entangle having this in 2006: https://imgur.com/a/jBb1awE
         mes("Your target is currently immune to that spell.");
-        return(false);
+        return(^false);
     }
 }
-return(true);
+return(^true);
 
-[proc,pvm_debuff_allowed](dbrow $spell_data)(boolean)
+[proc,pvm_debuff_allowed](dbrow $spell_data)(int)
 // check if npc can be stat reduced
 def_stat $stat;
 def_int $constant;
@@ -147,11 +147,11 @@ while ($i < db_getfieldcount($spell_data, magic_spell_table:stat_change) & $spel
             mes("Your foe's <lowercase(~stat_name($stat))> has already been weakened.");
         }
         p_stopaction;
-        return(false);
+        return(^false);
     }
     $i = add($i, 1);
 }
-return(true);
+return(^true);
 
 [proc,pvm_spell_cast](dbrow $spell_data)(int)
 ~delete_spell_runes($spell_data);
@@ -177,7 +177,7 @@ if (db_getfieldcount($spell_data, magic_spell_table:spotanim_proj) > 0) {
 // only continue fighting if auto cast is turned on
 // freezes, and stat reductions dont continue ever, even if you have autocast enabled.
 // crumble undead continues autocast for some reason
-if (~player_autocast_enabled = true & db_getfield($spell_data, magic_spell_table:continue_by_autocast, 0) = true) {
+if (~player_autocast_enabled = ^true & db_getfield($spell_data, magic_spell_table:continue_by_autocast, 0) = ^true) {
     p_opnpct(db_getfield(~get_spell_data(%autocast_spell), magic_spell_table:spellcom, 0));
 }
 return($duration);

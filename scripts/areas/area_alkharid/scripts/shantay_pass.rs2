@@ -44,9 +44,9 @@ if (inv_total(inv, thshantaydisc) < 1) {
 
 
 [oploc1,shantay_prisondoor]
-def_boolean $is_inside = ~check_axis_locactive(coord);
-if (%shantay_jail_progress = ^put_in_shantay_jail & npc_find(coord, shantay, 12, 0) = true) {
-    if ($is_inside = false) {
+def_int $is_inside = ~check_axis_locactive(coord);
+if (%shantay_jail_progress = ^put_in_shantay_jail & npc_find(coord, shantay, 12, 0) = ^true) {
+    if ($is_inside = ^false) {
         %shantay_jail_progress = ^paid_shantay_jail_fine;
         ~chatnpc("<p,neutral>You should be in jail! Well, no doubt the authorities in|Port Sarim know what they're doing. But if you get|into any more trouble, you'll be stuck back in jail.");
         return;
@@ -55,7 +55,7 @@ if (%shantay_jail_progress = ^put_in_shantay_jail & npc_find(coord, shantay, 12,
     @multi2("Yes, okay.", shantay_yes_okay_ill_pay_the_fine, "No thanks, you're not having my money.", shantay_no_thanks_youre_not_having_my_money);
 }
 
-~open_and_close_metal_gate(poshdooropen, $is_inside, false);
+~open_and_close_metal_gate(poshdooropen, $is_inside, ^false);
 
 [oploc1,shantay_pass_henge_doorway]
 if (map_members = ^false) {
@@ -73,7 +73,7 @@ if (coordz(coord) <= coordz(loc_coord)) {
     ~clear_desertheat_timer;
     return;
 }
-if (npc_find(coord, shantay_guard_still, 5, 0) = false) {
+if (npc_find(coord, shantay_guard_still, 5, 0) = ^false) {
     return;
 }
 if (inv_total(inv, shantay_pass) < 1) {

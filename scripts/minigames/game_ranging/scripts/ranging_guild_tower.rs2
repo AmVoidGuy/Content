@@ -6,40 +6,40 @@ mes("You climb up the ladder.");
 p_telejump(2_41_53_43_37);
 
 [proc,fill_towers]
-if(npc_find(2_41_53_44_49, guild_towerarcher1, 3, 0) = false) {
+if(npc_find(2_41_53_44_49, guild_towerarcher1, 3, 0) = ^false) {
     npc_add(2_41_53_43_49, guild_towerarcher1, 500);
     npc_add(2_41_53_44_49, guild_towerarcher1, 500);
     npc_add(2_41_53_45_49, guild_towerarcher1, 500);
-    if(npc_findexact(2_41_53_43_38, ranging_advisor1) = true) npc_say("The north tower has received reinforcements, kill them quickly!");
-} else if(npc_findexact(2_41_53_43_38, ranging_advisor1) = true) {
+    if(npc_findexact(2_41_53_43_38, ranging_advisor1) = ^true) npc_say("The north tower has received reinforcements, kill them quickly!");
+} else if(npc_findexact(2_41_53_43_38, ranging_advisor1) = ^true) {
     npc_say("The north tower is occupied, get them!");
 } 
 
-if(npc_find(2_41_53_57_36, guild_towerarcher2, 3, 0) = false) {
+if(npc_find(2_41_53_57_36, guild_towerarcher2, 3, 0) = ^false) {
     npc_add(2_41_53_57_37, guild_towerarcher2, 500);
     npc_add(2_41_53_57_36, guild_towerarcher2, 500);
     npc_add(2_41_53_57_35, guild_towerarcher2, 500);
-    if(npc_findexact(2_41_53_46_37, ranging_advisor2) = true) npc_say("The east tower has received reinforcements, kill them quickly!");
-} else if(npc_findexact(2_41_53_46_37, ranging_advisor2) = true) {
+    if(npc_findexact(2_41_53_46_37, ranging_advisor2) = ^true) npc_say("The east tower has received reinforcements, kill them quickly!");
+} else if(npc_findexact(2_41_53_46_37, ranging_advisor2) = ^true) {
     npc_say("The east tower is occupied, get them!");
 } 
 
-if(npc_find(2_41_53_44_23, guild_towerarcher3, 3, 0) = false) {
+if(npc_find(2_41_53_44_23, guild_towerarcher3, 3, 0) = ^false) {
     npc_add(2_41_53_43_23, guild_towerarcher3, 500);
     npc_add(2_41_53_44_23, guild_towerarcher3, 500);
     npc_add(2_41_53_45_23, guild_towerarcher3, 500);
-    if(npc_findexact(2_41_53_45_34, ranging_advisor3) = true) npc_say("The south tower has received reinforcements, kill them quickly!");
-} else if(npc_findexact(2_41_53_45_34, ranging_advisor3) = true) {
+    if(npc_findexact(2_41_53_45_34, ranging_advisor3) = ^true) npc_say("The south tower has received reinforcements, kill them quickly!");
+} else if(npc_findexact(2_41_53_45_34, ranging_advisor3) = ^true) {
     npc_say("The south tower is occupied, get them!");
 }
 
-if(npc_find(2_41_53_31_36, guild_towerarcher4, 3, 0) = false) {
+if(npc_find(2_41_53_31_36, guild_towerarcher4, 3, 0) = ^false) {
     npc_add(2_41_53_31_37, guild_towerarcher4, 500);
     npc_add(2_41_53_31_36, guild_towerarcher4, 500);
     npc_add(2_41_53_31_35, guild_towerarcher4, 500);
-    if(npc_findexact(2_41_53_42_35, ranging_advisor4) = true) npc_say("The west tower has received reinforcements, kill them quickly!");
+    if(npc_findexact(2_41_53_42_35, ranging_advisor4) = ^true) npc_say("The west tower has received reinforcements, kill them quickly!");
 }
-else if(npc_findexact(2_41_53_42_35, ranging_advisor4) = true) { 
+else if(npc_findexact(2_41_53_42_35, ranging_advisor4) = ^true) { 
     npc_say("The west tower is occupied, get them!");
 }
 
@@ -55,8 +55,8 @@ p_telejump(0_41_53_43_37);
 
 [ai_queue3,guild_towerarcher1]
 gosub(npc_death);
-if(npc_find(npc_coord, guild_towerarcher1, 2, 0) = false) {
-    if(npc_findexact(2_41_53_43_38, ranging_advisor1) = true) {
+if(npc_find(npc_coord, guild_towerarcher1, 2, 0) = ^false) {
+    if(npc_findexact(2_41_53_43_38, ranging_advisor1) = ^true) {
         npc_say("The north tower is defeated! Hurray!");
         npc_settimer(30);
     }
@@ -68,8 +68,8 @@ if(npc_find(npc_coord, guild_towerarcher1, 2, 0) = false) {
 
 [ai_queue3,guild_towerarcher2]
 gosub(npc_death);
-if(npc_find(npc_coord, guild_towerarcher2, 2, 0) = false) {
-    if(npc_findexact(2_41_53_46_37, ranging_advisor2) = true) {
+if(npc_find(npc_coord, guild_towerarcher2, 2, 0) = ^false) {
+    if(npc_findexact(2_41_53_46_37, ranging_advisor2) = ^true) {
         npc_say("The east tower is defeated! Hurray!");
         npc_settimer(30);
     }
@@ -81,8 +81,8 @@ if(npc_find(npc_coord, guild_towerarcher2, 2, 0) = false) {
 
 [ai_queue3,guild_towerarcher3]
 gosub(npc_death);
-if(npc_find(npc_coord, guild_towerarcher3, 2, 0) = false) {
-    if(npc_findexact(2_41_53_45_34, ranging_advisor3) = true) {
+if(npc_find(npc_coord, guild_towerarcher3, 2, 0) = ^false) {
+    if(npc_findexact(2_41_53_45_34, ranging_advisor3) = ^true) {
         npc_say("The south tower is defeated! Hurray!");
         npc_settimer(30);
     }
@@ -94,46 +94,46 @@ if(npc_find(npc_coord, guild_towerarcher3, 2, 0) = false) {
 
 [ai_queue3,guild_towerarcher4]
 gosub(npc_death);
-if(npc_find(npc_coord, guild_towerarcher4, 2, 0) = false) {
-    if(npc_findexact(2_41_53_42_35, ranging_advisor4) = true) {
+if(npc_find(npc_coord, guild_towerarcher4, 2, 0) = ^false) {
+    if(npc_findexact(2_41_53_42_35, ranging_advisor4) = ^true) {
         npc_say("The west tower is defeated! Hurray!");
         npc_settimer(30);
     }
 }
 
 [ai_timer,ranging_advisor1]
-if(.npc_find(2_41_53_44_49, guild_towerarcher1, 3, 0) = false) {
+if(.npc_find(2_41_53_44_49, guild_towerarcher1, 3, 0) = ^false) {
     .npc_add(2_41_53_43_49, guild_towerarcher1, 500);
     .npc_add(2_41_53_44_49, guild_towerarcher1, 500);
     .npc_add(2_41_53_45_49, guild_towerarcher1, 500);
-    if(.npc_findexact(2_41_53_43_38, ranging_advisor1) = true) .npc_say("The north tower has received reinforcements, kill them quickly!");
+    if(.npc_findexact(2_41_53_43_38, ranging_advisor1) = ^true) .npc_say("The north tower has received reinforcements, kill them quickly!");
 }
 npc_settimer(0);
 
 [ai_timer,ranging_advisor2]
-if(.npc_find(2_41_53_57_36, guild_towerarcher2, 3, 0) = false) {
+if(.npc_find(2_41_53_57_36, guild_towerarcher2, 3, 0) = ^false) {
     .npc_add(2_41_53_57_37, guild_towerarcher2, 500);
     .npc_add(2_41_53_57_36, guild_towerarcher2, 500);
     .npc_add(2_41_53_57_35, guild_towerarcher2, 500);
-    if(.npc_findexact(2_41_53_46_37, ranging_advisor2) = true) .npc_say("The east tower has received reinforcements, kill them quickly!");
+    if(.npc_findexact(2_41_53_46_37, ranging_advisor2) = ^true) .npc_say("The east tower has received reinforcements, kill them quickly!");
 }
 npc_settimer(0);
 
 [ai_timer,ranging_advisor3]
-if(.npc_find(2_41_53_44_23, guild_towerarcher3, 3, 0) = false) {
+if(.npc_find(2_41_53_44_23, guild_towerarcher3, 3, 0) = ^false) {
     .npc_add(2_41_53_43_23, guild_towerarcher3, 500);
     .npc_add(2_41_53_44_23, guild_towerarcher3, 500);
     .npc_add(2_41_53_45_23, guild_towerarcher3, 500);
-    if(.npc_findexact(2_41_53_45_34, ranging_advisor3) = true) .npc_say("The south tower has received reinforcements, kill them quickly!");
+    if(.npc_findexact(2_41_53_45_34, ranging_advisor3) = ^true) .npc_say("The south tower has received reinforcements, kill them quickly!");
 }
 npc_settimer(0);
 
 [ai_timer,ranging_advisor4]
-if(.npc_find(2_41_53_31_36, guild_towerarcher4, 3, 0) = false) {
+if(.npc_find(2_41_53_31_36, guild_towerarcher4, 3, 0) = ^false) {
     .npc_add(2_41_53_31_37, guild_towerarcher4, 500);
     .npc_add(2_41_53_31_36, guild_towerarcher4, 500);
     .npc_add(2_41_53_31_35, guild_towerarcher4, 500);
-    if(.npc_findexact(2_41_53_42_35, ranging_advisor4) = true) .npc_say("The west tower has received reinforcements, kill them quickly!");
+    if(.npc_findexact(2_41_53_42_35, ranging_advisor4) = ^true) .npc_say("The west tower has received reinforcements, kill them quickly!");
 }
 npc_settimer(0);
 

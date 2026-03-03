@@ -189,7 +189,7 @@ mes("The cart driver goes back to his work.");
 [label,cartdriver_call_guards]
 if(random(2) = 0) {
     mes("Some guards notice you and come over.");
-    if(npc_find(coord, desertminingmercenary2, 4, 2) = true | npc_find(coord, desertminingmercenary1, 4, 2) = true) { // check dist on this
+    if(npc_find(coord, desertminingmercenary2, 4, 2) = ^true | npc_find(coord, desertminingmercenary1, 4, 2) = ^true) { // check dist on this
         npc_say("Hey, what are you doin'!");
         ~npc_retaliate(0);
         ~desertcamp_guard_search;

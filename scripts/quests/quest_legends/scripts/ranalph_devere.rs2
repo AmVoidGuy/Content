@@ -1,5 +1,5 @@
 [opnpc1,ranalph_devere]
-if (~player_in_combat_check = false) {
+if (~player_in_combat_check = ^false) {
     return;
 }
 if(%legendsquest < ^legends_heart_in_recess & ~obj_gettotal(heartcrystal_sectionc) = 0 & ~obj_gettotal(heartcrystal) = 0 
@@ -22,7 +22,7 @@ if(add(%lastcombat, 8) < map_clock & %aggressive_npc ! npc_uid) {
 @player_combat_start;
 
 [ai_opplayer2,ranalph_devere]
-if(inzone(0_43_45_0_0, 0_46_45_63_63, coord) = false & (%npc_aggressive_player ! uid & (~obj_gettotal(heartcrystal_sectionc) > 0 | ~obj_gettotal(heartcrystal) > 0 | ~obj_gettotal(heartcrystal_glow) > 0 | %legendsquest >= ^legends_heart_in_recess | testbit(%legends_bits, ^legends_smelting_lump) = ^true))) {
+if(inzone(0_43_45_0_0, 0_46_45_63_63, coord) = ^false & (%npc_aggressive_player ! uid & (~obj_gettotal(heartcrystal_sectionc) > 0 | ~obj_gettotal(heartcrystal) > 0 | ~obj_gettotal(heartcrystal_glow) > 0 | %legendsquest >= ^legends_heart_in_recess | testbit(%legends_bits, ^legends_smelting_lump) = ^true))) {
     npc_setmode(null);
     return;
 }
@@ -39,10 +39,10 @@ if(add(%lastcombat, 8) < map_clock & %aggressive_npc ! npc_uid) {
 ~npc_default_attack;
 
 [ai_queue3,ranalph_devere]
-if(finduid(%npc_aggressive_player) = true) {
+if(finduid(%npc_aggressive_player) = ^true) {
     if_close;
-    if(p_finduid(uid) = true) {
-        if(inzone(0_43_45_0_0, 0_46_45_63_63, coord) = true) {
+    if(p_finduid(uid) = ^true) {
+        if(inzone(0_43_45_0_0, 0_46_45_63_63, coord) = ^true) {
             %legends_bits = setbit(%legends_bits, ^legends_defeated_ranalph_final);
             mes("A nerve tingling scream echoes around you");
             mes("as you slay Ranalph Devere.");

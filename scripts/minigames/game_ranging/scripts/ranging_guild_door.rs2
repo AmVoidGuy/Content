@@ -15,7 +15,7 @@ if(coordx(coord) > coordx(loc_coord) | coordz(coord) < coordz(loc_coord)) {
     return;
 }
 if(stat(ranged) < 40) { // todo: check if requirement is enforced from inside as well
-    if(npc_find(coord, ranging_guild_doorman, 5, 0) = true) {
+    if(npc_find(coord, ranging_guild_doorman, 5, 0) = ^true) {
         ~chatnpc("<p,neutral>Hey you can't come in here. You must be a level 40 ranger to enter.");
     }
     return;

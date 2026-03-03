@@ -10,7 +10,7 @@ inv_add(inv, oak_logs, 3);
 
 [debugproc,fm]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_teleport(0_50_53_5_37);
     inv_clear(inv);
     inv_add(inv, tinderbox, 1);
@@ -18,6 +18,6 @@ if (p_finduid(uid) = true) {
 }
 
 [debugproc,pt]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_teleport(movecoord(coord, 1, 0, 0));
 }

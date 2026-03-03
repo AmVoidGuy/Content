@@ -24,7 +24,7 @@ if ($data = null) {
 }
 // check if f2p. Not sure if this is a thing. just to be safe i guess
 def_namedobj $product = db_getfield($data, woodcutting_trees:product, 0);
-if (oc_members($product) = true) {
+if (oc_members($product) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;
@@ -53,7 +53,7 @@ if (afk_event = ^true) {
     @macro_randomwoodcutting;
 }
 if (%action_delay < map_clock) {
-    if ($level > 0 & ~woodcutting_axe_checker(true) = null) {
+    if ($level > 0 & ~woodcutting_axe_checker(^true) = null) {
         return;
     }
     %action_delay = calc(map_clock + 3);
@@ -61,7 +61,7 @@ if (%action_delay < map_clock) {
     return;
 }
 // for level 1 trees, axe message is here after the skill clock is set. But only on first interaction
-def_obj $axe = ~woodcutting_axe_checker(true);
+def_obj $axe = ~woodcutting_axe_checker(^true);
 if ($axe = null) {
     return;
 }
@@ -79,7 +79,7 @@ p_oploc(3);
 
 
 [label,cut_tree]
-def_obj $axe = ~woodcutting_axe_checker(true);
+def_obj $axe = ~woodcutting_axe_checker(^true);
 if ($axe = null) {
     return;
 }
@@ -127,7 +127,7 @@ if ($respawnrate = 0) {
     $respawnrate = add(120, random(80));
     $deplete_chance = 0;
 }
-if (stat_random(woodcutting, $tree_chance_low, $tree_chance_high) = true) {
+if (stat_random(woodcutting, $tree_chance_low, $tree_chance_high) = ^true) {
     def_namedobj $product = db_getfield($data, woodcutting_trees:product, 0);
     mes("You get some <lowercase(oc_name($product))>.");
     stat_advance(woodcutting, db_getfield($data, woodcutting_trees:productexp, 0));
@@ -142,7 +142,7 @@ if (stat_random(woodcutting, $tree_chance_low, $tree_chance_high) = true) {
 p_oploc(3);
 
 // check if player has axe and level, ifso return best axe
-[proc,woodcutting_axe_checker](boolean $print_mes)(namedobj)
+[proc,woodcutting_axe_checker](int $print_mes)(namedobj)
 def_int $level = stat(woodcutting);
 def_obj $obj1 = inv_getobj(worn, ^wearpos_rhand);
 // no wc req in 2004, this is also the case in rsc. Heres a guide from 2004 that says so :
@@ -192,7 +192,7 @@ if (($obj1 = bronze_axe | inv_total(inv, bronze_axe) > 0)) {
 // mes("You need an axe to chop down this tree."); // this message was added in 2005 when they fixed axe wc reqs
 // https://imgur.com/Cj7w6y9
 // https://imgur.com/fnmlJ7R
-if ($print_mes = true) {
+if ($print_mes = ^true) {
     mes("You do not have an axe which you have the level to use.");
 }
 return(null);

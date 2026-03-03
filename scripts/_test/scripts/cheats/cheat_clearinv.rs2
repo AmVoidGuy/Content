@@ -11,7 +11,7 @@ if ($inv = inv) {
     mes("Inventory wiped.");
 } else {
     if_close;
-    if (p_finduid(uid) = true) {
+    if (p_finduid(uid) = ^true) {
         inv_clear($inv);
 
         if ($inv = worn) {

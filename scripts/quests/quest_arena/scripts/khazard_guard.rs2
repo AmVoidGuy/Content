@@ -42,7 +42,7 @@ switch_int(%arenaquest) {
         ~chatplayer("<p,happy>Hi.");
         @khazard_guard_generals_pet;
     case ^arena_entered_ogre_fight, ^arena_defeated_ogre :
-        if(~wearing_khazard_armour = true) {
+        if(~wearing_khazard_armour = ^true) {
             ~chatplayer("<p,neutral>Hello.");
             ~chatnpc("<p,angry>I hope you're keeping busy.");
             ~chatplayer("<p,neutral>Of course.");
@@ -70,7 +70,7 @@ switch_int(%arenaquest) {
 switch_int(%arenaquest) {
     case ^arena_given_khali_brew, ^arena_entered_ogre_fight, ^arena_defeated_ogre, ^arena_sent_jail, ^arena_defeated_scorpion,
         ^arena_defeated_bouncer, ^arena_freed_servils, ^arena_defeated_genkhazard :
-        if(~wearing_khazard_armour = false) {
+        if(~wearing_khazard_armour = ^false) {
             ~chatplayer("<p,neutral>Hello.");
             ~chatnpc("<p,drunk>Go away. Thish areash resh... restricted! We don't like strangersh, 'specially ones who sway. Oooh!");
             return;
@@ -84,7 +84,7 @@ switch_int(%arenaquest) {
         ~chatplayer("<p,quiz>Hello, how's the job?");
         ~chatnpc("<p,drunk>Please, leave me alone. I'm sure the walls never used to sway that much.");
     case ^arena_spoken_drunkguard :
-        if(~wearing_khazard_armour = true) {
+        if(~wearing_khazard_armour = ^true) {
             ~chatplayer("<p,neutral>Hello again.");
             ~chatnpc("<p,bored>Bored, bored, bored. You'd think the slaves would be more entertaining. Selfish the lot of them.");
             if(inv_total(inv, khali_brew) > 0) {
@@ -96,7 +96,7 @@ switch_int(%arenaquest) {
         }
         @khazard_guard_restricted; // not 100% sure on this
     case ^arena_obtained_armour :
-        if(~wearing_khazard_armour = true) {
+        if(~wearing_khazard_armour = ^true) {
             ~chatplayer("<p,happy>Long live General Khazard!");
             ~chatnpc("<p,confused>Erm.. yes.. quite right.");
             ~chatnpc("<p,bored>Have you come to laugh at the fight slaves? I used to really enjoy it, but after a while they become quite boring.");

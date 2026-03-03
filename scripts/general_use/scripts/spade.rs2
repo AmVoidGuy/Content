@@ -6,8 +6,8 @@ if (distance(coord, 0_46_52_55_55) <= 1) {
 
 // zombiequeen (todo: did this always exist? It almost certainly existed in 2007, checking https://youtu.be/w1I0GXAkLKw?si=avVq7fsXaho-wZvK&t=317, it does
 // facesquare(loc_coord), which wouldnt be needed if it was only triggerable from oplocu
-if(inzone(0_45_46_40_54, 0_45_46_43_55, coord) = true) {
-    if(loc_find(0_45_46_41_55, ahzarhoon_entrance) = true) {
+if(inzone(0_45_46_40_54, 0_45_46_43_55, coord) = ^true) {
+    if(loc_find(0_45_46_41_55, ahzarhoon_entrance) = ^true) {
         @zombiequeen_mound_dig;
     }
 }
@@ -18,21 +18,21 @@ p_stopaction;
 anim(human_dig, 0);
 
 // itexam - digsite area, workmen get angry if you dig around the whole mapsquare
-if (inzone(0_52_53_0_0, 0_52_53_63_63, coord) = true) {
+if (inzone(0_52_53_0_0, 0_52_53_63_63, coord) = ^true) {
     @digworkman1_intervene;
 }
 
 // Treasure Trails
-if(map_members = ^true & ~trail_hasclue_inv = true) {
+if(map_members = ^true & ~trail_hasclue_inv = ^true) {
     def_obj $clue = ~trail_getclue_inv;
 
-    if(~trail_clue_coord($clue) = true & oc_param($clue, trail_casket) ! null) {
-        def_boolean $sextant_clue = oc_param($clue, trail_sextant);
+    if(~trail_clue_coord($clue) = ^true & oc_param($clue, trail_casket) ! null) {
+        def_int $sextant_clue = oc_param($clue, trail_sextant);
         def_coord $trail_coord = oc_param($clue, trail_coord);
         // for coord clues, https://www.youtube.com/watch?v=rcNbwik5-Ig looking at wiki and this 2013 video you can be 1 tile off and it will still work
         // todo: try and confirm this behaviour for 2004, this pre dec-2006 video also has this behaviour https://www.youtube.com/watch?v=yH6YaavzuMc
         // also https://www.youtube.com/watch?v=QhdRJd-g438 for maps
-        if($sextant_clue = true & (inv_total(inv, trail_watch) = 0 | inv_total(inv, trail_chart) = 0 | inv_total(inv, trail_sextant) = 0)) {
+        if($sextant_clue = ^true & (inv_total(inv, trail_watch) = 0 | inv_total(inv, trail_chart) = 0 | inv_total(inv, trail_sextant) = 0)) {
             ~displaymessage(^dm_default);
             return;
         }
@@ -41,7 +41,7 @@ if(map_members = ^true & ~trail_hasclue_inv = true) {
                 def_npc $guard = oc_param($clue, trail_guardian);
                 if($guard = trail_hard & testbit(%trail_status, 4) = ^false) {
                     npc_huntall(coord, 10, 0); // zamorak/saradomin wizards range
-                    while (npc_findnext = true) {
+                    while (npc_findnext = ^true) {
                         if(npc_type = trail_hard & %npc_aggressive_player = uid) {
                             return;
                         }

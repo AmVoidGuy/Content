@@ -60,7 +60,7 @@ if ($product_data = null) {
     ~displaymessage(^dm_default);
     return;
 }
-if (db_getfield($product_data, craft_leather_table:members, 0) = true) {
+if (db_getfield($product_data, craft_leather_table:members, 0) = ^true) {
     if (map_members = ^false) {
         mes(^mes_members_feature);
         return;

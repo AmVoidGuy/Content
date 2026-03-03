@@ -35,7 +35,7 @@ switch_obj (last_useitem) {
 }
 
 [label,attempt_fish_lava_eel_loc]
-if (~oil_rod_fishing_check_requirements = false) {
+if (~oil_rod_fishing_check_requirements = ^false) {
     return;
 }
 if (%action_delay < map_clock) {
@@ -58,7 +58,7 @@ if (%action_delay = map_clock) {
 }
 
 [label,fish_lava_eel_loc]
-if (~oil_rod_fishing_check_requirements = false) {
+if (~oil_rod_fishing_check_requirements = ^false) {
     return;
 }
 if (%action_delay < map_clock) {

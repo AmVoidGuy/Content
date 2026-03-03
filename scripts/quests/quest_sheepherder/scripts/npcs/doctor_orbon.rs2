@@ -63,13 +63,13 @@ if (inv_total(inv, coins) < 100) {
 ~chatplayer("<p,confused>Sorry doc, that's too much.");
 ~chatnpc("<p,neutral>I'm afraid it will cost me that much to replace.|I cannot possibly sell it for less.");
 
-[proc,has_plague_outfit]()(boolean)
+[proc,has_plague_outfit]()(int)
 if ( 
     ((inv_total(inv, plague_trousers) > 0) | (inv_total(worn, plague_trousers) > 0))
     &  ((inv_total(inv, plague_jacket) > 0) | (inv_total(worn, plague_jacket) > 0))) {
-        return(true);
+        return(^true);
     }
-    return(false);
+    return(^false);
 
 
 [label,doctor_orbon_post_clothing_purchase]
@@ -78,9 +78,9 @@ if (
 ~chatplayer("<p,neutral>Not yet.");
 ~chatnpc("<p,angry>You should hurry, they could infect the entire town in a matter of a few days!");
 
-def_boolean $has_plague_outfit = ~has_plague_outfit;
+def_int $has_plague_outfit = ~has_plague_outfit;
     
-if ($has_plague_outfit = false) {
+if ($has_plague_outfit = ^false) {
     ~chatnpc("<p,neutral>I notice you do not appear to have your protective clothing with you. Would you care to buy some more? Same price as before.");
     @multi2(
         "Ok, I'll take it.", doctor_orbon_ill_take_it,

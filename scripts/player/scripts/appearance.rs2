@@ -1,5 +1,5 @@
 [proc,update_bas]
-if (~inzone_coord_pair_table(trawler_wreck_zones, coord) = true) {
+if (~inzone_coord_pair_table(trawler_wreck_zones, coord) = ^true) {
     buildappearance(worn);
     return;
 }
@@ -24,7 +24,7 @@ if ($weapon = null) {
 buildappearance(worn);
 
 [proc,.update_bas]
-if (~.inzone_coord_pair_table(trawler_wreck_zones, .coord) = true) {
+if (~.inzone_coord_pair_table(trawler_wreck_zones, .coord) = ^true) {
     .buildappearance(worn);
     return;
 }
@@ -79,13 +79,13 @@ def_int $bit = multiply(0x1, pow(2, $icon));
 .headicons_set(and($current, sub($current, $bit)));
 .buildappearance(worn);
 
-[proc,headicon_exists](int $icon)(boolean)
+[proc,headicon_exists](int $icon)(int)
 def_int $current = headicons_get;
 def_int $bit = pow(2, $icon);
 if (and($current, $bit) = $bit) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
 [proc,headicons_clear]()
 headicons_set(0);
@@ -106,7 +106,7 @@ if (staffmodlevel >= 3 & inv_getobj(worn, ^wearpos_rhand) = poisoned_dagger_p) {
     stat_add(magic, calc(255 - stat(magic)), 0);
     stat_add(prayer, calc(255 - stat(prayer)), 0);
 }
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_animprotect(^false);
 }
 ~update_weight_equipment; // replace weight-reducing equipment
@@ -129,7 +129,7 @@ if (.staffmodlevel >= 3 & .inv_getobj(worn, ^wearpos_rhand) = poisoned_dagger_p)
     .stat_add(magic, calc(255 - .stat(magic)), 0);
     .stat_add(prayer, calc(255 - .stat(prayer)), 0);
 }
-if (.p_finduid(.uid) = true) {
+if (.p_finduid(.uid) = ^true) {
     .p_animprotect(^false);
 }
 .cam_reset;

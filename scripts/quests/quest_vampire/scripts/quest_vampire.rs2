@@ -16,7 +16,7 @@ if (%vampire = ^vampire_complete | %vampire = ^quest_vampire_not_started) {
 
 if (%vampire > ^quest_vampire_not_started) {
     npc_findallany(0_48_152_6_46, 6, ^vis_off);
-    while (npc_findnext = true) {
+    while (npc_findnext = ^true) {
         if (npc_type = count_draynor & %npc_attacking_uid = uid) {
             return;
         }

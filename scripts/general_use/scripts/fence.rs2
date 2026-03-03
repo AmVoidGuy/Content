@@ -8,7 +8,7 @@ switch_int(loc_angle) {
     case ^loc_east : $dir = ^exact_east;
     case ^loc_south : $dir = ^exact_south;
 }
-if(~check_axis(coord, loc_coord, loc_angle) = false) {
+if(~check_axis(coord, loc_coord, loc_angle) = ^false) {
     $start = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
     $end = loc_coord;
     switch_int(loc_angle) {
@@ -24,5 +24,5 @@ if (coord ! $start) {
 }
 facesquare($end);
 p_delay(0);
-~agility_exactmove(human_walk_style, 0, 2, $start, $end, 0, 76, $dir, true);
+~agility_exactmove(human_walk_style, 0, 2, $start, $end, 0, 76, $dir, ^true);
 p_teleport($end);

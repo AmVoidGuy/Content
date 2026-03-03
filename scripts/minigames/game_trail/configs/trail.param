@@ -3,7 +3,7 @@ type=coord
 default=null
 
 [trail_sextant]
-type=boolean
+type=int
 default=null
 
 [trail_desc]

@@ -1,6 +1,6 @@
 [label,pvp_magic_attack]
 def_dbrow $spell_data = ~get_spell_data(%autocast_spell);
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     if (%autocast_spell = db_getfield($spell_data, magic_spell_table:spell, 0)) { // matches osrs behavior
         ~player_autocast_reset;
     }
@@ -37,20 +37,20 @@ p_opplayert(db_getfield($spell_data, magic_spell_table:spellcom, 0));
 
 [proc,pvp_default_spell](int $spell)
 def_dbrow $spell_data = ~get_spell_data($spell);
-if (~pvp_combat_spell_checks($spell_data) = false) {
+if (~pvp_combat_spell_checks($spell_data) = ^false) {
     return;
 }
-if (~pvp_freeze_allowed($spell_data) = false) {
+if (~pvp_freeze_allowed($spell_data) = ^false) {
     return;
 }
-if (~pvp_debuff_allowed($spell_data) = false) {
+if (~pvp_debuff_allowed($spell_data) = ^false) {
     return;
 }
 
 def_int $duration = ~pvp_spell_cast($spell_data);
 
 // spell hit
-if (~pvp_hit_roll(^magic_style) = true) {
+if (~pvp_hit_roll(^magic_style) = ^true) {
     ~pvp_spell_success($spell_data, ~magic_spell_maxhit($spell_data), $duration);
     ~pvp_stat_change_effect($spell_data);
     ~pvp_freeze_effect($spell_data);
@@ -58,53 +58,53 @@ if (~pvp_hit_roll(^magic_style) = true) {
     ~pvp_spell_fail($spell_data, $duration);
 }
 
-[proc,pvp_combat_spell_checks](dbrow $spell_data)(boolean)
+[proc,pvp_combat_spell_checks](dbrow $spell_data)(int)
 if_close;
 p_stopaction;
 if (.%death = ^true) {
     p_stopaction;
-    return(false);
+    return(^false);
 }
 if (map_clock < %action_delay) {
     p_opplayert(db_getfield($spell_data, magic_spell_table:spellcom, 0));
-    return(false);
+    return(^false);
 }
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     if (%autocast_spell = db_getfield($spell_data, magic_spell_table:spell, 0)) { // matches osrs behavior
         ~player_autocast_reset;
     }
-    return(false);
+    return(^false);
 }
 // these go after rune check
-if (~pvp_is_attackable_opt = false) {
-    return(false);
+if (~pvp_is_attackable_opt = ^false) {
+    return(^false);
 }
-return(true);
+return(^true);
 
 
-[proc,pvp_freeze_allowed](dbrow $spell_data)(boolean)
+[proc,pvp_freeze_allowed](dbrow $spell_data)(int)
 // check if player is already frozen
 if (db_getfield($spell_data, magic_spell_table:freeze_time, 0) > 0) {
     if (.%frozen > map_clock) {
         mes("Your target is already held by a magical force.");
-        return(false);
+        return(^false);
     }
     // immune message existed in 2005 https://oldschool.runescape.wiki/w/Update:Magic_and_Wilderness_Updates
     if (calc(.%frozen + 5) > map_clock) {
         // osrs wiki trivia says that snare didnt have this? No proof though
         // ive found proof of bind and entangle having this in 2006: https://imgur.com/a/jBb1awE
         mes("Your target is currently immune to that spell.");
-        return(false);
+        return(^false);
     }
     if (getwalktrigger() = duel_arena_no_move) {
         mes("You can not use a hold spell in a no movement duel."); // https://www.youtube.com/watch?v=u2KZbLyCpgI&t=345s
-        return(false);
+        return(^false);
     }
 }
-return(true);
+return(^true);
 
 
-[proc,pvp_debuff_allowed](dbrow $spell_data)(boolean)
+[proc,pvp_debuff_allowed](dbrow $spell_data)(int)
 // check if player can be stat reduced
 def_stat $stat;
 def_int $constant;
@@ -124,11 +124,11 @@ while ($i < db_getfieldcount($spell_data, magic_spell_table:stat_change)) {
             mes("Your foe's <lowercase(~stat_name($stat))> has already been weakened.");
         }
         p_stopaction;
-        return(false);
+        return(^false);
     }
     $i = add($i, 1);
 }
-return(true);
+return(^true);
 
 [proc,pvp_stat_change_effect](dbrow $spell_data)
 def_stat $stat;
@@ -153,10 +153,10 @@ while ($i < db_getfieldcount($spell_data, magic_spell_table:stat_change)) {
 [proc,pvp_freeze_effect](dbrow $spell_data)
 def_int $freeze_time = db_getfield($spell_data, magic_spell_table:freeze_time, 0);
 if ($freeze_time > 0) {
-    if (~.check_protect_prayer(^magic_style) = true) {
+    if (~.check_protect_prayer(^magic_style) = ^true) {
         $freeze_time = divide($freeze_time, 2); // 50% reduction https://oldschool.runescape.wiki/w/Update:RS2_bugfixes_-_part_4
     }
-    if (.p_finduid(.uid) = true) {
+    if (.p_finduid(.uid) = ^true) {
         .p_walk(.coord);
     }
     .%pk_binder = uid;
@@ -179,7 +179,7 @@ if ($maxhit = null) {
     return;
 }
 
-if (~.check_protect_prayer(^magic_style) = true) {
+if (~.check_protect_prayer(^magic_style) = ^true) {
     $maxhit = scale(6, 10, $maxhit); // reduction of 40%
 }
 def_int $damage = randominc($maxhit); // tick eating existed! https://oldschool.runescape.wiki/w/Update:The_Wintertodt
@@ -229,7 +229,7 @@ if (db_getfieldcount($spell_data, magic_spell_table:spotanim_proj) > 0) {
 }
 
 // continue by autocast
-if (~player_autocast_enabled = true & db_getfield($spell_data, magic_spell_table:continue_by_autocast, 0) = true) {
+if (~player_autocast_enabled = ^true & db_getfield($spell_data, magic_spell_table:continue_by_autocast, 0) = ^true) {
     p_opplayert(db_getfield(~get_spell_data(%autocast_spell), magic_spell_table:spellcom, 0));
 }
 return($duration);
@@ -249,7 +249,7 @@ walktrigger(pvp_frozen);
 
 
 [walktrigger,pvp_frozen]
-if (.finduid(%pk_binder) = true) {
+if (.finduid(%pk_binder) = ^true) {
     if (distance(coord, .coord) > 10) { // https://youtu.be/SC4KF1JWVl8&t=76
         return;
     }

@@ -20,8 +20,8 @@
 [label,open_cook_book_index]
 %book_page = 0;
 %open_book = giannes_cook_book;
-if_sethide(blurberry_cocktail_guide2:gnome_food_index_layer, false);
-if_sethide(blurberry_cocktail_guide2:cocktail_index_layer, true);
+if_sethide(blurberry_cocktail_guide2:gnome_food_index_layer, ^false);
+if_sethide(blurberry_cocktail_guide2:cocktail_index_layer, ^true);
 if_settext(blurberry_cocktail_guide2:book_title, "Gianne's cook book");
 if_openmain(blurberry_cocktail_guide2);
 
@@ -31,13 +31,13 @@ if ($page_number = 0 | $page_number > enum_getoutputcount(cook_book_title)) {
     @open_cook_book_index;
 }
 if ($page_number = enum_getoutputcount(cook_book_title)) {
-    if_sethide(giannes_cook_book:rightarrow_layer, true);
+    if_sethide(giannes_cook_book:rightarrow_layer, ^true);
 } else {
-    if_sethide(giannes_cook_book:rightarrow_layer, false);
+    if_sethide(giannes_cook_book:rightarrow_layer, ^false);
 }
 
 if_settext(giannes_cook_book:title, enum(int, string, cook_book_title, $page_number));
-if_sethide(giannes_cook_book:cook_obj, false);
+if_sethide(giannes_cook_book:cook_obj, ^false);
 if_setobject(giannes_cook_book:cook_obj, enum(int, namedobj, cook_book_model, $page_number), 300);
 if_settext(giannes_cook_book:text_left, enum(int, string, cook_book_text_left, $page_number));
 if_settext(giannes_cook_book:text_right, enum(int, string, cook_book_text_right, $page_number));

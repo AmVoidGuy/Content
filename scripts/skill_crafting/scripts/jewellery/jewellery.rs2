@@ -27,8 +27,8 @@ def_int $dragonstone_total = inv_total(inv, dragonstone);
 // from https://web.archive.org/web/20051025132703/http://www.runeweb.net/index.php?page=rs2-crafting
 // check if player has the corresponding moulds
 if (inv_total(inv, ring_mould) > 0) {
-    if_sethide(crafting_jewelry:ring_mould, true); // hide "You need a ring mould to craft rings."
-    if_sethide(crafting_jewelry:rings_layer, false);
+    if_sethide(crafting_jewelry:ring_mould, ^true); // hide "You need a ring mould to craft rings."
+    if_sethide(crafting_jewelry:rings_layer, ^false);
 
     // if they have one or more of corresponding gem, show corresponding ring
     if ($sapphire_total > 0) {
@@ -70,13 +70,13 @@ if (inv_total(inv, ring_mould) > 0) {
     inv_transmit(crafting_make_rings, crafting_jewelry:rings_inv);
 } else {
     // normalize: show "You need a ring mould to craft rings." (default)
-    if_sethide(crafting_jewelry:ring_mould, false);
+    if_sethide(crafting_jewelry:ring_mould, ^false);
     // normalize: hide ring selection layer
-    if_sethide(crafting_jewelry:rings_layer, true);
+    if_sethide(crafting_jewelry:rings_layer, ^true);
 }
 if (inv_total(inv, necklace_mould) > 0) {
-    if_sethide(crafting_jewelry:necklace_mould, true); // hide "You need a necklace mould to craft necklaces."
-    if_sethide(crafting_jewelry:necklaces_layer, false);
+    if_sethide(crafting_jewelry:necklace_mould, ^true); // hide "You need a necklace mould to craft necklaces."
+    if_sethide(crafting_jewelry:necklaces_layer, ^false);
 
     // if they have one or more of corresponding gem, show corresponding necklace
     if ($sapphire_total > 0) {
@@ -118,13 +118,13 @@ if (inv_total(inv, necklace_mould) > 0) {
     inv_transmit(crafting_make_necklaces, crafting_jewelry:necklaces_inv);
 } else {
     // normalize: show "You need a necklace mould to craft necklaces." (default)
-    if_sethide(crafting_jewelry:necklace_mould, false);
+    if_sethide(crafting_jewelry:necklace_mould, ^false);
     // normalize: hide necklace selection layer
-    if_sethide(crafting_jewelry:necklaces_layer, true);
+    if_sethide(crafting_jewelry:necklaces_layer, ^true);
 }
 if (inv_total(inv, amulet_mould) > 0) {
-    if_sethide(crafting_jewelry:amulet_mould, true); // hide "You need a amulet mould to craft amulets."
-    if_sethide(crafting_jewelry:amulets_layer, false);
+    if_sethide(crafting_jewelry:amulet_mould, ^true); // hide "You need a amulet mould to craft amulets."
+    if_sethide(crafting_jewelry:amulets_layer, ^false);
 
     // if they have one or more of corresponding gem, show corresponding amulet
     if ($sapphire_total > 0) {
@@ -167,9 +167,9 @@ if (inv_total(inv, amulet_mould) > 0) {
     inv_transmit(crafting_make_amulets, crafting_jewelry:amulets_inv);
 } else {
     // normalize: show "You need an amulet mould to craft amulets." (default)
-    if_sethide(crafting_jewelry:amulet_mould, false);
+    if_sethide(crafting_jewelry:amulet_mould, ^false);
     // normalize: hide amulet selection layer
-    if_sethide(crafting_jewelry:amulets_layer, true);
+    if_sethide(crafting_jewelry:amulets_layer, ^true);
 }
 // open jewelry interface
 if_openmain(crafting_jewelry);

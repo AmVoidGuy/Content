@@ -225,11 +225,11 @@ if (%prayer4 = ^true) return (110);
 if (%prayer10 = ^true) return (115);
 else return(100);
 
-[proc,check_protect_prayer](int $style)(boolean)
-if (($style = ^melee_style | $style = ^stab_style | $style = ^slash_style | $style = ^crush_style) & %prayer14 = ^true) return (true);
-if (($style = ^ranged_style) & %prayer13 = ^true) return (true);
-if (($style = ^magic_style) & %prayer12 = ^true) return (true);
-else return (false);
+[proc,check_protect_prayer](int $style)(int)
+if (($style = ^melee_style | $style = ^stab_style | $style = ^slash_style | $style = ^crush_style) & %prayer14 = ^true) return (^true);
+if (($style = ^ranged_style) & %prayer13 = ^true) return (^true);
+if (($style = ^magic_style) & %prayer12 = ^true) return (^true);
+else return (^false);
 
 [proc,.check_attack_prayer]()(int)
 if (.%prayer2 = ^true) return (105);
@@ -249,8 +249,8 @@ if (.%prayer4 = ^true) return (110);
 if (.%prayer10 = ^true) return (115);
 else return(100);
 
-[proc,.check_protect_prayer](int $style)(boolean)
-if (($style = ^melee_style | $style = ^stab_style | $style = ^slash_style | $style = ^crush_style) & .%prayer14 = ^true) return (true);
-if (($style = ^ranged_style) & .%prayer13 = ^true) return (true);
-if (($style = ^magic_style) & .%prayer12 = ^true) return (true);
-else return (false);
+[proc,.check_protect_prayer](int $style)(int)
+if (($style = ^melee_style | $style = ^stab_style | $style = ^slash_style | $style = ^crush_style) & .%prayer14 = ^true) return (^true);
+if (($style = ^ranged_style) & .%prayer13 = ^true) return (^true);
+if (($style = ^magic_style) & .%prayer12 = ^true) return (^true);
+else return (^false);

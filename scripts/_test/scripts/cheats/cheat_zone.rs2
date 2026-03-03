@@ -1,5 +1,5 @@
 [debugproc,drop_items]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_30);
     obj_addall(0_37_55_32_30, logs, 40, 30);
     p_delay(3);
@@ -12,7 +12,7 @@ if (p_finduid(uid) = true) {
 
 
 [debugproc,add_locs]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_30);
     loc_add(0_37_55_32_30, tree, 0, centrepiece_straight, 10);
     loc_add(0_37_55_32_29, tree, 0, centrepiece_straight, 10);
@@ -22,7 +22,7 @@ if (p_finduid(uid) = true) {
 
 
 [debugproc,loc_add_del]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_30);
     p_delay(0);
     loc_add(0_37_55_32_30, tree, 0, centrepiece_straight, 10);
@@ -30,7 +30,7 @@ if (p_finduid(uid) = true) {
 }
 
 [debugproc,loc_del_change]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_30);
     p_delay(0);
     loc_add(0_37_55_32_30, tree, 0, centrepiece_straight, 10);
@@ -41,7 +41,7 @@ if (p_finduid(uid) = true) {
 }
 
 [debugproc,drop_feathers]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_31);
     obj_addall(0_37_55_32_33, feather, 1, 30);
     p_opobj(3);
@@ -51,14 +51,14 @@ if (p_finduid(uid) = true) {
 
 
 [debugproc,loc_add_static]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_9);
     p_delay(0);
     loc_add(0_37_55_30_9, loc_2732, 1, centrepiece_straight, 10);
 }
 
 [debugproc,loc_add_dynamic]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_9);
     p_delay(0);
     loc_add(0_37_55_32_9, tree, 0, centrepiece_straight, 10);
@@ -67,7 +67,7 @@ if (p_finduid(uid) = true) {
 }
 
 [debugproc,loc_change_dynamic]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_9);
     p_delay(0);
     loc_add(0_37_55_32_9, tree, 0, centrepiece_straight, 10);
@@ -77,7 +77,7 @@ if (p_finduid(uid) = true) {
 
 
 [debugproc,loc_change_inactive]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_9);
     p_delay(0);
     // Change static loc and delete it
@@ -91,7 +91,7 @@ if (p_finduid(uid) = true) {
 
 
 [debugproc,loc_change_error]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_9);
     p_delay(0);
     // Change static loc and delete it
@@ -102,7 +102,7 @@ if (p_finduid(uid) = true) {
 
 
 [debugproc,loc_change_back]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_9);
     loc_add(0_37_55_30_9, loc_2732, 1, centrepiece_straight, 1);
     p_delay(1);
@@ -115,7 +115,7 @@ if (p_finduid(uid) = true) {
 }
 
 [debugproc,loc_del_event]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_telejump(0_37_55_32_30);
     p_delay(0);
     loc_add(0_37_55_32_30, tree, 0, centrepiece_straight, 10);

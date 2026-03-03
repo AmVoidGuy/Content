@@ -6,7 +6,7 @@
 
 // locs should have category=double_door_open_and_close_right or category=double_door_open_and_close_left
 // and should also have param=next_loc_stage,loc_type
-[proc,open_and_close_double_door](boolean $entering, int $side)
+[proc,open_and_close_double_door](int $entering, int $side)
 def_int $x;
 def_int $z;
 
@@ -29,7 +29,7 @@ if ($side = ^left) {
 }
 
 loc_findallzone($opposite_coord);
-while (.loc_findnext = true) {
+while (.loc_findnext = ^true) {
     if (.loc_coord = $opposite_coord & .loc_category = $category) {
         $opposite_loc = lc_param(.loc_type, next_loc_stage);
     }
@@ -38,7 +38,7 @@ while (.loc_findnext = true) {
 // walk through door, but if entering, walk next to door and then through
 $x, $z = ~door_open($angle, loc_shape);
 def_coord $dest = $loc_coord;
-if ($entering = true) {
+if ($entering = ^true) {
     // mes(~coord_tostring($loc_coord));
     // mes(~coord_tostring(coord));
     if (coord ! $loc_coord & coord ! $opposite_coord) {
@@ -60,7 +60,7 @@ if ($side = ^left) {
 }
 
 // variation that plays sound instantly
-[proc,open_and_close_double_door2](boolean $entering, int $side, synth $sound)
+[proc,open_and_close_double_door2](int $entering, int $side, synth $sound)
 def_int $x;
 def_int $z;
 
@@ -82,7 +82,7 @@ if ($side = ^left) {
 }
 
 loc_findallzone($opposite_coord);
-while (.loc_findnext = true) {
+while (.loc_findnext = ^true) {
     if (.loc_coord = $opposite_coord & .loc_category = $category) {
         $opposite_loc = lc_param(.loc_type, next_loc_stage);
     }
@@ -94,7 +94,7 @@ if ($sound ! null) {
     sound_synth($sound, 0, 0);
 }
 def_coord $dest = $loc_coord;
-if ($entering = true) {
+if ($entering = ^true) {
     // mes(~coord_tostring($loc_coord));
     // mes(~coord_tostring(coord));
     if (coord ! $loc_coord & coord ! $opposite_coord) {
@@ -115,7 +115,7 @@ if ($side = ^left) {
     ~open_double_doors_right2(3, double_door_open_and_close_left, $next_loc, $opposite_loc, null);
 }
 
-[proc,open_and_close_double_door3](boolean $entering, loc $loc_type, locshape $shape, int $angle, coord $loc_coord, int $side, synth $sound)
+[proc,open_and_close_double_door3](int $entering, loc $loc_type, locshape $shape, int $angle, coord $loc_coord, int $side, synth $sound)
 def_int $x;
 def_int $z;
 
@@ -134,7 +134,7 @@ if ($side = ^left) {
 }
 
 loc_findallzone($opposite_coord);
-while (.loc_findnext = true) {
+while (.loc_findnext = ^true) {
     if (.loc_coord = $opposite_coord & .loc_category = $category) {
         $opposite_loc = lc_param(.loc_type, next_loc_stage);
     }
@@ -146,7 +146,7 @@ if ($sound ! null) {
     sound_synth($sound, 0, 0);
 }
 def_coord $dest = $loc_coord;
-if ($entering = true) {
+if ($entering = ^true) {
     // mes(~coord_tostring($loc_coord));
     // mes(~coord_tostring(coord));
     if (coord ! $loc_coord & coord ! $opposite_coord) {

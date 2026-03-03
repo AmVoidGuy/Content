@@ -94,7 +94,7 @@ switch_obj(last_item) {
 [label,player_consume_item](label $consume_effect, int $eat_delay, int $skill_delay)
 def_obj $obj = inv_getobj(inv, last_slot);
 
-if (~duel_arena_consume_check($obj) = false) {
+if (~duel_arena_consume_check($obj) = ^false) {
     return;
 }
 

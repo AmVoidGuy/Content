@@ -1,5 +1,5 @@
 [debugproc,com_vars]
-if (p_finduid(uid) = false) {
+if (p_finduid(uid) = ^false) {
     return;
 }
 // mes("%com_stabattack: <tostring(%com_stabattack)>");

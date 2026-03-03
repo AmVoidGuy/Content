@@ -23,7 +23,7 @@ if (last_useitem ! raw_chompy) {
 }
 
 if (%chompybird < ^chompybird_told_to_cook_chompy) {
-    if(npc_find(coord, rantz, 10, 0) = true) { // range from osrs
+    if(npc_find(coord, rantz, 10, 0) = ^true) { // range from osrs
         if(%chompybird = ^chompybird_player_killed_chompy) {
             ~chatnpc("<p,quiz>Hey, what' you's doin?");
             @rantz_show_chompy;
@@ -43,7 +43,7 @@ if (%chompybird = ^chompybird_chompy_cooked) {
     if(inv_total(inv, cooked_s_chompy) = 0) {
         @cook_chompy_quest;
     }
-    if (npc_find(loc_coord, rantz, 10, 0) = true) {
+    if (npc_find(loc_coord, rantz, 10, 0) = ^true) {
         @hand_chompy_to_rantz;
     }
     return;
@@ -66,8 +66,8 @@ anim(human_potterywheel, 0);
 sound_synth(spit_roast, 0, 0);
 p_delay(2);
     
-def_boolean $passes_roll = stat_random(cooking, 200, 255);
-if ($passes_roll = true) {
+def_int $passes_roll = stat_random(cooking, 200, 255);
+if ($passes_roll = ^true) {
     mes("You start to cook the chompy... it takes some time.");
     // Temp note: dur updated
     loc_change(chompybird_spitroast_cooked, 5);
@@ -107,7 +107,7 @@ if($fycie_ingredient = 0) {
 
 def_int $rantz_ingredient = getbit_range(%chompybird_kills, ^chompybird_varbit_rantz_flavour, ^chompybird_varbit_rantz_flavour);
 
-def_boolean $has_rantz_ingredient = false;
+def_int $has_rantz_ingredient = ^false;
 
 def_string $rantz_ingredient_name;
 def_string $bugs_ingredient_name;
@@ -117,7 +117,7 @@ if ($rantz_ingredient = 0)
 {
     if (inv_total(inv, potato) > 0)
     {
-        $has_rantz_ingredient = true;
+        $has_rantz_ingredient = ^true;
     }
 
     $rantz_ingredient_name = "potato";
@@ -126,19 +126,19 @@ else if ($rantz_ingredient = 1)
 {
     if (inv_total(inv, onion) > 0)
     {
-        $has_rantz_ingredient = true;
+        $has_rantz_ingredient = ^true;
     }
     
     $rantz_ingredient_name = "onion";
 }
 
-def_boolean $has_bugs_ingredient = false;
+def_int $has_bugs_ingredient = ^false;
 
 if ($bugs_ingredient = 1)
 {
     if (inv_total(inv, equa_leaves) > 0)
     {
-        $has_bugs_ingredient = true;
+        $has_bugs_ingredient = ^true;
     }
 
     $bugs_ingredient_name = "equa leaves";
@@ -147,19 +147,19 @@ else if ($bugs_ingredient = 2)
 {
     if (inv_total(inv, cabbage) > 0)
     {
-        $has_bugs_ingredient = true;
+        $has_bugs_ingredient = ^true;
     }
 
     $bugs_ingredient_name = "cabbage";
 }
 
-def_boolean $has_fycie_ingredient = false;
+def_int $has_fycie_ingredient = ^false;
 
 if ($fycie_ingredient = 1)
 {
     if (inv_total(inv, tomato) > 0)
     {
-        $has_fycie_ingredient = true;
+        $has_fycie_ingredient = ^true;
     }
 
     $fycie_ingredient_name = "tomato";
@@ -168,13 +168,13 @@ else if ($fycie_ingredient = 2)
 {
     if (inv_total(inv, doogleleaves) > 0)
     {
-        $has_fycie_ingredient = true;
+        $has_fycie_ingredient = ^true;
     }
 
     $fycie_ingredient_name = "doogle leaves";
 }
 
-if ($has_rantz_ingredient = false | $has_bugs_ingredient = false | $has_fycie_ingredient = false) {
+if ($has_rantz_ingredient = ^false | $has_bugs_ingredient = ^false | $has_fycie_ingredient = ^false) {
     ~mesbox("You don't have all the ingredients yet to cook the chompy bird for the ogre family.");
     ~mesbox("Remember what the Ogre family wanted? Rantz wanted <$rantz_ingredient_name>. Fycie wanted <$fycie_ingredient_name>. Bugs wanted <$bugs_ingredient_name>.");
     return;
@@ -189,8 +189,8 @@ anim(human_potterywheel, 0);
 sound_synth(spit_roast, 0, 0);
 p_delay(2);
     
-def_boolean $passes_roll = stat_random(cooking, 200, 255);
-if ($passes_roll = true) {
+def_int $passes_roll = stat_random(cooking, 200, 255);
+if ($passes_roll = ^true) {
     mes("You add the other ingredients and cook the food.");
     %chompybird = ^chompybird_chompy_cooked;
     ~delete_chompy_ingredients($rantz_ingredient, $bugs_ingredient, $fycie_ingredient);

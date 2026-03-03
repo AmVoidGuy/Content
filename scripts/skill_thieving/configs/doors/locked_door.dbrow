@@ -20,8 +20,8 @@ data=loc,east_ardy_sewer_gate_north
 data=replacement,loc_1562
 data=level,31
 data=experience,250
-data=mirror,true
-data=gate,true
+data=mirror,1
+data=gate,1
 data=door_successchance,16,100
 
 [locked_door_east_ardy_sewer_gate_south]
@@ -30,7 +30,7 @@ data=loc,east_ardy_sewer_gate_south
 data=replacement,loc_1563
 data=level,31
 data=experience,250
-data=gate,true
+data=gate,1
 data=door_successchance,16,100
 
 [locked_door_loc_2554]
@@ -76,7 +76,7 @@ data=replacement,desertdoor_inactive
 data=level,39
 data=experience,350
 data=tool,lockpick,lockpick
-data=lock_inversed,true
+data=lock_inversed,1
 data=door_successchance,12,87
 
 [locked_door_loc_2559]
@@ -86,5 +86,5 @@ data=replacement,poordoor
 data=level,82
 data=experience,500
 data=tool,lockpick,lockpick
-data=lock_inversed,true
+data=lock_inversed,1
 data=door_successchance,40,82

@@ -74,31 +74,31 @@ switch_int ($angle) {
     case default : error("angle not found for door_move_player_out_of_way: <tostring($angle)>");
 }
 
-[proc,check_axis](coord $coord, coord $loc_coord, int $angle)(boolean)
+[proc,check_axis](coord $coord, coord $loc_coord, int $angle)(int)
 switch_int($angle) {
     case ^loc_north, ^loc_south :
         if (coordz($coord) = coordz($loc_coord)) {
-            return(true);
+            return(^true);
         }
     case ^loc_west, ^loc_east :
         if (coordx($coord) = coordx($loc_coord)) {
-            return(true);
+            return(^true);
         }
 }
-return(false);
+return(^false);
 
-[proc,check_axis_locactive](coord $coord)(boolean)
+[proc,check_axis_locactive](coord $coord)(int)
 switch_int(loc_angle) {
     case ^loc_north, ^loc_south :
         if (coordz($coord) = coordz(loc_coord)) {
-            return(true);
+            return(^true);
         }
     case ^loc_west, ^loc_east :
         if (coordx($coord) = coordx(loc_coord)) {
-            return(true);
+            return(^true);
         }
 }
-return(false);
+return(^false);
 
 [proc,movecoord_loc_return](int $x, int $z)(coord)
 return(movecoord(loc_coord, $x, 0, $z));

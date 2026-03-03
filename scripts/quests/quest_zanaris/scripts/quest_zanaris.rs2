@@ -13,12 +13,12 @@ if (map_members = ^false) {
     mes(^mes_members_do_that);
     return;
 }
-def_namedobj $axe = ~woodcutting_axe_checker(true);
+def_namedobj $axe = ~woodcutting_axe_checker(^true);
 if ($axe = null) {
     return;
 }
 def_coord $shamus_spawnpoint = 0_49_50_3_11;
-if (npc_find($shamus_spawnpoint, zanarisleprechaun, 15, 0) = true) {
+if (npc_find($shamus_spawnpoint, zanarisleprechaun, 15, 0) = ^true) {
     ~chatnpc_specific("Shamus", zanarisleprechaun, "<p,angry>Hey! Yer big elephant! Don't go choppin' down me house, now!");
     return;
 }
@@ -30,7 +30,7 @@ if(%zanaris < ^zanaris_spoken_shamus) {
     ~mesbox("The tree seems to have a ominous aura to it.|You do not feel like chopping it down.");
     return;
 }
-def_namedobj $axe = ~woodcutting_axe_checker(true);
+def_namedobj $axe = ~woodcutting_axe_checker(^true);
 if ($axe = null) {
     return;
 }
@@ -41,7 +41,7 @@ if(stat(woodcutting) < 36) {
 }
 if(%zanaris = ^zanaris_spoken_shamus) {
     def_coord $spawn = 0_44_152_44_9;
-    if(npc_find($spawn, tree_spirit, 6, 0) = false) { // based off testing, edges will spawn another spirit
+    if(npc_find($spawn, tree_spirit, 6, 0) = ^false) { // based off testing, edges will spawn another spirit
         npc_add($spawn, tree_spirit, 1000);
     }
     npc_say("You must defeat me before touching the tree!");
@@ -87,9 +87,9 @@ inv_del(inv, dramen_branch, 1);
 inv_add(inv, dramen_staff, 1);
 
 [oploc1,zanarisdoor]
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
 ~open_and_close_door2(desertdoor_inactive, $entering, door_open);
-if($entering = false) {
+if($entering = ^false) {
     if(inv_total(worn, dramen_staff) > 0 & map_members = ^true) {
         mes("The world starts to shimmer..."); // not sure what seq/spotanim would've been played here, just going to assume it was like a normal tele
         if(%zanaris = ^zanaris_staff_made) {

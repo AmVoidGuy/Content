@@ -25,7 +25,7 @@ switch_int(%treequest) {
 gosub(npc_death);
 if(npc_findhero = ^true) {
     if_close;
-    if(p_finduid(uid) = true) { // get protected access, if not then queue
+    if(p_finduid(uid) = ^true) { // get protected access, if not then queue
         @defeat_warlord;
         return;
     }
@@ -33,7 +33,7 @@ if(npc_findhero = ^true) {
 }
 
 [queue,queue_defeat_warlord](npc_uid $npc)
-if (npc_finduid($npc) = true) {
+if (npc_finduid($npc) = ^true) {
     @defeat_warlord;
 }
 

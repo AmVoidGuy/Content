@@ -1,5 +1,5 @@
 [opnpc1,brother_kojo]
-if(~has_sextant_clue = true) {
+if(~has_sextant_clue = ^true) {
     if(~get_chart_progress = ^trail_chart_spoken_murphy) {
         ~chatplayer("<p,happy>Hello.");
         ~chatnpc("<p,happy>Hello, traveller, how can I help?");

@@ -1,12 +1,12 @@
 [proc,sound_area](synth $sound, int $delay, coord $coord, int $distance)
 huntall($coord, $distance, 0);
-while (huntnext = true) {
+while (huntnext = ^true) {
     sound_synth($sound, 0, $delay);
 }
 
 [proc,.sound_area](synth $sound, int $delay, coord $coord, int $distance)
 huntall($coord, $distance, 0);
-while (.huntnext = true) {
+while (.huntnext = ^true) {
     .sound_synth($sound, 0, $delay);
 }
 

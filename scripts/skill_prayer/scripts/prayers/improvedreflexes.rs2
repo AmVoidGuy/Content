@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_improvedreflexes]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_improvedreflexes;
 }
 %prayer5 = %prayer5; // resync varp
@@ -16,7 +16,7 @@ if (%prayer5 = ^true) {
     ~prayer_deactivate(^prayer_improvedreflexes);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer5 = ^false;
     return;
 }

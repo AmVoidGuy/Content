@@ -91,23 +91,23 @@ if ($last_item = bronze_bar) {
     if (%modified_smith = 18) {
         %modified_smith = 19;
     }
-    if_sethide (smithing:other_layer, false);
+    if_sethide (smithing:other_layer, ^false);
     // https://web.archive.org/web/20050410152119/http://www.tip.it/runescape/smithing_tables.php?metal=bronze
     if_settext (smithing:com_102, "Bronze wire");
 } else if ($last_item = steel_bar) {
-    if_sethide (smithing:stud_layer, false);
-    if_sethide (smithing:other_layer, false);
+    if_sethide (smithing:stud_layer, ^false);
+    if_sethide (smithing:other_layer, ^false);
     // https://imgur.com/CdcGdXD
     if_settext (smithing:com_102, "Steel nails");
 }  else {
-    if_sethide (smithing:other_layer, true);
-    if_sethide (smithing:stud_layer, true);
+    if_sethide (smithing:other_layer, ^true);
+    if_sethide (smithing:stud_layer, ^true);
 }
 // hide studs button if its not steel
 if ($last_item ! steel_bar) {
-    if_sethide (smithing:stud_layer, true);
+    if_sethide (smithing:stud_layer, ^true);
 } else {
-    if_sethide (smithing:stud_layer, false);
+    if_sethide (smithing:stud_layer, ^false);
 }
 // each bar needs to be shifted down, since only bronze level req is in the interface
 switch_obj ($last_item)
@@ -190,13 +190,13 @@ switch_obj(db_getfield($data,smithing:product,0)) {
  }
 
 // This check comes after darts but before mems, confirmed.
-if (~in_tutorial_island(coord) = true & last_item ! bronze_dagger) {
+if (~in_tutorial_island(coord) = ^true & last_item ! bronze_dagger) {
     ~mesbox("You cannot make this on Tutorial Island.");
     return;
 }
 
 // check if mems obj is selected
-if (oc_members($last_item) = true & map_members = ^false) {
+if (oc_members($last_item) = ^true & map_members = ^false) {
     mes("You can only make that on a members' server.");
     return;
 }

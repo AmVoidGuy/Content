@@ -16,7 +16,7 @@ if (%mcannon = ^mcannon_tasked_with_fixing_cannon) {
 }
 
 [label,inspect_cannon_and_repair]
-if (~multi_cannon_fail_to_fix_or_find_problem() = true) {
+if (~multi_cannon_fail_to_fix_or_find_problem() = ^true) {
     mes("You see that there are some damaged components.");
     p_delay(0);
     mes("A pipe, a gun, a barrel, an axle and a shaft seem to be damaged.");
@@ -64,7 +64,7 @@ if_close;
 mes("You use your tool kit and attempt to fix the <$part_name>...");
 p_delay(2);
 
-if (~multi_cannon_fail_to_fix_or_find_problem() = true) {
+if (~multi_cannon_fail_to_fix_or_find_problem() = ^true) {
     mes("After some tinkering you manage to fix it.");
     %mcannonmulti = setbit(%mcannonmulti, $bit);
     stat_advance(crafting, 12); // 1.2xp gave 1.25 on classic
@@ -87,11 +87,11 @@ if (~multi_cannon_fail_to_fix_or_find_problem() = true) {
 // https://web.archive.org/web/20051025134501/http://www.runeweb.net/index.php?page=rs2-quest-dwarfcannon
 // https://web.archive.org/web/20041210172257/http://runescape.salmoneus.net/quests/DwarfCannon.html
 // https://classic.runescape.wiki/w/Dwarf_Cannon#The_Cannon
-[proc,multi_cannon_fail_to_fix_or_find_problem]()(boolean)
-def_boolean $smithing = stat_random(smithing, 80, 300);
-def_boolean $crafting = stat_random(crafting, 80, 350);
+[proc,multi_cannon_fail_to_fix_or_find_problem]()(int)
+def_int $smithing = stat_random(smithing, 80, 300);
+def_int $crafting = stat_random(crafting, 80, 350);
 
-if ($smithing = true | $crafting = true) {
-    return(true);
+if ($smithing = ^true | $crafting = ^true) {
+    return(^true);
 }
-return(false);
+return(^false);

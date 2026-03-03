@@ -12,8 +12,8 @@ if ($npc = null) {
     return;
 }
 
-if (npc_find(coord, $npc, 5, 0) = true) {
-    if (npc_hasop($op) = true) {
+if (npc_find(coord, $npc, 5, 0) = ^true) {
+    if (npc_hasop($op) = ^true) {
         mes("NPC has op");
     } else {
         mes("NPC does not have op");
@@ -28,7 +28,7 @@ if ($npc = null | $seq = null) {
     return;
 }
 
-if (npc_find(coord, $npc, 5, 0) = true) {
+if (npc_find(coord, $npc, 5, 0) = ^true) {
     npc_anim($seq, 0);
 } else {
     mes("No NPC found");

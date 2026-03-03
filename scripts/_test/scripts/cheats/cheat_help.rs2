@@ -1,6 +1,6 @@
 [debugproc,help]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     switch_int(~p_choice5_header("Account commands", 1, "Item commands", 2, "Teleport commands", 3, "Quest commands", 4, "Client & Engine commands", 5, "Help Menu")) {
         case 1 : @account_commands;
         case 2 : @item_commands;

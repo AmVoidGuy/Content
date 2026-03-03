@@ -48,14 +48,14 @@ if ($amount <= 0) {
 }
 
 def_obj $obj = inv_getobj(inv, $slot);
-if (oc_tradeable($obj) = false) { // also map_members check (after room is moved to f2p probably)
+if (oc_tradeable($obj) = ^false) { // also map_members check (after room is moved to f2p probably)
     mes("You can't offer this item.");
     return;
 }
 def_int $total = inv_total(inv, $obj);
 if ($amount < $total) $total = $amount;
-if(oc_stackable($obj) = false & $total > inv_freespace(partyroom_tempinv)) $total = inv_freespace(partyroom_tempinv);
-if($total = 0 | inv_itemspace(partyroom_tempinv, $obj, $total, inv_size(partyroom_tempinv)) = false) {
+if(oc_stackable($obj) = ^false & $total > inv_freespace(partyroom_tempinv)) $total = inv_freespace(partyroom_tempinv);
+if($total = 0 | inv_itemspace(partyroom_tempinv, $obj, $total, inv_size(partyroom_tempinv)) = ^false) {
     mes("You must accept the current items before adding any more."); // 2006 https://www.youtube.com/watch?v=Ve5UF8B3BMw&t=194s
     return;
 }
@@ -63,7 +63,7 @@ inv_moveitem(inv, partyroom_tempinv, $obj, $total);
 
 [if_button,party_drop_chest:com_94]
 def_int $i = 0;
-def_boolean $moveditem = false;
+def_int $moveditem = ^false;
 if(inv_freespace(partyroom_tempinv) = inv_size(partyroom_tempinv)) {
     return;
 }
@@ -71,14 +71,14 @@ while($i < inv_size(partyroom_tempinv)) {
     def_obj $obj = inv_getobj(partyroom_tempinv, $i);
     def_int $count = inv_getnum(partyroom_tempinv, $i);
     if ($obj ! null) {
-        if(inv_itemspace(partyroom_dropinv, $obj, $count, inv_size(partyroom_dropinv)) = true) {
+        if(inv_itemspace(partyroom_dropinv, $obj, $count, inv_size(partyroom_dropinv)) = ^true) {
             inv_moveitem(partyroom_tempinv, partyroom_dropinv, $obj, $count);
             wealth_event(^wealth_partyroom, oc_debugname($obj), $count, calc($count * oc_cost($obj)));
-            $moveditem = true;
+            $moveditem = ^true;
         }
     }
     $i = add($i, 1);
 }
-if($moveditem = false) {
+if($moveditem = ^false) {
     mes("The chest cannot hold your offer at the moment.");
 }

@@ -13,7 +13,7 @@ if (%npc_aggressive_player ! uid) {
 @player_combat_start_ap_nomulti;
 
 [ai_queue1,trail_hard]
-if(finduid(%npc_aggressive_player) = true & (npc_getmode ! opplayer2 | lineofwalk(npc_coord, coord) = false)) {
+if(finduid(%npc_aggressive_player) = ^true & (npc_getmode ! opplayer2 | lineofwalk(npc_coord, coord) = ^false)) {
     npc_setmode(applayer2);
 }
 if(npc_getmode = applayer2) ~npc_default_retaliate_ap;
@@ -28,7 +28,7 @@ else ~npc_default_retaliate;
 npc_setmode(opplayer2);
 
 [ai_timer,trail_hard]
-if(finduid(%npc_aggressive_player) = false) {
+if(finduid(%npc_aggressive_player) = ^false) {
     npc_del;
     return;
 }

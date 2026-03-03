@@ -1,6 +1,6 @@
 [debugproc,reset]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_int $choice = ~p_choice2_header("Yes.", 1, "No.", 2, "Reset account?");
     if ($choice = 2) {
         return;

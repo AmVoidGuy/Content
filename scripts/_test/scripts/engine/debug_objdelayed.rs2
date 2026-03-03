@@ -1,5 +1,5 @@
 [debugproc,inv_dropitem_delayed]
-if (p_finduid(uid) = false) {
+if (p_finduid(uid) = ^false) {
     return;
 }
 if (inv_total(worn, bronze_arrow) < 1) {

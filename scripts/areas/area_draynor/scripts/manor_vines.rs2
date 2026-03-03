@@ -2,7 +2,7 @@
 
 [timer,draynor_manor_vines]
 // will only start timer after you enter the zone, but will continue 1 tile n/e outside of the zone
-if(inzone(0_48_52_40_8, movecoord(0_48_52_40_8, 9, 0, 9), coord) = false) { 
+if(inzone(0_48_52_40_8, movecoord(0_48_52_40_8, 9, 0, 9), coord) = ^false) { 
     cleartimer(draynor_manor_vines);
     return;
 }

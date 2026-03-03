@@ -53,7 +53,7 @@ if (%sheepherderquest > ^sheepherder_not_started & %sheepherderquest < ^sheepher
     }
 }
 
-if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = true) {
+if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = ^true) {
     ~mesbox("The sheep is already in the enclosure.|You don't need to prod it.");
     return;
 }
@@ -87,7 +87,7 @@ npc_setmode(none);
 // https://web.archive.org/web/20050827052609/http://www.runescape.salmoneus.net/quests/SheepHerder.html
 npc_walk(~movecoord_indirection(npc_coord, ~coord_direction(coord, npc_coord), 1));
 
-if (~inzone_coord_pair_table(sheepherder_pen_gate, npc_coord) = true) {
+if (~inzone_coord_pair_table(sheepherder_pen_gate, npc_coord) = ^true) {
     npc_tele(0_40_52_35_33);
     npc_walk($npc_coord);
     p_delay(2);
@@ -102,7 +102,7 @@ if (~inzone_coord_pair_table(sheepherder_pen_gate, npc_coord) = true) {
 
 [ai_timer,_diseased_sheep]
 // Check might actually be a lie based on some old pictures of the pen
-// if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = false) {
+// if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = ^false) {
 // }
 @diseased_sheep_baa;
 
@@ -147,7 +147,7 @@ if ($data = null) {
 def_int $npc_start_bit = db_getfield($data, sheep_table:sheep_start_bit, 0);
 def_namedobj $npc_bones = db_getfield($data, sheep_table:sheep_bones, 0);
 
-if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = true) {
+if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = ^true) {
     
     // Attempting to kill the sheep in the pen, and you haven't burned the bones
     // and you're not carrying any bones.

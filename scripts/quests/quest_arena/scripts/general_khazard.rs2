@@ -19,7 +19,7 @@ switch_int(%arenaquest) {
         ~chatnpc("<p,skull>Why would I give them up, those two men are my property now.");
         @general_khazard_belong_nobody;
     case default :
-        if(~wearing_khazard_armour = true) {
+        if(~wearing_khazard_armour = ^true) {
             ~chatplayer("<p,quiz>General Khazard?");
             ~chatnpc("<p,skull>What do you want guard? I'm a busy man.");
             ~chatplayer("<p,neutral>Of course sir.");
@@ -33,7 +33,7 @@ switch_int(%arenaquest) {
 }
 
 [label,general_khazard_welldone]
-if(npc_find(coord, general_khazard, 23, 0) = false) {
+if(npc_find(coord, general_khazard, 23, 0) = ^false) {
     return;
 }
 ~chatnpc("<p,skull>Haha, well done, well done that was rather entertaining. I am the great General Khazard, and the two men you just 'saved' are my property.");
@@ -57,7 +57,7 @@ npc_add(0_40_49_47_5, arena_guard5_cutscene, 30); // 30t in old videos
 npc_setmode(none);
 npc_walk(0_40_49_41_5);
 ~forcemove(0_40_49_40_5);
-if(loc_find(0_40_49_40_6, arena_prisondoor) = true) {
+if(loc_find(0_40_49_40_6, arena_prisondoor) = ^true) {
     def_int $x;
     def_int $z;
     def_coord $loc_coord = loc_coord;
@@ -91,7 +91,7 @@ cam_reset;
 @general_khazard_attack;
 
 [label,general_khazard_agreement]
-if (npc_find(movecoord(coord, 8, 0, 0), general_khazard, 15, 0) = false | ~npc_retal_ready = false) {
+if (npc_find(movecoord(coord, 8, 0, 0), general_khazard, 15, 0) = ^false | ~npc_retal_ready = ^false) {
     npc_add(0_40_49_46_18, general_khazard, 500); // ticks guessed
 }
 ~chatnpc("<p,skull>The agreement was that the Servils may leave if you won a few fights, and indeed they are now free to do so.");
@@ -110,6 +110,6 @@ if(npc_findhero = ^true) {
 }
 
 [queue,queue_defeat_general_khazard]
-if (inzone(^arena_lower_coord, ^arena_upper_coord, coord) = true & %arenaquest = ^arena_freed_servils) {
+if (inzone(^arena_lower_coord, ^arena_upper_coord, coord) = ^true & %arenaquest = ^arena_freed_servils) {
     %arenaquest = ^arena_defeated_genkhazard;
 }

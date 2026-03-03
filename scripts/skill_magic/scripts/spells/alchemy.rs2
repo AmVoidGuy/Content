@@ -6,11 +6,11 @@ if_settabactive(^tab_magic);
 if_close;
 // look for spell in db
 def_dbrow $spell_data = ~get_spell_data($spell);
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     return;
 }
 // prevent alchemy
-if (~is_alchable($item, $spell_data) = false) {
+if (~is_alchable($item, $spell_data) = ^false) {
     return;
 }
 
@@ -42,11 +42,11 @@ if_settabactive(^tab_magic); // osrs always sets tab back
 if_close;
 // look for spell in db
 def_dbrow $spell_data = ~get_spell_data($spell);
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     return;
 }
 // prevent alchemy
-if (~is_alchable($item, $spell_data) = false) {
+if (~is_alchable($item, $spell_data) = ^false) {
     return;
 }
 
@@ -68,7 +68,7 @@ if (afk_event = ^true) {
 // delay by 3 ticks
 p_delay(1);
 
-[proc,is_alchable](obj $item, dbrow $spell_data)(boolean)
+[proc,is_alchable](obj $item, dbrow $spell_data)(int)
 def_namedobj $rune1;
 def_int $rune_count1;
 def_namedobj $rune2;
@@ -80,31 +80,31 @@ switch_obj($item) {
     case naturerune :
         if (sub(inv_total(inv, naturerune), $rune_count1) < 1) {
             mes("You do not have enough Nature Runes to cast this spell.");
-            return(false);
+            return(^false);
         }
     case firerune :
         if (sub(inv_total(inv, firerune), $rune_count2) < 1) {
             mes("You do not have enough Fire Runes to cast this spell.");
-            return(false);
+            return(^false);
         }
     case thanainabarrel :
         mes("You can't do that to the poor girl!");
-        return(false);
+        return(^false);
     case coins :
         mes("Coins are already made of gold.");
-        return(false);
+        return(^false);
     case default :
         if(oc_category($item) = kitten) {
             mes("You can't do that to a defenceless kitten!");
-            return(false);
+            return(^false);
         }
         if(oc_category($item) = cat | oc_category($item) = overgrown) { // you can alch witches cat (RS3)
             mes("You can't do that to a defenceless cat!"); // https://youtu.be/jZUswQjpW4A?t=93
-            return(false);
+            return(^false);
         }
         if (oc_param($item, no_alchemy) = ^true) {
             mes("You cannot use alchemy on that item.");
-            return(false);
+            return(^false);
         }
 }
-return(true);
+return(^true);

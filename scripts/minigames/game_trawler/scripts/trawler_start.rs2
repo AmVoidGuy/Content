@@ -4,15 +4,15 @@ if (~playercount_coord_pair_table(trawler_game_zones) > 0 | ~playercount_coord_p
 }
 
 huntall(^trawler_lobby_center_under, 8, 0);
-while (huntnext = true) {
-    if (~inzone_coord_pair_table(trawler_lobby_zones, coord) = true) {
+while (huntnext = ^true) {
+    if (~inzone_coord_pair_table(trawler_lobby_zones, coord) = ^true) {
         if_close;
         queue(trawler_start, 0, 0);
     }
 }
 huntall(^trawler_lobby_center, 8, 0);
-while (huntnext = true) {
-    if (~inzone_coord_pair_table(trawler_lobby_zones, coord) = true) {
+while (huntnext = ^true) {
+    if (~inzone_coord_pair_table(trawler_lobby_zones, coord) = ^true) {
         if_close;
         queue(trawler_start, 0, 0);
     }
@@ -20,15 +20,15 @@ while (huntnext = true) {
 
 ~trawler_reset;
 
-if (npc_find(^trawler_start_center_under, murphy_normal, 5, 0) = true) {
+if (npc_find(^trawler_start_center_under, murphy_normal, 5, 0) = ^true) {
     npc_queue(5, 0, 33); // 21 ticks from ship journey... After journey is over, trawler starts after 17 ticks (10s)
 }
-if (npc_find(^trawler_flood_center_under, murphy_halfsunk, 5, 0) = true) {
+if (npc_find(^trawler_flood_center_under, murphy_halfsunk, 5, 0) = ^true) {
     npc_queue(5, 0, 33); // 21 ticks from ship journey... After journey is over, trawler starts after 17 ticks (10s)
 }
 
 [queue,trawler_start]
-if (~inzone_coord_pair_table(trawler_lobby_zones, coord) = false) {
+if (~inzone_coord_pair_table(trawler_lobby_zones, coord) = ^false) {
     return;
 }
 inv_clear(trawler_rewardinv);

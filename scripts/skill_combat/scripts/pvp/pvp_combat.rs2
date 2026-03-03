@@ -1,11 +1,11 @@
 [opplayer2,_]
-if (~pvp_is_attackable = false) {
+if (~pvp_is_attackable = ^false) {
     return;
 }
 @pvp_combat_start;
 
 [applayer2,_]
-if (~pvp_is_attackable = false) { // this is always here: https://youtu.be/JoyUOTsAiBY?t=644
+if (~pvp_is_attackable = ^false) { // this is always here: https://youtu.be/JoyUOTsAiBY?t=644
     return;
 }
 def_int $distance = distance(coord, .coord);
@@ -21,68 +21,68 @@ if (%damagetype = ^ranged_style) {
     @pvp_ranged_attack;
 }
 
-if (~player_autocast_enabled = true) {
+if (~player_autocast_enabled = ^true) {
     @pvp_magic_attack;
 }
 @pvp_melee_attack;
 
-[proc,pvp_level_check]()(boolean)
+[proc,pvp_level_check]()(int)
 // not high enough level
 def_int $combat_level_diff = abs(sub(~player_combat_level, ~.player_combat_level));
 def_int $wilderness_level = min(~wilderness_level(coord), ~wilderness_level(.coord));
 if ($wilderness_level < 1) {
     // http://i2.photobucket.com/albums/y18/Fallingdeath/anotherkill.png
     mes("You can't attack players who aren't in the wilderness.");
-    return(false);
+    return(^false);
 }
 if ($wilderness_level < $combat_level_diff) {
     mes("Your level difference is too great!");
     mes("You need to move deeper into the wilderness."); // wilderness is title'd in late 2005/2006 ish
-    return(false);
+    return(^false);
 }
 // 2007: https://youtu.be/3apk-gE1zh8?t=544
 // "You can't fight someone who's right next to the Wilderness Ditch. Wait until he's further in."
-return(true);
+return(^true);
 
-[proc,pvp_is_attackable]()(boolean)
-if (~in_duel_arena(coord) = true) {
-    if (~duel_arena_checks = false) {
-        return(false);
+[proc,pvp_is_attackable]()(int)
+if (~in_duel_arena(coord) = ^true) {
+    if (~duel_arena_checks = ^false) {
+        return(^false);
     }
-    return(true);
+    return(^true);
 }
-if (~pvp_level_check = false) {
-    return(false);
+if (~pvp_level_check = ^false) {
+    return(^false);
 }
-if (~pvp_in_combat_check = false) {
-    return(false);
+if (~pvp_in_combat_check = ^false) {
+    return(^false);
 }
-if (~player_autocast_enabled = false & ~inzone_coord_pair_table(mage_arena, coord) = true) {
+if (~player_autocast_enabled = ^false & ~inzone_coord_pair_table(mage_arena, coord) = ^true) {
     mes("Kolodion allows only magical combat within the arena."); // osrs
-    return(false);
+    return(^false);
 }
 
 // For magic
-[proc,pvp_is_attackable_opt]()(boolean)
-if (~in_duel_arena(coord) = true) {
-    if (~duel_arena_checks = false) {
-        return(false);
+[proc,pvp_is_attackable_opt]()(int)
+if (~in_duel_arena(coord) = ^true) {
+    if (~duel_arena_checks = ^false) {
+        return(^false);
     }
-    if (~duel_arena_magic_check = false) {
-        return(false);
+    if (~duel_arena_magic_check = ^false) {
+        return(^false);
     }
-    return(true); // important!! Duel arena doesnt have normal pvp rules
+    return(^true); // important!! Duel arena doesnt have normal pvp rules
 }
-if (~pvp_level_check = false) {
-    return(false);
+if (~pvp_level_check = ^false) {
+    return(^false);
 }
-if (~pvp_in_combat_check = false) {
-    return(false);
+if (~pvp_in_combat_check = ^false) {
+    return(^false);
 }
 
-[proc,pvp_in_combat_check]()(boolean)
+[proc,pvp_in_combat_check]()(int)
 // if multi, return true
-if (map_multiway(.coord) = false) {
+if (map_multiway(.coord) = ^false) {
     // if you have been attacked in the last 8 ticks, and the last person to attack you isnt your opponent
     // or an npc attacked you
     // pvp's "I'm already under attack." has a period (most likely):
@@ -91,11 +91,11 @@ if (map_multiway(.coord) = false) {
     if (add(%lastcombat, 8) > map_clock) {
         if (%pk_predator1 ! .uid & %pk_predator1 ! null) {
             mes("I'm already under attack.");
-            return(false);
+            return(^false);
         }
-        if (npc_finduid(%aggressive_npc) = true) {
+        if (npc_finduid(%aggressive_npc) = ^true) {
             mes("I'm already under attack.");
-            return(false);
+            return(^false);
         }
     }
     // if your opponent has been attacked in the last 8 ticks, and the opponents last attacker is not you
@@ -103,25 +103,25 @@ if (map_multiway(.coord) = false) {
     if (add(.%lastcombat, 8) > map_clock) {
         if (.%pk_predator1 ! uid & .%pk_predator1 ! null) {
             mes("Someone else is already fighting your opponent.");
-            return(false);
+            return(^false);
         }
-        if (npc_finduid(.%aggressive_npc) = true) {
+        if (npc_finduid(.%aggressive_npc) = ^true) {
             mes("Someone else is already fighting your opponent.");
-            return(false);
+            return(^false);
         }
     }
 }
-return(true);
+return(^true);
 
-[proc,pvp_hit_roll](int $damagetype)(boolean)
+[proc,pvp_hit_roll](int $damagetype)(int)
 def_int $attack_roll = ~player_attack_roll_specific($damagetype);
 def_int $defence_roll = ~.player_defence_roll_specific($damagetype);
 //mes("Clock: <tostring(map_clock)>, Player A: <tostring($attack_roll)>, NPC D: <tostring($defence_roll)>, Player Max: <tostring(%com_maxhit)>");
 //mes("Attack roll: <tostring($attack_roll)>, Defence roll: <tostring($defence_roll)>");
 if (randominc($attack_roll) > randominc($defence_roll)) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
 
 //https://oldschool.runescape.wiki/w/Combat#PvP_bonus_experience
@@ -157,7 +157,7 @@ stat_advance(hitpoints, scale($multiplier, 1000, scale(133, 100, $base)));
 
 [proc,.pvp_damage](int $delay, int $damage)
 .if_close;
-if (.p_finduid(.uid) = true) {
+if (.p_finduid(.uid) = ^true) {
     ~.combat_preventlogout;
 }
 if ($damage < 0) {
@@ -167,7 +167,7 @@ if ($damage < 0) {
 
 // needs to be a queue
 [queue,pvp_damage](int $damage)
-if (inv_getobj(worn, ^wearpos_ring) = ring_of_recoil & map_members = ^true & .finduid(%pk_predator1) = true & $damage > 0 & stat(hitpoints) > 0) {
+if (inv_getobj(worn, ^wearpos_ring) = ring_of_recoil & map_members = ^true & .finduid(%pk_predator1) = ^true & $damage > 0 & stat(hitpoints) > 0) {
     // https://oldschool.runescape.wiki/w/Update:Clue_Scroll_Step_Counter
     // - "Recoil damage will now always target the entity that caused the initial damage, rather than the most recent entity to deal damage."
     // Having it here instead of the opplayer2 trigger will allow this bug to occur
@@ -182,7 +182,7 @@ if (inv_getobj(worn, ^wearpos_ring) = ring_of_recoil & map_members = ^true & .fi
 ~damage_self($damage);
 
 [proc,pvp_death_message](player_uid $opponent)
-if (.finduid($opponent) = false) {
+if (.finduid($opponent) = ^false) {
     return;
 }
 def_int $random = random(11);

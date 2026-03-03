@@ -25,13 +25,13 @@ p_delay(2);
 if_close;
 
 [proc,calc_gliderstart]()(coord)
-if(inzone(movecoord(^ta_quir_priw, -8, 0, -8), movecoord(^ta_quir_priw, 8, 0, 8), coord) = true) {
+if(inzone(movecoord(^ta_quir_priw, -8, 0, -8), movecoord(^ta_quir_priw, 8, 0, 8), coord) = ^true) {
     return (^ta_quir_priw);
-} else if(inzone(movecoord(^gandius, -8, 0, -8), movecoord(^gandius, 8, 0, 8), coord) = true) {
+} else if(inzone(movecoord(^gandius, -8, 0, -8), movecoord(^gandius, 8, 0, 8), coord) = ^true) {
     return (^gandius);
-} else if(inzone(movecoord(^kar_hewo, -8, 0, -8), movecoord(^kar_hewo, 8, 0, 8), coord) = true) {
+} else if(inzone(movecoord(^kar_hewo, -8, 0, -8), movecoord(^kar_hewo, 8, 0, 8), coord) = ^true) {
     return (^kar_hewo);
-}  else if(inzone(movecoord(^sindarpos, -8, 0, -8), movecoord(^sindarpos, 8, 0, 8), coord) = true) {
+}  else if(inzone(movecoord(^sindarpos, -8, 0, -8), movecoord(^sindarpos, 8, 0, 8), coord) = ^true) {
     return (^sindarpos);
 }
 return (^ta_quir_priw);
@@ -55,13 +55,13 @@ if($start_pos = ^ta_quir_priw & $dest = ^sindarpos) {
 return (-1);
 
 [opnpc1,gnomepilot]
-if(inzone(0_45_47_35_42, 0_45_47_45_53, npc_coord) = true) {
+if(inzone(0_45_47_35_42, 0_45_47_45_53, npc_coord) = ^true) {
     @gnome_pilot_crash_karamja;
 }
-if(inzone(movecoord(^lemanto_andra, -8, 0, -8), movecoord(^lemanto_andra, 8, 0, 8), npc_coord) = true) {
+if(inzone(movecoord(^lemanto_andra, -8, 0, -8), movecoord(^lemanto_andra, 8, 0, 8), npc_coord) = ^true) {
     @gnome_pilot_crash_varrock;
 }
-if(%grandtree = ^grandtree_released_prison & inzone(3_38_54_31_43, 3_38_54_35_47, npc_coord) = true) {
+if(%grandtree = ^grandtree_released_prison & inzone(3_38_54_31_43, 3_38_54_35_47, npc_coord) = ^true) {
     ~chatnpc("<p,neutral>Hi, the King said that you need to leave?");
     ~chatplayer("<p,sad>Apparently humans are invading!");
     ~chatnpc("<p,angry>I find that hard to believe!|I have lots of human friends.");

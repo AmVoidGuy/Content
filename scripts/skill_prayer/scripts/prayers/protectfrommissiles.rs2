@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_protectfrommissiles]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_protectfrommissiles;
 }
 %prayer13 = %prayer13;
@@ -16,7 +16,7 @@ if (%prayer13 = ^true) {
     ~prayer_deactivate(^prayer_protectfrommissiles);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer13 = ^false;
     return;
 }

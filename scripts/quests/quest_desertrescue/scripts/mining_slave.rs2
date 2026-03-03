@@ -3,13 +3,13 @@
 [label,standard_camp_slave]
 npc_say("Can't you see I'm busy?");
 mes("This person doesn't want to talk to you.");
-if((npc_find(coord, desertminingmercenary1, 5, 0) = true | npc_find(coord, desertminingmercenary2, 5, 0) = true) & ~wearing_slave_robes = false) {
+if((npc_find(coord, desertminingmercenary1, 5, 0) = ^true | npc_find(coord, desertminingmercenary2, 5, 0) = ^true) & ~wearing_slave_robes = ^false) {
     p_delay(1);
     @mining_camp_caught;
 }
 
 [opnpc1,mining_slave_male]
-if(inzone(0_51_147_0_0, 0_51_147_63_63, coord) = true) {
+if(inzone(0_51_147_0_0, 0_51_147_63_63, coord) = ^true) {
     @standard_camp_slave;
 }
 
@@ -108,12 +108,12 @@ switch_int(~p_choice2("It's funny you should say that...", 1, "That sounds awful
 [label,mining_slave_male_picklock]
 ~mesbox("You use some nearby bits of wood and wire to try and pick the lock.");
 def_int $attempts = getbit_range(%desertrescue_map_mechanisms, ^desertrescue_lock_attempts1, ^desertrescue_lock_attempts2); // OSRS has this mechanic stored as varb in varp 907, might be rework exclusive?
-if(stat_random(thieving, 20, 250) = false) { // RS3 rate
+if(stat_random(thieving, 20, 250) = ^false) { // RS3 rate
     %desertrescue_map_mechanisms = setbit_range_toint(%desertrescue_map_mechanisms, add($attempts, 1), ^desertrescue_lock_attempts1, ^desertrescue_lock_attempts2);
     mes("You fail!");
     // you can get caught by guards first time in osrs, in rsc (at least openrsc) its always on 2nd attempt
     if ($attempts >= 2) {
-        if(.npc_find(coord, desertminingmercenary1, 10, 0) = true | .npc_find(coord, desertminingmercenary2, 10, 0) = true) {
+        if(.npc_find(coord, desertminingmercenary1, 10, 0) = ^true | .npc_find(coord, desertminingmercenary2, 10, 0) = ^true) {
             if_close;
             %desertrescue_map_mechanisms = setbit_range_toint(%desertrescue_map_mechanisms, 0, ^desertrescue_lock_attempts1, ^desertrescue_lock_attempts2);
             mes("A nearby guard spots you!");
@@ -167,35 +167,35 @@ if(%desertrescue = ^desertrescue_freed_slave) %desertrescue = ^desertrescue_trad
 mes("The slave takes your desert robe.");
 mes("The slave takes your desert shirt.");
 mes("The slave takes your desert boots.");
-def_boolean $traded_robe = false;
-def_boolean $traded_shirt = false;
-def_boolean $traded_boots = false;
+def_int $traded_robe = ^false;
+def_int $traded_shirt = ^false;
+def_int $traded_boots = ^false;
 if(inv_total(inv, desert_robe) > 0) {
     inv_del(inv, desert_robe, 1);
     inv_add(inv, slave_robe, 1);
-    $traded_robe = true;
+    $traded_robe = ^true;
 }
 if(inv_total(inv, desert_shirt) > 0) {
     inv_del(inv, desert_shirt, 1);
     inv_add(inv, slave_shirt, 1);
-    $traded_shirt = true;
+    $traded_shirt = ^true;
 }
 if(inv_total(inv, desert_boots) > 0) {
     inv_del(inv, desert_boots, 1);
     inv_add(inv, slave_boots, 1);
-    $traded_boots = true;
+    $traded_boots = ^true;
 }
 ~objbox(slave_robe, "The slave gives you his dirty, flea infested robe.", 250, 0, 0);
 ~objbox(slave_shirt, "The slave gives you his muddy, sweat soaked shirt.", 250, 0, 0);
 ~objbox(slave_boots, "The slave gives you a smelly pair of decomposing boots.", 250, 0, divide(^objbox_height, 2));
 
-if(inv_total(worn, desert_robe) > 0 & $traded_robe = false) {
+if(inv_total(worn, desert_robe) > 0 & $traded_robe = ^false) {
     inv_setslot(worn, ^wearpos_legs, slave_robe, 1);
 }
-if(inv_total(worn, desert_shirt) > 0 & $traded_shirt = false) {
+if(inv_total(worn, desert_shirt) > 0 & $traded_shirt = ^false) {
     inv_setslot(worn, ^wearpos_torso, slave_shirt, 1);
 }
-if(inv_total(worn, desert_boots) > 0 & $traded_boots = false) {
+if(inv_total(worn, desert_boots) > 0 & $traded_boots = ^false) {
     inv_setslot(worn, ^wearpos_feet, slave_boots, 1);
 }
 ~update_bas;
@@ -246,7 +246,7 @@ switch_int(random(5)) {
 ~npc_retaliate(0);
 
 [ai_queue3,slave_rowdy]
-if (finduid(%npc_aggressive_player) = true) { 
+if (finduid(%npc_aggressive_player) = ^true) { 
     if(inv_total(inv, slave_shirt) = 0) {
         obj_add(npc_coord, slave_shirt, 1, ^lootdrop_duration);
         mes("The slave drops his shirt.");

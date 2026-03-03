@@ -7,7 +7,7 @@
 
 [label,lean_on_wall]
 if (coord ! loc_coord & loc_shape ! wall_diagonal) {
-    if (lineofwalk(coord, loc_coord) = false) {
+    if (lineofwalk(coord, loc_coord) = ^false) {
         mes("I can't reach that.");
         return;
     }

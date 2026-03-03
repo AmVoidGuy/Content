@@ -49,8 +49,8 @@ if (inv_total(inv, mappart1) > 0 & inv_total(inv, mappart2) > 0 & inv_total(inv,
 ~mesbox("This is a map that shows the route through the reefs|to Crandor. You will need a ship to follow this route.");
 
 
-[proc,quest_dragon_getting_map_parts]()(boolean)
+[proc,quest_dragon_getting_map_parts]()(int)
 if (%dragonquest >= ^quest_dragon_spoken_to_oziach & %dragonquest < ^quest_dragon_ned_given_map) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);

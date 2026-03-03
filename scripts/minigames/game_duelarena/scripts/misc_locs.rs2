@@ -29,8 +29,8 @@ if (map_members = ^false) {
     return;
 }
 def_coord $orig_coord = loc_coord;
-loc_findallzone(~get_pair_coord($orig_coord, loc_angle, true));
-while (loc_findnext = true) {
+loc_findallzone(~get_pair_coord($orig_coord, loc_angle, ^true));
+while (loc_findnext = ^true) {
     if (distance($orig_coord, loc_coord) <= 1 & loc_category = gate_main_closed) {
         ~open_gate;
         return;

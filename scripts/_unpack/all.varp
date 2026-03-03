@@ -82,6 +82,7 @@ protect=no
 
 [autocast_spell]
 scope=perm
+protect=no
 
 [goblinquest]
 scope=perm
@@ -112,7 +113,7 @@ scope=perm
 [stunned]
 
 [multiway]
-type=boolean
+type=int
 
 [newcomers_pos]
 transmit=yes

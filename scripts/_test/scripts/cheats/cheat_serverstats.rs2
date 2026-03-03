@@ -1,5 +1,5 @@
 [debugproc,lag]
-if (p_finduid(uid) = false) {
+if (p_finduid(uid) = ^false) {
     return;
 }
 def_coord $target = 0_29_75_32_32;

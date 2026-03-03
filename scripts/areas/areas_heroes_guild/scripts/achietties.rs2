@@ -7,7 +7,7 @@ if (%heroquest >= ^hero_complete) {
   return;
 }
 
-if (~hero_in_progress = true) {
+if (~hero_in_progress = ^true) {
   ~chatnpc("<p,quiz>How goes thy quest adventurer?");
   if ((inv_total(inv, hot_feather) >= 1) & (inv_total(inv, lava_eel) >= 1) & (inv_total(inv, master_thief_armband) >= 1)) {
     ~chatplayer("<p,happy>I have all the required items.");
@@ -36,7 +36,7 @@ if($op = 2) {
   return;
 }
 ~chatplayer("<p,quiz>I'm a hero. May I apply to join?");
-if (~has_hero_quest_requirements = true) {
+if (~has_hero_quest_requirements = ^true) {
   ~chatnpc("<p,neutral>Well, you have a lot of quest points, and you have done|all the required quests, so you may now begin the|tasks to meet the entry requirements for membership in|the Hero's Guild. The three items required");
   ~chatnpc("<p,neutral>for entrance are:|An Entranan Firebird feather,|a Master Thieves' armband,|and a cooked Lava Eel."); // imgur.com/8hiv333
   %heroquest = ^hero_started;

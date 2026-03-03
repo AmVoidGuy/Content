@@ -1,5 +1,5 @@
 [debugproc,lockalltracks]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     %musicmulti_1 = 0;
     %musicmulti_2 = 0;
     %musicmulti_3 = 0;
@@ -11,7 +11,7 @@ if (p_finduid(uid) = true) {
 }
 
 [debugproc,unlockalltracks]
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     %musicmulti_1 = 0xFFFFFFFF;
     %musicmulti_2 = 0xFFFFFFFF;
     %musicmulti_3 = 0xFFFFFFFF;

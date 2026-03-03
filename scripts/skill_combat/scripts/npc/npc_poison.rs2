@@ -28,7 +28,7 @@ npc_settimer(0); // npc_cleartimer?
 
 
 [proc,npc_poison_start](int $severity)
-if (~npc_is_attackable() = false) {
+if (~npc_is_attackable() = ^false) {
     return;
 }
 if (map_members = ^false) {

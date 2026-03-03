@@ -1,5 +1,5 @@
 [label,macro_randomwoodcutting]
-if (~macro_event_allowed = false) {
+if (~macro_event_allowed = ^false) {
     return;
 }
 switch_int (random(calc(~macro_event_general_count + 3))) {
@@ -11,7 +11,7 @@ switch_int (random(calc(~macro_event_general_count + 3))) {
 
 //Achey trees - no ent
 [label,macro_randomwoodcuttingachey]
-if (~macro_event_allowed = false) {
+if (~macro_event_allowed = ^false) {
     return;
 }
 switch_int (random(calc(~macro_event_general_count + 2))) {

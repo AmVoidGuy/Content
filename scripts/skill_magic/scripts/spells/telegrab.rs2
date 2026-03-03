@@ -5,7 +5,7 @@
 [label,magic_spell_telegrab]
 // look for spell in db
 def_dbrow $spell_data = ~get_spell_data(^telekinetic_grab);
-if (~check_spell_requirements($spell_data) = false) {
+if (~check_spell_requirements($spell_data) = ^false) {
     return;
 }
 if (afk_event = ^true) {
@@ -26,7 +26,7 @@ if(oc_category(obj_type) = trail_challenge & (inv_totalcat(inv, trail_challenge)
     return;
 }
 if((oc_category(obj_type) = trail_clue_easy | oc_category(obj_type) = trail_clue_medium | oc_category(obj_type) = trail_clue_hard |
-    oc_category(obj_type) = trail_casket_easy | oc_category(obj_type) = trail_casket_medium | oc_category(obj_type) = trail_casket_hard) & ~trail_hasclue_all = true) {
+    oc_category(obj_type) = trail_casket_easy | oc_category(obj_type) = trail_casket_medium | oc_category(obj_type) = trail_casket_hard) & ~trail_hasclue_all = ^true) {
     mes("You already have a clue scroll."); // OSRS
     return;
 }
@@ -36,7 +36,7 @@ if(obj_type = holy_grail | obj_type = ghostskull | obj_type = ice_arrow | obj_ty
     mes("I can't use Telekinetic Grab on this object.");
     return;
 }
-if(oc_param(obj_type, telegrab_disabled) = true) {
+if(oc_param(obj_type, telegrab_disabled) = ^true) {
     mes("You can't cast this spell on that object.");
     return;
 }
@@ -46,7 +46,7 @@ if(obj_coord = ^legends_opal_coord | obj_coord = ^legends_jade_coord | obj_coord
     return;
 }
 // no idea if this goes here but in osrs it def goes after the clue scroll check - telegrabbing clue with full inv gives clue message
-if (~pickup_obj_check_for_space(obj_type, obj_count) = false) {
+if (~pickup_obj_check_for_space(obj_type, obj_count) = ^false) {
     return;
 }
 // start anim, sound, and spotanim

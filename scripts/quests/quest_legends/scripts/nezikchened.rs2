@@ -1,7 +1,7 @@
 [ai_queue1,nezikchened] ~npc_default_retaliate_ap;
 
 [ai_queue2,nezikchened]
-if(finduid(%npc_aggressive_player) = true) {
+if(finduid(%npc_aggressive_player) = ^true) {
     if(%legendsquest ! ^legends_summoned_nezikchened_fire & %legendsquest ! ^legends_received_dagger & %legendsquest ! ^legends_spawned_nezikchened_final) {
         mes("Your attack glides straight through the demon, as if he isn't even there.");
         %npc_aggressive_player = null;
@@ -25,7 +25,7 @@ npc_anim(npc_param(attack_anim), 0);
 if (npc_param(attack_sound) ! null) {
     sound_synth(npc_param(attack_sound), 0, 0);
 }
-if(~nezikchened_dagger_attack = true) {
+if(~nezikchened_dagger_attack = ^true) {
     return;
 }
 ~npc_meleeattack;
@@ -39,7 +39,7 @@ if (%npc_action_delay > map_clock) {
     return;
 }
 if (npc_range(coord) > 1) { // if more than 1 tile away after being attacked, nezikchened will use magic
-    if(~nezikchened_dagger_attack = true) {
+    if(~nezikchened_dagger_attack = ^true) {
         return;
     }
     ~npc_cast_spell(^nezikchened_mage_attack, 5);
@@ -73,7 +73,7 @@ if(%legendsquest ! ^legends_summoned_nezikchened_fire & %legendsquest ! ^legends
 @player_combat_start_ap;
 
 [ai_queue3,nezikchened]
-if (finduid(%npc_aggressive_player) = true) {
+if (finduid(%npc_aggressive_player) = ^true) {
     if_close;
     queue(nezikchened_defeat, 0, 0);
     return;
@@ -81,8 +81,8 @@ if (finduid(%npc_aggressive_player) = true) {
 
 [ai_queue4,nezikchened] gosub(npc_death);
 
-[proc,nezikchened_dagger_attack]()(boolean)
-if(inzone(0_37_73_0_0, 0_37_73_63_63, coord) = true & %legendsquest = ^legends_received_dagger) {
+[proc,nezikchened_dagger_attack]()(int)
+if(inzone(0_37_73_0_0, 0_37_73_63_63, coord) = ^true & %legendsquest = ^legends_received_dagger) {
     if(random(10) = 0 & %npc_int = 0) {
         mes("The demon takes out a dark dagger and throws it at you.");
         if(random(3) = 0) {
@@ -93,9 +93,9 @@ if(inzone(0_37_73_0_0, 0_37_73_63_63, coord) = true & %legendsquest = ^legends_r
             npc_say("Ha, ha, ha... feel my power!");
         }
         %npc_int = 1;
-        return(true);
+        return(^true);
     }
-    return(false);
+    return(^false);
 }
 
 [label,summon_nezi_part3]
@@ -171,12 +171,12 @@ if(testbit(%legends_bits, ^legends_defeated_san_final) = ^false) {
 [queue,nezikchened_defeat]
 // This leads to some interesting behaviour, we can kill 1 nezi while the player is delayed, the other will attack and switch aggressive_npc, when the 
 // queue executes, that one will die instead (this is how it works on OSRS)
-if(npc_finduid(%aggressive_npc) = true & npc_type = nezikchened) {
+if(npc_finduid(%aggressive_npc) = ^true & npc_type = nezikchened) {
     npc_sethuntmode(null);
     npc_setmode(none);
     npc_walk(npc_coord);
     p_stopaction;
-    if (inzone(0_43_145_0_0, 0_43_145_63_63, coord) = true & %legendsquest = ^legends_summoned_nezikchened_fire) {
+    if (inzone(0_43_145_0_0, 0_43_145_63_63, coord) = ^true & %legendsquest = ^legends_summoned_nezikchened_fire) {
         %legendsquest = ^legends_defeated_nezikchened_fire;
         mes("Nezikchened: Ha ha ha... I shall return for you when the time is right.");
         npc_say("Ha ha ha... I shall return for you when the time is right.");
@@ -197,7 +197,7 @@ if(npc_finduid(%aggressive_npc) = true & npc_type = nezikchened) {
         npc_queue(4, 0, 0);
         p_delay(5);
         mes("The demon's body falls to the floor in a pile of ashes...");
-    } else if (inzone(0_37_73_0_0, 0_37_73_63_63, coord) = true & %legendsquest = ^legends_received_dagger) {
+    } else if (inzone(0_37_73_0_0, 0_37_73_63_63, coord) = ^true & %legendsquest = ^legends_received_dagger) {
         %legendsquest = ^legends_defeated_nezikchened_water;
         mes("The demon seems very angry now...");
         npc_say("Arrrgghhhhh, foul Vacu!");
@@ -212,7 +212,7 @@ if(npc_finduid(%aggressive_npc) = true & npc_type = nezikchened) {
         npc_queue(4, 0, 0);
         p_delay(5);
         mes("The demon's body falls to the floor in a pile of ashes...");
-    } else if (inzone(0_43_45_5_2, 0_46_45_30_55, coord) = true & %legendsquest = ^legends_spawned_nezikchened_final) {
+    } else if (inzone(0_43_45_5_2, 0_46_45_30_55, coord) = ^true & %legendsquest = ^legends_spawned_nezikchened_final) {
         %legendsquest = ^legends_defeated_nezikchened_final;
         mes("You deliver the final killing blow to the foul demon.");
         p_delay(2);

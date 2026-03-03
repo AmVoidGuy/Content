@@ -340,9 +340,9 @@ queue(quest_chompybird_complete, 0, 0);
 // look for any chompy birds to shoot
 [ai_timer,rantz]
 if(random(20) ! 0 | npc_getmode = none) return;
-if (.npc_find(0_41_46_11_22, chompy_bird, 12, ^vis_lineofsight) = true) {
+if (.npc_find(0_41_46_11_22, chompy_bird, 12, ^vis_lineofsight) = ^true) {
     if(%rantz_attacking_chompy = .npc_uid) return;
-    if (p_finduid(.%quest_chompybird_baiter) = true & inzone(0_41_46_0_0, 0_41_46_63_63, coord) = true) {
+    if (p_finduid(.%quest_chompybird_baiter) = ^true & inzone(0_41_46_0_0, 0_41_46_63_63, coord) = ^true) {
         // we only run this logic for players in the right quest state
         if (%chompybird >= ^chompybird_chompy_ate_toad & %chompybird < ^chompybird_rantz_gave_player_bow) {
             %rantz_attacking_chompy = .npc_uid;
@@ -359,7 +359,7 @@ if (.npc_find(0_41_46_11_22, chompy_bird, 12, ^vis_lineofsight) = true) {
 }
 
 [ai_queue11,rantz]
-if(.npc_finduid(%rantz_attacking_chompy) = true) {
+if(.npc_finduid(%rantz_attacking_chompy) = ^true) {
     npc_anim(ogre_longbow, 0);
     spotanim_npc(ogre_arrow_launch, 50, 0);
     def_int $duration = ~npc_to_npc_projectile(.npc_uid, ogre_arrow_travel, 38, 36, 41, 15, 5, 11, 5);
@@ -369,8 +369,8 @@ if(.npc_finduid(%rantz_attacking_chompy) = true) {
 
 [ai_queue12,rantz]
 npc_setmode(null);
-if(.npc_finduid(%rantz_attacking_chompy) = true) {
-    if (p_finduid(%quest_chompybird_baiter) = true) {
+if(.npc_finduid(%rantz_attacking_chompy) = ^true) {
+    if (p_finduid(%quest_chompybird_baiter) = ^true) {
         %chompybird = ^chompybird_rantz_tried_to_shoot_chompy;
         mes("Rantz keeps missing the chompy bird...");
         mes("Rantz: Grrr...de'ese arrows are rubbish.");

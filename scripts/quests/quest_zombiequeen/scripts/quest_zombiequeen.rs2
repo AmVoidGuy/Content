@@ -9,7 +9,7 @@ if(coordx(coord) <= coordx(loc_coord)) {
     return;
 }
 ~mesbox("You approach the cart and see undead creatures gathering by the village gates. There is a note attached to the cart. The note says,|@red@:: Danger :: Deadly green mist DO NOT ENTER IF YOU @red@VALUE YOUR LIFE!");
-if(npc_find(coord, mosol_rei, 8, 0) = true) {
+if(npc_find(coord, mosol_rei, 8, 0) = ^true) {
     if(random(2) = 0) ~chatnpc("<p,shock>Hey, move away from the cart please!|It's unsafe to go in there."); // chatnpc_specific in OSRS but chatnpc on RS3
     else ~chatnpc("<p,shock>You must be a maniac to go in there!|The whole place is swarming with zombies!");
 }
@@ -61,7 +61,7 @@ switch_int(~p_choice2("Yes, I am very nimble and agile!", 1, "No, actually, I ha
 }
 
 [queue,shilo_mist_queue]
-if(inzone(0_44_46_52_1, 0_44_46_58_15, coord) = false) {
+if(inzone(0_44_46_52_1, 0_44_46_58_15, coord) = ^false) {
     return;
 }
 @zq_greenmist(coord, 0);
@@ -72,7 +72,7 @@ if($counter >= 4) {
 }
 spotanim_map(shilomist, $mist_coord, 124, 3);
 huntall($mist_coord, 1, 0);
-while (huntnext = true) {
+while (huntnext = ^true) {
     if($counter = 0) mes("A green thick mist rises from the ground and starts choking you.");
     queue(damage_player, 0, ~random_range(2,3));
 }
@@ -81,7 +81,7 @@ world_delay(3); // 4t, might be npc_queue on a zombie or something
 
 [proc,shilo_metalgates_open]
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
     if(loc_category = shilo_metalgate) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;
@@ -102,7 +102,7 @@ while(loc_findnext = true) {
 if(%zombiequeen >= ^zombiequeen_complete) {
     def_coord $loc_coord = loc_coord;
     loc_findallzone(movecoord(coord, 1, 0, 0));
-    while(loc_findnext = true) {
+    while(loc_findnext = ^true) {
         if(loc_category = shilo_woodengate) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;
@@ -133,20 +133,20 @@ if(%zombiequeen >= ^zombiequeen_complete) {
 mes("The gate won't open.");
 
 [oploc2,zqquest_hidytree]
-if(loc_find(0_45_48_37_18, hillsideclosedl) = true) {
+if(loc_find(0_45_48_37_18, hillsideclosedl) = ^true) {
     mes("The trees are already pulled apart revealing some doors.");
     return;
 }
 mes("You search the palm trees...");
 mes("...and reveal an ancient doorway set into the side of the hill!");
-if(loc_find(0_45_48_37_18, zq_doorblock_jungle1) = true & .loc_find(0_45_48_36_18, zq_doorblock_jungle2) = true) {
+if(loc_find(0_45_48_37_18, zq_doorblock_jungle1) = ^true & .loc_find(0_45_48_36_18, zq_doorblock_jungle2) = ^true) {
     loc_change(hillsideclosedl, ^max_32bit_int);
     .loc_change(hillsideclosedr, ^max_32bit_int);
 }
 longqueue(hide_rashiliyia_doors, 50, 0, ^accelerate);
 
 [queue,hide_rashiliyia_doors]
-if((loc_find(0_45_48_37_18, hillsideclosedl) = true & .loc_find(0_45_48_36_18, hillsideclosedr) = true) | (loc_find(0_45_48_37_18, loc_2238) = true & .loc_find(0_45_48_36_18, loc_2239) = true)) {
+if((loc_find(0_45_48_37_18, hillsideclosedl) = ^true & .loc_find(0_45_48_36_18, hillsideclosedr) = ^true) | (loc_find(0_45_48_37_18, loc_2238) = ^true & .loc_find(0_45_48_36_18, loc_2239) = ^true)) {
     loc_change(zq_doorblock_jungle1, ^max_32bit_int);
     .loc_change(zq_doorblock_jungle2, ^max_32bit_int);
     if(distance(.loc_coord, coord) <= 2 | distance(loc_coord, coord) <= 2) mes("The trees spring back into place and hide the doors again.");
@@ -179,7 +179,7 @@ if(last_useitem = zqbonekey) {
 
 [label,enter_rash_tomb]
 if(%zombiequeen < ^zombiequeen_unlocked_rashliyia_tomb) {
-    if(loc_find(0_45_48_37_18, loc_2238) = true & .loc_find(0_45_48_36_18, loc_2239) = true) {
+    if(loc_find(0_45_48_37_18, loc_2238) = ^true & .loc_find(0_45_48_36_18, loc_2239) = ^true) {
         loc_change(zq_doorblock_jungle1, ^max_32bit_int);
         .loc_change(zq_doorblock_jungle2, ^max_32bit_int);
         mes("The trees spring back into place and hide the doors again.");
@@ -192,8 +192,8 @@ p_teleport(0_45_148_49_53);
 ~mesbox("The doors close behind you with the sound of crunching bone.|Before you stretches a winding tunnel blocked by an ancient gate.");
 
 [label,open_rash_tombdoor]
-if(loc_find(0_45_48_37_18, hillsideclosedl) = true) loc_change(loc_2238, ^max_32bit_int);
-if(loc_find(0_45_48_36_18, hillsideclosedr) = true) loc_change(loc_2239, ^max_32bit_int);
+if(loc_find(0_45_48_37_18, hillsideclosedl) = ^true) loc_change(loc_2238, ^max_32bit_int);
+if(loc_find(0_45_48_36_18, hillsideclosedr) = ^true) loc_change(loc_2239, ^max_32bit_int);
 mes("A shimmering light dances over the doors, before you can blink, the doors");
 mes("creak open.");
 queue(rash_queue, 6, 0); // 6t, it is a queue
@@ -259,7 +259,7 @@ if(inv_total(worn, zqdeadbeads) = 0 & coordz(coord) > coordz(loc_coord)) {
 }
 def_coord $loc_coord = loc_coord;
 loc_findallzone(coord);
-while(loc_findnext = true) {
+while(loc_findnext = ^true) {
      if(loc_type = zombiequeengateclosedl | loc_type = zombiequeengateclosedr) {
             def_coord $central_coord = loc_coord;
             def_int $orig_angle = loc_angle;
@@ -296,7 +296,7 @@ if(inv_total(worn, zqdeadbeads) > 0) {
 if(%zombiequeen >= ^zombiequeen_complete 
     | %zq_rash_timer > map_clock 
     | inv_total(worn, zqdeadbeads) > 0
-    | inzone(0_45_148_0_0, 0_45_148_63_63, coord) = false) {
+    | inzone(0_45_148_0_0, 0_45_148_63_63, coord) = ^false) {
     return;
 }
 mes("Rashiliyia appears!");
@@ -530,9 +530,9 @@ if(coordx(coord) > coordx(loc_coord)) {
     }
     p_delay(0);
     ~agility_force_move(0, human_climbing, movecoord(coord, -2, 0, 0));
-    if(stat_random(agility, 170, 253) = false) {
+    if(stat_random(agility, 170, 253) = ^false) {
         // sound_synth(stumble_loop, 10, 0);
-        ~agility_exactmove(human_climbing_fall, 0, 1, coord, movecoord(coord, 2, 0, 0), 0, 50, ^exact_west, false);
+        ~agility_exactmove(human_climbing_fall, 0, 1, coord, movecoord(coord, 2, 0, 0), 0, 50, ^exact_west, ^false);
         anim(null, 0);
         mes("You fall and hurt yourself.");
         say("Ouch");
@@ -542,8 +542,8 @@ if(coordx(coord) > coordx(loc_coord)) {
     }
     ~agility_force_move(0, human_climbing, movecoord(coord, -2, 0, 0));
 } else if (coordx(coord) < coordx(loc_coord)) {
-    ~agility_exactmove(human_climbing_down, 15, 0, coord, movecoord(coord, 4, 0, 0), 0, 120, ^exact_west, false);
-    if(stat_random(agility, 170, 253) = false) {
+    ~agility_exactmove(human_climbing_down, 15, 0, coord, movecoord(coord, 4, 0, 0), 0, 120, ^exact_west, ^false);
+    if(stat_random(agility, 170, 253) = ^false) {
         anim(human_climbing_fall, 0);
         // sound_synth(stumble_loop, 10, 0);
         p_delay(1);
@@ -562,8 +562,8 @@ if(coordx(coord) > coordx(loc_coord)) {
 [zoneexit,0_43_46_24_32] cleartimer(cairn_island_bridge);
 
 [timer,cairn_island_bridge]
-if(inzone(0_43_46_24_35, 0_43_46_29_35, coord) = true) {
-    if(stat_random(agility, 75, 250) = false) {
+if(inzone(0_43_46_24_35, 0_43_46_29_35, coord) = ^true) {
+    if(stat_random(agility, 75, 250) = ^false) {
         // fall
         mes("You fall!");
         p_stopaction;
@@ -622,7 +622,7 @@ if(testbit(%zq_map_mechanisms, ^zq_read_tattered_scroll) = ^true) {
             }
             ~mesbox("You contort your body and prepare to squirm worm like into the hole.");
             anim(human_pickupfloor, 5);
-            if(stat_random(agility, 170, 253) = false) {
+            if(stat_random(agility, 170, 253) = ^false) {
                 ~set_walkbas(human_drowning);
                 ~forcemove(loc_coord);
                 mes("You manage to get yourself stuck.");
@@ -659,7 +659,7 @@ if(testbit(%zq_map_mechanisms, 0) = ^true) {
 ~mesbox("You may be able to turn this dilapidated table into something that could help you to get out of this place. What would you like to try and turn this table into?");
 switch_int(~p_choice3("A ladder", 1, "A crude raft", 2, "A pole vault", 3)) {
     case 1 :
-        if(stat_random(crafting, 125, 250) = true) {
+        if(stat_random(crafting, 125, 250) = ^true) {
             stat_advance(crafting, 5);
             ~mesbox("Your experience in crafting tells you that there isn't enough wood to complete this task.");
             return;
@@ -667,7 +667,7 @@ switch_int(~p_choice3("A ladder", 1, "A crude raft", 2, "A pole vault", 3)) {
         %zq_map_mechanisms = setbit(%zq_map_mechanisms, ^zq_used_table_logs);
         ~mesbox("You happily start hacking away at the table but realise that you won't have enough wood to properly finish the item off!");
     case 2 :
-        if(stat_random(crafting, 125, 250) = false) {
+        if(stat_random(crafting, 125, 250) = ^false) {
             %zq_map_mechanisms = setbit(%zq_map_mechanisms, ^zq_used_table_logs);
             ~mesbox("You happily start hacking away at the table but realise that you won't have enough wood to properly finish the item off!"); // todo: confirm this fails the same way
             return;
@@ -741,7 +741,7 @@ switch_int(~p_choice3("A ladder", 1, "A crude raft", 2, "A pole vault", 3)) {
         mes("The raft soons breaks up.");
         // Temp note: dur updated
         loc_change(lograft_broken, 6);
-        ~agility_exactmove(human_walk_logbalance_stumble, 5, 0, coord, movecoord(coord, 0, 0, 1), 6, 30, ^exact_east, false);
+        ~agility_exactmove(human_walk_logbalance_stumble, 5, 0, coord, movecoord(coord, 0, 0, 1), 6, 30, ^exact_east, ^false);
         // Temp note: dur updated
         loc_del(2);
         sound_synth(pool_plop, 0, 0);
@@ -758,7 +758,7 @@ switch_int(~p_choice3("A ladder", 1, "A crude raft", 2, "A pole vault", 3)) {
         loc_add(0_45_46_53_7, lograft_broken, 1, centrepiece_straight, 10);
         ~forcemove(movecoord(coord, 0, 0, 1));
     case 3 :
-        if(stat_random(crafting, 125, 250) = true) {
+        if(stat_random(crafting, 125, 250) = ^true) {
             ~mesbox("Your experience in crafting tells you that there isn't enough wood to complete this task.");
             return;
         }
@@ -847,7 +847,7 @@ if(~obj_gettotal(zqberviriusscroll) > 0) {
 def_int $choice = ~p_choice2("Yes, I'm quite sure.", 1, "No, I think I'll keep it.", 2);
 if ($choice = 1) {
     ~mesbox("You start to slowly move the rocks to one side.");
-    if(stat_random(agility, 75, 250) = false) {
+    if(stat_random(agility, 75, 250) = ^false) {
         queue(damage_player, 0, calc(((stat_base(hitpoints) * 10) / 100) + 1)); // assuming regular queue, strongqueue in OSRS
         ~mesbox("You accidentally knock some rocks and the ceiling starts to cave in.|Some rocks fall on you."); // this wont show up cause of damage in OSRS
         return;
@@ -948,7 +948,7 @@ switch_int(~p_choice2("I don't think so, it might animate and attack me!", 1, "Y
 [label,bury_zadimus_corpse]
 mes("You feel an unearthly compunction to bury this corpse!");
 p_delay(1); // 2t
-if(inzone(0_43_48_42_15, 0_43_48_46_18, coord) = true) {
+if(inzone(0_43_48_42_15, 0_43_48_46_18, coord) = ^true) {
     def_coord $spawn_coord = map_findsquare(coord, 1, 1, ^map_findsquare_lineofwalk);
     facesquare($spawn_coord);
     anim(human_dig, 0);
@@ -991,13 +991,13 @@ switch_int(~p_choice2_header("Yes, I'll follow the path.", 1, "No, I'll look for
         }
         ~forcemove(movecoord(coord, 2, 0, 0));
         p_delay(0);
-        if(stat_random(agility, 75, 250) = false) {
+        if(stat_random(agility, 75, 250) = ^false) {
             mes("You fall!");
             ~set_walkbas(human_drowning);
             sound_synth(pool_plop, 0, 0);
             if(coordz(coord) < 9351) {
                 spotanim_map(watersplash, movecoord(coord, 0, 0, -1), 0, 3);
-                ~agility_exactmove(human_sidestep_fall, 30, 0, coord, movecoord(coord, 0, 0, -1), 31, 46, ^exact_east, false);
+                ~agility_exactmove(human_sidestep_fall, 30, 0, coord, movecoord(coord, 0, 0, -1), 31, 46, ^exact_east, ^false);
                 say("Arrgghhhh!");
                 ~forcemove(movecoord(coord, 2, 0, 0));
                 p_delay(0);
@@ -1014,7 +1014,7 @@ switch_int(~p_choice2_header("Yes, I'll follow the path.", 1, "No, I'll look for
                 ~damage_self(2);
             } else {
                 spotanim_map(watersplash, movecoord(coord, 0, 0, 1), 0, 3);
-                ~agility_exactmove(human_sidestep_fall, 30, 0, coord, movecoord(coord, 0, 0, 1), 31, 46, ^exact_east, false);
+                ~agility_exactmove(human_sidestep_fall, 30, 0, coord, movecoord(coord, 0, 0, 1), 31, 46, ^exact_east, ^false);
                 say("Arrgghhhh!");
                 ~forcemove(movecoord(coord, 2, 0, 0));
                 p_delay(0);
@@ -1058,7 +1058,7 @@ switch_int(~p_choice2_header("Yes, I'll follow the path.", 1, "No, I'll look for
 [mapzoneexit,0_45_146] queue(exit_ah_za_rhoon, 0, 0);
 
 [queue,exit_ah_za_rhoon]
-if(inzone(0_45_145_0_0, 0_45_146_63_63, coord) = true) {
+if(inzone(0_45_145_0_0, 0_45_146_63_63, coord) = ^true) {
     return;
 }
 if(%zombiequeen = ^zombiequeen_entered_ah_za_rhoon) %zombiequeen = ^zombiequeen_left_ah_za_rhoon;
@@ -1068,9 +1068,9 @@ if(%zombiequeen >= ^zombiequeen_complete) {
     mes("There is nothing new about this dolmen.");
     return;
 }
-if(~zqhaspommel = true & ~obj_gettotal(zqcrystal) > 0) {
+if(~zqhaspommel = ^true & ~obj_gettotal(zqcrystal) > 0) {
     ~mesbox("The dolmen is intricately decorated with the symbol of two crossed palm trees. It might be the family crest? You can see nothing on the dolmen.");
-} else if(~zqhaspommel = true | ~obj_gettotal(zqcrystal) > 0) {
+} else if(~zqhaspommel = ^true | ~obj_gettotal(zqcrystal) > 0) {
     ~mesbox("The dolmen is intricately decorated with the symbol of two crossed palm trees. It might be the family crest? You can see an item on the dolmen.");
 } else {
     ~mesbox("The dolmen is intricately decorated with the symbol of two crossed palm trees. It might be the family crest? You can see that there are some items on the dolmen.");
@@ -1081,14 +1081,14 @@ if(%zombiequeen >= ^zombiequeen_complete) {
     mes("There is nothing new about this dolmen.");
     return;
 }
-if(~zqhaspommel = true & ~obj_gettotal(zqcrystal) > 0) {
+if(~zqhaspommel = ^true & ~obj_gettotal(zqcrystal) > 0) {
     ~mesbox("The dolmen is intricately decorated with the symbol of two crossed palm trees. It might be the family crest? You can see nothing on the dolmen.");
-} else if(~zqhaspommel = true | ~obj_gettotal(zqcrystal) > 0) {
+} else if(~zqhaspommel = ^true | ~obj_gettotal(zqcrystal) > 0) {
     ~mesbox("The dolmen is intricately decorated with the symbol of two crossed palm trees. It might be the family crest? You can see an item on the dolmen.");
 } else {
     ~mesbox("The dolmen is intricately decorated with the symbol of two crossed palm trees. It might be the family crest? You can see that there are some items on the dolmen.");
 }
-if(~zqhaspommel = false) {
+if(~zqhaspommel = ^false) {
     inv_add(inv, zqbevsword, 1);
     ~objbox(zqbevsword, "You find a rusty sword with an ivory pommel. You take the Ivory pommel and place it in your inventory.", 250, 0, 0);
 }
@@ -1123,7 +1123,7 @@ if(last_useitem = zqcorpse) {
     if(%zombiequeen = ^zombiequeen_retrieved_corpse) {
         ~objbox(zqcorpse, "You carefully place Rashiliyia's remains on the dolmen.|You feel a strange vibration in the air.", 250, 0, 0);
         if_close;
-        if(npc_find(coord, zqzombiequeen, 7, 0) = false) {
+        if(npc_find(coord, zqzombiequeen, 7, 0) = ^false) {
             def_coord $spawn_coord = map_findsquare(coord, 1, 1, ^map_findsquare_lineofwalk);
             spotanim_map(shilomist, $spawn_coord, 5, 0);
             // swamp_gas
@@ -1142,11 +1142,11 @@ if(last_useitem = zqcorpse) {
 }
 ~displaymessage(^dm_default);
 
-[proc,zqhaspommel]()(boolean)
+[proc,zqhaspommel]()(int)
 if(~obj_gettotal(zqbevsword) > 0 | ~obj_gettotal(zqbonebeads) > 0 | inv_total(inv, zqdeadbeads) > 0 | inv_total(bank, zqdeadbeads) > 0) { // no gear check for beads of the dead, probably just inv + bank for all
-    return (true);
+    return (^true);
 }
-return (false);
+return (^false);
 
 [opheld1,zqberviriusscroll2]
 ~objbox(zqberviriusscroll2, "This scroll is a collection of writings. Some of them are just scraps of papyrus with what looks like random scribblings. Which would you like to read?", 250, 0, 0);
@@ -1315,12 +1315,12 @@ p_arrivedelay;
 mes("You attempt to climb the granite rock.");
 ~set_readywalkturn_bas(human_climbing_ready, human_climbing, human_climbing);
 ~forcemove(movecoord(loc_coord, 1, 0, 0));
-if(stat_random(agility, 70, 250) = false) {
+if(stat_random(agility, 70, 250) = ^false) {
     mes("You fall!");
     ~update_bas;
     say("Arrggghhhhhh!");
     // sound_synth(stumble_loop, 10, 0);
-    ~agility_exactmove(null, 0, 0, coord, movecoord(coord, -2, 0, 0), 31, 50, ^exact_east, false);
+    ~agility_exactmove(null, 0, 0, coord, movecoord(coord, -2, 0, 0), 31, 50, ^exact_east, ^false);
     ~damage_self(~random_range(1, 10)); // this range should be correct
     return;
 }
@@ -1339,7 +1339,7 @@ mes("against stone as you see skeletons and");
 mes("zombies rising up out of the ground.");
 mes("The coins turn to dust in your hands.");
 npc_huntall(coord, 5, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if(npc_category = undead_one) ~npc_retaliate(0);
 }
 if(add(%lastcombat, 8) < map_clock) @rash_summon_minions(uid);
@@ -1358,7 +1358,7 @@ if(coordz(coord) <= coordz(loc_coord)) {
 } else {
     p_teleport(loc_coord);
 }
-if((loc_find(0_45_148_12_8, thzq_tombrooml1) = true | loc_find(0_45_148_12_8, thzq_tombrooml2) = true | loc_find(0_45_148_12_8, thzq_tombrooml3) = true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = true)) {
+if((loc_find(0_45_148_12_8, thzq_tombrooml1) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml2) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml3) = ^true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = ^true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = ^true)) {
     // Temp note: dur updated
     loc_change(thzq_tombrooml3, 3);
     .loc_change(thzq_tombroomr2, 3);
@@ -1371,7 +1371,7 @@ if((loc_find(0_45_148_12_8, thzq_tombrooml1) = true | loc_find(0_45_148_12_8, th
 
 [oploc2,_zqtombdoor]
 ~rash_summon;
-if((loc_find(0_45_148_12_8, thzq_tombrooml1) = true | loc_find(0_45_148_12_8, thzq_tombrooml2) = true | loc_find(0_45_148_12_8, thzq_tombrooml3) = true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = true)) {
+if((loc_find(0_45_148_12_8, thzq_tombrooml1) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml2) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml3) = ^true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = ^true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = ^true)) {
     switch_int(~get_zqtombdoorstate) {
         case 0 :
             loc_change(thzq_tombrooml1, 50);
@@ -1398,15 +1398,15 @@ def_obj $last_obj = last_useitem;
 if($last_obj = bones) {
     if(%zombiequeen >= ^zombiequeen_unlocked_tombdoor) {
         mes("There are no more recesses to fill, you filled them all.");
-        if(loc_find(0_45_148_12_8, thzq_tombrooml1) = false) mes("The doors seem busy at the moment.");
-        if(loc_find(0_45_148_13_8, thzq_tombroomr1) = false) mes("The doors seem busy at the moment.");
+        if(loc_find(0_45_148_12_8, thzq_tombrooml1) = ^false) mes("The doors seem busy at the moment.");
+        if(loc_find(0_45_148_13_8, thzq_tombroomr1) = ^false) mes("The doors seem busy at the moment.");
     } else switch_int(~get_zqtombdoorstate) {
         case 0 :
             anim(human_pickuptable, 0);
             p_delay(0); // 1t
             mes("You carefully place a bone in the door...");
             inv_del(inv, bones, 1);
-            if((loc_find(0_45_148_12_8, thzq_tombrooml1) = true | loc_find(0_45_148_12_8, thzq_tombrooml2) = true | loc_find(0_45_148_12_8, thzq_tombrooml3) = true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = true)) {
+            if((loc_find(0_45_148_12_8, thzq_tombrooml1) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml2) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml3) = ^true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = ^true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = ^true)) {
                 loc_change(thzq_tombrooml2, 50);
                 .loc_change(thzq_tombroomr1, 50);
             }
@@ -1417,7 +1417,7 @@ if($last_obj = bones) {
             p_delay(0); // 1t
             mes("You carefully place another bone in the door...");
             inv_del(inv, bones, 1);
-            if((loc_find(0_45_148_12_8, thzq_tombrooml1) = true | loc_find(0_45_148_12_8, thzq_tombrooml2) = true | loc_find(0_45_148_12_8, thzq_tombrooml3) = true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = true)) {
+            if((loc_find(0_45_148_12_8, thzq_tombrooml1) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml2) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml3) = ^true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = ^true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = ^true)) {
                 loc_change(thzq_tombrooml3, 50);
                 .loc_change(thzq_tombroomr1, 50);
             }
@@ -1428,7 +1428,7 @@ if($last_obj = bones) {
             p_delay(0); // 1t
             mes("You carefully place another bone in the door...");
             inv_del(inv, bones, 1);
-            if((loc_find(0_45_148_12_8, thzq_tombrooml1) = true | loc_find(0_45_148_12_8, thzq_tombrooml2) = true | loc_find(0_45_148_12_8, thzq_tombrooml3) = true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = true)) {
+            if((loc_find(0_45_148_12_8, thzq_tombrooml1) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml2) = ^true | loc_find(0_45_148_12_8, thzq_tombrooml3) = ^true) & (.loc_find(0_45_148_13_8, thzq_tombroomr1) = ^true | .loc_find(0_45_148_13_8, thzq_tombroomr2) = ^true)) {
                 loc_change(thzq_tombrooml3, 50);
                 .loc_change(thzq_tombroomr2, 50);
             }
@@ -1452,9 +1452,9 @@ return (getbit_range(%zq_map_mechanisms, 7, 8));
 
 [oploc1,zq_rashrocks]
 ~rash_summon;
-def_boolean $failed = false;
-if(stat_random(agility, 150, 252) = false) {
-    $failed = true;
+def_int $failed = ^false;
+if(stat_random(agility, 150, 252) = ^false) {
+    $failed = ^true;
 }
 if(coordz(coord) > 9512) {
     if(%zombiequeen < ^zombiequeen_complete & inv_total(worn, zqdeadbeads) = 0) {
@@ -1462,11 +1462,11 @@ if(coordz(coord) > 9512) {
         return;
     }
     mes("You carefully pick your way down the rocks.");
-    if($failed = true) mes("You fall!");
+    if($failed = ^true) mes("You fall!");
     // forces walk speed on OSRS, must be p_teleport though since if you're 3 tiles from the dest it will teleport you instead of walking
     p_teleport(0_45_148_48_41);
     p_delay(2);
-    if($failed = true) {
+    if($failed = ^true) {
         p_teleport(0_45_148_48_39);
         p_delay(2);
         mes("You take damage!");
@@ -1480,10 +1480,10 @@ if(coordz(coord) > 9512) {
     }
 } else {
     mes("You carefully pick your way through the rocks.");
-    if($failed = true) mes("You fall!");
+    if($failed = ^true) mes("You fall!");
     p_teleport(0_45_148_48_41);
     p_delay(2);
-    if($failed = true) {
+    if($failed = ^true) {
         p_teleport(0_45_148_48_39);
         p_delay(2);
         mes("You take damage!");
@@ -1521,7 +1521,7 @@ if(%zombiequeen >= ^zombiequeen_complete) {
 
 [label,zq_showdown_nazastarool]
 npc_huntall(coord, 5, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     // attacking_uid check (not aggrewssive check)
     if((npc_type = zq_mainzombie1 | npc_type = zq_mainzombie2 | npc_type = zq_mainzombie3) & %npc_attacking_uid = uid) {
         mes("The dolmen remains silent.");
@@ -1539,7 +1539,7 @@ p_delay(~random_range(4,7)); // 5-8t, seems completely random?
 @summon_nazastarool;
 
 [label,summon_nazastarool]
-if(~obj_gettotal(zqcorpse) > 0 | inzone(0_45_148_0_0, 0_45_148_63_63, coord) = false) { // don't spawn next form if player has the corpse, or if out of mapsquare, no stage check
+if(~obj_gettotal(zqcorpse) > 0 | inzone(0_45_148_0_0, 0_45_148_63_63, coord) = ^false) { // don't spawn next form if player has the corpse, or if out of mapsquare, no stage check
     return;
 }
 // this is reset after you kill it, if you kill the 2nd or 3rd phase after this it will summon the 1st + 3rd, or 1st + 2nd
@@ -1551,7 +1551,7 @@ if(testbit(%zq_map_mechanisms, ^zq_defeated_nazastarool1) = ^false) {
     %npc_aggressive_player = uid;
     npc_delay(1);
     npc_say("I am Nazastarool! Prepare to die!");
-    if(p_finduid(%npc_aggressive_player) = true) ~npc_retaliate(0);
+    if(p_finduid(%npc_aggressive_player) = ^true) ~npc_retaliate(0);
 } else if(testbit(%zq_map_mechanisms, ^zq_defeated_nazastarool2) = ^false) {
     def_coord $spawn_coord = map_findsquare(coord, 1, 2, ^map_findsquare_lineofwalk);
     npc_add($spawn_coord, zq_mainzombie2, 500); // 500t osrs
@@ -1560,7 +1560,7 @@ if(testbit(%zq_map_mechanisms, ^zq_defeated_nazastarool1) = ^false) {
     %npc_aggressive_player = uid;
     npc_delay(1);
     npc_say("Your death will be swift.");
-    if(p_finduid(%npc_aggressive_player) = true) ~npc_retaliate(0);
+    if(p_finduid(%npc_aggressive_player) = ^true) ~npc_retaliate(0);
 } else if(testbit(%zq_map_mechanisms, ^zq_defeated_nazastarool3) = ^false) {
     def_coord $spawn_coord = map_findsquare(coord, 1, 2, ^map_findsquare_lineofwalk);
     npc_add($spawn_coord, zq_mainzombie3, 500); // 500t osrs
@@ -1569,7 +1569,7 @@ if(testbit(%zq_map_mechanisms, ^zq_defeated_nazastarool1) = ^false) {
     npc_delay(1); 
     %npc_aggressive_player = uid;
     npc_say("Soon you will serve Rashiliyia.");
-    if(p_finduid(%npc_aggressive_player) = true) ~npc_retaliate(0);
+    if(p_finduid(%npc_aggressive_player) = ^true) ~npc_retaliate(0);
 }
 
 [opobj3,zqcorpse]
@@ -1578,7 +1578,7 @@ if(%zombiequeen >= ^zombiequeen_complete | ~obj_gettotal(zqcorpse) > 0 | testbit
     obj_del;
     return;
 }
-if (~pickup_obj_check_for_space(obj_type, obj_count) = false) {
+if (~pickup_obj_check_for_space(obj_type, obj_count) = ^false) {
     return;
 }
 anim(null, 0);

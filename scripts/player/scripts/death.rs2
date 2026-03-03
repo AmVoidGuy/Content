@@ -8,7 +8,7 @@ p_delay(3);
 %death = ^false;
 
 [queue,player_death]
-if (.finduid(%duel2accept) = true & ~.in_duel_arena(.coord) = true) {
+if (.finduid(%duel2accept) = ^true & ~.in_duel_arena(.coord) = ^true) {
     @player_death_duel;
 }
 ~player_death;
@@ -21,7 +21,7 @@ mes("Oh dear you are dead!");
 clearqueue(player_death);
 
 def_obj $prev_wep = inv_getobj(worn, ^wearpos_rhand);
-if (findhero = true) {
+if (findhero = ^true) {
     ~pvp_death_lose_items;
     session_log(^log_moderator, "Player died to <.displayname>");
 } else {
@@ -45,20 +45,20 @@ healenergy(10000);
 // todo: end poison timer ~player_end_poison
 
 [proc,player_death_lose_items]
-if (staffmodlevel > 1 & map_live = true) { return; }
+if (staffmodlevel > 1 & map_live = ^true) { return; }
 
-def_boolean $skulled = false;
-if (%pk_skull > 0) { $skulled = true; }
-def_boolean $protecting_item = false;
-if (%prayer8 = ^true) { $protecting_item = true; }
+def_int $skulled = ^false;
+if (%pk_skull > 0) { $skulled = ^true; }
+def_int $protecting_item = ^false;
+if (%prayer8 = ^true) { $protecting_item = ^true; }
 inv_clear(deathkeep);
 
-if($skulled = false) {
+if($skulled = ^false) {
     ~move_priciest_item_on_hero_to_death;
     ~move_priciest_item_on_hero_to_death;
     ~move_priciest_item_on_hero_to_death;
 }
-if($protecting_item = true) {
+if($protecting_item = ^true) {
     ~move_priciest_item_on_hero_to_death;
 }
 
@@ -92,20 +92,20 @@ inv_clear(deathkeep);
 
 [proc,pvp_death_lose_items]
 ~pvp_death_message(.uid);
-if (staffmodlevel > 1 & map_live = true) { return; }
+if (staffmodlevel > 1 & map_live = ^true) { return; }
 
-def_boolean $skulled = false;
-if (%pk_skull > 0) { $skulled = true; }
-def_boolean $protecting_item = false;
-if (%prayer8 = ^true) { $protecting_item = true; }
+def_int $skulled = ^false;
+if (%pk_skull > 0) { $skulled = ^true; }
+def_int $protecting_item = ^false;
+if (%prayer8 = ^true) { $protecting_item = ^true; }
 inv_clear(deathkeep);
 
-if($skulled = false) {
+if($skulled = ^false) {
     ~move_priciest_item_on_hero_to_death;
     ~move_priciest_item_on_hero_to_death;
     ~move_priciest_item_on_hero_to_death;
 }
-if($protecting_item = true) {
+if($protecting_item = ^true) {
     ~move_priciest_item_on_hero_to_death;
 }
 
@@ -147,7 +147,7 @@ def_obj $currentitem;
 def_int $biggest_price = 0;
 def_int $size_inv = inv_size(inv);
 def_int $size_worn = inv_size(worn);
-def_boolean $is_worn = false;
+def_int $is_worn = ^false;
 def_int $i = 0;
 while ($i < $size_inv) {
     if (inv_getnum(inv, $i) > 0) {
@@ -167,7 +167,7 @@ while ($i < $size_worn) {
         $currentitem = inv_getobj(worn, $i);
         if (oc_param($currentitem, destroy_death) ! ^true) {
             if (oc_cost($currentitem) > $biggest_price) {
-                $is_worn = true;
+                $is_worn = ^true;
                 $biggest_price = oc_cost($currentitem);
                 $priciest_item = $currentitem;
             }
@@ -179,7 +179,7 @@ while ($i < $size_worn) {
 if($priciest_item = null ) {
     return;
 }
-if($is_worn = true) {
+if($is_worn = ^true) {
     inv_moveitem(worn,deathkeep,$priciest_item,1);
 } else {
     inv_moveitem(inv,deathkeep,$priciest_item,1);

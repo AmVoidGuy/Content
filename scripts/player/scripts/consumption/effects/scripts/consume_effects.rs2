@@ -8,7 +8,7 @@ if (oc_param($consumable, next_obj_stage) ! null) {
     inv_setslot(inv, last_slot, oc_param($consumable, next_obj_stage), 1);
 }
 anim(human_eat, 0);
-~consume_effect_apply($consumable, false);
+~consume_effect_apply($consumable, ^false);
 
 
 // stat2 uses inv_delslot and inv_add
@@ -21,7 +21,7 @@ if (oc_param($consumable, next_obj_stage) ! null) {
     inv_add(inv, oc_param($consumable, next_obj_stage), 1);
 }
 anim(human_eat, 0);
-~consume_effect_apply($consumable, false);
+~consume_effect_apply($consumable, ^false);
 
 
 [label,consume_effect_stat_say]
@@ -33,10 +33,10 @@ if ($consumable ! null & oc_param($consumable, next_obj_stage) ! null) {
     inv_setslot(inv, last_slot, oc_param($consumable, next_obj_stage), 1);
 }
 anim(human_eat, 0);
-~consume_effect_apply($consumable, true);
+~consume_effect_apply($consumable, ^true);
 
 
-[proc,consume_effect_apply](obj $consumable, boolean $say)
+[proc,consume_effect_apply](obj $consumable, int $say)
 def_int $hitpoints = stat(hitpoints);
 db_find(consume_table:consumable, $consumable);
 def_dbrow $effect_data = db_findnext;
@@ -85,7 +85,7 @@ if ($sound = null) {
     sound_synth($sound, 0, 0);
 }
 
-[proc,consume_effect_messages](obj $consumable, int $hitpoints, boolean $say)
+[proc,consume_effect_messages](obj $consumable, int $hitpoints, int $say)
 db_find(consume_messages_table:consumable, $consumable);
 def_dbrow $message_data = db_findnext;
 def_string $consume_message1;
@@ -173,7 +173,7 @@ if (compare($restore_message2, "0") ! 0 & $hitpoints < stat(hitpoints)) {
     }
 }
 // say always replaces consume_message2
-if ($say = true) {
+if ($say = ^true) {
     say($consume_message2);
 } else if (compare($consume_message2, "0") ! 0 & string_length($consume_message2) > 0 & (string_length($restore_message2) < 0 | $hitpoints >= stat(hitpoints) | compare($restore_message2, "0") = 0)) {
     mes($consume_message2); // kinda scuffed but since restore_message2 has a default i think this is required

@@ -8,21 +8,21 @@ if(inv_total(inv, witches_doorkey) > 0) { // no bank check (osrs)
 inv_add(inv, witches_doorkey, 1);
 
 [oploc1,witchhousedoor]
-def_boolean $leaving = ~check_axis(coord, loc_coord, loc_angle);
-if(inv_total(inv, witches_doorkey) > 0 | $leaving = true) {
+def_int $leaving = ~check_axis(coord, loc_coord, loc_angle);
+if(inv_total(inv, witches_doorkey) > 0 | $leaving = ^true) {
     @open_witch_house_door($leaving);
 }
 mes("The door is locked.");
 
 [oplocu,witchhousedoor]
-def_boolean $leaving = ~check_axis(coord, loc_coord, loc_angle);
-if(last_useitem = witches_doorkey | $leaving = true) {
+def_int $leaving = ~check_axis(coord, loc_coord, loc_angle);
+if(last_useitem = witches_doorkey | $leaving = ^true) {
     @open_witch_house_door($leaving);
 }
 ~displaymessage(^dm_default);
 
-[label,open_witch_house_door](boolean $leaving)
-if($leaving ! true & (%ballquest < ^ball_started | %ballquest = ^ball_complete)) {
+[label,open_witch_house_door](int $leaving)
+if($leaving ! ^true & (%ballquest < ^ball_started | %ballquest = ^ball_complete)) {
     ~chatplayer("<p,neutral>It would be rude to break into this house.");
     return;
 }
@@ -36,7 +36,7 @@ if(inv_total(worn, leather_gloves) = 0) {
     ~mesbox("As your bare hands touch the gate you feel a shock.");
     return;
 }
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
 def_int $x;
 def_int $z;
 def_locshape $shape = loc_shape;
@@ -46,7 +46,7 @@ def_loc $next_loc = loc_param(next_loc_stage);
 $x, $z = ~door_open(loc_angle, loc_shape);
 sound_synth(grate_open, 0, 0); // iron_door_open
 def_coord $dest = $loc_coord;
-if ($entering = true) {
+if ($entering = ^true) {
     $dest = movecoord($loc_coord, $x, 0, $z);
 }
 if($next_loc = loc_1563) {
@@ -79,7 +79,7 @@ loc_change(magnetcbshut, 500);
 
 [label,ball_cheese](string $pref)
 inv_del(inv, cheese, 1);
-if (npc_find(coord, witchrat, 5, 0) = true) {
+if (npc_find(coord, witchrat, 5, 0) = ^true) {
     npc_del;
 }
 npc_add(^witchrat_coord, witchrat, 50);
@@ -93,7 +93,7 @@ if(last_useitem = cheese) {
 ~displaymessage(^dm_default);
 
 [opheld5,cheese]
-if(inzone(0_45_54_21_10, 0_45_54_23_11, coord) = true) {
+if(inzone(0_45_54_21_10, 0_45_54_23_11, coord) = ^true) {
     @ball_cheese("a");
 }
 inv_dropslot(inv, coord, last_slot, ^lootdrop_duration);
@@ -135,19 +135,19 @@ mes("The shed door is locked.");
 if(last_useitem = witches_shedkey) {
     // angles on these doors don't visually match osrs, but they actually do have the same loc_angle
     // prob just something weird with the new models
-    def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
-    if($entering = false) {
+    def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
+    if($entering = ^false) {
         // this mechanic existed on OSRS release (2007), i'm not sure if it originally existed
         // but no proof otherwise
         huntall(coord, 5, 0);
-        while(.huntnext = true) {
-            if(inzone(0_45_54_54_3, 0_45_54_57_11, .coord) = true) {
+        while(.huntnext = ^true) {
+            if(inzone(0_45_54_54_3, 0_45_54_57_11, .coord) = ^true) {
                 ~chatplayer("<p,neutral>I'd better not go in there yet... I think I can hear someone inside!");
                 return;
             }
         }
         npc_huntall(coord, 7, 0);
-        while (npc_findnext = true) {
+        while (npc_findnext = ^true) {
             if (npc_category = witches_experiment) {
                 npc_del;
             }
@@ -182,7 +182,7 @@ if(%ballquest = ^ball_defeated_experiment) {
     @pickup_obj;
 }
 npc_huntall(coord, 7, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if (npc_category = witches_experiment) {
         mes("The shapeshifter glares at you. You feel slightly weakened.");
         stat_sub(attack, 1, 5);

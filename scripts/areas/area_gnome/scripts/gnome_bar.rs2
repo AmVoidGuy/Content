@@ -53,7 +53,7 @@ if (inv_total(inv, fruit_blast) > 0) {
     ~chatnpc("<p,neutral>Let me know when it's done.");
     return;
 }
-if (~gnome_bar_cocktail_checks(premade_fruit_blast, "Fruit Blast") = false) {
+if (~gnome_bar_cocktail_checks(premade_fruit_blast, "Fruit Blast") = ^false) {
     return;
 }
 ~chatnpc("<p,angry>I don't know what you have there but it's no Fruit|Blast!");
@@ -81,7 +81,7 @@ if (inv_total(inv, drunk_dragon) > 0) {
     ~mesbox("Blurberry gives you four limes, some vodka and some equa leaves.");
     return;
 }
-if (~gnome_bar_cocktail_checks(premade_drunk_dragon, "Drunk Dragon") = false) {
+if (~gnome_bar_cocktail_checks(premade_drunk_dragon, "Drunk Dragon") = ^false) {
     return;
 }
 ~chatnpc("<p,angry>I don't know what you have there but it's no Drunk|Dragon!");
@@ -109,7 +109,7 @@ if (inv_total(inv, sgg) > 0) {
     ~mesbox("Blurberry gives you some wisky, some milk, some equa leaves, a chocolate bar, some cream, and some chocolate dust.");
     return;
 }
-if (~gnome_bar_cocktail_checks(premade_sgg, "SGG") = false) {
+if (~gnome_bar_cocktail_checks(premade_sgg, "SGG") = ^false) {
     return;
 }
 ~chatnpc("<p,angry>I don't know what you have there but it's no SGG!");
@@ -136,7 +136,7 @@ if (inv_total(inv, chocolate_saturday) > 0) {
     ~chatnpc("<p,neutral>I'm sure you'll make a great bartender.");
     return;
 }
-if (~gnome_bar_cocktail_checks(premade_choc_saturday, "Choc Saturday") = false) {
+if (~gnome_bar_cocktail_checks(premade_choc_saturday, "Choc Saturday") = ^false) {
     return;
 }
 ~chatplayer("<p,sad>I haven't managed to make it yet.");
@@ -160,14 +160,14 @@ if (inv_total(inv, blurberry_special) > 0) {
     ~chatnpc("<p,happy>I'll always pay you more for the cocktail than you paid for the ingredients and it's a great way to learn how to prepare food and drinks.");
     return;
 }
-if (~gnome_bar_cocktail_checks(premade_blurberry_special, "Blurberry Special") = false) {
+if (~gnome_bar_cocktail_checks(premade_blurberry_special, "Blurberry Special") = ^false) {
     return;
 }
 ~chatplayer("<p,sad>I haven't managed to make it yet.");
 ~chatnpc("<p,neutral>I need one Blurberry Special.  Let me know when|it's done.");
 
 
-[proc,gnome_bar_cocktail_checks](namedobj $premade_cocktail, string $name)(boolean)
+[proc,gnome_bar_cocktail_checks](namedobj $premade_cocktail, string $name)(int)
 // Im not sure if this exists in our rev. It exists in osrs, but not in rsc. Since its kinda scuffed i assume it was added in 2006
 // if (inv_total(inv, cocktail_shaker) < 1) {
 //     def_int $choice = ~p_choice2("I'm afraid I lost the cocktail shaker you gave me.", 1, "I've not finished yet.", 2);
@@ -175,18 +175,18 @@ if (~gnome_bar_cocktail_checks(premade_blurberry_special, "Blurberry Special") =
 //         ~chatplayer("<p,sad>I'm afraid I lost the cocktail shaker you gave me.");
 //         inv_add(inv, cocktail_shaker, 1);
 //         ~chatnpc("<p,happy>I can see how that would make it hard to mix cocktails.|I'll give you another one, but please try not lose any|more.");
-//         return(false);
+//         return(^false);
 //     }
 //     ~chatplayer("<p,neutral>I've not finished yet.");
 //     ~chatnpc("<p,neutral>Ok, well let me know when you're done.");
-//     return(false);
+//     return(^false);
 // }
 if (inv_total(inv, $premade_cocktail) > 0) {
     ~chatplayer("<p,happy>I think I've got one.");
     ~chatnpc("<p,happy>No, I need you to make the <$name> yourself. I'm|afraid it doesn't really work if you try to sell the bar its|own drinks."); // osrs has no apostrophe for "its"
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 // *********************** TUTORIAL ************************
 
 // *********************** JOBS ************************

@@ -5,17 +5,17 @@
 
 
 [label,open_legends_gate](int $side)
-def_boolean $entering = ~check_axis(coord, loc_coord, loc_angle);
+def_int $entering = ~check_axis(coord, loc_coord, loc_angle);
 def_loc $loc_type = loc_type;
 def_locshape $loc_shape = loc_shape;
 def_int $loc_angle = loc_angle;
 def_coord $loc_coord = loc_coord;
 // findallzone doesn't reach far enough as the guards wander
 npc_findallany(coord, 14, 0);
-while (npc_findnext = true) {
+while (npc_findnext = ^true) {
     if (npc_category = legends_guard) {
         if (%legendsquest = ^legends_not_started) {
-            if ($entering = false) {
+            if ($entering = ^false) {
                 // Leave, then a guard speaks to you
                 ~open_and_close_double_door3(~check_axis(coord, loc_coord, loc_angle), $loc_type, $loc_shape, $loc_angle, $loc_coord, $side, grate_open);
             }

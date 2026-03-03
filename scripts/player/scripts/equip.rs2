@@ -2,34 +2,34 @@
 
 [inv_button1,wornitems:wear]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     p_clearpendingaction;
     ~unequip(last_slot);
 }
 
 [proc,equip](int $slot)
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_obj $obj = inv_getobj(inv, $slot);
-    if (~duel_arena_equip_check($obj) = false) {
+    if (~duel_arena_equip_check($obj) = ^false) {
         return;
     }
-    if (~duel_arena_flower_power_equip_check($obj) = false) {
+    if (~duel_arena_flower_power_equip_check($obj) = ^false) {
         return;
     }
     // might be rework behaviour, hard to confirm
-    if(inzone(0_51_147_0_0, 0_51_147_19_63, coord) = true) {
-        if(npc_find(coord, desertminingmercenary2, 4, 2) = true | npc_find(coord, desertminingmercenary1, 4, 2) = true) {
+    if(inzone(0_51_147_0_0, 0_51_147_19_63, coord) = ^true) {
+        if(npc_find(coord, desertminingmercenary2, 4, 2) = ^true | npc_find(coord, desertminingmercenary1, 4, 2) = ^true) {
             ~npc_retaliate(0);
             ~desertcamp_guard_search;
         }
     }
-    if ((oc_wearpos($obj) = ^wearpos_rhand | oc_wearpos($obj) = ^wearpos_lhand) & ~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
+    if ((oc_wearpos($obj) = ^wearpos_rhand | oc_wearpos($obj) = ^wearpos_lhand) & ~inzone_coord_pair_table(gnomeball_zones, coord) = ^true) {
         mes("You feel it would be cheating to hold anything other than a gnomeball on the");
         mes("gnomeball pitch");
         return;
     }
     def_obj $previous = inv_getobj(worn, ^wearpos_rhand);
-    if (~try_equip($slot) = false) {
+    if (~try_equip($slot) = ^false) {
         mes("You don't have enough free space to do that.");
         return;
     }
@@ -54,12 +54,12 @@ if (p_finduid(uid) = true) {
 }
 
 [proc,unequip](int $slot)
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_obj $obj = inv_getobj(worn, $slot);
-    if (~duel_arena_flower_power_unequip_check($slot) = false) {
+    if (~duel_arena_flower_power_unequip_check($slot) = ^false) {
         return;
     }
-    if ($obj = ball_gnomeball_game & ~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
+    if ($obj = ball_gnomeball_game & ~inzone_coord_pair_table(gnomeball_zones, coord) = ^true) {
         mes("You feel it would be cheating to put the ball in your pack whilst on the pitch.");
         return;
     }
@@ -75,7 +75,7 @@ if (p_finduid(uid) = true) {
 
 // used for duel arena, no weapon/no armour
 [proc,try_unequip](int $slot)
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_obj $obj = inv_getobj(worn, $slot);
     if ($obj = null) {
         return;
@@ -90,7 +90,7 @@ if (p_finduid(uid) = true) {
 }
 
 [proc,.try_unequip](int $slot)
-if (.p_finduid(.uid) = true) {
+if (.p_finduid(.uid) = ^true) {
     def_obj $obj = .inv_getobj(worn, $slot);
     if ($obj = null) {
         return;
@@ -319,29 +319,29 @@ if ($bonus < 0) {
 
 [proc,.update_weight]
 
-[proc,try_equip](int $inv_slot)(boolean)
+[proc,try_equip](int $inv_slot)(int)
 def_obj $equip_obj = inv_getobj(inv, $inv_slot);
 if ($equip_obj = null) {
-    return(false);
+    return(^false);
 }
 def_int $worn_slot = oc_wearpos($equip_obj);
 if ($worn_slot = null) {
-    return(false);
+    return(^false);
 }
 
 // if the item is stackable and we have the item already in our worn inv, add to the stack!
-if (oc_stackable($equip_obj) = true & inv_total(worn, $equip_obj) > 0) {
+if (oc_stackable($equip_obj) = ^true & inv_total(worn, $equip_obj) > 0) {
     def_int $equip_obj_num = inv_getnum(inv, $inv_slot);
     def_int $overflow = inv_itemspace2(worn, $equip_obj, $equip_obj_num, inv_size(worn));
     if ($overflow >= $equip_obj_num) {
-        return(false);
+        return(^false);
     }
     inv_moveitem(inv, worn, $equip_obj, sub($equip_obj_num, $overflow)); // equip stackable item!
-    return(true); // early return because if the worn item already exists in the inv, theres no conflicts *surely*
+    return(^true); // early return because if the worn item already exists in the inv, theres no conflicts *surely*
 }
 
-if (~unequip_conflicts_space($equip_obj) = false) { // check if enough space
-    return(false);
+if (~unequip_conflicts_space($equip_obj) = ^false) { // check if enough space
+    return(^false);
 }
 
 inv_movetoslot(inv, worn, $inv_slot, $worn_slot); // equip item! this performs a swap
@@ -352,22 +352,22 @@ if (inv_getobj(inv, $inv_slot) ! null) {
 }
 ~unequip_conflicts($equip_obj);
 
-return(true);
+return(^true);
 
 // proc to check if you have enough space to unequip conflicting items with $equip_obj
-[proc,unequip_conflicts_space](obj $equip_obj)(boolean)
+[proc,unequip_conflicts_space](obj $equip_obj)(int)
 def_int $conflicts = 0;
 def_int $i = 0;
 while ($i < inv_size(worn)) {
     def_obj $worn_obj = inv_getobj(worn, $i);
     def_int $worn_num = inv_getnum(worn, $i);
     if ($worn_obj ! null) {
-        if (~wearpos_conflicts($equip_obj, $worn_obj) = true) {
-            if (oc_stackable($worn_obj) = true) {
+        if (~wearpos_conflicts($equip_obj, $worn_obj) = ^true) {
+            if (oc_stackable($worn_obj) = ^true) {
                 if (inv_total(inv, $worn_obj) < 1) { // if stackable item isnt in inv, then takes up a space
                     $conflicts = add($conflicts, 1);
-                } else if (inv_itemspace(inv, $worn_obj, $worn_num, inv_size(inv)) = false) { // check for overflow, we should only do this if the worn item is in the inv
-                    return(false);
+                } else if (inv_itemspace(inv, $worn_obj, $worn_num, inv_size(inv)) = ^false) { // check for overflow, we should only do this if the worn item is in the inv
+                    return(^false);
                 }
             } else {
                 $conflicts = add($conflicts, 1);
@@ -377,9 +377,9 @@ while ($i < inv_size(worn)) {
     $i = add($i, 1);
 }
 if ($conflicts > add(inv_freespace(inv), 1)) { // add 1 to freespace to account for equipping obj
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 // proc to unequip conflicting items with $equip_obj
 [proc,unequip_conflicts](obj $equip_obj)
@@ -388,7 +388,7 @@ while ($i < inv_size(worn)) {
     def_obj $worn_obj = inv_getobj(worn, $i);
     def_int $worn_num = inv_getnum(worn, $i);
     if ($worn_obj ! null & $worn_obj ! $equip_obj) { // skip the obj we just equipped
-        if (~wearpos_conflicts($equip_obj, $worn_obj) = true) {
+        if (~wearpos_conflicts($equip_obj, $worn_obj) = ^true) {
             inv_moveitem(worn, inv, $worn_obj, $worn_num);
         }
     }
@@ -411,7 +411,7 @@ if(inv_total(inv, ikov_bootsoflightnessworn) > 0) {
 }
 
 // checks if two weapons have the same wearpos
-[proc,wearpos_conflicts](obj $equip_obj, obj $worn_obj)(boolean)
+[proc,wearpos_conflicts](obj $equip_obj, obj $worn_obj)(int)
 def_int $wearpos1 = oc_wearpos($equip_obj);
 def_int $wearpos2 = oc_wearpos2($equip_obj);
 def_int $wearpos3 = oc_wearpos3($equip_obj);
@@ -422,6 +422,6 @@ def_int $worn_wearpos3 = oc_wearpos3($worn_obj);
 if (($wearpos1 ! null & ($wearpos1 = $worn_wearpos1 | $wearpos1 = $worn_wearpos2 | $wearpos1 = $worn_wearpos3))
 | ($wearpos2 ! null & ($wearpos2 = $worn_wearpos1 | $wearpos2 = $worn_wearpos2 | $wearpos2 = $worn_wearpos3))
 | ($wearpos3 ! null & ($wearpos3 = $worn_wearpos1 | $wearpos3 = $worn_wearpos2 | $wearpos3 = $worn_wearpos3))) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);

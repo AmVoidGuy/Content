@@ -24,15 +24,15 @@ if (%dragonquest < ^dragon_complete) {
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 // 1/2 chance to switch to op, with line of walk check
-if (random(2) = 0 & lineofwalk(npc_coord, coord) = true) {
+if (random(2) = 0 & lineofwalk(npc_coord, coord) = ^true) {
     npc_setmode(opplayer2);
 }
 ~elvarg_dragon_fire_ap;
@@ -43,11 +43,11 @@ if (random(2) = 0 & lineofwalk(npc_coord, coord) = true) {
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 // 1/8 chance to switch back to ap

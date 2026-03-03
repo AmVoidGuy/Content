@@ -742,7 +742,7 @@ switch_int(~p_choice2("The spirit said something about keys and kin?", 1, "The s
         ~chatplayer("<p,neutral>The spirit said something about keys and kin?");
         ~chatnpc("<p,neutral>Hmmm, maybe it's a clue of some kind?");
         ~chatnpc("<p,neutral>Rashiliyia's only kin was a son, 'Bervirius'. His remains were entombed on a small island which lies to the South West. I will do some research into this to see if I can find any other details.");
-        if(~zqhaspommel = false) {
+        if(~zqhaspommel = ^false) {
             ~chatnpc("<p,neutral>But I think we must take Zadimus' clue literally and get some item that belonged to Bervirius as it may be the only way to approach Rashiliyia. Perhaps something like this exists in his tomb?");
         } else {
             ~chatnpc("<p,neutral>I still think we need to take this clue quite literally. Perhaps you found something at Bervirius' Tomb that could help to protect you from Rashiliyia's attacks?");

@@ -1,7 +1,7 @@
 // timer is initiated on login, in scripts\player\scripts\global.rs2
 [timer,general_macro_events]
 // make sure this is before afk_event is called, to retain the 'queueing' behavior for random event spawning
-if (~macro_event_allowed = false) { 
+if (~macro_event_allowed = ^false) { 
     return;
 }
 if (afk_event = ^true) {
@@ -24,7 +24,7 @@ if (afk_event = ^true) {
 // - smithing at furnace. Confirmed? https://youtu.be/a6NobmSGBYw
 // - crafting at furnace. Confirmed: https://youtu.be/7pS6s5rvvEY
 [proc,macro_event_general_spawn](int $event)
-if (~macro_event_allowed = false) { 
+if (~macro_event_allowed = ^false) { 
     return;
 }
 def_coord $event_coord = map_findsquare(coord, 1, 1, ^map_findsquare_lineofwalk);
@@ -44,30 +44,30 @@ switch_int ($event) {
     case ^macro_mysterious_old_man : ~macro_mysterious_old_man_spawn;
 }
 
-[proc,macro_event_area](coord $coord)(boolean)
-if (~in_duel_arena($coord) = true) {
-    return(false);
+[proc,macro_event_area](coord $coord)(int)
+if (~in_duel_arena($coord) = ^true) {
+    return(^false);
 }
-if (~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
-    return(false);
+if (~inzone_coord_pair_table(gnomeball_zones, coord) = ^true) {
+    return(^false);
 }
-if (~inzone_coord_pair_table(trawler_game_zones, $coord) = true | ~inzone_coord_pair_table(trawler_wreck_zones, $coord) = true) { // allowed on boat in pre-game https://youtu.be/7-gUR40Nr8M
-    return(false);
+if (~inzone_coord_pair_table(trawler_game_zones, $coord) = ^true | ~inzone_coord_pair_table(trawler_wreck_zones, $coord) = ^true) { // allowed on boat in pre-game https://youtu.be/7-gUR40Nr8M
+    return(^false);
 }
-if (~in_tutorial_island($coord) = true) {
-    return(false);
+if (~in_tutorial_island($coord) = ^true) {
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,macro_event_allowed]()(boolean)
-if (~macro_event_area(coord) = false) {
-    return(false);
+[proc,macro_event_allowed]()(int)
+if (~macro_event_area(coord) = ^false) {
+    return(^false);
 }
 // if this var isnt reset on npc delete, then youll never get a random event: https://youtu.be/vRlOfkCCGkw
 if (%macro_event > 0) {
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
 // called when the player logs in
 [queue,macro_event_login]
@@ -78,7 +78,7 @@ if (nc_param(~macro_event_npc($macro_event), follow_player_on_logout) = ^true) {
 }
 
 [proc,macro_event_logout]
-if (npc_finduid(%macro_event_uid) = true) {
+if (npc_finduid(%macro_event_uid) = ^true) {
     %npc_macro_event_target = null;
 }
 
@@ -126,13 +126,13 @@ if (npc_findhero = ^true) {
 spotanim_map(smokepuff, npc_coord, 124, 0);
 npc_del;
 
-[proc,macro_event_lost]()(boolean)
-if (finduid(%npc_macro_event_target) = true) {
+[proc,macro_event_lost]()(int)
+if (finduid(%npc_macro_event_target) = ^true) {
     if (%macro_event_uid ! npc_uid) {
-        return(true);
+        return(^true);
     }
-    if (~macro_event_area(coord) = false) {
-        return(true);
+    if (~macro_event_area(coord) = ^false) {
+        return(^true);
     }
     // https://youtu.be/vRlOfkCCGkw?t=87
     if (coordy(coord) ! coordy(npc_coord) | npc_range(coord) > 15) {
@@ -141,18 +141,18 @@ if (finduid(%npc_macro_event_target) = true) {
         sound_synth(smokepuff, 0, 0);
     }
     npc_setmode(playerfollow);
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 
-[proc,macro_event_lost_hostile]()(boolean)
-if (finduid(%npc_macro_event_target) = true) {
+[proc,macro_event_lost_hostile]()(int)
+if (finduid(%npc_macro_event_target) = ^true) {
     if (npc_getmode = wander & (npc_range(coord) > 3 | coordy(npc_coord) ! coordy(coord))) { // seems like distance of 3? https://www.youtube.com/watch?v=GoRX3cp58eo&list=PLn23LiLYLb1am4weMQzkWn5m9b3m9fXv9&t=38s
-        return(true);
+        return(^true);
     }
-    return(false);
+    return(^false);
 }
-return(true);
+return(^true);
 // based off https://web.archive.org/web/20060814111255/http://www.zybez.net/misc.php?id=11
 [proc,macro_event_combat_level]()(int)
 def_int $combat_level = ~player_combat_level;
@@ -187,9 +187,9 @@ while ($i < 50) {
     $nw = movecoord($sw, 1, 0, 0);
     $se = movecoord($sw, 0, 0, 1);
     $ne = movecoord($sw, 1, 0, 1);
-    if (map_blocked($sw) = false & map_blocked($nw) = false & map_blocked($se) = false & map_blocked($ne) = false
+    if (map_blocked($sw) = ^false & map_blocked($nw) = ^false & map_blocked($se) = ^false & map_blocked($ne) = ^false
         & $sw ! coord & $se ! coord & $nw ! coord & $ne ! coord
-        & lineofwalk($sw, coord) = true
+        & lineofwalk($sw, coord) = ^true
         ){
         return($sw);
     }

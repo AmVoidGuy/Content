@@ -192,7 +192,7 @@ if ($option = 1) {
 
 [label,demon_slayer_need_to_kill]
 ~chatnpc("<p,neutral>You sorted out that demon yet?");
-if (~demon_slayer_has_silverlight = true) {
+if (~demon_slayer_has_silverlight = ^true) {
     @demon_slayer_not_sorted_yet;
 }
 else{
@@ -214,7 +214,7 @@ else{
 
 [label,demon_slayer_completed]
 ~chatnpc("<p,happy>Hello. I've heard you stopped the demon, well done!");
-if (~demon_slayer_has_silverlight = true){
+if (~demon_slayer_has_silverlight = ^true){
     @demon_slayer_boast;
 }
 else{
@@ -271,10 +271,10 @@ if ($demon_progress = ^demon_not_started) {
 }
 
 
-[proc,demon_slayer_has_silverlight]()(boolean)
+[proc,demon_slayer_has_silverlight]()(int)
 // Turns out you can't put all of this in a return statement
 if (inv_total(inv, silverlight) > 0 | (inv_getobj(worn, 3) = silverlight) | inv_total(bank, silverlight) > 0 ) {
-    return(true);
+    return(^true);
 } else {
-    return(false);
+    return(^false);
 }

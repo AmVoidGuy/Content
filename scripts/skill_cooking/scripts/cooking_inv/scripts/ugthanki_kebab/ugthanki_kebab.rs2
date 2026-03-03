@@ -124,7 +124,7 @@ inv_add(inv, bowl_empty, 1); // bowl first
 
 mes("You put the mixture into the pitta bread."); // osrs
 
-if (stat_random(cooking, 118, 492) = false) { // ash: "46% at level 1, 193% at level 99"
+if (stat_random(cooking, 118, 492) = ^false) { // ash: "46% at level 1, 193% at level 99"
     mes("You make an ugthanki kebab.");
     inv_add(inv, ugthanki_kebab_bad, 1);
     return;

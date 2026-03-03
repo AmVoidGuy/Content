@@ -4,7 +4,7 @@ switch_int(%elenaquest) {
     case ^quest_elena_opened_pipe, ^quest_elena_shown_picture, ^quest_elena_returned_book, ^quest_elena_spoken_martha_ted, ^quest_elena_spoke_to_milli, ^quest_elena_spoke_to_plague_house, ^quest_elena_spoke_to_clerk, ^quest_elena_spoke_to_bravek, ^quest_elena_spoke_cured_bravek, ^quest_elena_freed_elena :
         if (inv_getobj(worn, ^wearpos_hat) = gasmask) {
             @elena_climb_through_sewerpipe;
-        } else if (npc_find(coord, edmond, 20, 0) = true) {
+        } else if (npc_find(coord, edmond, 20, 0) = ^true) {
             ~chatnpc("<p,neutral>I can't let you enter the city without your gas mask on.");
         }
     case ^elena_complete, ^elena_complete_read_scroll :
@@ -39,9 +39,9 @@ if(%elena_pipe_used >= map_clock) {
 %elena_pipe_used = calc(map_clock + 6);
 sound_synth(squeeze_in, 0, 0);
 mes("You climb through the sewer pipe.");
-~agility_exactmove(human_doublepipesqueeze, 30, 5, coord, movecoord(coord, 0, 0, -3), 30, 126, ^exact_south, true);
+~agility_exactmove(human_doublepipesqueeze, 30, 5, coord, movecoord(coord, 0, 0, -3), 30, 126, ^exact_south, ^true);
 p_telejump(^quest_elena_west_ardy_manhole_tele_coord);
-if(loc_find(^quest_elena_west_ardy_manhole_coord, plaguemanholeclosed) = true) {
+if(loc_find(^quest_elena_west_ardy_manhole_coord, plaguemanholeclosed) = ^true) {
     // Temp note: dur does not need updated
     loc_change(plaguemanholeopen, 500);
     loc_add(movecoord(loc_coord, 0, 0, -1), plaguemanholecover, loc_angle, centrepiece_straight, 500);

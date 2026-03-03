@@ -28,10 +28,10 @@ if ($choice = 2) {
 ~chatnpc("<p,bored>Ok, ok, I'll try, but don't say I didn't warn you...");
 ~mesbox("Murphy attempts to sharply turn the large ship.");
 ~chatnpc("<p,sad>Save yourself! We're going down!");
-if (npc_find(^trawler_wreck_murphy, murphy_sunk, 2, 0) = true) {
+if (npc_find(^trawler_wreck_murphy, murphy_sunk, 2, 0) = ^true) {
     npc_settimer(1);
 }
-if (~inzone_coord_pair_table(trawler_nonflood_zones, coord) = true) {
+if (~inzone_coord_pair_table(trawler_nonflood_zones, coord) = ^true) {
     queue(trawler_player_sink_unflooded, 0, 0);
 } else {
     queue(trawler_player_sink_flooded, 0, 0);

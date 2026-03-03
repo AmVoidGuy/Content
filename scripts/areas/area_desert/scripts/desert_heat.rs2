@@ -1,7 +1,7 @@
 
 [proc,start_desertheat_timer]
 // calculated each time the timer resets
-if(~inzone_coord_pair_table(desert_zones, coord) = false | %desert = ^true) { // don't start another timer if already in desert
+if(~inzone_coord_pair_table(desert_zones, coord) = ^false | %desert = ^true) { // don't start another timer if already in desert
     return;
 }
 %desert = ^true;
@@ -56,7 +56,7 @@ if ($hands ! null) {
 settimer(desert_heat, $time);
 
 [proc,clear_desertheat_timer]
-if(~inzone_coord_pair_table(desert_zones, coord) = false & %desert = ^true) {
+if(~inzone_coord_pair_table(desert_zones, coord) = ^false & %desert = ^true) {
     %desert = ^false;
     cleartimer(desert_heat);
     mes("Desert effect is now over."); // found in 2004-2005 images
@@ -64,12 +64,12 @@ if(~inzone_coord_pair_table(desert_zones, coord) = false & %desert = ^true) {
 }
 
 [timer,desert_heat]
-if(~inzone_coord_pair_table(desert_zones, coord) = false) { // shouldnt ever happen but failsafe
+if(~inzone_coord_pair_table(desert_zones, coord) = ^false) { // shouldnt ever happen but failsafe
     %desert = ^false;
     cleartimer(desert_heat);
     return;
 }
-if(~inzone_coord_pair_table(desertheat_disabled_zones, coord) = true) { // todo: did this exist originally? maybe april 2005 change
+if(~inzone_coord_pair_table(desertheat_disabled_zones, coord) = ^true) { // todo: did this exist originally? maybe april 2005 change
     ~calculate_desertheat_timer;
     return;
 }
@@ -88,21 +88,21 @@ if(inv_total(inv, bucket_water) > 0) {
     inv_changeslot(inv, bucket_water, bucket_empty, 1); // 1 at a time
 }
 
-def_boolean $drank = false;
+def_int $drank = ^false;
 if(inv_total(inv, water_skin1) > 0) {
     inv_changeslot(inv, water_skin1, water_skin0, 1);
-    $drank = true;
+    $drank = ^true;
 } else if(inv_total(inv, water_skin2) > 0) {
     inv_changeslot(inv, water_skin2, water_skin1, 1);
-    $drank = true;
+    $drank = ^true;
 } else if(inv_total(inv, water_skin3) > 0) {
     inv_changeslot(inv, water_skin3, water_skin2, 1);
-    $drank = true;
+    $drank = ^true;
 } else if(inv_total(inv, water_skin4) > 0) {
     inv_changeslot(inv, water_skin4, water_skin3, 1);
-    $drank = true;
+    $drank = ^true;
 }
-if($drank = true) {
+if($drank = ^true) {
     mes("You take a drink of water.");
     anim(human_eat, 0);
     sound_synth(liquid, 0, 0);

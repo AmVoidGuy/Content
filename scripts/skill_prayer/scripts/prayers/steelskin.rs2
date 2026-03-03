@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_steelskin]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_steelskin;
 }
 %prayer9 = %prayer9;
@@ -16,7 +16,7 @@ if (%prayer9 = ^true) {
     ~prayer_deactivate(^prayer_steelskin);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer9 = ^false;
     return;
 }

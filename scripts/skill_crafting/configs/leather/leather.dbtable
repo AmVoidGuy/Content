@@ -1,5 +1,5 @@
 [craft_leather_table]
-column=members,boolean
+column=members,int
 column=levelrequired,int
 column=name,string
 column=leather,namedobj,int

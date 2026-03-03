@@ -127,7 +127,7 @@ def_int $cur_stage = getbit_range(%desertrescue_map_mechanisms, 0, 1);
 def_int $next_stage = calc($cur_stage + 1);
 if($next_stage > 3) $next_stage = 0;
 %desertrescue_map_mechanisms = setbit_range_toint(%desertrescue_map_mechanisms, $next_stage, 0, 1);
-if(npc_find(coord, desertminingmercenary1, 7, 0) = true) {
+if(npc_find(coord, desertminingmercenary1, 7, 0) = ^true) {
     switch_int($cur_stage) {
         case 0 :
             ~mesbox("A guard approaches you and pretends to start hitting you.");
@@ -191,7 +191,7 @@ if(npc_find(coord, desertminingmercenary1, 7, 0) = true) {
 ~mesbox("You watch the Mercenary Captain for some time.|He has a large metal key attached to his belt.|You notice that he usually gets his men to do his dirty work.");
 
 [ai_queue3,desertminingcaptain]
-if (finduid(%npc_aggressive_player) = true) { 
+if (finduid(%npc_aggressive_player) = ^true) { 
     queue(defeat_merc_capt, 0, 0);
 }
 gosub(npc_death);
@@ -215,18 +215,18 @@ mes("and add it to your inventory.");
 inv_add(inv, metal_key, 1);
 ~objbox(metal_key, "The mercenary captain drops a metal key on the floor.|You quickly grab the key and add it to your inventory.", 250, 0, 0);
 
-[proc,mercenary_capt_attack](boolean $npct)(boolean)
+[proc,mercenary_capt_attack](int $npct)(int)
 if(%npc_attacking_uid = uid | %desertrescue >= ^desertrescue_killed_capt) {
-    return (true);
+    return (^true);
 }
-if($npct = true) { 
+if($npct = ^true) { 
     p_delay(0); 
 }
 ~mesbox("This mercenary Captain looks very fierce.|Are you sure you want to attack him?");
 def_int $op = ~p_choice2("Yes, I can take him on!", 1, "Er, no thanks, I've had second thoughts about it.", 2);
 if($op = 2) {
     ~mesbox("You decide not to fight the Mercenary Captain.");
-    return (false);
+    return (^false);
 }
 switch_int(random(4)) {
     case 0 : npc_say("Destroy this low life desert rat guards!");
@@ -237,5 +237,5 @@ switch_int(random(4)) {
 }
 npc_say("Kill that intruder guards!");
 npc_setmode(playerescape);
-if(npc_find(coord, desertminingmercenary1, 7, 0) = true) ~mercenary_attack;
-return (false);
+if(npc_find(coord, desertminingmercenary1, 7, 0) = ^true) ~mercenary_attack;
+return (^false);

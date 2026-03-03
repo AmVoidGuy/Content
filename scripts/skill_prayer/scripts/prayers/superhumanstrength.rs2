@@ -1,6 +1,6 @@
 [if_button,prayer:prayer_superhumanstrength]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     @activate_prayer_superhumanstrength;
 }
 %prayer4 = %prayer4;
@@ -16,7 +16,7 @@ if (%prayer4 = ^true) {
     ~prayer_deactivate(^prayer_superhumanstrength);
     return;
 }
-if (~prayer_checks($data) = false) {
+if (~prayer_checks($data) = ^false) {
     %prayer4 = ^false;
     return;
 }

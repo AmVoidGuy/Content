@@ -3,5 +3,5 @@ type=namedobj
 default=null
 
 [cures_poison]
-type=boolean
-default=no
+type=int
+default=0

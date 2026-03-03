@@ -18,7 +18,7 @@
 
 [label,open_autocast_interface]
 if_close;
-if (p_finduid(uid) = false) { // cant open autocast interface if delayed
+if (p_finduid(uid) = ^false) { // cant open autocast interface if delayed
     return;
 }
 %attackstyle_magic = 0;
@@ -31,9 +31,9 @@ if_close;
 // todo: allow setting autocast to go through delays.
 [label,set_autocast_spell](int $spell)
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     def_dbrow $spell_data = ~get_spell_data($spell);
-    if (~check_spell_requirements($spell_data) = false) {
+    if (~check_spell_requirements($spell_data) = ^false) {
         return;
     }
     // set auto cast varp
@@ -45,11 +45,11 @@ if (p_finduid(uid) = true) {
     ~initalltabs;
 }
 
-[proc,player_autocast_enabled]()(boolean)
+[proc,player_autocast_enabled]()(int)
 if (testbit(%attackstyle_magic, 0) = ^true & %attackstyle_magic = 3 & %autocast_spell > 0) {
-    return(true);
+    return(^true);
 }
-return(false);
+return(^false);
 
 [proc,player_autocast_reset]
 %attackstyle_magic = 0;

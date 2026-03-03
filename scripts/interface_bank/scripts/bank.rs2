@@ -53,12 +53,12 @@ if (%bankcert = ^true & oc_cert($obj) = $obj) {
     mes("This item can not be withdrawn as a note."); // 2005
 }
 
-if (inv_itemspace($inv, $cert_or_uncert, $amount, inv_size($inv)) = false){
+if (inv_itemspace($inv, $cert_or_uncert, $amount, inv_size($inv)) = ^false){
     if (inv_freespace($inv) = 0) {
         // https://youtu.be/Zv7Wh3TIDOc?t=22
         mes("You don't have enough inventory space.");
         return;
-    } else if (oc_stackable($cert_or_uncert) = true) {
+    } else if (oc_stackable($cert_or_uncert) = ^true) {
         // https://youtu.be/8vNeG5bHg0Q?t=443
         mes("You're not going to be able to carry all that!");
     } else {
@@ -93,10 +93,10 @@ if ($deposit > 0) {
     inv_moveitem_uncert($inv, bank, $obj, $deposit);
 }
 
-[proc,bank_check_nobreak](obj $obj)(boolean)
+[proc,bank_check_nobreak](obj $obj)(int)
 if (oc_param($obj, unbankable) = ^true) {
     mes("A magical force prevents you from banking this item!"); // osrs
-    return(true);
+    return(^true);
 }
 
 if (playermember = ^false) {
@@ -106,7 +106,7 @@ if (playermember = ^false) {
         // https://web.archive.org/web/20041126073829/http://img39.imageshack.us/img39/3412/firemaking.jpg (2004)
         mes("You need to subscribe for a members account if you want to");
         mes("store any more items in the bank.");
-        return(true);
+        return(^true);
     }
 }
-return(false);
+return(^false);

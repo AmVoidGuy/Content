@@ -1,34 +1,34 @@
-[proc,trail_geteasyclue]()(boolean)
-if(~trail_hasclue_all = false) {
+[proc,trail_geteasyclue]()(int)
+if(~trail_hasclue_all = ^false) {
     def_namedobj $trail_clue_easy = enum(int, namedobj, trail_easy_enum, random(enum_getoutputcount(trail_easy_enum)));
     inv_add(inv, $trail_clue_easy, 1);
-    return(true);
+    return(^true);
 } else {
-    return(false);
+    return(^false);
 }
 
-[proc,trail_getmediumclue]()(boolean)
-if(~trail_hasclue_all = false) {
+[proc,trail_getmediumclue]()(int)
+if(~trail_hasclue_all = ^false) {
     def_namedobj $trail_clue_medium = enum(int, namedobj, trail_medium_enum, random(enum_getoutputcount(trail_medium_enum)));
     inv_add(inv, $trail_clue_medium, 1);
-    return(true);
+    return(^true);
 } else {
-    return(false);
+    return(^false);
 }
 
-[proc,trail_gethardclue]()(boolean)
-if(~trail_hasclue_all = false) {
+[proc,trail_gethardclue]()(int)
+if(~trail_hasclue_all = ^false) {
     def_namedobj $trail_clue_hard = enum(int, namedobj, trail_hard_enum, random(enum_getoutputcount(trail_hard_enum)));
     inv_add(inv, $trail_clue_hard, 1);
-    return(true);
+    return(^true);
 } else {
-    return(false);
+    return(^false);
 }
 
 [proc,trail_easycluedrop](int $rarity, coord $coord)
 if_close;
-if (p_finduid(uid) = true) {
-    if (map_members = ^false | ~trail_hasclue_all = true) {
+if (p_finduid(uid) = ^true) {
+    if (map_members = ^false | ~trail_hasclue_all = ^true) {
         return;
     }
     def_int $rng = random($rarity);
@@ -42,8 +42,8 @@ if (p_finduid(uid) = true) {
 
 [proc,trail_mediumcluedrop](int $rarity, coord $coord)
 if_close;
-if (p_finduid(uid) = true) {
-    if (map_members = ^false | ~trail_hasclue_all = true) {
+if (p_finduid(uid) = ^true) {
+    if (map_members = ^false | ~trail_hasclue_all = ^true) {
         return;
     }
     def_int $rng = random($rarity);
@@ -57,8 +57,8 @@ if (p_finduid(uid) = true) {
 
 [proc,trail_hardcluedrop](int $rarity, coord $coord) // Name leaked from bronze dragon droptable script.
 if_close;
-if (p_finduid(uid) = true) {
-    if (map_members = ^false | ~trail_hasclue_all = true) {
+if (p_finduid(uid) = ^true) {
+    if (map_members = ^false | ~trail_hasclue_all = ^true) {
         return;
     }
     def_int $rng = random($rarity);
@@ -91,7 +91,7 @@ if(inv_totalcat(inv, trail_puzzle) > 0 | inv_totalcat(bank, trail_puzzle) > 0) {
 [opobj3,_trail_casket_hard] @pickup_cluescroll;
 
 [label,pickup_cluescroll]
-if(~trail_hasclue_all = true) {
+if(~trail_hasclue_all = ^true) {
     mes("You already have a clue scroll."); // OSRS
     return;
 }

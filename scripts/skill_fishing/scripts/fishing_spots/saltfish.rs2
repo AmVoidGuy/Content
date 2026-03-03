@@ -25,7 +25,7 @@ switch_obj(last_useitem) {
 
 [label,attempt_fish_shrimp]
 // check if they have fishing equipment
-if (~check_fish_equipment(net) = false) {
+if (~check_fish_equipment(net) = ^false) {
     return;
 }
 // check if inv is full
@@ -59,7 +59,7 @@ if (afk_event = ^true & npc_param(is_whirlpool) = ^false) {
 
 [label,fish_shrimp]
 // check if they have fishing equipment
-if (~check_fish_equipment(net) = false) {
+if (~check_fish_equipment(net) = ^false) {
     return;
 }
 // check if inv is full again
@@ -89,7 +89,7 @@ if (stat(fishing) < 5) {
     return;
 }
 // check if they have fishing equipment
-if (~check_fish_equipment(fishing_rod) = false) {
+if (~check_fish_equipment(fishing_rod) = ^false) {
     return;
 }
 // check if inv is full
@@ -133,7 +133,7 @@ if (stat(fishing) < 5) {
     return;
 }
 // check if they still have fishing equipment & bait
-if (~check_fish_equipment(fishing_rod) = false) {
+if (~check_fish_equipment(fishing_rod) = ^false) {
     return;
 }
 // check if inv is full

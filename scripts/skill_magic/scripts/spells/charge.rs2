@@ -1,6 +1,6 @@
 [if_button,magic:charge]
 if_close;
-if (p_finduid(uid) = true) {
+if (p_finduid(uid) = ^true) {
     if (%magearena < ^mage_arena_staff_given) {
         mes("This spell can only be learnt in the Mage Arena.");
         return;
@@ -12,7 +12,7 @@ if (p_finduid(uid) = true) {
     // }
 
     def_dbrow $spell_data = ~get_spell_data(^charge);
-    if (~check_spell_requirements($spell_data) = false) {
+    if (~check_spell_requirements($spell_data) = ^false) {
         return;
     }
     %magearena_charge = 350;

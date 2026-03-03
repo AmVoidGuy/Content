@@ -24,7 +24,7 @@ switch_int(%itwatchtower) {
         if(getbit_range(%itwatchtower_bits, ^itwatchtower_shaman_kills_lower, ^itwatchtower_shaman_kills_upper) = 6) {
             // fansites imply you can just talk to him instead of having to use the crystal like RSC
             ~chatplayer("<p,happy>Indeed it did! I wiped out those ogre shamans!");
-            if(~watchtower_has_all_crystals = true) {
+            if(~watchtower_has_all_crystals = ^true) {
                 @watchwiz_all_crystals;
             }
             switch_int(~p_choice3("I had another crystal but I lost it.", 1, "I am looking for another crystal.", 2, "I have found another crystal!", 3)) {
@@ -204,7 +204,7 @@ if(last_useitem = ogrerelic) {
     }
     ~chatplayer("<p,happy>Wizard, look what I have found.");
     ~chatnpc("<p,happy>Well done, well done!|That's a crystal found!|You are clever;|hold onto it until you have all four.");
-    if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_made_potion) {
+    if(~watchtower_has_all_crystals = ^true & %itwatchtower = ^itwatchtower_made_potion) {
         ~chatplayer("<p,happy>This is the last one.");
         @watchwiz_all_crystals;
     }
@@ -216,7 +216,7 @@ if(last_useitem = ogrerelic) {
     }
     ~chatplayer("<p,happy>Here is another crystal.");
     ~chatnpc("<p,happy>Superb!|Keep up the good work|Hold onto it until you have all four...");
-    if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_made_potion) {
+    if(~watchtower_has_all_crystals = ^true & %itwatchtower = ^itwatchtower_made_potion) {
         ~chatplayer("<p,happy>This is the last one.");
         @watchwiz_all_crystals;
     }
@@ -228,7 +228,7 @@ if(last_useitem = ogrerelic) {
     }
     ~chatplayer("<p,happy>Wizard, I have found another crystal.");
     ~chatnpc("<p,happy>I must say I'm impressed.|May Saradomin speed you in finding them all.|Hold onto it until you have all four...");
-    if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_made_potion) {
+    if(~watchtower_has_all_crystals = ^true & %itwatchtower = ^itwatchtower_made_potion) {
         ~chatplayer("<p,happy>This is the last one.");
         @watchwiz_all_crystals;
     }
@@ -239,7 +239,7 @@ if(last_useitem = ogrerelic) {
         return;
     }
     ~chatnpc("<p,happy>Well done! Well done!");
-    if(~watchtower_has_all_crystals = true & %itwatchtower = ^itwatchtower_made_potion) {
+    if(~watchtower_has_all_crystals = ^true & %itwatchtower = ^itwatchtower_made_potion) {
         ~chatplayer("<p,happy>This is the last one.");
         @watchwiz_all_crystals;
     }

@@ -27,7 +27,7 @@ while ($maxX >= $minX) {
         def_coord $zoneCoord = movecoord($coord, $dx, 0, $dz);
 
         loc_findallzone($zoneCoord);
-        while (loc_findnext = true) {
+        while (loc_findnext = ^true) {
             if (loc_type = $loc) {
                 return(loc_coord);
             }

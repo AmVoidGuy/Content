@@ -31,8 +31,8 @@ type=namedobj
 default=bones
 
 [demonbane_vulnerable]
-type=boolean
-default=no
+type=int
+default=0
 
 [retreat]
 type=int

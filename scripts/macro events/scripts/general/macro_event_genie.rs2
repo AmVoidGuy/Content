@@ -7,13 +7,13 @@ npc_say("Greetings <text_gender("master", "mistress")> <displayname>!");
 npc_setmode(playerfollow);
 
 [ai_timer,macro_geni]
-if (~macro_event_lost = true) {
+if (~macro_event_lost = ^true) {
     // only confirmed for mysterious old man
     npc_queue(5, 0, 0);
     return;
 }
 
-if (finduid(%npc_macro_event_target) = true) {
+if (finduid(%npc_macro_event_target) = ^true) {
     // warning message https://youtu.be/TCQl_9PALag?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT&t=395
     // this video goes 50t after respawn without warning message https://youtu.be/KkyVz0tSOQA?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT&t=176
     // 3 warning messages: https://youtu.be/g5k3XuXxyYQ?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT
@@ -54,7 +54,7 @@ npc_delay(2);
 [opnpc1,macro_geni]
 if (uid ! %npc_macro_event_target) {
     // https://youtu.be/qNQYgiNMBes?t=134
-    if (.finduid(%npc_macro_event_target) = true) {
+    if (.finduid(%npc_macro_event_target) = ^true) {
         ~chatnpc("<p,sad>Sorry, but I'm trying to talk to <.displayname>.|However, <.text_gender("he", "she")> appears to be ignoring me..."); 
         return;
     }

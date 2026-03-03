@@ -29,11 +29,11 @@ switch_int(%tutorial) {
 // https://web.archive.org/web/20051215201825im_/http://runevillage.com/images/rsTutorial10.gif
 // Looks like the exclamation points don't switch back to black.
 [proc,newbie_survival_instructor_replace_items]
-if (~tutorial_has_obj_on_person(bronze_axe) = false & inv_total(inv, tinderbox) < 1) {
+if (~tutorial_has_obj_on_person(bronze_axe) = ^false & inv_total(inv, tinderbox) < 1) {
     inv_add(inv, bronze_axe, 1);
     inv_add(inv, tinderbox, 1);
     ~doubleobjbox(tinderbox, bronze_axe, "The Survival Guide gives you a|@blu@Tinderbox@bla@|and a|@blu@Bronze Hatchet!", 200);
-} else if (~tutorial_has_obj_on_person(bronze_axe) = false) {
+} else if (~tutorial_has_obj_on_person(bronze_axe) = ^false) {
     inv_add(inv, bronze_axe, 1);
     ~objbox(bronze_axe, "The Survival Guide gives you a|@blu@Bronze Hatchet!", 250, 0, 0);
 }else if (inv_total(inv, tinderbox) < 1) {
@@ -48,7 +48,7 @@ if (%tutorial > ^newbie_survival_instructor_open_skill_menu & inv_total(inv, net
 
 // Used later for OSRS so we'll leave it.
 [proc,newbie_survival_instructor_replace_items_no_objboxes]
-if (~tutorial_has_obj_on_person(bronze_axe) = false & inv_freespace(inv) > 0) {
+if (~tutorial_has_obj_on_person(bronze_axe) = ^false & inv_freespace(inv) > 0) {
     inv_add(inv, bronze_axe, 1);
 }
 
@@ -62,7 +62,7 @@ if (inv_total(inv, net) < 1 & inv_freespace(inv) > 0) {
 
 [label,newbie_survival_instructor_fishing]
 ~chatnpc("<p,neutral>There's nothing like a good fire to warm the bones.|Next thing is getting food in our bellies.|We'll need something to cook. There are shrimp|in the pond there. So let's catch and cook some.");
-if (npc_findexact(0_48_48_29_20, 0_48_48_newbiefishing) = true) {
+if (npc_findexact(0_48_48_29_20, 0_48_48_newbiefishing) = ^true) {
     hint_npc;
 }
 inv_add(inv, net, 1);
@@ -143,7 +143,7 @@ switch_int($choice) {
 ~chatnpc("<p,neutral>Eating food will restore a little health. The harder something is to cook, the more it will heal you. Somewhere around here is a chef who will tell you more about food and cooking it.");
 
 [proc,set_hint_icon_newbie_survival_instructor]
-if (npc_find(0_48_48_31_23, newbie_survival_instructor, 10, 0) = true) {
+if (npc_find(0_48_48_31_23, newbie_survival_instructor, 10, 0) = ^true) {
     hint_npc;
 }
 

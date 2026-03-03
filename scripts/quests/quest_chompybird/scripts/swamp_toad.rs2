@@ -30,12 +30,12 @@ switch_obj(last_useitem) {
 
         p_delay(1);
 
-        if (p_finduid(uid) = true) {
+        if (p_finduid(uid) = ^true) {
             npc_say("Hissss....");
             
             p_delay(1);
 
-            if (p_finduid(uid) = true) {
+            if (p_finduid(uid) = ^true) {
                 mes("The air seems too thin to stay in the toad.");
                 mes("Perhaps you need something thicker than air.");
             }
@@ -57,13 +57,13 @@ switch_obj(last_useitem) {
 
             p_delay(1);
 
-            if (p_finduid(uid) = true) {
+            if (p_finduid(uid) = ^true) {
                 mes("You manage to catch the toad and inflate it with the swamp gas.");
                 ~come_here_toady();
 
                 p_delay(3);
 
-                if (p_finduid(uid) = true) {
+                if (p_finduid(uid) = ^true) {
                     mes("You add the bloated toad to your inventory.");
                     inv_add(inv, bloated_toad, 1);
 

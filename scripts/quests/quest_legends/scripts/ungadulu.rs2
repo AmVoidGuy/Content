@@ -38,8 +38,8 @@ cleartimer(ungadulu_curse);
 def_dbrow $spell_data = ~get_spell_data($spell);
 def_int $duration = ~pvm_spell_cast($spell_data);
 p_delay(1);
-if (~player_npc_hit_roll(^magic_style) = true) {
-    if (~inzone_coord_pair_table(legends_fire_wall_correct, coord) = false) { // seems to be random??
+if (~player_npc_hit_roll(^magic_style) = ^true) {
+    if (~inzone_coord_pair_table(legends_fire_wall_correct, coord) = ^false) { // seems to be random??
         ~mesbox("The spell fizzles and has no effect as it passes through the flames.");
         return;
     }
@@ -348,7 +348,7 @@ inv_add(inv, yommiseeds, 3);
 // hitting them for between 4 and 10 damage. However, players can manually cast combat spells on him both inside
 // and outside the Octagram to damage and kill him without being thrown by his spell. 
 [label,attack_ungadulu]
-if (~inzone_coord_pair_table(legends_fire_wall, coord) = false) {
+if (~inzone_coord_pair_table(legends_fire_wall, coord) = ^false) {
     ~mesbox("You feel certain that your weapon would melt if you tried to attack through these magical flames.");
 }
 else {

@@ -15,5 +15,5 @@ if (%mcannon >= ^mcannon_tasked_with_fixing_cannon) {
 }
 
 [label,open_dwarf_cannon_door]
-def_boolean $is_outside = ~check_axis(coord, loc_coord, loc_angle);
-~open_and_close_door(loc_param(next_loc_stage), $is_outside, false);
+def_int $is_outside = ~check_axis(coord, loc_coord, loc_angle);
+~open_and_close_door(loc_param(next_loc_stage), $is_outside, ^false);

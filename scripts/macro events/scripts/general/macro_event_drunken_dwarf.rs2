@@ -8,20 +8,20 @@ npc_setmode(playerfollow);
 
 [ai_timer,macro_dwarf]
 if (%npc_int = ^drunken_dwarf_angry) {
-    if (~macro_event_lost_hostile = true) {
+    if (~macro_event_lost_hostile = ^true) {
         // https://youtu.be/PhAjUCWSoOI?list=PLn23LiLYLb1bQ7Hwp77KoNBjKvpZQTfJT&t=79
         // https://youtu.be/PhAjUCWSoOI?list=PLn23LiLYLb1bQ7Hwp77KoNBjKvpZQTfJT&t=81
         npc_queue(5, 0, 0); // despawn
     }
     return;
 }
-if (~macro_event_lost = true) {
+if (~macro_event_lost = ^true) {
     npc_queue(5, 0, 0);
     return;
 }
 // warnings: https://youtu.be/Ww-PkAr4vt4?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT&t=96
 // todo: confirm these anims
-if (finduid(%npc_macro_event_target) = true) {
+if (finduid(%npc_macro_event_target) = ^true) {
     if (%npc_int = 0) {
         npc_anim(dwarf_drunkangry, 20);
         sound_synth(dwarf_whistle, 0, 0);
@@ -80,11 +80,11 @@ npc_settimer(0);
 // doesnt check for death!
 [ai_opplayer2,macro_dwarf]
 if (%npc_action_delay > map_clock) return;
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 

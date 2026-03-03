@@ -89,7 +89,7 @@ switch_int(%hazeelcultquest) {
 
 [queue,hazeel_leave](npc_uid $npc)
 if_close;
-if(npc_finduid($npc) = true) {
+if(npc_finduid($npc) = ^true) {
     p_delay(2);
     spotanim_map(smokepuff, npc_coord, 124, 0);
     p_delay(1);
@@ -101,14 +101,14 @@ queue(hazeelcult_quest_complete, 0, 0);
 gosub(npc_death);
 if(npc_findhero = ^true) {
     if_close;
-    if(p_finduid(uid) = true) { // get protected access, if not then queue
+    if(p_finduid(uid) = ^true) { // get protected access, if not then queue
         @defeat_alomone_hazeel_cultist;
     }
     queue*(queue_defeat_alomone_hazeel_cultist, 0)(npc_uid); //strongqueue probably
 }
 
 [queue,queue_defeat_alomone_hazeel_cultist](npc_uid $npc)
-if (npc_finduid($npc) = true) {
+if (npc_finduid($npc) = ^true) {
     @defeat_alomone_hazeel_cultist;
 }
 

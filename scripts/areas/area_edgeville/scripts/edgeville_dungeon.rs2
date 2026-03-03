@@ -21,9 +21,9 @@ if (inv_total(inv, edgevilledungeonkey) > 0) {
     $x, $z = ~door_open($angle, loc_shape);
 
     // walk through door, but if entering, walk next to door and then through
-    def_boolean $entering = ~check_axis(coord,  $loc_coord, $angle);
+    def_int $entering = ~check_axis(coord,  $loc_coord, $angle);
     def_coord $dest = $loc_coord;
-    if ($entering = true) {
+    if ($entering = ^true) {
         if (coord ! $loc_coord) {
             p_delay(0);
             p_teleport($loc_coord);

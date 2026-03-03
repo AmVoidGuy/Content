@@ -13,12 +13,12 @@ inv_add(inv, the_shield_of_arrav, 1);
 
 [oploc1,phoenixdoor]
 // 1 tile away from player
-def_boolean $leaving = ~check_axis(coord, loc_coord, loc_angle);
-if(%phoenixgang >= ^phoenixgang_joined | $leaving = true) {
+def_int $leaving = ~check_axis(coord, loc_coord, loc_angle);
+if(%phoenixgang >= ^phoenixgang_joined | $leaving = ^true) {
     ~open_hideout_door($leaving, "The door automatically opens for you.");
     return;
 }
-if (npc_find(coord, straven, 1, 0) = true) {
+if (npc_find(coord, straven, 1, 0) = ^true) {
     if(%blackarmgang >= ^blackarmgang_joined) {
         @straven_blackarmdog;
     }
@@ -42,28 +42,28 @@ inv_add(inv, arravshield1, 1);
 
 [oploc2,phoenixopenchest] ~close_chest(phoenixshutchest);
 
-[oploc1,phoenixdoor2] @unlock_weaponstore_door(false);
+[oploc1,phoenixdoor2] @unlock_weaponstore_door(^false);
 [oplocu,phoenixdoor2]
 if(last_useitem = phoenixkey2) {
-    @unlock_weaponstore_door(true);
+    @unlock_weaponstore_door(^true);
 } 
 ~displaymessage(^dm_default);
 
-[label,unlock_weaponstore_door](boolean $key_used)
-def_boolean $leaving= ~check_axis(coord, loc_coord, loc_angle);
+[label,unlock_weaponstore_door](int $key_used)
+def_int $leaving= ~check_axis(coord, loc_coord, loc_angle);
 def_string $message;
-if($leaving = false & $key_used = false) {
+if($leaving = ^false & $key_used = ^false) {
     mes("The door is securely locked.");
     return;
 }
-if($key_used = true) {
+if($key_used = ^true) {
     $message = "You unlock the door.";
 } else {
     $message = "You slip out through the door.";
 }
 ~open_hideout_door($leaving, $message);
 
-[proc,open_hideout_door](boolean $leaving, string $message)
+[proc,open_hideout_door](int $leaving, string $message)
 def_int $x;
 def_int $z;
 def_int $angle = loc_angle;
@@ -73,7 +73,7 @@ $x, $z = ~door_open($angle, loc_shape);
 def_coord $dest = $loc_coord;
 sound_synth(door_open, 0, 0); 
 mes($message);
-if ($leaving = true) {
+if ($leaving = ^true) {
     if (coord ! $loc_coord) {
         p_teleport($loc_coord);
         p_delay(1);
@@ -87,17 +87,17 @@ loc_add(movecoord($loc_coord, $x, 0, $z), poordoor, modulo(add($angle, 1), 4), $
 
 [opobj3,phoenix_crossbow]
 // not a zone specific check, you can drop a crossbow in the nearby building to trigger this dialogue 
-if(npc_find(coord, weaponsmaster, 10, 0) = true) {
+if(npc_find(coord, weaponsmaster, 10, 0) = ^true) {
     @weaponsmaster_stop;
 }
-if (inv_itemspace(inv, obj_type, obj_count, inv_size(inv)) = false) {
+if (inv_itemspace(inv, obj_type, obj_count, inv_size(inv)) = ^false) {
     mes("You don't have enough inventory space to hold that item.");
     return;
 }
 @pickup_obj;
 
 [oploc1,blackarmdoor]
-def_boolean $leaving = ~check_axis(coord, loc_coord, loc_angle);
+def_int $leaving = ~check_axis(coord, loc_coord, loc_angle);
 if(%blackarmgang >= ^blackarmgang_joined) {
     ~open_hideout_door($leaving, "You hear heavy bolts being drawn back as the door is unlocked.");
     return;

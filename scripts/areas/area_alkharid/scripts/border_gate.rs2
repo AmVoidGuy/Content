@@ -9,11 +9,11 @@
 // then starts dialogue with them
 [label,find_and_talk_to_border_guard]
 if (coordx(coord) < coordx(loc_coord)) { // in lumby
-    if (npc_find(coord, borderguard1, 1, 0) = true) {
+    if (npc_find(coord, borderguard1, 1, 0) = ^true) {
         @talk_to_border_guard(loc_coord);
     }
 } else { // in al kharid
-    if (npc_find(coord, borderguard2, 1, 0) = true) {
+    if (npc_find(coord, borderguard2, 1, 0) = ^true) {
         @talk_to_border_guard(loc_coord);
     }
 }
@@ -58,18 +58,18 @@ inv_del(inv, coins, 10);
 //if_close;
 
 def_coord $coord = 0_51_50_4_27;
-def_boolean $enter_east = false;
+def_int $enter_east = ^false;
 
 // checks if we are west of the gate on the lumbridge side
 if (coordx(coord) < coordx($coord)) {
     // if we are on the west side then our coord
     // destination is moved over to the west
     $coord = movecoord($coord, -1, 0, 0);
-    $enter_east = true;
+    $enter_east = ^true;
 }
 
 if ($loc_coord ! null & distance(coord, $loc_coord) <= 1) {
-    if ($enter_east = false & (coord ! 0_51_50_4_28 & coord ! 0_51_50_4_27)) {
+    if ($enter_east = ^false & (coord ! 0_51_50_4_28 & coord ! 0_51_50_4_27)) {
         p_teleport($loc_coord);
         p_stopaction;
         p_delay(2);
@@ -92,9 +92,9 @@ p_delay(0);
 // teleports us through the gate
 // plays the gates synth when opening
 // does magic
-[label,enter_through_border_gate_toll](boolean $west, coord $loc_coord)
+[label,enter_through_border_gate_toll](int $west, coord $loc_coord)
 def_coord $destination;
-if ($west = true) {
+if ($west = ^true) {
     $destination = movecoord(coord, 1, 0, 0);
     $loc_coord = $destination;
 } else {
@@ -107,7 +107,7 @@ if ($west = true) {
 }
 
 loc_findallzone($loc_coord);
-while (loc_findnext = true) {
+while (loc_findnext = ^true) {
     if (loc_coord = $loc_coord & (loc_category = border_gate_toll_right | loc_category = border_gate_toll_left)) {
         if (loc_category = border_gate_toll_left) {
             ~open_border_gate_toll_left_closed;
@@ -133,7 +133,7 @@ def_coord $coord = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
 loc_add(loc_coord, inviswall, loc_angle, loc_shape, 3);
 
 loc_findallzone($coord);
-while (loc_findnext = true) {
+while (loc_findnext = ^true) {
     if (loc_coord = $other & loc_category = border_gate_toll_right) {
         def_coord $coord2 = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
         // Temp note: dur updated
@@ -155,7 +155,7 @@ def_coord $coord = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
 loc_add(loc_coord, inviswall, loc_angle, loc_shape, 3);
 
 loc_findallzone($coord);
-while (loc_findnext = true) {
+while (loc_findnext = ^true) {
     if (loc_coord = $other & loc_category = border_gate_toll_left) {
         $coord = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
         // Temp note: dur updated

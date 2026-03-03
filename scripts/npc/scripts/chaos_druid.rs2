@@ -2,11 +2,11 @@
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 ~chaos_druid_spell;
@@ -16,11 +16,11 @@ if(random(4) ! 0) npc_setmode(opplayer2);
 if (%npc_action_delay > map_clock) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 // ~1/4 based off 100 attacks in osrs
@@ -35,9 +35,9 @@ def_dbrow $spell_data = ~get_spell_data(^bind);
 def_dbrow $effect_spell = ~get_spell_data(^confuse);
 def_int $duration = ~npc_spell_cast($spell_data, 4);
 
-if (~npc_player_hit_roll(^magic_style) = true & ~check_protect_prayer(^magic_style) = false) {
+if (~npc_player_hit_roll(^magic_style) = ^true & ~check_protect_prayer(^magic_style) = ^false) {
     ~npc_spell_success($spell_data, null, $duration);
-    if(~npc_debuff_allowed($effect_spell) = true) ~npc_stat_change_effect($effect_spell);
+    if(~npc_debuff_allowed($effect_spell) = ^true) ~npc_stat_change_effect($effect_spell);
     queue(chaosdruid_freeze_player, 0, 0);
 } else {
     ~npc_spell_fail($spell_data, $duration);

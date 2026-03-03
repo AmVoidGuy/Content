@@ -20,11 +20,11 @@ if (%death = ^true) {
 if (map_clock < %npc_action_delay) {
     return;
 }
-if (~npc_check_notcombat = false) {
+if (~npc_check_notcombat = ^false) {
     npc_setmode(null);
     return;
 }
-if (~npc_check_notcombat_self = false) {
+if (~npc_check_notcombat_self = ^false) {
     return;
 }
 anim(%com_defendanim, 0);
@@ -50,7 +50,7 @@ queue*(playerhit_n_retaliate, 1)(npc_uid);
 ~npc_set_attack_vars;
 
 [opnpc2,newbiegiantrat]
-if (~player_in_combat_check = false) {
+if (~player_in_combat_check = ^false) {
     return;
 }
 if (%tutorial = ^newbie_combat_instructor_before_attacking_melee) {
@@ -91,7 +91,7 @@ if (inv_getobj(worn, ^wearpos_rhand) ! null) {
     }
 }
 
-if (~player_autocast_enabled = true){
+if (~player_autocast_enabled = ^true){
     $attackrange = 10;
 }
 if ($attackrange <= 1) {
@@ -102,7 +102,7 @@ if ($distance > $attackrange) {
     p_aprange($attackrange);
     return;
 }
-if (~player_in_combat_check = false) {
+if (~player_in_combat_check = ^false) {
     return;
 }
 p_aprange($attackrange);
@@ -120,6 +120,6 @@ if (%tutorial = ^newbie_combat_instructor_before_attacking_ranged) {
 }
 
 [proc,set_hint_icon_giant_rat]
-if (npc_find(0_48_148_37_47, newbiegiantrat, 10, 0) = true) {
+if (npc_find(0_48_148_37_47, newbiegiantrat, 10, 0) = ^true) {
     hint_npc;
 }

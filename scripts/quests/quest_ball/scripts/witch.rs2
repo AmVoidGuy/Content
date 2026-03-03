@@ -1,13 +1,13 @@
 [ai_timer,nora_t_hagg]
 huntall(npc_coord, 3, 0);
 // loop until we find a player, only 1 player at a time though
-while (huntnext = true) {
+while (huntnext = ^true) {
 // the witch can still get los if you're on the edge of a hedge, this wouldn't match osrs behaviour!
 def_int $dz = calc(coordz(coord) - coordz(npc_coord));
-if(lineofsight(npc_coord, coord) = true & (($dz > 0 & loc_find(movecoord(coord, 0, 0, -1), hedge) = false & loc_find(movecoord(coord, 0, 0, -1), hedgecorner) = false) |
-    ($dz < 0 & loc_find(movecoord(coord, 0, 0, 1), hedge) = false))) {
+if(lineofsight(npc_coord, coord) = ^true & (($dz > 0 & loc_find(movecoord(coord, 0, 0, -1), hedge) = ^false & loc_find(movecoord(coord, 0, 0, -1), hedgecorner) = ^false) |
+    ($dz < 0 & loc_find(movecoord(coord, 0, 0, 1), hedge) = ^false))) {
         if_close;
-        if (p_finduid(uid) = false) {
+        if (p_finduid(uid) = ^false) {
             return;
         }
         p_stopaction;

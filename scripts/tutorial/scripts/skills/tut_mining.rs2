@@ -1,6 +1,6 @@
 // Copper Rock
 [oploc1,newbiecopperrock]
-if (~tut_mining("copper") = false) {
+if (~tut_mining("copper") = ^false) {
     return;
 }
 
@@ -18,7 +18,7 @@ inv_add(inv, copper_ore, 1);
 
 // Tin Ore
 [oploc1,newbietinrock]
-if (~tut_mining("tin") = false) {
+if (~tut_mining("tin") = ^false) {
     return;
 }
 
@@ -34,11 +34,11 @@ inv_add(inv, tin_ore, 1);
 ~tutorial_give_xp(mining, 175);
 ~mesbox("You manage to mine some tin.");
 
-[proc,tut_mining](string $ore_name)(boolean)
+[proc,tut_mining](string $ore_name)(int)
 if (%tutorial < ^newbie_mining_instructor_mining_start) {
     anim(null, 0);
     ~mesbox("You are not ready to mine yet.|Please follow the tutorial and you'll be mining in no time.");
-    return(false);
+    return(^false);
 }
 
 def_int $is_empty = loc_param(mining_rock_empty);
@@ -46,13 +46,13 @@ if ($is_empty = ^true) {
     anim(null, 0);
     mes("There is no ore currently available in this rock.");
     sound_synth(prospect, 0, 0);
-    return(false);
+    return(^false);
 }
 
 if (inv_freespace(inv) < 1) {
     anim(null, 0);
     ~mesbox("Your inventory is too full to hold anymore <$ore_name>.");
-    return(false);
+    return(^false);
 }
 
 def_obj $pickaxe = ~pickaxe_checker;
@@ -60,7 +60,7 @@ if ($pickaxe = null) {
     anim(null, 0);
     //https://www.youtube.com/watch?v=rjQprrDDUfE
     ~mesbox("You need a Pickaxe to mine this rock. You do not have a Pickaxe which you have the Mining level to use.");
-    return(false);
+    return(^false);
 }
 
 ~tutorial_please_wait_mining;
@@ -75,7 +75,7 @@ p_delay(0);
 // Temp note: dur does not need updated ??
 loc_change(plainrock1, 10);
 anim(null, 0);
-return(true);
+return(^true);
 
 [oploc2,newbiecopperrock]
 ~tut_prospect;

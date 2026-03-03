@@ -1,7 +1,7 @@
 // begins combat
 [label,player_melee_attack]
 p_stopaction;
-if (~npc_is_attackable() = false) {
+if (~npc_is_attackable() = ^false) {
     return;
 }
 
@@ -17,12 +17,12 @@ if (npc_stat(hitpoints) = 0) {
 
 // check hit, give combat xp
 def_int $damage = 0;
-if (~player_npc_hit_roll(%damagetype) = true) {
+if (~player_npc_hit_roll(%damagetype) = ^true) {
     def_int $maxhit = %com_maxhit;
     if (npc_type = count_draynor & inv_total(inv, garlic) > 0) {
         $maxhit = add($maxhit, 1);
     }
-    if (npc_param(demonbane_vulnerable) = true & inv_total(worn, silverlight) > 0) {
+    if (npc_param(demonbane_vulnerable) = ^true & inv_total(worn, silverlight) > 0) {
         $maxhit = scale(160, 100, %com_maxhit);
     }
     $damage = randominc(min($maxhit, npc_param(max_dealt)));

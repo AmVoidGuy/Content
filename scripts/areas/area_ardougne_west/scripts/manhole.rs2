@@ -4,7 +4,7 @@
 
 [label,elena_open_manhole]
 loc_findallzone(^quest_elena_west_ardy_manhole_coord); // the manhole is not in the same zone as the player tele.
-while (loc_findnext = true) {
+while (loc_findnext = ^true) {
     // if the manhole is closed we open it when getting out basically.
     if (loc_type = plaguemanholeclosed) {
         // Temp note: dur does not need updated
@@ -23,7 +23,7 @@ facesquare(movecoord(coord, 0, 0, 1)); // north
 [label,elena_close_manhole]
 loc_findallzone(^quest_elena_west_ardy_manhole_coord); // the manhole is not in the same zone as the player tele.
 loc_del(500);
-while (loc_findnext = true) {
+while (loc_findnext = ^true) {
     // if the manhole is closed we open it when getting out basically.
     if (loc_type = plaguemanholeopen) {
         // Temp note: dur does not need updated
