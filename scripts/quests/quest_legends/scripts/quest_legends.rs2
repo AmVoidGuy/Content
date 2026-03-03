@@ -131,9 +131,7 @@ else {
 }
 
 [oploc2,legends_cupboardopen]
-if(npc_find(coord, radimus_erkle, 5, 0) = ^false) {
-    return;
-}
+if(npc_find(coord, radimus_erkle, 5, 0) = ^true) {
 if(%legendsquest >= ^legends_complete) {
     ~chatnpc("<p,neutral>Hey, I think it's about time you started buying your own machetes. I'm sure there must be some jungle native down in Karamja who can sell you one.");
     return;
@@ -147,6 +145,7 @@ if (inv_total(inv, machette) > 0 | inv_total(worn, machette) > 0) {
     inv_add(inv, machette, 1);
     ~objbox(machette, "You find a machete in the cupboard.", 250, 0, 0);
     mes("You find a machete.");
+}
 }
 
 [oploc3,legends_cupboardopen]
@@ -878,9 +877,7 @@ if(~inzone_coord_pair_table(legends_gem_room, coord) = ^true) {
 ~dropslot(last_slot);
 
 [proc,check_gem_puzzle_complete]
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 mes("You feel a powerful force picking you up....");
 facesquare(movecoord(coord, 0, 0, 1));
 anim(null, 0);
@@ -932,6 +929,7 @@ while($i < 13) {
         obj_add(0_43_145_13_17, book_of_binding, 1, 500); // lasts 500t
     }
     world_delay(1);
+}
 }
 
 [oploc1,lg_dwarfremains]

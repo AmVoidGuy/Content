@@ -91,9 +91,7 @@ if (%elenaquest >= ^quest_elena_returned_book) {
     ~open_and_close_door($next_loc, ~check_axis(coord, loc_coord, loc_angle), ^false);
     return;
 }
-if (npc_find(coord, ted_rehnison, 7, 0) = ^false) {
-    return;
-}
+if (npc_find(coord, ted_rehnison, 7, 0) = ^true) {
 ~chatnpc("<p,angry>Go away. We don't want any.");
 switch_int(%elenaquest) {
     case ^quest_elena_shown_picture :
@@ -107,5 +105,6 @@ switch_int(%elenaquest) {
             ~objbox(turnip_book, "You hand the book to Ted as you enter.", 250, 0, divide(^objbox_height, 2));
             ~chatnpc("<p,happy>Thanks, I've been missing that.");
         }
+}
 }
 

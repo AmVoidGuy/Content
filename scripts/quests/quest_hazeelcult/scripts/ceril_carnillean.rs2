@@ -125,9 +125,7 @@ if(inv_total(inv, carnillean_armour) > 0) {
     ~update_all(null);
 }
 queue(hazeelcult_fake_complete, 0, 0);
-if (.npc_find(coord, butler_jones_hazeel_cultist, 6, 0) = ^false) { // not sure what the distance would of been but it always works on OSRS
-    return;
-}
+if (.npc_find(coord, butler_jones_hazeel_cultist, 6, 0) = ^true) { // not sure what the distance would of been but it always works on OSRS
 ~chatnpc("<p,angry>Jones! This commoner says you had something to do with the theft of my armour. What do you have to say for yourself about that?");
 ~.chatnpc("<p,neutral>It wasn't me m'lud. I am, as you know, a loyal servant.");
 ~chatnpc("<p,angry>Humph. Quite right too. I cannot fathom why this scoundrel would accuse you of such a crime without evidence to back up his accusations.");
@@ -137,3 +135,4 @@ if (.npc_find(coord, butler_jones_hazeel_cultist, 6, 0) = ^false) { // not sure 
 ~chatnpc("<p,angry>Now take it and leave you scoundrel! And don't darken my doorstep again!");
 ~.chatnpc("<p,happy>Don't worry m'lud, this fool won't be bothering us any more.");
 ~mesbox("Jones smirks at you. You are going to need more than words to prove Jones' treachery.");
+}

@@ -21,119 +21,117 @@
 // Older vids use npc_del and npc_add the whole way?: https://youtu.be/mQmeH32PdNk?list=PLn23LiLYLb1Y4vxMPWXM-CVEvOUfuAP_o
 
 [ai_queue3,kolhuman]
-if (npc_findhero = ^false) {
-    // in osrs, if you dont have kill credit the npc dies and you dont advance
-    // with the exception of the last stage, demon
-    gosub(npc_death);
+if (npc_findhero = ^true) {
+    %magearena = 2;
+    npc_setmode(none);
+    npc_walk(npc_coord);
+    npc_anim(human_castteleport, 30);
+    npc_delay(2);
+
+    def_coord $coord = npc_coord;
+    npc_del;
+    if (p_finduid(uid) = ^true) {
+        p_delay(1); // temp
+    }
+    npc_add($coord, kologre, 1000);
+    npc_anim(npc_param(spawn_anim), 0);
+    spotanim_npc(smokepuff_large, 124, 34);
+    npc_setmode(applayer2);
+    npc_delay(1);
+    npc_say("This is only the beginning; you can't beat me!");
     return;
 }
-%magearena = 2;
-npc_setmode(none);
-npc_walk(npc_coord);
-npc_anim(human_castteleport, 30);
-npc_delay(2);
-
-def_coord $coord = npc_coord;
-npc_del;
-if (p_finduid(uid) = ^true) {
-    p_delay(1); // temp
-}
-npc_add($coord, kologre, 1000);
-npc_anim(npc_param(spawn_anim), 0);
-spotanim_npc(smokepuff_large, 124, 34);
-npc_setmode(applayer2);
-npc_delay(1);
-npc_say("This is only the beginning; you can't beat me!");
-
+// in osrs, if you dont have kill credit the npc dies and you dont advance
+// with the exception of the last stage, demon
+gosub(npc_death);
+return;
 
 [ai_queue3,kologre]
-if (npc_findhero = ^false) {
-    gosub(npc_death);
+if (npc_findhero = ^true) {
+    %magearena = 3;
+    npc_setmode(none);
+    npc_walk(npc_coord);
+    npc_anim(giant_teleport, 30);
+    npc_delay(2);
+
+    def_coord $coord = npc_coord;
+    npc_del;
+    if (p_finduid(uid) = ^true) {
+        p_delay(1); // temp
+    }
+    npc_add($coord, kolspider, 1000);
+    npc_anim(npc_param(spawn_anim), 0);
+    spotanim_npc(hugespider_teleport_reverse, 16, 35);
+    npc_setmode(opplayer2);
+    npc_delay(1);
+    npc_say("Foolish mortal; I am unstoppable.");
     return;
 }
-%magearena = 3;
-npc_setmode(none);
-npc_walk(npc_coord);
-npc_anim(giant_teleport, 30);
-npc_delay(2);
-
-def_coord $coord = npc_coord;
-npc_del;
-if (p_finduid(uid) = ^true) {
-    p_delay(1); // temp
-}
-npc_add($coord, kolspider, 1000);
-npc_anim(npc_param(spawn_anim), 0);
-spotanim_npc(hugespider_teleport_reverse, 16, 35);
-npc_setmode(opplayer2);
-npc_delay(1);
-npc_say("Foolish mortal; I am unstoppable.");
-
+gosub(npc_death);
+return;
 
 [ai_queue3,kolspider]
-if (npc_findhero = ^false) {
-    gosub(npc_death);
+if (npc_findhero = ^true) {
+    %magearena = 4;
+    npc_setmode(none);
+    npc_walk(npc_coord);
+    npc_anim(giantspider_teleport, 30);
+    npc_delay(2);
+
+    def_coord $coord = npc_coord;
+    npc_del;
+    if (p_finduid(uid) = ^true) {
+        p_delay(1); // temp
+    }
+    npc_add(movecoord($coord, 1, 0, 1), kolethereal, 1000);
+    npc_anim(npc_param(spawn_anim), 0);
+    spotanim_npc(smokepuff_large, 124, 10);
+    npc_setmode(opplayer2);
+    npc_delay(1);
+    npc_say("Now you feel it... The dark energy.");
     return;
 }
-%magearena = 4;
-npc_setmode(none);
-npc_walk(npc_coord);
-npc_anim(giantspider_teleport, 30);
-npc_delay(2);
-
-def_coord $coord = npc_coord;
-npc_del;
-if (p_finduid(uid) = ^true) {
-    p_delay(1); // temp
-}
-npc_add(movecoord($coord, 1, 0, 1), kolethereal, 1000);
-npc_anim(npc_param(spawn_anim), 0);
-spotanim_npc(smokepuff_large, 124, 10);
-npc_setmode(opplayer2);
-npc_delay(1);
-npc_say("Now you feel it... The dark energy.");
-
+gosub(npc_death);
+return;
 
 [ai_queue3,kolethereal]
-if (npc_findhero = ^false) {
-    gosub(npc_death);
+if (npc_findhero = ^true) {
+    %magearena = 5;
+    npc_setmode(none);
+    npc_walk(npc_coord);
+    npc_anim(human_castteleport, 30);
+    npc_delay(2);
+
+    def_coord $coord = npc_coord;
+    npc_del;
+    if (p_finduid(uid) = ^true) {
+        p_delay(1); // temp
+    }
+    npc_add($coord, koldemon, 1000);
+    npc_anim(npc_param(spawn_anim), 0);
+    spotanim_npc(huge_teleport_reverse, 16, 0);
+    npc_setmode(opplayer2);
+    npc_delay(1);
+    npc_say("Aaaaaaaarrgghhhh! The power!");
     return;
 }
-%magearena = 5;
-npc_setmode(none);
-npc_walk(npc_coord);
-npc_anim(human_castteleport, 30);
-npc_delay(2);
-
-def_coord $coord = npc_coord;
-npc_del;
-if (p_finduid(uid) = ^true) {
-    p_delay(1); // temp
-}
-npc_add($coord, koldemon, 1000);
-npc_anim(npc_param(spawn_anim), 0);
-spotanim_npc(huge_teleport_reverse, 16, 0);
-npc_setmode(opplayer2);
-npc_delay(1);
-npc_say("Aaaaaaaarrgghhhh! The power!");
-
+gosub(npc_death);
+return;
 
 [ai_queue3,koldemon]
-if (npc_findhero = ^false) {
-    // no death anim
-    return;
+if (npc_findhero = ^true) {
+    queue(finish_mage_arena, 0, 0);
+    npc_delay(0);
+    %magearena = ^mage_arena_complete;
+    npc_delay(1);
+    npc_setmode(none);
+    npc_walk(npc_coord);
+    npc_anim(demon_portalend, 30);
+    spotanim_map(smokepuff_large, npc_coord, 124, 90);
+    npc_delay(2);
+    npc_changetype_keepall(arenamage2, ^max_32bit_int);
+    npc_anim(null, 0);
+    npc_setmode(playerface);
+    npc_delay(0);
+    npc_del;
 }
-queue(finish_mage_arena, 0, 0);
-npc_delay(0);
-%magearena = ^mage_arena_complete;
-npc_delay(1);
-npc_setmode(none);
-npc_walk(npc_coord);
-npc_anim(demon_portalend, 30);
-spotanim_map(smokepuff_large, npc_coord, 124, 90);
-npc_delay(2);
-npc_changetype_keepall(arenamage2, ^max_32bit_int);
-npc_anim(null, 0);
-npc_setmode(playerface);
-npc_delay(0);
-npc_del;

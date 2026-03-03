@@ -1,7 +1,5 @@
 [debugproc,com_vars]
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 // mes("%com_stabattack: <tostring(%com_stabattack)>");
 // mes("%com_stabdef: <tostring(%com_stabdef)>");
 mes("%com_slashattack: <tostring(%com_slashattack)>");
@@ -12,3 +10,4 @@ mes("%com_slashattack: <tostring(%com_slashattack)>");
 // mes("%com_magicdef: <tostring(%com_magicdef)>");
 // mes("%com_rangeattack: <tostring(%com_rangeattack)>");
 // mes("%com_rangedef: <tostring(%com_rangedef)>");
+}

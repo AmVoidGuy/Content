@@ -73,9 +73,7 @@ if (coordz(coord) <= coordz(loc_coord)) {
     ~clear_desertheat_timer;
     return;
 }
-if (npc_find(coord, shantay_guard_still, 5, 0) = ^false) {
-    return;
-}
+if (npc_find(coord, shantay_guard_still, 5, 0) = ^true) {
 if (inv_total(inv, shantay_pass) < 1) {
     ~chatnpc("<p,neutral>You need a Shantay pass to get through this gate. See|Shantay, he will sell you one for a very reasonable|price.");
     return;
@@ -98,6 +96,7 @@ queue(shantay_pass_enter, 0, 0);
 if (inv_total(inv, thshantaydisc) < 1) {
     inv_add(inv, thshantaydisc, 1);
     ~chatnpc("<p,neutral>Here, have a disclaimer... It means that Shantay isn't|responsible if you die in the desert.");
+}
 }
 
 [queue,shantay_pass_enter]

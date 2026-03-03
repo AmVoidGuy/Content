@@ -2,10 +2,9 @@
 
 [ai_queue3,jonny_the_beard]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // always dropped in RSC, wiki mentions it used to be obtainable after quest so I think it was probably always dropped
 // before rework
 obj_add(npc_coord, intelligence_report, 1, ^lootdrop_duration);
 obj_add(npc_coord, bones, 1, ^lootdrop_duration);
+}

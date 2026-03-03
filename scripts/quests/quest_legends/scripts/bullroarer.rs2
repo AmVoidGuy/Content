@@ -33,6 +33,7 @@ if (~inzone_coord_pair_table(kharazi_jungle, coord) = ^true) {
         if(npc_find(coord, gujuo, 14, 0) = ^false) {
             npc_add($coord, gujuo, 500);
         }
+        if(npc_find(coord, gujuo, 14, 0) = ^true) {
         if (lineofwalk(npc_coord, coord) = ^false) {
             // https://www.youtube.com/live/8fW1_vt07Z4?si=4bYW5uI0t6fEvN7q&t=4505
             mes("It looks like the native cannot get to you from here.");
@@ -41,6 +42,7 @@ if (~inzone_coord_pair_table(kharazi_jungle, coord) = ^true) {
         npc_walk(movecoord(coord, 1, 0, 0));
         npc_setmode(opplayer2);
         return;
+        }
     }
     mes("But nothing much seems to happen.");
     return;

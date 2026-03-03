@@ -217,7 +217,9 @@ if(testbit(%excalibur_components_progress, ^excalibur_rewarded) = ^false) {
         if(npc_find(coord, lake_beggar, 1, 0) = ^false) {
             npc_add(movecoord(loc_coord, 0, 0, 1), lake_beggar, 100);
         }
+        if(npc_find(coord, lake_beggar, 1, 0) = ^true) {
         @lake_beggar_dialogue;
+        }
     } 
 }
 ~open_and_close_door2(poordoor, ~check_axis(coord, loc_coord, loc_angle), door_open);
@@ -231,9 +233,11 @@ if(testbit(%excalibur_components_progress, ^excalibur_rewarded) = ^false & testb
     if(npc_find(coord, ladyofthelake, 4, 0) = ^false) {
         npc_add(movecoord(coord, -1, 0, 3), ladyofthelake, 100);
     }
+    if(npc_find(coord, ladyofthelake, 4, 0) = ^true) {
     ~chatplayer("<p,neutral>Hello. I am here for Excalibur. Can I have it yet?");
     ~chatnpc("<p,neutral>I don't think you are worthy enough.");
     ~chatnpc("<p,neutral>Come back when you are a better person.");
+    }
 }
 
 [oplocu,merlins_crystal]

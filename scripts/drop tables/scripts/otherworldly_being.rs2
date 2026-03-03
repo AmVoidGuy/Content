@@ -1,8 +1,6 @@
 [ai_queue3,otherworldly_being]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
@@ -32,4 +30,5 @@ if ($random < 9) {
     obj_add(npc_coord, mackerel, 1, ^lootdrop_duration);
 } else if ($random < 110) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
+}
 }

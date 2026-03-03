@@ -219,16 +219,14 @@ if (p_finduid(uid) = ^true) {
 
 // Fight Arena
 [debugproc,c3a]
-if(p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 @arena_release_scorp;
+}
 
 [debugproc,c4a]
-if(p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 @arena_release_bouncer;
+}
 
 // Dragon Slayer
 [debugproc,dragslay]
@@ -316,26 +314,29 @@ if (p_finduid(uid) = ^true) {
 
 //Underground Pass
 [debugproc,upr]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %upass = ^upass_not_started;
 %ibanmulti = 0;
 ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass Reset.");
+}
 
 [debugproc,upu]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %upass = calc(%upass + 1);
 ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass increased to stage <tostring(%upass)>");
+}
 
 [debugproc,upd]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %upass = calc(%upass - 1);
 ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass decreased to stage <tostring(%upass)>");
+}
 
 [debugproc,upb](int $bit)
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 switch_int ($bit) {
     case 0 :
         if (testbit(%ibanmulti, ^upass_started_bit) = ^true) {
@@ -404,22 +405,25 @@ switch_int ($bit) {
         %ibanmulti = setbit(%ibanmulti, ^upass_shadow_on_doll);
         mes("upass_shadow_on_doll bit set.");
 }
+}
 
 //Watchtower Quest
 [debugproc,wtu]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %itwatchtower = calc(%itwatchtower + 1);
 mes("Watchtower increased to <tostring(%itwatchtower)>");
 ~send_quest_progress(questlist:itwatchtower, %itwatchtower, ^itwatchtower_complete);
+}
 
 [debugproc,wtd]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %itwatchtower = calc(%itwatchtower - 1);
 mes("Watchtower decreased to <tostring(%itwatchtower)>");
 ~send_quest_progress(questlist:itwatchtower, %itwatchtower, ^itwatchtower_complete);
+}
 
 [debugproc,wtb](int $bit)
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 switch_int ($bit) {
     case 0 :
         if (testbit(%itwatchtower_bits, ^itwatchtower_spoken_og) = ^true) {
@@ -541,41 +545,47 @@ switch_int ($bit) {
             mes("itwatchtower_market bit set to 0.");
         }
 }
+}
 
 //Heroes' Quest
 [debugproc,heu]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %heroquest = calc(%heroquest + 1);
 mes("Heroes' Quest increased to <tostring(%heroquest)>");
 ~send_quest_progress(questlist:hero, %heroquest, ^hero_complete);
+}
 
 [debugproc,hed]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %heroquest = calc(%heroquest - 1);
 mes("Heroes' Quest decreased to <tostring(%heroquest)>");
 ~send_quest_progress(questlist:hero, %heroquest, ^hero_complete);
+}
 
 // Shilo Village
 [debugproc,zqu]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %zombiequeen = calc(%zombiequeen + 1);
 ~send_quest_progress(questlist:zombiequeen, %zombiequeen, ^zombiequeen_complete);
 mes("zombiequeen increased to <tostring(%zombiequeen)>");
+}
 
 [debugproc,zqd]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %zombiequeen = calc(%zombiequeen - 1);
 ~send_quest_progress(questlist:zombiequeen, %zombiequeen, ^zombiequeen_complete);
 mes("zombiequeen decreased to <tostring(%zombiequeen)>");
+}
 
 [debugproc,zqr]
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %zombiequeen = 0;
 %zq_map_mechanisms = 0;
 mes("zombiequeen reset");
+}
 
 [debugproc,zqb](int $bit)
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 switch_int($bit) {
     case 0 :
         if (testbit(%zq_map_mechanisms, ^zq_read_tattered_scroll) = ^true) {
@@ -647,8 +657,10 @@ switch_int($bit) {
             %zq_map_mechanisms = setbit(%zq_map_mechanisms, ^zq_defeated_nazastarool3);
         }
 }
+}
 
 [debugproc,slqb](int $bit)
-if (p_finduid(uid) = ^false) { return; }
+if (p_finduid(uid) = ^true) {
 %legends_bits = setbit(%legends_bits, $bit);
 mes("setbit <tostring($bit)> for legends quest");
+}

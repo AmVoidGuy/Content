@@ -1130,13 +1130,15 @@ if(last_useitem = zqcorpse) {
             p_delay(0); // 1t
             npc_add($spawn_coord, zqzombiequeen, 100); // 100t osrs
         }
-        ~chatnpc("<p,happy>You have my gratitude for releasing my spirit.|I have suffered a vengeful and evil existence.|I was tricked by Zamorak.|He returned my son to me as an undead creature."); // imgur.com/GoUvoVV
-        ~chatnpc("<p,happy>My hatred and bitterness corrupted me. I tried to destroy all life... now I am released. And am grateful to contemplate eternal rest...");
-        mes("Without warning the spirit of Rashiliyia disappears.");
-        spotanim_map(shilomist, npc_coord, 5, 0);
-        npc_del;
-        inv_del(inv, zqcorpse, 1);
-        queue(zombiequeen_quest_complete, 0, 0);
+        if(npc_find(coord, zqzombiequeen, 7, 0) = ^true) {
+            ~chatnpc("<p,happy>You have my gratitude for releasing my spirit.|I have suffered a vengeful and evil existence.|I was tricked by Zamorak.|He returned my son to me as an undead creature."); // imgur.com/GoUvoVV
+            ~chatnpc("<p,happy>My hatred and bitterness corrupted me. I tried to destroy all life... now I am released. And am grateful to contemplate eternal rest...");
+            mes("Without warning the spirit of Rashiliyia disappears.");
+            spotanim_map(shilomist, npc_coord, 5, 0);
+            npc_del;
+            inv_del(inv, zqcorpse, 1);
+            queue(zombiequeen_quest_complete, 0, 0);
+        }
     } 
     return;
 }

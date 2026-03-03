@@ -14,8 +14,7 @@ if (inzone(^arena_lower_coord, ^arena_upper_coord, coord) = ^true) @defeat_arena
 [label,defeat_arena_ogre]
 if(%arenaquest = ^arena_entered_ogre_fight) {
     %arenaquest = ^arena_defeated_ogre;
-    if (npc_find(movecoord(coord, 8, 0, 0), justin_servil, 15, 0) = ^false) {
-        return;
-    }
+    if (npc_find(movecoord(coord, 8, 0, 0), justin_servil, 15, 0) = ^true) {
     @justin_servil_saved;
+    }
 }

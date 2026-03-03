@@ -1,11 +1,10 @@
 [ai_queue3,paladin]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 ~paladin_drops;
+}
 
 [proc,paladin_drops]
 // Tertiary

@@ -3,9 +3,7 @@
 
 [label,skeleton_unarmed]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -56,15 +54,14 @@ if ($random < 7) {
 } else if ($random < 110) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
 }
+}
 
 [ai_queue3,skeleton_armed] @skeleton_armed;
 [ai_queue3,giantskeleton] @skeleton_armed;
 
 [label,skeleton_armed]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -108,4 +105,5 @@ if ($random < 6) {
     obj_add(npc_coord, bronze_bar, 1, ^lootdrop_duration);
 } else if ($random < 120) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
+}
 }

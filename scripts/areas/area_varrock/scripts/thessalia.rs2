@@ -477,9 +477,7 @@ if (%if1 = 1) {
 [label,thessalia_finished_makeover]
 buildappearance(worn);
 inv_del(inv, coins, 500);
-if (npc_find(coord, thessalia, 4, 0) = ^false) {
-    return;
-}
+if (npc_find(coord, thessalia, 4, 0) = ^true) {
 def_int $rand = random(6);
 if ($rand = 0) {
     ~chatnpc("<p,happy>Totally cool! That outfit looks great!");
@@ -495,3 +493,4 @@ if ($rand = 0) {
     ~chatnpc("<p,happy>Fantastic! You should be a model!");
 }
 ~chatplayer("<p,happy>Thanks!");
+}

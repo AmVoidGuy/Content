@@ -61,9 +61,7 @@ switch_int(%arenaquest) {
 if_close;
 def_coord $move_to = 0_40_49_56_31;
 def_int $delay = distance(coord, $move_to);
-if(loc_find(movecoord($move_to, 1, 0, 0), arena_jeremydoor) = ^false) {
-    return;
-}
+if(loc_find(movecoord($move_to, 1, 0, 0), arena_jeremydoor) = ^true) {
 p_walk(movecoord($move_to, 1, 0, 1));
 facesquare(movecoord(coord, 0, 0, -16));
 // to make sure we cant queue multiple of these when more than 1 person is doing the quest
@@ -91,6 +89,7 @@ sound_synth(grate_open, 0, 0);
 p_delay(6);
 npc_del;
 @arena_enter;
+}
 
 [label,ogre_attack_justin]
 if_close;

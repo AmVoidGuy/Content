@@ -1,8 +1,6 @@
 [ai_queue3,necromancer]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
@@ -61,6 +59,6 @@ if ($random < 8) {
 } else if ($random < 112) {
     obj_add(npc_coord, coins, 29, ^lootdrop_duration);
 }
-
+}
 
 

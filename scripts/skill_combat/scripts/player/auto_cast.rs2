@@ -18,11 +18,10 @@
 
 [label,open_autocast_interface]
 if_close;
-if (p_finduid(uid) = ^false) { // cant open autocast interface if delayed
-    return;
-}
+if (p_finduid(uid) = ^true) {
 %attackstyle_magic = 0;
 if_settab(staff_spells, 0);
+}
 
 [if_button,staff_spells:cancelspell]
 if_close;

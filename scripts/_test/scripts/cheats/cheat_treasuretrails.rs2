@@ -195,10 +195,9 @@ if(p_finduid(uid) = ^true) {
 }
 
 [debugproc,testpuz]
-if(p_finduid(uid) = ^false){
-    return;
-}
+if (p_finduid(uid) = ^true) {
 inv_clear(trail_puzzleinv);
 ~init_trail_puzzle;
 inv_transmit(trail_puzzleinv, trail_puzzle:com_4);
 if_openmain(trail_puzzle);
+}

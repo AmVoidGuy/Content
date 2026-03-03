@@ -65,10 +65,7 @@ if (p_finduid(uid) = ^true) {
 
 [label,controls_emote](seq $anim)
 if_close;
-if (p_finduid(uid) = ^false) {
-    // mes("You're already doing an emote!");
-    return;
-}
+if (p_finduid(uid) = ^true) {
 if (~inzone_coord_pair_table(trawler_wreck_zones, coord) = ^true) {
     mes("You cannot perform that emote whilst swimming."); // osrs
     return;
@@ -76,3 +73,4 @@ if (~inzone_coord_pair_table(trawler_wreck_zones, coord) = ^true) {
 p_stopaction;
 anim($anim, 20);
 // p_delay(~seqlength20ms($anim));
+}

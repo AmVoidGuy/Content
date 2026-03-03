@@ -22,9 +22,7 @@ if(inv_total(worn, zamrobebottom) > 0 & inv_total(worn, zamrobetop) > 0) {
 
 [ai_queue3,ibanmonk]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
 obj_add(npc_coord, zamrobebottom, 1, ^lootdrop_duration);
@@ -32,4 +30,5 @@ obj_add(npc_coord, zamrobetop, 1, ^lootdrop_duration);
 
 if(%upass = ^upass_complete & ~obj_gettotal(ibanstaff) = 0 & ~obj_gettotal(brokenibanstaff) = 0) {
     obj_add(npc_coord, brokenibanstaff, 1, ^lootdrop_duration);
+}
 }

@@ -28,22 +28,20 @@ else ~npc_default_retaliate;
 npc_setmode(opplayer2);
 
 [ai_timer,trail_hard]
-if(finduid(%npc_aggressive_player) = ^false) {
-    npc_del;
-    return;
-}
+if(finduid(%npc_aggressive_player) = ^true) {
 if(distance(coord, npc_coord) > 17) { // not 100% sure on this, think it's the same as the black demon in grandtree
     npc_del;
 }
+return;
+}
+npc_del;
 
 [ai_queue3,trail_hard]
 if (npc_findhero = ^true) {
     queue(queue_defeat_trail_hard, 0, 0);
 }
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -95,6 +93,7 @@ if ($random < 4) {
     obj_add(npc_coord, coins, 77, ^lootdrop_duration);
 } else if ($random < 112) {
     obj_add(npc_coord, coins, 240, ^lootdrop_duration);
+}
 }
 
 [queue,queue_defeat_trail_hard] 

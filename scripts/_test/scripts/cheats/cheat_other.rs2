@@ -14,10 +14,9 @@ if (p_finduid(uid) = ^true) {
 }
 
 [debugproc,pcs]
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 ~player_combat_stat;
+}
 
 [debugproc,hit](int $amount)
 queue(damage_player, 0, $amount);
@@ -57,8 +56,11 @@ if ($stat = null | $amount < 1) {
     return;
 }
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
+if (p_finduid(uid) = ^true) {
 stat_advance($stat, calc($amount * 10));
+return;
+}
+@please_finish;
 
 [debugproc,godbab]
 mes("Wow, that was an amazing kebab! You feel really invigorated.");

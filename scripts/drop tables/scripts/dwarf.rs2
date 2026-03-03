@@ -4,9 +4,7 @@
 
 [label,dwarf_drop_table]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -50,4 +48,5 @@ if ($random < 13) {
     obj_add(npc_coord, coal, 1, ^lootdrop_duration);
 } else if ($random < 105) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
+}
 }

@@ -20,9 +20,7 @@ if (p_finduid(uid) = ^true) {
 }
 
 [debugproc,hasmc]
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 if (%ownedmcannon = null | loc_find(%ownedmcannon, dwarf_multicannon1) = ^true) {
     ~chatnpc_specific("Nulodion", nulodion, "<p,sad>Oh dear, I'm only allowed to replace cannons|that were stolen in action.|I'm sorry but you'll have to buy a new set.");
     return;
@@ -47,6 +45,7 @@ if (%ownedmcannon ! null) {
         ~chatplayer("<p,angry>...");
         return;
     }
+}
 }
 
 [debugproc,atele]

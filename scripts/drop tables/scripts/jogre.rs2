@@ -5,9 +5,7 @@
 
 [ai_queue3,jogre]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 // Normal drop
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
@@ -48,4 +46,5 @@ if ($random < 30) {
     obj_add(npc_coord, unidentified_snake_weed, 1, ^lootdrop_duration);
 } else if ($random < 90) {
     obj_add(npc_coord, unidentified_rogues_purse, 1, ^lootdrop_duration);
+}
 }

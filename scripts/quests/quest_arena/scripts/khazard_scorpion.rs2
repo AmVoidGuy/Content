@@ -14,8 +14,7 @@ if (inzone(^arena_lower_coord, ^arena_upper_coord, coord) = ^true) @defeat_arena
 [label,defeat_arena_scorpion]
 if(%arenaquest = ^arena_sent_jail) {
     %arenaquest = ^arena_defeated_scorpion;
-    if (npc_find(movecoord(coord, 8, 0, 0), general_khazard, 15, 0) = ^false) {
-        return;
-    }
+    if (npc_find(movecoord(coord, 8, 0, 0), general_khazard, 15, 0) = ^true) {
     @general_khazard_summon_bouncer;
+    }
 }

@@ -33,9 +33,7 @@ switch_obj(last_useitem) {
 }
 
 [label,gujuo_start]
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 if(%legendsquest >= ^legends_asked_gujuo_holy_water) {
     if (inv_total(inv, goldbowl_empty) > 0 | inv_total(inv, goldbowl_water) > 0 | inv_total(inv, goldbowl_pure) > 0) {
         ~chatnpc("<p,neutral>Greetings Bwana. Ah I see you have the golden bowl! Would you like me to show you how to bless it?");
@@ -112,6 +110,7 @@ else if (%legendsquest >= ^legends_accepted_rescue_ungadulu & %legendsquest < ^l
 } else if (%legendsquest >= ^legends_radimus_training_1) {
     ~chatnpc("<p,neutral>Good day Bwana. The jungle is especially beautiful today isn't it? My village people pass on their thanks to you.");
     @multi3("Do you have any news?", gujuo_news, "Where are all your people?", gujuo_people, "Ok thanks for your help.", gujuo_thanks);
+}
 }
 
 [label,gujuo_lost_gift]

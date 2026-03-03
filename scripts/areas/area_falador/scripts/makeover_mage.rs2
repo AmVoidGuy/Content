@@ -63,9 +63,7 @@ if(%if2 > 0) {
 
 buildappearance(worn);
 inv_del(inv, coins, 3000);
-if (npc_find(coord, makeover_mage, 5, 0) = ^false) {
-    return;
-}
+if (npc_find(coord, makeover_mage, 5, 0) = ^true) {
 switch_int(random(4)) {
     case 0 :
         ~chatnpc("<p,shock>Whew! That was lucky!");
@@ -82,3 +80,4 @@ switch_int(random(4)) {
     case 3 : ~chatnpc("<p,happy>Two arms... two legs... one head... it seems that spell finally worked okay!");
 }
 ~chatplayer("<p,confused>Uh... Thanks, I guess.");
+}

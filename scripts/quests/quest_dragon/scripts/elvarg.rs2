@@ -2,9 +2,7 @@
 [ai_queue3,elvarg]
 gosub(npc_death);
 // requires kill credit? https://youtu.be/6ZU7EIZcU4o?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=141
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 if (%npc_aggressive_player ! uid) { // if u didnt do the last hit
     return;
 }
@@ -12,6 +10,7 @@ if (%npc_aggressive_player ! uid) { // if u didnt do the last hit
 // https://youtu.be/zmYEl97Smxs?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=222
 if (%dragonquest < ^dragon_complete) {
     queue(dragon_complete, 0, 0);
+}
 }
 
 [ai_queue1,elvarg] ~npc_default_retaliate_ap;

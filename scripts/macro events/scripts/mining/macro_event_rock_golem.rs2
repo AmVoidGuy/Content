@@ -75,13 +75,12 @@ if (~macro_event_lost_hostile = ^true) {
 
 [ai_queue3,_macro_event_rock_golem]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 if (npc_type = macro_golemguardian_6 | npc_type = macro_golemguardian_5) {
     @macro_event_rock_golem_highlvl_drops;
 } else {
     @macro_event_rock_golem_lowlvl_drops;
+}
 }
 
 [label,macro_event_rock_golem_lowlvl_drops]

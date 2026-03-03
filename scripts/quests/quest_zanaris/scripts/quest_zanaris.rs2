@@ -44,6 +44,7 @@ if(%zanaris = ^zanaris_spoken_shamus) {
     if(npc_find($spawn, tree_spirit, 6, 0) = ^false) { // based off testing, edges will spawn another spirit
         npc_add($spawn, tree_spirit, 1000);
     }
+    if(npc_find($spawn, tree_spirit, 6, 0) = ^true) {
     npc_say("You must defeat me before touching the tree!");
     if (calc(%npc_lastcombat + 8) > map_clock) { // Do nothing if the spirit is already fighting
         return;
@@ -52,6 +53,7 @@ if(%zanaris = ^zanaris_spoken_shamus) {
     // so idt this is a huntmode?
     ~npc_retaliate(0);
     return;
+    }
 }
 if(inv_freespace(inv) = 0) {
     mes("You don't have space to take a branch.");

@@ -203,9 +203,7 @@ if($constellation > 6) { // because model 3056 isn't a constellation for some re
 if_setmodel(telescope:com_92, calc(3049 + $constellation));
 
 [queue,constellation_dialogue](int $constellation_numb)
-if (npc_find(coord, observatory_professor2, 7, 0) = ^false) {
-    return;
-}
+if (npc_find(coord, observatory_professor2, 7, 0) = ^true) {
 switch_int(~p_choice2("I can see a constellation.", 1, "What am I looking at?", 2)) {
     case 1 :
         ~chatplayer("<p,happy>I can see a constellation.");
@@ -215,6 +213,7 @@ switch_int(~p_choice2("I can see a constellation.", 1, "What am I looking at?", 
         ~chatplayer("<p,quiz>What am I looking at?");
         ~chatnpc("<p,happy>This is the revealed sky.");
         @constellation_reward($constellation_numb);
+}
 }
 
 [label,constellation_reward](int $constellation_numb)

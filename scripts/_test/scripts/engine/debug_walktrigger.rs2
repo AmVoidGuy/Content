@@ -1,9 +1,8 @@
 [debugproc,stunned](int $stun)
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 %stunned = add(map_clock, $stun);
 walktrigger(stunned);
+}
 
 [debugproc,pvpstun1]
 if (p_finduid(uid) = ^true) {

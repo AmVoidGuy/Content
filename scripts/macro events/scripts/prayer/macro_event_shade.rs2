@@ -26,13 +26,9 @@ if (~macro_event_lost_hostile = ^true) {
 
 [ai_queue3,_macro_event_shade]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // if f2p, dont drop anything
-if (map_members = ^false) {
-    return;
-}
+if (map_members = ^true) {
 
 def_int $random = random(128);
 if ($random < 64) {
@@ -41,4 +37,6 @@ if ($random < 64) {
     obj_add(npc_coord, blackrobetop, 1, ^lootdrop_duration);
 } else {
     obj_add(npc_coord, blackrobebottom, 1, ^lootdrop_duration);
+}
+}
 }

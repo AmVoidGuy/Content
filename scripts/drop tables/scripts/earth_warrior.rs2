@@ -1,8 +1,6 @@
 [ai_queue3,earthwarrior]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 def_int $random = random(128);
 
@@ -30,4 +28,5 @@ if ($random < 3) {
     obj_add(npc_coord, coins, 12, ^lootdrop_duration);
 } else if ($random < 82) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
+}
 }

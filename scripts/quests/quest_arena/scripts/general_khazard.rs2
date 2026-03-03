@@ -33,11 +33,10 @@ switch_int(%arenaquest) {
 }
 
 [label,general_khazard_welldone]
-if(npc_find(coord, general_khazard, 23, 0) = ^false) {
-    return;
-}
+if(npc_find(coord, general_khazard, 23, 0) = ^true) {
 ~chatnpc("<p,skull>Haha, well done, well done that was rather entertaining. I am the great General Khazard, and the two men you just 'saved' are my property.");
 @general_khazard_belong_nobody;
+}
 
 [label,general_khazard_belong_nobody]
 ~chatplayer("<p,angry>They belong to nobody.");

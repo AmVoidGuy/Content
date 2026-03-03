@@ -194,6 +194,7 @@ if(npc_find(coord, ikov_firewarrior, 5, 0) = ^false) { // will spawn another if 
     npc_anim(human_smokepuff_tele_appear, 0);
     p_delay(1);
 }
+if(npc_find(coord, ikov_firewarrior, 5, 0) = ^true) {
 npc_setmode(none);
 npc_walk(npc_coord);
 npc_say("You will not pass!");
@@ -217,6 +218,7 @@ p_delay(2);
 //cam_moveto(0_41_154_17_12, 1000, 100, 0);
 cam_reset;
 npc_setmode(null);
+}
 
 [oploc1,ikov_shinykeydoor]
 if(inv_total(inv, ikov_shinykey) = 0) {

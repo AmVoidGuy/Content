@@ -1,8 +1,6 @@
 [ai_queue3,_pirate]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 ~trail_checkmediumdrop;
 
@@ -55,4 +53,5 @@ if ($random < 6) {
     obj_add(npc_coord, iron_bar, 1, ^lootdrop_duration);
 } else if ($random < 110) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
+}
 }

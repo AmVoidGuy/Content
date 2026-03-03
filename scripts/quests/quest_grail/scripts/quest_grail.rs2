@@ -23,7 +23,9 @@ if(%grail = ^grail_finding_percival) {
     if(npc_find(coord, sir_percival, 4, 0) = ^false) {
         npc_add(movecoord(loc_coord, -1, 0, -1), sir_percival, 500);
     }
+    if(npc_find(coord, sir_percival, 4, 0) = ^true) {
     @percival_found;
+    }
 }
 mes("I have no reason to do that.");
 

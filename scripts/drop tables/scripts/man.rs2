@@ -6,9 +6,7 @@
 
 [label,man_drop_table]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
@@ -55,4 +53,5 @@ if ($random < 1) {
     obj_add(npc_coord, earth_talisman, 1, ^lootdrop_duration);
 } else if ($random < 120) {
     obj_add(npc_coord, cabbage, 1, ^lootdrop_duration);
+}
 }

@@ -3,9 +3,7 @@
 // https://youtu.be/D8VG03tRR1w?t=60
 // https://youtu.be/cjmEFliibGI
 [ai_queue1,al_kharid_warrior]
-if (finduid(%npc_aggressive_player) = ^false) {
-    return;
-}
+if (finduid(%npc_aggressive_player) = ^true) {
 if (npc_getmode = opplayer2) {
     ~npc_default_retaliate;
     return;
@@ -19,4 +17,4 @@ while (npc_findnext = ^true) {
         npc_setmode(opplayer2);
     }
 }
-
+}

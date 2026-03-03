@@ -85,12 +85,7 @@ mes("You can hear there is a hollow behind this wall."); // from rs3
 if(%hazeelcultquest = ^hazeelcult_given_armour_or_scroll & %hazeelcult_side = ^hazeelcult_goodside) {
     ~mesbox("You search the cupboard thoroughly. You find a bottle of poison and a mysterious amulet. You pass your discovery on to Ceril.");
     ~chatplayer("<p,angry>Ceril!");
-    if (npc_find(coord, sir_ceril_carnillean, 6, 0) = ^false) { 
-        return;
-    }
-    if (.npc_find(coord, butler_jones_hazeel_cultist, 6, 0) = ^false) {
-        return;
-    }
+    if (npc_find(coord, sir_ceril_carnillean, 6, 0) = ^true & .npc_find(coord, butler_jones_hazeel_cultist, 6, 0) = ^true) {
     ~chatnpc("<p,angry>What do you want now you scoundrel?");
     ~chatplayer("<p,angry>Look what I've found in the cupboard!");
     ~mesbox("You hand Ceril the bottle of poison.");
@@ -120,6 +115,7 @@ if(%hazeelcultquest = ^hazeelcult_given_armour_or_scroll & %hazeelcult_side = ^h
     ~chatnpc("<p,happy>No, no, thank YOU! Feel free to stop by anytime adventurer!");
     queue(hazeelcult_quest_complete, 0, 0);
     return;
+    }
 }
 ~mesbox("You search the cupboard thoroughly but find nothing of interest.");
 

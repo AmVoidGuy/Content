@@ -24,9 +24,7 @@ if (~macro_event_lost_hostile = ^true) {
 
 [ai_queue3,_macro_event_river_troll]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // no default drop: https://youtu.be/bCBkaO6Es1M?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT&t=165
 // https://oldschool.runescape.wiki/w/River_troll
 def_int $random = random(128);
@@ -97,4 +95,5 @@ if (map_members = ^true) {
     } else if ($random < 96) { // 3/128
         obj_add(npc_coord, raw_herring, 1, ^lootdrop_duration);
     }
+}
 }

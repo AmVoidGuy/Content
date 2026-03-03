@@ -1,10 +1,7 @@
 // Level 7 & 8 in Barbarian Village
 [ai_queue3,_barbarian]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
-
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -54,13 +51,11 @@ if ($random < 6) {
 } else if ($random < 92) {
     obj_add(npc_coord, ring_mould, 1, ^lootdrop_duration);
 }
+}
 
 [ai_queue3,gunthor_the_brave]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
-
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -113,4 +108,5 @@ if ($random < 6) {
     obj_add(npc_coord, flier, 1, ^lootdrop_duration);
 } else if ($random < 96) {
     obj_add(npc_coord, ~randomjewel, ^lootdrop_duration);
+}
 }

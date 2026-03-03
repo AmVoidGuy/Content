@@ -1,119 +1,191 @@
 [debugproc,west](int $distance)//Direction teleport west
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(movecoord(coord, calc(0 - max($distance, 1)), 0, 0));
+if (p_finduid(uid) = ^true) {
+    p_teleport(movecoord(coord, calc(0 - max($distance, 1)), 0, 0));
+    return;
+}
+@please_finish;
 
 [debugproc,east](int $distance)//Direction teleport east
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(movecoord(coord, max($distance, 1), 0, 0));
+if (p_finduid(uid) = ^true) {
+    p_teleport(movecoord(coord, max($distance, 1), 0, 0));
+    return;
+}
+@please_finish;
 
 [debugproc,north](int $distance)//Direction teleport north
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(movecoord(coord, 0, 0, max($distance, 1)));
+if (p_finduid(uid) = ^true) {
+    p_teleport(movecoord(coord, 0, 0, max($distance, 1)));
+    return;
+}
+@please_finish;
 
 [debugproc,south](int $distance)//Direction teleport south
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(movecoord(coord, 0, 0, calc(0 - max($distance, 1))));
+if (p_finduid(uid) = ^true) {
+    p_teleport(movecoord(coord, 0, 0, calc(0 - max($distance, 1))));
+    return;
+}
+@please_finish;
 
 [debugproc,home]//Lumby
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_50_50_22_22);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_50_50_22_22);
+    return;
+}
+@please_finish;
 
 [debugproc,varrock]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_50_53_13_31);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_50_53_13_31);
+    return;
+}
+@please_finish;
 
 [debugproc,falador]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_46_52_21_51);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_46_52_21_51);
+    return;
+}
+@please_finish;
 
 [debugproc,draynor]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_48_50_8_50);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_48_50_8_50);
+    return;
+}
+@please_finish;
 
 [debugproc,portsarim]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_47_50_19_25);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_47_50_19_25);
+    return;
+}
+@please_finish;
 
 [debugproc,rimmington]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_46_50_12_10);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_46_50_12_10);
+    return;
+}
+@please_finish;
 
 [debugproc,alkharid]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_51_49_28_47);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_51_49_28_47);
+    return;
+}
+@please_finish;
 
 [debugproc,seers]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_42_54_44_29);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_42_54_44_29);
+    return;
+}
+@please_finish;
 
 [debugproc,giants]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_48_153_38_38);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_48_153_38_38);
+    return;
+}
+@please_finish;
 
 [debugproc,entrana]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_44_52_11_16);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_44_52_11_16);
+    return;
+}
+@please_finish;
 
 [debugproc,brimhaven]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_43_49_50_41);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_43_49_50_41);
+    return;
+}
+@please_finish;
 
 [debugproc,ardy]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-~player_teleport_normal(0_41_51_39_38);
+if (p_finduid(uid) = ^true) {
+    ~player_teleport_normal(0_41_51_39_38);
+    return;
+}
+@please_finish;
 
 [debugproc,kbd]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(0_47_160_60_16);
+if (p_finduid(uid) = ^true) {
+    p_teleport(0_47_160_60_16);
+    return;
+}
+@please_finish;
 
 [debugproc,elvarg]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(0_44_150_30_36);
+if (p_finduid(uid) = ^true) {
+    p_teleport(0_44_150_30_36);
+    return;
+}
+@please_finish;
 
 [debugproc,greenland]//Green area north of Gnome Stronghold
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_telejump(0_37_55_60_47);
+if (p_finduid(uid) = ^true) {
+    p_telejump(0_37_55_60_47);
+    return;
+}
+@please_finish;
 
 [debugproc,gb]//Gnomeball
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_telejump(0_37_54_14_32);
+if (p_finduid(uid) = ^true) {
+    p_telejump(0_37_54_14_32);
+    return;
+}
+@please_finish;
 
 [debugproc,ma]//Mage Arena
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_teleport(0_48_61_20_30);
+if (p_finduid(uid) = ^true) {
+    p_teleport(0_48_61_20_30);
+    return;
+}
+@please_finish;
 
 [debugproc,pvp]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_telejump(0_52_60_37_37);
+if (p_finduid(uid) = ^true) {
+    p_telejump(0_52_60_37_37);
+    return;
+}
+@please_finish;
 
 [debugproc,duel]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_telejump(0_52_51_42_4);
+if (p_finduid(uid) = ^true) {
+    p_telejump(0_52_51_42_4);
+    return;
+}
+@please_finish;
 
 [debugproc,trawler]
 if_close;
-if (p_finduid(uid) = ^false) { @please_finish; return; }
-p_telejump(0_41_49_52_34);
+if (p_finduid(uid) = ^true) {
+    p_telejump(0_41_49_52_34);
+    return;
+}
+@please_finish;

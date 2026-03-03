@@ -195,10 +195,9 @@ if (finduid(%npc_aggressive_player) = ^true) {
     queue(defeat_merc_capt, 0, 0);
 }
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
+}
 
 [queue,defeat_merc_capt]
 // https://web.archive.org/web/20050204075401/http://www.runehq.com/cacheguides/viewquestguide00356.htm auto-added to inv before rework as well it seems

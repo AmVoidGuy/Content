@@ -45,11 +45,10 @@ while($knights_spawned < 6) {
     npc_add(movecoord(^partyroom_starting_knight_coord, $knights_spawned, 0, 0), partyroom_knight, 100);
     $knights_spawned = calc($knights_spawned + 1);
 }
-if(npc_findexact(movecoord(^partyroom_starting_knight_coord, 2, 0, 0), partyroom_knight) = ^false) {
-    return;
+if(npc_findexact(movecoord(^partyroom_starting_knight_coord, 2, 0, 0), partyroom_knight) = ^true) {
+    // 5t delay on first, 4t delay afterwards
+    npc_queue(10, 1, 6);
 }
-// 5t delay on first, 4t delay afterwards
-npc_queue(10, 1, 6);
 
 [opnpc1,partyroom_knight]
 ~mesbox("He is too busy dancing to talk!");

@@ -7,9 +7,7 @@ def_int $dz = calc(coordz(coord) - coordz(npc_coord));
 if(lineofsight(npc_coord, coord) = ^true & (($dz > 0 & loc_find(movecoord(coord, 0, 0, -1), hedge) = ^false & loc_find(movecoord(coord, 0, 0, -1), hedgecorner) = ^false) |
     ($dz < 0 & loc_find(movecoord(coord, 0, 0, 1), hedge) = ^false))) {
         if_close;
-        if (p_finduid(uid) = ^false) {
-            return;
-        }
+        if (p_finduid(uid) = ^true) {
         p_stopaction;
         npc_settimer(0); // stop timer until the action is complete
         npc_setmode(playerface);
@@ -30,5 +28,6 @@ if(lineofsight(npc_coord, coord) = ^true & (($dz > 0 & loc_find(movecoord(coord,
         npc_settimer(1);
         npc_setmode(patrol);
         return;
+        }
     }
 }

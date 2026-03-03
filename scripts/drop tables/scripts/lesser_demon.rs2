@@ -2,9 +2,7 @@
 
 [label,ai_queue3_lesser_demon]
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -49,4 +47,5 @@ if ($random < 4) {
     obj_add(npc_coord, chaosrune, 12, ^lootdrop_duration);
 } else {
     obj_add(npc_coord, coins, 10, ^lootdrop_duration);
+}
 }

@@ -2,16 +2,16 @@
 // https://runescape.salmoneus.net/forums/topic/366965-cant-get-past-demon-slayer/
 
 [ai_queue3,delrith]
-if (finduid(%npc_aggressive_player) = ^false) {
-    npc_statheal(hitpoints, 0, 100);
-    return;
-}
+if (finduid(%npc_aggressive_player) = ^true) {
 npc_changetype(delrith_weakened, 100); // lasts 100 ticks in osrs
 npc_setmode(none);
 npc_walk(npc_coord);
 
 if_close;
 queue(demon_slayer_start_incantation, 0, 0);
+return;
+}
+npc_statheal(hitpoints, 0, 100);
 
 
 // https://www.youtube.com/watch?v=rjQprrDDUfE

@@ -1,7 +1,5 @@
 [debugproc,lag]
-if (p_finduid(uid) = ^false) {
-    return;
-}
+if (p_finduid(uid) = ^true) {
 def_coord $target = 0_29_75_32_32;
 p_teleport($target);
 def_int $x = 0;
@@ -17,3 +15,4 @@ while ($x < 32) {
 }
 p_delay(0);
 p_teleport(movecoord($target, 0, 3, 0));
+}

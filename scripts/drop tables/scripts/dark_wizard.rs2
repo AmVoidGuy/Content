@@ -1,8 +1,6 @@
 [ai_queue3,bearded_dark_wizard] // Level 20
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -69,12 +67,11 @@ if ($random < 4) {
 } else if ($random < 112) {
     obj_add(npc_coord, fire_talisman, 1, ^lootdrop_duration);
 }
+}
 
 [ai_queue3,young_dark_wizard] // Level 7
 gosub(npc_death);
-if (npc_findhero = ^false) {
-    return;
-}
+if (npc_findhero = ^true) {
 // Default drop from config.
 obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
 
@@ -140,4 +137,5 @@ if ($random < 8) {
     obj_add(npc_coord, water_talisman, 1, ^lootdrop_duration);
 } else if ($random < 112) {
     obj_add(npc_coord, fire_talisman, 1, ^lootdrop_duration);
+}
 }
