@@ -161,7 +161,7 @@ def_dbrow $data = db_findnext;
 return ($data);
 
 [timer,prayer_drain]
-%prayer_drain_counter = calc(%prayer_drain_effect * 5 + max(%prayer_drain_counter, 0));
+%prayer_drain_counter = add(multiply(%prayer_drain_effect, 5), max(%prayer_drain_counter, 0));
 // 60 + equipment bonus * 2
 if (~prayers_are_active = ^false) {
     cleartimer(prayer_drain);

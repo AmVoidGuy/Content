@@ -49,8 +49,8 @@ if_close; // close the player interface when taking a hit.
 if ($check_protect_prayer = ^true & ~check_protect_prayer(^ranged_style) = ^true) { 
     $damage = 0;
 }
-queue(combat_damage_player, calc($duration / 30), $damage);
-queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
+queue(combat_damage_player, divide($duration, 30), $damage);
+queue*(playerhit_n_retaliate, divide($duration, 30))(npc_uid);
 ~npc_set_attack_vars;
 if(npc_param(npc_ammo) ! null) {
     ~npc_drop_ammo(npc_param(npc_ammo), $duration);
@@ -66,7 +66,7 @@ switch_namedobj ($ammo) {
     case adamant_arrow : $roll = 8;
 }
 if (random(100) < $roll) {
-    world_delay(calc($delay / 30 - 2));
+    world_delay(sub(divide($delay, 30), 2));
     if (map_blocked(coord) = ^true) {
         return;
     }

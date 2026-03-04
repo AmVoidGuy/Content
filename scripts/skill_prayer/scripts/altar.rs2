@@ -16,4 +16,4 @@ if (stat(prayer) >= stat_base(prayer)) {
     sound_synth(prayer_recharge, 0, 0);
 }
 anim(human_pray, 0);
-stat_add(prayer, calc($amount - stat(prayer)), 0);
+stat_add(prayer, sub($amount, stat(prayer)), 0);

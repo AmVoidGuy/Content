@@ -248,7 +248,7 @@ if(inv_total(inv, coins) < $coins) {
 }
 ~chatnpc("<p,neutral>Great, I'll take that bet.");
 inv_del(inv, coins, $coins);
-%desertrescue_map_mechanisms = setbit_range_toint(%desertrescue_map_mechanisms, calc($coins / 5), 2, 4); // div by 5 to save bits (all ops are multiples of 5)
+%desertrescue_map_mechanisms = setbit_range_toint(%desertrescue_map_mechanisms, divide($coins, 5), 2, 4); // div by 5 to save bits (all ops are multiples of 5)
 ~objbox(coins, "You hand over <tostring($coins)> gold coins.", 250, 0, 0);
 def_int $reward = 6;
 switch_int($coins) {

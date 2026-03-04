@@ -44,7 +44,7 @@ mes("You tumble deep into the crevasse.");
 mes("You land battered and bruised at the base.");
 p_teleport(0_38_150_53_49);
 say("Aargh!");
-~damage_self(calc((stat(hitpoints) * 15) / 100));
+~damage_self(divide(multiply(stat(hitpoints), 15), 100));
 p_delay(0);
 
 [oploc1,caverockpile]
@@ -64,7 +64,7 @@ if(%upass_area1_pipe_used >= map_clock) {
     mes("The pipe is being used"); // todo: confirm, using the same as gnome course
     return;
 }
-%upass_area1_pipe_used = calc(map_clock + 8);
+%upass_area1_pipe_used = add(map_clock, 8);
 mes("You open the grating.");
 // Temp note: dur updated!!! nice even number :)
 loc_change(upass_pipe5, 10);
@@ -98,7 +98,7 @@ if(%upass_rockswing_used >= map_clock) {
     ~mesbox("The rock is being used.");
     return;
 }
-%upass_rockswing_used = calc(map_clock + 5);
+%upass_rockswing_used = add(map_clock, 5);
 ~forcemove($start_pos);
 p_delay(1);
 facesquare(movecoord(coord, 1, 0, 0));
@@ -115,7 +115,7 @@ if(stat_random(agility, 100, 410) = ^false) {
     p_teleport(0_38_150_53_49);
     say("Aargh!");
     p_delay(1);
-    ~damage_self(calc(((stat(hitpoints) * 15) / 100) + 1));
+    ~damage_self(add(divide(multiply(stat(hitpoints), 15), 100), 1));
     mes("You've lost your rope.");
     return;
 }
@@ -140,7 +140,7 @@ if(%upass_swampswing_used >= map_clock) {
     ~mesbox("The rope swing is being used");
     return;
 }
-%upass_swampswing_used = calc(map_clock + 3);
+%upass_swampswing_used = add(map_clock, 3);
 if($delay > 0) p_delay($delay);
 loc_anim(ropeswing_long);
 ~agility_exactmove(human_ropeswing_long, 20, 0, $start_pos, movecoord($start_pos, -5, 0, 0), 45, 70, ^exact_west, ^false);
@@ -163,7 +163,7 @@ if(stat_random(thieving, 160, 300) = ^false) {
     mes("...and fail, activating the trap!");
     loc_anim(speartrap_release);
     say("Ouch!");
-    ~damage_self(calc(((stat(hitpoints) * 10) / 100) + 1)); // unlike activating, this doesn't seem to queue
+    ~damage_self(add(divide(multiply(stat(hitpoints), 10), 100), 1)); // unlike activating, this doesn't seem to queue
     return;
 }
 mes("...and succeed, you quickly walk past.");
@@ -179,11 +179,11 @@ if(coordx(coord) > coordx(loc_coord)) {
 if (loc_find(coord, upass_speartrap) = ^true | loc_find(movecoord(coord, 0, 0, -1), upass_speartrap) = ^true) {
     loc_anim(speartrap_release);
     say("Ouch!");
-    queue(damage_player, 0, calc(((stat(hitpoints) * 10) / 100) + 1));
+    queue(damage_player, 0, add(divide(multiply(stat(hitpoints), 10), 100), 1));
 } else if (loc_find(coord, upass_double_springtrap_trigger) = ^true) {
     if(loc_find(movecoord(loc_coord, -1, 0, 0), upass_double_springtrap) = ^true | loc_find(movecoord(loc_coord, 0, 0, -1), upass_double_springtrap) = ^true) loc_anim(double_springtrap_release);
     say("Ouch!");
-    queue(damage_player, 0, calc(((stat_base(hitpoints) * 8) / 100) + 1));
+    queue(damage_player, 0, add(divide(multiply(stat_base(hitpoints), 8), 100), 1));
     world_delay(1);
     loc_anim(double_springtrap_reset);
 }
@@ -302,7 +302,7 @@ if(coordx(coord) > coordx(loc_coord)) {
     $end = movecoord(loc_coord, 1, 0, 0);
 }
 // sound_synth(log_balance, 2, 0);
-~agility_force_move(0, human_walk_logbalance, movecoord(coord, calc((coordx($end) - coordx(coord)) / 2), 0, calc((coordz($end) - coordz(coord)) / 2)));
+~agility_force_move(0, human_walk_logbalance, movecoord(coord, divide(sub(coordx($end), coordx(coord)), 2), 0, divide(sub(coordz($end), coordz(coord)), 2)));
 // https://youtu.be/n_ip_vEDbCA?si=0_EUH-TcBp6oAAZL&t=547
 if(stat_random(agility, 160, 300) = ^false) {
     // no actual difference in terms of angle or anything so guess these are hardcoded
@@ -343,13 +343,13 @@ if(%upass_area2_pipe_used >= map_clock) {
     mes("The pipe is being used"); // todo: confirm, using the same as gnome course
     return;
 }
-%upass_area2_pipe_used = calc(map_clock + 15);
-~agility_exactmove(human_doublepipesqueeze, 30, 3, coord, movecoord(coord, calc(3 * $mod), 0, 0), 30, 126, $dir, ^true);
+%upass_area2_pipe_used = add(map_clock, 15);
+~agility_exactmove(human_doublepipesqueeze, 30, 3, coord, movecoord(coord, multiply(3, $mod), 0, 0), 30, 126, $dir, ^true);
 sound_synth(squeeze_in, 0, 0);
 p_delay(4);
 mes("You crawl through the pipe.");
 if(%upass >= ^upass_killed_unicorn) {
-    p_telejump(movecoord(coord, calc(26*$mod), 0, 0));
+    p_telejump(movecoord(coord, multiply(26,$mod), 0, 0));
 } else {
     p_telejump(movecoord(coord, $mod, 0, 0));
 }
@@ -360,7 +360,7 @@ if($dir = ^exact_west) {
 } else {
     ~change_merged_loc(movecoord(coord, $mod, 0, 0));
 }
-~agility_exactmove(human_doublepipesqueeze, 30, 3, coord, movecoord(coord, calc(3 * $mod), 0, 0), 30, 126, $dir, ^true);
+~agility_exactmove(human_doublepipesqueeze, 30, 3, coord, movecoord(coord, multiply(3, $mod), 0, 0), 30, 126, $dir, ^true);
 sound_synth(squeeze_in, 0, 0);
 p_delay(0);
 stat_advance(agility, 30);
@@ -377,7 +377,7 @@ if(stat_random(agility, 160, 300) = ^false) {
     // sound_synth(fall_land, 0, 0);
     mes("... but you slip and tumble into the darkness.");
     say("Ouch!");
-    ~damage_self(calc(((stat(hitpoints) * 25) / 100) + 4));
+    ~damage_self(add(divide(multiply(stat(hitpoints), 25), 100), 4));
     if(testbit(%ibanmulti, ^upass_koftik_gone_insane) = ^false) {
         p_delay(0);
         // todo: figure out how long this should be, only works this way on RS3

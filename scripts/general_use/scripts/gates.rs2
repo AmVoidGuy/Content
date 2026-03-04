@@ -10,10 +10,10 @@ switch_int($angle) {
 
 if($outer = ^true) {
     switch_int($angle) {
-        case ^loc_west : return (calc($x + 1), $z);
-        case ^loc_north : return ($x, calc($z - 1));
-        case ^loc_east : return (calc($x - 1), $z);
-        case ^loc_south : return ($x, calc($z + 1));
+        case ^loc_west : return (add($x, 1), $z);
+        case ^loc_north : return ($x, sub($z, 1));
+        case ^loc_east : return (sub($x, 1), $z);
+        case ^loc_south : return ($x, add($z, 1));
     }   
 }
 return($x, $z);
@@ -27,7 +27,7 @@ switch_int($angle) {
     case ^loc_east : $x = 1;
     case ^loc_south : $z = -1;
 }
-return(calc($x * $mod), calc($z * $mod));
+return(multiply($x, $mod), multiply($z, $mod));
 
 [proc,get_pair_coord](coord $main_coord, int $angle, int $outer)(coord)
 def_int $dir = 1;
@@ -35,10 +35,10 @@ if($outer = ^true) {
     $dir = -1;
 }
 switch_int($angle) {
-    case ^loc_west : return (movecoord($main_coord, 0, 0, calc($dir * 1)));
-    case ^loc_north : return (movecoord($main_coord, calc($dir * 1), 0, 0));
-    case ^loc_east : return (movecoord($main_coord, 0, 0, calc($dir * -1)));
-    case ^loc_south : return (movecoord($main_coord, calc($dir * -1), 0, 0));
+    case ^loc_west : return (movecoord($main_coord, 0, 0, multiply($dir, 1)));
+    case ^loc_north : return (movecoord($main_coord, multiply($dir, 1), 0, 0));
+    case ^loc_east : return (movecoord($main_coord, 0, 0, multiply($dir, -1)));
+    case ^loc_south : return (movecoord($main_coord, multiply($dir, -1), 0, 0));
 }   
 return ($main_coord);
 

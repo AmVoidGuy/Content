@@ -45,10 +45,10 @@ if (%action_delay < map_clock) {
     anim(human_createfire, 0);
     sound_synth(tinderbox_strike, 0, 0);
     mes("You attempt to light the logs.");
-    %action_delay = calc(map_clock + 3);
+    %action_delay = add(map_clock, 3);
 } else if (%action_delay = map_clock) {
     if(stat_random(firemaking, 64, 512) = ^true) { // firemaking roll
-        %action_delay = calc(map_clock + 4);
+        %action_delay = add(map_clock, 4);
         // attempt to firemaking each direction: west east south north
         // if player isnt standing on the log anymore, the fire is lit
         ~push_player(obj_coord);
@@ -59,7 +59,7 @@ if (%action_delay < map_clock) {
         // if fails, then reattempt to light
         anim(human_createfire, 0);
         sound_synth(tinderbox_strike, 0, 0);
-        %action_delay = calc(map_clock + 4);
+        %action_delay = add(map_clock, 4);
     }
 }
 // mes("<tostring(map_clock)>: p_opobj(4)");
@@ -89,10 +89,10 @@ if (%action_delay < map_clock) {
     anim(human_createfire, 0);
     sound_synth(tinderbox_strike, 0, 0);
     mes("You attempt to light the logs.");
-    %action_delay = calc(map_clock + 3);
+    %action_delay = add(map_clock, 3);
 } else if (%action_delay = map_clock) {
     if(stat_random(firemaking, 64, 512) = ^true) { // firemaking roll
-        %action_delay = calc(map_clock + 4);
+        %action_delay = add(map_clock, 4);
         ~push_player(obj_coord);
         ~firemaking_success(obj_coord, $log); // if fully blocked then just light the log and dont move
         return;
@@ -100,7 +100,7 @@ if (%action_delay < map_clock) {
         // if fails, then reattempt to light
         anim(human_createfire, 0);
         sound_synth(tinderbox_strike, 0, 0);
-        %action_delay = calc(map_clock + 4);
+        %action_delay = add(map_clock, 4);
     }
 }
 p_opobj(4);
@@ -112,7 +112,7 @@ sound_synth(fire_lit, 0, 0);
 facesquare($fire_coord);
 //mes("<tostring(map_clock)>, <tostring(%action_delay)>: The fire catches and the logs begin to burn.");
 mes("The fire catches and the logs begin to burn.");
-def_int $delay = calc(100 + random(100)); // firemaking length: https://archive.is/zF5hb
+def_int $delay = add(100, random(100)); // firemaking length: https://archive.is/zF5hb
 // Temp note: dur does not need updated
 loc_add($fire_coord, loc_2732, 1, centrepiece_straight, $delay);
 

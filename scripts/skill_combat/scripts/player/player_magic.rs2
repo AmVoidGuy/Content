@@ -119,7 +119,7 @@ if (db_getfield($spell_data, magic_spell_table:freeze_time, 0) > 0) {
         return(^false);
     }
     // immune message existed in 2005 https://oldschool.runescape.wiki/w/Update:Magic_and_Wilderness_Updates
-    if (calc(%npc_stunned + 5) > map_clock) {
+    if (add(%npc_stunned, 5) > map_clock) {
         // osrs wiki trivia says that snare didnt have this? No proof though
         // ive found proof of bind and entangle having this in 2006: https://imgur.com/a/jBb1awE
         mes("Your target is currently immune to that spell.");
@@ -208,11 +208,11 @@ else if (npc_type = chronozon) {
     ~chronozon_spell($spell);
 }
 // if maxhit is defined then damage npc
-~npc_retaliate(calc($duration / 30 + 1)); // delayed an extra tick in osrs
+~npc_retaliate(add(divide($duration, 30), 1)); // delayed an extra tick in osrs
 if ($maxhit ! null) {
     // damage npc
-    // mes("Duration: <tostring($duration)>, Duration (ticks): <tostring(calc($duration / 30))>");
-    npc_queue(2, $damage, calc($duration / 30 + 1)); // delayed an extra tick in osrs
+    // mes("Duration: <tostring($duration)>, Duration (ticks): <tostring(divide($duration, 30))>");
+    npc_queue(2, $damage, add(divide($duration, 30), 1)); // delayed an extra tick in osrs
     // npcs didnt have a flinch anim until sept 20 2006. https://youtu.be/UFgMqvI4to8
     // https://oldschool.runescape.wiki/w/Update:Slug_Menace
     // npc_anim(npc_param(defend_anim), $duration); // delay npc this tick
@@ -269,7 +269,7 @@ while ($i < db_getfieldcount($spell_data, magic_spell_table:stat_change)) {
 [proc,pvm_freeze_effect](dbrow $spell_data)
 // freeze npc if spell has freeze effect
 if (db_getfield($spell_data, magic_spell_table:freeze_time, 0) > 0) {
-    %npc_stunned = calc(map_clock + db_getfield($spell_data, magic_spell_table:freeze_time, 0) + 1);
+    %npc_stunned = add(add(map_clock, db_getfield($spell_data, magic_spell_table:freeze_time, 0)), 1);
     npc_walktrigger(8, 0);
 }
 

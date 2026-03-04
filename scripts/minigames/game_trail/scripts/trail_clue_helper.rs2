@@ -24,7 +24,7 @@ while ($slot < inv_size(inv)) {
             return($slotobj);
         }
     }
-    $slot = calc($slot + 1);
+    $slot = add($slot, 1);
 }
 return (null);
 
@@ -38,7 +38,7 @@ return(^false);
 if(testbit(%trail_status, 4) = ^true) {
     %trail_status = clearbit(%trail_status, 4);
 }
-%trail_status = setbit_range_toint(%trail_status, calc(~get_trail_progress + 1), 0, 3);
+%trail_status = setbit_range_toint(%trail_status, add(~get_trail_progress, 1), 0, 3);
 
 // bits 0-3 will store the progress of the clue, bit 4 is used to flag if the clue guardian (just zamorak wizard in version 225)
 // has been killed, bits 5-7 to store the progress of the "miniquest" to get sextant/chart/watch (possible this didnt use a varp in 225, it does in osrs
@@ -65,7 +65,7 @@ while ($slot < inv_size(inv)) {
             return (^true);
         }
     }
-    $slot = calc($slot + 1);
+    $slot = add($slot, 1);
 }
 return (^false);
 
@@ -86,6 +86,6 @@ while ($slot < inv_size(trail_rewardinv)) {
     if (inv_getnum(trail_rewardinv, $slot) > 0) {
         inv_movefromslot(trail_rewardinv, inv, $slot);
     }
-    $slot = calc($slot + 1);
+    $slot = add($slot, 1);
 }
 inv_clear(trail_rewardinv);

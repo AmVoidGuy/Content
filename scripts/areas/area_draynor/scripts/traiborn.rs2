@@ -25,7 +25,7 @@ if(%demonstart >= ^demon_find_bones & %demonstart < ^demon_got_traiborn_key & in
     inv_del(inv, bones, 1);
     mes("You give Traiborn a set of bones.");
     p_delay(1);
-    %demonstart = calc(%demonstart + 1);
+    %demonstart = add(%demonstart, 1);
     @demon_slayer_traiborn_give_bones;
 } else {
     @demon_slayer_traiborn_stop_giving_bones;

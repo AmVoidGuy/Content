@@ -13,8 +13,8 @@
 [if_button,blurberry_cocktail_guide2:premade_fruit_batta]@flip_page_cook_book(12);
 [if_button,blurberry_cocktail_guide2:premade_vegetable_batta]@flip_page_cook_book(13);
 
-[if_button,giannes_cook_book:leftarrow]@flip_page_cook_book(calc(%book_page - 1));
-[if_button,giannes_cook_book:rightarrow]@flip_page_cook_book(calc(%book_page + 1));
+[if_button,giannes_cook_book:leftarrow]@flip_page_cook_book(sub(%book_page, 1));
+[if_button,giannes_cook_book:rightarrow]@flip_page_cook_book(add(%book_page, 1));
 [if_button,giannes_cook_book:index]@open_cook_book_index;
 
 [label,open_cook_book_index]

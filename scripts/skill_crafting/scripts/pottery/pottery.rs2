@@ -106,7 +106,7 @@ if (stat_random(crafting, 180, 800) = ^true) {
 // def_struct $struct = oc_param($last, crafting_pottery_struct);
 // // skill clock used to prevent spamming.
 // if (%action_delay < map_clock) {
-//     %action_delay = calc(map_clock + 5);
+//     %action_delay = add(map_clock, 5);
 //     // "You put a x in the oven."
 //     mes("You put the <oc_name(struct_param($struct, product))> in the oven.");
 //     sound_synth(furnace, 0, 0);
@@ -119,7 +119,7 @@ if (stat_random(crafting, 180, 800) = ^true) {
 
 // [weakqueue,start_firing_pottery](struct $struct)
 // mes(tostring(map_clock));
-// %action_delay = calc(map_clock + 5);
+// %action_delay = add(map_clock, 5);
 // mes("You put the <oc_name(struct_param($struct, product))> in the oven.");
 // sound_synth(furnace, 0, 0);
 // anim(human_furnace, 0); //plays once here and once in weak queue

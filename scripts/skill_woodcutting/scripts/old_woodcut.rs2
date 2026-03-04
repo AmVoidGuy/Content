@@ -10,7 +10,7 @@ if (inv_freespace(inv) < 1) {
     return;
 }
 if (%action_delay < map_clock) {
-    %action_delay = calc(map_clock + 3);
+    %action_delay = add(map_clock, 3);
     p_oploc(1);
     return;
 }

@@ -55,10 +55,10 @@ if (inv_total(inv, airrune) < 25 & inv_total(inv, mindrune) < 25) {
 [proc,newbie_magic_instructor_runes_to_give](obj $obj)(int)
 def_int $total_runes = inv_total(inv, $obj);
 
-if (calc(25 - $total_runes) >= 5) {
+if (sub(25, $total_runes) >= 5) {
     return (5);
 } else {
-    return(calc(25 - $total_runes));
+    return(sub(25, $total_runes));
 }
 
 [label,newbie_magic_instructor_successfully_cast_wind_strike]

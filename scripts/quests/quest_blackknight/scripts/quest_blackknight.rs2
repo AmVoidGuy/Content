@@ -146,7 +146,7 @@ if (%spy = 1) {
 }
 
 [proc,update_blackknight_progress]
-%spy = calc(%spy + 1);
+%spy = add(%spy, 1);
 ~send_quest_progress(questlist:fortress, %spy, ^blackknight_complete);
 
 [queue,black_knights_fortress_quest_complete]

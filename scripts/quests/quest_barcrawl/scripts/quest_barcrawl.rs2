@@ -10,7 +10,7 @@ if(~visited_all_bars = ^true) {
 
 
 [proc,visited_all_bars]()(int)
-if(getbit_range(%barcrawl, 3, 12) = calc(pow(2,10) - 1)) {
+if(getbit_range(%barcrawl, 3, 12) = sub(pow(2,10), 1)) {
     return (^true);
 }
 return (^false);

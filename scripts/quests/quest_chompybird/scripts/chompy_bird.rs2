@@ -76,7 +76,7 @@ anim(human_pickupfloor, 0);
 p_delay(1);
 obj_add(npc_coord, raw_chompy, 1, ^lootdrop_duration);
 obj_add(npc_coord, bones, 1, ^lootdrop_duration);
-inv_add(inv, feather, calc(random(20) + 10));
+inv_add(inv, feather, add(random(20), 10));
 npc_del;
 
 // no attackrange checks (OSRS)
@@ -170,7 +170,7 @@ def_int $delay = add(~player_use_ogre_bow($ammo), 30); // osrs it seems to be de
 anim(%com_attackanim, 0);
 sound_synth(%com_attacksound, 0, 0);
 // Chompies don't fight back
-npc_queue(2, $damage, calc($delay / 30)); // ai_queue2 takes uncapped damage (avoids npcs from tick healing)
+npc_queue(2, $damage, divide($delay, 30)); // ai_queue2 takes uncapped damage (avoids npcs from tick healing)
 if (npc_param(defend_sound) ! null) {
     sound_synth(npc_param(defend_sound), 0, sub($delay, 30)); // delay 1 client tick for the hit queue
 }
@@ -203,7 +203,7 @@ if(%chompybird < ^chompybird_complete | %chompybird_kills >= 100000) {
 }
 // https://youtu.be/7ze4YEvQwHM?si=AYdN3zfe62SP4emb&t=215
 mes("You scratch a notch on your bow for the chompy bird kill.");
-%chompybird_kills = calc(%chompybird_kills + 1);
+%chompybird_kills = add(%chompybird_kills, 1);
 if(%chompybird_kills = 4000) {
     stat_advance(ranged, 300000);
     mes("You've been awarded ranged experience for your relentless pursuit of chompies!");

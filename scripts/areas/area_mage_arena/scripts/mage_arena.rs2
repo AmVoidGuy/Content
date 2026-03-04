@@ -18,8 +18,8 @@ p_arrivedelay;
 def_int $width = 3;
 def_int $length = 3;
 
-def_int $x = calc(coordx(loc_coord) - coordx(coord));
-def_int $z = calc(coordz(loc_coord) - coordz(coord));
+def_int $x = sub(coordx(loc_coord), coordx(coord));
+def_int $z = sub(coordz(loc_coord), coordz(coord));
 def_coord $outside_edge;
 def_coord $inside_edge;
 def_coord $middle = movecoord(loc_coord, 1, 0, 1);
@@ -33,11 +33,11 @@ if ($x > 0) {
     $outside_edge = movecoord(loc_coord, 1, 0, -1); // player is south
     $inside_edge = movecoord($outside_edge, 0, 0, 1);
     $dir = ^exact_north;
-} else if (calc($z + $length - 1) < 0) {
+} else if (add($z, sub($length, 1)) < 0) {
     $outside_edge = movecoord(loc_coord, 1, 0, 3); // player is north
     $inside_edge = movecoord($outside_edge, 0, 0, -1);
     $dir = ^exact_south;
-} else if (calc($x + $width - 1) < 0) {
+} else if (add($x, sub($width, 1)) < 0) {
     $outside_edge = movecoord(loc_coord, 3, 0, 1); // player is east
     $inside_edge = movecoord($outside_edge, -1, 0, 0);
     $dir = ^exact_west;
@@ -156,8 +156,8 @@ if (npc_find(coord, arenamage1, 5, 0) = ^true) {
 
 
 [proc,mage_arena_exactmove](coord $spawn_coord)
-def_int $x = calc(coordx($spawn_coord) - coordx(^mage_arena_start_coord));
-def_int $z = calc(coordz($spawn_coord) - coordz(^mage_arena_start_coord));
+def_int $x = sub(coordx($spawn_coord), coordx(^mage_arena_start_coord));
+def_int $z = sub(coordz($spawn_coord), coordz(^mage_arena_start_coord));
 anim(human_stumble_back, 15);
 if (abs($x) > abs($z)) {
     if ($x > 0) {

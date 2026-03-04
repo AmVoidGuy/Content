@@ -3,12 +3,12 @@ if_close;
 queue(poison_player,0,$severity);
 
 [debugproc,1pray]
-stat_sub(prayer, calc(stat_base(prayer) - 1), 0);
+stat_sub(prayer, sub(stat_base(prayer), 1), 0);
 
 [debugproc,1hp]
 if_close;
 if (p_finduid(uid) = ^true) {
-    stat_sub(hitpoints, calc(stat(hitpoints) - 1), 0);
+    stat_sub(hitpoints, sub(stat(hitpoints), 1), 0);
 } else {
     @please_finish;
 }
@@ -57,7 +57,7 @@ if ($stat = null | $amount < 1) {
 }
 if_close;
 if (p_finduid(uid) = ^true) {
-stat_advance($stat, calc($amount * 10));
+stat_advance($stat, multiply($amount, 10));
 return;
 }
 @please_finish;

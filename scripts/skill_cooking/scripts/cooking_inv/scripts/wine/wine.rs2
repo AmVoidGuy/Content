@@ -25,23 +25,23 @@ def_int $inv_total = inv_total(inv, jug_unfermented_wine);
 
 // do bank in 15 batches of x
 def_int $i = 0;
-def_int $wines_per_batch = calc($bank_total / 15);
+def_int $wines_per_batch = divide($bank_total, 15);
 // if there are more than 15 wines in the bank, do it in batches
 while ($i < 15 & $wines_per_batch > 0) {
     inv_del(bank, jug_unfermented_wine, $wines_per_batch);
     // if skiling roll is passed
     if (stat_random(cooking, 48, 352) = ^true) {
         inv_add(bank, jug_wine, $wines_per_batch);
-        stat_advance(cooking, calc(1100 * $wines_per_batch));
+        stat_advance(cooking, multiply(1100, $wines_per_batch));
     } else {
         // if skilling roll is failed
         inv_add(bank, jug_bad_wine, $wines_per_batch);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 // do remainder of bank
 $i = 0;
-while ($i < calc($bank_total % 15)) {
+while ($i < modulo($bank_total, 15)) {
     inv_del(bank, jug_unfermented_wine, 1);
     // if skiling roll is passed
     if (stat_random(cooking, 48, 352) = ^true) {
@@ -51,7 +51,7 @@ while ($i < calc($bank_total % 15)) {
         // if skilling roll is failed
         inv_add(bank, jug_bad_wine, 1);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 // do inventory separately
 $i = 0;
@@ -65,7 +65,7 @@ while ($i < $inv_total) {
         // if skilling roll is failed
         inv_add(inv, jug_bad_wine, 1);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 cleartimer(fermenting_wine);
 

@@ -165,7 +165,7 @@ else {
 ~chatnpc("<p,neutral>They don't call it the Legends Guild for nothing you know! Best of luck if you intend to become a member!");
 
 [proc,legends_guard_missing_qp]()(string)
-def_int $qp_needed = calc(^legends_required_questpoints - %qp);
+def_int $qp_needed = sub(^legends_required_questpoints, %qp);
 if($qp_needed = 1) {
     return ("one more quest point");
 }

@@ -36,7 +36,7 @@ switch_int(%grandtree) {
         def_coord $dest = map_findsquare(coord, 0, 1, ^map_findsquare_lineofwalk);
         def_int $dist_delay = ~total_distance(npc_coord, $dest);
         npc_walk($dest);
-        if($dist_delay > 0) p_delay(calc($dist_delay + 1));
+        if($dist_delay > 0) p_delay(add($dist_delay, 1));
         ~chatnpc("<p,angry>Come with me!");
         if_close;
         $dest = 1_38_54_45_7;

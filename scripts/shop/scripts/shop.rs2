@@ -59,14 +59,14 @@ mes("<$item_name>: currently costs <tostring($item_value)>gp.");
 [label,buy_item](obj $obj, int $amount)
 def_int $i = 0;
 def_int $current_gp = inv_total(inv, coins);
-def_int $shop_stock = calc(inv_total(%shop, $obj));
+def_int $shop_stock = inv_total(%shop, $obj);
 def_int $space_overflow = inv_itemspace2(inv, $obj, $amount, inv_size(inv));
 def_int $total_cost = 0;
 // Since pricing and stock will change constantly we will have to iterate here to calc
 while($i < $amount) {
-    def_int $added_amt = ~adjusted_item_cost_buying($obj, calc($shop_stock - $i));
-    def_int $current_stock = calc($shop_stock - $i);
-    if(calc($total_cost + $added_amt) > $current_gp) {
+    def_int $added_amt = ~adjusted_item_cost_buying($obj, sub($shop_stock, $i));
+    def_int $current_stock = sub($shop_stock, $i);
+    if(add($total_cost, $added_amt) > $current_gp) {
         if ($i > 0) {
             wealth_event(^wealth_shop_buy, oc_debugname($obj), $i, $total_cost);
         }
@@ -80,19 +80,19 @@ while($i < $amount) {
         mes("The shop has run out of stock.");
         return;
     }
-    // do calc($total_cost + $added_amt) ! $current_gp for the case where the exact gp required for the purchase
+    // do add($total_cost, $added_amt) ! $current_gp for the case where the exact gp required for the purchase
     // is used. Not sure if this should be the case in 2004
-    if($space_overflow >= calc($amount - $i) & calc($total_cost + $added_amt) ! $current_gp) {
+    if($space_overflow >= sub($amount, $i) & add($total_cost, $added_amt) ! $current_gp) {
         if ($i > 0) {
             wealth_event(^wealth_shop_buy, oc_debugname($obj), $i, $total_cost);
         }
         mes("You don't have enough inventory space.");
         return;
     }
-    $total_cost = calc($total_cost + $added_amt);
+    $total_cost = add($total_cost, $added_amt);
     inv_del(inv, coins, $added_amt);
     inv_moveitem_uncert(%shop, inv, $obj, 1);
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 wealth_event(^wealth_shop_buy, oc_debugname($obj), $i, $total_cost);
 
@@ -117,9 +117,9 @@ if(inv_itemspace(%shop, oc_uncert($obj), $sell_amount, inv_size(%shop)) = ^false
 // Iteration to calc the total value of the sale
 def_int $i = 0;
 while($i < $sell_amount) {
-    def_int $added_amt = ~adjusted_item_cost_selling(oc_uncert($obj), calc($shop_total + $i));
-    $total_value = calc($total_value + $added_amt);
-    $i = calc($i + 1);
+    def_int $added_amt = ~adjusted_item_cost_selling(oc_uncert($obj), add($shop_total, $i));
+    $total_value = add($total_value, $added_amt);
+    $i = add($i, 1);
 }
 // now perform the transaction 
 inv_moveitem_uncert(inv, %shop, $obj, $sell_amount);
@@ -133,7 +133,7 @@ def_int $base = inv_stockbase($inv, $obj);
 if($base = -1) {
     return ($diff);
 }
-return (calc($diff - $base));
+return (sub($diff, $base));
 
 // Purchase cost at a specifc stack count
 [proc,adjusted_item_cost_buying](obj $obj, int $diff)(int)
@@ -182,8 +182,8 @@ if($shop_inv = %shop) {
 // Calculate the gp value for the shop operation
 [proc,calc_shop_value](int $base_cost, int $shophaggle, int $shopbuy, int $int3)(int)
 def_int $int4 = 0;
-def_int $int5 = min(1000, max(-5000, calc($int3 * $shophaggle)));
-$int5 = max(100, calc($shopbuy - $int5));
+def_int $int5 = min(1000, max(-5000, multiply($int3, $shophaggle)));
+$int5 = max(100, sub($shopbuy, $int5));
 $int4 = scale($int5, 1000, $base_cost);
 if ($int4 < 0) {
     $int4 = 2000000000;

@@ -48,4 +48,4 @@ p_delay(2);
 mes("Through your tears you see the bartender...");
 mes("signing your barcrawl card");
 %barcrawl = setbit(%barcrawl, ^flyinghorse_index);
-~damage_self(calc((stat(hitpoints) * 25) / 100));
+~damage_self(divide(multiply(stat(hitpoints), 25), 100));

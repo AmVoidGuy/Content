@@ -132,7 +132,7 @@ if(%lumberyard_fence_used > map_clock) {
     mes("The fence is being climbed by someone else."); 
     return;
 }
-%lumberyard_fence_used = calc(map_clock + 3);
+%lumberyard_fence_used = add(map_clock, 3);
 ~agility_exactmove(human_walk_style, 0, 2, $start_coord, $end_coord, 0, 60, $dir, ^true);
 
 [opheldu,doogleleaves]
@@ -263,7 +263,7 @@ if (last_useitem = bucket_milk) {
 }
 
 [ai_timer,kittens_mew]
-npc_settimer(calc(5 + random(20)));
+npc_settimer(add(5, random(20)));
 if (random(5) = 0) {
     npc_say("Mew!");
 }
@@ -313,6 +313,6 @@ npc_del;
 
 [queue,fluffs_complete] //imgur.com/6ePHvef
 session_log(^log_adventure, "Quest complete: Gertrude's Cat");
-%qp = calc(%qp + ^fluffs_questpoints);
+%qp = add(%qp, ^fluffs_questpoints);
 stat_advance(cooking, 15250);
 ~send_quest_complete(questlist:fluffs, null, 0, ^fluffs_questpoints, null);

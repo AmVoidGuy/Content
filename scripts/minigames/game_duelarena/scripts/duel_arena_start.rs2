@@ -19,7 +19,7 @@ if (.finduid(%duel2accept) = ^true) {
                 case 2 : $random_coord2 = movecoord($random_coord1, 0, 0, 1);
                 case 3 : $random_coord2 = movecoord($random_coord1, 0, 0, -1);
             }
-            $i = calc($i + 1);
+            $i = add($i, 1);
         }
         .p_telejump($random_coord2);
     }
@@ -97,7 +97,7 @@ if (~duel_arena_obstacles_check = ^true) {
         if (map_playercount(db_getfield(duel_arena_obstacle_fight_zones, coord_pair_table:coord_pair, $i)) < 24) {
             return(~map_findsquare_inzone(db_getfield(duel_arena_obstacle_fight_zones, coord_pair_table:coord_pair, $i)));
         }
-        $i = calc($i + 1);
+        $i = add($i, 1);
     }
 } else {
     def_int $i = 0;
@@ -105,7 +105,7 @@ if (~duel_arena_obstacles_check = ^true) {
         if (map_playercount(db_getfield(duel_arena_fight_zones, coord_pair_table:coord_pair, $i)) < 24) {
             return(~map_findsquare_inzone(db_getfield(duel_arena_fight_zones, coord_pair_table:coord_pair, $i)));
         }
-        $i = calc($i + 1);
+        $i = add($i, 1);
     }
 }
 return(null);

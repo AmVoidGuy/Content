@@ -146,7 +146,7 @@ cam_reset;
 
 [ai_queue10,jeremy_servil]
 npc_walk(0_40_49_56_31);
-npc_queue(11, 0, calc(last_int + 1));
+npc_queue(11, 0, add(last_int, 1));
 
 [ai_queue11,jeremy_servil]
 npc_tele(movecoord(0_40_49_56_31, 1, 0, 0));

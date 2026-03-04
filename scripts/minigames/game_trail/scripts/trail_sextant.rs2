@@ -33,12 +33,12 @@ if(~unpack_negative_8bit(~get_sextant_sun) ! 0) {
 
 [proc,randomize_sextant_pos]
 def_int $horizon_rand = random(15);
-%temp = setbit_range_toint(%temp, ~pack_negative_8bit(calc(-56 + ($horizon_rand * 7))), 0, 7);
+%temp = setbit_range_toint(%temp, ~pack_negative_8bit(add(-56, multiply($horizon_rand, 7))), 0, 7);
 if(coordz(coord) > 6400) {
     // not sure what the offset is on osrs but all if cmds still run, the sun just never shows
     %temp = setbit_range_toint(%temp, 1000, 8, 15);
 } else {
-    %temp = setbit_range_toint(%temp, ~pack_negative_8bit(calc(-60 + (random(60) * 2))), 8, 15);
+    %temp = setbit_range_toint(%temp, ~pack_negative_8bit(add(-60, multiply(random(60), 2))), 8, 15);
 }
 def_int $needle_pos = ~rand_sextant_needle_pos;
 %temp = setbit_range_toint(%temp, $horizon_rand, 16, 23);
@@ -53,10 +53,10 @@ if_setposition(trail_sextant:com_2, 0,  ~unpack_negative_8bit(~get_sextant_sun))
 if(~get_sextant_frame >= ^trail_sextant_frame_max) { // can't adjust position anymore
     return;
 }
-%temp = setbit_range_toint(%temp, calc(~get_sextant_horizon + 7), 0, 7);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_sun - 2), 8, 15);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_frame + 1), 16, 23);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_needle + 1), 24, 31);
+%temp = setbit_range_toint(%temp, add(~get_sextant_horizon, 7), 0, 7);
+%temp = setbit_range_toint(%temp, sub(~get_sextant_sun, 2), 8, 15);
+%temp = setbit_range_toint(%temp, add(~get_sextant_frame, 1), 16, 23);
+%temp = setbit_range_toint(%temp, add(~get_sextant_needle, 1), 24, 31);
 if_setanim(trail_sextant:com_9, enum(int, seq, sextant_seq_enum, ~get_sextant_frame));
 if_setanim(trail_sextant:com_11, enum(int, seq, sextant_seq_enum, ~get_sextant_frame));
 if_setanim(trail_sextant:com_10, enum(int, seq, sextant_seq_enum, ~get_sextant_needle));
@@ -67,10 +67,10 @@ if_setposition(trail_sextant:com_2, 0,  ~unpack_negative_8bit(~get_sextant_sun))
 if(~get_sextant_frame <= 0) { // can't adjust position anymore
     return;
 }
-%temp = setbit_range_toint(%temp, calc(~get_sextant_horizon - 7), 0, 7);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_sun + 2), 8, 15);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_frame - 1), 16, 23);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_needle - 1), 24, 31);
+%temp = setbit_range_toint(%temp, sub(~get_sextant_horizon, 7), 0, 7);
+%temp = setbit_range_toint(%temp, add(~get_sextant_sun, 2), 8, 15);
+%temp = setbit_range_toint(%temp, sub(~get_sextant_frame, 1), 16, 23);
+%temp = setbit_range_toint(%temp, sub(~get_sextant_needle, 1), 24, 31);
 if_setanim(trail_sextant:com_9, enum(int, seq, sextant_seq_enum, ~get_sextant_frame));
 if_setanim(trail_sextant:com_11, enum(int, seq, sextant_seq_enum, ~get_sextant_frame));
 if_setanim(trail_sextant:com_10, enum(int, seq, sextant_seq_enum, ~get_sextant_needle));
@@ -81,8 +81,8 @@ if_setposition(trail_sextant:com_2, 0,  ~unpack_negative_8bit(~get_sextant_sun))
 if(~get_sextant_needle >= ~get_sextant_needle_max) { // can't adjust position anymore
     return;
 }
-%temp = setbit_range_toint(%temp, calc(~get_sextant_sun + 2), 8, 15);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_needle + 1), 24, 31);
+%temp = setbit_range_toint(%temp, add(~get_sextant_sun, 2), 8, 15);
+%temp = setbit_range_toint(%temp, add(~get_sextant_needle, 1), 24, 31);
 if_setposition(trail_sextant:com_2, 0, ~unpack_negative_8bit(~get_sextant_sun));
 if_setanim(trail_sextant:com_10, enum(int, seq, sextant_seq_enum, ~get_sextant_needle));
 
@@ -90,8 +90,8 @@ if_setanim(trail_sextant:com_10, enum(int, seq, sextant_seq_enum, ~get_sextant_n
 if(~get_sextant_needle <= ~get_sextant_needle_min) { // can't adjust position anymore
     return;
 }
-%temp = setbit_range_toint(%temp, calc(~get_sextant_sun - 2), 8, 15);
-%temp = setbit_range_toint(%temp, calc(~get_sextant_needle - 1), 24, 31);
+%temp = setbit_range_toint(%temp, sub(~get_sextant_sun, 2), 8, 15);
+%temp = setbit_range_toint(%temp, sub(~get_sextant_needle, 1), 24, 31);
 if_setposition(trail_sextant:com_2, 0, ~unpack_negative_8bit(~get_sextant_sun));
 if_setanim(trail_sextant:com_10, enum(int, seq, sextant_seq_enum, ~get_sextant_needle));
 
@@ -101,28 +101,28 @@ if_setanim(trail_sextant:com_10, enum(int, seq, sextant_seq_enum, ~get_sextant_n
 def_int $sun_pos = ~unpack_negative_8bit(~get_sextant_sun);
 def_int $frame_pos = ~get_sextant_frame;
 if($sun_pos < -40) {
-    return (calc(15 + $frame_pos + random(11)));
+    return (add(add(15, $frame_pos), random(11)));
 } else if($sun_pos < 0) {
-    return (calc(15 + $frame_pos + random(23)));
+    return (add(add(15, $frame_pos), random(23)));
 } else if($sun_pos < 40) {
-    return (calc(15 + $frame_pos + 23 + random(23)));
+    return (add(add(add(15, $frame_pos), 23), random(23)));
 }
-return (calc(15 + $frame_pos + 35 + random(8)));
+return (add(add(add(15, $frame_pos), 35), random(8)));
 
 // maps a negative number to a +ve number so we can pack it using setbit_range (8 bits)
 [proc,pack_negative_8bit](int $val)(int)
-return (calc($val + 128));
+return (add($val, 128));
 
 [proc,unpack_negative_8bit](int $val)(int)
-return (calc($val - 128));
+return (sub($val, 128));
 
 // the sextant's needle value can go 2 "over" trail_sextant_arm58, it will still default to trail_sextant_arm58 in these cases, meaning if you move the needle twice
 // to the right after trail_sextant_arm58, you will need to move it 3 times back for trail_sextant_arm57, this is the behaviour in OSRS
 [proc,get_sextant_needle_max]()(int)
-return (calc(~get_sextant_needle_min + 45));
+return (add(~get_sextant_needle_min, 45));
 
 [proc,get_sextant_needle_min]()(int)
-return (calc(15 + ~get_sextant_frame));
+return (add(15, ~get_sextant_frame));
 
 [proc,get_sextant_horizon]()(int)
 return (getbit_range(%temp, 0, 7));
@@ -141,11 +141,11 @@ return (getbit_range(%temp, 24, 31));
 // and the second how far East or West. Note that one degree is 60 minutes, and each game square is approximately 1.875 minutes.
 if_close;
 def_coord $observatory = 0_38_49_8_25;
-def_int $x_disp = calc(coordx(coord) - coordx($observatory));
-def_int $z_disp = calc(coordz(coord) - coordz($observatory));
+def_int $x_disp = sub(coordx(coord), coordx($observatory));
+def_int $z_disp = sub(coordz(coord), coordz($observatory));
 
-def_int $mins_x = calc((1875 * $x_disp) / 1000);
-def_int $mins_z = calc((1875 * $z_disp) / 1000);
+def_int $mins_x = divide(multiply(1875, $x_disp), 1000);
+def_int $mins_z = divide(multiply(1875, $z_disp), 1000);
 
 def_string $dir_x = "East";
 if($mins_x < 0) {
@@ -157,11 +157,11 @@ if($mins_z < 0) {
     $dir_z = "South";
 }
 
-def_int $degrees_x = calc($mins_x / 60);
-$mins_x = calc($mins_x - ($degrees_x * 60));
+def_int $degrees_x = divide($mins_x, 60);
+$mins_x = sub($mins_x, multiply($degrees_x, 60));
 
-def_int $degrees_z = calc($mins_z / 60);
-$mins_z = calc($mins_z - ($degrees_z *  60));
+def_int $degrees_z = divide($mins_z, 60);
+$mins_z = sub($mins_z, multiply($degrees_z,  60));
 
 // no capitalization on dir or commas on OSRS, https://media.discordapp.net/attachments/1126857544523063367/1203037995846996028/rs2_coords1_26n_8_1e.gif?ex=66673ff1&is=6665ee71&hm=6a9189e978f831cee7f1455b1e79613a27f2552e71624e066667cf77187f417e&=&width=569&height=698
 // https://www.youtube.com/watch?v=Yb53SKVt7z8 -> linebreak was removed at some point as well, OSRS has the linebreak again with the commas/capitalization change

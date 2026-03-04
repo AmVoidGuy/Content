@@ -14,7 +14,7 @@ if (p_finduid(uid) = ^true) {
     inv_add(inv, firerune, 6);
     inv_add(inv, earthrune, 6);
     inv_add(inv, rope, 1);
-    stat_advance(hitpoints, calc(50000 * 10));
+    stat_advance(hitpoints, multiply(50000, 10));
     ~player_teleport_normal(0_39_54_30_40);
 } else {
     @please_finish;
@@ -46,8 +46,8 @@ if (p_finduid(uid) = ^true) {
 if_close;
 if (p_finduid(uid) = ^true) {
     ~player_teleport_normal(0_40_54_12_7);
-    stat_advance(agility, calc(10000 * 10));
-    stat_advance(magic, calc(100000 * 10));
+    stat_advance(agility, multiply(10000, 10));
+    stat_advance(magic, multiply(100000, 10));
     inv_add(inv, airrune, 50);
     inv_add(inv, lawrune, 20);
     inv_add(inv, waterrune, 20);
@@ -59,8 +59,8 @@ if (p_finduid(uid) = ^true) {
 if_close;
 if (p_finduid(uid) = ^true) {
     ~player_teleport_normal(0_40_51_18_56);
-    stat_advance(ranged, calc(100000 * 10));
-    stat_advance(thieving, calc(100000 * 10));
+    stat_advance(ranged, multiply(100000, 10));
+    stat_advance(thieving, multiply(100000, 10));
     inv_add(bank, knife, 5);
     inv_add(bank, limpwurt_root, 50);
     inv_add(bank, unlit_candle, 5);
@@ -323,14 +323,14 @@ mes("Upass Reset.");
 
 [debugproc,upu]
 if (p_finduid(uid) = ^true) {
-%upass = calc(%upass + 1);
+%upass = add(%upass, 1);
 ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass increased to stage <tostring(%upass)>");
 }
 
 [debugproc,upd]
 if (p_finduid(uid) = ^true) {
-%upass = calc(%upass - 1);
+%upass = sub(%upass, 1);
 ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass decreased to stage <tostring(%upass)>");
 }
@@ -410,14 +410,14 @@ switch_int ($bit) {
 //Watchtower Quest
 [debugproc,wtu]
 if (p_finduid(uid) = ^true) {
-%itwatchtower = calc(%itwatchtower + 1);
+%itwatchtower = add(%itwatchtower, 1);
 mes("Watchtower increased to <tostring(%itwatchtower)>");
 ~send_quest_progress(questlist:itwatchtower, %itwatchtower, ^itwatchtower_complete);
 }
 
 [debugproc,wtd]
 if (p_finduid(uid) = ^true) {
-%itwatchtower = calc(%itwatchtower - 1);
+%itwatchtower = sub(%itwatchtower, 1);
 mes("Watchtower decreased to <tostring(%itwatchtower)>");
 ~send_quest_progress(questlist:itwatchtower, %itwatchtower, ^itwatchtower_complete);
 }
@@ -524,7 +524,7 @@ switch_int ($bit) {
     case 12 :
         def_int $kills = getbit_range(%itwatchtower_bits, ^itwatchtower_shaman_kills_lower, ^itwatchtower_shaman_kills_upper);
         if ($kills > 0) {
-            $kills = calc($kills - 1);
+            $kills = sub($kills, 1);
             %itwatchtower_bits = setbit_range_toint(%itwatchtower_bits, $kills, ^itwatchtower_shaman_kills_lower, ^itwatchtower_shaman_kills_upper);
             mes("Decreased shaman kills to <tostring($kills)>");
         } else {
@@ -550,14 +550,14 @@ switch_int ($bit) {
 //Heroes' Quest
 [debugproc,heu]
 if (p_finduid(uid) = ^true) {
-%heroquest = calc(%heroquest + 1);
+%heroquest = add(%heroquest, 1);
 mes("Heroes' Quest increased to <tostring(%heroquest)>");
 ~send_quest_progress(questlist:hero, %heroquest, ^hero_complete);
 }
 
 [debugproc,hed]
 if (p_finduid(uid) = ^true) {
-%heroquest = calc(%heroquest - 1);
+%heroquest = sub(%heroquest, 1);
 mes("Heroes' Quest decreased to <tostring(%heroquest)>");
 ~send_quest_progress(questlist:hero, %heroquest, ^hero_complete);
 }
@@ -565,14 +565,14 @@ mes("Heroes' Quest decreased to <tostring(%heroquest)>");
 // Shilo Village
 [debugproc,zqu]
 if (p_finduid(uid) = ^true) {
-%zombiequeen = calc(%zombiequeen + 1);
+%zombiequeen = add(%zombiequeen, 1);
 ~send_quest_progress(questlist:zombiequeen, %zombiequeen, ^zombiequeen_complete);
 mes("zombiequeen increased to <tostring(%zombiequeen)>");
 }
 
 [debugproc,zqd]
 if (p_finduid(uid) = ^true) {
-%zombiequeen = calc(%zombiequeen - 1);
+%zombiequeen = sub(%zombiequeen, 1);
 ~send_quest_progress(questlist:zombiequeen, %zombiequeen, ^zombiequeen_complete);
 mes("zombiequeen decreased to <tostring(%zombiequeen)>");
 }
@@ -630,7 +630,7 @@ switch_int($bit) {
     case 5 :
         def_int $state = ~get_zqtombdoorstate;
         if ($state = 2) { ~set_zqtombdoorstate(0); }
-        else { ~set_zqtombdoorstate(calc($state + 1)); }
+        else { ~set_zqtombdoorstate(add($state, 1)); }
         mes("used <tostring(~get_zqtombdoorstate)> bones on the tomb door");
     case 6 :
         if (testbit(%zq_map_mechanisms, ^zq_defeated_nazastarool1) = ^true) {

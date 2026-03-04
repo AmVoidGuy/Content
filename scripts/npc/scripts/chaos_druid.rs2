@@ -45,7 +45,7 @@ if (~npc_player_hit_roll(^magic_style) = ^true & ~check_protect_prayer(^magic_st
 ~npc_set_attack_vars;
 
 [queue,chaosdruid_freeze_player]
-%frozen = calc(map_clock + 3);
+%frozen = add(map_clock, 3);
 walktrigger(chaos_druid_frozen);
 
 [walktrigger,chaos_druid_frozen]

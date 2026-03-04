@@ -43,7 +43,7 @@ if (npc_type = 0_41_53_sinisterfishspot) { // Using red vine worm + north spot
         mes("You catch some shrimps.");
    }
 }
-%hemenster_comp_stage = calc(%hemenster_comp_stage + 1);
+%hemenster_comp_stage = add(%hemenster_comp_stage, 1);
 anim(null, 0);
 if (%hemenster_comp_stage = ^hemenster_comp_all_fish_caught) { // 3 fish caught 
     if(npc_find(coord, bonzo, 12, 0) = ^true) {

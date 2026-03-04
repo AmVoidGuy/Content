@@ -103,7 +103,7 @@ if (p_finduid(uid) = ^true) {
                 case 24 : 
                     queue(crest_complete, 0, 0);
                     // Complete all blast spells and levers, gauntlet choice unselected
-                    %crest_spells_levers_gauntlets = calc(pow(2, ^crest_south_lever) - 1);
+                    %crest_spells_levers_gauntlets = sub(pow(2, ^crest_south_lever), 1);
                 case 25 :
                     %arenaquest = ^arena_defeated_genkhazard;
                     queue(arena_quest_complete, 0, 0);
@@ -127,7 +127,7 @@ if (p_finduid(uid) = ^true) {
                     stat_advance(crafting, 22500);
                     inv_add(inv, uncut_sapphire, 1);
                     %itgronigen = ^itgronigen_complete;
-                    %qp = calc(%qp + ^itgronigen_questpoints);
+                    %qp = add(%qp, ^itgronigen_questpoints);
                     queue(itgronigen_quest_complete, 0, 0);
                 case 39 : queue(quest_elena_complete, 0, 0);
                 case 40 : queue(scorpcatcher_quest_complete, 0, 0);
@@ -306,7 +306,7 @@ queue(itexam_complete, 0, 0);
     }
 queue(mcannon_complete, 0, 0);
     // Complete all blast spells and levers, gauntlet choice unselected
-    %crest_spells_levers_gauntlets = calc(pow(2, ^crest_south_lever) - 1);
+    %crest_spells_levers_gauntlets = sub(pow(2, ^crest_south_lever),1);
 queue(crest_complete, 0, 0);
     %arenaquest = ^arena_defeated_genkhazard;
 queue(arena_quest_complete, 0, 0);
@@ -327,7 +327,7 @@ queue(murder_quest_complete, 0, 0);
     stat_advance(crafting, 22500);
     inv_add(inv, uncut_sapphire, 1);
     %itgronigen = ^itgronigen_complete;
-    %qp = calc(%qp + ^itgronigen_questpoints);
+    %qp = add(%qp, ^itgronigen_questpoints);
 queue(itgronigen_quest_complete, 0, 0);
 queue(quest_elena_complete, 0, 0);
 queue(scorpcatcher_quest_complete, 0, 0);

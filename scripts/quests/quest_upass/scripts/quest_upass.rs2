@@ -119,7 +119,7 @@ mes("You feel a cold shudder run down your spine.");
 [oploc1,cave_well]
 anim(human_reachforladder, 0);
 mes("You climb into the well...");
-if(getbit_range(%ibanmulti, ^upass_orb1_bit, ^upass_orb4_bit) = calc(pow(2,4) - 1)) {
+if(getbit_range(%ibanmulti, ^upass_orb1_bit, ^upass_orb4_bit) = sub(pow(2,4), 1)) {
     p_delay(0);
     mes("You feel the grip of icy hands all around you...");
     p_delay(0);
@@ -192,7 +192,7 @@ anim(human_stunned, 0);
 spotanim_pl(stunned, 124, 0);
 sound_synth(stunned, 0, 0);
 p_delay(0);
-~damage_self(min(5, calc(((stat(hitpoints) * 20) / 100))));
+~damage_self(min(5, divide(multiply(stat(hitpoints), 20), 100)));
 p_delay(0);
 
 [oploc1,cavefood1]
@@ -494,7 +494,7 @@ if(last_useitem = upassdwarfbrew) {
 
 [label,upass_soulless_cage]
 p_delay(0);
-def_int $delay = calc(distance(coord, loc_coord) + 1);
+def_int $delay = add(distance(coord, loc_coord), 1);
 ~forcewalk(loc_coord);
 p_delay(1);
 // idk why it does this instead of just using oploc lol
@@ -573,7 +573,7 @@ switch_obj (last_useitem) {
 
 [label,open_iban_door]
 if(coordx(loc_coord) < coordx(coord)) {
-    if(inv_total(worn, zamrobetop) = 0 | inv_total(worn, zamrobebottom) = 0 | inv_freespace(worn) ! calc(inv_size(worn) - 2)) {
+    if(inv_total(worn, zamrobetop) = 0 | inv_total(worn, zamrobebottom) = 0 | inv_freespace(worn) ! sub(inv_size(worn), 2)) {
         mes("The door refuses to open...");
         p_delay(1);
         mes("Only followers of Zamorak may enter.");
@@ -590,7 +590,7 @@ if(coordx(loc_coord) < coordx(coord)) {
     loc_change(loc_param(next_loc_stage), 5);
     sound_synth(door_open, 0, 0);
     ~forcemove(movecoord(loc_coord, -1, 0, 0));
-    if(getbit_range(%ibanmulti, ^upass_blood_on_doll, ^upass_shadow_on_doll) = calc(pow(2,4) - 1) & inv_total(inv, ibandoll) > 0 
+    if(getbit_range(%ibanmulti, ^upass_blood_on_doll, ^upass_shadow_on_doll) = sub(pow(2,4), 1) & inv_total(inv, ibandoll) > 0 
         & %upass < ^upass_defeated_iban) {
         if(%upass = ^upass_found_doll) %upass = ^upass_confronted_iban;
         if(npc_findexact(1_33_72_21_39, iban) = ^true) {
@@ -637,7 +637,7 @@ mes("The doll is made from old wood and cloth.");
 // no nothing interesting happens
 if(last_useitem = ibandoll) {
     // check if doll is complete, todo: how does this work if iban is currently dead
-    if(getbit_range(%ibanmulti, ^upass_blood_on_doll, ^upass_shadow_on_doll) = calc(pow(2,4) - 1)
+    if(getbit_range(%ibanmulti, ^upass_blood_on_doll, ^upass_shadow_on_doll) = sub(pow(2,4), 1)
         & %upass <= ^upass_confronted_iban
         & npc_findexact(1_33_72_21_39, iban) = ^true) {
         mes("You throw the doll of Iban into the pit...");

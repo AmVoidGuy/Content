@@ -124,7 +124,7 @@ mes(struct_param($struct, productmessage));
 //     return;
 // }
 // if (%action_delay < map_clock) {
-//     %action_delay = calc(map_clock + 3);
+//     %action_delay = add(map_clock, 3);
 //     anim(human_furnace, 0); // plays here for somereason
 //     sound_synth(furnace, 0, 2);
 //     mes(struct_param($struct, processmessage));
@@ -136,7 +136,7 @@ mes(struct_param($struct, productmessage));
 
 // //----------------------------
 // [weakqueue,start_smelting_ore](struct $struct)
-// %action_delay = calc(map_clock + 3);
+// %action_delay = add(map_clock, 3);
 // anim(human_furnace, 0); // plays here for somereason
 // sound_synth(furnace, 0, 2);
 // mes(struct_param($struct, processmessage));

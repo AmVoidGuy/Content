@@ -10,7 +10,7 @@ mes("You reach to open the door...");
 if(npc_find(coord, cavewitch, 8, 0) = ^true) {
     // https://youtu.be/ZxF473zUZfQ?si=K3-NPTigxVgD9V9I&t=2016, no chathead
     ~chatnpc("<p,angry>Get away... Far away from here!");
-    ~damage_self(calc(((stat(hitpoints) * 25) / 100) + 1));
+    ~damage_self(add(divide(multiply(stat(hitpoints), 25), 100), 1));
 }
 
 [oploc2,cavewitch_door]

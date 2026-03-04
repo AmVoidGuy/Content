@@ -102,11 +102,11 @@ if ($eat_delay ! null) {
     if (%eat_delay >= map_clock) {
         return;
     }
-    %eat_delay = calc(map_clock + $eat_delay);
+    %eat_delay = add(map_clock, $eat_delay);
 }
 
 if ($skill_delay ! null) {
-    %action_delay = calc(%action_delay + $skill_delay);
+    %action_delay = add(%action_delay, $skill_delay);
 }
 
 // consume effect

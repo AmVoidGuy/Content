@@ -198,9 +198,9 @@ def_int $constellation = random(12);
 // don't need to use a varp here, can just pass through queue as an arg
 queue(constellation_dialogue, 0, $constellation);
 if($constellation > 6) { // because model 3056 isn't a constellation for some reason!
-    $constellation = calc($constellation + 1);
+    $constellation = add($constellation, 1);
 }
-if_setmodel(telescope:com_92, calc(3049 + $constellation));
+if_setmodel(telescope:com_92, add(3049, $constellation));
 
 [queue,constellation_dialogue](int $constellation_numb)
 if (npc_find(coord, observatory_professor2, 7, 0) = ^true) {
@@ -260,7 +260,7 @@ switch_int($constellation_numb) {
 stat_advance(crafting, 22500);
 inv_add(inv, uncut_sapphire, 1);
 %itgronigen = ^itgronigen_complete;
-%qp = calc(%qp + ^itgronigen_questpoints);
+%qp = add(%qp, ^itgronigen_questpoints);
 queue(itgronigen_quest_complete, 0, 0);
 @professor_friend_of_gods;
 

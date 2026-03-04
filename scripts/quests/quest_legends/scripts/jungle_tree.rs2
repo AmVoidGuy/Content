@@ -31,7 +31,7 @@ def_int $bowl_pure_water_count = inv_total(inv, goldbowl_pure);
 def_int $blessed_bowl_water_count = inv_total(inv, goldbowlbless_water);
 def_int $blessed_bowl_pure_water_count = inv_total(inv, goldbowlbless_pure);
 
-if (calc($bowl_water_count + $bowl_pure_water_count + $blessed_bowl_water_count + $blessed_bowl_pure_water_count) > 0) {
+if (add(add(add($bowl_water_count, $bowl_pure_water_count), $blessed_bowl_water_count), $blessed_bowl_pure_water_count) > 0) {
         mes("The heat in this jungle is terrific.");
         mes("The water from your golden bowl evaporates.");
         if ($bowl_water_count > 0) {
@@ -60,11 +60,11 @@ if ($data = null) {
 
 if (%action_delay < map_clock) {
     if (loc_category = jungle_bush) {
-        %action_delay = calc(map_clock + 3);
-        %skill_anim = calc(map_clock + 1);
+        %action_delay = add(map_clock, 3);
+        %skill_anim = add(map_clock, 1);
     } else {
-        %action_delay = calc(map_clock + 5);
-        %skill_anim = calc(map_clock + 5);
+        %action_delay = add(map_clock, 5);
+        %skill_anim = add(map_clock, 5);
     }
     p_oploc(1);
 } else {
@@ -98,11 +98,11 @@ def_namedobj $product = db_getfield($data, woodcutting_trees:product, 0);
 // gets redefined after skill(anim, null)
 if (%skill_anim <= map_clock) {
     if (loc_category = jungle_bush) {
-        %skill_anim = calc(map_clock + 2);
+        %skill_anim = add(map_clock, 2);
         anim(human_machette_chop, 0);
     }
     else {
-        %skill_anim = calc(map_clock + 4);
+        %skill_anim = add(map_clock, 4);
         anim(oc_param($axe, woodcutting_anim), 0);
     }
 }
@@ -113,7 +113,7 @@ if(loc_category = jungle_bush) {
 // this is here because theres always a tick where no mes("You swing your axe at the tree.") when spam clicking on tree
 // this tick is when you get you get a roll. so that means that skill clock is set next tick after roll is given
 if (%action_delay < map_clock) {
-    %action_delay = calc(map_clock + 4);
+    %action_delay = add(map_clock, 4);
 }
 if (%action_delay = map_clock) {
     // get lows and highs

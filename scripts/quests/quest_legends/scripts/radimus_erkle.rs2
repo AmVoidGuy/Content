@@ -76,7 +76,7 @@ if(%legendsquest >= ^legends_radimus_training_4) {
     queue(legends_quest_complete, 0, 0);
     return;
 }
-def_int $remaining = calc((^legends_radimus_training_4 - %legendsquest) / 5);
+def_int $remaining = divide(sub(^legends_radimus_training_4, %legendsquest), 5);
 if($remaining > 1) {
     ~chatnpc("<p,neutral>You can choose <tostring($remaining)> areas to increase your abilities in.");
 } else {

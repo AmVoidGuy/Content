@@ -1,6 +1,6 @@
 [proc,lose_charge_ring_of_forging]
 // + 1 charge used
-%ring_of_forging = calc(%ring_of_forging + 1);
+%ring_of_forging = add(%ring_of_forging, 1);
 // once the charges used counter reaches 140, reset back to 0
 if (%ring_of_forging >= 140) {
     %ring_of_forging = 0;

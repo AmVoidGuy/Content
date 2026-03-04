@@ -47,7 +47,7 @@ while($moves > 0) {
     if($next_idx ! -1) {
         inv_movetoslot(trail_puzzleinv, trail_puzzleinv, $next_idx, $current_idx);
     }
-    $moves = calc($moves - 1);
+    $moves = sub($moves, 1);
     $current_idx = $next_idx;
 }
 
@@ -58,22 +58,22 @@ def_int $down_slot = -1;
 def_int $up_slot = -1;
 def_int $adj_slots = 0;
 if (modulo($slot, 5) ! 0) {
-    $left_slot = calc($slot - 1);
-    $adj_slots = calc($adj_slots + 1);
+    $left_slot = sub($slot, 1);
+    $adj_slots = add($adj_slots, 1);
 }
 if (modulo($slot, 5) ! 4) {
-    $right_slot = calc($slot + 1);
-    $adj_slots = calc($adj_slots + 1);
+    $right_slot = add($slot, 1);
+    $adj_slots = add($adj_slots, 1);
 }
 
 // vertical
 if($slot >= 5) {
-    $up_slot = calc($slot - 5);
-    $adj_slots = calc($adj_slots + 1);
+    $up_slot = sub($slot, 5);
+    $adj_slots = add($adj_slots, 1);
 }
 if($slot <= 19) {
-    $down_slot = calc($slot + 5);
-    $adj_slots = calc($adj_slots + 1);
+    $down_slot = add($slot, 5);
+    $adj_slots = add($adj_slots, 1);
 } 
 
 // Randomly select one of the available adjacent slots
@@ -146,18 +146,18 @@ def_int $open_slot = -1;
     
 // horizontal
 if (modulo($slot, 5) ! 0) {
-    if (inv_getobj(trail_puzzleinv, calc($slot - 1)) = null) $open_slot = calc($slot - 1);
+    if (inv_getobj(trail_puzzleinv, sub($slot, 1)) = null) $open_slot = sub($slot, 1);
 }
 if (modulo($slot, 5) ! 4) {
-    if (inv_getobj(trail_puzzleinv, calc($slot + 1)) = null) $open_slot = calc($slot + 1);
+    if (inv_getobj(trail_puzzleinv, add($slot, 1)) = null) $open_slot = add($slot, 1);
 }
 
 // vertical
 if($slot >= 5) {
-    if (inv_getobj(trail_puzzleinv, calc($slot - 5)) = null) $open_slot = calc($slot - 5);
+    if (inv_getobj(trail_puzzleinv, sub($slot, 5)) = null) $open_slot = sub($slot, 5);
 }
 if($slot <= 19) {
-    if (inv_getobj(trail_puzzleinv, calc($slot + 5)) = null) $open_slot = calc($slot + 5);
+    if (inv_getobj(trail_puzzleinv, add($slot, 5)) = null) $open_slot = add($slot, 5);
 } 
 
 if($open_slot ! -1) {

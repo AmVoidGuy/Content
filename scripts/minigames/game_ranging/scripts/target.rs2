@@ -32,14 +32,14 @@ if (%targetcount = 0) {
     inv_del(worn, bronze_arrow, 1);
     ~coord_projectile(coord, loc_coord, bronze_arrow_travel, 40, 36, 41, 15, 5, 11, 5);
     p_delay(2);
-    %targetcount = calc(%targetcount + 1);
+    %targetcount = add(%targetcount, 1);
     // roll target
     def_int $target = ~roll_rangeguild_target;
     %targethit = $target;
     // calc pts
     def_int $points =  ~get_targetpts;
-    %targetscore = calc(%targetscore + $points);
-    stat_advance(ranged, calc(($points / 2) * 10));
+    %targetscore = add(%targetscore, $points);
+    stat_advance(ranged, multiply(divide($points, 2), 10));
     if_settext(target:com_120, ~get_targetstr);
     if_openmain(target);
 } else if(%targetcount = 11) {   
@@ -73,9 +73,9 @@ switch_int(%targethit) {
 [proc,roll_rangeguild_target]()(int)
 def_int $value = 11;
 def_int $att_roll = random(%com_rangeattack);
-if(randominc($att_roll) > randominc(1000)) $value = (calc(random(1) + 9)); 
-if(randominc($att_roll) > randominc(2000)) $value = (calc(random(4) + 5));
-if(randominc($att_roll) > randominc(3000)) $value = (calc(random(3) + 2));
+if(randominc($att_roll) > randominc(1000)) $value = (add(random(1), 9)); 
+if(randominc($att_roll) > randominc(2000)) $value = (add(random(4), 5));
+if(randominc($att_roll) > randominc(3000)) $value = (add(random(3), 2));
 if(randominc($att_roll) > randominc(4000)) $value = (1);
 if(randominc($att_roll) > randominc(7000)) $value = (0);
 return ($value);

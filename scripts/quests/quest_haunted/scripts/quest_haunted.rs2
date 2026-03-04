@@ -154,7 +154,7 @@ if(testbit(%ernestlever, loc_param(lever_index)) = ^true) {
 %ernestlever = togglebit(%ernestlever, loc_param(lever_index));
 anim(human_leverdown, 0); // OSRS uses seq's not in 225, going to assume here
 sound_synth(lever, 0, 0);
-mes("You pull lever <substring(loc_name, calc($name_idx - 1), $name_idx)> <$dir>.");
+mes("You pull lever <substring(loc_name, sub($name_idx, 1), $name_idx)> <$dir>.");
 mes("You hear a clunk.");
 
 [oploc2,_haunted_lever]

@@ -6,6 +6,6 @@ while ($index < enum_getoutputcount($enum)) {
     if ($contain = $value) {
         return(^true);
     }
-    $index = calc($index + 1);
+    $index = add($index, 1);
 }
 return(^false);

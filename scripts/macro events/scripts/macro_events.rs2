@@ -193,6 +193,6 @@ while ($i < 50) {
         ){
         return($sw);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 return(null);

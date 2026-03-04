@@ -74,7 +74,7 @@ if ((npc_category = diseased_sheep & inv_total(inv, $npc_bones) > 0)) {
 def_coord $npc_coord = db_getfield($data, sheep_table:sheep_in_pen_coord, 0);
 def_int $npc_start_bit = db_getfield($data, sheep_table:sheep_start_bit, 0);
 
-if (getbit_range(%sheepherdervar, $npc_start_bit, calc($npc_start_bit + 2)) = 6) {
+if (getbit_range(%sheepherdervar, $npc_start_bit, add($npc_start_bit, 2)) = 6) {
     ~mesbox("You have already disposed of this sheep;|there's no need to prod it again.");
     return;
 }
@@ -108,7 +108,7 @@ if (~inzone_coord_pair_table(sheepherder_pen_gate, npc_coord) = ^true) {
 
 
 [label,diseased_sheep_baa]
-npc_settimer(calc(10 + random(20)));
+npc_settimer(add(10, random(20)));
 npc_say("Baa");
 npc_setmode(null);
 
@@ -151,20 +151,20 @@ if (~inzone_coord_pair_table(sheepherder_in_pen, npc_coord) = ^true) {
     
     // Attempting to kill the sheep in the pen, and you haven't burned the bones
     // and you're not carrying any bones.
-    if ((getbit_range(%sheepherdervar, $npc_start_bit, calc($npc_start_bit + 2)) ! 6
-        | getbit_range(%sheepherdervar, $npc_start_bit, calc($npc_start_bit + 2)) = 2)
+    if ((getbit_range(%sheepherdervar, $npc_start_bit, add($npc_start_bit, 2)) ! 6
+        | getbit_range(%sheepherdervar, $npc_start_bit, add($npc_start_bit, 2)) = 2)
         & inv_total(inv, $npc_bones) < 1) {
-         %sheepherdervar = setbit_range_toint(%sheepherdervar, 2, $npc_start_bit, calc($npc_start_bit + 2));
+         %sheepherdervar = setbit_range_toint(%sheepherdervar, 2, $npc_start_bit, add($npc_start_bit, 2));
         ~mesbox("You feed the poisoned food to the sheep.|It happily eats it all up.|You watch as the sheep collapses dead onto the floor.");
         if_close;
         p_delay(0);
         npc_anim(npc_param(death_anim), 0);
         p_delay(2);
         npc_del;
-        obj_add(npc_coord, $npc_bones, 1, calc(^lootdrop_duration / 2));
+        obj_add(npc_coord, $npc_bones, 1, divide(^lootdrop_duration, 2));
     // Attempting to kill sheep in pen but has already killed that sheep.
     // can't do this on OSRS since your sheep are instanced.
-    } else if (getbit_range(%sheepherdervar, $npc_start_bit, calc($npc_start_bit + 2)) = 6
+    } else if (getbit_range(%sheepherdervar, $npc_start_bit, add($npc_start_bit, 2)) = 6
         | inv_total(inv, $npc_bones) > 0 ) {
          // Fake message based on RSC
         ~chatplayer("<p,neutral>I've already disposed of this sheep like this.| I should find another.");

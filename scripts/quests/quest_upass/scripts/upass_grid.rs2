@@ -41,10 +41,10 @@ def_int $grid = getbit_range(%ibanmulti, 22, 31);
 def_int $counter = 0;
 def_int $value = 0;
 def_int $last_digit = ~random_range(1, 5);
-$value = calc($value * 10 + $last_digit);
+$value = add(multiply($value, 10), $last_digit);
 while($counter < 2) {
     $last_digit = ~random_range(max(sub($last_digit, 1), 1), min(add($last_digit, 1), 5)); // calc next value
-    $value = calc($value * 10 + $last_digit);
+    $value = add(multiply($value, 10), $last_digit);
     $counter = add($counter,1);
 }
 %ibanmulti = setbit_range_toint(%ibanmulti, $value, 22, 31);
@@ -52,9 +52,9 @@ while($counter < 2) {
 // this is unique for each player, prob just easier to do this w/coord varps...
 [timer,upass_grid_traps]
 def_int $grid_val = getbit_range(%ibanmulti, 22, 31);
-def_int $first_col = modulo(calc(($grid_val / pow(10, 2))), 10);
-def_int $second_col = modulo(calc(($grid_val / pow(10, 1))), 10);
-def_int $third_col = modulo(calc(($grid_val / pow(10, 0))), 10);
+def_int $first_col = modulo(divide($grid_val, pow(10, 2)), 10);
+def_int $second_col = modulo(divide($grid_val, pow(10, 1)), 10);
+def_int $third_col = modulo(divide($grid_val, pow(10, 0)), 10);
 if(inzone(^upass_grid_col5, movecoord(^upass_grid_col1, 1, 0, 9), coord) = ^true & 
     (($first_col = 1 & inzone(movecoord(^upass_grid_col1, -2, 0, 0), movecoord(^upass_grid_col1, 3, 0, 1), coord) = ^false) | 
     ($first_col = 2 & inzone(movecoord(^upass_grid_col1, -2, 0, 2), movecoord(^upass_grid_col1, 3, 0, 3), coord) = ^false) |

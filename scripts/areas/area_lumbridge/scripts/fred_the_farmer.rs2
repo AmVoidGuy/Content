@@ -70,7 +70,7 @@ if(inv_total(inv, ball_of_wool) > 0 & %sheep ! ^sheep_last_wool) {
     if_close;
     inv_del(inv, ball_of_wool, 1);
     mes("You give Fred a ball of wool.");
-    %sheep = calc(%sheep + 1);
+    %sheep = add(%sheep, 1);
     p_delay(1);
     @fred_give_wool;
 } else {

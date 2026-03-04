@@ -70,7 +70,7 @@ while($count < ^balloons_per_drop) {
         // Temp note: dur does not need updated
         loc_add($balloon_coord, ~random_balloon, random(4), centrepiece_straight, 200);
     }
-    $count = calc($count + 1);
+    $count = add($count, 1);
 }
 p_delay(0);
 

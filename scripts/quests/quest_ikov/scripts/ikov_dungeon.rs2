@@ -56,13 +56,13 @@ if(inzone(^ikovbridge_zone_lower, ^ikovbridge_zone_upper, coord) = ^false) {
 def_int $crossed_bridge = testbit(%ikov_dungeon, ^ikov_bridge);
 %ikov_dungeon = togglebit(%ikov_dungeon, ^ikov_bridge);
 if($crossed_bridge = ^true) {
-    ~forcemove(movecoord(^ikovbridge_zone_lower, 1, 0, abs(calc(coordz(^ikovbridge_zone_lower) - coordz(coord)))));
+    ~forcemove(movecoord(^ikovbridge_zone_lower, 1, 0, abs(sub(coordz(^ikovbridge_zone_lower), coordz(coord)))));
     if(weight >= 0) {
         @ikov_bridgefail;
     }
     ~forcemove(movecoord(coord, 2, 0, 0));
 } else {
-    ~forcemove(movecoord(^ikovbridge_zone_lower, 1, 0, abs(calc(coordz(^ikovbridge_zone_lower) - coordz(coord)))));
+    ~forcemove(movecoord(^ikovbridge_zone_lower, 1, 0, abs(sub(coordz(^ikovbridge_zone_lower), coordz(coord)))));
     if(weight >= 0) {
         @ikov_bridgefail;
     }
@@ -117,7 +117,7 @@ if(%ikov_icearrowchest_coord = null) {
     ~randomize_ice_arrow_chest;
 }
 if(%ikov_icearrowchest_coord = loc_coord) {
-    def_int $count = calc(random(5) + 1);
+    def_int $count = add(random(5), 1);
     inv_add(inv, ice_arrow, $count); // 1 - 5 arrows
     sound_synth(found_ice_arrows, 0, 0);
     ~randomize_ice_arrow_chest;

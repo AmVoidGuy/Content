@@ -73,7 +73,7 @@ while($i < inv_size(partyroom_tempinv)) {
     if ($obj ! null) {
         if(inv_itemspace(partyroom_dropinv, $obj, $count, inv_size(partyroom_dropinv)) = ^true) {
             inv_moveitem(partyroom_tempinv, partyroom_dropinv, $obj, $count);
-            wealth_event(^wealth_partyroom, oc_debugname($obj), $count, calc($count * oc_cost($obj)));
+            wealth_event(^wealth_partyroom, oc_debugname($obj), $count, multiply($count, oc_cost($obj)));
             $moveditem = ^true;
         }
     }

@@ -55,7 +55,7 @@ while ($i < db_getfieldcount($effect_data, consume_table:stat_change)) {
         // if hitpoints, damage instead
         if ($stat = hitpoints) {
             // not sure if it uses multiple hit sounds, or if theres a 15 client tick delay
-            def_int $damage = calc(scale(abs($percent), 100, stat(hitpoints)) + abs($constant));
+            def_int $damage = add(scale(abs($percent), 100, stat(hitpoints)), abs($constant));
             ~damage_self($damage);
         } else {
             stat_drain($stat, abs($constant), abs($percent));
@@ -64,13 +64,13 @@ while ($i < db_getfieldcount($effect_data, consume_table:stat_change)) {
         // increase
         stat_boost($stat, $constant, $percent);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 // stat heal
 $i = 0;
 while ($i < db_getfieldcount($effect_data, consume_table:stat_heal)) {
     stat_heal(db_getfield($effect_data, consume_table:stat_heal, $i));
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 // start sound

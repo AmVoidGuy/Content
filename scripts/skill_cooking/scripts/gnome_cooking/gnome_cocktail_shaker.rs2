@@ -70,7 +70,16 @@ def_int $pineapple_count = getbit_range(%gnome_cocktail_bits1, 28, 31);
 def_int $equa_leaves_count = getbit_range(%gnome_cocktail_bits2, 0, 3);
 def_int $bucket_milk_count = getbit_range(%gnome_cocktail_bits2, 4, 7);
 def_int $dwellberry_count = getbit_range(%gnome_cocktail_bits2, 8, 11);
-def_int $total = calc($lemon_count + $orange_count + $pineapple_count + $lime_count + $dwellberry_count + $vodka_count + $gin_count + $brandy_count + $whisky_count + $equa_leaves_count + $bucket_milk_count);
+def_int $total = add($lemon_count, $orange_count);
+$total = add($total, $pineapple_count);
+$total = add($total, $lime_count);
+$total = add($total, $dwellberry_count);
+$total = add($total, $vodka_count);
+$total = add($total, $gin_count);
+$total = add($total, $brandy_count);
+$total = add($total, $whisky_count);
+$total = add($total, $equa_leaves_count);
+$total = add($total, $bucket_milk_count);
 
 %gnome_cocktail_bits1 = clearbit_range(%gnome_cocktail_bits1, 0, 31);
 %gnome_cocktail_bits2 = clearbit_range(%gnome_cocktail_bits2, 0, 31);
@@ -117,7 +126,16 @@ def_int $pineapple_count = getbit_range(%gnome_cocktail_bits1, 28, 31);
 def_int $equa_leaves_count = getbit_range(%gnome_cocktail_bits2, 0, 3);
 def_int $bucket_milk_count = getbit_range(%gnome_cocktail_bits2, 4, 7);
 def_int $dwellberry_count = getbit_range(%gnome_cocktail_bits2, 8, 11);
-def_int $total = calc($lemon_count + $orange_count + $pineapple_count + $lime_count + $dwellberry_count + $vodka_count + $gin_count + $brandy_count + $whisky_count + $equa_leaves_count + $bucket_milk_count);
+def_int $total = add($lemon_count, $orange_count);
+$total = add($total, $pineapple_count);
+$total = add($total, $lime_count);
+$total = add($total, $dwellberry_count);
+$total = add($total, $vodka_count);
+$total = add($total, $gin_count);
+$total = add($total, $brandy_count);
+$total = add($total, $whisky_count);
+$total = add($total, $equa_leaves_count);
+$total = add($total, $bucket_milk_count);
 return(sub(15, $total));
 
 [proc,gnome_cocktail_ingredients_display]()
@@ -133,7 +151,16 @@ def_int $equa_leaves_count = getbit_range(%gnome_cocktail_bits2, 0, 3);
 def_int $bucket_milk_count = getbit_range(%gnome_cocktail_bits2, 4, 7);
 def_int $dwellberry_count = getbit_range(%gnome_cocktail_bits2, 8, 11);
 
-def_int $total = calc($lemon_count + $orange_count + $pineapple_count + $lime_count + $dwellberry_count + $vodka_count + $gin_count + $brandy_count + $whisky_count + $equa_leaves_count + $bucket_milk_count);
+def_int $total = add($lemon_count, $orange_count);
+$total = add($total, $pineapple_count);
+$total = add($total, $lime_count);
+$total = add($total, $dwellberry_count);
+$total = add($total, $vodka_count);
+$total = add($total, $gin_count);
+$total = add($total, $brandy_count);
+$total = add($total, $whisky_count);
+$total = add($total, $equa_leaves_count);
+$total = add($total, $bucket_milk_count);
 
 if ($total = 0) {
     ~mesbox("The cocktail shaker is empty.");

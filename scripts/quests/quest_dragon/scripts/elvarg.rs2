@@ -99,8 +99,8 @@ def_int $damage = randominc($maxhit);
 // not sure if this was a thing, but this video has it https://youtu.be/ucaYfz3ihWs?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=130
 stat_drain(prayer, 0, 10); // 10%
 
-queue(combat_damage_player, calc($duration / 30), $damage);
-queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
+queue(combat_damage_player, divide($duration, 30), $damage);
+queue*(playerhit_n_retaliate, divide($duration, 30))(npc_uid);
 ~npc_set_attack_vars;
 
 

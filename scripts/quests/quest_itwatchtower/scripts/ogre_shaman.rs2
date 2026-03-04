@@ -34,8 +34,8 @@ if(last_useitem = magic_ogre_potion) {
     if($current_kills >= 6) {
         return;
     }
-    %itwatchtower_bits = setbit_range_toint(%itwatchtower_bits, calc($current_kills + 1), ^itwatchtower_shaman_kills_lower, ^itwatchtower_shaman_kills_upper);
-    switch_int(calc($current_kills + 1)) {
+    %itwatchtower_bits = setbit_range_toint(%itwatchtower_bits, add($current_kills, 1), ^itwatchtower_shaman_kills_lower, ^itwatchtower_shaman_kills_upper);
+    switch_int(add($current_kills, 1)) {
         case 1 : ~chatplayer("<p,happy>That's one destroyed...");
         case 2 : ~chatplayer("<p,happy>That's the second one gone...");
         case 3 : ~chatplayer("<p,happy>That's the next one dealt with...");

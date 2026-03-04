@@ -251,7 +251,7 @@ if ($bar = gold_bar) {
     // No message for perfect gold items https://youtu.be/e8btuenT4nE?t=729
     mes("You make <~add_article(lowercase(oc_name($product)))>.");
 }
-$count = calc($count - 1);
+$count = sub($count, 1);
 if ($count < 1) {
     return;
 }
@@ -334,7 +334,7 @@ mes("You make <~add_article(struct_param($struct, name))>");
 // inv_add(inv, $product, 1);
 // stat_advance(crafting, $productexp);
 
-// $count = calc($count - 1);
+// $count = sub($count, 1);
 // if ($count < 1) {
 //     return;
 // }

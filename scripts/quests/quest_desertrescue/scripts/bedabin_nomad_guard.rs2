@@ -7,7 +7,7 @@ if(%desertrescue >= ^desertrescue_given_pineapple) {
     if(coord ! 0_49_47_33_37) {
         def_int $dist = distance(coord, 0_49_47_33_37);
         ~forcewalk(0_49_47_33_37);
-        p_delay(max(0, calc(3 - $dist)));
+        p_delay(max(0, sub(3, $dist)));
     }
     // Temp note: dur updated
     if(loc_find(0_49_47_33_38, bedabin_tentdoor) = ^true) loc_change(bedabin_tentdoor_open, 3);
@@ -30,7 +30,7 @@ if(%desertrescue >= ^desertrescue_given_pineapple) {
         if(coord ! 0_49_47_33_37) {
             def_int $dist = distance(coord, 0_49_47_33_37);
             ~forcewalk(0_49_47_33_37);
-            p_delay(max(0, calc(3 - $dist)));
+            p_delay(max(0, sub(3, $dist)));
         }
         // Temp note: dur updated
         if(loc_find(0_49_47_33_38, bedabin_tentdoor) = ^true) loc_change(bedabin_tentdoor_open, 3);

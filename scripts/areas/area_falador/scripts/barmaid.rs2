@@ -43,7 +43,7 @@ if($option = 1) {
     //cam_lookat(0_45_52_32_0, 0, 0, 0);
     //cam_moveto(0_45_52_32_0, 0, 0, 0);
     cam_reset;
-    ~damage_self(calc((stat(hitpoints) * 5) / 100));
+    ~damage_self(divide(multiply(stat(hitpoints), 5), 100));
 }
 
 [label,risingsun_barmaid_what_ales]

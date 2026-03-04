@@ -169,7 +169,7 @@ while ($slot < $size) {
         if (oc_stackable($obj) = ^true) {
             def_int $total = .inv_total(inv, $obj);
             if ($total > 0) {
-                if (calc(^max_32bit_int - $total - inv_getnum(tradeoffer, $slot)) < 0) {
+                if (sub(sub(^max_32bit_int, $total), inv_getnum(tradeoffer, $slot)) < 0) {
                     return(^false);
                 }
             } else {
@@ -199,7 +199,7 @@ while ($slot < $size) {
         if (oc_stackable($obj) = ^true) {
             def_int $total = inv_total(inv, $obj);
             if ($total > 0) {
-                if (calc(^max_32bit_int - $total - .inv_getnum(tradeoffer, $slot)) < 0) {
+                if (sub(sub(^max_32bit_int, $total), .inv_getnum(tradeoffer, $slot)) < 0) {
                     return(^false);
                 }
             } else {

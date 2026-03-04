@@ -70,7 +70,7 @@ while ($i < $size) {
             mes(oc_param(inv_getobj(inv, $i), lose_cape_message));
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 $i = 0;
@@ -81,7 +81,7 @@ while ($i < $size) {
             mes(oc_param(inv_getobj(worn, $i), lose_cape_message));
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 inv_dropall(inv, coord, ^lootdrop_duration);
@@ -120,7 +120,7 @@ while ($i < $size) {
             both_dropslot(inv, coord, $i, ^lootdrop_duration);
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 $i = 0;
@@ -134,7 +134,7 @@ while ($i < $size) {
             both_dropslot(worn, coord, $i, ^lootdrop_duration);
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 .obj_add(coord, bones, 1, ^lootdrop_duration);
 ~moveallinv(deathkeep, inv);
@@ -159,7 +159,7 @@ while ($i < $size_inv) {
             }
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 $i = 0;
 while ($i < $size_worn) {
@@ -173,7 +173,7 @@ while ($i < $size_worn) {
             }
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 if($priciest_item = null ) {

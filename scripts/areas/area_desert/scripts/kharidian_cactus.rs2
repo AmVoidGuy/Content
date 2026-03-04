@@ -59,7 +59,7 @@ if (stat_random(woodcutting, 30, 253) = ^true) {
                 inv_setslot(inv, $count, water_skin4, 1);
                 $count = 100;
             }
-            $count = calc($count + 1);
+            $count = add($count, 1);
         }
     } else {
         mes("You have no empty waterskins to put the water in.");

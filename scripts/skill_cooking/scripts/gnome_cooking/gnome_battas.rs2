@@ -59,7 +59,18 @@ def_int $gnome_spice_count = getbit_range(%gnome_batta_bits2, 8, 11);
 def_int $toad_legs_count = getbit_range(%gnome_batta_bits2, 12, 15);
 def_int $king_worm_count = getbit_range(%gnome_batta_bits2, 16, 19);
 
-def_int $total = calc($spicy_worm_count + $cheese_count + $seasoned_toad_legs_count + $tomato_count + $equa_leaves_count + $onion_count + $cabbage_count + $dwellberry_count + $chocolate_bar_count + $potato_count + $gnome_spice_count + $toad_legs_count + $king_worm_count);
+def_int $total = add($spicy_worm_count, $cheese_count);
+$total = add($total, $seasoned_toad_legs_count);
+$total = add($total, $tomato_count);
+$total = add($total, $equa_leaves_count);
+$total = add($total, $onion_count);
+$total = add($total, $cabbage_count);
+$total = add($total, $dwellberry_count);
+$total = add($total, $chocolate_bar_count);
+$total = add($total, $potato_count);
+$total = add($total, $gnome_spice_count);
+$total = add($total, $toad_legs_count);
+$total = add($total, $king_worm_count);
 
 %gnome_batta_bits1 = clearbit_range(%gnome_batta_bits1, 0, 31);
 %gnome_batta_bits2 = clearbit_range(%gnome_batta_bits2, 0, 31);
@@ -101,7 +112,18 @@ def_int $gnome_spice_count = getbit_range(%gnome_batta_bits2, 8, 11);
 def_int $toad_legs_count = getbit_range(%gnome_batta_bits2, 12, 15);
 def_int $king_worm_count = getbit_range(%gnome_batta_bits2, 16, 19);
 
-def_int $total = calc($spicy_worm_count + $cheese_count + $seasoned_toad_legs_count + $tomato_count + $equa_leaves_count + $onion_count + $cabbage_count + $dwellberry_count + $chocolate_bar_count + $potato_count + $gnome_spice_count + $toad_legs_count + $king_worm_count);
+def_int $total = add($spicy_worm_count, $cheese_count);
+$total = add($total, $seasoned_toad_legs_count);
+$total = add($total, $tomato_count);
+$total = add($total, $equa_leaves_count);
+$total = add($total, $onion_count);
+$total = add($total, $cabbage_count);
+$total = add($total, $dwellberry_count);
+$total = add($total, $chocolate_bar_count);
+$total = add($total, $potato_count);
+$total = add($total, $gnome_spice_count);
+$total = add($total, $toad_legs_count);
+$total = add($total, $king_worm_count);
 
 return(sub(15, $total));
 
@@ -120,7 +142,18 @@ def_int $gnome_spice_count = getbit_range(%gnome_batta_bits2, 8, 11);
 def_int $toad_legs_count = getbit_range(%gnome_batta_bits2, 12, 15);
 def_int $king_worm_count = getbit_range(%gnome_batta_bits2, 16, 19);
 
-def_int $total = calc($spicy_worm_count + $cheese_count + $seasoned_toad_legs_count + $tomato_count + $equa_leaves_count + $onion_count + $cabbage_count + $dwellberry_count + $chocolate_bar_count + $potato_count + $gnome_spice_count + $toad_legs_count + $king_worm_count);
+def_int $total = add($spicy_worm_count, $cheese_count);
+$total = add($total, $seasoned_toad_legs_count);
+$total = add($total, $tomato_count);
+$total = add($total, $equa_leaves_count);
+$total = add($total, $onion_count);
+$total = add($total, $cabbage_count);
+$total = add($total, $dwellberry_count);
+$total = add($total, $chocolate_bar_count);
+$total = add($total, $potato_count);
+$total = add($total, $gnome_spice_count);
+$total = add($total, $toad_legs_count);
+$total = add($total, $king_worm_count);
 
 if ($total = 0) {
     ~mesbox("The half baked batta is completely plain.");

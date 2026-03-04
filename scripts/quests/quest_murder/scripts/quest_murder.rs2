@@ -325,7 +325,7 @@ mes(oc_param($flour_obj, game_message2));
 
 [label,check_murderer_print](obj $checked_print)
 def_string $print_name = oc_name($checked_print);
-def_string $murderer_name = substring($print_name, 0, calc(string_indexof_char($print_name, ' ') - 2));
+def_string $murderer_name = substring($print_name, 0, sub(string_indexof_char($print_name, ' '), 2));
 if(oc_param($checked_print, murder_id_value) = %murdersus) {
     mes("The finger prints are an exact match to <$murderer_name>'s.");
     %murder_evidence = setbit(%murder_evidence, ^murder_found_fingerprints);

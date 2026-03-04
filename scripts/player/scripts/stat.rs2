@@ -39,7 +39,7 @@ while ($i <= enum_getoutputcount(stats)) {
         stat_add($stat, 1, 0);
     }
 
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [timer,stat_boost_restore]
@@ -52,7 +52,7 @@ while ($i <= enum_getoutputcount(stats)) {
         stat_sub($stat, 1, 0);
     }
 
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 //hp is on a seperate timer, because of rapid heal and rapid restore
@@ -72,7 +72,7 @@ if ($d > 0) {
 def_int $i = 1;
 while ($i <= enum_getoutputcount(stats)) {
     ~stat_reset(enum(int, stat, stats, $i));
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [proc,.stat_reset](stat $stat)
@@ -88,7 +88,7 @@ if ($d > 0) {
 def_int $i = 1;
 while ($i <= enum_getoutputcount(stats)) {
     ~.stat_reset(enum(int, stat, stats, $i));
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [proc,stat_reset_boosts]
@@ -98,7 +98,7 @@ while ($i <= enum_getoutputcount(stats)) {
     if (stat($stat) > stat_base($stat)) {
         ~stat_reset($stat);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [proc,.stat_reset_boosts]
@@ -108,7 +108,7 @@ while ($i <= enum_getoutputcount(stats)) {
     if (.stat($stat) > .stat_base($stat)) {
         ~.stat_reset($stat);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [proc,random_stat]()(stat)
@@ -129,5 +129,5 @@ while ($i <= enum_getoutputcount(stats)) {
     if (stat($stat) > stat_base($stat) & $stat ! prayer & $stat ! smithing & $stat ! mining) {
         ~stat_reset($stat);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }

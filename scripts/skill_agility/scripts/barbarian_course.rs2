@@ -12,7 +12,7 @@ if(coordz(coord) < coordz($start_pos)) {
 p_delay(0);
 if(stat_random(agility, 200, 280) = ^false) {
     // todo: actual rates (same for every other fail on this course)
-    ~agility_instant_fail(0_39_155_54_29, calc(((stat(hitpoints) * 15) / 100) + 1), "You slip and fall to the pit below.");
+    ~agility_instant_fail(0_39_155_54_29, add(divide(multiply(stat(hitpoints), 15), 100), 1), "You slip and fall to the pit below.");
     p_teleport(movecoord(coord, 1, 0, -1));
     return;
 }
@@ -21,7 +21,7 @@ if(%barb_ropeswing_used >= map_clock) {
     ~mesbox("The rope swing is being used");
     return;
 }
-%barb_ropeswing_used = calc(map_clock + 3);
+%barb_ropeswing_used = add(map_clock, 3);
 if($delay > 0) p_delay($delay);
 loc_anim(ropeswing_long);
 ~agility_exactmove(human_ropeswing_long, 20, 0, $start_pos, movecoord($start_pos, 0, 0, -5), 45, 70, ^exact_south, ^false);
@@ -50,7 +50,7 @@ if(stat_random(agility, 180, 260) = ^false) {
     p_delay(0);
     ~forcemove(movecoord(coord, 0, 0, -1));
     ~update_bas;
-    ~damage_self(calc(((stat(hitpoints) * 9) / 100) + 1));
+    ~damage_self(add(divide(multiply(stat(hitpoints), 9), 100), 1));
     return;
 }
 ~forcemove(movecoord(coord, -3, 0, 0));
@@ -82,7 +82,7 @@ if(stat_random(agility, 200, 280) = ^false) {
     p_delay(0);
     ~update_bas;
     p_telejump(movecoord(coord, 0, -1, -1));
-    ~damage_self(calc(((stat(hitpoints) * 15) / 100) + 1));
+    ~damage_self(add(divide(multiply(stat(hitpoints), 15), 100), 1));
     p_delay(0);
     return;
 }
@@ -128,13 +128,13 @@ if(%barb_obstacle_pipe_used >= map_clock) {
     mes("The pipe is being used"); // todo: confirm, using the same as gnome course
     return;
 }
-%barb_obstacle_pipe_used = calc(map_clock + 4);
+%barb_obstacle_pipe_used = add(map_clock, 4);
 ~agility_exactmove(human_doublepipesqueeze, 30, 3, $start_coord, movecoord($start_coord, 0, 0, $dist), 30, 126, $dir, ^true);
 stat_advance(agility, 100);
 p_delay(0);
 
 [proc,update_barbarian_varp](int $completed)
-if(calc(%barbarian_course_progress + 1) >= $completed) {
+if(add(%barbarian_course_progress, 1) >= $completed) {
     %barbarian_course_progress = $completed;
 }
 if(%barbarian_course_progress = 5) {

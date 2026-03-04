@@ -9,7 +9,7 @@ while ($i < inv_size($inv)) {
             return;
         }
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 // checks every slot in a given inventory and returns a string of all items within
@@ -219,11 +219,11 @@ while ($i < enum_getoutputcount($enum)) {
 return($space_needed);
 
 [proc,obj_gettotal](obj $obj)(int)
-def_int $total = calc(inv_total(inv, $obj) + inv_total(bank, $obj) + inv_total(worn, $obj));
+def_int $total = add(add(inv_total(inv, $obj), inv_total(bank, $obj)), inv_total(worn, $obj));
 return($total);
 
 [proc,obj_gettotalcat](category $obj_cat)(int)
-def_int $total = calc(inv_totalcat(inv, $obj_cat) + inv_totalcat(bank, $obj_cat) + inv_totalcat(worn, $obj_cat));
+def_int $total = add(add(inv_totalcat(inv, $obj_cat), inv_totalcat(bank, $obj_cat)), inv_totalcat(worn, $obj_cat));
 return($total);
 
 [proc,inv_slotspace](inv $from_inv, inv $to_inv, enum $slots)(int)

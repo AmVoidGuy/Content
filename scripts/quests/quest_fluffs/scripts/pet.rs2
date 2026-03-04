@@ -20,7 +20,7 @@ if (npc_finduid(%follower_uid) = ^true) {
     }
     def_int $growth = getbit_range(%cat_growth, 11, 19); //growth       (0-120-320)
     npc_say("Meow!"); //done every 90s, no random chance
-    %cat_growth = setbit_range_toint(%cat_growth, min(320,max(calc($growth + 1),-1)), 11, 19);
+    %cat_growth = setbit_range_toint(%cat_growth, min(320,max(add($growth, 1),-1)), 11, 19);
     if ($cat_cat = cat) {
         @cat_growth;
     }
@@ -55,7 +55,7 @@ if (getbit_range(%cat_growth, 11, 19) = 120) {
     ~mesbox("Your kitten has grown into a healthy cat,|that can hunt for itself."); //imgur.com/ni0BBTb
     return;
 }
-%cat_growth = setbit_range_toint(%cat_growth, calc($hunger + 1), 0, 4);
+%cat_growth = setbit_range_toint(%cat_growth, add($hunger, 1), 0, 4);
 switch_int (getbit_range(%cat_growth, 0, 4)) {
     case 16 :
         npc_say("Miaow!");
@@ -68,7 +68,7 @@ switch_int (getbit_range(%cat_growth, 0, 4)) {
         ~follower_death;
 }
 
-%cat_growth = setbit_range_toint(%cat_growth, calc($attent + 1), 5, 10);
+%cat_growth = setbit_range_toint(%cat_growth, add($attent, 1), 5, 10);
 switch_int (getbit_range(%cat_growth, 5, 10)) {
     case 40 :
         npc_say("Purr...");
@@ -206,7 +206,7 @@ if (.npc_find(coord, rat, 10, 1) = ^true) {
     .npc_del;
     npc_say("MeeeoooooW!");
     say("Hey well done kitty, you got it!"); //"kitty" guessed
-    %cat_growth = setbit_range_toint(%cat_growth, min(100,max(calc($vermin + 1),-1)), 20, 26);
+    %cat_growth = setbit_range_toint(%cat_growth, min(100,max(add($vermin, 1),-1)), 20, 26);
 } else {
     mes("There aren't any rats or mice around."); // 2004 https://youtu.be/HQEpeWAUMbI?t=21
 }

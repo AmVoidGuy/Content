@@ -249,7 +249,7 @@ if (~player_in_fire_octagram = ^true) {
             p_delay(1);
             p_teleport(movecoord(coord, 0, 0, 2));
             // TODO: merge main and change these to use stat_drain
-            ~damage_self(calc(stat(hitpoints) / 10));
+            ~damage_self(divide(stat(hitpoints), 10));
             stat_sub(attack, 0, 10);
             stat_sub(strength, 0, 10);
             stat_sub(defence, 0, 10);
@@ -258,7 +258,7 @@ if (~player_in_fire_octagram = ^true) {
             mes("But get severely burned as you jump across the flames...");
             p_delay(1);
             p_teleport(movecoord(coord, 0, 0, 2));
-            ~damage_self(calc(stat(hitpoints) / 2));
+            ~damage_self(divide(stat(hitpoints), 2));
             stat_sub(attack, 0, 50);
             stat_sub(strength, 0, 50);
             stat_sub(defence, 0, 50);
@@ -886,7 +886,7 @@ def_coord $start_coord = coord;
 def_coord $middle = 0_43_145_12_16;
 anim(human_blown_middle, 30);
 // https://youtu.be/uF1a9xsV7zo?si=T6uQtmCzRTq_KGfD&t=1481 exactmove jank for longer dist is authentic
-p_exactmove($start_coord, $middle, 31, calc(31 + (14 * distance($start_coord, $middle))), ^exact_north);
+p_exactmove($start_coord, $middle, 31, add(31, multiply(14, distance($start_coord, $middle))), ^exact_north);
 p_delay(divide(distance($start_coord, $middle), 2));
 anim(null, 0);
 ~set_walkbas(human_blown_end_getup);
@@ -906,7 +906,7 @@ while ($i < $gem_count) {
     def_namedobj $gem = db_getfield($data, legends_gem_data:gem_named, 0);
     def_coord $rock_coord = db_getfield($data, legends_gem_data:rock_coord, 0);
     if(obj_find($rock_coord, $gem) = ^false) obj_add($rock_coord, $gem, 1, 30);
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 world_delay(1);
 $i = 0;
@@ -923,7 +923,7 @@ while($i < 13) {
     ~coord_projectile(^legends_diamond_coord, 0_43_145_13_17, shooting_star, 48, 0, 46, 45, 10, 45, 10);
     ~coord_projectile(^legends_ruby_coord, 0_43_145_13_17, shooting_star, 48, 0, 46, 45, 10, 45, 10);
     ~coord_projectile(^legends_emerald_coord, 0_43_145_13_17, shooting_star, 48, 0, 46, 45, 10, 45, 10);
-    $i = calc($i + 1);
+    $i = add($i, 1);
     if($i = 13 & finduid(uid) = ^true) {
         mes("...Strangely a book appears near the middle of the room.");
         obj_add(0_43_145_13_17, book_of_binding, 1, 500); // lasts 500t
@@ -1585,7 +1585,7 @@ if(testbit(%legends_bits, ^legends_drank_bravery_potion) = ^true) {
         mes("You slip off the rope and fall...");
         p_delay(1);
         say("Ahhhhhhhhhhhh!");
-        queue(damage_player, 0, calc(stat_base(hitpoints) / 3));
+        queue(damage_player, 0, divide(stat_base(hitpoints), 3));
     } else {
         mes("And although fear stabs at your heart.");
         say("Gulp!");
@@ -1880,9 +1880,9 @@ p_teleport(movecoord(loc_coord, 0, 0, -1));
 @legends_furnace_pieces(^true);
 
 [label,legends_furnace_pieces](int $searching)
-def_int $total = calc(getbit_range(%legends_bits, ^legends_smelting_chunk, ^legends_smelting_chunk) 
-                        + getbit_range(%legends_bits, ^legends_smelting_hunk, ^legends_smelting_hunk) 
-                        + getbit_range(%legends_bits, ^legends_smelting_lump, ^legends_smelting_lump));
+def_int $total = add(add(getbit_range(%legends_bits, ^legends_smelting_chunk, ^legends_smelting_chunk) 
+                        , getbit_range(%legends_bits, ^legends_smelting_hunk, ^legends_smelting_hunk)) 
+                        , getbit_range(%legends_bits, ^legends_smelting_lump, ^legends_smelting_lump));
 if($total = 0) {
     ~mesbox("The compartment in the furnace looks like it should hold something.|It's divided into three seperate sections.");
 } else if($total = 1) {

@@ -89,7 +89,7 @@ switch_int(~p_choice4("Fletching.", 1, "Agility.", 2, "Smithing.", 3, "Thieving"
         stat_advance(thieving, 46500);
         mes("You advance your stat in Thieving.");
 }
-%desertrescue = calc(%desertrescue + 1);
+%desertrescue = add(%desertrescue, 1);
 @irena_checkrewards;
 
 [label,irena_checkrewards]

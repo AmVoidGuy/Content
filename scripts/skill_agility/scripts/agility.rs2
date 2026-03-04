@@ -10,8 +10,8 @@ p_telejump($coord);
 // same as an exactmove 
 [proc,agility_force_move](int $xp, seq $walk_seq, coord $dest)
 ~set_forcemove_bas($walk_seq);
-def_int $change_x = calc(coordx($dest) - coordx(coord));
-def_int $change_z = calc(coordz($dest) - coordz(coord));
+def_int $change_x = sub(coordx($dest), coordx(coord));
+def_int $change_z = sub(coordz($dest), coordz(coord));
 ~agility_walk($change_x, $change_z, ^true);
 stat_advance(agility, $xp);
 
@@ -35,8 +35,8 @@ if ($change_z >= 1) {
 // Perform movement and re-calc
 def_coord $movement_coord = movecoord(coord, $move_x, 0, $move_z);
 p_teleport(movecoord(coord, $move_x, 0, $move_z));
-$change_x = calc($change_x - $move_x);
-$change_z = calc($change_z - $move_z);
+$change_x = sub($change_x, $move_x);
+$change_z = sub($change_z, $move_z);
 p_stopaction;
 p_delay(0);
 // recursive call
@@ -83,8 +83,8 @@ if($move_x = 0 & $move_z = 0) { // no possible movement
 // Perform movement and re-calc
 def_coord $movement_coord = movecoord(coord, $move_x, 0, $move_z);
 p_teleport(movecoord(coord, $move_x, 0, $move_z));
-$change_x = calc($change_x - $move_x);
-$change_z = calc($change_z - $move_z);
+$change_x = sub($change_x, $move_x);
+$change_z = sub($change_z, $move_z);
 p_stopaction;
 p_delay(0);
 // recursive call
@@ -122,14 +122,14 @@ if (stat(hitpoints) = 0){
 // Forces the player to walk to a certain coord. Basically p_teleport but doesnt telejump from a distance.
 // doesnt respect clipping
 [proc,forcemove](coord $dest_coord)
-def_int $change_x = calc(coordx($dest_coord) - coordx(coord));
-def_int $change_z = calc(coordz($dest_coord) - coordz(coord));
+def_int $change_x = sub(coordx($dest_coord), coordx(coord));
+def_int $change_z = sub(coordz($dest_coord), coordz(coord));
 ~agility_walk($change_x, $change_z, ^false);
 
 // does a delayed walk to a certain coord using p_teleport (we can't use p_walk for this)
 [proc,forcewalk](coord $dest_coord)(int)
-def_int $change_x = calc(coordx($dest_coord) - coordx(coord));
-def_int $change_z = calc(coordz($dest_coord) - coordz(coord));
+def_int $change_x = sub(coordx($dest_coord), coordx(coord));
+def_int $change_z = sub(coordz($dest_coord), coordz(coord));
 ~clipped_telewalk($change_x, $change_z);
 
 // forces the player to delayed "walk" to a certain coord, used for agility obstacle setups

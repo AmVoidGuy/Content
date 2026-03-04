@@ -108,7 +108,7 @@ if(%itwatchtower >= ^itwatchtower_complete) {
     ~chatnpc("<p,happy>Ah, master.|You did well to understand our language.");
     return;
 }
-if(getbit_range(%itwatchtower_bits, ^itwatchtower_learning_skavid, ^itwatchtower_learned_nod) = calc(pow(2, 5) - 1)) {
+if(getbit_range(%itwatchtower_bits, ^itwatchtower_learning_skavid, ^itwatchtower_learned_nod) = sub(pow(2, 5), 1)) {
     ~chatnpc("<p,happy>Master, my kinsmen tell me you have learned skavid.|You should speak to the mad ones in their cave.");
     return;
 } 
@@ -162,7 +162,7 @@ if(%itwatchtower >= ^itwatchtower_skavid_crystal) {
     }
     return;
 }
-if(getbit_range(%itwatchtower_bits, ^itwatchtower_learning_skavid, ^itwatchtower_learned_nod) = calc(pow(2, 5) - 1)) {
+if(getbit_range(%itwatchtower_bits, ^itwatchtower_learning_skavid, ^itwatchtower_learned_nod) = sub(pow(2, 5), 1)) {
     def_int $mes_type = random(3);
     switch_int($mes_type) {
         case 0 : ~chatnpc("<p,bored>Ar cur...");

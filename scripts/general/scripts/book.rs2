@@ -42,7 +42,7 @@ def_int $page = 0;
 def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~book_page($title, $page);
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,book_page](string $title, int $page)

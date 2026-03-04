@@ -56,7 +56,7 @@ if (%action_delay < map_clock) {
     if ($level > 0 & ~woodcutting_axe_checker(^true) = null) {
         return;
     }
-    %action_delay = calc(map_clock + 3);
+    %action_delay = add(map_clock, 3);
     p_oploc(1);
     return;
 }
@@ -106,7 +106,7 @@ if (inv_freespace(inv) < 1) {
 }
 
 if (%action_delay < map_clock) {
-    %action_delay = calc(map_clock + 3);
+    %action_delay = add(map_clock, 3);
 } else if (%action_delay = map_clock) {
     anim(oc_param($axe, woodcutting_anim), 0);
     @get_logs($data, $axe);
@@ -198,7 +198,7 @@ if ($print_mes = ^true) {
 return(null);
 
 [proc,woodcutting_successchance](dbrow $data, obj $axe)(int, int)
-def_int $count = calc(db_getfieldcount($data, woodcutting_trees:successchance) - 1);
+def_int $count = sub(db_getfieldcount($data, woodcutting_trees:successchance), 1);
 while ($count >= 0) {
     def_obj $db_axe;
     def_int $tree_chance_low;
@@ -207,7 +207,7 @@ while ($count >= 0) {
     if ($db_axe = $axe) {
         return($tree_chance_low, $tree_chance_high);
     } else {
-        $count = calc($count - 1);
+        $count = sub($count, 1);
     }
 }
 return(null, null);

@@ -40,7 +40,7 @@ if($vial_count > 0) {
     } else if($vial_count = 4) {
         $op = ~p_choice3("Enchant 1 Vial", 1, "Enchant 2 Vials", 2, "Enchant 4 Vials", 4);
     } else if($vial_count >= 3) {
-        def_int $count2 = calc(($vial_count / 2) + 1);
+        def_int $count2 = add(divide($vial_count, 2), 1);
         $op = ~p_choice3("Enchant 1 Vial", 1, "Enchant <tostring($count2)> Vials", $count2, "Enchant <tostring($vial_count)> Vials", $vial_count);
     }
     @enchant_vials($op);
@@ -53,11 +53,11 @@ if($vial_count > 0) {
 
 [label,enchant_vials](int $count)
 if_close;
-$count = min($count, min(calc((stat(prayer) - 5) / 5), calc((stat(magic) - 5) / 5)));
+$count = min($count, min(divide(sub(stat(prayer), 5), 5), divide(sub(stat(magic), 5), 5)));
 anim(human_casting, 0);
 p_delay(0);
-stat_sub(prayer, calc(5 * $count), 0);
-stat_sub(magic, calc(5 * $count), 0);
+stat_sub(prayer, multiply(5, $count), 0);
+stat_sub(magic, multiply(5, $count), 0);
 inv_del(inv, vial_empty, $count);
 inv_add(inv, vial_enchanted, $count);
 def_string $text = "some vials";
@@ -70,7 +70,7 @@ def_int $page = 0;
 def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~book_activus_page($title, $page);
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,book_activus_page](string $title, int $page)

@@ -21,10 +21,10 @@ if ($amount = 1) {
 }
 
 [proc,string_right](string $string, int $amount)(string)
-return (substring($string, calc(string_length($string) - $amount), string_length($string)));
+return (substring($string, sub(string_length($string), $amount), string_length($string)));
 
 [proc,string_removeright](string $string, int $amount)(string)
-return (substring($string, 0, calc(string_length($string) - $amount)));
+return (substring($string, 0, sub(string_length($string), $amount)));
 
 [proc,string_left](string $string, int $amount)(string)
 return (substring($string, 0, $amount));

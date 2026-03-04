@@ -125,22 +125,22 @@ def_coord $npc_coord = movecoord(npc_coord, 2, 0, 2);
 def_coord $player_coord = coord;
 def_coord $projectile_coord;
 
-def_int $z = calc(coordz($npc_coord) - coordz($player_coord));
-def_int $x = calc(coordx($npc_coord) - coordx($player_coord));
+def_int $z = sub(coordz($npc_coord), coordz($player_coord));
+def_int $x = sub(coordx($npc_coord), coordx($player_coord));
 // do corners first
-if (calc($z / 2) <= $x & calc($x / 2) <= $z) { // south-west
+if (divide($z, 2) <= $x & divide($x, 2) <= $z) { // south-west
     $projectile_coord = movecoord($npc_coord, -1, 0, -1);
-} else if (calc($z / 2) <= multiply($x, -1) & calc($x / 2) >= multiply($z, -1)) { // south-east
+} else if (divide($z, 2) <= multiply($x, -1) & divide($x, 2) >= multiply($z, -1)) { // south-east
     $projectile_coord = movecoord($npc_coord, 1, 0, -1);
-} else if (calc($x / 2) >= $z & calc($z / 2) >= $x) { // north-east
+} else if (divide($x, 2) >= $z & divide($z, 2) >= $x) { // north-east
     $projectile_coord = movecoord($npc_coord, 1, 0, 1);
-} else if (calc($z / 2) >= multiply($x, -1) & calc($z / 2 * -1) >= $x) { // north-west
+} else if (divide($z, 2) >= multiply($x, -1) & multiply(divide($z, 2), -1) >= $x) { // north-west
     $projectile_coord = movecoord($npc_coord, -1, 0, 1);
-} else if (calc($x / 2) <= $z & calc($z / 2) >= $x) { // south
+} else if (divide($x, 2) <= $z & divide($z, 2) >= $x) { // south
     $projectile_coord = movecoord($npc_coord, 0, 0, -1);
-}  else if (calc($x / 2) <= $z & calc($x / 2) <= multiply($z, -1)) { // east
+}  else if (divide($x, 2) <= $z & divide($x, 2) <= multiply($z, -1)) { // east
     $projectile_coord = movecoord($npc_coord, 1, 0, 0);
-} else if (calc($z / 2) <= $x & calc($z / 2 * -1) >= $x) { // north
+} else if (divide($z, 2) <= $x & multiply(divide($z, 2), -1) >= $x) { // north
     $projectile_coord = movecoord($npc_coord, 0, 0, 1);
 } else { // west
     $projectile_coord = movecoord($npc_coord, -1, 0, 0);
@@ -162,8 +162,8 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
         mes("You're horribly burnt by the dragon's fiery breath!"); // https://youtu.be/R3ozXHcQkgs?list=PLn23LiLYLb1bYAFU3Vdk3N9niuHs-b-4-&t=78
     }
 }
-queue(combat_damage_player, calc($duration / 30), $damage);
-queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
+queue(combat_damage_player, divide($duration, 30), $damage);
+queue*(playerhit_n_retaliate, divide($duration, 30))(npc_uid);
 ~npc_set_attack_vars;
 // ------------
 
@@ -257,7 +257,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
             if ($stat ! hitpoints) {
                 stat_sub($stat, 2, 0);
             }
-            $i = calc($i + 1);
+            $i = add($i, 1);
         }
     }
 }
@@ -302,7 +302,7 @@ queue*(playerhit_n_retaliate, 0)(npc_uid);
 
 [queue,kbd_freeze_player](int $duration)
 mes("You've been frozen!");
-%frozen = calc(map_clock + $duration + 1);
+%frozen = add(add(map_clock, $duration), 1);
 walktrigger(kbd_frozen);
 
 [walktrigger,kbd_frozen]

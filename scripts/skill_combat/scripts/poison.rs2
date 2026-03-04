@@ -23,11 +23,11 @@ if (%poison = 0) {
     return;
 }
 else if(%poison < 0){
-    %poison = calc(%poison + 1);
+    %poison = add(%poison, 1);
     return;
 }
-queue(poison_damage,0,calc((%poison + 4)/5));
-%poison = calc(%poison - 1);
+queue(poison_damage,0,divide(add(%poison, 4),5));
+%poison = sub(%poison, 1);
 
 [queue,poison_damage](int $damage)
 if (stat(hitpoints) < 1) {

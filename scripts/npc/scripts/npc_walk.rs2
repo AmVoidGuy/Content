@@ -1,6 +1,6 @@
 [proc,npc_forcewalk](coord $dest)
-def_int $change_x = calc(coordx($dest) - coordx(npc_coord));
-def_int $change_z = calc(coordz($dest) - coordz(npc_coord));
+def_int $change_x = sub(coordx($dest), coordx(npc_coord));
+def_int $change_z = sub(coordz($dest), coordz(npc_coord));
 ~npc_telewalk($change_x, $change_z);
 
 // agility_walk for npcs
@@ -23,8 +23,8 @@ if ($change_z >= 1) {
 // Perform movement and re-calc
 def_coord $movement_coord = movecoord(npc_coord, $move_x, 0, $move_z);
 npc_tele(movecoord(npc_coord, $move_x, 0, $move_z));
-$change_x = calc($change_x - $move_x);
-$change_z = calc($change_z - $move_z);
+$change_x = sub($change_x, $move_x);
+$change_z = sub($change_z, $move_z);
 npc_delay(0);
 // recursive call
 ~npc_telewalk($change_x, $change_z);

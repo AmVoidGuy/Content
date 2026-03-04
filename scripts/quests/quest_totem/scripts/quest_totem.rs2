@@ -65,7 +65,7 @@ if_settext(tribal_door2:com_45, enum(int, string, alphabet, 0));
 if_settext(tribal_door2:com_46, enum(int, string, alphabet, 0));
 
 [proc,calc_tribaldoor_value](int $current, int $change)(int)
-def_int $stage = calc($current + $change);
+def_int $stage = add($current, $change);
 if($stage > 25) {
     $stage = 0;
 } else if ($stage < 0) {
@@ -74,12 +74,12 @@ if($stage > 25) {
 return ($stage);
 
 [proc,get_tribal_door_lock](int $lock_index)(int)
-return (getbit_range(%handelmort_traps_disabled, calc(5 * $lock_index - 4), calc(5 * $lock_index)));
+return (getbit_range(%handelmort_traps_disabled, sub(multiply(5, $lock_index), 4), multiply(5, $lock_index)));
 
 [label,tribal_door_combo](int $lock_index, int $change)
 def_int $current_stage = ~get_tribal_door_lock($lock_index);
 def_int $stage = ~calc_tribaldoor_value($current_stage, $change);
-%handelmort_traps_disabled = setbit_range_toint(%handelmort_traps_disabled, $stage, calc(5 * $lock_index - 4), calc(5 * $lock_index));
+%handelmort_traps_disabled = setbit_range_toint(%handelmort_traps_disabled, $stage, sub(multiply(5, $lock_index), 4), multiply(5, $lock_index));
 switch_int($lock_index) {
     case 1 : if_settext(tribal_door2:com_43, enum(int, string, alphabet, $stage));
     case 2 : if_settext(tribal_door2:com_44, enum(int, string, alphabet, $stage));
@@ -101,7 +101,7 @@ if(testbit(%handelmort_traps_disabled, 0) = ^false) {
 def_coord $start = movecoord(loc_coord, 0, 0, 3);
 p_delay(0);
 p_walk($start);
-p_delay(calc(distance(coord, $start) + 1));
+p_delay(add(distance(coord, $start), 1));
 if(testbit(%handelmort_traps_disabled, 21) = ^true) {
     p_telejump(1_41_51_7_57);
     mes("You climb up the stairs.");
@@ -115,13 +115,13 @@ mes("You have fallen through a trap!");
 p_telejump(^totem_stairs_fail_coord);
 // unfade
 p_delay(2);
-~damage_self(calc(((stat(hitpoints) * 20) / 100) + 1));
+~damage_self(add(divide(multiply(stat(hitpoints), 20), 100), 1));
 
 [oploc2,totemtrapstairs]
 def_coord $start = movecoord(loc_coord, 0, 0, 3);
 p_delay(0);
 p_walk($start);
-p_delay(calc(distance(coord, $start) + 1));
+p_delay(add(distance(coord, $start), 1));
 if(stat(thieving) < 21) {
     mes("You don't find anything interesting");
     return;

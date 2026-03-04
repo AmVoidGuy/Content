@@ -41,5 +41,5 @@ def_int $page = 0;
 def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~tutorialstep_page($page);
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }

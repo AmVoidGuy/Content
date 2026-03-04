@@ -65,7 +65,7 @@ while ($i < inv_size(duelarrows)) {
     if (inv_getobj(duelarrows, $i) ! null) {
         inv_movefromslot(duelarrows, inv, $i);
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 buildappearance(worn);

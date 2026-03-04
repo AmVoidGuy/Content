@@ -129,7 +129,7 @@ def_coord $other = movecoord(loc_coord, 0, 0, 1);
 def_coord $coord = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
 // Temp note: dur updated
 .loc_add($coord, inviswall, loc_angle, wall_straight, 3);
-.loc_add($coord, loc_param(next_loc_stage), calc(loc_angle + 3), loc_shape, 3);
+.loc_add($coord, loc_param(next_loc_stage), add(loc_angle, 3), loc_shape, 3);
 loc_add(loc_coord, inviswall, loc_angle, loc_shape, 3);
 
 loc_findallzone($coord);
@@ -138,7 +138,7 @@ while (loc_findnext = ^true) {
         def_coord $coord2 = ~movecoord_loc_return(~door_open(loc_angle, loc_shape));
         // Temp note: dur updated
         .loc_add($coord2, inviswall, loc_angle, wall_straight, 3);
-        .loc_add($coord2, loc_param(next_loc_stage), calc(loc_angle + 1), loc_shape, 3);
+        .loc_add($coord2, loc_param(next_loc_stage), add(loc_angle, 1), loc_shape, 3);
         loc_add(loc_coord, inviswall, loc_angle, wall_straight, 3);
     }
 }

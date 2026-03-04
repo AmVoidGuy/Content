@@ -200,7 +200,7 @@ if ($choice = 1) {
 ~chatplayer("<p,happy>Ok then, what do you need?");
 def_int $rand = random(5);
 
-%gnome_bar_progress = calc(8 + $rand);
+%gnome_bar_progress = add(8, $rand);
 switch_int($rand) {
     case 0 :
         ~chatnpc("<p,neutral>Can you make me one Pineapple Punch, one Choc Saturday and one Drunk Dragon!");

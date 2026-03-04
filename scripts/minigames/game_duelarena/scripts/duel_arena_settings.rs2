@@ -95,14 +95,14 @@ if_settext(duel_select_type:status, "");
 def_int $i = 0;
 while ($i < enum_getoutputcount($enum)) {
     ~try_unequip(enum(int, int, $enum, $i));
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [proc,.unequip_duel](enum $enum)
 def_int $i = 0;
 while ($i < enum_getoutputcount($enum)) {
     ~.try_unequip(enum(int, int, $enum, $i));
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 
 [proc,duel_arena_equip_check](obj $obj)(int)

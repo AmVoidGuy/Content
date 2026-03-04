@@ -21,11 +21,11 @@ if(%targetcount = 11) {
         case 3 :
             def_string $encourage = "";
             // based on pts/round, wiki info is inaccurate
-            def_int $denom = calc(%targetcount - 1);
+            def_int $denom = sub(%targetcount, 1);
             if($denom = 0) {
                 $encourage = "You haven't started yet.";
             } else {
-                def_int $ratio = calc(%targetscore / (%targetcount - 1));
+                def_int $ratio = divide(%targetscore, sub(%targetcount, 1));
                 if ($ratio = 100) {
                     $encourage = "Amazing, don't falter now.";
                 } else if ($ratio > 50 & $ratio < 100) {
@@ -77,10 +77,10 @@ inv_add(inv, bronze_arrow, 10);
 [label,ranging_guild_competition_judge_no] ~chatplayer("<p,neutral>No thanks.");
 
 [label,ranging_guild_competition_judge_reward_pts]
-%targetscore = calc(%targetscore / 10);
+%targetscore = divide(%targetscore, 10);
 def_int $token_count = %targetscore; // this is what osrs does
 %targetscore = 0;
 %targetcount = 0;
 inv_add(inv, archery_ticket, $token_count);
-~chatnpc("<p,happy>Well done. Your score is: <tostring(calc($token_count * 10))>.|For that score you will receive <tostring($token_count)> Archery Coupons.");
+~chatnpc("<p,happy>Well done. Your score is: <tostring(multiply($token_count, 10))>.|For that score you will receive <tostring($token_count)> Archery Coupons.");
 

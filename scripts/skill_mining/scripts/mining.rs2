@@ -53,7 +53,7 @@ if ($pickaxe = null) {
 }
 def_int $mining_rate = oc_param($pickaxe, mining_rate);
 if (%action_delay < map_clock) {
-    %action_delay = calc(map_clock + $mining_rate);
+    %action_delay = add(map_clock, $mining_rate);
     p_oploc(1);
     return;
 }
@@ -95,7 +95,7 @@ sound_synth(mine_quick, 0, 0);
 
 // if roll is due
 if (%action_delay < map_clock) {
-    %action_delay = calc(map_clock + $mining_rate);
+    %action_delay = add(map_clock, $mining_rate);
 } else if (%action_delay = map_clock) {
     anim(oc_param($pickaxe, mining_animation), 0);
     jump($get_ore);

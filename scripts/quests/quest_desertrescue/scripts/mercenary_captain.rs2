@@ -124,7 +124,7 @@ if(testbit(%desertrescue_map_mechanisms, ^desertrescue_spoke_al_shabim) = ^true)
 
 [label,mercenary_capt_randompunish]
 def_int $cur_stage = getbit_range(%desertrescue_map_mechanisms, 0, 1);
-def_int $next_stage = calc($cur_stage + 1);
+def_int $next_stage = add($cur_stage, 1);
 if($next_stage > 3) $next_stage = 0;
 %desertrescue_map_mechanisms = setbit_range_toint(%desertrescue_map_mechanisms, $next_stage, 0, 1);
 if(npc_find(coord, desertminingmercenary1, 7, 0) = ^true) {

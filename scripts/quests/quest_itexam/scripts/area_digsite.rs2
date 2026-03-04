@@ -62,7 +62,7 @@ if ($rand < 3) {
     inv_add(inv, nuggets, 1);
     ~objbox(tray_gold, "You find some gold nuggets within the mud.", 250, 0, divide(^objbox_height, 2));
 } else if ($rand < 20) {
-    inv_add(inv, coins, calc(1 + random(10)));
+    inv_add(inv, coins, add(1, random(10)));
     ~objbox(coins, "You find some coins within the mud.", 250, 0, divide(^objbox_height, 2));
 } else {
     ~objbox(tray_mud, "The tray contains only plain mud.", 250, 0, divide(^objbox_height, 2));

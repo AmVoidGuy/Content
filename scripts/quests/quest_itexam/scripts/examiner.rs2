@@ -234,15 +234,15 @@ if (~itexam_errand_progress(^itexam_errand_student2) = 2) {
 def_int $correct_answer_count = 0;
 
 if (~itexam_errand_progress(^itexam_errand_student1) = 2 & $q1choice = 1) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if (~itexam_errand_progress(^itexam_errand_student3) = 2 & $q2choice = 3) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if (~itexam_errand_progress(^itexam_errand_student2) = 2 & $q3choice = 2) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if ($correct_answer_count = 3) {
@@ -356,15 +356,15 @@ if (~itexam_errand_progress(^itexam_errand_student2) = 2) {
 def_int $correct_answer_count = 0;
 
 if (~itexam_errand_progress(^itexam_errand_student1) = 2 & $q1choice = 3) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if (~itexam_errand_progress(^itexam_errand_student3) = 2 & $q2choice = 1) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if (~itexam_errand_progress(^itexam_errand_student2) = 2 & $q3choice = 2) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if ($correct_answer_count = 3) {
@@ -478,15 +478,15 @@ if (~itexam_errand_progress(^itexam_errand_student3) = 2) {
 def_int $correct_answer_count = 0;
 
 if (~itexam_errand_progress(^itexam_errand_student1) = 2 & $q1choice = 1) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if (~itexam_errand_progress(^itexam_errand_student3) = 2 & $q2choice = 1) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if (~itexam_errand_progress(^itexam_errand_student2) = 2 & $q3choice = 3) {
-    $correct_answer_count = calc($correct_answer_count + 1);
+    $correct_answer_count = add($correct_answer_count, 1);
 }
 
 if ($correct_answer_count = 3) {

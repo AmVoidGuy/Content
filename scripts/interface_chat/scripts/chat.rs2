@@ -255,7 +255,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~chatplayer_page($page);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 // ----
@@ -309,7 +309,7 @@ while ($page < $pagetotal) {
     facesquare(npc_coord);
     if(npc_getmode ! opplayer2 & npc_getmode ! applayer2) npc_setmode(playerfaceclose);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,.chatnpc](string $string)
@@ -321,7 +321,7 @@ while ($page < $pagetotal) {
     facesquare(.npc_coord);
     if(.npc_getmode ! opplayer2 & .npc_getmode ! applayer2) .npc_setmode(playerfaceclose);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,chatnpcrange](string $string)
@@ -333,7 +333,7 @@ while ($page < $pagetotal) {
     facesquare(npc_coord);
     if(npc_getmode ! opplayer2 & npc_getmode ! applayer2) npc_setmode(playerface);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,.chatnpcrange](string $string)
@@ -345,7 +345,7 @@ while ($page < $pagetotal) {
     facesquare(.npc_coord);
     if(.npc_getmode ! opplayer2 & .npc_getmode !applayer2) .npc_setmode(playerface);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,chatnpcnoturn](string $string)
@@ -356,7 +356,7 @@ while ($page < $pagetotal) {
     ~chatnpc_page(npc_name, npc_type, $page);
     facesquare(npc_coord);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,.chatnpcnoturn](string $string)
@@ -367,7 +367,7 @@ while ($page < $pagetotal) {
     ~chatnpc_page(.npc_name, .npc_type, $page);
     facesquare(.npc_coord);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,chatnpc_specific](string $npc_name, npc $npc, string $string)
@@ -377,7 +377,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~chatnpc_page($npc_name, $npc, $page);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 // ----
 
@@ -423,7 +423,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~mesbox_page($page);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,.mesbox_page](int $page)
@@ -468,7 +468,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~.mesbox_page($page);
     .p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 // ----
@@ -516,7 +516,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~objbox_page($obj, $scale, $x, $y, $page);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 // ----
@@ -561,7 +561,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~doubleobjbox_page($obj_1, $scale, 0, 0, $obj_2, $scale, 0, 0, $page);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,doubleobjbox2](obj $obj_1, int $scale1, int $x1, int $y1, obj $obj_2, int $scale2, int $x2, int $y2, string $string)
@@ -571,7 +571,7 @@ def_int $pagetotal = split_pagecount;
 while ($page < $pagetotal) {
     ~doubleobjbox_page($obj_1, $scale1, $x1, $y1, $obj_2, $scale2, $x2, $y2, $page);
     p_pausebutton;
-    $page = calc($page + 1);
+    $page = add($page, 1);
 }
 
 [proc,multiobj2](string $title, namedobj $obj1, int $x1, int $y1, int $scale1, string $string1, int $sx1, int $sy1, namedobj $obj2, int $x2, int $y2, int $scale2, string $string2, int $sx2, int $sy2)(namedobj)

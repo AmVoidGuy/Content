@@ -4,7 +4,7 @@ if(map_members = ^true & inv_total(inv, trail_clue_easy_simple008) = 1) {
     @trail_tanner;
 }
 ~chatnpc("<p,happy>Greetings friend. I am a manufacturer of leather.");
-def_int $total = calc(inv_total(inv, cow_hide) + inv_total(inv, dragonhide_green) + inv_total(inv, dragonhide_blue) + inv_total(inv, dragonhide_red) + inv_total(inv, dragonhide_black));
+def_int $total = add(add(add(add(inv_total(inv, cow_hide), inv_total(inv, dragonhide_green)), inv_total(inv, dragonhide_blue)), inv_total(inv, dragonhide_red)), inv_total(inv, dragonhide_black));
 if($total > 0) {
     if ($total = 1) {
         ~chatnpc("<p,happy>I see you have brought me a hide.|Would you like me to tan it for you?");
@@ -95,7 +95,7 @@ if (inv_total(inv, coins) < $cost & $total_hides > $hides_to_be_tanned) {
 }
 
 [label,tan_dragonhide]
-def_int $total_dragon_hides = calc(inv_total(inv, dragonhide_green) + inv_total(inv, dragonhide_blue) + inv_total(inv, dragonhide_red) + inv_total(inv, dragonhide_black));
+def_int $total_dragon_hides = add(add(add(inv_total(inv, dragonhide_green), inv_total(inv, dragonhide_blue)), inv_total(inv, dragonhide_red)), inv_total(inv, dragonhide_black));
 def_int $cost = ^tanner_dragonhide_cost;
 if ($total_dragon_hides < 1) {
     mes("You don't have any dragonhides to tan."); // guess

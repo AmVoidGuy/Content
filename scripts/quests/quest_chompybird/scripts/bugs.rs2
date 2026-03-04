@@ -53,7 +53,7 @@ switch_int(%chompybird) {
         def_int $flavour = getbit_range(%chompybird_kills, ^chompybird_varbit_bugs_flavour_start, ^chompybird_varbit_bugs_flavour_end);
 
         if ($flavour = 0) {
-            $flavour = calc(random(1) + 1);
+            $flavour = add(random(1), 1);
             %chompybird_kills = setbit_range_toint(%chompybird_kills, $flavour, ^chompybird_varbit_bugs_flavour_start, ^chompybird_varbit_bugs_flavour_end);
         }
 

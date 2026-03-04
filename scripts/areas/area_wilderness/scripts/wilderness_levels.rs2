@@ -8,7 +8,7 @@ def_int $i = 0;
 while($i < db_getfieldcount(wilderness_zones, coord_pair_table:coord_pair)) {
     $coord1, $coord2 = db_getfield(wilderness_zones, coord_pair_table:coord_pair, $i);
     if(inzone($coord1, $coord2, $coord) = ^true) {
-        return (calc((coordz($coord) - coordz($coord1))/8 + 1));
+        return (add(divide(sub(coordz($coord), coordz($coord1)), 8), 1));
     } else {
         $i = add($i, 1);
     }

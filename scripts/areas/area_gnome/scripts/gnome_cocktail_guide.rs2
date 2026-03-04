@@ -13,8 +13,8 @@ if (%open_book = giannes_cook_book) {
 [if_button,blurberry_cocktail_guide2:pineapple_punch] @flip_page_cocktail_guide(5);
 [if_button,blurberry_cocktail_guide2:sgg] @flip_page_cocktail_guide(6);
 [if_button,blurberry_cocktail_guide2:wizard_blizzard] @flip_page_cocktail_guide(7);
-[if_button,blurberry_cocktail_guide:leftarrow] @flip_page_cocktail_guide(calc(%book_page - 1));
-[if_button,blurberry_cocktail_guide:rightarrow] @flip_page_cocktail_guide(calc(%book_page + 1));
+[if_button,blurberry_cocktail_guide:leftarrow] @flip_page_cocktail_guide(sub(%book_page, 1));
+[if_button,blurberry_cocktail_guide:rightarrow] @flip_page_cocktail_guide(add(%book_page, 1));
 
 
 [label,open_cocktail_guide_index]

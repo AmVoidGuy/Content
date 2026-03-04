@@ -46,7 +46,7 @@ if (~npc_player_hit_roll(^magic_style) = ^true & ~check_protect_prayer(^magic_st
 
 // todo: dunno if this should be queued but protected access lol
 [queue,npc_freeze_player](int $duration)
-%frozen = calc(map_clock + $duration + 1);
+%frozen = add(add(map_clock, $duration), 1);
 walktrigger(frozen);
 
 [proc,npc_combat_spell_checks]()(int)
@@ -111,13 +111,13 @@ sound_synth(db_getfield($spell_data, magic_spell_table:sound_success, 0), 0, 0);
 def_int $damage = randominc($maxhit);
 if ($maxhit ! null) {
     // npc vs player spells have no 1t extra damage delay. Whereas player vs npc spells do (osrs)
-    queue(combat_damage_player, calc($duration / 30), $damage);
+    queue(combat_damage_player, divide($duration, 30), $damage);
     // player anim for flinching doesnt exist, even in osrs
     // anim(~combat_defend_anim(inv_getobj(worn, ^wearpos_rhand)), $duration);
 }
 ~npc_poison_player;
 spotanim_pl(db_getfield($spell_data, magic_spell_table:spotanim_target, 0), $duration);
-queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
+queue*(playerhit_n_retaliate, divide($duration, 30))(npc_uid);
 
 [proc,npc_stat_change_effect](dbrow $spell_data)
 def_stat $stat;

@@ -44,7 +44,7 @@ if (inv_total(inv, bronze_axe) = 0) {
 def_loc $next_stage = loc_param(next_loc_stage);
 
 p_arrivedelay;
-%action_delay = calc(map_clock + 10);
+%action_delay = add(map_clock, 10);
 def_int $counter = 0;
 
 ~tutorial_please_wait_woodcutting;
@@ -55,7 +55,7 @@ while (map_clock < %action_delay) {
         sound_synth(woodchop_4, 0, 0);
     }
 
-    if ($counter > 0 & calc($counter % 3) = 0 & $counter ! 9) {
+    if ($counter > 0 & modulo($counter, 3) = 0 & $counter ! 9) {
         sound_synth(woodchop_4, 0, 8);
     }
 
@@ -63,13 +63,13 @@ while (map_clock < %action_delay) {
         sound_synth(woodchop_4, 0, 18);
     }
 
-    if ($counter > 0 & calc($counter % 4) = 0) {
+    if ($counter > 0 & modulo($counter, 4) = 0) {
         anim(human_woodcutting_bronze_axe, 0);
         sound_synth(woodchop_4, 0, 18);
     }
 
     p_delay(0);
-    $counter = calc($counter + 1);
+    $counter = add($counter, 1);
 }
 anim(null, 0);
 

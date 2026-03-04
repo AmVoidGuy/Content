@@ -1,6 +1,6 @@
 [oploc1,treegnomelooserailing]
 p_delay(0);
-def_coord $start = movecoord(coord, calc(coordx(loc_coord) - coordx(coord)), 0, 0); 
+def_coord $start = movecoord(coord, sub(coordx(loc_coord), coordx(coord)), 0, 0); 
 def_int $mod = -1;
 def_int $dir = ^exact_south;
 if(~check_axis(coord, loc_coord, loc_angle) = ^false) {

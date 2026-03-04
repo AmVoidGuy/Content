@@ -222,7 +222,7 @@ if (inv_total(inv, coins) < 500) {
     return;
 }
 
-def_int $color = calc(%if3 - 1);
+def_int $color = sub(%if3, 1);
 
 if (%if1 = 1) {
     setidkit(man_torso_plain, $color);
@@ -331,7 +331,7 @@ if (inv_total(inv, coins) < 500) {
     return;
 }
 
-def_int $color = calc(%if3 - 1);
+def_int $color = sub(%if3, 1);
 
 if (%if1 = 1) {
     setidkit(man_legs_plain, $color);
@@ -385,7 +385,7 @@ if (inv_total(inv, coins) < 500) {
     return;
 }
 
-def_int $color = calc(%if3 - 1);
+def_int $color = sub(%if3, 1);
 
 if (%if1 = 1) {
     setidkit(woman_torso_plain, $color);
@@ -452,7 +452,7 @@ if (inv_total(inv, coins) < 500) {
     return;
 }
 
-def_int $color = calc(%if3 - 1);
+def_int $color = sub(%if3, 1);
 
 if (%if1 = 1) {
     setidkit(woman_legs_plain, $color);

@@ -48,7 +48,7 @@ switch_int(~p_choice2("Yes please, I'd like to go to Shilo Village.", 1, "No tha
 }
 
 [proc,calc_shilocart_cost]()(int)
-def_int $cost = calc((inv_total(inv, coins) * 5) / 100);
+def_int $cost = divide(multiply(inv_total(inv, coins), 5), 100);
 if($cost < 10) {
     $cost = 10;
 } else if($cost > 200) {

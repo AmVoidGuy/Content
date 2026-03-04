@@ -56,7 +56,7 @@ if(coordz(coord) > coordz($loc_coord)) {
 sound_synth(door_open, 0, 0);
 // Temp note: dur updated
 loc_change($open_door, 5);
-p_teleport(movecoord(coord, calc($start_x - coordx(coord)), 0, 0));
+p_teleport(movecoord(coord, sub($start_x, coordx(coord)), 0, 0));
 p_delay(0);
 def_coord $end_pos = movecoord(coord, 0, 0, -2);
 if(coordz(coord) < coordz(loc_coord)) {

@@ -84,7 +84,7 @@ if ($choice = 1) {
         mes("but fail and cut yourself trying.");
         // BerryPi gets hit for 2 damage multiple times - 29 HP
         // 1E_Luis gets hit for 3 damage multiple times - 46 HP
-        def_int $damage = calc(stat_base(hitpoints) / 10);
+        def_int $damage = divide(stat_base(hitpoints), 10);
         if ($damage > 3) {
             $damage = 3;
         }

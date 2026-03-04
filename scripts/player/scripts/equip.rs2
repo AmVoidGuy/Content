@@ -216,22 +216,22 @@ while ($i < $size) {
             | inv_getobj(worn, ^wearpos_rhand) = null
             | (oc_category($obj) = arrows & oc_category(inv_getobj(worn, ^wearpos_rhand)) = weapon_bow)
             | (oc_category($obj) = bolts & oc_category(inv_getobj(worn, ^wearpos_rhand)) = weapon_crossbow)) {
-            $rangebonus = calc($rangebonus + oc_param($obj, rangebonus));
+            $rangebonus = add($rangebonus, oc_param($obj, rangebonus));
         }
-        $stabattack = calc($stabattack + oc_param($obj, stabattack));
-        $slashattack = calc($slashattack + oc_param($obj, slashattack));
-        $crushattack = calc($crushattack + oc_param($obj, crushattack));
-        $magicattack = calc($magicattack + oc_param($obj, magicattack));
-        $rangeattack = calc($rangeattack + oc_param($obj, rangeattack));
-        $stabdefence = calc($stabdefence + oc_param($obj, stabdefence));
-        $slashdefence = calc($slashdefence + oc_param($obj, slashdefence));
-        $crushdefence = calc($crushdefence + oc_param($obj, crushdefence));
-        $magicdefence = calc($magicdefence + oc_param($obj, magicdefence));
-        $rangedefence = calc($rangedefence + oc_param($obj, rangedefence));
-        $strengthbonus = calc($strengthbonus + oc_param($obj, strengthbonus));
-        $prayerbonus = calc($prayerbonus + oc_param($obj, prayerbonus));
+        $stabattack = add($stabattack, oc_param($obj, stabattack));
+        $slashattack = add($slashattack, oc_param($obj, slashattack));
+        $crushattack = add($crushattack, oc_param($obj, crushattack));
+        $magicattack = add($magicattack, oc_param($obj, magicattack));
+        $rangeattack = add($rangeattack, oc_param($obj, rangeattack));
+        $stabdefence = add($stabdefence, oc_param($obj, stabdefence));
+        $slashdefence = add($slashdefence, oc_param($obj, slashdefence));
+        $crushdefence = add($crushdefence, oc_param($obj, crushdefence));
+        $magicdefence = add($magicdefence, oc_param($obj, magicdefence));
+        $rangedefence = add($rangedefence, oc_param($obj, rangedefence));
+        $strengthbonus = add($strengthbonus, oc_param($obj, strengthbonus));
+        $prayerbonus = add($prayerbonus, oc_param($obj, prayerbonus));
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 return($stabattack, $slashattack, $crushattack, $magicattack, $rangeattack, $stabdefence, $slashdefence, $crushdefence, $magicdefence, $rangedefence, $strengthbonus, $prayerbonus, $rangebonus);
 
@@ -259,22 +259,22 @@ while ($i < $size) {
             | .inv_getobj(worn, ^wearpos_rhand) = null
             | (oc_category($obj) = arrows & oc_category(.inv_getobj(worn, ^wearpos_rhand)) = weapon_bow)
             | (oc_category($obj) = bolts & oc_category(.inv_getobj(worn, ^wearpos_rhand)) = weapon_crossbow)) {
-            $rangebonus = calc($rangebonus + oc_param($obj, rangebonus));
+            $rangebonus = add($rangebonus, oc_param($obj, rangebonus));
         }
-        $stabattack = calc($stabattack + oc_param($obj, stabattack));
-        $slashattack = calc($slashattack + oc_param($obj, slashattack));
-        $crushattack = calc($crushattack + oc_param($obj, crushattack));
-        $magicattack = calc($magicattack + oc_param($obj, magicattack));
-        $rangeattack = calc($rangeattack + oc_param($obj, rangeattack));
-        $stabdefence = calc($stabdefence + oc_param($obj, stabdefence));
-        $slashdefence = calc($slashdefence + oc_param($obj, slashdefence));
-        $crushdefence = calc($crushdefence + oc_param($obj, crushdefence));
-        $magicdefence = calc($magicdefence + oc_param($obj, magicdefence));
-        $rangedefence = calc($rangedefence + oc_param($obj, rangedefence));
-        $strengthbonus = calc($strengthbonus + oc_param($obj, strengthbonus));
-        $prayerbonus = calc($prayerbonus + oc_param($obj, prayerbonus));
+        $stabattack = add($stabattack, oc_param($obj, stabattack));
+        $slashattack = add($slashattack, oc_param($obj, slashattack));
+        $crushattack = add($crushattack, oc_param($obj, crushattack));
+        $magicattack = add($magicattack, oc_param($obj, magicattack));
+        $rangeattack = add($rangeattack, oc_param($obj, rangeattack));
+        $stabdefence = add($stabdefence, oc_param($obj, stabdefence));
+        $slashdefence = add($slashdefence, oc_param($obj, slashdefence));
+        $crushdefence = add($crushdefence, oc_param($obj, crushdefence));
+        $magicdefence = add($magicdefence, oc_param($obj, magicdefence));
+        $rangedefence = add($rangedefence, oc_param($obj, rangedefence));
+        $strengthbonus = add($strengthbonus, oc_param($obj, strengthbonus));
+        $prayerbonus = add($prayerbonus, oc_param($obj, prayerbonus));
     }
-    $i = calc($i + 1);
+    $i = add($i, 1);
 }
 return($stabattack, $slashattack, $crushattack, $magicattack, $rangeattack, $stabdefence, $slashdefence, $crushdefence, $magicdefence, $rangedefence, $strengthbonus, $prayerbonus, $rangebonus);
 

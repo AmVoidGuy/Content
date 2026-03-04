@@ -267,7 +267,7 @@ if ($choice = 1) {
 }
 ~chatplayer("<p,quiz>I would be glad to help");
 def_int $rand = randominc(9);
-%gnome_restaurant_progress = calc(7 + $rand);
+%gnome_restaurant_progress = add(7, $rand);
 switch_int($rand) {
     case 1 :
         ~chatnpc("<p,neutral>Can you make me two worm batta's, a toad batta, and a vegetable batta please?");
@@ -399,7 +399,7 @@ if (inv_total(inv, $dish1) >= $count1 & inv_total(inv, $dish2) >= $count2 & inv_
     }
     // gives 60 xp for each dish. This doesnt apply to cocktails it seems
     // https://web.archive.org/web/20040621000515/http://runehq.com/viewguidedb.php?id=00315
-    stat_advance(cooking, calc(($count1 + $count2 + $count3 + $count4 + $count5) * 600));
+    stat_advance(cooking, multiply(add(add(add(add($count1, $count2), $count3), $count4), $count5), 600));
     %gnome_restaurant_progress = 17;
     ~mesbox("You give Aluft <$order>.");
     ~chatnpc("<p,neutral>They look great, well done. Here's your share of the profit.");

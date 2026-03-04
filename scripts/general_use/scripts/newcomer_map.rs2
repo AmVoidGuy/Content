@@ -10,6 +10,6 @@ $mapsquare_x, $mapsquare_y = ~mapsquare(coord);
 if ($mapsquare_x < 46 | $mapsquare_y < 49 | $mapsquare_x > 51 | $mapsquare_y > 54) {
     %newcomers_pos = null;
 } else {
-    %newcomers_pos = calc($mapsquare_x - 46 + ($mapsquare_y - 49) * 6);
+    %newcomers_pos = multiply(add(sub($mapsquare_x, 46), sub($mapsquare_y, 49)), 6);
 }
 if_openmain(playermap_east);

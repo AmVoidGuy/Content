@@ -45,8 +45,8 @@ p_delay(0);
 npc_setmode(null);
 
 mes("You've been stunned!");
-%action_delay = calc(map_clock + $stun_ticks);
-%stunned = calc(map_clock + $stun_ticks);
+%action_delay = add(map_clock, $stun_ticks);
+%stunned = add(map_clock, $stun_ticks);
 walktrigger(stunned);
 
 [proc,steal_from_stall](dbrow $data, coord $loc_coord, int $loc_angle, locshape $loc_shape)
@@ -103,8 +103,8 @@ sound_synth(lever, 0, 0);
 p_delay(0);
 // https://oldschool.runescape.wiki/w/Chest_(nature_runes) - damage formula.
 def_int $hitpoints = multiply(stat(hitpoints), 12);
-def_int $damage = calc($hitpoints / 100);
-$damage = calc($damage + 3);
+def_int $damage = divide($hitpoints, 100);
+$damage = add($damage, 3);
 ~damage_self($damage);
 
 [proc,disarm_trapped_chest](dbrow $data, loc $loc, coord $loc_coord, int $loc_angle, locshape $loc_shape)
@@ -134,7 +134,7 @@ loc_change(loc_2572, $respawn_ticks); //looted chest
 
 
 [proc,pick_pocket_check_for_reward](dbrow $data)
-def_int $count = calc(db_getfieldcount($data, pickpocket:loot) - 1);
+def_int $count = sub(db_getfieldcount($data, pickpocket:loot), 1);
 def_int $reward_rarity_denominator = 128;
 while ($count >= 0) {
     def_namedobj $reward;
@@ -151,12 +151,12 @@ while ($count >= 0) {
         inv_add(inv, $reward, $quantity_roll);
     }
 
-    $count = calc($count - 1);
+    $count = sub($count, 1);
 }
 
 [proc,stealing_check_for_reward](dbrow $data)
 def_int $length = db_getfieldcount($data, stealing:loot);
-def_int $count = calc($length - 1);
+def_int $count = sub($length, 1);
 def_int $reward_rarity_denominator = db_getfield($data, stealing:loot_total, 0);
 
 while ($count >= 0) {
@@ -180,11 +180,11 @@ while ($count >= 0) {
         mes("You steal <$reward_message>.");
         return;
     }
-    $count = calc($count - 1);
+    $count = sub($count, 1);
 }
 
 [proc,trapped_chest_check_for_reward](dbrow $data)
-def_int $count = calc(db_getfieldcount($data, trapped_chest:loot) - 1);
+def_int $count = sub(db_getfieldcount($data, trapped_chest:loot), 1);
 def_int $reward_rarity_denominator = 128;
 while ($count >= 0) {
     def_namedobj $reward;
@@ -201,5 +201,5 @@ while ($count >= 0) {
         inv_add(inv, $reward, $quantity_roll);
     }
 
-    $count = calc($count - 1);
+    $count = sub($count, 1);
 }

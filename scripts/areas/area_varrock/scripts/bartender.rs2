@@ -135,7 +135,7 @@ p_delay(2);
 %barcrawl = setbit(%barcrawl, ^bluemoon_index);
 mes("The bartender signs your card.");
 p_delay(2);
-~damage_self(calc((stat(hitpoints) * 3) / 100));
+~damage_self(divide(multiply(stat(hitpoints), 3), 100));
 say("Blearrgh!");
 
 [label,trail_bluemoon_bartender]

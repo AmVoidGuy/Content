@@ -9,7 +9,7 @@
 
 
 [label,cow_moo]
-npc_settimer(calc(15 + random(20)));
+npc_settimer(add(15, random(20)));
 if (random(4) = 0) {
     npc_say("Moo");
 }

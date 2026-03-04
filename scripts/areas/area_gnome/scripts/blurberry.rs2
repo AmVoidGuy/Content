@@ -64,6 +64,6 @@ p_delay(2);
 %barcrawl = setbit(%barcrawl, ^blurberry_index);
 mes("Blurberry signs your card.");
 p_delay(2);
-~damage_self(calc((stat(hitpoints) * 5) / 100));
+~damage_self(divide(multiply(stat(hitpoints), 5), 100));
 // In OSRS this closes so you never see it (because damage is strongqueued, which isn't the case in 225)
 ~chatplayer("<p,confused>Danks bery mush...");

@@ -25,7 +25,7 @@ mes("You release the toad and see it hop off into the distance.");
 [proc,release_toad]
 def_coord $release_coord = map_findsquare(coord, 0, 1, ^map_findsquare_lineofwalk);
 npc_add(map_findsquare(coord, 1, 1, ^map_findsquare_lineofwalk), toad, 10);
-npc_walk(movecoord(npc_coord, calc(10 * (coordx($release_coord) - coordx(npc_coord))), 0, calc(10 * (coordz($release_coord) - coordz(npc_coord)))));
+npc_walk(movecoord(npc_coord, multiply(10, sub(coordx($release_coord), coordx(npc_coord))), 0, multiply(10, sub(coordz($release_coord), coordz(npc_coord)))));
 switch_int(random(3)) {
     case 0 : npc_say("Croak!");
     case 1 : npc_say("Ribbet!");
@@ -97,13 +97,13 @@ if (last_int = 3 | last_int = 13) {
     $toad_should_explode = ^true;
 }
 
-def_int $next_state = calc(last_int + 1);
+def_int $next_state = add(last_int, 1);
 
 def_int $should_spawn_chompy = ^false;
 if ($chompy_already_spawned = ^false & random(5) = 1) {
     $should_spawn_chompy = ^true;
 
-    $next_state = calc($next_state + 10);
+    $next_state = add($next_state, 10);
 }
 
 if ($toad_should_explode = ^true) {
@@ -126,5 +126,5 @@ while (.huntnext = ^true) {
 
     .sound_synth(toad_burst, 0, 20);
     // is damage random per-player or per-toad?
-    .queue(damage_player, calc(random(1) + 1), 0);
+    .queue(damage_player, add(random(1), 1), 0);
 }
