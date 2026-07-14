@@ -24590,8 +24590,8 @@ frame2=anim_19267592
 delay2=16
 
 [human_mining_rune_pickaxe]
-replaceheldright=deprecated_t5_pic
-replaceheldleft=deprecated_t5_pic
+replaceheldright=rune_pickaxe
+replaceheldleft=rune_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -25316,8 +25316,8 @@ volume89=0
 numsounds=89
 
 [human_mining_steel_pickaxe]
-replaceheldright=deprecated_t2_pic
-replaceheldleft=deprecated_t2_pic
+replaceheldright=steel_pickaxe
+replaceheldleft=steel_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -25558,8 +25558,8 @@ volume89=0
 numsounds=89
 
 [human_mining_adamant_pickaxe]
-replaceheldright=deprecated_t4_pic
-replaceheldleft=deprecated_t4_pic
+replaceheldright=adamant_pickaxe
+replaceheldleft=adamant_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -25800,8 +25800,8 @@ volume89=0
 numsounds=89
 
 [human_mining_mithril_pickaxe]
-replaceheldright=deprecated_t3_pic
-replaceheldleft=deprecated_t3_pic
+replaceheldright=mithril_pickaxe
+replaceheldleft=mithril_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -47465,8 +47465,8 @@ frame2=anim_19267592
 delay2=16
 
 [poh_smash_magic_tablet_spell]
-replaceheldright=deprecated_t2_pic
-replaceheldleft=deprecated_t2_pic
+replaceheldright=steel_pickaxe
+replaceheldleft=steel_pickaxe
 priority=0
 loops=8
 reachforward=yes
@@ -93727,7 +93727,7 @@ frame16=anim_34996248
 delay16=2
 
 [devious_human_whetstone]
-replaceheldright=deprecated_t3_2hs
+replaceheldright=mithril_2h_sword
 replaceheldleft=hide
 frame1=anim_16515093
 delay1=5
@@ -161864,7 +161864,7 @@ frame8=anim_80871842
 delay8=4
 
 [sang_mining_wall_rune_pickaxe]
-replaceheldright=deprecated_t5_pic
+replaceheldright=rune_pickaxe
 replaceheldleft=hide
 frame1=anim_80871859
 delay1=3
@@ -162200,7 +162200,7 @@ volume9=0
 numsounds=9
 
 [sang_mining_wall_steel_pickaxe]
-replaceheldright=deprecated_t2_pic
+replaceheldright=steel_pickaxe
 replaceheldleft=hide
 frame1=anim_80871859
 delay1=3
@@ -162312,7 +162312,7 @@ volume9=0
 numsounds=9
 
 [sang_mining_wall_adamant_pickaxe]
-replaceheldright=deprecated_t4_pic
+replaceheldright=adamant_pickaxe
 replaceheldleft=hide
 frame1=anim_80871859
 delay1=3
@@ -162424,7 +162424,7 @@ volume9=0
 numsounds=9
 
 [sang_mining_wall_mithril_pickaxe]
-replaceheldright=deprecated_t3_pic
+replaceheldright=mithril_pickaxe
 replaceheldleft=hide
 frame1=anim_80871859
 delay1=3
@@ -267145,8 +267145,8 @@ volume14=0
 numsounds=14
 
 [dungeon_ulthven_crassian_leviathan_spit_attack_reversed]
-replaceheldright=deprecated_t5_pic
-replaceheldleft=deprecated_t5_pic
+replaceheldright=rune_pickaxe
+replaceheldleft=rune_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -267868,8 +267868,8 @@ volume89=0
 numsounds=89
 
 [dungeon_ulthven_crassian_leviathan_spit_attack_impact]
-replaceheldright=deprecated_t2_pic
-replaceheldleft=deprecated_t2_pic
+replaceheldright=steel_pickaxe
+replaceheldleft=steel_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -268109,8 +268109,8 @@ volume89=0
 numsounds=89
 
 [dungeon_ulthven_crassian_leviathan_spawn]
-replaceheldright=deprecated_t4_pic
-replaceheldleft=deprecated_t4_pic
+replaceheldright=adamant_pickaxe
+replaceheldleft=adamant_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -268350,8 +268350,8 @@ volume89=0
 numsounds=89
 
 [dungeon_ulthven_crassian_leviathan_spawn_reversed]
-replaceheldright=deprecated_t3_pic
-replaceheldleft=deprecated_t3_pic
+replaceheldright=mithril_pickaxe
+replaceheldleft=mithril_pickaxe
 priority=0
 loops=101
 maxloops=1
@@ -268594,8 +268594,8 @@ numsounds=89
 loops=74
 maxloops=1
 postanim_move=abortanim
-replaceheldright=deprecated_t5_pic
-replaceheldleft=deprecated_t5_pic
+replaceheldright=rune_pickaxe
+replaceheldleft=rune_pickaxe
 priority=0
 frame1=anim_13566416
 delay1=3
@@ -269154,8 +269154,8 @@ numsounds=64
 [ed3_oreb_magic_attack]
 loops=74
 postanim_move=abortanim
-replaceheldright=deprecated_t2_pic
-replaceheldleft=deprecated_t2_pic
+replaceheldright=steel_pickaxe
+replaceheldleft=steel_pickaxe
 priority=0
 maxloops=1
 frame1=anim_13566416
@@ -269341,8 +269341,8 @@ numsounds=64
 [ed3_oreb_power_blast_attack]
 loops=74
 postanim_move=abortanim
-replaceheldright=deprecated_t4_pic
-replaceheldleft=deprecated_t4_pic
+replaceheldright=adamant_pickaxe
+replaceheldleft=adamant_pickaxe
 priority=0
 maxloops=1
 frame1=anim_13566416
@@ -269528,8 +269528,8 @@ numsounds=64
 [ed3_boggoth_death]
 loops=74
 postanim_move=abortanim
-replaceheldright=deprecated_t3_pic
-replaceheldleft=deprecated_t3_pic
+replaceheldright=mithril_pickaxe
+replaceheldleft=mithril_pickaxe
 priority=0
 maxloops=1
 frame1=anim_13566416
@@ -395958,7 +395958,7 @@ delay51=3
 
 [ken_human_break_rock_steel_pickaxe]
 reachforward=yes
-replaceheldright=deprecated_t2_pic
+replaceheldright=steel_pickaxe
 frame1=anim_142278980
 delay1=3
 frame2=anim_142279419
@@ -396064,7 +396064,7 @@ delay51=3
 
 [ken_human_break_rock_adamant_pickaxe]
 reachforward=yes
-replaceheldright=deprecated_t4_pic
+replaceheldright=adamant_pickaxe
 frame1=anim_142278980
 delay1=3
 frame2=anim_142279419
@@ -396170,7 +396170,7 @@ delay51=3
 
 [ken_human_break_rock_mithril_pickaxe]
 reachforward=yes
-replaceheldright=deprecated_t3_pic
+replaceheldright=mithril_pickaxe
 frame1=anim_142278980
 delay1=3
 frame2=anim_142279419
@@ -396276,7 +396276,7 @@ delay51=3
 
 [ken_human_break_rock_rune_pickaxe]
 reachforward=yes
-replaceheldright=deprecated_t5_pic
+replaceheldright=rune_pickaxe
 frame1=anim_142278980
 delay1=3
 frame2=anim_142279419
@@ -433508,7 +433508,7 @@ volume23=10
 numsounds=23
 
 [smki_player_break_door_top_steel]
-replaceheldright=deprecated_t2_pic
+replaceheldright=steel_pickaxe
 replaceheldleft=hide
 frame1=anim_150733073
 delay1=2
@@ -433576,7 +433576,7 @@ volume23=10
 numsounds=23
 
 [smki_player_break_door_top_mithril]
-replaceheldright=deprecated_t3_pic
+replaceheldright=mithril_pickaxe
 replaceheldleft=hide
 frame1=anim_150733073
 delay1=2
@@ -433644,7 +433644,7 @@ volume23=10
 numsounds=23
 
 [smki_player_break_door_top_adamant]
-replaceheldright=deprecated_t4_pic
+replaceheldright=adamant_pickaxe
 replaceheldleft=hide
 frame1=anim_150733073
 delay1=2
@@ -433712,7 +433712,7 @@ volume23=10
 numsounds=23
 
 [smki_player_break_door_top_rune]
-replaceheldright=deprecated_t5_pic
+replaceheldright=rune_pickaxe
 replaceheldleft=hide
 frame1=anim_150733073
 delay1=2

@@ -8528,7 +8528,7 @@ recol2s=14798
 recol2d=6346
 name=Mithril thrownaxe
 
-[adamant_thrownaxe]
+[adamnt_thrownaxe]
 members=yes
 cost=262
 model=model_2752
@@ -11707,9 +11707,9 @@ stockmarket=yes
 recol1s=15360
 recol1d=31649
 name=Yellow partyhat
-certlink=obj_1041
+certlink=cert_yellow_partyhat
 
-[obj_1041]
+[cert_yellow_partyhat]
 certlink=yellow_partyhat
 certtemplate=template_for_cert
 
@@ -12000,7 +12000,7 @@ certlink=cert_iron_platelegs
 certlink=iron_platelegs
 certtemplate=template_for_cert
 
-[deprecated_t2_leg]
+[steel_platelegs]
 cost=1000
 model=model_2582
 2dyof=-8
@@ -12016,10 +12016,10 @@ name=Steel platelegs
 certlink=cert_steel_platelegs
 
 [cert_steel_platelegs]
-certlink=deprecated_t2_leg
+certlink=steel_platelegs
 certtemplate=template_for_cert
 
-[deprecated_t3_leg]
+[mithril_platelegs]
 cost=2600
 model=model_2582
 2dyof=-8
@@ -12039,10 +12039,10 @@ name=Mithril platelegs
 certlink=cert_mithril_platelegs
 
 [cert_mithril_platelegs]
-certlink=deprecated_t3_leg
+certlink=mithril_platelegs
 certtemplate=template_for_cert
 
-[deprecated_t4_leg]
+[adamant_platelegs]
 cost=6400
 model=model_2582
 2dyof=-8
@@ -12062,7 +12062,7 @@ name=Adamant platelegs
 certlink=cert_adamant_platelegs
 
 [cert_adamant_platelegs]
-certlink=deprecated_t4_leg
+certlink=adamant_platelegs
 certtemplate=template_for_cert
 
 [bronze_platelegs]
@@ -12111,7 +12111,7 @@ certlink=cert_black_platelegs
 certlink=black_platelegs
 certtemplate=template_for_cert
 
-[deprecated_t5_leg]
+[rune_platelegs]
 cost=64000
 model=model_2582
 2dyof=-8
@@ -12131,7 +12131,7 @@ name=Rune platelegs
 certlink=cert_rune_platelegs
 
 [cert_rune_platelegs]
-certlink=deprecated_t5_leg
+certlink=rune_platelegs
 certtemplate=template_for_cert
 
 [iron_plateskirt]
@@ -12156,7 +12156,7 @@ certlink=cert_iron_plateskirt
 certlink=iron_plateskirt
 certtemplate=template_for_cert
 
-[deprecated_t2_ski]
+[steel_plateskirt]
 cost=1000
 model=model_2542
 2dxof=5
@@ -12173,10 +12173,10 @@ name=Steel plateskirt
 certlink=cert_steel_plateskirt
 
 [cert_steel_plateskirt]
-certlink=deprecated_t2_ski
+certlink=steel_plateskirt
 certtemplate=template_for_cert
 
-[deprecated_t3_ski]
+[mithril_plateskirt]
 cost=2600
 model=model_2542
 2dxof=5
@@ -12195,7 +12195,7 @@ name=Mithril plateskirt
 certlink=cert_mithril_plateskirt
 
 [cert_mithril_plateskirt]
-certlink=deprecated_t3_ski
+certlink=mithril_plateskirt
 certtemplate=template_for_cert
 
 [bronze_plateskirt]
@@ -12242,7 +12242,7 @@ certlink=cert_black_plateskirt
 certlink=black_plateskirt
 certtemplate=template_for_cert
 
-[deprecated_t4_ski]
+[adamant_plateskirt]
 cost=6400
 model=model_2542
 2dxof=5
@@ -12261,10 +12261,10 @@ name=Adamant plateskirt
 certlink=cert_adamant_plateskirt
 
 [cert_adamant_plateskirt]
-certlink=deprecated_t4_ski
+certlink=adamant_plateskirt
 certtemplate=template_for_cert
 
-[deprecated_t5_ski]
+[rune_plateskirt]
 cost=64000
 model=model_2542
 2dxof=5
@@ -12283,7 +12283,7 @@ name=Rune plateskirt
 certlink=cert_rune_plateskirt
 
 [cert_rune_plateskirt]
-certlink=deprecated_t5_ski
+certlink=rune_plateskirt
 certtemplate=template_for_cert
 
 [leather_chaps]
@@ -12383,7 +12383,7 @@ certlink=cert_bronze_chainbody
 certlink=bronze_chainbody
 certtemplate=template_for_cert
 
-[deprecated_t2_cha]
+[steel_chainbody]
 cost=750
 model=model_2558
 2dzoom=1100
@@ -12396,7 +12396,7 @@ name=Steel chainbody
 certlink=cert_steel_chainbody
 
 [cert_steel_chainbody]
-certlink=deprecated_t2_cha
+certlink=steel_chainbody
 certtemplate=template_for_cert
 
 [black_chainbody]
@@ -12421,7 +12421,7 @@ certlink=cert_black_chainbody
 certlink=black_chainbody
 certtemplate=template_for_cert
 
-[deprecated_t3_cha]
+[mithril_chainbody]
 cost=1950
 model=model_2558
 2dyof=2
@@ -12441,10 +12441,10 @@ name=Mithril chainbody
 certlink=cert_mithril_chainbody
 
 [cert_mithril_chainbody]
-certlink=deprecated_t3_cha
+certlink=mithril_chainbody
 certtemplate=template_for_cert
 
-[deprecated_t4_cha]
+[adamant_chainbody]
 cost=4800
 model=model_2558
 2dyof=2
@@ -12464,10 +12464,10 @@ name=Adamant chainbody
 certlink=cert_adamant_chainbody
 
 [cert_adamant_chainbody]
-certlink=deprecated_t4_cha
+certlink=adamant_chainbody
 certtemplate=template_for_cert
 
-[deprecated_t5_cha]
+[rune_chainbody]
 cost=50000
 model=model_2558
 2dyof=2
@@ -12487,7 +12487,7 @@ name=Rune chainbody
 certlink=cert_rune_chainbody
 
 [cert_rune_chainbody]
-certlink=deprecated_t5_cha
+certlink=rune_chainbody
 certtemplate=template_for_cert
 
 [iron_platebody]
@@ -12540,7 +12540,7 @@ certlink=cert_bronze_platebody
 certlink=bronze_platebody
 certtemplate=template_for_cert
 
-[deprecated_t2_bod]
+[steel_platebody]
 cost=2000
 model=model_2605
 2dxof=-1
@@ -12558,10 +12558,10 @@ name=Steel platebody
 certlink=cert_steel_platebody
 
 [cert_steel_platebody]
-certlink=deprecated_t2_bod
+certlink=steel_platebody
 certtemplate=template_for_cert
 
-[deprecated_t3_bod]
+[mithril_platebody]
 cost=5200
 model=model_2605
 2dxof=-1
@@ -12583,10 +12583,10 @@ name=Mithril platebody
 certlink=cert_mithril_platebody
 
 [cert_mithril_platebody]
-certlink=deprecated_t3_bod
+certlink=mithril_platebody
 certtemplate=template_for_cert
 
-[deprecated_t4_bod]
+[adamant_platebody]
 cost=16640
 model=model_2605
 2dxof=-1
@@ -12608,7 +12608,7 @@ name=Adamant platebody
 certlink=cert_adamant_platebody
 
 [cert_adamant_platebody]
-certlink=deprecated_t4_bod
+certlink=adamant_platebody
 certtemplate=template_for_cert
 
 [black_platebody]
@@ -12636,7 +12636,7 @@ certlink=cert_black_platebody
 certlink=black_platebody
 certtemplate=template_for_cert
 
-[deprecated_t5_bod]
+[rune_platebody]
 cost=65000
 model=model_2605
 2dxof=-1
@@ -12658,7 +12658,7 @@ name=Rune platebody
 certlink=cert_rune_platebody
 
 [cert_rune_platebody]
-certlink=deprecated_t5_bod
+certlink=rune_platebody
 certtemplate=template_for_cert
 
 [leather_armour]
@@ -12773,7 +12773,7 @@ certlink=cert_bronze_med_helm
 certlink=bronze_med_helm
 certtemplate=template_for_cert
 
-[deprecated_t2_med]
+[steel_med_helm]
 cost=300
 model=model_2833
 2dxof=1
@@ -12791,10 +12791,10 @@ name=Steel med helm
 certlink=cert_steel_med_helm
 
 [cert_steel_med_helm]
-certlink=deprecated_t2_med
+certlink=steel_med_helm
 certtemplate=template_for_cert
 
-[deprecated_t3_med]
+[mithril_med_helm]
 cost=780
 model=model_2833
 2dxof=1
@@ -12814,10 +12814,10 @@ name=Mithril med helm
 certlink=cert_mithril_med_helm
 
 [cert_mithril_med_helm]
-certlink=deprecated_t3_med
+certlink=mithril_med_helm
 certtemplate=template_for_cert
 
-[deprecated_t4_med]
+[adamant_med_helm]
 cost=1920
 model=model_2833
 2dxof=1
@@ -12837,10 +12837,10 @@ name=Adamant med helm
 certlink=cert_adamant_med_helm
 
 [cert_adamant_med_helm]
-certlink=deprecated_t4_med
+certlink=adamant_med_helm
 certtemplate=template_for_cert
 
-[deprecated_t5_med]
+[rune_med_helm]
 cost=19200
 model=model_2833
 2dxof=1
@@ -12860,7 +12860,7 @@ name=Rune med helm
 certlink=cert_rune_med_helm
 
 [cert_rune_med_helm]
-certlink=deprecated_t5_med
+certlink=rune_med_helm
 certtemplate=template_for_cert
 
 [dragon_med_helm]
@@ -12964,7 +12964,7 @@ certlink=cert_bronze_full_helm
 certlink=bronze_full_helm
 certtemplate=template_for_cert
 
-[deprecated_t2_ful]
+[steel_full_helm]
 cost=550
 model=model_2813
 2dxof=-1
@@ -12984,10 +12984,10 @@ name=Steel full helm
 certlink=cert_steel_full_helm
 
 [cert_steel_full_helm]
-certlink=deprecated_t2_ful
+certlink=steel_full_helm
 certtemplate=template_for_cert
 
-[deprecated_t3_ful]
+[mithril_full_helm]
 cost=1430
 model=model_2813
 2dxof=-1
@@ -13009,10 +13009,10 @@ name=Mithril full helm
 certlink=cert_mithril_full_helm
 
 [cert_mithril_full_helm]
-certlink=deprecated_t3_ful
+certlink=mithril_full_helm
 certtemplate=template_for_cert
 
-[deprecated_t4_ful]
+[adamant_full_helm]
 cost=3520
 model=model_2813
 2dxof=-1
@@ -13034,10 +13034,10 @@ name=Adamant full helm
 certlink=cert_adamant_full_helm
 
 [cert_adamant_full_helm]
-certlink=deprecated_t4_ful
+certlink=adamant_full_helm
 certtemplate=template_for_cert
 
-[deprecated_t5_ful]
+[rune_full_helm]
 cost=35200
 model=model_2813
 2dxof=-1
@@ -13059,7 +13059,7 @@ name=Rune full helm
 certlink=cert_rune_full_helm
 
 [cert_rune_full_helm]
-certlink=deprecated_t5_ful
+certlink=rune_full_helm
 certtemplate=template_for_cert
 
 [black_full_helm]
@@ -13198,7 +13198,7 @@ certlink=cert_iron_sq_shield
 certlink=iron_sq_shield
 certtemplate=template_for_cert
 
-[deprecated_t2_sqs]
+[steel_sq_shield]
 cost=600
 model=model_2720
 2dxof=2
@@ -13216,7 +13216,7 @@ name=Steel sq shield
 certlink=cert_steel_sq_shield
 
 [cert_steel_sq_shield]
-certlink=deprecated_t2_sqs
+certlink=steel_sq_shield
 certtemplate=template_for_cert
 
 [black_sq_shield]
@@ -13240,7 +13240,7 @@ certlink=cert_black_sq_shield
 certlink=black_sq_shield
 certtemplate=template_for_cert
 
-[deprecated_t3_sqs]
+[mithril_sq_shield]
 cost=1560
 model=model_2720
 2dxof=2
@@ -13258,10 +13258,10 @@ name=Mithril sq shield
 certlink=cert_mithril_sq_shield
 
 [cert_mithril_sq_shield]
-certlink=deprecated_t3_sqs
+certlink=mithril_sq_shield
 certtemplate=template_for_cert
 
-[deprecated_t4_sqs]
+[adamant_sq_shield]
 cost=3840
 model=model_2720
 2dxof=2
@@ -13279,10 +13279,10 @@ name=Adamant sq shield
 certlink=cert_adamant_sq_shield
 
 [cert_adamant_sq_shield]
-certlink=deprecated_t4_sqs
+certlink=adamant_sq_shield
 certtemplate=template_for_cert
 
-[deprecated_t5_sqs]
+[rune_sq_shield]
 cost=38400
 model=model_2720
 2dxof=2
@@ -13300,7 +13300,7 @@ name=Rune sq shield
 certlink=cert_rune_sq_shield
 
 [cert_rune_sq_shield]
-certlink=deprecated_t5_sqs
+certlink=rune_sq_shield
 certtemplate=template_for_cert
 
 [dragon_sq_shield]
@@ -13369,7 +13369,7 @@ certlink=cert_iron_kiteshield
 certlink=iron_kiteshield
 certtemplate=template_for_cert
 
-[deprecated_t2_kit]
+[steel_kiteshield]
 model=model_2339
 2dxof=-6
 2dyof=-14
@@ -13387,7 +13387,7 @@ name=Steel kiteshield
 certlink=cert_steel_kiteshield
 
 [cert_steel_kiteshield]
-certlink=deprecated_t2_kit
+certlink=steel_kiteshield
 certtemplate=template_for_cert
 
 [black_kiteshield]
@@ -13413,7 +13413,7 @@ certlink=cert_black_kiteshield
 certlink=black_kiteshield
 certtemplate=template_for_cert
 
-[deprecated_t3_kit]
+[mithril_kiteshield]
 model=model_2339
 2dxof=-6
 2dyof=-14
@@ -13433,10 +13433,10 @@ name=Mithril kiteshield
 certlink=cert_mithril_kiteshield
 
 [cert_mithril_kiteshield]
-certlink=deprecated_t3_kit
+certlink=mithril_kiteshield
 certtemplate=template_for_cert
 
-[deprecated_t4_kit]
+[adamant_kiteshield]
 model=model_2339
 2dxof=-6
 2dyof=-14
@@ -13456,10 +13456,10 @@ name=Adamant kiteshield
 certlink=cert_adamant_kiteshield
 
 [cert_adamant_kiteshield]
-certlink=deprecated_t4_kit
+certlink=adamant_kiteshield
 certtemplate=template_for_cert
 
-[deprecated_t5_kit]
+[rune_kiteshield]
 model=model_2339
 2dxof=-6
 2dyof=-14
@@ -13479,7 +13479,7 @@ name=Rune kiteshield
 certlink=cert_rune_kiteshield
 
 [cert_rune_kiteshield]
-certlink=deprecated_t5_kit
+certlink=rune_kiteshield
 certtemplate=template_for_cert
 
 [iron_dagger]
@@ -13534,7 +13534,7 @@ certlink=cert_bronze_dagger
 certlink=bronze_dagger
 certtemplate=template_for_cert
 
-[deprecated_t2_dag]
+[steel_dagger]
 model=model_2672
 cost=125
 2dyof=-4
@@ -13549,10 +13549,10 @@ name=Steel dagger
 certlink=cert_steel_dagger
 
 [cert_steel_dagger]
-certlink=deprecated_t2_dag
+certlink=steel_dagger
 certtemplate=template_for_cert
 
-[deprecated_t3_dag]
+[mithril_dagger]
 model=model_2672
 cost=325
 2dyof=-4
@@ -13575,10 +13575,10 @@ name=Mithril dagger
 certlink=cert_mithril_dagger
 
 [cert_mithril_dagger]
-certlink=deprecated_t3_dag
+certlink=mithril_dagger
 certtemplate=template_for_cert
 
-[deprecated_t4_dag]
+[adamant_dagger]
 model=model_2672
 cost=800
 2dyof=-4
@@ -13601,10 +13601,10 @@ name=Adamant dagger
 certlink=cert_adamant_dagger
 
 [cert_adamant_dagger]
-certlink=deprecated_t4_dag
+certlink=adamant_dagger
 certtemplate=template_for_cert
 
-[deprecated_t5_dag]
+[rune_dagger]
 model=model_2672
 cost=8000
 2dyof=-4
@@ -13627,7 +13627,7 @@ name=Rune dagger
 certlink=cert_rune_dagger
 
 [cert_rune_dagger]
-certlink=deprecated_t5_dag
+certlink=rune_dagger
 certtemplate=template_for_cert
 
 [dragon_dagger]
@@ -14295,7 +14295,7 @@ certlink=cert_iron_pickaxe
 certlink=iron_pickaxe
 certtemplate=template_for_cert
 
-[deprecated_t2_pic]
+[steel_pickaxe]
 cost=500
 model=model_2529
 manwear=model_509,0
@@ -14311,10 +14311,10 @@ name=Steel pickaxe
 certlink=cert_steel_pickaxe
 
 [cert_steel_pickaxe]
-certlink=deprecated_t2_pic
+certlink=steel_pickaxe
 certtemplate=template_for_cert
 
-[deprecated_t4_pic]
+[adamant_pickaxe]
 cost=3200
 model=model_2529
 manwear=model_509,0
@@ -14332,10 +14332,10 @@ name=Adamant pickaxe
 certlink=cert_adamant_pickaxe
 
 [cert_adamant_pickaxe]
-certlink=deprecated_t4_pic
+certlink=adamant_pickaxe
 certtemplate=template_for_cert
 
-[deprecated_t3_pic]
+[mithril_pickaxe]
 cost=1300
 model=model_2529
 manwear=model_509,0
@@ -14353,10 +14353,10 @@ name=Mithril pickaxe
 certlink=cert_mithril_pickaxe
 
 [cert_mithril_pickaxe]
-certlink=deprecated_t3_pic
+certlink=mithril_pickaxe
 certtemplate=template_for_cert
 
-[deprecated_t5_pic]
+[rune_pickaxe]
 cost=32000
 model=model_2529
 manwear=model_509,0
@@ -14374,7 +14374,7 @@ name=Rune pickaxe
 certlink=cert_rune_pickaxe
 
 [cert_rune_pickaxe]
-certlink=deprecated_t5_pic
+certlink=rune_pickaxe
 certtemplate=template_for_cert
 
 [bronze_sword]
@@ -14417,7 +14417,7 @@ certlink=cert_iron_sword
 certlink=iron_sword
 certtemplate=template_for_cert
 
-[deprecated_t2_swo]
+[steel_sword]
 cost=325
 model=model_2604
 2dyof=-3
@@ -14432,7 +14432,7 @@ name=Steel sword
 certlink=cert_steel_sword
 
 [cert_steel_sword]
-certlink=deprecated_t2_swo
+certlink=steel_sword
 certtemplate=template_for_cert
 
 [black_sword]
@@ -14455,7 +14455,7 @@ certlink=cert_black_sword
 certlink=black_sword
 certtemplate=template_for_cert
 
-[deprecated_t3_swo]
+[mithril_sword]
 cost=845
 model=model_2604
 2dyof=-3
@@ -14472,10 +14472,10 @@ name=Mithril sword
 certlink=cert_mithril_sword
 
 [cert_mithril_sword]
-certlink=deprecated_t3_swo
+certlink=mithril_sword
 certtemplate=template_for_cert
 
-[deprecated_t4_swo]
+[adamant_sword]
 cost=2080
 model=model_2604
 2dyof=-3
@@ -14492,10 +14492,10 @@ name=Adamant sword
 certlink=cert_adamant_sword
 
 [cert_adamant_sword]
-certlink=deprecated_t4_swo
+certlink=adamant_sword
 certtemplate=template_for_cert
 
-[deprecated_t5_swo]
+[rune_sword]
 cost=20800
 model=model_2604
 2dyof=-3
@@ -14512,7 +14512,7 @@ name=Rune sword
 certlink=cert_rune_sword
 
 [cert_rune_sword]
-certlink=deprecated_t5_swo
+certlink=rune_sword
 certtemplate=template_for_cert
 
 [bronze_longsword]
@@ -14559,7 +14559,7 @@ certlink=cert_iron_longsword
 certlink=iron_longsword
 certtemplate=template_for_cert
 
-[deprecated_t2_lon]
+[steel_longsword]
 cost=500
 model=model_2602
 2dxof=-13
@@ -14576,7 +14576,7 @@ name=Steel longsword
 certlink=cert_steel_longsword
 
 [cert_steel_longsword]
-certlink=deprecated_t2_lon
+certlink=steel_longsword
 certtemplate=template_for_cert
 
 [black_longsword]
@@ -14601,7 +14601,7 @@ certlink=cert_black_longsword
 certlink=black_longsword
 certtemplate=template_for_cert
 
-[deprecated_t3_lon]
+[mithril_longsword]
 cost=1300
 model=model_2602
 2dxof=-13
@@ -14620,10 +14620,10 @@ name=Mithril longsword
 certlink=cert_mithril_longsword
 
 [cert_mithril_longsword]
-certlink=deprecated_t3_lon
+certlink=mithril_longsword
 certtemplate=template_for_cert
 
-[deprecated_t4_lon]
+[adamant_longsword]
 cost=3200
 model=model_2602
 2dxof=-13
@@ -14642,10 +14642,10 @@ name=Adamant longsword
 certlink=cert_adamant_longsword
 
 [cert_adamant_longsword]
-certlink=deprecated_t4_lon
+certlink=adamant_longsword
 certtemplate=template_for_cert
 
-[deprecated_t5_lon]
+[rune_longsword]
 cost=32000
 model=model_2602
 2dxof=-13
@@ -14664,7 +14664,7 @@ name=Rune longsword
 certlink=cert_rune_longsword
 
 [cert_rune_longsword]
-certlink=deprecated_t5_lon
+certlink=rune_longsword
 certtemplate=template_for_cert
 
 [dragon_longsword]
@@ -14728,7 +14728,7 @@ certlink=cert_iron_2h_sword
 certlink=iron_2h_sword
 certtemplate=template_for_cert
 
-[deprecated_t2_2hs]
+[steel_2h_sword]
 cost=1000
 model=model_2754
 2dxof=3
@@ -14744,7 +14744,7 @@ name=Steel 2h sword
 certlink=cert_steel_2h_sword
 
 [cert_steel_2h_sword]
-certlink=deprecated_t2_2hs
+certlink=steel_2h_sword
 certtemplate=template_for_cert
 
 [black_2h_sword]
@@ -14768,7 +14768,7 @@ certlink=cert_black_2h_sword
 certlink=black_2h_sword
 certtemplate=template_for_cert
 
-[deprecated_t3_2hs]
+[mithril_2h_sword]
 cost=2600
 model=model_2754
 2dxof=3
@@ -14786,10 +14786,10 @@ name=Mithril 2h sword
 certlink=cert_mithril_2h_sword
 
 [cert_mithril_2h_sword]
-certlink=deprecated_t3_2hs
+certlink=mithril_2h_sword
 certtemplate=template_for_cert
 
-[deprecated_t4_2hs]
+[adamant_2h_sword]
 cost=6400
 model=model_2754
 2dxof=3
@@ -14807,10 +14807,10 @@ name=Adamant 2h sword
 certlink=cert_adamant_2h_sword
 
 [cert_adamant_2h_sword]
-certlink=deprecated_t4_2hs
+certlink=adamant_2h_sword
 certtemplate=template_for_cert
 
-[deprecated_t5_2hs]
+[rune_2h_sword]
 cost=64000
 model=model_2754
 2dxof=3
@@ -14828,7 +14828,7 @@ name=Rune 2h sword
 certlink=cert_rune_2h_sword
 
 [cert_rune_2h_sword]
-certlink=deprecated_t5_2hs
+certlink=rune_2h_sword
 certtemplate=template_for_cert
 
 [bronze_scimitar]
@@ -14873,7 +14873,7 @@ certlink=cert_iron_scimitar
 certlink=iron_scimitar
 certtemplate=template_for_cert
 
-[deprecated_t2_sci]
+[steel_scimitar]
 cost=400
 model=model_2373
 2dxof=-6
@@ -14889,7 +14889,7 @@ name=Steel scimitar
 certlink=cert_steel_scimitar
 
 [cert_steel_scimitar]
-certlink=deprecated_t2_sci
+certlink=steel_scimitar
 certtemplate=template_for_cert
 
 [black_scimitar]
@@ -14913,7 +14913,7 @@ certlink=cert_black_scimitar
 certlink=black_scimitar
 certtemplate=template_for_cert
 
-[deprecated_t3_sci]
+[mithril_scimitar]
 cost=1040
 model=model_2373
 2dxof=-6
@@ -14931,10 +14931,10 @@ name=Mithril scimitar
 certlink=cert_mithril_scimitar
 
 [cert_mithril_scimitar]
-certlink=deprecated_t3_sci
+certlink=mithril_scimitar
 certtemplate=template_for_cert
 
-[deprecated_t4_sci]
+[adamant_scimitar]
 cost=2560
 model=model_2373
 2dxof=-6
@@ -14952,10 +14952,10 @@ name=Adamant scimitar
 certlink=cert_adamant_scimitar
 
 [cert_adamant_scimitar]
-certlink=deprecated_t4_sci
+certlink=adamant_scimitar
 certtemplate=template_for_cert
 
-[deprecated_t5_sci]
+[rune_scimitar]
 cost=25600
 model=model_2373
 2dxof=-6
@@ -14973,7 +14973,7 @@ name=Rune scimitar
 certlink=cert_rune_scimitar
 
 [cert_rune_scimitar]
-certlink=deprecated_t5_sci
+certlink=rune_scimitar
 certtemplate=template_for_cert
 
 [iron_warhammer]
@@ -15018,7 +15018,7 @@ certlink=cert_bronze_warhammer
 certlink=bronze_warhammer
 certtemplate=template_for_cert
 
-[deprecated_t2_war]
+[steel_warhammer]
 cost=832
 iop2=Wield
 manwear=model_542,0
@@ -15034,7 +15034,7 @@ name=Steel warhammer
 certlink=cert_steel_warhammer
 
 [cert_steel_warhammer]
-certlink=deprecated_t2_war
+certlink=steel_warhammer
 certtemplate=template_for_cert
 
 [black_warhammer]
@@ -15058,7 +15058,7 @@ certlink=cert_black_warhammer
 certlink=black_warhammer
 certtemplate=template_for_cert
 
-[deprecated_t3_war]
+[mithril_warhammer]
 cost=2158
 iop2=Wield
 manwear=model_542,0
@@ -15076,10 +15076,10 @@ name=Mithril warhammer
 certlink=cert_mithril_warhammer
 
 [cert_mithril_warhammer]
-certlink=deprecated_t3_war
+certlink=mithril_warhammer
 certtemplate=template_for_cert
 
-[deprecated_t4_war]
+[adamnt_warhammer]
 cost=5356
 iop2=Wield
 manwear=model_542,0
@@ -15094,13 +15094,13 @@ stockmarket=yes
 recol1s=15855
 recol1d=6438
 name=Addy warhammer
-certlink=cert_adamant_warhammer
+certlink=cert_adamnt_warhammer
 
-[cert_adamant_warhammer]
-certlink=deprecated_t4_war
+[cert_adamnt_warhammer]
+certlink=adamnt_warhammer
 certtemplate=template_for_cert
 
-[deprecated_t5_war]
+[rune_warhammer]
 cost=41500
 iop2=Wield
 manwear=model_542,0
@@ -15118,7 +15118,7 @@ name=Rune warhammer
 certlink=cert_rune_warhammer
 
 [cert_rune_warhammer]
-certlink=deprecated_t5_war
+certlink=rune_warhammer
 certtemplate=template_for_cert
 
 [iron_axe]
@@ -15281,7 +15281,7 @@ certlink=cert_iron_battleaxe
 certlink=iron_battleaxe
 certtemplate=template_for_cert
 
-[deprecated_t2_bat]
+[steel_battleaxe]
 cost=650
 model=model_2778
 2dxof=-7
@@ -15297,7 +15297,7 @@ name=Steel battleaxe
 certlink=cert_steel_battleaxe
 
 [cert_steel_battleaxe]
-certlink=deprecated_t2_bat
+certlink=steel_battleaxe
 certtemplate=template_for_cert
 
 [black_battleaxe]
@@ -15321,7 +15321,7 @@ certlink=cert_black_battleaxe
 certlink=black_battleaxe
 certtemplate=template_for_cert
 
-[deprecated_t3_bat]
+[mithril_battleaxe]
 cost=1690
 model=model_2778
 2dxof=-7
@@ -15339,10 +15339,10 @@ name=Mithril battleaxe
 certlink=cert_mithril_battleaxe
 
 [cert_mithril_battleaxe]
-certlink=deprecated_t3_bat
+certlink=mithril_battleaxe
 certtemplate=template_for_cert
 
-[deprecated_t4_bat]
+[adamant_battleaxe]
 cost=4160
 model=model_2778
 2dxof=-7
@@ -15360,10 +15360,10 @@ name=Adamant battleaxe
 certlink=cert_adamant_battleaxe
 
 [cert_adamant_battleaxe]
-certlink=deprecated_t4_bat
+certlink=adamant_battleaxe
 certtemplate=template_for_cert
 
-[deprecated_t5_bat]
+[rune_battleaxe]
 cost=41600
 model=model_2778
 2dxof=-7
@@ -15381,7 +15381,7 @@ name=Rune battleaxe
 certlink=cert_rune_battleaxe
 
 [cert_rune_battleaxe]
-certlink=deprecated_t5_bat
+certlink=rune_battleaxe
 certtemplate=template_for_cert
 
 [bronze_battleaxe]
@@ -15897,7 +15897,7 @@ certlink=cert_bronze_mace
 certlink=bronze_mace
 certtemplate=template_for_cert
 
-[deprecated_t2_mac]
+[steel_mace]
 cost=225
 iop2=Wield
 manwear=model_502,0
@@ -15912,7 +15912,7 @@ name=Steel mace
 certlink=cert_steel_mace
 
 [cert_steel_mace]
-certlink=deprecated_t2_mac
+certlink=steel_mace
 certtemplate=template_for_cert
 
 [black_mace]
@@ -15935,7 +15935,7 @@ certlink=cert_black_mace
 certlink=black_mace
 certtemplate=template_for_cert
 
-[deprecated_t3_mac]
+[mithril_mace]
 cost=585
 iop2=Wield
 manwear=model_502,0
@@ -15952,10 +15952,10 @@ name=Mithril mace
 certlink=cert_mithril_mace
 
 [cert_mithril_mace]
-certlink=deprecated_t3_mac
+certlink=mithril_mace
 certtemplate=template_for_cert
 
-[deprecated_t4_mac]
+[adamant_mace]
 cost=1440
 iop2=Wield
 manwear=model_502,0
@@ -15972,10 +15972,10 @@ name=Adamant mace
 certlink=cert_adamant_mace
 
 [cert_adamant_mace]
-certlink=deprecated_t4_mac
+certlink=adamant_mace
 certtemplate=template_for_cert
 
-[deprecated_t5_mac]
+[rune_mace]
 cost=14400
 iop2=Wield
 manwear=model_502,0
@@ -15992,7 +15992,7 @@ name=Rune mace
 certlink=cert_rune_mace
 
 [cert_rune_mace]
-certlink=deprecated_t5_mac
+certlink=rune_mace
 certtemplate=template_for_cert
 
 [dragon_mace]
@@ -34048,7 +34048,7 @@ stockmarket=yes
 name=Iron claws
 certlink=cert_iron_claws
 
-[deprecated_t2_cla]
+[steel_claws]
 cost=175
 model=model_3781
 2dxof=-7
@@ -34096,7 +34096,7 @@ recol4d=0
 name=Black claws
 certlink=cert_black_claws
 
-[deprecated_t3_cla]
+[mithril_claws]
 cost=475
 model=model_3781
 2dxof=-7
@@ -34120,7 +34120,7 @@ recol4d=10574
 name=Mithril claws
 certlink=cert_mithril_claws
 
-[deprecated_t4_cla]
+[adamant_claws]
 cost=1200
 model=model_3781
 2dxof=-7
@@ -34144,7 +34144,7 @@ recol4d=9673
 name=Adamant claws
 certlink=cert_adamant_claws
 
-[deprecated_t5_cla]
+[rune_claws]
 cost=12000
 model=model_3781
 2dxof=-7
@@ -34340,7 +34340,7 @@ certlink=iron_claws
 certtemplate=template_for_cert
 
 [cert_steel_claws]
-certlink=deprecated_t2_cla
+certlink=steel_claws
 certtemplate=template_for_cert
 
 [cert_black_claws]
@@ -34348,15 +34348,15 @@ certlink=black_claws
 certtemplate=template_for_cert
 
 [cert_mithril_claws]
-certlink=deprecated_t3_cla
+certlink=mithril_claws
 certtemplate=template_for_cert
 
 [cert_adamant_claws]
-certlink=deprecated_t4_cla
+certlink=adamant_claws
 certtemplate=template_for_cert
 
 [cert_rune_claws]
-certlink=deprecated_t5_cla
+certlink=rune_claws
 certtemplate=template_for_cert
 
 [granite_shield]
@@ -45984,7 +45984,7 @@ certlink=cert_iron_armoured_boots
 certlink=iron_armoured_boots
 certtemplate=template_for_cert
 
-[deprecated_t2_boo]
+[steel_armoured_boots]
 cost=300
 model=model_5037
 iop2=Wear
@@ -46001,7 +46001,7 @@ name=Steel boots
 certlink=cert_steel_armoured_boots
 
 [cert_steel_armoured_boots]
-certlink=deprecated_t2_boo
+certlink=steel_armoured_boots
 certtemplate=template_for_cert
 
 [black_armoured_boots]
@@ -46026,7 +46026,7 @@ certlink=cert_black_armoured_boots
 certlink=black_armoured_boots
 certtemplate=template_for_cert
 
-[deprecated_t3_boo]
+[mithril_armoured_boots]
 cost=780
 model=model_5037
 iop2=Wear
@@ -46045,10 +46045,10 @@ name=Mithril boots
 certlink=cert_mithril_armoured_boots
 
 [cert_mithril_armoured_boots]
-certlink=deprecated_t3_boo
+certlink=mithril_armoured_boots
 certtemplate=template_for_cert
 
-[deprecated_t4_boo]
+[adamant_armoured_boots]
 cost=1920
 model=model_5037
 iop2=Wear
@@ -46067,10 +46067,10 @@ name=Adamant boots
 certlink=cert_adamant_armoured_boots
 
 [cert_adamant_armoured_boots]
-certlink=deprecated_t4_boo
+certlink=adamant_armoured_boots
 certtemplate=template_for_cert
 
-[deprecated_t5_boo]
+[rune_armoured_boots]
 cost=12500
 model=model_5037
 iop2=Wear
@@ -46089,7 +46089,7 @@ name=Rune boots
 certlink=cert_rune_armoured_boots
 
 [cert_rune_armoured_boots]
-certlink=deprecated_t5_boo
+certlink=rune_armoured_boots
 certtemplate=template_for_cert
 
 [slayerguide_crawlinghand]
