@@ -1,4 +1,4 @@
-[tol_pipe_machine01]
+[tol_background_color]
 type=Rectangle
 width=512
 height=334
@@ -6,7 +6,7 @@ trans=64
 colour=0x3B2A1A
 fill=yes
 
-[tol_pipe_connections]
+[tol_pipe_machine01]
 type=Model
 x=173
 y=156
@@ -15,14 +15,14 @@ height=32
 model1Id=22337
 modelZoom=1050
 
-[tol_pipe_piece03]
+[tol_pipe_connections]
 type=Layer
 x=66
 y=16
 width=256
 height=261
 
-[tol_pipe_piece01]
+[tol_pipe_connection01]
 type=Model
 x=18
 y=19
@@ -32,7 +32,7 @@ layerId=33488898
 model1Id=22351
 modelZoom=1050
 
-[tol_pipe_piece04]
+[tol_pipe_connection02]
 type=Model
 x=80
 y=19
@@ -42,7 +42,7 @@ layerId=33488898
 model1Id=22352
 modelZoom=1050
 
-[tol_pipe_piece05]
+[tol_pipe_connection03]
 type=Model
 x=140
 y=19
@@ -52,7 +52,7 @@ layerId=33488898
 model1Id=22351
 modelZoom=1050
 
-[tol_pipe_piece02]
+[tol_pipe_connection04]
 type=Model
 x=201
 y=19
@@ -62,7 +62,7 @@ layerId=33488898
 model1Id=22352
 modelZoom=1050
 
-[tol_pipe_rotate_button_layer01]
+[tol_pipe_connection05]
 type=Model
 x=105
 y=214
@@ -87,7 +87,7 @@ modelYAn=2002
 buttonText="Rotate"
 eventCode=flag22
 
-[tol_pipe_rotate_button_highlight_layer01]
+[tol_pipe_piece03]
 type=Model
 buttonType=Button
 x=410
@@ -99,7 +99,7 @@ modelZoom=1050
 buttonText="Choose branching pipe"
 eventCode=flag22
 
-[tol_move_left_layer01]
+[tol_pipe_piece01]
 type=Model
 buttonType=Button
 x=356
@@ -111,7 +111,7 @@ modelZoom=1050
 buttonText="Choose 't' pipe"
 eventCode=flag22
 
-[tol_move_left_highlight_layer01]
+[tol_pipe_piece04]
 type=Model
 buttonType=Button
 x=323
@@ -123,7 +123,7 @@ modelZoom=1050
 buttonText="Choose junction pipe"
 eventCode=flag22
 
-[tol_move_right_layer01]
+[tol_pipe_piece05]
 type=Model
 buttonType=Button
 x=449
@@ -135,7 +135,7 @@ modelZoom=1050
 buttonText="Choose large bend pipe"
 eventCode=flag22
 
-[tol_move_right_highlight_layer01]
+[tol_pipe_piece02]
 type=Model
 buttonType=Button
 x=327
@@ -147,7 +147,7 @@ modelZoom=1042
 buttonText="Choose small bend pipe"
 eventCode=flag22
 
-[tol_move_up_layer01]
+[tol_pipe_rotate_button_layer01]
 type=Layer
 x=237
 y=280
@@ -155,7 +155,7 @@ width=42
 height=45
 overLayerId=16
 
-[tol_move_up_highlight_layer01]
+[tol_pipe_rotate_button_highlight01]
 type=Model
 x=4
 y=3
@@ -167,7 +167,7 @@ modelZoom=1256
 modelXAn=54
 modelYAn=2002
 
-[tol_move_down_layer01]
+[tol_pipe_rotate_button_highlight_layer01]
 type=Layer
 x=237
 y=280
@@ -175,7 +175,7 @@ width=42
 height=45
 hide=yes
 
-[tol_move_down_highlight_layer01]
+[tol_vn1]
 type=Sprite
 buttonType=Close
 x=467
@@ -185,7 +185,7 @@ height=23
 graphic=541
 buttonText="Ok"
 
-[bespoke_window]
+[tol_vn2]
 type=Sprite
 buttonType=Close
 x=3
@@ -196,7 +196,7 @@ layerId=33488915
 graphic=542
 buttonText="Ok"
 
-[tol_pipe_connection01]
+[com_19]
 type=Layer
 x=464
 width=32
@@ -204,7 +204,7 @@ height=32
 overLayerId=19
 hide=yes
 
-[tol_pipe_connection02]
+[tol_move_left01]
 type=Model
 buttonType=Button
 x=15
@@ -217,7 +217,7 @@ modelZoom=1000
 buttonText="Move left"
 eventCode=flag22
 
-[tol_pipe_connection03]
+[tol_move_left_layer01]
 type=Layer
 x=101
 y=275
@@ -225,7 +225,7 @@ width=56
 height=34
 overLayerId=23
 
-[tol_pipe_connection04]
+[tol_move_left_highlight01]
 type=Model
 x=15
 y=1
@@ -235,7 +235,7 @@ layerId=33488919
 model1Id=22343
 modelZoom=1000
 
-[tol_pipe_connection05]
+[tol_move_left_highlight_layer01]
 type=Layer
 x=101
 y=275
@@ -243,7 +243,7 @@ width=56
 height=33
 hide=yes
 
-[tol_pipe_rotate_button_highlight01]
+[tol_move_right01]
 type=Model
 buttonType=Button
 x=24
@@ -256,7 +256,7 @@ modelZoom=1000
 buttonText="Move right"
 eventCode=flag22
 
-[tol_move_left01]
+[tol_move_right_layer01]
 type=Layer
 x=103
 y=308
@@ -264,7 +264,7 @@ width=56
 height=29
 overLayerId=27
 
-[tol_move_left_highlight01]
+[tol_move_right_highlight01]
 type=Model
 x=24
 y=-5
@@ -274,7 +274,7 @@ layerId=33488923
 model1Id=22344
 modelZoom=1000
 
-[tol_move_right01]
+[tol_move_right_highlight_layer01]
 type=Layer
 x=103
 y=308
@@ -282,7 +282,7 @@ width=56
 height=30
 hide=yes
 
-[tol_move_right_highlight01]
+[tol_move_up01]
 type=Model
 buttonType=Button
 x=1
@@ -295,7 +295,7 @@ modelZoom=1000
 buttonText="Move up"
 eventCode=flag22
 
-[tol_move_up01]
+[tol_move_up_layer01]
 type=Layer
 x=167
 y=276
@@ -313,7 +313,7 @@ layerId=33488927
 model1Id=22350
 modelZoom=1000
 
-[tol_move_down01]
+[tol_move_up_highlight_layer01]
 type=Layer
 x=167
 y=275
@@ -321,7 +321,7 @@ width=29
 height=56
 hide=yes
 
-[tol_move_down_highlight01]
+[tol_move_down01]
 type=Model
 buttonType=Button
 x=-4
@@ -334,7 +334,7 @@ modelZoom=1000
 buttonText="Move down"
 eventCode=flag22
 
-[bespoke_window_background]
+[tol_move_down_layer01]
 type=Layer
 x=199
 y=277
@@ -342,7 +342,7 @@ width=29
 height=56
 overLayerId=35
 
-[bespoke_window_content]
+[tol_move_down_highlight01]
 type=Model
 x=-4
 y=12
@@ -352,7 +352,7 @@ layerId=33488931
 model1Id=22341
 modelZoom=1000
 
-[bespoke_window_border]
+[tol_move_down_highlight_layer01]
 type=Layer
 x=199
 y=277

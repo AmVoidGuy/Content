@@ -1,4 +1,4 @@
-[mainmodal_window]
+[scroll]
 type=Model
 x=-24
 y=29
@@ -8,7 +8,7 @@ model1Id=11365
 modelZoom=642
 modelXAn=501
 
-[mainmodal_window_background]
+[sketch]
 type=Model
 x=75
 y=18
@@ -18,7 +18,7 @@ model1Id=19483
 modelZoom=741
 modelXAn=492
 
-[mainmodal_window_content]
+[com_2]
 type=Sprite
 x=469
 y=16
@@ -38,7 +38,7 @@ layerId=30932996
 graphic=542
 buttonText="Ok"
 
-[sketch]
+[com_4]
 type=Layer
 x=465
 y=12

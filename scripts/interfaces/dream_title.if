@@ -1,4 +1,4 @@
-[fader]
+[com_0]
 type=Rectangle
 x=22
 y=251
@@ -8,7 +8,7 @@ trans=150
 colour=0x112526
 fill=yes
 
-[text_layer]
+[desc_txt]
 type=Text
 x=30
 y=292
@@ -20,7 +20,7 @@ font=497
 shadow=yes
 text="Text"
 
-[com_2]
+[title_txt]
 type=Text
 x=30
 y=258

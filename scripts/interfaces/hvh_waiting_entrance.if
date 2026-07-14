@@ -1,4 +1,4 @@
-[not_allowed_text]
+[rating_tradebacking]
 type=Sprite
 x=6
 y=24
@@ -8,7 +8,7 @@ layerId=47906824
 graphic=297
 tiling=yes
 
-[people_text]
+[com_1]
 type=Sprite
 x=-1
 y=17
@@ -17,7 +17,7 @@ height=32
 layerId=47906824
 graphic=824
 
-[rating_text]
+[com_2]
 type=Sprite
 x=-1
 y=25
@@ -26,7 +26,7 @@ height=32
 layerId=47906824
 graphic=826
 
-[rating_window]
+[com_3]
 type=Sprite
 x=93
 y=17
@@ -35,7 +35,7 @@ height=32
 layerId=47906824
 graphic=825
 
-[player_numbers]
+[com_4]
 type=Sprite
 x=93
 y=25
@@ -44,7 +44,7 @@ height=32
 layerId=47906824
 graphic=827
 
-[not_allowed_window]
+[rating_top]
 type=Sprite
 x=29
 y=4
@@ -54,7 +54,7 @@ layerId=47906824
 graphic=820
 tiling=yes
 
-[rating_window_background]
+[rating_bottom]
 type=Sprite
 x=31
 y=37
@@ -64,7 +64,7 @@ layerId=47906824
 graphic=822
 tiling=yes
 
-[rating_window_content]
+[rating_text]
 type=Text
 x=6
 y=20
@@ -78,14 +78,14 @@ font=495
 shadow=yes
 text="Rating"
 
-[rating_window_border]
+[waiting_room_layer]
 type=Layer
 x=16
 y=8
 width=512
 height=334
 
-[player_numbers_background]
+[people_tradebacking]
 type=Sprite
 x=378
 y=24
@@ -95,7 +95,7 @@ layerId=47906833
 graphic=297
 tiling=yes
 
-[player_numbers_content]
+[com_10]
 type=Sprite
 x=371
 y=17
@@ -104,7 +104,7 @@ height=32
 layerId=47906833
 graphic=824
 
-[player_numbers_border]
+[com_11]
 type=Sprite
 x=371
 y=25
@@ -113,7 +113,7 @@ height=32
 layerId=47906833
 graphic=826
 
-[not_allowed_window_background]
+[com_12]
 type=Sprite
 x=465
 y=17
@@ -122,7 +122,7 @@ height=32
 layerId=47906833
 graphic=825
 
-[not_allowed_window_content]
+[full_list01]
 type=Sprite
 x=465
 y=25
@@ -131,7 +131,7 @@ height=32
 layerId=47906833
 graphic=827
 
-[not_allowed_window_border]
+[people_top]
 type=Sprite
 x=401
 y=4
@@ -141,7 +141,7 @@ layerId=47906833
 graphic=820
 tiling=yes
 
-[com_15]
+[people_bottom]
 type=Sprite
 x=403
 y=37
@@ -151,7 +151,7 @@ layerId=47906833
 graphic=822
 tiling=yes
 
-[com_16]
+[people_text]
 type=Text
 x=377
 y=20
@@ -237,7 +237,7 @@ layerId=47906842
 graphic=822
 tiling=yes
 
-[com_25]
+[not_allowed_text]
 type=Text
 x=15
 y=9

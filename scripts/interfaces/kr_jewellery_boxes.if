@@ -1,4 +1,4 @@
-[content_layer]
+[kr_table_background]
 type=Model
 x=6
 y=26
@@ -10,7 +10,7 @@ modelXAn=163
 modelYAn=2047
 discardedModelField=0
 
-[bespoke_window]
+[kr_table]
 type=Model
 x=5
 y=25
@@ -22,7 +22,7 @@ modelXAn=163
 modelYAn=2047
 discardedModelField=0
 
-[kr_table_background]
+[kr_riddle_layer]
 type=Layer
 x=106
 y=-2
@@ -30,7 +30,7 @@ width=371
 height=354
 hide=yes
 
-[kr_table]
+[plateau_report_02]
 type=Model
 x=46
 y=26
@@ -43,7 +43,7 @@ modelXAn=519
 modelYAn=1534
 discardedModelField=0
 
-[kr_riddle_layer]
+[kr_paper_scroll_icon]
 type=Model
 x=34
 y=28
@@ -55,14 +55,14 @@ modelXAn=517
 modelYAn=1530
 discardedModelField=0
 
-[kr_paper_scroll_icon]
+[potions_deeper]
 type=Layer
 x=427
 y=34
 width=16
 height=275
 
-[kr_scroll_bar]
+[kr_riddle]
 type=Text
 x=1
 y=2
@@ -72,7 +72,7 @@ layerId=25559047
 colour=0x46320A
 font=497
 
-[kr_show_riddle]
+[kr_riddle_text_layer]
 type=Layer
 x=41
 y=34
@@ -80,7 +80,7 @@ width=280
 height=279
 layerId=25559042
 
-[box_1]
+[kr_show_riddle]
 type=Text
 x=4
 y=6
@@ -96,7 +96,7 @@ opName0="Show"
 onmouseleave=45,component.parentId,13811300
 onmouserepeat=45,component.parentId,14784543
 
-[box_2]
+[box_1]
 type=Layer
 x=23
 y=117
@@ -105,7 +105,7 @@ height=56
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_3]
+[box_2]
 type=Layer
 x=91
 y=145
@@ -114,7 +114,7 @@ height=34
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_4]
+[box_3]
 type=Layer
 x=144
 y=141
@@ -123,7 +123,7 @@ height=37
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_5]
+[box_4]
 type=Layer
 x=180
 y=110
@@ -132,7 +132,7 @@ height=73
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_6]
+[box_5]
 type=Layer
 x=230
 y=143
@@ -141,7 +141,7 @@ height=32
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_7]
+[box_6]
 type=Layer
 x=279
 y=144
@@ -150,7 +150,7 @@ height=34
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_8]
+[box_7]
 type=Layer
 x=340
 y=118
@@ -159,7 +159,7 @@ height=61
 eventCode=hasOp(1)
 opName0="Select"
 
-[box_9]
+[box_8]
 type=Layer
 x=390
 y=150
@@ -169,7 +169,7 @@ eventCode=hasOp(1)
 opName0="Select"
 onclick=67,25559041,27494
 
-[kr_paper_scroll]
+[box_9]
 type=Layer
 x=433
 y=146
@@ -178,7 +178,7 @@ height=29
 eventCode=hasOp(1)
 opName0="Select"
 
-[kr_riddle]
+[kr_close]
 type=Sprite
 x=479
 y=7

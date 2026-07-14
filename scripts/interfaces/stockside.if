@@ -1,9 +1,9 @@
-[stockside_window]
+[stockside_pulsatelayer]
 type=Layer
 width=192
 height=262
 
-[stockside_window_background]
+[stockside_pulsate0]
 type=Rectangle
 x=3
 width=186
@@ -13,7 +13,7 @@ trans=245
 colour=0x908335
 fill=yes
 
-[stockside_window_content]
+[stockside_pulsate0b]
 type=Rectangle
 x=3
 y=259
@@ -24,7 +24,7 @@ trans=245
 colour=0x908335
 fill=yes
 
-[root]
+[stockside_pulsate0c]
 type=Rectangle
 y=5
 width=3
@@ -34,7 +34,7 @@ trans=245
 colour=0x908335
 fill=yes
 
-[oplayer]
+[stockside_pulsate0d]
 type=Rectangle
 x=189
 y=5
@@ -45,7 +45,7 @@ trans=245
 colour=0x908335
 fill=yes
 
-[scroll_layer]
+[stockside_pulsate1]
 type=Rectangle
 x=3
 y=3
@@ -55,7 +55,7 @@ layerId=7012352
 trans=235
 colour=0x908335
 
-[slotlayer]
+[stockside_pulsate1b]
 type=Rectangle
 x=4
 y=4
@@ -65,7 +65,7 @@ layerId=7012352
 trans=235
 colour=0x908335
 
-[inventory_layer]
+[stockside_pulsate1c]
 type=Rectangle
 x=5
 y=5
@@ -75,7 +75,7 @@ layerId=7012352
 trans=235
 colour=0x908335
 
-[scrollbar]
+[stockside_pulsate2]
 type=Rectangle
 x=6
 y=6
@@ -85,7 +85,7 @@ layerId=7012352
 trans=225
 colour=0x908335
 
-[stockside_window_border]
+[stockside_pulsate2b]
 type=Rectangle
 x=7
 y=7
@@ -95,7 +95,7 @@ layerId=7012352
 trans=225
 colour=0x908335
 
-[com_10]
+[stockside_pulsate2c]
 type=Rectangle
 x=8
 y=8
@@ -105,7 +105,7 @@ layerId=7012352
 trans=225
 colour=0x908335
 
-[com_11]
+[stockside_pulsate3]
 type=Rectangle
 x=9
 y=9
@@ -115,7 +115,7 @@ layerId=7012352
 trans=215
 colour=0x908335
 
-[com_12]
+[stockside_pulsate3b]
 type=Rectangle
 x=10
 y=10
@@ -125,7 +125,7 @@ layerId=7012352
 trans=215
 colour=0x908335
 
-[com_13]
+[stockside_pulsate3c]
 type=Rectangle
 x=11
 y=11
@@ -135,7 +135,7 @@ layerId=7012352
 trans=215
 colour=0x908335
 
-[com_14]
+[stockside_pulsate4]
 type=Rectangle
 x=12
 y=12
@@ -145,7 +145,7 @@ layerId=7012352
 trans=205
 colour=0x908335
 
-[com_15]
+[stockside_pulsate4b]
 type=Rectangle
 x=13
 y=13
@@ -155,7 +155,7 @@ layerId=7012352
 trans=205
 colour=0x908335
 
-[com_16]
+[glass_starting]
 type=Rectangle
 x=14
 y=14
@@ -165,7 +165,7 @@ layerId=7012352
 trans=205
 colour=0x908335
 
-[com_17]
+[stockside_pulsate5]
 type=Rectangle
 x=15
 y=15
@@ -176,7 +176,7 @@ trans=200
 colour=0x908335
 fill=yes
 
-[com_18]
+[inventory_layer]
 type=Layer
 x=16
 y=8

@@ -1,4 +1,4 @@
-[select_role_text]
+[com_0]
 type=Rectangle
 x=1
 y=3
@@ -7,7 +7,7 @@ height=400
 trans=120
 fill=yes
 
-[attack_layer]
+[com_1]
 type=Model
 x=246
 y=164
@@ -17,7 +17,7 @@ model1Id=19339
 modelZoom=721
 modelXAn=512
 
-[defend_layer]
+[com_2]
 type=Text
 x=51
 y=28
@@ -28,7 +28,7 @@ font=496
 shadow=yes
 text="Player 2 Interface Screen"
 
-[collect_layer]
+[com_3]
 type=Text
 buttonType=Button
 x=401
@@ -43,7 +43,7 @@ text="Decline"
 buttonText="Decline"
 eventCode=flag22
 
-[healer_layer]
+[barbassault_scroll_pl2_att]
 type=Model
 x=225
 y=92
@@ -55,7 +55,7 @@ model2Id=20561
 modelZoom=1074
 modelXAn=585
 
-[barbassault_scroll_pl2_lay2]
+[barbassault_scroll_pl2_attt]
 type=Text
 buttonType=Button
 x=227
@@ -71,7 +71,7 @@ text="Attacker"
 buttonText="Choose Attacker"
 eventCode=flag22
 
-[mainmodal_window_background]
+[barbassault_scroll_pl2_def]
 type=Model
 x=288
 y=103
@@ -83,7 +83,7 @@ model2Id=20566
 modelZoom=1074
 modelXAn=585
 
-[com_7]
+[barbassault_scroll_pl2_deft]
 type=Text
 buttonType=Button
 x=290
@@ -99,7 +99,7 @@ text="Defender"
 buttonText="Choose Defender"
 eventCode=flag22
 
-[hard_mode]
+[barbassault_scroll_pl2_colt]
 type=Text
 buttonType=Button
 x=351
@@ -115,7 +115,7 @@ text="Collector"
 buttonText="Choose Collector"
 eventCode=flag22
 
-[team_overview]
+[barbassault_scroll_pl2_col]
 type=Model
 x=351
 y=92
@@ -127,7 +127,7 @@ model2Id=20563
 modelZoom=1074
 modelXAn=585
 
-[role_select_layer]
+[barbassault_scroll_pl2_heal]
 type=Model
 x=415
 y=103
@@ -139,7 +139,7 @@ model2Id=20569
 modelZoom=1074
 modelXAn=585
 
-[status_text]
+[barbassault_scroll_pl2_healt]
 type=Text
 buttonType=Button
 x=416
@@ -182,7 +182,7 @@ text="Accept"
 buttonText="Accept"
 eventCode=flag22
 
-[barbassault_scroll_pl2_rolename]
+[com_14]
 type=Model
 x=404
 y=193
@@ -194,7 +194,7 @@ modelZoom=1296
 modelXAn=501
 modelYAn=2014
 
-[title_text]
+[barbassault_scroll_pl2_rolename]
 type=Text
 x=278
 y=73
@@ -220,7 +220,7 @@ font=495
 shadow=yes
 text="Waiting for player 1 to accept..."
 
-[com_17]
+[barbassault_scroll_pl2_lay2]
 type=Layer
 x=278
 y=251
@@ -228,7 +228,7 @@ width=191
 height=32
 hide=yes
 
-[leader_text]
+[com_18]
 type=Text
 x=81
 y=43
@@ -261,7 +261,7 @@ font=495
 shadow=yes
 text="Role"
 
-[follower_text]
+[com_21]
 type=Text
 x=44
 y=59
@@ -283,7 +283,7 @@ font=495
 shadow=yes
 text="--- Followers ---"
 
-[com_23]
+[barbassault_scroll_pl2_tn1]
 type=Text
 x=93
 y=75
@@ -294,7 +294,7 @@ font=495
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl2_tr1]
+[barbassault_scroll_pl2_tn2]
 type=Text
 x=94
 y=133
@@ -305,7 +305,7 @@ font=495
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl2_tr2]
+[barbassault_scroll_pl2_tn3]
 type=Text
 x=94
 y=174
@@ -316,7 +316,7 @@ font=495
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl2_tr3]
+[barbassault_scroll_pl2_tn4]
 type=Text
 x=94
 y=214
@@ -327,7 +327,7 @@ font=495
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl2_tr4]
+[barbassault_scroll_pl2_tn5]
 type=Text
 x=93
 y=256
@@ -338,7 +338,7 @@ font=495
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl2_tr5]
+[barbassault_scroll_pl2_tr1]
 type=Text
 x=93
 y=93
@@ -349,7 +349,7 @@ font=495
 shadow=yes
 text="none set"
 
-[preset_bg_1]
+[barbassault_scroll_pl2_tr2]
 type=Text
 x=94
 y=151
@@ -360,7 +360,7 @@ font=495
 shadow=yes
 text="none set"
 
-[preset_bg_2]
+[barbassault_scroll_pl2_tr3]
 type=Text
 x=94
 y=192
@@ -371,7 +371,7 @@ font=495
 shadow=yes
 text="none set"
 
-[preset_bg_3]
+[barbassault_scroll_pl2_tr4]
 type=Text
 x=94
 y=232
@@ -382,7 +382,7 @@ font=495
 shadow=yes
 text="none set"
 
-[preset_bg_4]
+[barbassault_scroll_pl2_tr5]
 type=Text
 x=93
 y=274
@@ -393,7 +393,7 @@ font=495
 shadow=yes
 text="none set"
 
-[preset_bg_5]
+[com_33]
 type=Text
 x=201
 y=58
@@ -404,7 +404,7 @@ font=495
 shadow=yes
 text="Wave"
 
-[com_34]
+[barbassault_scroll_pl2_wave1]
 type=Text
 x=209
 y=79
@@ -415,7 +415,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_35]
+[barbassault_scroll_pl2_wave2]
 type=Text
 x=210
 y=141
@@ -426,7 +426,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_36]
+[barbassault_scroll_pl2_wave3]
 type=Text
 x=210
 y=183
@@ -437,7 +437,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_37]
+[barbassault_scroll_pl2_wave4]
 type=Text
 x=210
 y=223
@@ -448,7 +448,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_38]
+[barbassault_scroll_pl2_wave5]
 type=Text
 x=210
 y=267
@@ -471,7 +471,7 @@ font=496
 shadow=yes
 text="Please select a role!<br>Current Role:"
 
-[com_40]
+[barbassault_sword_hover]
 type=Layer
 x=225
 y=92
@@ -491,7 +491,7 @@ modelXAn=585
 buttonText="Choose Attacker"
 eventCode=flag22
 
-[com_42]
+[barbassault_shield_hover]
 type=Layer
 x=288
 y=103
@@ -499,7 +499,7 @@ width=60
 height=60
 hide=yes
 
-[barbassault_scroll_pl2_tn1]
+[com_43]
 type=Model
 buttonType=Button
 width=60
@@ -511,7 +511,7 @@ modelXAn=585
 buttonText="Choose Defender"
 eventCode=flag22
 
-[barbassault_scroll_pl2_tn2]
+[barbassault_egg_hover]
 type=Layer
 x=351
 y=92
@@ -519,7 +519,7 @@ width=60
 height=60
 hide=yes
 
-[barbassault_scroll_pl2_tn3]
+[com_45]
 type=Model
 buttonType=Button
 width=60
@@ -531,7 +531,7 @@ modelXAn=585
 buttonText="Choose Collector"
 eventCode=flag22
 
-[barbassault_scroll_pl2_tn4]
+[barbassault_medic_hover]
 type=Layer
 x=415
 y=103
@@ -539,7 +539,7 @@ width=60
 height=60
 hide=yes
 
-[barbassault_scroll_pl2_tn5]
+[com_47]
 type=Model
 buttonType=Button
 width=60
@@ -551,7 +551,7 @@ modelXAn=585
 buttonText="Choose Healer"
 eventCode=flag22
 
-[barbassault_leader_icon]
+[barbassault_tick_highlight]
 type=Layer
 x=303
 y=176
@@ -559,7 +559,7 @@ width=70
 height=70
 hide=yes
 
-[barbassault_player1_icon]
+[com_49]
 type=Model
 buttonType=Button
 x=21
@@ -574,7 +574,7 @@ modelYAn=2020
 buttonText="Accept"
 eventCode=flag22
 
-[barbassault_player2_icon]
+[barbassault_cross_highlight]
 type=Layer
 x=386
 y=177
@@ -582,7 +582,7 @@ width=70
 height=70
 hide=yes
 
-[barbassault_player3_icon]
+[com_51]
 type=Model
 buttonType=Button
 x=18
@@ -597,7 +597,7 @@ modelYAn=2014
 buttonText="Decline"
 eventCode=flag22
 
-[barbassault_player4_icon]
+[com_52]
 type=Text
 x=45
 y=133
@@ -608,7 +608,7 @@ font=495
 shadow=yes
 text="Name"
 
-[barbassault_scroll_pl2_wave1]
+[com_53]
 type=Text
 x=45
 y=151
@@ -619,7 +619,7 @@ font=495
 shadow=yes
 text="Role"
 
-[barbassault_scroll_pl2_wave2]
+[com_54]
 type=Text
 x=45
 y=174
@@ -630,7 +630,7 @@ font=495
 shadow=yes
 text="Name"
 
-[barbassault_scroll_pl2_wave3]
+[com_55]
 type=Text
 x=45
 y=192
@@ -641,7 +641,7 @@ font=495
 shadow=yes
 text="Role"
 
-[barbassault_scroll_pl2_wave4]
+[com_56]
 type=Text
 x=45
 y=214
@@ -652,7 +652,7 @@ font=495
 shadow=yes
 text="Name"
 
-[barbassault_scroll_pl2_wave5]
+[com_57]
 type=Text
 x=45
 y=232
@@ -663,7 +663,7 @@ font=495
 shadow=yes
 text="Role"
 
-[name_text]
+[com_58]
 type=Text
 x=44
 y=256
@@ -674,7 +674,7 @@ font=495
 shadow=yes
 text="Name"
 
-[role_text]
+[com_59]
 type=Text
 x=44
 y=274

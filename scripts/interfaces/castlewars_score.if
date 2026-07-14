@@ -9,7 +9,7 @@ hAlign=Center
 font=497
 text="Total Wins This Season!"
 
-[com_1]
+[castlewars_saradomin_totalscore]
 type=Text
 buttonType=Button
 x=184
@@ -20,7 +20,7 @@ font=497
 text="Saradomin: 0"
 eventCode=flag22
 
-[castlewars_saradomin_totalscore]
+[castlewars_zamorak_totalscore]
 type=Text
 buttonType=Button
 x=184
@@ -31,7 +31,7 @@ font=497
 text="Zamorak: 0"
 eventCode=flag22
 
-[castlewars_zamorak_totalscore]
+[com_3]
 type=Model
 x=145
 y=70
@@ -74,7 +74,7 @@ height=32
 model1Id=4862
 modelZoom=2500
 
-[swords]
+[com_8]
 type=Model
 x=304
 y=104
@@ -83,7 +83,7 @@ height=32
 model1Id=4862
 modelZoom=2500
 
-[background]
+[com_9]
 type=Sprite
 x=447
 y=68
@@ -92,7 +92,7 @@ height=23
 overLayerId=11
 graphic=537
 
-[border]
+[com_10]
 type=Sprite
 buttonType=Close
 x=2
@@ -104,7 +104,7 @@ overLayerId=11
 graphic=538
 buttonText="Ok"
 
-[content]
+[castlewars_score_close_button]
 type=Layer
 x=445
 y=62

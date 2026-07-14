@@ -1,18 +1,18 @@
-[mainmodal_window]
+[lj_layer2]
 type=Layer
 x=43
 y=33
 width=387
 height=287
 
-[lj_title]
+[lj_layer1]
 type=Layer
 x=55
 y=69
 width=358
 height=225
 
-[lj1]
+[lj_title]
 type=Text
 x=16
 y=18
@@ -22,7 +22,7 @@ layerId=16449537
 font=497
 text="Instructions for Beacon Ring"
 
-[mainmodal_window_background]
+[com_3]
 type=Model
 x=192
 y=55
@@ -33,7 +33,7 @@ model1Id=21509
 modelZoom=570
 modelXAn=510
 
-[mainmodal_window_content]
+[lj1]
 type=Text
 x=14
 y=45
@@ -52,7 +52,7 @@ height=23
 overLayerId=7
 graphic=537
 
-[lj_layer1]
+[com_6]
 type=Sprite
 buttonType=Close
 x=4
@@ -63,7 +63,7 @@ layerId=16449543
 graphic=538
 buttonText="Ok"
 
-[mainmodal_window_border]
+[letter_lj_close]
 type=Layer
 x=363
 y=40

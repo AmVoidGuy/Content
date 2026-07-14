@@ -1,15 +1,15 @@
-[map]
+[myq3_rectangle]
 type=Rectangle
 width=520
 height=340
 fill=yes
 
-[scroll_myq3]
+[map]
 type=Layer
 width=512
 height=334
 
-[myq3_boat]
+[scroll_myq3]
 type=Model
 x=234
 y=144
@@ -20,7 +20,7 @@ model1Id=18141
 modelZoom=984
 modelXAn=476
 
-[com_3]
+[myq3_boat]
 type=Model
 x=234
 y=144

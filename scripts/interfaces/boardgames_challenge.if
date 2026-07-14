@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Sprite
 x=90
 y=61
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_draughts1]
+[com_1]
 type=Sprite
 x=91
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runelink1]
+[com_2]
 type=Sprite
 x=89
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_draughts2]
+[com_3]
 type=Sprite
 x=87
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runelink2]
+[com_4]
 type=Sprite
 x=90
 y=213
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_draughtsranks]
+[com_5]
 type=Sprite
 x=100
 y=63
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runelinkranks]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_game_column]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_rank_column]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runesquares1]
+[com_9]
 type=Sprite
 x=188
 y=64
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runesquares2]
+[com_10]
 type=Sprite
 x=102
 y=216
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runesquaresranks]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runeversi1]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runeversi2]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_runeversiranks]
+[com_14]
 type=Sprite
 x=276
 y=60
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_background]
+[com_15]
 type=Sprite
 x=188
 y=213
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_content]
+[com_16]
 type=Sprite
 x=326
 y=82
@@ -134,7 +134,7 @@ width=88
 height=60
 graphic=297
 
-[challenge_button]
+[com_17]
 type=Sprite
 x=276
 y=80
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_challenge_optionslayer]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_border]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -158,7 +158,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_close_button]
+[com_20]
 type=Sprite
 x=276
 y=213
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[challenge_build]
+[com_21]
 type=Sprite
 x=326
 y=142
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[challenge_click]
+[com_22]
 type=Sprite
 x=325
 y=62
@@ -518,7 +518,7 @@ width=36
 height=36
 graphic=314
 
-[com_65]
+[boardgames_challenge_selectlayer]
 type=Layer
 x=320
 y=220
@@ -536,7 +536,7 @@ font=496
 shadow=yes
 text="Challenge: Select Game"
 
-[com_67]
+[boardgames_challenge_select]
 type=Rectangle
 buttonType=Button
 x=6
@@ -613,14 +613,14 @@ height=36
 layerId=2031681
 graphic=173
 
-[com_75]
+[boardgames_challenge_optionslayer]
 type=Layer
 x=115
 y=121
 width=277
 height=137
 
-[com_76]
+[boardgames_challenge_draughts1]
 type=Sprite
 buttonType=Select
 x=8
@@ -635,7 +635,7 @@ eventCode=flag22
 script1=eq,0
 script1op1=varp,if1
 
-[com_77]
+[boardgames_challenge_runelink1]
 type=Sprite
 buttonType=Select
 x=8
@@ -650,7 +650,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varp,if1
 
-[com_78]
+[boardgames_challenge_draughts2]
 type=Text
 buttonType=Button
 x=30
@@ -665,7 +665,7 @@ text="Draughts"
 buttonText="Select game"
 eventCode=flag22
 
-[com_79]
+[boardgames_challenge_runelink2]
 type=Text
 buttonType=Button
 x=30
@@ -680,7 +680,7 @@ text="Runelink"
 buttonText="Select game"
 eventCode=flag22
 
-[com_80]
+[boardgames_challenge_draughtsranks]
 type=Text
 x=112
 y=28
@@ -692,7 +692,7 @@ font=495
 shadow=yes
 text="100 vs 100"
 
-[com_81]
+[boardgames_challenge_runelinkranks]
 type=Text
 x=112
 y=58
@@ -728,7 +728,7 @@ font=495
 shadow=yes
 text="Ranks (mine vs opponents):"
 
-[com_84]
+[boardgames_challenge_runesquares1]
 type=Sprite
 buttonType=Select
 x=8
@@ -743,7 +743,7 @@ eventCode=flag22
 script1=eq,2
 script1op1=varp,if1
 
-[com_85]
+[boardgames_challenge_runesquares2]
 type=Text
 buttonType=Button
 x=30
@@ -758,7 +758,7 @@ text="Runesquares"
 buttonText="Select game"
 eventCode=flag22
 
-[com_86]
+[boardgames_challenge_runesquaresranks]
 type=Text
 x=112
 y=88
@@ -770,7 +770,7 @@ font=495
 shadow=yes
 text="100 vs 100"
 
-[com_87]
+[boardgames_challenge_runeversi1]
 type=Sprite
 buttonType=Select
 x=8
@@ -785,7 +785,7 @@ eventCode=flag22
 script1=eq,3
 script1op1=varp,if1
 
-[com_88]
+[boardgames_challenge_runeversi2]
 type=Text
 buttonType=Button
 x=30
@@ -800,7 +800,7 @@ text="Runeversi"
 buttonText="Select game"
 eventCode=flag22
 
-[com_89]
+[boardgames_challenge_runeversiranks]
 type=Text
 x=112
 y=118
@@ -832,7 +832,7 @@ layerId=2031708
 graphic=536
 buttonText="Ok"
 
-[com_92]
+[boardgames_challenge_close_button]
 type=Layer
 x=384
 y=59

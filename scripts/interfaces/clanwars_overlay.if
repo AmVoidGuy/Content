@@ -1,4 +1,4 @@
-[status]
+[background]
 type=Rectangle
 x=260
 y=13
@@ -12,7 +12,7 @@ onload=689
 onvartransmit=689
 onvartransmitlist=1147
 
-[background]
+[outline]
 type=Rectangle
 x=260
 y=13
@@ -22,7 +22,7 @@ trans=175
 colour=0x333333
 baseOpName="  "
 
-[vline]
+[com_2]
 type=Text
 x=267
 y=19
@@ -33,7 +33,7 @@ font=494
 shadow=yes
 text="Clan A's name"
 
-[myteam_name]
+[com_3]
 type=Text
 x=361
 y=19
@@ -44,7 +44,7 @@ font=494
 shadow=yes
 text="Players remaining:"
 
-[myteam_living_header]
+[com_4]
 type=Text
 x=267
 y=33
@@ -55,7 +55,7 @@ font=494
 shadow=yes
 text="Opposing clan"
 
-[myteam_living]
+[com_5]
 type=Text
 x=361
 y=33
@@ -66,7 +66,7 @@ font=494
 shadow=yes
 text="Players remaining:"
 
-[myteam_kills_header]
+[com_6]
 type=Text
 x=466
 y=19
@@ -77,7 +77,7 @@ font=494
 shadow=yes
 text="0"
 
-[myteam_kills]
+[com_7]
 type=Text
 x=466
 y=33
@@ -88,7 +88,7 @@ font=494
 shadow=yes
 text="0"
 
-[myteam_kills_target]
+[com_8]
 type=Text
 x=267
 y=48
@@ -99,7 +99,7 @@ font=494
 shadow=yes
 text="Time till start"
 
-[theirteam_name]
+[com_9]
 type=Text
 x=361
 y=48

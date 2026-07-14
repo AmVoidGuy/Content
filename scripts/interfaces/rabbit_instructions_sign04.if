@@ -1,4 +1,4 @@
-[content_layer_1]
+[background]
 type=Rectangle
 width=514
 height=335
@@ -6,7 +6,7 @@ trans=32
 colour=0xC0B8A0
 fill=yes
 
-[bespoke_window]
+[com_1]
 type=Rectangle
 x=11
 y=5
@@ -15,7 +15,7 @@ height=179
 colour=0x8C7C6C
 fill=yes
 
-[paragraph2]
+[com_2]
 type=Rectangle
 x=316
 y=146
@@ -24,7 +24,7 @@ height=179
 colour=0x8C7C6C
 fill=yes
 
-[paragraph3]
+[paragraph01]
 type=Text
 x=208
 y=8
@@ -33,7 +33,7 @@ height=169
 font=497
 text="While you are in the area, you will be able to see your points total in the top-right corner of your screen. Your points are saved, so you can leave if you wish and return another time to pick up from where you left off."
 
-[seed]
+[paragraph02]
 type=Text
 x=14
 y=190
@@ -42,7 +42,7 @@ height=169
 font=497
 text="You can trade your points in for prizes or Farming experience by speaking to Mrs. Winkin in the Winkin shop."
 
-[flag]
+[seed]
 type=Model
 x=26
 y=134
@@ -56,7 +56,7 @@ modelXOf=2
 modelYOf=8
 discardedModelField=0
 
-[mrs_winkin]
+[flag]
 type=Model
 x=60
 y=27
@@ -71,7 +71,7 @@ modelXOf=-14
 modelYOf=56
 discardedModelField=0
 
-[supercompost]
+[pointsbox]
 type=Rectangle
 x=116
 y=7
@@ -81,7 +81,7 @@ trans=100
 colour=0x525252
 fill=yes
 
-[acorn]
+[pointstext]
 type=Text
 x=138
 y=11
@@ -92,7 +92,7 @@ font=494
 shadow=yes
 text="Points"
 
-[bespoke_window_background]
+[points]
 type=Text
 x=118
 y=27
@@ -107,7 +107,7 @@ onload=862
 onvartransmit=862
 onvartransmitlist=1195
 
-[bespoke_window_content]
+[mrs_winkin]
 type=Model
 x=329
 y=152
@@ -121,7 +121,7 @@ modelXOf=-5
 modelYOf=72
 discardedModelField=0
 
-[bespoke_window_border]
+[xp]
 type=Text
 x=416
 y=158
@@ -132,7 +132,7 @@ font=645
 shadow=yes
 text="XP"
 
-[bespoke_window_close]
+[supercompost]
 type=Model
 x=413
 y=217
@@ -144,7 +144,7 @@ modelXAn=259
 modelYOf=15
 discardedModelField=0
 
-[com_13]
+[acorn]
 type=Model
 x=449
 y=259
@@ -157,7 +157,7 @@ modelXOf=-4
 modelYOf=4
 discardedModelField=0
 
-[com_14]
+[closebutton]
 type=Sprite
 x=488
 y=2

@@ -1,4 +1,4 @@
-[mainmodal_window]
+[background]
 type=Rectangle
 width=512
 height=334
@@ -6,7 +6,7 @@ trans=160
 colour=0x46341D
 fill=yes
 
-[mainmodal_window_background]
+[address_form]
 type=Model
 x=120
 y=-4
@@ -17,7 +17,7 @@ modelZoom=814
 modelXAn=532
 discardedModelField=0
 
-[mainmodal_window_content]
+[text]
 type=Text
 x=211
 y=23
@@ -30,7 +30,7 @@ font=645
 text="Meet at Camel We'll storm She'll ensure w The servants silence."
 baseOpName="rm"
 
-[com_3]
+[close_button]
 type=Sprite
 x=456
 y=24

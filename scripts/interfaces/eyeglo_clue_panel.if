@@ -1,4 +1,4 @@
-[content_layer]
+[eyeglo_battle_rect]
 type=Rectangle
 x=-1
 width=514
@@ -6,7 +6,7 @@ height=335
 colour=0x2A1E06
 fill=yes
 
-[bespoke_window]
+[com_1]
 type=Model
 x=236
 y=519
@@ -58,7 +58,7 @@ layerId=29032454
 graphic=540
 buttonText="Ok"
 
-[bespoke_window_background]
+[com_6]
 type=Layer
 x=476
 y=3
@@ -66,7 +66,7 @@ width=32
 height=32
 hide=yes
 
-[bespoke_window_content]
+[com_7]
 type=Model
 x=305
 y=198

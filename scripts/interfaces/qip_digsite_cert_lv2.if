@@ -87,7 +87,7 @@ layerId=28901385
 graphic=540
 buttonText="Ok"
 
-[tooltip_bounding_box]
+[digsitecert2_close]
 type=Layer
 x=479
 y=2

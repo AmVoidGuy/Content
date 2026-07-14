@@ -1,4 +1,4 @@
-[bounding_box]
+[com_0]
 type=Rectangle
 x=65
 y=25
@@ -7,7 +7,7 @@ height=295
 trans=200
 fill=yes
 
-[modal_dialog_window]
+[com_1]
 type=Sprite
 x=61
 y=24
@@ -60,7 +60,7 @@ height=32
 graphic=822
 tiling=yes
 
-[com_7]
+[close_btn]
 type=Sprite
 x=410
 y=30
@@ -152,7 +152,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[air]
+[com_17]
 type=Rectangle
 x=183
 y=101
@@ -162,7 +162,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[mind]
+[com_18]
 type=Rectangle
 x=278
 y=101
@@ -172,7 +172,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[water]
+[com_19]
 type=Rectangle
 x=41
 y=144
@@ -182,7 +182,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[earth]
+[com_20]
 type=Rectangle
 x=136
 y=144
@@ -192,7 +192,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[fire]
+[com_21]
 type=Rectangle
 x=230
 y=144
@@ -202,7 +202,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[body]
+[com_22]
 type=Rectangle
 x=325
 y=144
@@ -212,7 +212,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[cosmic]
+[com_23]
 type=Rectangle
 x=88
 y=187
@@ -222,7 +222,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[chaos]
+[com_24]
 type=Rectangle
 x=183
 y=187
@@ -232,7 +232,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[astral]
+[com_25]
 type=Rectangle
 x=277
 y=187
@@ -242,7 +242,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[law]
+[com_26]
 type=Rectangle
 x=136
 y=230
@@ -252,7 +252,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[death]
+[com_27]
 type=Rectangle
 x=230
 y=230
@@ -262,7 +262,7 @@ layerId=40566826
 trans=200
 fill=yes
 
-[blood]
+[air]
 type=Model
 x=240
 y=64
@@ -279,7 +279,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Air runes",50,150
 
-[nature]
+[mind]
 type=Model
 x=145
 y=64
@@ -296,7 +296,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Mind runes",50,150
 
-[soul]
+[water]
 type=Model
 x=96
 y=108
@@ -313,7 +313,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Water runes",50,150
 
-[time]
+[earth]
 type=Model
 x=192
 y=108
@@ -330,7 +330,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Earth runes",50,150
 
-[info]
+[fire]
 type=Model
 x=287
 y=108
@@ -347,7 +347,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Fire runes",50,150
 
-[mind_fade]
+[body]
 type=Model
 x=50
 y=151
@@ -364,7 +364,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Body runes",50,150
 
-[air_fade]
+[cosmic]
 type=Model
 x=145
 y=151
@@ -381,7 +381,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Cosmic runes",50,150
 
-[water_fade]
+[chaos]
 type=Model
 x=239
 y=151
@@ -398,7 +398,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Chaos runes",50,150
 
-[earth_fade]
+[astral]
 type=Model
 x=333
 y=151
@@ -415,7 +415,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Astral runes",50,150
 
-[fire_fade]
+[law]
 type=Model
 x=97
 y=194
@@ -432,7 +432,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Law runes",50,150
 
-[body_fade]
+[death]
 type=Model
 x=191
 y=194
@@ -449,7 +449,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Death runes",50,150
 
-[cosmic_fade]
+[blood]
 type=Model
 x=285
 y=194
@@ -466,7 +466,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Blood runes",50,150
 
-[chaos_fade]
+[nature]
 type=Model
 x=145
 y=237
@@ -483,7 +483,7 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Nature runes",50,150
 
-[astral_fade]
+[soul]
 type=Model
 x=240
 y=237
@@ -500,14 +500,14 @@ opName0="Select"
 onmouseleave=40,40566843
 onmouserepeat=38,component.parentId,40566843,"Soul runes",50,150
 
-[law_fade]
+[bounding_box]
 type=Layer
 x=42
 y=3
 width=409
 height=309
 
-[death_fade]
+[title]
 type=Text
 x=148
 y=22
@@ -520,7 +520,7 @@ font=496
 shadow=yes
 text="Pay Bank Charge With..."
 
-[blood_fade]
+[info]
 type=Text
 x=101
 y=274
@@ -533,7 +533,7 @@ vAlign=Center
 font=496
 shadow=yes
 
-[nature_fade]
+[mind_fade]
 type=Rectangle
 x=135
 y=58
@@ -544,7 +544,7 @@ hide=yes
 trans=150
 fill=yes
 
-[soul_fade]
+[air_fade]
 type=Rectangle
 x=231
 y=58
@@ -555,7 +555,7 @@ hide=yes
 trans=150
 fill=yes
 
-[time_fade]
+[water_fade]
 type=Rectangle
 x=88
 y=101
@@ -566,7 +566,7 @@ hide=yes
 trans=150
 fill=yes
 
-[modal_dialog_window_background]
+[earth_fade]
 type=Rectangle
 x=183
 y=101
@@ -577,7 +577,7 @@ hide=yes
 trans=150
 fill=yes
 
-[modal_dialog_window_content]
+[fire_fade]
 type=Rectangle
 x=278
 y=101
@@ -588,7 +588,7 @@ hide=yes
 trans=150
 fill=yes
 
-[modal_dialog_window_border]
+[body_fade]
 type=Rectangle
 x=41
 y=144
@@ -599,7 +599,7 @@ hide=yes
 trans=150
 fill=yes
 
-[modal_dialog_window_close_button]
+[cosmic_fade]
 type=Rectangle
 x=136
 y=144
@@ -610,7 +610,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_52]
+[chaos_fade]
 type=Rectangle
 x=230
 y=144
@@ -621,7 +621,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_53]
+[astral_fade]
 type=Rectangle
 x=325
 y=144
@@ -632,7 +632,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_54]
+[law_fade]
 type=Rectangle
 x=88
 y=187
@@ -643,7 +643,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_55]
+[death_fade]
 type=Rectangle
 x=183
 y=187
@@ -654,7 +654,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_56]
+[blood_fade]
 type=Rectangle
 x=277
 y=187
@@ -665,7 +665,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_57]
+[nature_fade]
 type=Rectangle
 x=136
 y=230
@@ -676,7 +676,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_58]
+[soul_fade]
 type=Rectangle
 x=230
 y=230
@@ -687,7 +687,7 @@ hide=yes
 trans=150
 fill=yes
 
-[com_59]
+[tooltip]
 type=Layer
 x=45
 y=64

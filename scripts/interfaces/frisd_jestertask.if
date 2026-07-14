@@ -7,7 +7,7 @@ height=36
 graphic=174
 graphic2=176
 
-[talk_button]
+[com_1]
 type=Sprite
 x=58
 y=48
@@ -16,7 +16,7 @@ height=36
 graphic=176
 graphic2=178
 
-[dance_button]
+[com_2]
 type=Sprite
 x=84
 y=48
@@ -25,7 +25,7 @@ height=36
 graphic=176
 graphic2=178
 
-[juggle_button]
+[com_3]
 type=Sprite
 x=110
 y=48
@@ -34,7 +34,7 @@ height=36
 graphic=176
 graphic2=178
 
-[skip_button]
+[com_4]
 type=Sprite
 x=128
 y=48
@@ -43,7 +43,7 @@ height=36
 graphic=176
 graphic2=178
 
-[pie_button]
+[frisd_talkbutton]
 type=Text
 buttonType=Button
 x=41
@@ -60,7 +60,7 @@ shadow=yes
 text="Talk to puppet"
 eventCode=flag22
 
-[jig_button]
+[com_6]
 type=Text
 x=28
 y=5
@@ -74,7 +74,7 @@ font=496
 shadow=yes
 text="Jester Controls"
 
-[bow_button]
+[com_7]
 type=Sprite
 x=28
 y=88
@@ -92,7 +92,7 @@ height=36
 graphic=176
 graphic2=178
 
-[com_9]
+[frisd_dancebutton]
 type=Text
 buttonType=Button
 x=33
@@ -127,7 +127,7 @@ height=36
 graphic=176
 graphic2=178
 
-[com_12]
+[frisd_jugglebutton]
 type=Text
 buttonType=Button
 x=102
@@ -162,7 +162,7 @@ height=36
 graphic=176
 graphic2=178
 
-[com_15]
+[frisd_skipbutton]
 type=Text
 buttonType=Button
 x=32
@@ -197,7 +197,7 @@ height=36
 graphic=176
 graphic2=178
 
-[com_18]
+[frisd_piebutton]
 type=Text
 buttonType=Button
 x=103
@@ -232,7 +232,7 @@ height=36
 graphic=176
 graphic2=178
 
-[com_21]
+[frisd_jigbutton]
 type=Text
 buttonType=Button
 x=33
@@ -267,7 +267,7 @@ height=36
 graphic=176
 graphic2=178
 
-[com_24]
+[frisd_bowbutton]
 type=Text
 buttonType=Button
 x=102

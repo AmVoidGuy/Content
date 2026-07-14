@@ -25,7 +25,7 @@ width=221
 height=215
 modelZoom=144
 
-[close_button]
+[com_3]
 type=Sprite
 x=443
 y=16
@@ -34,7 +34,7 @@ height=23
 overLayerId=5
 graphic=539
 
-[content_layer]
+[com_4]
 type=Sprite
 buttonType=Close
 x=4
@@ -45,7 +45,7 @@ layerId=9371653
 graphic=540
 buttonText="Ok"
 
-[com_5]
+[gravedigger_macro3]
 type=Layer
 x=439
 y=12

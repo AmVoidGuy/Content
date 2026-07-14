@@ -1,10 +1,10 @@
-[vm_nathis_battle_tortoise]
+[com_0]
 type=Rectangle
 width=512
 height=334
 fill=yes
 
-[vm_nathis_camel]
+[vm_nathis_text]
 type=Text
 width=270
 height=304
@@ -15,7 +15,7 @@ font=495
 shadow=yes
 text="Text"
 
-[vm_nathis_dragon_01]
+[vm_nathis_battle_tortoise]
 type=Model
 x=103
 y=224
@@ -26,13 +26,35 @@ modelXAn=166
 modelYAn=1795
 discardedModelField=0
 
-[vm_nathis_dragon_02]
+[vm_nathis_camel]
 type=Model
 x=103
 y=224
 width=32
 height=32
 modelZoom=1424
+modelXAn=166
+modelYAn=1795
+discardedModelField=0
+
+[vm_nathis_dragon_01]
+type=Model
+x=103
+y=224
+width=32
+height=32
+modelZoom=2704
+modelXAn=166
+modelYAn=1795
+discardedModelField=0
+
+[vm_nathis_dragon_02]
+type=Model
+x=103
+y=224
+width=32
+height=32
+modelZoom=2704
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -54,7 +76,7 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=2704
+modelZoom=2448
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -65,7 +87,7 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=2704
+modelZoom=1936
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -76,7 +98,7 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=2448
+modelZoom=1424
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -87,7 +109,7 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=1936
+modelZoom=1424
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -197,7 +219,7 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=1424
+modelZoom=1936
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -208,7 +230,7 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=1424
+modelZoom=1936
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
@@ -230,34 +252,12 @@ x=103
 y=224
 width=32
 height=32
-modelZoom=1936
-modelXAn=166
-modelYAn=1795
-discardedModelField=0
-
-[vm_nathis_number]
-type=Model
-x=103
-y=224
-width=32
-height=32
-modelZoom=1936
-modelXAn=166
-modelYAn=1795
-discardedModelField=0
-
-[vm_nathis_display_num]
-type=Model
-x=103
-y=224
-width=32
-height=32
 modelZoom=2576
 modelXAn=166
 modelYAn=1795
 discardedModelField=0
 
-[vm_nathis_creature_text]
+[vm_nathis_number]
 type=Text
 x=34
 y=306
@@ -269,7 +269,7 @@ font=496
 shadow=yes
 text="Display number"
 
-[vm_nathis_quiz_text]
+[vm_nathis_display_num]
 type=Text
 x=159
 y=306
@@ -280,7 +280,15 @@ font=496
 shadow=yes
 text="03"
 
-[vm_nathis_text]
+[vm_nathis_creature_text]
+type=Layer
+x=238
+y=26
+width=270
+height=304
+hide=yes
+
+[vm_nathis_quiz_text]
 type=Layer
 x=238
 y=26
@@ -289,14 +297,6 @@ height=304
 hide=yes
 
 [vm_nathis_question]
-type=Layer
-x=238
-y=26
-width=270
-height=304
-hide=yes
-
-[vm_nathis_answer_01]
 type=Text
 x=31
 y=73
@@ -308,7 +308,7 @@ font=495
 shadow=yes
 text="Text"
 
-[vm_nathis_answer_02]
+[vm_nathis_answer_01]
 type=Text
 x=31
 y=126
@@ -322,7 +322,7 @@ text="Text"
 eventCode=hasOp(1)
 opName0="Ok"
 
-[vm_nathis_answer_03]
+[vm_nathis_answer_02]
 type=Text
 x=31
 y=162
@@ -336,7 +336,7 @@ text="Text"
 eventCode=hasOp(1)
 opName0="Ok"
 
-[mainmodal_window]
+[vm_nathis_answer_03]
 type=Text
 x=31
 y=198
@@ -350,7 +350,7 @@ text="Text"
 eventCode=hasOp(1)
 opName0="Ok"
 
-[mainmodal_window_background]
+[com_32]
 type=Sprite
 x=483
 y=7

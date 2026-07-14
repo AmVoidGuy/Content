@@ -1,4 +1,4 @@
-[universe]
+[com_0]
 type=Model
 x=241
 y=160
@@ -9,7 +9,7 @@ modelZoom=151
 modelXAn=509
 modelYAn=1536
 
-[com_1]
+[viking_juglid]
 type=Model
 x=235
 y=150
@@ -64,7 +64,7 @@ modelZoom=197
 modelXAn=159
 modelYAn=57
 
-[juglid]
+[viking_jug_layer]
 type=Layer
 x=110
 y=38
@@ -82,7 +82,7 @@ modelZoom=127
 modelXAn=159
 modelYAn=57
 
-[com_8]
+[viking_redcoin1]
 type=Model
 x=74
 y=-5
@@ -92,7 +92,7 @@ layerId=24641542
 model1Id=2484
 modelZoom=0
 
-[com_9]
+[viking_redcoin2]
 type=Model
 x=37
 y=57
@@ -104,7 +104,7 @@ modelZoom=306
 modelXAn=353
 modelYAn=1927
 
-[com_10]
+[viking_redcoin3]
 type=Model
 x=29
 y=131
@@ -116,7 +116,7 @@ modelZoom=306
 modelXAn=328
 modelYAn=1916
 
-[com_11]
+[viking_redcoin4]
 type=Model
 x=55
 y=199
@@ -128,7 +128,7 @@ modelZoom=306
 modelXAn=311
 modelYAn=1735
 
-[com_12]
+[viking_redcoin5]
 type=Model
 x=301
 y=117
@@ -140,7 +140,7 @@ modelZoom=306
 modelXAn=361
 modelYAn=1883
 
-[com_13]
+[viking_redcoin6]
 type=Model
 x=271
 y=193
@@ -152,7 +152,7 @@ modelZoom=306
 modelXAn=360
 modelYAn=1905
 
-[com_14]
+[viking_blackcircle1]
 type=Model
 x=241
 y=-11
@@ -164,7 +164,7 @@ modelZoom=306
 modelXAn=380
 modelYAn=1870
 
-[dot1]
+[viking_blackcircle2]
 type=Model
 x=292
 y=39
@@ -176,7 +176,7 @@ modelZoom=306
 modelXAn=351
 modelYAn=1844
 
-[dot2]
+[com_16]
 type=Sprite
 x=473
 y=13
@@ -185,7 +185,7 @@ height=23
 overLayerId=18
 graphic=539
 
-[close]
+[viking_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -196,7 +196,7 @@ layerId=24641554
 graphic=540
 buttonText="Ok"
 
-[com_18]
+[viking_close_button]
 type=Layer
 x=470
 y=9

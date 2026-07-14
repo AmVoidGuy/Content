@@ -1,4 +1,4 @@
-[content_layer]
+[background]
 type=Rectangle
 width=514
 height=335
@@ -6,7 +6,7 @@ trans=32
 colour=0xC0B8A0
 fill=yes
 
-[bespoke_window]
+[com_1]
 type=Rectangle
 x=11
 y=5
@@ -15,7 +15,7 @@ height=179
 colour=0x8C7C6C
 fill=yes
 
-[paragraph01]
+[com_2]
 type=Rectangle
 x=316
 y=146
@@ -24,7 +24,7 @@ height=179
 colour=0x8C7C6C
 fill=yes
 
-[paragraph02]
+[paragraph01]
 type=Text
 x=208
 y=8
@@ -33,7 +33,7 @@ height=169
 font=497
 text="Use a spade to dig in the farmer's field and try to work out where the seeds have been planted. Try not to dig up the seeds, as this will lose you points! Usually, when you dig a square, you will uncover a number, which shows how many seeds are in the holes next to it."
 
-[grid01]
+[paragraph02]
 type=Text
 x=14
 y=190
@@ -42,7 +42,7 @@ height=169
 font=497
 text="Plant your flags in holes where you think that seeds may be found. If you are correct, you will get lots of points, but if you are wrong, you will lose the flag. If you are close to other players, you might get some points if they find seeds, too!\""
 
-[grid02]
+[grid01]
 type=Model
 x=18
 y=13
@@ -53,7 +53,7 @@ modelZoom=1000
 modelXAn=512
 discardedModelField=0
 
-[number101]
+[grid02]
 type=Model
 x=324
 y=153
@@ -64,7 +64,7 @@ modelZoom=1000
 modelXAn=512
 discardedModelField=0
 
-[number102]
+[number101]
 type=Model
 x=60
 y=17
@@ -76,7 +76,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number103]
+[number102]
 type=Model
 x=120
 y=20
@@ -88,7 +88,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number104]
+[number103]
 type=Model
 x=27
 y=51
@@ -100,7 +100,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number105]
+[number104]
 type=Model
 x=60
 y=51
@@ -112,7 +112,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number106]
+[number105]
 type=Model
 x=92
 y=51
@@ -124,7 +124,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number107]
+[number106]
 type=Model
 x=60
 y=83
@@ -136,7 +136,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number108]
+[number107]
 type=Model
 x=61
 y=117
@@ -148,7 +148,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number109]
+[number108]
 type=Model
 x=60
 y=148
@@ -160,7 +160,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number110]
+[number109]
 type=Model
 x=367
 y=158
@@ -172,7 +172,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number111]
+[number110]
 type=Model
 x=432
 y=158
@@ -184,7 +184,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number112]
+[number111]
 type=Model
 x=335
 y=191
@@ -196,7 +196,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number113]
+[number112]
 type=Model
 x=367
 y=191
@@ -208,7 +208,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number114]
+[number113]
 type=Model
 x=400
 y=191
@@ -220,7 +220,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number115]
+[number114]
 type=Model
 x=367
 y=223
@@ -232,7 +232,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number116]
+[number115]
 type=Model
 x=367
 y=255
@@ -244,7 +244,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number201]
+[number116]
 type=Model
 x=367
 y=287
@@ -256,7 +256,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number202]
+[number201]
 type=Model
 x=121
 y=51
@@ -269,7 +269,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number203]
+[number202]
 type=Model
 x=153
 y=51
@@ -282,7 +282,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number204]
+[number203]
 type=Model
 x=154
 y=83
@@ -295,7 +295,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number205]
+[number204]
 type=Model
 x=90
 y=148
@@ -308,9 +308,22 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number206]
+[number205]
 type=Model
 x=430
+y=191
+width=19
+height=25
+model1Id=16786
+modelZoom=2250
+modelXOf=1
+modelYOf=12
+orthog=yes
+discardedModelField=0
+
+[number206]
+type=Model
+x=464
 y=191
 width=19
 height=25
@@ -324,7 +337,7 @@ discardedModelField=0
 [number207]
 type=Model
 x=464
-y=191
+y=220
 width=19
 height=25
 model1Id=16786
@@ -336,8 +349,8 @@ discardedModelField=0
 
 [number208]
 type=Model
-x=464
-y=220
+x=398
+y=286
 width=19
 height=25
 model1Id=16786
@@ -349,19 +362,6 @@ discardedModelField=0
 
 [number301]
 type=Model
-x=398
-y=286
-width=19
-height=25
-model1Id=16786
-modelZoom=2250
-modelXOf=1
-modelYOf=12
-orthog=yes
-discardedModelField=0
-
-[number302]
-type=Model
 x=122
 y=148
 width=18
@@ -372,7 +372,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number303]
+[number302]
 type=Model
 x=155
 y=115
@@ -384,7 +384,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number304]
+[number303]
 type=Model
 x=91
 y=82
@@ -396,7 +396,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number305]
+[number304]
 type=Model
 x=398
 y=222
@@ -408,7 +408,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[number306]
+[number305]
 type=Model
 x=463
 y=253
@@ -420,7 +420,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[flag01]
+[number306]
 type=Model
 x=433
 y=286
@@ -432,7 +432,7 @@ modelYOf=12
 orthog=yes
 discardedModelField=0
 
-[flag02]
+[flag01]
 type=Model
 x=329
 y=157
@@ -444,7 +444,7 @@ modelXOf=-9
 modelYOf=1
 discardedModelField=0
 
-[flag03]
+[flag02]
 type=Model
 x=460
 y=157
@@ -456,7 +456,7 @@ modelXOf=-9
 modelYOf=1
 discardedModelField=0
 
-[flag04]
+[flag03]
 type=Model
 x=393
 y=253
@@ -468,7 +468,7 @@ modelXOf=-9
 modelYOf=1
 discardedModelField=0
 
-[flag05]
+[flag04]
 type=Model
 x=460
 y=287
@@ -480,7 +480,7 @@ modelXOf=-9
 modelYOf=1
 discardedModelField=0
 
-[flag06]
+[flag05]
 type=Model
 x=428
 y=220
@@ -492,7 +492,7 @@ modelXOf=-9
 modelYOf=1
 discardedModelField=0
 
-[bespoke_window_background]
+[flag06]
 type=Model
 x=428
 y=254
@@ -504,7 +504,7 @@ modelXOf=-9
 modelYOf=1
 discardedModelField=0
 
-[bespoke_window_content]
+[closebutton]
 type=Sprite
 x=488
 y=2

@@ -1,4 +1,4 @@
-[content_layer]
+[background]
 type=Rectangle
 x=-3
 y=-1
@@ -7,7 +7,7 @@ height=336
 colour=0x2B2B14
 fill=yes
 
-[bespoke_window]
+[piano]
 type=Model
 x=37
 y=16
@@ -20,7 +20,7 @@ modelXOf=-18
 modelYOf=19
 discardedModelField=0
 
-[piano]
+[piano_open_compartment]
 type=Layer
 x=-1
 y=1
@@ -28,7 +28,7 @@ width=515
 height=336
 hide=yes
 
-[piano_open_compartment]
+[piano_open]
 type=Model
 x=37
 y=16
@@ -244,7 +244,7 @@ modelXOf=-175
 modelYOf=12
 discardedModelField=0
 
-[playdem]
+[piano_close]
 type=Sprite
 x=467
 y=26
@@ -257,7 +257,7 @@ onmouseover=44,component.parentId,540
 onmouseleave=44,component.parentId,539
 onop=29
 
-[open_compartment_layer]
+[playdem]
 type=Rectangle
 x=405
 y=201
@@ -269,7 +269,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Press"
 
-[compartment_layer]
+[open_compartment_layer]
 type=Layer
 x=192
 y=42
@@ -277,7 +277,7 @@ width=130
 height=80
 hide=yes
 
-[lc]
+[opencompartment]
 type=Rectangle
 x=14
 y=8
@@ -290,7 +290,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Open"
 
-[ld]
+[compartment_layer]
 type=Layer
 x=192
 y=42
@@ -298,7 +298,7 @@ width=130
 height=80
 hide=yes
 
-[le]
+[searchcompartment]
 type=Rectangle
 x=14
 y=8
@@ -311,7 +311,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Search"
 
-[lf]
+[lc]
 type=Rectangle
 x=107
 y=222
@@ -325,7 +325,7 @@ opName0="Lower C"
 onmouseover=67,35061765,25902
 onmouseleave=67,35061765,25892
 
-[lg]
+[ld]
 type=Rectangle
 x=129
 y=222
@@ -339,7 +339,7 @@ opName0="Lower D"
 onmouseover=67,35061766,25904
 onmouseleave=67,35061766,25903
 
-[la]
+[le]
 type=Rectangle
 x=150
 y=222
@@ -353,7 +353,7 @@ opName0="Lower E"
 onmouseover=67,35061767,25906
 onmouseleave=67,35061767,25905
 
-[lb]
+[lf]
 type=Rectangle
 x=171
 y=222
@@ -367,7 +367,7 @@ opName0="Lower F"
 onmouseover=67,35061769,25908
 onmouseleave=67,35061769,25907
 
-[uc]
+[lg]
 type=Rectangle
 x=192
 y=222
@@ -381,7 +381,7 @@ opName0="Lower G"
 onmouseover=67,35061768,25910
 onmouseleave=67,35061768,25909
 
-[ud]
+[la]
 type=Rectangle
 x=213
 y=222
@@ -395,7 +395,7 @@ opName0="Lower A"
 onmouseover=67,35061770,25912
 onmouseleave=67,35061770,25911
 
-[ue]
+[lb]
 type=Rectangle
 x=234
 y=222
@@ -409,7 +409,7 @@ opName0="Lower B"
 onmouseover=67,35061773,25914
 onmouseleave=67,35061773,25913
 
-[uf]
+[uc]
 type=Rectangle
 x=255
 y=222
@@ -423,7 +423,7 @@ opName0="Upper C"
 onmouseover=67,35061772,25916
 onmouseleave=67,35061772,25915
 
-[ug]
+[ud]
 type=Rectangle
 x=276
 y=222
@@ -437,7 +437,7 @@ opName0="Upper D"
 onmouseover=67,35061771,25918
 onmouseleave=67,35061771,25917
 
-[ua]
+[ue]
 type=Rectangle
 x=297
 y=222
@@ -451,7 +451,7 @@ opName0="Upper E"
 onmouseover=67,35061778,25891
 onmouseleave=67,35061778,25893
 
-[ub]
+[uf]
 type=Rectangle
 x=318
 y=222
@@ -465,7 +465,7 @@ opName0="Upper F"
 onmouseover=67,35061777,25894
 onmouseleave=67,35061777,25895
 
-[piano_open]
+[ug]
 type=Rectangle
 x=339
 y=222
@@ -479,7 +479,7 @@ opName0="Upper G"
 onmouseover=67,35061776,25896
 onmouseleave=67,35061776,25897
 
-[opencompartment]
+[ua]
 type=Rectangle
 x=360
 y=222
@@ -493,7 +493,7 @@ opName0="Upper A"
 onmouseover=67,35061775,25898
 onmouseleave=67,35061775,25899
 
-[searchcompartment]
+[ub]
 type=Rectangle
 x=381
 y=222

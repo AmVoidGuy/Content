@@ -1,11 +1,11 @@
-[content_layer]
+[can_background_layer]
 type=Layer
 x=-13
 y=-1
 width=527
 height=340
 
-[fsborder_main_layer]
+[can_water]
 type=Model
 x=101
 y=298
@@ -18,7 +18,7 @@ modelZoom=466
 modelXAn=465
 modelYAn=1647
 
-[can_background_layer]
+[canoe_wake_1]
 type=Model
 x=-42
 y=-4
@@ -42,7 +42,7 @@ hide=yes
 buttonText="Build Stable Dugout"
 eventCode=flag22
 
-[can_dug_layer]
+[can_catamaran_canoe]
 type=Model
 x=83
 y=21
@@ -55,7 +55,7 @@ modelZoom=912
 modelXAn=162
 modelYAn=1186
 
-[can_log_layer]
+[canoe_wake_2]
 type=Model
 x=-48
 y=-19
@@ -68,7 +68,7 @@ modelZoom=1424
 modelXAn=195
 modelYAn=786
 
-[can_waka_layer]
+[can_dug_layer]
 type=Layer
 buttonType=Button
 x=96
@@ -79,7 +79,7 @@ hide=yes
 buttonText="Build Dugout Canoe"
 eventCode=flag22
 
-[can_exit]
+[can_dugout_canoe]
 type=Model
 x=40
 y=42
@@ -92,7 +92,7 @@ modelZoom=856
 modelXAn=171
 modelYAn=348
 
-[waka_canoe_greyed_out]
+[can_log_layer]
 type=Layer
 buttonType=Button
 x=28
@@ -102,7 +102,7 @@ height=151
 buttonText="Make Log Canoe"
 eventCode=flag22
 
-[canoe_dugout_greyed_out]
+[canoe_wake_3]
 type=Model
 x=-10
 y=-15
@@ -115,7 +115,7 @@ modelZoom=1552
 modelXAn=177
 modelYAn=918
 
-[canoe_catamaran_greyed_out]
+[can_water3]
 type=Model
 x=86
 y=61
@@ -128,7 +128,7 @@ modelZoom=400
 modelXAn=189
 modelYAn=1654
 
-[canoe_close]
+[can_log_canoe]
 type=Model
 x=27
 y=46
@@ -141,7 +141,7 @@ modelZoom=1040
 modelXAn=180
 modelYAn=459
 
-[canoe_close_button]
+[canoe_wake_4]
 type=Model
 x=-81
 y=12
@@ -154,7 +154,7 @@ modelZoom=784
 modelXAn=159
 modelYAn=726
 
-[can_water]
+[can_waka_layer]
 type=Layer
 buttonType=Button
 x=150
@@ -165,7 +165,7 @@ hide=yes
 buttonText="Make Waka Canoe"
 eventCode=flag22
 
-[canoe_wake_1]
+[can_waka_canoe]
 type=Model
 x=121
 y=43
@@ -178,14 +178,14 @@ modelZoom=656
 modelXAn=81
 modelYAn=150
 
-[can_catamaran_canoe]
+[can_exit]
 type=Layer
 x=420
 y=6
 width=80
 height=16
 
-[canoe_wake_2]
+[catarmeran_text]
 type=Text
 x=83
 y=42
@@ -197,7 +197,7 @@ font=494
 shadow=yes
 text="A Stable Dugout."
 
-[can_dugout_canoe]
+[waka_text]
 type=Text
 x=208
 y=59
@@ -209,7 +209,7 @@ font=494
 shadow=yes
 text="A Waka."
 
-[canoe_wake_3]
+[dugout_text]
 type=Text
 x=36
 y=88
@@ -221,7 +221,7 @@ font=494
 shadow=yes
 text="A Dugout."
 
-[can_water3]
+[log_text]
 type=Text
 x=13
 y=114
@@ -233,7 +233,7 @@ font=494
 shadow=yes
 text="A Log."
 
-[can_log_canoe]
+[com_20]
 type=Text
 x=130
 y=287
@@ -246,7 +246,7 @@ shadow=yes
 text="WHAT SORT OF CANOE WOULD YOU LIKE TO MAKE   ?"
 text2="  "
 
-[canoe_wake_4]
+[can_water2]
 type=Model
 x=78
 y=175
@@ -259,7 +259,7 @@ modelZoom=400
 modelXAn=306
 modelYAn=1642
 
-[can_waka_canoe]
+[can_water4]
 type=Model
 x=183
 y=-9
@@ -272,7 +272,7 @@ modelZoom=400
 modelXAn=198
 modelYAn=1609
 
-[catarmeran_text]
+[can_water_fadetoblack]
 type=Model
 x=166
 y=18
@@ -284,7 +284,7 @@ modelZoom=400
 modelXAn=468
 modelYAn=2035
 
-[waka_text]
+[can_log_button]
 type=Text
 buttonType=Button
 y=2
@@ -297,7 +297,7 @@ shadow=yes
 buttonText="Make log canoe"
 eventCode=flag22
 
-[dugout_text]
+[can_dug_button]
 type=Text
 buttonType=Button
 x=7
@@ -311,7 +311,7 @@ shadow=yes
 buttonText="Make dugout canoe"
 eventCode=flag22
 
-[log_text]
+[can_cat_button]
 type=Text
 buttonType=Button
 x=9
@@ -325,7 +325,7 @@ shadow=yes
 buttonText="Make stable dugout canoe"
 eventCode=flag22
 
-[can_water2]
+[can_waka_button]
 type=Text
 buttonType=Button
 x=11
@@ -339,7 +339,7 @@ shadow=yes
 buttonText="Make waka canoe"
 eventCode=flag22
 
-[can_water4]
+[canoe_waka_water_grey]
 type=Model
 x=-57
 y=12
@@ -352,14 +352,14 @@ modelZoom=784
 modelXAn=159
 modelYAn=726
 
-[can_water_fadetoblack]
+[waka_canoe_greyed_out]
 type=Layer
 x=150
 y=22
 width=295
 height=88
 
-[can_log_button]
+[waka_canoe_grey]
 type=Model
 x=121
 y=50
@@ -372,7 +372,7 @@ modelZoom=588
 modelXAn=81
 modelYAn=152
 
-[can_dug_button]
+[canoe_dugout_water_grey]
 type=Model
 x=-46
 y=-17
@@ -385,14 +385,14 @@ modelZoom=1424
 modelXAn=195
 modelYAn=786
 
-[can_cat_button]
+[canoe_dugout_greyed_out]
 type=Layer
 x=96
 y=158
 width=122
 height=121
 
-[can_waka_button]
+[canoe_dugout_grey]
 type=Model
 x=38
 y=38
@@ -405,7 +405,7 @@ modelZoom=850
 modelXAn=166
 modelYAn=346
 
-[canoe_waka_water_grey]
+[canoe_catamaran_water_grey]
 type=Model
 x=-44
 y=-3
@@ -418,14 +418,14 @@ modelZoom=1040
 modelXAn=135
 modelYAn=762
 
-[waka_canoe_grey]
+[canoe_catamaran_greyed_out]
 type=Layer
 x=142
 y=102
 width=190
 height=79
 
-[canoe_dugout_water_grey]
+[canoe_catamaran_grey]
 type=Model
 x=66
 y=32
@@ -438,7 +438,7 @@ modelZoom=867
 modelXAn=164
 modelYAn=1179
 
-[canoe_dugout_grey]
+[dugout_greyed_button]
 type=Text
 buttonType=Button
 x=13
@@ -451,7 +451,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[canoe_catamaran_water_grey]
+[cat_greyed_button]
 type=Text
 buttonType=Button
 x=5
@@ -464,7 +464,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[canoe_catamaran_grey]
+[waka_greyed_button]
 type=Text
 buttonType=Button
 x=8
@@ -477,7 +477,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[dugout_greyed_button]
+[com_40]
 type=Sprite
 x=473
 y=13
@@ -486,7 +486,7 @@ height=23
 overLayerId=42
 graphic=539
 
-[cat_greyed_button]
+[canoe_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -497,7 +497,7 @@ layerId=3407914
 graphic=540
 buttonText="Ok"
 
-[waka_greyed_button]
+[canoe_close_button]
 type=Layer
 x=470
 y=10

@@ -1,4 +1,4 @@
-[content_layer_1]
+[background]
 type=Rectangle
 width=514
 height=335
@@ -6,7 +6,7 @@ trans=32
 colour=0xC0B8A0
 fill=yes
 
-[bespoke_window]
+[com_1]
 type=Rectangle
 x=11
 y=5
@@ -15,7 +15,7 @@ height=179
 colour=0x8C7C6C
 fill=yes
 
-[paragraph2]
+[com_2]
 type=Rectangle
 x=316
 y=146
@@ -24,7 +24,7 @@ height=179
 colour=0x8C7C6C
 fill=yes
 
-[paragraph3]
+[paragraph01]
 type=Text
 x=208
 y=8
@@ -33,7 +33,7 @@ height=170
 font=497
 text="Farmers wander the area looking for seeds that have been dug up by mistake. They will also collect any flags you have placed, resetting the nearby area and giving you points if the flag is in the right place."
 
-[farmer]
+[paragraph02]
 type=Text
 x=14
 y=190
@@ -42,7 +42,7 @@ height=169
 font=497
 text="If you place a flag over a seed, you will be able to get the flag back from Mrs. Winkin or Farmer Blinkin. If you placed a flag wrongly, you will have to pay 500gp for a new one."
 
-[flag]
+[farmer]
 type=Model
 x=58
 y=7
@@ -56,7 +56,7 @@ modelXOf=13
 modelYOf=73
 discardedModelField=0
 
-[farmground]
+[flag]
 type=Model
 x=357
 y=152
@@ -71,7 +71,7 @@ modelXOf=-14
 modelYOf=56
 discardedModelField=0
 
-[seeds]
+[farmground]
 type=Model
 x=321
 y=262
@@ -83,7 +83,7 @@ modelXAn=118
 modelYAn=1758
 discardedModelField=0
 
-[spade]
+[seeds]
 type=Model
 x=409
 y=222
@@ -97,7 +97,7 @@ modelXOf=5
 modelYOf=8
 discardedModelField=0
 
-[cross]
+[spade]
 type=Model
 x=434
 y=165
@@ -111,7 +111,7 @@ modelXOf=-29
 modelYOf=-7
 discardedModelField=0
 
-[bespoke_window_background]
+[cross]
 type=Model
 x=402
 y=195
@@ -125,7 +125,7 @@ modelXOf=-5
 modelYOf=-8
 discardedModelField=0
 
-[bespoke_window_content]
+[closebutton]
 type=Sprite
 x=489
 y=2

@@ -1,4 +1,4 @@
-[info_holder_active]
+[com_0]
 type=Rectangle
 x=32
 y=31
@@ -7,7 +7,7 @@ height=289
 trans=200
 fill=yes
 
-[menu_layer]
+[com_1]
 type=Sprite
 x=31
 y=31
@@ -16,7 +16,7 @@ height=275
 graphic=297
 tiling=yes
 
-[scrollbar]
+[com_2]
 type=Sprite
 x=24
 y=24
@@ -24,7 +24,7 @@ width=32
 height=32
 graphic=824
 
-[active_title_text]
+[com_3]
 type=Sprite
 x=11
 y=56
@@ -33,7 +33,7 @@ height=226
 graphic=821
 tiling=yes
 
-[active_button_layer]
+[com_4]
 type=Sprite
 x=469
 y=56
@@ -42,7 +42,7 @@ height=225
 graphic=823
 tiling=yes
 
-[visible_title_text]
+[com_5]
 type=Sprite
 x=24
 y=281
@@ -50,7 +50,7 @@ width=32
 height=32
 graphic=826
 
-[info_section]
+[com_6]
 type=Sprite
 x=56
 y=11
@@ -59,7 +59,7 @@ height=32
 graphic=820
 tiling=yes
 
-[confirm_section]
+[com_7]
 type=Sprite
 x=56
 y=293
@@ -68,7 +68,7 @@ height=32
 graphic=822
 tiling=yes
 
-[grave_section]
+[com_8]
 type=Sprite
 x=457
 y=24
@@ -76,7 +76,7 @@ width=32
 height=32
 graphic=825
 
-[visible_button_layer]
+[com_9]
 type=Sprite
 x=457
 y=281
@@ -84,7 +84,7 @@ width=32
 height=32
 graphic=827
 
-[info_title]
+[com_10]
 type=Sprite
 x=24
 y=40
@@ -92,7 +92,7 @@ width=32
 height=32
 graphic=829
 
-[info_text]
+[com_11]
 type=Sprite
 x=457
 y=40
@@ -100,7 +100,7 @@ width=32
 height=32
 graphic=830
 
-[mainmodal_window]
+[com_12]
 type=Sprite
 x=35
 y=38
@@ -109,7 +109,7 @@ height=32
 graphic=828
 tiling=yes
 
-[mainmodal_window_background]
+[com_13]
 type=Sprite
 x=30
 y=74
@@ -118,7 +118,7 @@ height=216
 graphic=1075
 tiling=yes
 
-[mainmodal_window_content]
+[com_14]
 type=Sprite
 x=44
 y=56
@@ -127,7 +127,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[mainmodal_window_border]
+[com_15]
 type=Sprite
 x=200
 y=74
@@ -136,7 +136,7 @@ height=216
 graphic=1075
 tiling=yes
 
-[mainmodal_window_close_button]
+[com_16]
 type=Sprite
 x=44
 y=274
@@ -145,7 +145,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[active_button_on_layer]
+[com_17]
 type=Sprite
 x=245
 y=74
@@ -154,7 +154,7 @@ height=32
 graphic=846
 tiling=yes
 
-[active_button_over_layer]
+[com_18]
 type=Sprite
 x=424
 y=74
@@ -163,7 +163,7 @@ height=32
 graphic=847
 tiling=yes
 
-[active_button_hit_layer]
+[com_19]
 type=Sprite
 x=424
 y=260
@@ -172,7 +172,7 @@ height=32
 graphic=849
 tiling=yes
 
-[active_button_selected_layer]
+[com_20]
 type=Sprite
 x=277
 y=60
@@ -181,7 +181,7 @@ height=32
 graphic=828
 tiling=yes
 
-[active_button_active_layer]
+[com_21]
 type=Sprite
 x=277
 y=272
@@ -190,7 +190,7 @@ height=32
 graphic=828
 tiling=yes
 
-[active_button_disabled_layer]
+[com_22]
 type=Sprite
 x=231
 y=106
@@ -199,7 +199,7 @@ height=154
 graphic=841
 tiling=yes
 
-[active_button_text_layer]
+[com_23]
 type=Sprite
 x=436
 y=106
@@ -208,7 +208,7 @@ height=154
 graphic=841
 tiling=yes
 
-[active_button_text]
+[com_24]
 type=Sprite
 x=415
 y=74
@@ -217,7 +217,7 @@ height=32
 graphic=842
 tiling=yes
 
-[visible_button_on_layer]
+[com_25]
 type=Sprite
 x=414
 y=85
@@ -226,7 +226,7 @@ height=196
 graphic=841
 tiling=yes
 
-[visible_button_over_layer]
+[com_26]
 type=Sprite
 x=415
 y=260
@@ -235,7 +235,7 @@ height=32
 graphic=843
 tiling=yes
 
-[visible_button_hit_layer]
+[com_27]
 type=Sprite
 x=245
 y=260
@@ -244,7 +244,7 @@ height=32
 graphic=848
 tiling=yes
 
-[visible_button_selected_layer]
+[com_28]
 type=Text
 x=31
 y=31
@@ -257,7 +257,7 @@ font=496
 shadow=yes
 text="Gravestones"
 
-[visible_button_active_layer]
+[info_title]
 type=Text
 x=61
 y=87
@@ -268,7 +268,7 @@ hAlign=Center
 font=496
 shadow=yes
 
-[visible_button_disabled_layer]
+[info_text]
 type=Text
 x=61
 y=116
@@ -279,7 +279,7 @@ hAlign=Center
 font=495
 shadow=yes
 
-[visible_button_text_layer]
+[menu_layer]
 type=Layer
 x=251
 y=80
@@ -289,7 +289,7 @@ onload=681,component.parentId,42729504,42729506,42729507,42729501,42729502
 onvartransmit=681,component.parentId,42729504,42729506,42729507,42729501,42729502
 onvartransmitlist=1146
 
-[visible_button_text]
+[scrollbar]
 type=Layer
 x=434
 y=79
@@ -303,14 +303,14 @@ height=56
 layerId=42729506
 graphic=943
 
-[com_34]
+[confirm_layer]
 type=Layer
 x=83
 y=230
 width=90
 height=56
 
-[com_35]
+[confirm_text]
 type=Text
 x=83
 y=230
@@ -325,7 +325,7 @@ shadow=yes
 onmouseover=45,42729507,14784543
 onmouseleave=45,42729507,12547357
 
-[com_36]
+[closebutton]
 type=Sprite
 x=463
 y=33

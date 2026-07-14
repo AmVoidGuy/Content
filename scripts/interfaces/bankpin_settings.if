@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Rectangle
 x=15
 y=12
@@ -7,7 +7,7 @@ height=314
 colour=0x453D2A
 fill=yes
 
-[mainmodal_window_background]
+[com_1]
 type=Sprite
 x=5
 width=464
@@ -16,7 +16,7 @@ layerId=917592
 graphic=445
 tiling=yes
 
-[mainmodal_window_content]
+[com_2]
 type=Sprite
 x=6
 width=464
@@ -25,7 +25,7 @@ layerId=917594
 graphic=445
 tiling=yes
 
-[settings]
+[com_3]
 type=Sprite
 x=470
 y=11
@@ -38,7 +38,7 @@ onmouseover=44,component.parentId,536
 onmouseleave=44,component.parentId,535
 onop=29
 
-[statusbox]
+[com_4]
 type=Sprite
 x=10
 y=5
@@ -46,7 +46,7 @@ width=32
 height=32
 graphic=824
 
-[statusbox_background]
+[com_5]
 type=Sprite
 x=470
 y=5
@@ -62,7 +62,7 @@ width=32
 height=32
 graphic=826
 
-[statusoutput]
+[com_7]
 type=Sprite
 x=470
 y=300
@@ -79,7 +79,7 @@ height=264
 graphic=821
 tiling=yes
 
-[delayoutput]
+[com_9]
 type=Sprite
 x=482
 y=36
@@ -88,7 +88,7 @@ height=264
 graphic=823
 tiling=yes
 
-[buttonbox]
+[com_10]
 type=Sprite
 x=42
 y=-8
@@ -97,7 +97,7 @@ height=32
 graphic=820
 tiling=yes
 
-[button1]
+[com_11]
 type=Sprite
 x=40
 y=312
@@ -106,7 +106,7 @@ height=32
 graphic=822
 tiling=yes
 
-[button2]
+[com_12]
 type=Sprite
 x=16
 y=21
@@ -115,7 +115,7 @@ height=32
 graphic=820
 tiling=yes
 
-[button3]
+[com_13]
 type=Sprite
 x=10
 y=23
@@ -124,7 +124,7 @@ height=32
 graphic=829
 tiling=yes
 
-[button4]
+[com_14]
 type=Sprite
 x=470
 y=23
@@ -133,7 +133,7 @@ height=32
 graphic=830
 tiling=yes
 
-[messagebox]
+[com_15]
 type=Sprite
 x=313
 y=44
@@ -142,7 +142,7 @@ height=32
 graphic=846
 tiling=yes
 
-[content_panel_blue]
+[com_16]
 type=Sprite
 x=457
 y=44
@@ -160,7 +160,7 @@ height=32
 graphic=848
 tiling=yes
 
-[message]
+[com_18]
 type=Sprite
 x=457
 y=287
@@ -169,7 +169,7 @@ height=32
 graphic=849
 tiling=yes
 
-[scrollbar]
+[com_19]
 type=Sprite
 x=343
 y=30
@@ -178,7 +178,7 @@ height=32
 graphic=828
 tiling=yes
 
-[bank_return]
+[com_20]
 type=Sprite
 x=344
 y=299
@@ -196,7 +196,7 @@ height=212
 graphic=841
 tiling=yes
 
-[warnings]
+[com_22]
 type=Sprite
 x=469
 y=76
@@ -205,7 +205,7 @@ height=211
 graphic=841
 tiling=yes
 
-[warning_text]
+[com_23]
 type=Sprite
 x=31
 y=55
@@ -214,7 +214,7 @@ height=32
 graphic=846
 tiling=yes
 
-[warning_yes]
+[com_24]
 type=Sprite
 x=185
 y=55
@@ -223,7 +223,7 @@ height=32
 graphic=847
 tiling=yes
 
-[3x3_context_button_layer_3]
+[com_25]
 type=Sprite
 x=185
 y=149
@@ -232,7 +232,7 @@ height=32
 graphic=849
 tiling=yes
 
-[3x3_context_button_on_layer_3]
+[com_26]
 type=Sprite
 x=31
 y=149
@@ -241,7 +241,7 @@ height=32
 graphic=848
 tiling=yes
 
-[3x3_context_button_over_layer_3]
+[com_27]
 type=Sprite
 x=17
 y=84
@@ -250,7 +250,7 @@ height=66
 graphic=841
 tiling=yes
 
-[3x3_context_button_hit_layer_3]
+[com_28]
 type=Sprite
 x=197
 y=87
@@ -259,7 +259,7 @@ height=62
 graphic=841
 tiling=yes
 
-[3x3_context_button_selected_layer_3]
+[com_29]
 type=Sprite
 x=62
 y=41
@@ -268,7 +268,7 @@ height=32
 graphic=828
 tiling=yes
 
-[warning_yes_active]
+[com_30]
 type=Sprite
 x=62
 y=161
@@ -277,7 +277,7 @@ height=32
 graphic=828
 tiling=yes
 
-[3x3_context_button_disabled_layer_3]
+[com_31]
 type=Sprite
 x=31
 y=216
@@ -295,7 +295,7 @@ height=32
 graphic=847
 tiling=yes
 
-[3x3_context_button_text_layer_3]
+[com_33]
 type=Sprite
 x=264
 y=259
@@ -304,7 +304,7 @@ height=32
 graphic=849
 tiling=yes
 
-[warning_yes_text]
+[com_34]
 type=Sprite
 x=276
 y=238
@@ -313,7 +313,7 @@ height=32
 graphic=841
 tiling=yes
 
-[warning_no]
+[com_35]
 type=Sprite
 x=17
 y=237
@@ -322,7 +322,7 @@ height=32
 graphic=841
 tiling=yes
 
-[3x3_context_button_layer_4]
+[com_36]
 type=Sprite
 x=60
 y=202
@@ -331,7 +331,7 @@ height=32
 graphic=828
 tiling=yes
 
-[3x3_context_button_on_layer_4]
+[com_37]
 type=Sprite
 x=60
 y=271
@@ -340,7 +340,7 @@ height=32
 graphic=828
 tiling=yes
 
-[3x3_context_button_over_layer_4]
+[com_38]
 type=Sprite
 x=31
 y=259
@@ -349,7 +349,7 @@ height=32
 graphic=848
 tiling=yes
 
-[3x3_context_button_hit_layer_4]
+[com_39]
 type=Rectangle
 x=319
 y=49
@@ -357,7 +357,7 @@ width=164
 height=264
 fill=yes
 
-[3x3_context_button_selected_layer_4]
+[com_40]
 type=Text
 x=7
 y=15
@@ -369,7 +369,7 @@ font=496
 shadow=yes
 text="Bank PIN Settings"
 
-[warning_no_active]
+[com_41]
 type=Text
 x=321
 y=50
@@ -381,7 +381,7 @@ font=496
 shadow=yes
 text="Messages"
 
-[3x3_context_button_disabled_layer_4]
+[bankpin_message_1]
 type=Text
 x=321
 y=67
@@ -391,7 +391,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_43]
+[bankpin_message_2]
 type=Text
 x=321
 y=83
@@ -401,7 +401,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[3x3_context_button_text_layer_4]
+[bankpin_message_3]
 type=Text
 x=321
 y=99
@@ -411,7 +411,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[warning_no_text]
+[bankpin_message_4]
 type=Text
 x=321
 y=115
@@ -421,7 +421,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[mainmodal_window_border]
+[bankpin_message_5]
 type=Text
 x=321
 y=131
@@ -431,7 +431,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[mainmodal_window_close_button]
+[bankpin_message_6]
 type=Text
 x=321
 y=147
@@ -441,7 +441,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[universe]
+[bankpin_message_7]
 type=Text
 x=321
 y=163
@@ -451,7 +451,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_49]
+[bankpin_message_8]
 type=Text
 x=321
 y=179
@@ -461,7 +461,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_50]
+[bankpin_message_9]
 type=Text
 x=321
 y=195
@@ -471,7 +471,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_51]
+[bankpin_message_10]
 type=Text
 x=321
 y=211
@@ -481,7 +481,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_52]
+[bankpin_message_11]
 type=Text
 x=321
 y=227
@@ -491,7 +491,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_53]
+[bankpin_message_12]
 type=Text
 x=321
 y=243
@@ -501,7 +501,7 @@ colour=0xFFFF7F
 hAlign=Center
 font=495
 
-[com_54]
+[bankpin_message_13]
 type=Text
 x=321
 y=258
@@ -512,7 +512,7 @@ hAlign=Center
 font=495
 shadow=yes
 
-[com_55]
+[bankpin_message_14]
 type=Text
 x=321
 y=274
@@ -523,7 +523,7 @@ hAlign=Center
 font=495
 shadow=yes
 
-[com_56]
+[bankpin_message_15]
 type=Text
 x=320
 y=289
@@ -534,7 +534,7 @@ hAlign=Center
 font=495
 shadow=yes
 
-[com_57]
+[bankpin_message_16]
 type=Text
 x=320
 y=303
@@ -596,7 +596,7 @@ opName0="Change your recovery delay"
 onmouseover=45,component.parentId,14784543
 onmouseleave=45,component.parentId,12547357
 
-[com_62]
+[premier_detail_02]
 type=Text
 width=252
 height=16
@@ -742,7 +742,7 @@ height=312
 layerId=917591
 fill=yes
 
-[com_73]
+[bankpin_warning_text]
 type=Text
 y=62
 width=496
@@ -886,7 +886,7 @@ font=496
 shadow=yes
 text="Use the buttons below to change your PIN settings"
 
-[com_87]
+[bankpin_warning]
 type=Layer
 y=-1
 width=512
@@ -901,7 +901,7 @@ width=477
 height=26
 layerId=917591
 
-[com_89]
+[bankpin_warning_yes]
 type=Text
 x=8
 y=134
@@ -925,7 +925,7 @@ width=477
 height=26
 layerId=917591
 
-[com_91]
+[fruitsdocument_05]
 type=Text
 x=8
 y=206

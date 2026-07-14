@@ -1,4 +1,4 @@
-[bailing_bucket_icon]
+[trawlerscroll]
 type=Model
 x=240
 y=141
@@ -9,7 +9,7 @@ modelZoom=491
 modelXAn=484
 modelYAn=3
 
-[bailing_bucket_text]
+[ropeicon]
 type=Model
 x=96
 y=97
@@ -20,7 +20,7 @@ modelZoom=591
 modelXAn=155
 modelYAn=2037
 
-[swamp_paste_text]
+[swamppasteicon]
 type=Model
 x=98
 y=154
@@ -31,7 +31,7 @@ modelZoom=385
 modelXAn=218
 modelYAn=115
 
-[swamp_paste_icon]
+[bucketicon]
 type=Model
 x=93
 y=254
@@ -42,7 +42,7 @@ modelZoom=478
 modelXAn=148
 modelYAn=1752
 
-[rope_icon]
+[trawlertext1]
 type=Text
 x=150
 y=92
@@ -52,7 +52,7 @@ colour=0x4A4028
 font=497
 text="Use rope to repair the Trawler's nets."
 
-[rope_text]
+[trawlertext2]
 type=Text
 x=150
 y=152
@@ -63,7 +63,7 @@ lineHeight=20
 font=497
 text="Use Swamp Paste to repair leaks in the Ship's hull."
 
-[water_title]
+[trawlertext3]
 type=Text
 x=148
 y=225
@@ -74,7 +74,7 @@ lineHeight=20
 font=497
 text="If all else fails you can always try and bail the water out as well!"
 
-[water_bar_fill]
+[trawlertext6]
 type=Text
 x=203
 y=60
@@ -87,7 +87,7 @@ font=497
 shadow=yes
 text="How to play:"
 
-[water_bar_border]
+[com_8]
 type=Sprite
 x=449
 y=42
@@ -96,7 +96,7 @@ height=23
 overLayerId=10
 graphic=539
 
-[activity_title]
+[trawler_start_close]
 type=Sprite
 buttonType=Close
 x=2
@@ -107,7 +107,7 @@ layerId=24117258
 graphic=540
 buttonText="Ok"
 
-[activity_bar_fill]
+[trawler_start_close_button]
 type=Layer
 x=447
 y=39

@@ -1,4 +1,4 @@
-[chathead]
+[com_0]
 type=Rectangle
 x=6
 y=22
@@ -7,7 +7,7 @@ height=111
 trans=200
 fill=yes
 
-[target_clickarea]
+[com_1]
 type=Rectangle
 x=12
 y=25
@@ -16,7 +16,7 @@ height=105
 trans=200
 fill=yes
 
-[target_icon]
+[com_2]
 type=Rectangle
 x=21
 y=30
@@ -25,7 +25,7 @@ height=95
 trans=200
 fill=yes
 
-[target_layer]
+[chathead]
 type=Model
 x=57
 y=5
@@ -40,7 +40,7 @@ modelXOf=7
 modelYOf=-2
 discardedModelField=0
 
-[call_clickarea]
+[com_4]
 type=Sprite
 x=3
 y=16
@@ -48,7 +48,7 @@ width=32
 height=32
 graphic=856
 
-[call_button]
+[com_5]
 type=Sprite
 x=35
 y=3
@@ -58,7 +58,7 @@ graphic=851
 tiling=yes
 baseOpName=" "
 
-[call_icon]
+[com_6]
 type=Sprite
 x=150
 y=16
@@ -66,7 +66,7 @@ width=32
 height=32
 graphic=857
 
-[lore_familairs]
+[com_7]
 type=Sprite
 x=165
 y=48
@@ -75,7 +75,7 @@ height=53
 graphic=852
 tiling=yes
 
-[lore_bounding_box]
+[com_8]
 type=Sprite
 x=150
 y=101
@@ -83,7 +83,7 @@ width=32
 height=32
 graphic=859
 
-[lore_name]
+[com_9]
 type=Sprite
 x=6
 y=23
@@ -91,7 +91,7 @@ width=32
 height=32
 graphic=859
 
-[action_text]
+[com_10]
 type=Sprite
 x=35
 y=117
@@ -153,7 +153,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[com_17]
+[call_button]
 type=Layer
 x=76
 y=214
@@ -164,7 +164,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_18]
+[call_clickarea]
 type=Rectangle
 width=38
 height=38
@@ -175,7 +175,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Call-Chocatrice"
 
-[com_19]
+[kr_picklock_rogue_tbr9c4]
 type=Sprite
 x=9
 y=9
@@ -184,19 +184,19 @@ height=20
 layerId=46923793
 graphic=424
 
-[com_20]
+[lore_familairs]
 type=Layer
 width=190
 height=261
 layerId=46923798
 
-[com_21]
+[build_layer]
 type=Layer
 width=189
 height=260
 layerId=46923798
 
-[com_22]
+[lore_bounding_box]
 type=Layer
 x=-2
 y=-1
@@ -268,14 +268,14 @@ layerId=46923796
 graphic=1074
 baseOpName=" "
 
-[com_30]
+[target_layer]
 type=Layer
 x=5
 y=18
 width=32
 height=32
 
-[com_31]
+[target_icon]
 type=Sprite
 x=7
 y=21
@@ -284,7 +284,7 @@ height=28
 layerId=46923796
 graphic=441
 
-[com_32]
+[target_clickarea]
 type=Rectangle
 width=38
 height=38
@@ -301,7 +301,7 @@ ontargetleave=907
 ontargetenter=906
 ontimer=910
 
-[com_33]
+[lore_name]
 type=Text
 x=15
 y=161
@@ -314,7 +314,7 @@ vAlign=Center
 font=495
 text="Chocatrice"
 
-[com_34]
+[action_text]
 type=Text
 x=14
 y=185
@@ -327,7 +327,7 @@ vAlign=Center
 font=494
 text="Waiting"
 
-[com_35]
+[target_tooltip]
 type=Rectangle
 x=4
 y=17
@@ -339,7 +339,7 @@ fill=yes
 onmouseleave=40,46923813
 onmouserepeat=38,component.parentId,46923813,"Target the chocatrice on a creature.",25,180
 
-[com_36]
+[call_tooltip]
 type=Rectangle
 x=74
 y=213
@@ -351,7 +351,7 @@ fill=yes
 onmouseleave=40,46923813
 onmouserepeat=38,component.parentId,46923813,"Calls the chocatrice to you if you get separated.",25,180
 
-[com_37]
+[tooltip_layer]
 type=Layer
 x=-13
 y=-69
@@ -359,7 +359,7 @@ width=83
 height=87
 layerId=46923814
 
-[com_38]
+[tooltip_bound]
 type=Layer
 x=13
 y=69

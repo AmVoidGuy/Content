@@ -1,4 +1,4 @@
-[peng_map_interface]
+[com_0]
 type=Rectangle
 x=-1
 width=512
@@ -6,7 +6,7 @@ height=334
 colour=0x433621
 fill=yes
 
-[misc_shipmodel]
+[peng_map_interface]
 type=Model
 x=223
 y=135
@@ -17,7 +17,7 @@ modelZoom=894
 modelXAn=479
 modelYAn=2
 
-[com_2]
+[misc_shipmodel]
 type=Model
 x=219
 y=124
@@ -81,7 +81,7 @@ colour=0x282315
 font=497
 text="Neitiznot & Jatizso"
 
-[layer_1]
+[com_8]
 type=Text
 x=334
 y=260

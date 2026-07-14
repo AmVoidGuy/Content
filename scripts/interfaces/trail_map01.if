@@ -1,4 +1,4 @@
-[mainmodal_window]
+[scrollmodel_map01]
 type=Model
 x=227
 y=162
@@ -9,7 +9,7 @@ modelZoom=599
 modelXAn=520
 modelYAn=1
 
-[mainmodal_window_background]
+[com_1]
 type=Model
 x=153
 y=231
@@ -20,7 +20,7 @@ modelZoom=1694
 modelXAn=552
 modelYAn=637
 
-[mainmodal_window_content]
+[com_2]
 type=Model
 x=177
 y=237
@@ -119,7 +119,7 @@ modelZoom=1694
 modelXAn=452
 modelYAn=334
 
-[map01tree03]
+[com_11]
 type=Model
 x=227
 y=214
@@ -141,7 +141,7 @@ modelZoom=1694
 modelXAn=250
 modelYAn=1336
 
-[map01tree02]
+[com_13]
 type=Model
 x=247
 y=224
@@ -152,7 +152,7 @@ modelZoom=1694
 modelXAn=303
 modelYAn=1488
 
-[map01xmark]
+[com_14]
 type=Model
 x=152
 y=182
@@ -262,7 +262,7 @@ modelZoom=1694
 modelXAn=460
 modelYAn=1732
 
-[map01paces05]
+[com_24]
 type=Model
 x=310
 y=195
@@ -273,7 +273,7 @@ modelZoom=1694
 modelXAn=459
 modelYAn=1705
 
-[map01tree3]
+[com_25]
 type=Model
 x=331
 y=204
@@ -306,7 +306,7 @@ modelZoom=531
 modelXAn=527
 modelYAn=515
 
-[map01tree4]
+[com_28]
 type=Model
 x=340
 y=62
@@ -328,7 +328,7 @@ modelZoom=531
 modelXAn=576
 modelYAn=1544
 
-[com_30]
+[map01tree3]
 type=Model
 x=251
 y=210
@@ -339,7 +339,7 @@ modelZoom=2704
 modelXAn=620
 modelYAn=7
 
-[com_31]
+[map01tree4]
 type=Model
 x=238
 y=207
@@ -350,7 +350,7 @@ modelZoom=2704
 modelXAn=620
 modelYAn=7
 
-[com_32]
+[map01paces05]
 type=Text
 x=205
 y=172
@@ -360,7 +360,7 @@ colour=0x4C3D26
 font=494
 text="2E"
 
-[com_33]
+[map01xmark]
 type=Model
 x=218
 y=152
@@ -371,7 +371,7 @@ modelZoom=1686
 modelXAn=462
 modelYAn=1788
 
-[com_34]
+[map01tree02]
 type=Model
 x=236
 y=66
@@ -382,7 +382,7 @@ modelZoom=1680
 modelXAn=623
 modelYAn=2009
 
-[com_35]
+[map01tree03]
 type=Model
 x=195
 y=61
@@ -526,7 +526,7 @@ height=23
 overLayerId=50
 graphic=539
 
-[mainmodal_window_border]
+[trail_map01_close]
 type=Sprite
 buttonType=Close
 x=4
@@ -537,7 +537,7 @@ layerId=22675506
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_close_button]
+[trail_map01_close_button]
 type=Layer
 x=469
 y=10

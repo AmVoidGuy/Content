@@ -1,4 +1,4 @@
-[content_layer]
+[bob_locator]
 type=Model
 x=259
 y=85
@@ -8,7 +8,7 @@ model1Id=9374
 modelZoom=246
 modelXAn=295
 
-[com_1]
+[bob_locator_nose_lights]
 type=Model
 x=259
 y=85
@@ -20,7 +20,7 @@ modelAnim2=bob_locator_nose_rotate
 modelZoom=246
 modelXAn=295
 
-[bob_locator]
+[bob_locator_r_eye]
 type=Model
 x=255
 y=84
@@ -32,7 +32,7 @@ modelAnim2=bob_locator_eyes
 modelZoom=246
 modelXAn=293
 
-[bob_locator_nose_lights]
+[bob_locator_l_eye]
 type=Model
 x=205
 y=75
@@ -45,7 +45,7 @@ modelZoom=246
 modelXAn=295
 modelYAn=110
 
-[bob_locator_r_eye]
+[bob_locator_mouth]
 type=Model
 x=259
 y=85
@@ -57,7 +57,7 @@ modelAnim2=bob_locator_eyes
 modelZoom=246
 modelXAn=295
 
-[bob_locator_l_eye]
+[bob_locator_l_whisker]
 type=Sprite
 buttonType=Button
 x=178
@@ -67,7 +67,7 @@ height=40
 buttonText="Turn anti-clockwise"
 eventCode=flag22
 
-[bob_locator_mouth]
+[bob_locator_r_whisker]
 type=Sprite
 buttonType=Button
 x=278
@@ -77,7 +77,7 @@ height=40
 buttonText="Turn clockwise"
 eventCode=flag22
 
-[bob_locator_l_whisker]
+[bob_button_r_whisker]
 type=Model
 x=259
 y=85
@@ -90,7 +90,7 @@ modelXAn=295
 script1=eq,1
 script1op1=varp,if1
 
-[bob_locator_r_whisker]
+[bob_button_l_whisker]
 type=Model
 x=259
 y=85
@@ -103,7 +103,7 @@ modelXAn=295
 script1=eq,2
 script1op1=varp,if1
 
-[bob_button_r_whisker]
+[com_9]
 type=Sprite
 x=483
 y=5
@@ -112,7 +112,7 @@ height=23
 overLayerId=11
 graphic=539
 
-[bob_button_l_whisker]
+[bob_locator_close_button]
 type=Sprite
 buttonType=Close
 x=3
@@ -123,7 +123,7 @@ layerId=3145739
 graphic=540
 buttonText="Ok"
 
-[bespoke_window]
+[bob_locator_amulet_close_button]
 type=Layer
 x=480
 y=1

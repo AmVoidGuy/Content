@@ -99,7 +99,7 @@ colour=0x46320A
 font=497
 text="In which Bolrie is advised by"
 
-[chapter2]
+[bookmacro1c]
 type=Text
 x=38
 y=124
@@ -109,7 +109,7 @@ colour=0x46320A
 font=497
 text="a mysterious stranger, and"
 
-[bookmacro1g]
+[bookmacro1d]
 type=Text
 x=38
 y=140
@@ -119,7 +119,7 @@ colour=0x46320A
 font=497
 text="ambition is fed."
 
-[chapter3]
+[com_12]
 type=Text
 x=38
 y=156
@@ -128,7 +128,7 @@ height=17
 colour=0x46320A
 font=497
 
-[bookmacro1m]
+[chapter2]
 type=Text
 x=38
 y=172
@@ -143,7 +143,7 @@ opName0="Read"
 onmouseover=45,component.parentId,9200660
 onmouseleave=45,component.parentId,4600330
 
-[bookmacro1v]
+[bookmacro1g]
 type=Text
 x=38
 y=224
@@ -153,7 +153,7 @@ colour=0x46320A
 font=497
 text="In which a great king dies"
 
-[com_15]
+[bookmacro1h]
 type=Text
 x=38
 y=240
@@ -163,7 +163,7 @@ colour=0x46320A
 font=497
 text="and the search for a new"
 
-[com_16]
+[bookmacro1i]
 type=Text
 x=38
 y=256
@@ -191,7 +191,7 @@ height=17
 colour=0x46320A
 font=497
 
-[com_19]
+[chapter3]
 type=Text
 x=283
 y=54
@@ -206,7 +206,7 @@ opName0="Read"
 onmouseover=45,component.parentId,9200660
 onmouseleave=45,component.parentId,4600330
 
-[com_20]
+[bookmacro1m]
 type=Text
 x=283
 y=112
@@ -216,7 +216,7 @@ colour=0x46320A
 font=497
 text="In which a secret is revealed,"
 
-[com_21]
+[bookmacro1n]
 type=Text
 x=283
 y=128
@@ -226,7 +226,7 @@ colour=0x46320A
 font=497
 text="an old foe reappears and"
 
-[com_22]
+[bookmacro1o]
 type=Text
 x=283
 y=144
@@ -245,7 +245,7 @@ height=17
 colour=0x46320A
 font=497
 
-[com_24]
+[chapter4]
 type=Text
 x=283
 y=176
@@ -255,7 +255,7 @@ colour=0x46320A
 font=497
 text="Finally, I understand my"
 
-[com_25]
+[bookmacro1r]
 type=Text
 x=283
 y=192
@@ -266,7 +266,7 @@ font=497
 text="failings and my true enemies."
 baseOpName="my failings"
 
-[com_26]
+[bookmacro1s]
 type=Text
 x=283
 y=208
@@ -276,7 +276,7 @@ colour=0x46320A
 font=497
 text="I dedicate the rest of my"
 
-[com_27]
+[bookmacro1t]
 type=Text
 x=283
 y=224
@@ -286,7 +286,7 @@ colour=0x46320A
 font=497
 text="shattered life to the task of"
 
-[com_28]
+[bookmacro1u]
 type=Text
 x=283
 y=240
@@ -296,7 +296,7 @@ colour=0x46320A
 font=497
 text="eradicating them both."
 
-[com_29]
+[bookmacro1v]
 type=Text
 x=418
 y=267

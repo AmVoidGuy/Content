@@ -1,4 +1,4 @@
-[button_build]
+[cat_backdrop]
 type=Model
 x=-4
 y=-3
@@ -9,7 +9,7 @@ modelZoom=191
 modelXAn=513
 discardedModelField=0
 
-[letter_1]
+[com_1]
 type=Rectangle
 x=2
 y=68
@@ -18,7 +18,7 @@ height=172
 colour=0x202020
 fill=yes
 
-[letter_2]
+[com_2]
 type=Rectangle
 x=7
 y=74
@@ -27,14 +27,14 @@ height=164
 colour=0x404040
 fill=yes
 
-[letter_3]
+[cat_naming_cl1]
 type=Layer
 x=11
 y=31
 width=488
 height=36
 
-[letter_4]
+[cata_dial]
 type=Model
 x=7
 y=97
@@ -46,7 +46,7 @@ modelXAn=400
 modelYOf=1
 discardedModelField=0
 
-[letter_5]
+[catb_dial]
 type=Model
 x=90
 y=97
@@ -58,7 +58,7 @@ modelXAn=400
 modelYOf=1
 discardedModelField=0
 
-[letter_6]
+[catc_dial]
 type=Model
 x=173
 y=97
@@ -70,7 +70,7 @@ modelXAn=400
 modelYOf=1
 discardedModelField=0
 
-[letter_container]
+[catd_dial]
 type=Model
 x=256
 y=97
@@ -82,7 +82,7 @@ modelXAn=400
 modelYOf=1
 discardedModelField=0
 
-[com_8]
+[cate_dial]
 type=Model
 x=340
 y=98
@@ -94,7 +94,7 @@ modelXAn=400
 modelYOf=1
 discardedModelField=0
 
-[dropdown_1]
+[catf_dial]
 type=Model
 x=424
 y=97
@@ -106,7 +106,7 @@ modelXAn=400
 modelYOf=1
 discardedModelField=0
 
-[mainmodal_window]
+[cata]
 type=Text
 x=43
 y=113
@@ -117,7 +117,7 @@ hAlign=Center
 font=496
 text="A"
 
-[mainmodal_window_background]
+[catb]
 type=Text
 x=126
 y=113
@@ -128,7 +128,7 @@ hAlign=Center
 font=496
 text="A"
 
-[mainmodal_window_content]
+[catc]
 type=Text
 x=210
 y=113
@@ -139,7 +139,7 @@ hAlign=Center
 font=496
 text="A"
 
-[3x3_button]
+[catd]
 type=Text
 x=292
 y=114
@@ -150,7 +150,7 @@ hAlign=Center
 font=496
 text="A"
 
-[cat_name]
+[cate]
 type=Text
 x=376
 y=114
@@ -161,7 +161,7 @@ hAlign=Center
 font=496
 text="A"
 
-[3x1_positive]
+[catf]
 type=Text
 x=460
 y=114
@@ -172,7 +172,7 @@ hAlign=Center
 font=496
 text="A"
 
-[cathead1]
+[cat_collar]
 type=Model
 x=76
 y=-26
@@ -186,7 +186,7 @@ modelXOf=-17
 modelYOf=7
 discardedModelField=0
 
-[cathead2]
+[cata_left]
 type=Sprite
 x=15
 y=194
@@ -196,7 +196,7 @@ graphic=425
 eventCode=hasOp(1)
 opName0="Previous"
 
-[cat_eye1]
+[cata_right]
 type=Sprite
 x=51
 y=194
@@ -206,7 +206,7 @@ graphic=426
 eventCode=hasOp(1)
 opName0="Next"
 
-[cat_2]
+[catb_left]
 type=Sprite
 x=97
 y=194
@@ -216,7 +216,7 @@ graphic=425
 eventCode=hasOp(1)
 opName0="Previous"
 
-[cat_3]
+[catb_right]
 type=Sprite
 x=133
 y=194
@@ -226,7 +226,7 @@ graphic=426
 eventCode=hasOp(1)
 opName0="Next"
 
-[cat_1]
+[catc_left]
 type=Sprite
 x=179
 y=194
@@ -236,7 +236,7 @@ graphic=425
 eventCode=hasOp(1)
 opName0="Pevious"
 
-[mainmodal_window_border]
+[catc_right]
 type=Sprite
 x=216
 y=194
@@ -246,7 +246,7 @@ graphic=426
 eventCode=hasOp(1)
 opName0="Next"
 
-[mainmodal_window_close_button]
+[catd_left]
 type=Sprite
 x=264
 y=194
@@ -256,7 +256,7 @@ graphic=425
 eventCode=hasOp(1)
 opName0="Previous"
 
-[dropdown_build_1]
+[catd_right]
 type=Sprite
 x=300
 y=194
@@ -266,7 +266,7 @@ graphic=426
 eventCode=hasOp(1)
 opName0="Next"
 
-[dropdown_click_1]
+[cate_left]
 type=Sprite
 x=348
 y=194
@@ -276,7 +276,7 @@ graphic=425
 eventCode=hasOp(1)
 opName0="Previous"
 
-[com_26]
+[cate_right]
 type=Sprite
 x=384
 y=194
@@ -286,7 +286,7 @@ graphic=426
 eventCode=hasOp(1)
 opName0="Next"
 
-[dropdown_2]
+[catf_right]
 type=Sprite
 x=468
 y=193
@@ -296,7 +296,7 @@ graphic=426
 eventCode=hasOp(1)
 opName0="Previous"
 
-[dropdown_build_2]
+[catf_left]
 type=Sprite
 x=433
 y=193
@@ -306,7 +306,7 @@ graphic=425
 eventCode=hasOp(1)
 opName0="Next"
 
-[dropdown_click_2]
+[cat_close]
 type=Sprite
 x=482
 y=10
@@ -317,7 +317,7 @@ onmouseover=44,3997725,540
 onmouseleave=44,3997725,539
 onclick=29
 
-[com_30]
+[catnaming]
 type=Text
 x=160
 y=36
@@ -329,7 +329,7 @@ font=496
 shadow=yes
 text="Name Your Cat"
 
-[dropdown_3]
+[catname_enter]
 type=Rectangle
 x=193
 y=262
@@ -340,7 +340,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Confirm"
 
-[dropdown_build_3]
+[cat_naming_enter]
 type=Text
 x=200
 y=269
@@ -351,7 +351,7 @@ hAlign=Center
 font=496
 text="E N T E R"
 
-[dropdown_click_3]
+[cathead1]
 type=Model
 x=42
 y=238
@@ -365,7 +365,7 @@ modelXOf=-40
 modelYOf=132
 discardedModelField=0
 
-[com_34]
+[cathead2]
 type=Model
 x=400
 y=252
@@ -379,7 +379,7 @@ modelXOf=50
 modelYOf=124
 discardedModelField=0
 
-[dropdown_4]
+[cat_eye1]
 type=Model
 x=80
 y=265
@@ -393,7 +393,7 @@ modelXOf=1
 modelYOf=-3
 discardedModelField=0
 
-[dropdown_build_4]
+[cat_eye2]
 type=Model
 x=101
 y=268
@@ -407,7 +407,7 @@ modelXOf=1
 modelYOf=-3
 discardedModelField=0
 
-[dropdown_click_4]
+[cat_eye3]
 type=Model
 x=428
 y=264
@@ -421,7 +421,7 @@ modelXOf=1
 modelYOf=-2
 discardedModelField=0
 
-[com_38]
+[cat_eye4]
 type=Model
 x=410
 y=267
@@ -435,7 +435,7 @@ modelXOf=1
 modelYOf=-3
 discardedModelField=0
 
-[dropdown_5]
+[cat_naming_close_button]
 type=Layer
 x=479
 y=7

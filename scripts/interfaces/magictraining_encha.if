@@ -1,4 +1,4 @@
-[content_layer1]
+[com_0]
 type=Model
 x=415
 y=17
@@ -8,7 +8,7 @@ model1Id=10567
 modelZoom=843
 modelXAn=421
 
-[content_panel_blue]
+[magictrain_encha_a]
 type=Text
 x=359
 y=13
@@ -20,7 +20,7 @@ font=497
 shadow=yes
 text="Enchantment"
 
-[title]
+[magictrain_encha_b]
 type=Text
 x=360
 y=33
@@ -33,7 +33,7 @@ font=494
 shadow=yes
 text="Pizazz Points:"
 
-[points]
+[magictrain_encha_pts]
 type=Text
 x=460
 y=38
@@ -44,7 +44,7 @@ font=494
 shadow=yes
 text="9999"
 
-[magictrain_encha_pts]
+[magictrain_encha_laycube]
 type=Layer
 x=408
 y=230
@@ -52,7 +52,7 @@ width=107
 height=107
 hide=yes
 
-[magictrain_encha_laycube]
+[magictrain_encha_laycyl]
 type=Layer
 x=408
 y=229
@@ -60,7 +60,7 @@ width=106
 height=110
 hide=yes
 
-[magictrain_encha_laycyl]
+[magictrain_encha_laypent]
 type=Layer
 x=408
 y=228
@@ -68,7 +68,7 @@ width=116
 height=111
 hide=yes
 
-[magictrain_encha_laypent]
+[magictrain_encha_layico]
 type=Layer
 x=408
 y=228
@@ -76,7 +76,7 @@ width=112
 height=110
 hide=yes
 
-[magictrain_icosahedron]
+[magictrain_cube]
 type=Model
 x=50
 y=50
@@ -88,7 +88,7 @@ modelZoom=1395
 modelXAn=96
 modelYAn=1282
 
-[magictrain_encha_layico]
+[magictrain_cylinder]
 type=Model
 x=50
 y=50
@@ -100,7 +100,7 @@ modelZoom=1397
 modelXAn=91
 modelYAn=1716
 
-[magictrain_cylinder]
+[magictrain_pentamid]
 type=Model
 x=50
 y=50
@@ -112,7 +112,7 @@ modelZoom=1071
 modelXAn=96
 modelYAn=975
 
-[magictrain_pentamid]
+[magictrain_icosahedron]
 type=Model
 x=50
 y=50
@@ -124,7 +124,7 @@ modelZoom=1180
 modelXAn=105
 modelYAn=1907
 
-[magictrain_cube]
+[magictrain_ench_bonustxt]
 type=Text
 x=443
 y=233

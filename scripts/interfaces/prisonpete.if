@@ -1,4 +1,4 @@
-[universe]
+[prison_bars]
 type=Model
 x=246
 y=281
@@ -7,7 +7,7 @@ height=32
 model1Id=10753
 modelZoom=272
 
-[prison_bars]
+[com_1]
 type=Text
 x=60
 y=276
@@ -26,7 +26,7 @@ width=511
 height=334
 eventCode=flag22
 
-[balloon]
+[balloon1]
 type=Model
 x=243
 y=140
@@ -58,7 +58,7 @@ layerId=17891334
 graphic=540
 buttonText="Ok"
 
-[com_6]
+[prisonpete_close]
 type=Layer
 x=481
 width=32

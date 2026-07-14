@@ -132,7 +132,7 @@ model1Id=11367
 modelZoom=656
 modelXAn=479
 
-[mainmodal_window]
+[com_13]
 type=Model
 x=195
 y=242
@@ -142,7 +142,7 @@ model1Id=11366
 modelZoom=2023
 modelXAn=512
 
-[mainmodal_window_background]
+[com_14]
 type=Model
 x=244
 y=153
@@ -152,7 +152,7 @@ model1Id=11366
 modelZoom=2023
 modelXAn=512
 
-[mainmodal_window_content]
+[com_15]
 type=Model
 x=321
 y=211
@@ -162,7 +162,7 @@ model1Id=11366
 modelZoom=2023
 modelXAn=512
 
-[mainmodal_window_border]
+[com_16]
 type=Model
 x=290
 y=241
@@ -172,7 +172,7 @@ model1Id=11366
 modelZoom=2023
 modelXAn=512
 
-[mainmodal_window_close_button]
+[com_17]
 type=Model
 x=261
 y=208

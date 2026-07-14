@@ -1,9 +1,9 @@
-[emote_default]
+[emote_page_one]
 type=Layer
 width=189
 height=261
 
-[emote_scroll]
+[peng_emote_shiver]
 type=Sprite
 buttonType=Button
 x=4
@@ -15,7 +15,7 @@ graphic=803
 buttonText="Shiver"
 eventCode=flag22
 
-[emote_button_1]
+[peng_emote_spin]
 type=Sprite
 buttonType=Button
 x=48
@@ -27,7 +27,7 @@ graphic=804
 buttonText="Spin"
 eventCode=flag22
 
-[peng_emote_shiver]
+[peng_emote_clap]
 type=Sprite
 buttonType=Button
 x=92
@@ -39,7 +39,7 @@ graphic=805
 buttonText="Clap"
 eventCode=flag22
 
-[emote_graphic_1]
+[peng_emote_bow]
 type=Sprite
 buttonType=Button
 x=136
@@ -51,7 +51,7 @@ graphic=806
 buttonText="Bow"
 eventCode=flag22
 
-[emote_button_text_1]
+[peng_emote_cheer]
 type=Sprite
 buttonType=Button
 x=4
@@ -63,7 +63,7 @@ graphic=807
 buttonText="Cheer"
 eventCode=flag22
 
-[emote_button_2]
+[peng_emote_wave]
 type=Sprite
 buttonType=Button
 x=48
@@ -75,7 +75,7 @@ graphic=808
 buttonText="Wave"
 eventCode=flag22
 
-[peng_emote_spin]
+[peng_emote_preen]
 type=Sprite
 buttonType=Button
 x=92
@@ -87,7 +87,7 @@ graphic=809
 buttonText="Preen"
 eventCode=flag22
 
-[emote_graphic_2]
+[peng_emote_flap]
 type=Sprite
 buttonType=Button
 x=136
@@ -99,7 +99,7 @@ graphic=810
 buttonText="Flap"
 eventCode=flag22
 
-[emote_button_text_2]
+[com_9]
 type=Tooltip
 x=10
 y=6
@@ -108,7 +108,7 @@ height=48
 layerId=14614528
 text="Shiver"
 
-[emote_button_3]
+[com_10]
 type=Tooltip
 x=55
 y=6
@@ -117,7 +117,7 @@ height=48
 layerId=14614528
 text="Spin"
 
-[peng_emote_clap]
+[com_11]
 type=Tooltip
 x=99
 y=6
@@ -126,7 +126,7 @@ height=48
 layerId=14614528
 text="Clap"
 
-[emote_graphic_3]
+[com_12]
 type=Tooltip
 x=143
 y=6
@@ -135,7 +135,7 @@ height=48
 layerId=14614528
 text="Bow"
 
-[emote_button_text_3]
+[com_13]
 type=Tooltip
 x=11
 y=55
@@ -144,7 +144,7 @@ height=48
 layerId=14614528
 text="Cheer"
 
-[emote_button_4]
+[com_14]
 type=Tooltip
 x=53
 y=55
@@ -153,7 +153,7 @@ height=48
 layerId=14614528
 text="Wave"
 
-[peng_emote_bow]
+[com_15]
 type=Tooltip
 x=99
 y=55
@@ -162,7 +162,7 @@ height=48
 layerId=14614528
 text="Preen"
 
-[emote_graphic_4]
+[com_16]
 type=Tooltip
 x=143
 y=55

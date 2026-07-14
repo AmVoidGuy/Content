@@ -19,12 +19,12 @@ shadow=yes
 onstattransmit=53,component.parentId
 onstattransmitlist=5
 
-[com_2]
+[base]
 type=Layer
 width=190
 height=261
 
-[com_3]
+[buttons]
 type=Layer
 y=1
 width=190
@@ -814,7 +814,7 @@ onmouserepeat=38,component.parentId,17760314,"Level 70<br>Piety<br>Increases you
 onvartransmitlist=83,84,85,86,87,88,92,94,95,862,863,864,865,866,867,1052,1053
 onstattransmitlist=5
 
-[com_58]
+[tooltips]
 type=Layer
 width=1
 height=1

@@ -1,4 +1,4 @@
-[catcon_power]
+[com_0]
 type=Rectangle
 x=26
 y=40
@@ -7,7 +7,7 @@ height=44
 trans=200
 fill=yes
 
-[power_bar]
+[com_1]
 type=Rectangle
 x=11
 y=144
@@ -16,7 +16,7 @@ height=60
 trans=200
 fill=yes
 
-[32px_arrow_down]
+[com_2]
 type=Model
 x=78
 y=155
@@ -29,7 +29,7 @@ modelYAn=2029
 modelYOf=-1
 discardedModelField=0
 
-[32px_arrow_up]
+[com_3]
 type=Model
 x=78
 y=155
@@ -47,7 +47,7 @@ onmouseover=67,component.parentId,14936
 onmouseleave=67,component.parentId,14938
 onop=860
 
-[counterweight]
+[fire_tooltip]
 type=Rectangle
 x=78
 y=156
@@ -59,7 +59,7 @@ fill=yes
 onmouseleave=40,44695590
 onmouserepeat=38,component.parentId,44695590,"Fire the catapult.",25,180
 
-[direction]
+[com_5]
 type=Model
 x=67
 y=146
@@ -69,7 +69,7 @@ model1Id=32157
 modelZoom=1936
 discardedModelField=0
 
-[catcon_power_2]
+[com_6]
 type=Model
 x=115
 y=146
@@ -79,7 +79,7 @@ model1Id=32157
 modelZoom=1936
 discardedModelField=0
 
-[3x1_positive]
+[com_7]
 type=Model
 x=115
 y=189
@@ -89,7 +89,7 @@ model1Id=32157
 modelZoom=1936
 discardedModelField=0
 
-[32px_arrow_right]
+[com_8]
 type=Model
 x=67
 y=189
@@ -99,7 +99,7 @@ model1Id=32157
 modelZoom=1936
 discardedModelField=0
 
-[32px_arrow_left]
+[com_9]
 type=Model
 x=21
 y=160
@@ -116,7 +116,7 @@ onmouseover=67,component.parentId,32160
 onmouseleave=67,component.parentId,32196
 onop=858
 
-[back]
+[left_tooltip]
 type=Rectangle
 x=21
 y=160
@@ -128,7 +128,7 @@ fill=yes
 onmouseleave=40,44695590
 onmouserepeat=38,component.parentId,44695590,"Aim the catapult left.",25,180
 
-[power]
+[com_11]
 type=Model
 x=135
 y=160
@@ -145,7 +145,7 @@ onmouseover=67,component.parentId,32160
 onmouseleave=67,component.parentId,32196
 onop=859
 
-[com_12]
+[right_tooltip]
 type=Rectangle
 x=135
 y=160
@@ -157,7 +157,7 @@ fill=yes
 onmouseleave=40,44695590
 onmouserepeat=38,component.parentId,44695590,"Aim the catapult right.",25,180
 
-[base]
+[com_13]
 type=Rectangle
 x=170
 y=53
@@ -169,7 +169,7 @@ fill=yes
 onmouseleave=40,44695590
 onmouserepeat=38,component.parentId,44695590,"Increase counterweight.",25,180
 
-[3x1_negative]
+[lighter_tooltip]
 type=Rectangle
 x=3
 y=53
@@ -181,7 +181,7 @@ fill=yes
 onmouseleave=40,44695590
 onmouserepeat=38,component.parentId,44695590,"Decrease counterweight.",25,180
 
-[positive_build]
+[com_15]
 type=Sprite
 x=-5
 y=142
@@ -189,7 +189,7 @@ width=32
 height=64
 graphic=1075
 
-[positive_click]
+[com_16]
 type=Sprite
 x=168
 y=142
@@ -197,7 +197,7 @@ width=32
 height=64
 graphic=1075
 
-[negative_build]
+[com_17]
 type=Sprite
 x=9
 y=126
@@ -206,7 +206,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[negative_click]
+[com_18]
 type=Sprite
 x=9
 y=188
@@ -252,7 +252,7 @@ height=44
 graphic=1075
 tiling=yes
 
-[com_23]
+[divider]
 type=Model
 modelZoom=400
 discardedModelField=0
@@ -393,7 +393,7 @@ modelXAn=500
 modelXOf=-21
 discardedModelField=0
 
-[com_36]
+[catcon_power]
 type=Text
 x=22
 y=16
@@ -417,7 +417,7 @@ vAlign=Bottom
 font=494
 text="DIRECTION"
 
-[com_38]
+[tooltip_layer]
 type=Layer
 x=-3
 y=-14
@@ -466,7 +466,7 @@ model1Id=32157
 modelZoom=2960
 discardedModelField=0
 
-[com_43]
+[tooltip_area]
 type=Layer
 x=12
 y=15

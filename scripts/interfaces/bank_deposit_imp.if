@@ -1,4 +1,4 @@
-[imp_deposit_instructions]
+[com_0]
 type=Sprite
 x=88
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[imp_deposit_layer]
+[com_1]
 type=Sprite
 x=88
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window]
+[com_2]
 type=Sprite
 x=88
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_background]
+[com_3]
 type=Sprite
 x=88
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_content]
+[com_4]
 type=Sprite
 x=176
 y=20
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_border]
+[com_5]
 type=Sprite
 x=176
 y=80
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_close_button]
+[com_6]
 type=Sprite
 x=176
 y=140
@@ -503,7 +503,7 @@ marginY=10
 iop0=Deposit
 eventCode=hasIop(0), objSwapEnabled
 
-[com_62]
+[imp_deposit_instructions]
 type=Text
 x=88
 y=232
@@ -535,7 +535,7 @@ layerId=31326273
 graphic=536
 buttonText="Ok"
 
-[com_65]
+[bank_deposit_imp_close_button]
 type=Layer
 x=415
 y=22

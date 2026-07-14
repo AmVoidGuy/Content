@@ -1,4 +1,4 @@
-[ratcatcher_flute_music1]
+[com_0]
 type=Rectangle
 width=512
 height=334
@@ -6,7 +6,7 @@ trans=160
 colour=0x46341D
 fill=yes
 
-[ratcatcher_flute_music2]
+[ratcatcher_music_scroll]
 type=Model
 x=242
 y=176
@@ -18,7 +18,7 @@ modelXAn=495
 modelYAn=2047
 discardedModelField=0
 
-[ratcatcher_flute_music3]
+[ratcatcher_flute_music1]
 type=Model
 x=74
 y=76
@@ -29,7 +29,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[ratcatcher_flute_music4]
+[ratcatcher_flute_music2]
 type=Model
 x=119
 y=82
@@ -40,7 +40,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[ratcatcher_flute_music5]
+[ratcatcher_flute_music3]
 type=Model
 x=168
 y=77
@@ -51,7 +51,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[ratcatcher_flute_music6]
+[ratcatcher_flute_music4]
 type=Model
 x=216
 y=71
@@ -62,7 +62,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[ratcatcher_flute_music7]
+[ratcatcher_flute_music5]
 type=Model
 x=266
 y=71
@@ -73,7 +73,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[ratcatcher_flute_music8]
+[ratcatcher_flute_music6]
 type=Model
 x=316
 y=76
@@ -84,7 +84,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m1]
+[ratcatcher_flute_music7]
 type=Model
 x=359
 y=81
@@ -95,7 +95,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m2]
+[ratcatcher_flute_music8]
 type=Model
 x=404
 y=84
@@ -106,7 +106,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m3]
+[rc_m1]
 type=Model
 x=74
 y=81
@@ -117,7 +117,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m4]
+[rc_m2]
 type=Model
 x=119
 y=87
@@ -128,7 +128,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m5]
+[rc_m3]
 type=Model
 x=168
 y=83
@@ -139,7 +139,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m6]
+[rc_m4]
 type=Model
 x=216
 y=76
@@ -150,7 +150,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m7]
+[rc_m5]
 type=Model
 x=266
 y=77
@@ -161,7 +161,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_m8]
+[rc_m6]
 type=Model
 x=316
 y=81
@@ -172,7 +172,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[rc_music_sharp]
+[rc_m7]
 type=Model
 x=359
 y=85
@@ -183,7 +183,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[mainmodal_window]
+[rc_m8]
 type=Model
 x=404
 y=89
@@ -194,7 +194,7 @@ modelZoom=400
 modelXAn=512
 discardedModelField=0
 
-[mainmodal_window_background]
+[rc_music_sharp]
 type=Model
 x=272
 y=39
@@ -205,7 +205,7 @@ modelZoom=541
 modelXAn=512
 discardedModelField=0
 
-[mainmodal_window_content]
+[close_button]
 type=Sprite
 x=443
 y=40

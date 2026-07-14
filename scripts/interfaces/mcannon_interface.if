@@ -1,11 +1,11 @@
-[content_layer]
+[com_0]
 type=Rectangle
 width=512
 height=334
 colour=0x302C27
 fill=yes
 
-[bespoke_window]
+[mcannon_tool1]
 type=Model
 buttonType=Toggly
 x=16
@@ -20,7 +20,7 @@ modelYAn=2047
 eventCode=flag22
 script1op1=varbit,varbit_2235
 
-[mcannon_tool1]
+[mcannon_tool2]
 type=Model
 buttonType=Toggly
 x=68
@@ -35,7 +35,7 @@ modelYAn=3
 eventCode=flag22
 script1op1=varbit,varbit_2236
 
-[mcannon_tool2]
+[mcannon_tool3]
 type=Model
 buttonType=Toggly
 x=145
@@ -49,7 +49,7 @@ modelXAn=45
 eventCode=flag22
 script1op1=varbit,varbit_2237
 
-[mcannon_tool3]
+[mcannon_casing_for_mechanism]
 type=Model
 x=328
 y=207
@@ -60,7 +60,7 @@ modelZoom=700
 modelXAn=102
 modelYAn=1900
 
-[mcannon_casing_for_mechanism]
+[mcannon_firing_mechanism]
 type=Model
 x=328
 y=207
@@ -71,7 +71,7 @@ modelZoom=700
 modelXAn=102
 modelYAn=1900
 
-[mcannon_firing_mechanism]
+[com_6]
 type=Text
 x=7
 y=284
@@ -83,7 +83,7 @@ font=495
 shadow=yes
 text="Choose a tool to use on each of the moving parts."
 
-[com_7]
+[mcannon_safety]
 type=Model
 buttonType=Toggly
 x=349
@@ -94,7 +94,7 @@ modelZoom=400
 buttonText="Safety switch"
 eventCode=flag22
 
-[mcannon_safety]
+[mcannon_spring]
 type=Model
 buttonType=Toggly
 x=339
@@ -105,7 +105,7 @@ modelZoom=400
 buttonText="Spring"
 eventCode=flag22
 
-[mcannon_spring]
+[mcannon_gear]
 type=Model
 buttonType=Toggly
 x=275
@@ -116,7 +116,7 @@ modelZoom=400
 buttonText="Gear"
 eventCode=flag22
 
-[mcannon_gear]
+[com_10]
 type=Sprite
 x=481
 y=6
@@ -125,7 +125,7 @@ height=23
 overLayerId=12
 graphic=539
 
-[bespoke_window_background]
+[com_11]
 type=Sprite
 buttonType=Close
 x=3
@@ -137,7 +137,7 @@ overLayerId=12
 graphic=540
 buttonText="Ok"
 
-[bespoke_window_content]
+[mcannon_interface_close_button]
 type=Layer
 x=478
 y=1

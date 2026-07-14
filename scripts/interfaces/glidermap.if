@@ -1,4 +1,4 @@
-[main_layer]
+[gnomemap]
 type=Model
 x=244
 y=136
@@ -9,7 +9,7 @@ modelZoom=585
 modelXAn=503
 modelYAn=1
 
-[window]
+[grandtree]
 type=Model
 x=73
 y=51
@@ -20,7 +20,7 @@ modelZoom=1061
 modelXAn=539
 modelYAn=2044
 
-[window_background]
+[mountains]
 type=Model
 x=257
 y=43
@@ -31,7 +31,7 @@ modelZoom=2073
 modelXAn=424
 modelYAn=8
 
-[window_content]
+[varrock]
 type=Model
 x=393
 y=34
@@ -42,7 +42,7 @@ modelZoom=1438
 modelXAn=506
 modelYAn=2043
 
-[world_map]
+[al_kharid]
 type=Model
 x=429
 y=149
@@ -53,7 +53,7 @@ modelZoom=887
 modelXAn=470
 modelYAn=8
 
-[map]
+[karamja]
 type=Model
 x=226
 y=224
@@ -64,7 +64,7 @@ modelZoom=851
 modelXAn=469
 modelYAn=11
 
-[hubs_layer]
+[com_6]
 type=Model
 x=73
 y=250
@@ -75,7 +75,7 @@ modelZoom=958
 modelXAn=416
 modelYAn=29
 
-[grandtree_button_layer]
+[grand_tree]
 type=Text
 x=43
 y=118
@@ -86,7 +86,7 @@ hAlign=Center
 font=497
 text="Ta Quir Priw"
 
-[mountain_button_layer]
+[varrocktext2]
 type=Text
 x=374
 y=89
@@ -96,7 +96,7 @@ colour=0x2B1C0F
 font=497
 text="Lemanto Andra"
 
-[digsite_button_layer]
+[mountainstext]
 type=Text
 x=173
 y=31
@@ -107,7 +107,7 @@ hAlign=Center
 font=497
 text="Sindarpos"
 
-[desert_button_layer]
+[jungle]
 type=Text
 x=199
 y=282
@@ -118,7 +118,7 @@ hAlign=Center
 font=497
 text="Gandius"
 
-[jungle_button_layer]
+[deserttext]
 type=Text
 x=335
 y=137
@@ -129,7 +129,7 @@ hAlign=Center
 font=497
 text="Kar-Hewo"
 
-[ogre_button_layer]
+[com_12]
 type=Text
 x=35
 y=189
@@ -140,7 +140,7 @@ hAlign=Center
 font=497
 text="Lemantolly"
 
-[tgv_button_layer]
+[com_13]
 type=Text
 x=83
 y=210
@@ -151,7 +151,7 @@ hAlign=Center
 font=497
 text="Undri"
 
-[elfcity_button_layer]
+[com_14]
 type=Model
 x=74
 y=15
@@ -163,7 +163,7 @@ modelZoom=2073
 modelXAn=424
 modelYAn=8
 
-[elr1_button_layer]
+[com_15]
 type=Model
 x=11
 y=4
@@ -175,7 +175,7 @@ modelZoom=851
 modelXAn=469
 modelYAn=11
 
-[mountain_go]
+[com_16]
 type=Model
 x=34
 y=20
@@ -187,7 +187,7 @@ modelZoom=1061
 modelXAn=539
 modelYAn=2044
 
-[mountain_back]
+[com_17]
 type=Model
 x=23
 y=4
@@ -199,7 +199,7 @@ modelZoom=1438
 modelXAn=506
 modelYAn=2043
 
-[digsite_go]
+[com_18]
 type=Model
 x=32
 y=5
@@ -211,7 +211,7 @@ modelZoom=887
 modelXAn=470
 modelYAn=8
 
-[desert_go]
+[com_19]
 type=Model
 x=21
 y=26
@@ -224,7 +224,7 @@ modelZoom=958
 modelXAn=416
 modelYAn=29
 
-[desert_back]
+[com_20]
 type=Layer
 x=215
 y=220
@@ -232,7 +232,7 @@ width=57
 height=80
 hide=yes
 
-[jungle_go]
+[com_21]
 type=Layer
 x=39
 y=31
@@ -240,7 +240,7 @@ width=105
 height=109
 hide=yes
 
-[jungle_back]
+[com_22]
 type=Layer
 x=183
 y=28
@@ -248,7 +248,7 @@ width=142
 height=58
 hide=yes
 
-[ogre_go]
+[dragon_slayer_qip_map_tgod_garden_1_plant_diagram]
 type=Layer
 x=370
 y=30
@@ -256,7 +256,7 @@ width=112
 height=81
 hide=yes
 
-[ogre_back]
+[com_24]
 type=Layer
 x=397
 y=144
@@ -264,7 +264,7 @@ width=95
 height=85
 hide=yes
 
-[tgv_go]
+[com_25]
 type=Layer
 x=43
 y=215
@@ -272,7 +272,7 @@ width=83
 height=91
 hide=yes
 
-[tgv_back]
+[jungle_button]
 type=Model
 buttonType=Button
 x=214
@@ -283,7 +283,7 @@ overLayerId=20
 modelZoom=400
 eventCode=flag22
 
-[crash_go]
+[grandtree_button]
 type=Model
 buttonType=Button
 x=41
@@ -294,7 +294,7 @@ overLayerId=21
 modelZoom=400
 eventCode=flag22
 
-[crash_back]
+[mountains_button]
 type=Model
 buttonType=Button
 x=185
@@ -305,7 +305,7 @@ overLayerId=22
 modelZoom=400
 eventCode=flag22
 
-[elfcity_go]
+[varrock_button]
 type=Model
 buttonType=Button
 x=372
@@ -316,7 +316,7 @@ overLayerId=23
 modelZoom=400
 eventCode=flag22
 
-[elfcity_back]
+[desert_button]
 type=Model
 buttonType=Button
 x=360
@@ -327,7 +327,7 @@ overLayerId=24
 modelZoom=400
 eventCode=flag22
 
-[elr1_go]
+[com_31]
 type=Model
 buttonType=Button
 x=40
@@ -340,7 +340,7 @@ modelXAn=416
 modelYAn=29
 eventCode=flag22
 
-[elr1_back]
+[varrockgo]
 type=Model
 x=265
 y=82
@@ -354,7 +354,7 @@ modelYAn=2031
 script1=eq,3
 script1op1=varp,pilot_journey
 
-[window_border]
+[desertgo]
 type=Model
 x=272
 y=129
@@ -368,7 +368,7 @@ modelYAn=105
 script1=eq,4
 script1op1=varp,pilot_journey
 
-[window_close_button]
+[desertback]
 type=Model
 x=244
 y=126
@@ -382,7 +382,7 @@ modelYAn=1126
 script1=eq,5
 script1op1=varp,pilot_journey
 
-[close_button_keybind_layer]
+[mountaingo]
 type=Model
 x=287
 y=78
@@ -396,7 +396,7 @@ modelYAn=2039
 script1=eq,1
 script1op1=varp,pilot_journey
 
-[grandtree_button_on_layer]
+[mountainback]
 type=Model
 x=86
 y=76
@@ -410,7 +410,7 @@ modelYAn=982
 script1=eq,2
 script1op1=varp,pilot_journey
 
-[grandtree_button_over_layer]
+[junglego]
 type=Model
 x=144
 y=127
@@ -424,7 +424,7 @@ modelYAn=1319
 script1=eq,6
 script1op1=varp,pilot_journey
 
-[grandtree_button_hit_layer]
+[jungleback]
 type=Model
 x=170
 y=142
@@ -438,7 +438,7 @@ modelYAn=306
 script1=eq,7
 script1op1=varp,pilot_journey
 
-[grandtree_button_selected_layer]
+[crashgo]
 type=Model
 x=94
 y=153
@@ -452,7 +452,7 @@ modelYAn=1401
 script1=eq,9
 script1op1=varp,pilot_journey
 
-[grandtree_button_active_layer]
+[crashback]
 type=Model
 x=97
 y=174
@@ -466,7 +466,7 @@ modelYAn=364
 script1=eq,8
 script1op1=varp,pilot_journey
 
-[grandtree_button_disabled_layer]
+[com_41]
 type=Model
 x=60
 y=136
@@ -480,7 +480,7 @@ modelYAn=469
 script1=eq,10
 script1op1=varp,pilot_journey
 
-[grandtree_button_text_layer]
+[com_42]
 type=Model
 x=94
 y=94
@@ -494,7 +494,7 @@ modelYAn=1584
 script1=eq,11
 script1op1=varp,pilot_journey
 
-[grandtree_button_text]
+[com_43]
 type=Sprite
 x=454
 y=14
@@ -503,7 +503,7 @@ height=23
 overLayerId=45
 graphic=539
 
-[tgv_button_on_layer]
+[closebutton]
 type=Sprite
 buttonType=Close
 x=3
@@ -514,7 +514,7 @@ layerId=9044013
 graphic=540
 buttonText="Ok"
 
-[tgv_button_over_layer]
+[glidermap_close]
 type=Layer
 x=451
 y=9

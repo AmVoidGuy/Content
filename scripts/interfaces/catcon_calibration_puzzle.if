@@ -1,4 +1,4 @@
-[catcon_catapult_up_pointer]
+[main_layer]
 type=Layer
 width=512
 height=334
@@ -85,7 +85,7 @@ trans=150
 fill=yes
 baseOpName=" "
 
-[com_9]
+[catcon_catapult_up_pointer]
 type=Sprite
 x=219
 y=235
@@ -178,7 +178,7 @@ height=32
 layerId=44564480
 graphic=827
 
-[com_19]
+[close_button]
 type=Sprite
 x=487
 y=8

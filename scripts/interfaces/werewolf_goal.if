@@ -9,7 +9,7 @@ modelZoom=177
 modelXAn=526
 modelYAn=515
 
-[waa_time]
+[com_1]
 type=Model
 x=343
 y=200
@@ -31,7 +31,7 @@ modelZoom=184
 modelXAn=513
 modelYAn=514
 
-[waa_xp]
+[com_3]
 type=Text
 x=124
 y=155
@@ -43,7 +43,7 @@ font=497
 shadow=yes
 text="Time"
 
-[3x1_positive_single]
+[waa_time]
 type=Text
 x=138
 y=176
@@ -55,7 +55,7 @@ font=495
 shadow=yes
 text="4:17"
 
-[mainmodal_window]
+[waa_xp]
 type=Text
 x=341
 y=177
@@ -67,7 +67,7 @@ font=495
 shadow=yes
 text="300"
 
-[mainmodal_window_background]
+[com_6]
 type=Text
 x=298
 y=155
@@ -79,7 +79,7 @@ font=497
 shadow=yes
 text="XP score"
 
-[mainmodal_window_content]
+[com_7]
 type=Sprite
 x=473
 y=13
@@ -88,7 +88,7 @@ height=23
 overLayerId=9
 graphic=539
 
-[content_layer]
+[weregolf_close]
 type=Sprite
 buttonType=Close
 x=4
@@ -99,7 +99,7 @@ layerId=24838153
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_border]
+[weregolf_close_button]
 type=Layer
 x=469
 y=9

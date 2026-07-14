@@ -1,0 +1,1060 @@
+[background]
+type=Sprite
+x=17
+y=26
+width=480
+height=293
+graphic=297
+tiling=yes
+baseOpName="  "
+
+[left_side]
+type=Sprite
+y=26
+width=37
+height=276
+graphic=821
+tiling=yes
+baseOpName=" "
+
+[right_side]
+type=Sprite
+x=479
+y=26
+width=22
+height=281
+graphic=823
+tiling=yes
+baseOpName=" "
+
+[bottom]
+type=Sprite
+x=15
+y=302
+width=468
+height=23
+graphic=822
+tiling=yes
+
+[top]
+type=Sprite
+x=14
+y=10
+width=478
+height=38
+graphic=820
+tiling=yes
+baseOpName=" "
+
+[bottom_right]
+type=Sprite
+x=467
+y=290
+width=32
+height=32
+graphic=827
+baseOpName=" "
+
+[bottom_left]
+type=Sprite
+x=13
+y=290
+width=32
+height=32
+graphic=826
+
+[top_left]
+type=Sprite
+x=13
+y=23
+width=32
+height=32
+graphic=824
+baseOpName=" "
+
+[top_right]
+type=Sprite
+x=467
+y=23
+width=32
+height=32
+graphic=825
+baseOpName=" "
+
+[title_bar]
+type=Sprite
+x=16
+y=38
+width=477
+height=35
+graphic=828
+tiling=yes
+
+[left_joint]
+type=Sprite
+x=13
+y=40
+width=32
+height=32
+graphic=829
+tiling=yes
+
+[right_joint]
+type=Sprite
+x=467
+y=40
+width=32
+height=32
+graphic=830
+tiling=yes
+
+[close_button]
+type=Sprite
+x=471
+y=32
+width=16
+height=16
+graphic=831
+eventCode=hasOp(1)
+opName0="Close"
+onmouseover=44,component.parentId,832
+onmouseleave=44,component.parentId,831
+onop=29
+
+[title]
+type=Text
+x=17
+y=29
+width=477
+height=24
+colour=0xFF991F
+hAlign=Center
+vAlign=Center
+font=496
+shadow=yes
+text="What would you like to make?"
+
+[com_14]
+type=Layer
+x=24
+y=66
+width=450
+height=60
+
+[com_15]
+type=Model
+x=15
+y=10
+width=32
+height=32
+layerId=29229070
+model1Id=2666
+modelZoom=571
+modelXAn=321
+modelYAn=1833
+discardedModelField=0
+
+[no_ring]
+type=Text
+x=72
+y=24
+width=378
+height=36
+layerId=29229070
+colour=0xFF991F
+font=495
+shadow=yes
+text="You need a ring mould to craft rings."
+
+[ring_title]
+type=Text
+x=80
+y=66
+width=394
+height=25
+colour=0xFF9900
+font=496
+shadow=yes
+text="Rings"
+
+[com_18]
+type=Layer
+x=80
+y=66
+width=394
+height=60
+
+[gold_dark1]
+type=Model
+x=20
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[gold_ring]
+type=Layer
+x=20
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Gold Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[sapphire_dark1]
+type=Model
+x=65
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[sapphire_ring]
+type=Layer
+x=65
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Sapphire Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[emerald_dark1]
+type=Model
+x=110
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[emerald_ring]
+type=Layer
+x=110
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Emerald Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[ruby_dark1]
+type=Model
+x=155
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[ruby_ring]
+type=Layer
+x=155
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Ruby Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[diamond_dark1]
+type=Model
+x=200
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[diamond_ring]
+type=Layer
+x=200
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Diamond Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[dragon_dark1]
+type=Model
+x=245
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[dragonstone_ring]
+type=Layer
+x=245
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Dragonstone Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[onyx_dark1]
+type=Model
+x=290
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[onyx_ring]
+type=Layer
+x=290
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Onyx Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[onyx_dark6]
+type=Model
+x=290
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[slayer_dark1]
+type=Model
+x=335
+y=20
+width=32
+height=32
+layerId=29229074
+modelZoom=464
+modelXAn=268
+modelYAn=180
+discardedModelField=0
+
+[slayer_ring]
+type=Layer
+x=335
+y=20
+width=32
+height=32
+layerId=29229074
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Slayer Ring"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[com_36]
+type=Layer
+x=24
+y=127
+width=450
+height=60
+
+[com_37]
+type=Model
+x=11
+y=7
+width=43
+height=38
+layerId=29229092
+model1Id=2729
+modelZoom=571
+modelXAn=306
+modelYAn=1797
+modelXOf=-1
+discardedModelField=0
+
+[no_necklace]
+type=Text
+x=72
+y=24
+width=378
+height=36
+layerId=29229092
+colour=0xFF991F
+font=495
+shadow=yes
+text="You need a necklace mould to craft necklaces."
+
+[necklace_title]
+type=Text
+x=80
+y=127
+width=394
+height=25
+colour=0xFF9900
+font=496
+shadow=yes
+text="Necklaces"
+
+[com_40]
+type=Layer
+x=80
+y=128
+width=394
+height=60
+
+[gold_dark2]
+type=Model
+x=32
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=400
+discardedModelField=0
+
+[gold_necklace]
+type=Layer
+x=32
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Gold Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[sapphire_dark2]
+type=Model
+x=82
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=400
+discardedModelField=0
+
+[sapphire_necklace]
+type=Layer
+x=82
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Sapphire Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[emerald_dark2]
+type=Model
+x=132
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=200
+discardedModelField=0
+
+[emerald_necklace]
+type=Layer
+x=132
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Emerald Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[ruby_dark2]
+type=Model
+x=182
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=400
+discardedModelField=0
+
+[ruby_necklace]
+type=Layer
+x=182
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Ruby Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[diamond_dark2]
+type=Model
+x=233
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=400
+discardedModelField=0
+
+[diamond_necklace]
+type=Layer
+x=232
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Diamond Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[dragon_dark2]
+type=Model
+x=281
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=400
+discardedModelField=0
+
+[dragonstone_necklace]
+type=Layer
+x=282
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Dragonstone Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[onyx_dark2]
+type=Model
+x=332
+y=20
+width=32
+height=32
+layerId=29229096
+modelZoom=400
+discardedModelField=0
+
+[onyx_necklace]
+type=Layer
+x=332
+y=20
+width=32
+height=32
+layerId=29229096
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Onyx Necklace"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[com_55]
+type=Layer
+x=24
+y=188
+width=450
+height=60
+
+[com_56]
+type=Model
+x=15
+y=10
+width=32
+height=32
+layerId=29229111
+model1Id=2368
+modelZoom=443
+modelXAn=357
+modelYAn=1764
+discardedModelField=0
+
+[no_amulet]
+type=Text
+x=72
+y=24
+width=378
+height=36
+layerId=29229111
+colour=0xFF991F
+font=495
+shadow=yes
+text="You need an amulet mould to craft amulets."
+
+[amulet_title]
+type=Text
+x=80
+y=188
+width=394
+height=25
+colour=0xFF9900
+font=496
+shadow=yes
+text="Amulets"
+
+[cws_warning_10_barbassault_att_arrow_layer]
+type=Layer
+x=79
+y=190
+width=394
+height=60
+
+[gold_dark3]
+type=Model
+x=32
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[gold_amulet]
+type=Layer
+x=33
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Gold Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[sapphire_dark3]
+type=Model
+x=83
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[sapphire_amulet]
+type=Layer
+x=83
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Sapphire Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[emerald_dark3]
+type=Model
+x=133
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[emerald_amulet]
+type=Layer
+x=133
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Emerald Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[ruby_dark3]
+type=Model
+x=182
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[ruby_amulet]
+type=Layer
+x=183
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Ruby Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[diamond_dark3]
+type=Model
+x=233
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[diamond_amulet]
+type=Layer
+x=233
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Diamond Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[dragon_dark3]
+type=Model
+x=283
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[dragonstone_amulet]
+type=Layer
+x=283
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Dragonstone Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[onyx_dark3]
+type=Model
+x=333
+y=20
+width=32
+height=32
+layerId=29229115
+modelZoom=400
+discardedModelField=0
+
+[onyx_amulet]
+type=Layer
+x=333
+y=20
+width=32
+height=32
+layerId=29229115
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Onyx Amulet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[need_bracelet_mould]
+type=Layer
+x=24
+y=249
+width=450
+height=60
+
+[com_75]
+type=Model
+x=15
+y=10
+width=32
+height=32
+layerId=29229130
+model1Id=24565
+modelZoom=443
+modelXAn=294
+modelYAn=1743
+discardedModelField=0
+
+[no_bracelet]
+type=Text
+x=72
+y=24
+width=378
+height=36
+layerId=29229130
+colour=0xFF991F
+font=495
+shadow=yes
+text="You need a bracelet mould to craft bracelets."
+
+[bracelet_title]
+type=Text
+x=80
+y=249
+width=394
+height=25
+colour=0xFF9900
+font=496
+shadow=yes
+text="Bracelets"
+
+[got_bracelet_mould]
+type=Layer
+x=80
+y=249
+width=394
+height=60
+
+[gold_dark4]
+type=Model
+x=32
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[gold_bracelet]
+type=Layer
+x=32
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Gold Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[sapphire_dark4]
+type=Model
+x=82
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[sapphire_bracelet]
+type=Layer
+x=82
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Sapphire Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[emerald_dark4]
+type=Model
+x=132
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[emerald_bracelet]
+type=Layer
+x=132
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Emerald Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[ruby_dark4]
+type=Model
+x=182
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[ruby_bracelet]
+type=Layer
+x=182
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Ruby Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[diamond_dark4]
+type=Model
+x=232
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[diamond_bracelet]
+type=Layer
+x=232
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Diamond Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[dragon_dark4]
+type=Model
+x=282
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[dragonstone_bracelet]
+type=Layer
+x=282
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Dragonstone Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"
+
+[onyx_dark4]
+type=Model
+x=332
+y=20
+width=32
+height=32
+layerId=29229134
+modelZoom=400
+discardedModelField=0
+
+[onyx_bracelet]
+type=Layer
+x=332
+y=20
+width=32
+height=32
+layerId=29229134
+eventCode=hasOp(1,2,3,4)
+baseOpName="<col=ff9040>Onyx Bracelet"
+opName0="Make 1"
+opName1="Make 5"
+opName2="Make All"
+opName3="Make X"

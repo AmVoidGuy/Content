@@ -1,10 +1,10 @@
-[dragontooth_map]
+[com_0]
 type=Rectangle
 width=512
 height=334
 fill=yes
 
-[com_1]
+[dragontoothisland_paper]
 type=Model
 x=260
 y=166
@@ -15,7 +15,7 @@ modelZoom=886
 modelXAn=416
 modelYAn=1023
 
-[com_2]
+[dragontooth_map]
 type=Model
 x=222
 y=145
@@ -93,7 +93,7 @@ hAlign=Center
 font=497
 text="X marks the start!"
 
-[content_layer]
+[com_9]
 type=Text
 x=200
 y=83
@@ -124,7 +124,7 @@ layerId=524300
 graphic=540
 buttonText="Ok"
 
-[com_12]
+[ahoy_islandmap_close_button]
 type=Layer
 x=478
 y=3

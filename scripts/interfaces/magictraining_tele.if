@@ -1,4 +1,4 @@
-[content_layer3]
+[com_0]
 type=Model
 x=415
 y=17
@@ -8,7 +8,7 @@ model1Id=10567
 modelZoom=843
 modelXAn=421
 
-[content_panel_blue]
+[magictrain_tele_a]
 type=Text
 x=363
 y=12
@@ -21,7 +21,7 @@ font=497
 shadow=yes
 text="Telekinetic"
 
-[magictrain_mini_guardian]
+[magictrain_tele_b]
 type=Text
 x=363
 y=29
@@ -33,7 +33,7 @@ font=494
 shadow=yes
 text="Pizazz Points:"
 
-[magictrain_maze_number]
+[magictrain_tele_pts]
 type=Text
 x=447
 y=40
@@ -44,7 +44,7 @@ font=494
 shadow=yes
 text="999999"
 
-[magictrain_maze_number_1]
+[magictrain_mini_guardian]
 type=Model
 x=469
 y=308
@@ -55,7 +55,7 @@ modelZoom=1395
 modelXAn=79
 modelYAn=142
 
-[title]
+[magictrain_maze_number]
 type=Text
 x=472
 y=253
@@ -67,7 +67,7 @@ font=495
 shadow=yes
 text="999"
 
-[points]
+[com_6]
 type=Text
 x=423
 y=228

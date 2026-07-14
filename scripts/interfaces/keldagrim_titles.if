@@ -56,7 +56,7 @@ font=646
 shadow=yes
 text="The Giant<br>Dwarf"
 
-[layer_2]
+[com_8]
 type=Text
 x=24
 y=17

@@ -8,7 +8,7 @@ model1Id=9745
 modelZoom=190
 modelXAn=498
 
-[mirror_layer]
+[mirror_nw_es]
 type=Model
 x=-4
 y=-6
@@ -20,7 +20,7 @@ modelZoom=190
 modelXAn=510
 modelYAn=762
 
-[mirror_model_1]
+[mirror_ne_ws]
 type=Model
 x=-9
 y=-5
@@ -32,7 +32,7 @@ modelZoom=190
 modelXAn=514
 modelYAn=1241
 
-[mirror_rotate]
+[mirror_nu_wu]
 type=Model
 x=-8
 y=-2
@@ -44,7 +44,7 @@ modelZoom=206
 modelXAn=495
 modelYAn=512
 
-[com_4]
+[mirror_nu_eu]
 type=Model
 x=-3
 y=-5
@@ -56,7 +56,7 @@ modelZoom=206
 modelXAn=521
 modelYAn=1024
 
-[layer_1]
+[mirror_eu_su]
 type=Model
 x=-7
 width=96
@@ -67,7 +67,7 @@ modelZoom=206
 modelXAn=416
 modelYAn=1536
 
-[layer_2]
+[mirror_su_wu]
 type=Model
 x=-11
 y=-4
@@ -78,7 +78,7 @@ model1Id=9744
 modelZoom=206
 modelXAn=495
 
-[layer_3]
+[mirror1]
 type=Layer
 x=396
 y=66
@@ -86,7 +86,7 @@ width=82
 height=83
 hide=yes
 
-[layer_4]
+[mirror2]
 type=Layer
 x=399
 y=65
@@ -94,7 +94,7 @@ width=82
 height=83
 hide=yes
 
-[n]
+[mirror3]
 type=Layer
 x=398
 y=63
@@ -102,7 +102,7 @@ width=82
 height=83
 hide=yes
 
-[s]
+[mirror4]
 type=Layer
 x=395
 y=67
@@ -110,7 +110,7 @@ width=82
 height=83
 hide=yes
 
-[e]
+[mirror5]
 type=Layer
 x=397
 y=65
@@ -118,7 +118,7 @@ width=82
 height=83
 hide=yes
 
-[w]
+[mirror6]
 type=Layer
 x=397
 y=71
@@ -126,7 +126,7 @@ width=82
 height=83
 hide=yes
 
-[close_button]
+[com_13]
 type=Sprite
 x=472
 y=12
@@ -135,7 +135,7 @@ height=23
 overLayerId=17
 graphic=539
 
-[com_14]
+[mirror_rotate]
 type=Rectangle
 buttonType=Pause
 x=381
@@ -171,7 +171,7 @@ font=497
 shadow=yes
 text="Rotate mirror."
 
-[com_17]
+[lighttemple_piller_close]
 type=Layer
 x=469
 y=8

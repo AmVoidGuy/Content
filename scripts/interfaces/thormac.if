@@ -1,4 +1,4 @@
-[info_holder_active]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[info_holder_active_3]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_firestaff]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_waterstaff]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[info_holder_active_2]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_earthstaff]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[info_holder_active_4]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_lavastaff]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[info_holder_active_6]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_steamstaff]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[info_holder_active_5]
+[com_15]
 type=Sprite
 x=276
 y=20
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_mudstaff]
+[com_16]
 type=Sprite
 x=364
 y=80
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[info_holder_active_1]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_airstaff]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_airstaff_layer]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_mudstaff_layer]
+[com_23]
 type=Sprite
 x=364
 y=200
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_steamstaff_layer]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_lavastaff_layer]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[thormac_earthstaff_layer]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -214,7 +214,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -222,7 +222,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_background]
+[com_28]
 type=Sprite
 x=412
 y=200
@@ -230,7 +230,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_border]
+[com_29]
 type=Sprite
 x=412
 y=260
@@ -238,7 +238,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_content]
+[com_30]
 type=Sprite
 x=12
 y=20
@@ -246,7 +246,7 @@ width=25
 height=30
 graphic=310
 
-[thormac_waterstaff_layer]
+[com_31]
 type=Sprite
 x=-3
 y=49
@@ -254,7 +254,7 @@ width=36
 height=36
 graphic=172
 
-[thormac_firestaff_layer]
+[com_32]
 type=Sprite
 x=-3
 y=85
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[mainmodal_window_close_button]
+[com_33]
 type=Sprite
 x=-3
 y=121
@@ -702,7 +702,7 @@ width=36
 height=36
 graphic=314
 
-[com_88]
+[thormac_close_buttons_0]
 type=Sprite
 x=471
 y=26
@@ -711,7 +711,7 @@ height=23
 overLayerId=90
 graphic=535
 
-[com_89]
+[thormac_close_buttons_1]
 type=Sprite
 buttonType=Close
 x=5
@@ -722,7 +722,7 @@ layerId=21758042
 graphic=536
 buttonText="Ok"
 
-[com_90]
+[thormac_close_button]
 type=Layer
 x=466
 y=22
@@ -849,7 +849,7 @@ text="Steam Battlestaff"
 script1=gt,0
 script1op1=inv_count,inventory:inv,godwars_steam_battlestaff
 
-[com_99]
+[thormac_airstaff]
 type=Model
 buttonType=Button
 x=70
@@ -863,7 +863,7 @@ modelYAn=1400
 buttonText="Enchant Air Battlestaff"
 eventCode=flag22
 
-[com_100]
+[thormac_waterstaff]
 type=Model
 buttonType=Button
 x=180
@@ -877,7 +877,7 @@ modelYAn=1400
 buttonText="Enchant Water Battlestaff"
 eventCode=flag22
 
-[com_101]
+[thormac_earthstaff]
 type=Model
 buttonType=Button
 x=290
@@ -891,7 +891,7 @@ modelYAn=1400
 buttonText="Enchant Earth Battlestaff"
 eventCode=flag22
 
-[com_102]
+[thormac_firestaff]
 type=Model
 buttonType=Button
 x=400
@@ -905,7 +905,7 @@ modelYAn=1400
 buttonText="Enchant Fire Battlestaff"
 eventCode=flag22
 
-[com_103]
+[thormac_lavastaff]
 type=Model
 buttonType=Button
 x=70
@@ -919,7 +919,7 @@ modelYAn=1400
 buttonText="Enchant Lava Battlestaff"
 eventCode=flag22
 
-[com_104]
+[thormac_mudstaff]
 type=Model
 buttonType=Button
 x=180
@@ -933,7 +933,7 @@ modelYAn=1400
 buttonText="Enchant Mud Battlestaff"
 eventCode=flag22
 
-[com_105]
+[thormac_steamstaff]
 type=Model
 buttonType=Button
 x=290

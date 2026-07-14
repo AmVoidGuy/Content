@@ -1,4 +1,4 @@
-[com_0]
+[layer_1]
 type=Layer
 width=512
 height=334
@@ -63,7 +63,7 @@ font=494
 shadow=yes
 text="Zamorak kills"
 
-[com_6]
+[armadyl_total]
 type=Text
 x=479
 y=30
@@ -75,7 +75,7 @@ font=494
 shadow=yes
 text="0"
 
-[com_7]
+[bandos_total]
 type=Text
 x=479
 y=44
@@ -87,7 +87,7 @@ font=494
 shadow=yes
 text="0"
 
-[com_8]
+[saradomin_total]
 type=Text
 x=479
 y=58
@@ -99,7 +99,7 @@ font=494
 shadow=yes
 text="0"
 
-[killcounts]
+[zamorak_total]
 type=Text
 x=479
 y=72

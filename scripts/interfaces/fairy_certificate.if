@@ -41,7 +41,7 @@ font=497
 shadow=yes
 text="From PoxStead College."
 
-[close_button]
+[com_4]
 type=Text
 x=207
 y=187
@@ -65,7 +65,7 @@ layerId=8060934
 graphic=540
 buttonText="Ok"
 
-[com_6]
+[fairy_certificate_close]
 type=Layer
 x=462
 y=18

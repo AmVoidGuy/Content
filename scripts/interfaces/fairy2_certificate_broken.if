@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=258
 y=159
@@ -8,7 +8,7 @@ model1Id=16050
 modelZoom=179
 modelYAn=2047
 
-[mainmodal_window_background]
+[com_1]
 type=Text
 x=120
 y=98
@@ -20,7 +20,7 @@ font=497
 shadow=yes
 text="Certificate of Advanced Healing"
 
-[mainmodal_window_content]
+[com_2]
 type=Text
 x=120
 y=115
@@ -45,7 +45,7 @@ font=494
 shadow=yes
 text="Signed Dr Foster-MMD, PRD <br> Head of<br>Magical Healing."
 
-[mainmodal_window_border]
+[com_4]
 type=Sprite
 x=480
 y=7
@@ -65,7 +65,7 @@ layerId=27721734
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_close_button]
+[fairy2_certificate_broken_close_button]
 type=Layer
 x=476
 y=2

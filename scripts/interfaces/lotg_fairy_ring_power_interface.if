@@ -7,7 +7,7 @@ height=305
 trans=200
 fill=yes
 
-[outer_1]
+[com_1]
 type=Sprite
 x=14
 y=25
@@ -16,7 +16,7 @@ height=300
 graphic=297
 tiling=yes
 
-[middle_1]
+[com_2]
 type=Sprite
 y=53
 width=32
@@ -24,7 +24,7 @@ height=241
 graphic=821
 tiling=yes
 
-[centre_1]
+[com_3]
 type=Sprite
 x=13
 y=20
@@ -41,7 +41,7 @@ height=243
 graphic=823
 tiling=yes
 
-[meter1_layer]
+[com_5]
 type=Sprite
 x=44
 y=7
@@ -50,7 +50,7 @@ height=34
 graphic=820
 tiling=yes
 
-[meter2_layer]
+[com_6]
 type=Sprite
 x=45
 y=306
@@ -59,7 +59,7 @@ height=32
 graphic=822
 tiling=yes
 
-[meter3_layer]
+[com_7]
 type=Sprite
 x=474
 y=30
@@ -72,7 +72,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onop=29
 
-[meter1plus]
+[com_8]
 type=Sprite
 x=13
 y=294
@@ -80,7 +80,7 @@ width=32
 height=32
 graphic=826
 
-[meter1minus]
+[com_9]
 type=Sprite
 x=468
 y=20
@@ -88,7 +88,7 @@ width=32
 height=32
 graphic=825
 
-[meter2plus]
+[com_10]
 type=Sprite
 x=468
 y=294
@@ -96,7 +96,7 @@ width=32
 height=32
 graphic=827
 
-[meter2minus]
+[com_11]
 type=Sprite
 x=24
 y=35
@@ -105,7 +105,7 @@ height=32
 graphic=828
 tiling=yes
 
-[meter3plus]
+[com_12]
 type=Sprite
 x=13
 y=37
@@ -113,7 +113,7 @@ width=32
 height=32
 graphic=829
 
-[meter3minus]
+[com_13]
 type=Sprite
 x=468
 y=37
@@ -133,7 +133,7 @@ orthog=yes
 discardedModelField=0
 baseOpName=" "
 
-[counter1]
+[meter_1]
 type=Rectangle
 y=90
 width=15
@@ -143,14 +143,14 @@ trans=100
 colour=0x3CB5BF
 fill=yes
 
-[counter2]
+[meter1_layer]
 type=Layer
 x=105
 y=129
 width=15
 height=90
 
-[counter3]
+[meter_2]
 type=Rectangle
 y=90
 width=15
@@ -160,14 +160,14 @@ trans=100
 colour=0x3CB5BF
 fill=yes
 
-[lotg_fairy_ring_power]
+[meter2_layer]
 type=Layer
 x=146
 y=129
 width=15
 height=90
 
-[lotg_fairy_ring_power_background]
+[meter_3]
 type=Rectangle
 y=90
 width=16
@@ -178,14 +178,14 @@ colour=0x3CB5BF
 fill=yes
 baseOpName="m"
 
-[lotg_fairy_ring_power_content]
+[meter3_layer]
 type=Layer
 x=189
 y=129
 width=15
 height=90
 
-[meter_wrapper]
+[com_21]
 type=Rectangle
 x=98
 y=243
@@ -215,7 +215,7 @@ onmouseover=69,0,40894499
 onmouseleave=69,1,40894499
 onop=550
 
-[lotg_fairy_ring_power_border]
+[com_23]
 type=Rectangle
 x=140
 y=243
@@ -229,7 +229,7 @@ onmouseover=69,0,40894501
 onmouseleave=69,1,40894501
 onop=551
 
-[lotg_fairy_ring_power_close_button]
+[com_24]
 type=Rectangle
 x=156
 y=243
@@ -243,7 +243,7 @@ onmouseover=69,0,40894501
 onmouseleave=69,1,40894501
 onop=552
 
-[meter_1]
+[com_25]
 type=Rectangle
 x=182
 y=243
@@ -257,7 +257,7 @@ onmouseover=69,0,40894503
 onmouseleave=69,1,40894503
 onop=553
 
-[meter_2]
+[com_26]
 type=Rectangle
 x=198
 y=243
@@ -271,7 +271,7 @@ onmouseover=69,0,40894503
 onmouseleave=69,1,40894503
 onop=554
 
-[meter_3]
+[meter1]
 type=Rectangle
 x=99
 y=244
@@ -280,7 +280,7 @@ height=14
 colour=0x9E6E36
 fill=yes
 
-[outer_ring_power_1]
+[meter1_]
 type=Rectangle
 x=115
 y=244
@@ -289,7 +289,7 @@ height=14
 colour=0x9E6E36
 fill=yes
 
-[middle_ring_power_1]
+[meter2]
 type=Rectangle
 x=141
 y=244
@@ -298,7 +298,7 @@ height=14
 colour=0x9E6E36
 fill=yes
 
-[fairy_ring_wrapper]
+[meter2_]
 type=Rectangle
 x=157
 y=244
@@ -307,7 +307,7 @@ height=14
 colour=0x9E6E36
 fill=yes
 
-[confirm_button]
+[meter3_]
 type=Rectangle
 x=183
 y=244
@@ -316,7 +316,7 @@ height=14
 colour=0x9E6E36
 fill=yes
 
-[centre_ring_power_1]
+[meter1k]
 type=Rectangle
 x=199
 y=244
@@ -325,7 +325,7 @@ height=14
 colour=0x9E6E36
 fill=yes
 
-[confirm_button_build]
+[com_33]
 type=Model
 x=99
 y=109
@@ -339,7 +339,7 @@ orthog=yes
 discardedModelField=0
 baseOpName=" "
 
-[confirm_button_click]
+[com_34]
 type=Model
 x=282
 y=115
@@ -351,7 +351,7 @@ modelXOf=11
 orthog=yes
 discardedModelField=0
 
-[meter1plus_build_icon]
+[outer_ring]
 type=Layer
 x=-4
 y=-24
@@ -359,7 +359,7 @@ width=512
 height=334
 hide=yes
 
-[meter1plus_click_icon]
+[outer_ring_power]
 type=Model
 x=308
 y=139
@@ -371,7 +371,7 @@ modelZoom=912
 orthog=yes
 discardedModelField=0
 
-[meter1minus_build_icon]
+[middle_ring]
 type=Layer
 x=-4
 y=-24
@@ -379,7 +379,7 @@ width=512
 height=334
 hide=yes
 
-[meter1minus_click_icon]
+[middle_ring_power]
 type=Model
 x=331
 y=162
@@ -391,7 +391,7 @@ modelZoom=912
 orthog=yes
 discardedModelField=0
 
-[meter2plus_build_icon]
+[centre_ring]
 type=Layer
 x=-4
 y=-24
@@ -399,7 +399,7 @@ width=512
 height=334
 hide=yes
 
-[meter2plus_click_icon]
+[centre_ring_power]
 type=Model
 x=358
 y=189
@@ -411,7 +411,7 @@ modelZoom=912
 orthog=yes
 discardedModelField=0
 
-[meter2minus_build_icon]
+[com_41]
 type=Rectangle
 x=291
 y=62
@@ -420,14 +420,14 @@ height=48
 colour=0x3D342E
 fill=yes
 
-[meter2minus_click_icon]
+[com_42]
 type=Line
 x=289
 y=60
 width=193
 colour=0x332B25
 
-[meter3plus_build_icon]
+[com_43]
 type=Line
 x=290
 y=111
@@ -435,21 +435,21 @@ width=192
 colour=0x332B25
 baseOpName="m"
 
-[meter3plus_click_icon]
+[com_44]
 type=Line
 x=482
 y=60
 height=50
 colour=0x332B25
 
-[meter3minus_build_icon]
+[com_45]
 type=Line
 x=289
 y=61
 height=50
 colour=0x332B25
 
-[meter3minus_click_icon]
+[com_46]
 type=Text
 x=19
 y=30
@@ -473,7 +473,7 @@ font=495
 shadow=yes
 text="Assign power to each ring in proportion to its area:"
 
-[com_48]
+[layer_button1]
 type=Layer
 x=97
 y=242
@@ -481,7 +481,7 @@ width=16
 height=18
 hide=yes
 
-[com_49]
+[button1]
 type=Rectangle
 y=1
 width=16
@@ -491,7 +491,7 @@ trans=200
 colour=0x9E6E3A
 fill=yes
 
-[com_50]
+[layer_button2]
 type=Layer
 x=113
 y=242
@@ -499,7 +499,7 @@ width=16
 height=18
 hide=yes
 
-[com_51]
+[button2]
 type=Rectangle
 y=1
 width=16
@@ -509,7 +509,7 @@ trans=200
 colour=0x9E6E3A
 fill=yes
 
-[com_52]
+[layer_button3]
 type=Layer
 x=139
 y=242
@@ -517,7 +517,7 @@ width=16
 height=18
 hide=yes
 
-[com_53]
+[button3]
 type=Rectangle
 y=1
 width=16
@@ -527,7 +527,7 @@ trans=200
 colour=0x9E6E3A
 fill=yes
 
-[com_54]
+[layer_button4]
 type=Layer
 x=155
 y=242
@@ -535,7 +535,7 @@ width=16
 height=18
 hide=yes
 
-[com_55]
+[button4]
 type=Rectangle
 y=1
 width=16
@@ -545,7 +545,7 @@ trans=200
 colour=0x9E6E3A
 fill=yes
 
-[com_56]
+[layer_button5]
 type=Layer
 x=181
 y=242
@@ -553,7 +553,7 @@ width=16
 height=18
 hide=yes
 
-[com_57]
+[button5]
 type=Rectangle
 y=1
 width=16
@@ -563,7 +563,7 @@ trans=200
 colour=0x9E6E3A
 fill=yes
 
-[com_58]
+[layer_button6]
 type=Layer
 x=197
 y=242
@@ -571,7 +571,7 @@ width=16
 height=18
 hide=yes
 
-[com_59]
+[button6]
 type=Rectangle
 y=1
 width=16
@@ -649,7 +649,7 @@ width=9
 height=9
 graphic=915
 
-[com_68]
+[confirm]
 type=Text
 x=378
 y=294
@@ -662,7 +662,7 @@ font=495
 shadow=yes
 text="Confirm"
 
-[com_69]
+[confirm_button]
 type=Layer
 x=371
 y=287
@@ -671,7 +671,7 @@ height=29
 eventCode=hasOp(1)
 opName0="Confirm"
 
-[com_70]
+[counter1]
 type=Text
 x=107
 y=261
@@ -684,7 +684,7 @@ font=494
 shadow=yes
 text="0"
 
-[com_71]
+[counter2]
 type=Text
 x=148
 y=261
@@ -697,7 +697,7 @@ font=494
 shadow=yes
 text="0"
 
-[com_72]
+[counter3]
 type=Text
 x=190
 y=261

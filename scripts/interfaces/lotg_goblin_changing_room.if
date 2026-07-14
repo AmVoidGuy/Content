@@ -1,4 +1,4 @@
-[list_header]
+[loc_lie]
 type=Rectangle
 x=17
 y=25
@@ -7,7 +7,7 @@ height=305
 trans=200
 fill=yes
 
-[listlayer]
+[bg]
 type=Sprite
 x=14
 y=25
@@ -17,7 +17,7 @@ graphic=297
 tiling=yes
 baseOpName=" "
 
-[listitem_1]
+[border_r]
 type=Sprite
 x=480
 y=51
@@ -26,7 +26,7 @@ height=243
 graphic=823
 tiling=yes
 
-[clothes_checkbutton_1]
+[border_l]
 type=Sprite
 y=53
 width=32
@@ -34,7 +34,7 @@ height=241
 graphic=821
 tiling=yes
 
-[goblin_checkbox_text_1]
+[border_mid]
 type=Sprite
 x=24
 y=35
@@ -43,7 +43,7 @@ height=32
 graphic=828
 tiling=yes
 
-[listitem_2]
+[border_top]
 type=Sprite
 x=44
 y=7
@@ -52,7 +52,7 @@ height=32
 graphic=820
 tiling=yes
 
-[clothes_checkbutton_2]
+[border_lower]
 type=Sprite
 x=45
 y=306
@@ -62,7 +62,7 @@ graphic=822
 tiling=yes
 baseOpName=" "
 
-[goblin_checkbox_text_2]
+[com_7]
 type=Sprite
 x=13
 y=20
@@ -70,7 +70,7 @@ width=32
 height=32
 graphic=824
 
-[listitem_3]
+[com_8]
 type=Sprite
 x=13
 y=294
@@ -78,7 +78,7 @@ width=32
 height=32
 graphic=826
 
-[clothes_checkbutton_3]
+[com_9]
 type=Sprite
 x=468
 y=294
@@ -86,7 +86,7 @@ width=32
 height=32
 graphic=827
 
-[goblin_checkbox_text_3]
+[com_10]
 type=Sprite
 x=468
 y=20
@@ -94,7 +94,7 @@ width=32
 height=32
 graphic=825
 
-[listitem_4]
+[border_t_left]
 type=Sprite
 x=13
 y=37
@@ -102,7 +102,7 @@ width=32
 height=32
 graphic=829
 
-[clothes_checkbutton_4]
+[border_t_right]
 type=Sprite
 x=468
 y=37
@@ -110,7 +110,7 @@ width=32
 height=32
 graphic=830
 
-[goblin_checkbox_text_4]
+[com_13]
 type=Rectangle
 y=-2
 width=222
@@ -119,7 +119,7 @@ layerId=40960038
 colour=0x483F33
 fill=yes
 
-[listitem_5]
+[com_14]
 type=Rectangle
 y=8
 width=222
@@ -128,7 +128,7 @@ layerId=40960038
 colour=0x473E33
 fill=yes
 
-[clothes_checkbutton_5]
+[com_15]
 type=Rectangle
 y=18
 width=222
@@ -137,7 +137,7 @@ layerId=40960038
 colour=0x463D32
 fill=yes
 
-[goblin_checkbox_text_5]
+[com_16]
 type=Rectangle
 y=28
 width=222
@@ -146,7 +146,7 @@ layerId=40960038
 colour=0x453C32
 fill=yes
 
-[listitem_6]
+[com_17]
 type=Rectangle
 y=38
 width=222
@@ -155,7 +155,7 @@ layerId=40960038
 colour=0x443B31
 fill=yes
 
-[clothes_checkbutton_6]
+[com_18]
 type=Rectangle
 y=48
 width=222
@@ -164,7 +164,7 @@ layerId=40960038
 colour=0x433A31
 fill=yes
 
-[goblin_checkbox_text_6]
+[com_19]
 type=Rectangle
 y=58
 width=222
@@ -173,7 +173,7 @@ layerId=40960038
 colour=0x423930
 fill=yes
 
-[lotg_goblin_changing_room]
+[com_20]
 type=Rectangle
 y=68
 width=222
@@ -182,7 +182,7 @@ layerId=40960038
 colour=0x413830
 fill=yes
 
-[lotg_goblin_changing_room_background]
+[com_21]
 type=Rectangle
 y=78
 width=222
@@ -191,7 +191,7 @@ layerId=40960038
 colour=0x40372F
 fill=yes
 
-[lotg_goblin_changing_room_content]
+[com_22]
 type=Rectangle
 y=88
 width=222
@@ -200,7 +200,7 @@ layerId=40960038
 colour=0x3F362F
 fill=yes
 
-[left_panel_wrapper]
+[com_23]
 type=Rectangle
 y=98
 width=222
@@ -209,7 +209,7 @@ layerId=40960038
 colour=0x3E352E
 fill=yes
 
-[left_panel_bg]
+[com_24]
 type=Rectangle
 y=108
 width=222
@@ -218,7 +218,7 @@ layerId=40960038
 colour=0x3D342E
 fill=yes
 
-[left_panel_content]
+[com_25]
 type=Rectangle
 y=118
 width=222
@@ -227,7 +227,7 @@ layerId=40960038
 colour=0x3C332D
 fill=yes
 
-[confirm_button]
+[com_26]
 type=Rectangle
 y=128
 width=222
@@ -236,7 +236,7 @@ layerId=40960038
 colour=0x3B322D
 fill=yes
 
-[modelbg]
+[com_27]
 type=Rectangle
 y=138
 width=222
@@ -245,7 +245,7 @@ layerId=40960038
 colour=0x3A312C
 fill=yes
 
-[model_bg]
+[com_28]
 type=Rectangle
 y=148
 width=222
@@ -254,7 +254,7 @@ layerId=40960038
 colour=0x39302C
 fill=yes
 
-[lotg_goblin_changing_room_border]
+[com_29]
 type=Rectangle
 y=158
 width=222
@@ -263,7 +263,7 @@ layerId=40960038
 colour=0x382F2B
 fill=yes
 
-[lotg_goblin_changing_room_close_button]
+[com_30]
 type=Rectangle
 y=168
 width=222
@@ -272,7 +272,7 @@ layerId=40960038
 colour=0x372E29
 fill=yes
 
-[goblin_model1]
+[com_31]
 type=Rectangle
 y=178
 width=222
@@ -281,7 +281,7 @@ layerId=40960038
 colour=0x362D28
 fill=yes
 
-[confirm_button_build]
+[banner_password__proc_area_task_complete_]
 type=Rectangle
 y=188
 width=222
@@ -290,7 +290,7 @@ layerId=40960038
 colour=0x352D27
 fill=yes
 
-[confirm_button_click]
+[com_33]
 type=Rectangle
 y=198
 width=222
@@ -342,7 +342,7 @@ y=68
 width=222
 height=238
 
-[com_39]
+[goblin_model1]
 type=Model
 x=40
 y=24
@@ -398,7 +398,7 @@ y=66
 height=41
 colour=0x332B25
 
-[com_45]
+[list_header]
 type=Text
 x=57
 y=74
@@ -409,7 +409,7 @@ font=495
 shadow=yes
 text="Please select your goblin from the options below:"
 
-[com_46]
+[listbg_1]
 type=Rectangle
 x=1
 y=40
@@ -419,7 +419,7 @@ layerId=40960065
 colour=0x433A31
 fill=yes
 
-[com_47]
+[listbg_2]
 type=Rectangle
 y=47
 width=173
@@ -428,7 +428,7 @@ layerId=40960065
 colour=0x423930
 fill=yes
 
-[com_48]
+[listbg_3]
 type=Rectangle
 y=57
 width=173
@@ -437,7 +437,7 @@ layerId=40960065
 colour=0x413830
 fill=yes
 
-[com_49]
+[listbg_4]
 type=Rectangle
 y=67
 width=173
@@ -446,7 +446,7 @@ layerId=40960065
 colour=0x40372F
 fill=yes
 
-[com_50]
+[listbg_5]
 type=Rectangle
 y=77
 width=173
@@ -455,7 +455,7 @@ layerId=40960065
 colour=0x3F362F
 fill=yes
 
-[com_51]
+[listbg_6]
 type=Rectangle
 y=87
 width=173
@@ -464,7 +464,7 @@ layerId=40960065
 colour=0x3E352E
 fill=yes
 
-[com_52]
+[listbg_7]
 type=Rectangle
 y=97
 width=173
@@ -473,7 +473,7 @@ layerId=40960065
 colour=0x3D342E
 fill=yes
 
-[com_53]
+[listbg_8]
 type=Rectangle
 y=107
 width=173
@@ -482,7 +482,7 @@ layerId=40960065
 colour=0x3C332D
 fill=yes
 
-[com_54]
+[listbg_9]
 type=Rectangle
 y=117
 width=173
@@ -491,7 +491,7 @@ layerId=40960065
 colour=0x3B322D
 fill=yes
 
-[com_55]
+[listbg_10]
 type=Rectangle
 y=127
 width=173
@@ -500,7 +500,7 @@ layerId=40960065
 colour=0x3A312C
 fill=yes
 
-[com_56]
+[listbg_11]
 type=Rectangle
 y=137
 width=173
@@ -509,7 +509,7 @@ layerId=40960065
 colour=0x39302C
 fill=yes
 
-[com_57]
+[listbg_12]
 type=Rectangle
 y=147
 width=173
@@ -518,7 +518,7 @@ layerId=40960065
 colour=0x382F2B
 fill=yes
 
-[com_58]
+[listbg_13]
 type=Rectangle
 y=157
 width=173
@@ -527,7 +527,7 @@ layerId=40960065
 colour=0x372E29
 fill=yes
 
-[com_59]
+[listbg_14]
 type=Rectangle
 y=167
 width=173
@@ -536,7 +536,7 @@ layerId=40960065
 colour=0x362D28
 fill=yes
 
-[com_60]
+[listbg_15]
 type=Rectangle
 y=177
 width=173
@@ -545,7 +545,7 @@ layerId=40960065
 colour=0x352D27
 fill=yes
 
-[com_61]
+[listbg_16]
 type=Rectangle
 y=187
 width=173
@@ -554,7 +554,7 @@ layerId=40960065
 colour=0x342C26
 fill=yes
 
-[com_62]
+[listbg_17]
 type=Rectangle
 y=197
 width=173
@@ -563,7 +563,7 @@ layerId=40960065
 colour=0x332B25
 fill=yes
 
-[com_63]
+[listbg_18]
 type=Rectangle
 y=207
 width=173
@@ -572,7 +572,7 @@ layerId=40960065
 colour=0x322A24
 fill=yes
 
-[com_64]
+[listbg_19]
 type=Rectangle
 y=217
 width=173
@@ -595,7 +595,7 @@ y=73
 width=202
 height=226
 
-[com_67]
+[shop_title]
 type=Text
 x=21
 y=31
@@ -607,7 +607,7 @@ font=496
 shadow=yes
 text="Select your Goblin"
 
-[com_68]
+[listitem_1]
 type=Text
 x=30
 y=5
@@ -619,7 +619,7 @@ font=495
 shadow=yes
 text="Goblin 1"
 
-[com_69]
+[clothes_checkbutton_1]
 type=Sprite
 x=10
 y=5
@@ -628,7 +628,7 @@ height=36
 layerId=40960086
 graphic=180
 
-[com_70]
+[gravespecs]
 type=Layer
 x=7
 y=5
@@ -640,7 +640,7 @@ baseOpName="Goblin 1"
 opName0="Select"
 onop=556,1
 
-[com_71]
+[listitem_2]
 type=Text
 x=30
 y=30
@@ -652,7 +652,7 @@ font=495
 shadow=yes
 text="Goblin 2"
 
-[com_72]
+[clothes_checkbutton_2]
 type=Sprite
 x=10
 y=30
@@ -661,7 +661,7 @@ height=36
 layerId=40960086
 graphic=180
 
-[com_73]
+[goblin_checkbox_text_2]
 type=Layer
 x=7
 y=30
@@ -673,7 +673,7 @@ baseOpName="Goblin 2"
 opName0="Select"
 onop=556,2
 
-[com_74]
+[listitem_3]
 type=Text
 x=30
 y=55
@@ -685,7 +685,7 @@ font=495
 shadow=yes
 text="Goblin 3"
 
-[com_75]
+[clothes_checkbutton_3]
 type=Sprite
 x=10
 y=55
@@ -694,7 +694,7 @@ height=36
 layerId=40960086
 graphic=180
 
-[com_76]
+[goblin_checkbox_text_3]
 type=Layer
 x=7
 y=55
@@ -706,7 +706,7 @@ baseOpName="Goblin 3"
 opName0="Select"
 onop=556,3
 
-[com_77]
+[listitem_4]
 type=Text
 x=30
 y=80
@@ -718,7 +718,7 @@ font=495
 shadow=yes
 text="Goblin 4"
 
-[com_78]
+[clothes_checkbutton_4]
 type=Sprite
 x=10
 y=80
@@ -727,7 +727,7 @@ height=36
 layerId=40960086
 graphic=180
 
-[com_79]
+[goblin_checkbox_text_4]
 type=Layer
 x=7
 y=80
@@ -739,7 +739,7 @@ baseOpName="Goblin 4"
 opName0="Select"
 onop=556,4
 
-[com_80]
+[listitem_5]
 type=Text
 x=30
 y=105
@@ -751,7 +751,7 @@ font=495
 shadow=yes
 text="Goblin 5"
 
-[com_81]
+[clothes_checkbutton_5]
 type=Sprite
 x=10
 y=105
@@ -760,7 +760,7 @@ height=36
 layerId=40960086
 graphic=180
 
-[com_82]
+[goblin_checkbox_text_5]
 type=Layer
 x=7
 y=105
@@ -772,7 +772,7 @@ baseOpName="Goblin 5"
 opName0="Select"
 onop=556,5
 
-[com_83]
+[listitem_6]
 type=Text
 x=30
 y=130
@@ -784,7 +784,7 @@ font=495
 shadow=yes
 text="Goblin 6"
 
-[com_84]
+[clothes_checkbutton_6]
 type=Sprite
 x=10
 y=130
@@ -793,7 +793,7 @@ height=36
 layerId=40960086
 graphic=180
 
-[com_85]
+[goblin_checkbox_text_6]
 type=Layer
 x=7
 y=130
@@ -805,7 +805,7 @@ baseOpName="Goblin 6"
 opName0="Select"
 onop=556,6
 
-[com_86]
+[listlayer]
 type=Layer
 x=46
 y=120
@@ -813,7 +813,7 @@ width=173
 height=183
 scrollHeight=400
 
-[com_87]
+[tops_scrollbar]
 type=Layer
 x=219
 y=120
@@ -822,7 +822,7 @@ height=187
 scrollHeight=400
 onload=430
 
-[com_88]
+[close_button]
 type=Sprite
 x=474
 y=30
@@ -836,56 +836,56 @@ onmouseleave=44,component.parentId,831
 onop=29
 onclick=29
 
-[com_89]
+[line1]
 type=Line
 x=44
 y=118
 width=176
 colour=0x332B25
 
-[com_90]
+[line2]
 type=Line
 x=44
 y=119
 height=187
 colour=0x332B25
 
-[com_91]
+[line3]
 type=Line
 x=220
 y=119
 height=187
 colour=0x332B25
 
-[com_92]
+[line4]
 type=Line
 x=44
 y=307
 width=176
 colour=0x332B25
 
-[com_93]
+[line9]
 type=Line
 x=238
 y=66
 width=225
 colour=0x332B25
 
-[com_94]
+[line10]
 type=Line
 x=238
 y=67
 height=239
 colour=0x332B25
 
-[com_95]
+[line11]
 type=Line
 x=463
 y=67
 height=239
 colour=0x332B25
 
-[com_96]
+[line12]
 type=Line
 x=238
 y=307
@@ -960,7 +960,7 @@ width=9
 height=9
 graphic=915
 
-[com_105]
+[confirm]
 type=Text
 x=106
 y=280
@@ -973,7 +973,7 @@ font=495
 shadow=yes
 text="Confirm"
 
-[com_106]
+[confirm_button]
 type=Layer
 x=99
 y=273

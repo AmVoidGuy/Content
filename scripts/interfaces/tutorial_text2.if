@@ -6,7 +6,7 @@ width=447
 height=81
 scrollHeight=200
 
-[scroll_bar]
+[tut3_a]
 type=Text
 width=447
 height=17
@@ -16,7 +16,7 @@ hAlign=Center
 font=497
 text="Line1"
 
-[layer_1]
+[tut3_b]
 type=Text
 y=16
 width=447
@@ -26,7 +26,7 @@ hAlign=Center
 font=497
 text="Line2"
 
-[tut3_a]
+[tut3_c]
 type=Text
 y=32
 width=447
@@ -36,7 +36,7 @@ hAlign=Center
 font=497
 text="Line3"
 
-[tut3_b]
+[tut3_d]
 type=Text
 y=48
 width=447
@@ -46,7 +46,7 @@ hAlign=Center
 font=497
 text="Line4"
 
-[tut3_c]
+[tut3_e]
 type=Text
 y=64
 width=447
@@ -56,7 +56,7 @@ hAlign=Center
 font=497
 text="Line5"
 
-[tut3_d]
+[tut3_f]
 type=Text
 y=80
 width=447
@@ -66,7 +66,7 @@ hAlign=Center
 font=497
 text="Line6"
 
-[tut3_e]
+[tut3_g]
 type=Text
 y=96
 width=447
@@ -76,7 +76,7 @@ hAlign=Center
 font=497
 text="Line7"
 
-[tut3_f]
+[tut3_h]
 type=Text
 y=112
 width=447
@@ -86,7 +86,7 @@ hAlign=Center
 font=497
 text="Line8"
 
-[tut3_g]
+[tut3_i]
 type=Text
 y=128
 width=447
@@ -96,7 +96,7 @@ hAlign=Center
 font=497
 text="Line9"
 
-[tut3_h]
+[tut3_j]
 type=Text
 y=144
 width=447
@@ -106,7 +106,7 @@ hAlign=Center
 font=497
 text="Line10"
 
-[tut3_i]
+[tut3_k]
 type=Text
 y=160
 width=447
@@ -116,7 +116,7 @@ hAlign=Center
 font=497
 text="Line11"
 
-[tut3_j]
+[tut3_l]
 type=Text
 y=176
 width=447

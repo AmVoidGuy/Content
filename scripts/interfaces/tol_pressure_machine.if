@@ -1,4 +1,4 @@
-[content_layer]
+[tol_background_color]
 type=Rectangle
 width=512
 height=334
@@ -6,7 +6,7 @@ trans=64
 colour=0x261E14
 fill=yes
 
-[bespoke_window]
+[tol_static_machine]
 type=Model
 x=274
 y=156
@@ -18,7 +18,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_static_machine]
+[tol_valve_shadow01]
 type=Model
 x=150
 y=265
@@ -30,7 +30,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve_shadow01]
+[tol_valve_shadow02]
 type=Model
 x=202
 y=270
@@ -42,7 +42,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve_shadow02]
+[tol_valve_shadow04]
 type=Model
 x=365
 y=285
@@ -54,7 +54,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve_shadow04]
+[tol_valve_shadow03]
 type=Model
 x=306
 y=281
@@ -66,7 +66,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve_shadow03]
+[tol_leakflow03]
 type=Model
 x=138
 y=148
@@ -136,7 +136,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer2_3]
+[tol_waterlevel_filled2_3]
 type=Model
 x=138
 y=148
@@ -149,7 +149,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_layer2_3]
+[tol_waterlevel_filled_ball_layer2_3]
 type=Layer
 x=136
 y=8
@@ -157,7 +157,7 @@ width=305
 height=327
 hide=yes
 
-[tol_pipe04]
+[tol_waterlevel_filled_ball2_3]
 type=Model
 width=305
 height=327
@@ -168,14 +168,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty2_5]
+[tol_waterlevel_layer2_3]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_filled_ball_layer2_5]
+[tol_pipe04]
 type=Model
 x=274
 y=156
@@ -187,7 +187,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_layer2_5]
+[tol_waterlevel_empty2_5]
 type=Model
 x=274
 y=156
@@ -199,7 +199,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_leakflow_layer01]
+[tol_waterlevel_filled2_5]
 type=Model
 x=138
 y=148
@@ -212,14 +212,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_leakflow_layer02]
+[tol_waterlevel_filled_ball_layer2_5]
 type=Layer
 x=136
 y=8
 width=305
 height=327
 
-[tol_valve_layer01]
+[tol_waterlevel_filled_ball2_5]
 type=Model
 width=305
 height=327
@@ -230,14 +230,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve_layer02]
+[tol_waterlevel_layer2_5]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_valve_layer03]
+[tol_leakflow01]
 type=Model
 x=138
 y=148
@@ -251,14 +251,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_lever_box]
+[tol_leakflow_layer01]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_valve_layer04]
+[tol_leakflow02]
 type=Model
 x=138
 y=148
@@ -272,14 +272,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_lever_layer01]
+[tol_leakflow_layer02]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_lever_layer02]
+[tol_valve01]
 type=Model
 x=14
 y=257
@@ -292,14 +292,14 @@ modelXAn=24
 modelYAn=69
 discardedModelField=0
 
-[tol_waterlevel_empty4_1]
+[tol_valve_layer01]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_layer4_1]
+[tol_valve02]
 type=Model
 x=66
 y=262
@@ -312,14 +312,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty1_1]
+[tol_valve_layer02]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_layer1_1]
+[tol_valve03]
 type=Model
 x=170
 y=273
@@ -332,14 +332,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty3_2]
+[tol_valve_layer03]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_layer3_2]
+[tol_valve04]
 type=Model
 x=230
 y=277
@@ -352,7 +352,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty3_1]
+[tol_lever_box]
 type=Model
 x=274
 y=156
@@ -364,14 +364,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_layer3_1]
+[tol_valve_layer04]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_empty2_1]
+[tol_lever01]
 type=Model
 x=104
 y=239
@@ -386,14 +386,14 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pull left lever"
 
-[tol_waterlevel_layer2_1]
+[tol_lever_layer01]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_empty3_3]
+[tol_lever02]
 type=Model
 x=127
 y=239
@@ -408,14 +408,14 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pull right lever"
 
-[tol_waterlevel_filled_ball_layer3_3]
+[tol_lever_layer02]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_layer3_3]
+[tol_waterlevel_empty4_1]
 type=Model
 x=274
 y=156
@@ -427,7 +427,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty4_2]
+[tol_waterlevel_filled4_1]
 type=Model
 x=138
 y=148
@@ -440,7 +440,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer4_2]
+[tol_waterlevel_layer4_1]
 type=Layer
 x=136
 y=8
@@ -448,7 +448,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_layer4_2]
+[tol_waterlevel_empty1_1]
 type=Model
 x=274
 y=156
@@ -460,7 +460,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty4_3]
+[tol_waterlevel_filled1_1]
 type=Model
 x=138
 y=148
@@ -473,7 +473,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer4_3]
+[tol_waterlevel_layer1_1]
 type=Layer
 x=136
 y=8
@@ -481,7 +481,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_layer4_3]
+[tol_waterlevel_empty3_2]
 type=Model
 x=274
 y=156
@@ -493,7 +493,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty4_4]
+[tol_waterlevel_filled3_2]
 type=Model
 x=138
 y=148
@@ -506,7 +506,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer4_4]
+[tol_waterlevel_layer3_2]
 type=Layer
 x=136
 y=8
@@ -514,7 +514,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_layer4_4]
+[tol_waterlevel_empty3_1]
 type=Model
 x=274
 y=156
@@ -526,7 +526,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty2_2]
+[tol_waterlevel_filled3_1]
 type=Model
 x=138
 y=148
@@ -539,7 +539,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer2_2]
+[tol_waterlevel_layer3_1]
 type=Layer
 x=136
 y=8
@@ -547,7 +547,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_layer2_2]
+[tol_waterlevel_empty2_1]
 type=Model
 x=274
 y=156
@@ -559,7 +559,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty3_4]
+[tol_waterlevel_filled2_1]
 type=Model
 x=138
 y=148
@@ -572,7 +572,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer3_4]
+[tol_waterlevel_layer2_1]
 type=Layer
 x=136
 y=8
@@ -580,7 +580,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_layer3_4]
+[tol_waterlevel_empty3_3]
 type=Model
 x=274
 y=156
@@ -592,7 +592,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty1_2]
+[tol_waterlevel_filled3_3]
 type=Model
 x=138
 y=148
@@ -605,7 +605,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_layer1_2]
+[tol_waterlevel_filled_ball_layer3_3]
 type=Layer
 x=136
 y=8
@@ -613,7 +613,7 @@ width=305
 height=327
 hide=yes
 
-[tol_waterlevel_empty1_5]
+[tol_waterlevel_filled_ball3_3]
 type=Model
 x=1
 y=2
@@ -626,7 +626,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball_layer1_5]
+[tol_waterlevel_layer3_3]
 type=Layer
 x=136
 y=8
@@ -634,7 +634,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_layer1_5]
+[tol_waterlevel_empty4_2]
 type=Model
 x=274
 y=156
@@ -646,7 +646,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_empty1_4]
+[tol_waterlevel_filled4_2]
 type=Model
 x=138
 y=148
@@ -654,6 +654,349 @@ width=32
 height=32
 layerId=33423423
 model1Id=22406
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled_ball_layer4_2]
+type=Layer
+x=136
+y=8
+width=305
+height=327
+hide=yes
+
+[tol_waterlevel_filled_ball4_2]
+type=Model
+width=305
+height=327
+layerId=33423421
+model1Id=22420
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer4_2]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+hide=yes
+
+[tol_waterlevel_empty4_3]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22387
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled4_3]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423428
+model1Id=22407
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled_ball_layer4_3]
+type=Layer
+x=136
+y=8
+width=305
+height=327
+hide=yes
+
+[tol_waterlevel_filled_ball4_3]
+type=Model
+width=305
+height=327
+layerId=33423426
+model1Id=22421
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer4_3]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+hide=yes
+
+[tol_waterlevel_empty4_4]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22388
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled4_4]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423433
+model1Id=22408
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled_ball_layer4_4]
+type=Layer
+x=136
+y=8
+width=305
+height=327
+hide=yes
+
+[tol_waterlevel_filled_ball4_4]
+type=Model
+width=305
+height=327
+layerId=33423431
+model1Id=22422
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer4_4]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+hide=yes
+
+[tol_waterlevel_empty2_2]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22389
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled2_2]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423438
+model1Id=22409
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled_ball_layer2_2]
+type=Layer
+x=136
+y=8
+width=305
+height=327
+
+[tol_waterlevel_filled_ball2_2]
+type=Model
+width=305
+height=327
+layerId=33423436
+model1Id=22423
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer2_2]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+hide=yes
+
+[tol_waterlevel_empty3_4]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22390
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled3_4]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423443
+model1Id=22410
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled_ball_layer3_4]
+type=Layer
+x=136
+y=8
+width=305
+height=327
+hide=yes
+
+[tol_waterlevel_filled_ball3_4]
+type=Model
+width=305
+height=327
+layerId=33423441
+model1Id=22424
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer3_4]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+hide=yes
+
+[tol_waterlevel_empty1_2]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22391
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled1_2]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423446
+model1Id=22411
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer1_2]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+hide=yes
+
+[tol_waterlevel_empty1_5]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22392
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled1_5]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423451
+model1Id=22412
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled_ball_layer1_5]
+type=Layer
+x=136
+y=8
+width=305
+height=327
+hide=yes
+
+[tol_waterlevel_filled_ball1_5]
+type=Model
+width=305
+height=327
+layerId=33423449
+model1Id=22425
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_layer1_5]
+type=Layer
+x=136
+y=8
+width=305
+height=326
+
+[tol_waterlevel_empty1_4]
+type=Model
+x=274
+y=156
+width=32
+height=32
+model1Id=22393
+modelZoom=1150
+modelXAn=24
+modelYAn=96
+discardedModelField=0
+
+[tol_waterlevel_filled1_4]
+type=Model
+x=138
+y=148
+width=32
+height=32
+layerId=33423456
+model1Id=22413
 modelZoom=1150
 modelXAn=24
 modelYAn=96
@@ -667,350 +1010,7 @@ width=305
 height=327
 hide=yes
 
-[tol_waterlevel_layer1_4]
-type=Model
-width=305
-height=327
-layerId=33423421
-model1Id=22420
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_empty1_3]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-hide=yes
-
-[tol_waterlevel_filled_ball_layer1_3]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22387
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_layer1_3]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423428
-model1Id=22407
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_empty3_5]
-type=Layer
-x=136
-y=8
-width=305
-height=327
-hide=yes
-
-[tol_leakflow_layer04]
-type=Model
-width=305
-height=327
-layerId=33423426
-model1Id=22421
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_filled_ball_layer3_5]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-hide=yes
-
-[tol_waterlevel_layer3_5]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22388
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_empty2_4]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423433
-model1Id=22408
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_filled_ball_layer2_4]
-type=Layer
-x=136
-y=8
-width=305
-height=327
-hide=yes
-
-[tol_waterlevel_layer2_4]
-type=Model
-width=305
-height=327
-layerId=33423431
-model1Id=22422
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_empty4_5]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-hide=yes
-
-[tol_waterlevel_filled_ball_layer4_5]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22389
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_waterlevel_layer4_5]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423438
-model1Id=22409
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_leakstopper_layer03]
-type=Layer
-x=136
-y=8
-width=305
-height=327
-
-[tol_leakstopper_layer01]
-type=Model
-width=305
-height=327
-layerId=33423436
-model1Id=22423
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_leakstopper_layer04]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-hide=yes
-
-[tol_leakstopper_layer02]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22390
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_pipe06]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423443
-model1Id=22410
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_close_button]
-type=Layer
-x=136
-y=8
-width=305
-height=327
-hide=yes
-
-[tol_valve_turn_left01]
-type=Model
-width=305
-height=327
-layerId=33423441
-model1Id=22424
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_valve_turn_right01]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-hide=yes
-
-[tol_valve_turn_left02]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22391
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_valve_turn_right02]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423446
-model1Id=22411
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_valve_turn_left03]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-hide=yes
-
-[tol_valve_turn_right03]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22392
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_valve_turn_right04]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423451
-model1Id=22412
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_valve_turn_left04]
-type=Layer
-x=136
-y=8
-width=305
-height=327
-hide=yes
-
-[tol_leak_blackhole_layer01]
-type=Model
-width=305
-height=327
-layerId=33423449
-model1Id=22425
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_leak_blackhole_layer02]
-type=Layer
-x=136
-y=8
-width=305
-height=326
-
-[tol_leak_blackhole_layer03]
-type=Model
-x=274
-y=156
-width=32
-height=32
-model1Id=22393
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_leak_blackhole_layer04]
-type=Model
-x=138
-y=148
-width=32
-height=32
-layerId=33423456
-model1Id=22413
-modelZoom=1150
-modelXAn=24
-modelYAn=96
-discardedModelField=0
-
-[tol_lever_layer01_down]
-type=Layer
-x=136
-y=8
-width=305
-height=327
-hide=yes
-
-[tol_lever_layer02_down]
+[tol_waterlevel_filled_ball1_4]
 type=Model
 width=305
 height=327
@@ -1021,14 +1021,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[com_96]
+[tol_waterlevel_layer1_4]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[com_97]
+[tol_waterlevel_empty1_3]
 type=Model
 x=274
 y=156
@@ -1040,7 +1040,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[com_98]
+[tol_waterlevel_filled1_3]
 type=Model
 x=138
 y=148
@@ -1053,14 +1053,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[com_99]
+[tol_waterlevel_filled_ball_layer1_3]
 type=Layer
 x=136
 y=8
 width=305
 height=327
 
-[com_100]
+[tol_waterlevel_filled_ball1_3]
 type=Model
 width=305
 height=327
@@ -1071,7 +1071,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_leakflow03]
+[tol_waterlevel_layer1_3]
 type=Layer
 x=136
 y=8
@@ -1079,7 +1079,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_filled2_3]
+[tol_waterlevel_empty3_5]
 type=Model
 x=274
 y=156
@@ -1091,7 +1091,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball2_3]
+[tol_leakflow04]
 type=Model
 x=138
 y=148
@@ -1105,7 +1105,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled2_5]
+[tol_leakflow_layer04]
 type=Layer
 x=136
 y=8
@@ -1113,7 +1113,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_filled_ball2_5]
+[tol_waterlevel_filled3_5]
 type=Model
 x=138
 y=148
@@ -1126,14 +1126,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_leakflow01]
+[tol_waterlevel_filled_ball_layer3_5]
 type=Layer
 x=136
 y=8
 width=305
 height=327
 
-[tol_leakflow02]
+[tol_waterlevel_filled_ball3_5]
 type=Model
 width=305
 height=327
@@ -1144,7 +1144,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve01]
+[tol_waterlevel_layer3_5]
 type=Layer
 x=136
 y=8
@@ -1152,7 +1152,7 @@ width=305
 height=326
 hide=yes
 
-[tol_valve02]
+[tol_waterlevel_empty2_4]
 type=Model
 x=274
 y=156
@@ -1164,7 +1164,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve03]
+[tol_waterlevel_filled2_4]
 type=Model
 x=138
 y=148
@@ -1177,7 +1177,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_valve04]
+[tol_waterlevel_filled_ball_layer2_4]
 type=Layer
 x=136
 y=8
@@ -1185,7 +1185,7 @@ width=305
 height=327
 hide=yes
 
-[tol_lever01]
+[tol_waterlevel_filled_ball2_4]
 type=Model
 width=305
 height=327
@@ -1196,14 +1196,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_lever02]
+[tol_waterlevel_layer2_4]
 type=Layer
 x=136
 y=8
 width=305
 height=326
 
-[tol_waterlevel_filled4_1]
+[tol_waterlevel_empty4_5]
 type=Model
 x=274
 y=156
@@ -1215,7 +1215,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled1_1]
+[tol_waterlevel_filled4_5]
 type=Model
 x=138
 y=148
@@ -1228,14 +1228,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled3_2]
+[tol_waterlevel_filled_ball_layer4_5]
 type=Layer
 x=136
 y=8
 width=305
 height=327
 
-[tol_waterlevel_filled3_1]
+[tol_waterlevel_filled_ball4_5]
 type=Model
 width=305
 height=327
@@ -1246,7 +1246,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled2_1]
+[tol_waterlevel_layer4_5]
 type=Layer
 x=136
 y=8
@@ -1254,7 +1254,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_filled3_3]
+[tol_leakstopper03]
 type=Model
 x=138
 y=148
@@ -1267,7 +1267,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball3_3]
+[tol_leakstopper_layer03]
 type=Layer
 x=136
 y=8
@@ -1275,7 +1275,7 @@ width=305
 height=331
 hide=yes
 
-[tol_waterlevel_filled4_2]
+[tol_leakstopper01]
 type=Model
 x=138
 y=148
@@ -1288,7 +1288,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball4_2]
+[tol_leakstopper_layer01]
 type=Layer
 x=136
 y=8
@@ -1296,7 +1296,7 @@ width=305
 height=331
 hide=yes
 
-[tol_waterlevel_filled4_3]
+[tol_leakstopper04]
 type=Model
 x=138
 y=148
@@ -1309,7 +1309,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball4_3]
+[tol_leakstopper_layer04]
 type=Layer
 x=136
 y=8
@@ -1317,7 +1317,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_filled4_4]
+[tol_leakstopper02]
 type=Model
 x=138
 y=148
@@ -1330,7 +1330,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled_ball4_4]
+[tol_leakstopper_layer02]
 type=Layer
 x=136
 y=8
@@ -1338,7 +1338,7 @@ width=305
 height=326
 hide=yes
 
-[tol_waterlevel_filled2_2]
+[tol_pipe06]
 type=Model
 x=487
 y=152
@@ -1350,7 +1350,7 @@ modelXAn=54
 modelYAn=80
 discardedModelField=0
 
-[tol_waterlevel_filled_ball2_2]
+[tol_vn1]
 type=Sprite
 x=477
 y=6
@@ -1363,7 +1363,7 @@ onmouseover=44,component.parentId,542
 onmouseleave=44,component.parentId,541
 onop=29
 
-[tol_waterlevel_filled3_4]
+[tol_vn2]
 type=Sprite
 x=3
 y=5
@@ -1372,7 +1372,7 @@ height=23
 layerId=33423490
 graphic=542
 
-[tol_waterlevel_filled_ball3_4]
+[tol_close_button]
 type=Layer
 x=474
 y=1
@@ -1380,7 +1380,7 @@ width=32
 height=32
 hide=yes
 
-[tol_waterlevel_filled1_2]
+[tol_valve_turn_left01]
 type=Rectangle
 x=141
 y=256
@@ -1391,7 +1391,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn left"
 
-[tol_waterlevel_filled1_5]
+[tol_valve_turn_right01]
 type=Rectangle
 x=166
 y=257
@@ -1402,7 +1402,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn right"
 
-[tol_waterlevel_filled_ball1_5]
+[tol_valve_turn_left02]
 type=Rectangle
 x=191
 y=260
@@ -1413,7 +1413,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn left"
 
-[tol_waterlevel_filled1_4]
+[tol_valve_turn_right02]
 type=Rectangle
 x=215
 y=262
@@ -1424,7 +1424,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn right"
 
-[tol_waterlevel_filled_ball1_4]
+[tol_valve_turn_left03]
 type=Rectangle
 x=295
 y=269
@@ -1435,7 +1435,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn left"
 
-[tol_waterlevel_filled1_3]
+[tol_valve_turn_right03]
 type=Rectangle
 x=320
 y=271
@@ -1446,7 +1446,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn right"
 
-[tol_waterlevel_filled_ball1_3]
+[tol_valve_turn_right04]
 type=Rectangle
 x=384
 y=276
@@ -1457,7 +1457,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn right"
 
-[tol_leakflow04]
+[tol_valve_turn_left04]
 type=Rectangle
 x=360
 y=272
@@ -1468,7 +1468,7 @@ colour=0xFFFF00
 eventCode=hasOp(1)
 opName0="Turn left"
 
-[tol_waterlevel_filled3_5]
+[tol_leak_blackhole_layer01]
 type=Layer
 x=136
 y=8
@@ -1476,7 +1476,7 @@ width=305
 height=327
 hide=yes
 
-[tol_waterlevel_filled_ball3_5]
+[tol_leak_blackhole01]
 type=Model
 x=2
 y=1
@@ -1489,7 +1489,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled2_4]
+[tol_leak_blackhole_layer02]
 type=Layer
 x=136
 y=8
@@ -1497,7 +1497,7 @@ width=305
 height=327
 hide=yes
 
-[tol_waterlevel_filled_ball2_4]
+[tol_leak_blackhole02]
 type=Model
 x=2
 y=2
@@ -1510,14 +1510,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_waterlevel_filled4_5]
+[tol_leak_blackhole_layer03]
 type=Layer
 x=136
 y=8
 width=305
 height=327
 
-[tol_waterlevel_filled_ball4_5]
+[tol_leak_blackhole03]
 type=Model
 x=2
 y=1
@@ -1530,14 +1530,14 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_leakstopper03]
+[tol_leak_blackhole_layer04]
 type=Layer
 x=136
 y=8
 width=305
 height=327
 
-[tol_leakstopper01]
+[tol_leak_blackhole04]
 type=Model
 x=2
 y=1
@@ -1550,7 +1550,7 @@ modelXAn=24
 modelYAn=96
 discardedModelField=0
 
-[tol_leakstopper04]
+[tol_lever_layer01_down]
 type=Layer
 x=136
 y=8
@@ -1558,7 +1558,7 @@ width=305
 height=326
 hide=yes
 
-[tol_leakstopper02]
+[tol_lever01_1]
 type=Model
 x=107
 y=246
@@ -1573,7 +1573,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pull left lever"
 
-[tol_x02]
+[tol_lever_layer02_down]
 type=Layer
 x=136
 y=8
@@ -1581,7 +1581,7 @@ width=305
 height=326
 hide=yes
 
-[tol_leak_blackhole01]
+[tol_lever02_1]
 type=Model
 x=129
 y=247
@@ -1596,7 +1596,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pull right lever"
 
-[tol_leak_blackhole02]
+[com_151]
 type=Text
 x=182
 y=224
@@ -1607,7 +1607,7 @@ font=495
 shadow=yes
 text="1"
 
-[tol_leak_blackhole03]
+[com_152]
 type=Text
 x=232
 y=227
@@ -1618,7 +1618,7 @@ font=495
 shadow=yes
 text="2"
 
-[tol_leak_blackhole04]
+[com_153]
 type=Text
 x=318
 y=228
@@ -1629,7 +1629,7 @@ font=495
 shadow=yes
 text="3"
 
-[tol_lever01_1]
+[com_154]
 type=Text
 x=366
 y=243
@@ -1640,7 +1640,7 @@ font=495
 shadow=yes
 text="4"
 
-[tol_lever02_1]
+[com_155]
 type=Text
 x=12
 y=70
@@ -1653,7 +1653,7 @@ font=495
 shadow=yes
 text="Use the valves"
 
-[bespoke_window_background]
+[com_156]
 type=Text
 x=12
 y=90
@@ -1666,7 +1666,7 @@ font=495
 shadow=yes
 text="and the levers to"
 
-[bespoke_window_content]
+[com_157]
 type=Text
 x=12
 y=110
@@ -1679,7 +1679,7 @@ font=495
 shadow=yes
 text="get the balls in"
 
-[bespoke_window_border]
+[com_158]
 type=Text
 x=12
 y=130
@@ -1692,7 +1692,7 @@ font=495
 shadow=yes
 text="the holes, and "
 
-[bespoke_window_close]
+[com_159]
 type=Text
 x=12
 y=150

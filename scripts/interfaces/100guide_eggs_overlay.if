@@ -9,7 +9,7 @@ model1Id=13369
 modelAnim=guide_if_question
 modelZoom=756
 
-[100_q_anim5]
+[100_egg5]
 type=Model
 x=92
 y=238
@@ -21,7 +21,7 @@ model2Id=13354
 modelAnim=guide_egg_spin
 modelZoom=934
 
-[100_egg_anim5]
+[100_q4]
 type=Model
 x=49
 y=230
@@ -32,7 +32,7 @@ model1Id=13369
 modelAnim=guide_if_question
 modelZoom=756
 
-[100_q_anim4]
+[100_egg4]
 type=Model
 x=49
 y=242
@@ -44,7 +44,7 @@ model2Id=13354
 modelAnim=guide_egg_spin
 modelZoom=934
 
-[100_egg_anim4]
+[100_q3]
 type=Model
 x=110
 y=260
@@ -55,7 +55,7 @@ model1Id=13369
 modelAnim=guide_if_question
 modelZoom=756
 
-[100_q_anim3]
+[100_egg3]
 type=Model
 x=110
 y=264
@@ -67,7 +67,7 @@ model2Id=13354
 modelAnim=guide_egg_spin
 modelZoom=756
 
-[100_egg_anim3]
+[100_q2]
 type=Model
 x=31
 y=259
@@ -78,7 +78,7 @@ model1Id=13369
 modelAnim=guide_if_question
 modelZoom=756
 
-[100_q_anim2]
+[100_egg2]
 type=Model
 x=31
 y=262
@@ -90,7 +90,7 @@ model2Id=13354
 modelAnim=guide_egg_spin
 modelZoom=756
 
-[100_egg_anim2]
+[100_q1]
 type=Model
 x=73
 y=284
@@ -101,7 +101,7 @@ model1Id=13369
 modelAnim=guide_if_question
 modelZoom=656
 
-[100_q_anim1]
+[100_egg1]
 type=Model
 x=73
 y=289
@@ -113,7 +113,7 @@ model2Id=13354
 modelAnim=guide_egg_spin
 modelZoom=656
 
-[100_egg_anim1]
+[100_q_anim5]
 type=Layer
 x=351
 y=-3
@@ -121,14 +121,14 @@ width=164
 height=326
 hide=yes
 
-[100_egg5]
+[100_egg_anim5]
 type=Layer
 x=351
 y=-11
 width=195
 height=334
 
-[100_q4]
+[100_q_anim4]
 type=Layer
 x=351
 y=-3
@@ -136,14 +136,14 @@ width=164
 height=326
 hide=yes
 
-[100_egg4]
+[100_egg_anim4]
 type=Layer
 x=351
 y=-15
 width=170
 height=338
 
-[100_q3]
+[100_q_anim3]
 type=Layer
 x=351
 y=-3
@@ -151,14 +151,14 @@ width=164
 height=326
 hide=yes
 
-[100_egg3]
+[100_egg_anim3]
 type=Layer
 x=351
 y=-7
 width=168
 height=330
 
-[100_q2]
+[100_q_anim2]
 type=Layer
 x=351
 y=-3
@@ -166,14 +166,14 @@ width=164
 height=326
 hide=yes
 
-[100_egg2]
+[100_egg_anim2]
 type=Layer
 x=351
 y=-6
 width=178
 height=329
 
-[100_q1]
+[100_q_anim1]
 type=Layer
 x=351
 y=-3
@@ -181,7 +181,7 @@ width=164
 height=326
 hide=yes
 
-[100_egg1]
+[100_egg_anim1]
 type=Layer
 x=351
 y=-8

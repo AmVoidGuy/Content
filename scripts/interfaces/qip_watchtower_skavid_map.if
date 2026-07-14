@@ -1,10 +1,10 @@
-[qip_watchtower_map]
+[myq3_castle_sketch_01_black_north]
 type=Rectangle
 width=520
 height=340
 fill=yes
 
-[close_button]
+[qip_watchtower_map]
 type=Model
 x=248
 y=111
@@ -23,7 +23,7 @@ height=23
 overLayerId=4
 graphic=537
 
-[com_3]
+[myq3_sketch_north_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -35,7 +35,7 @@ overLayerId=4
 graphic=538
 buttonText="Ok"
 
-[com_4]
+[myq3_castle_sketch_north_close_button]
 type=Layer
 x=425
 y=20

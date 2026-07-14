@@ -6,7 +6,7 @@ width=529
 height=366
 fill=yes
 
-[top]
+[com_1]
 type=Rectangle
 x=149
 y=263
@@ -15,7 +15,7 @@ height=75
 colour=0x1F2E42
 fill=yes
 
-[bottom]
+[com_2]
 type=Rectangle
 x=122
 y=220
@@ -24,7 +24,7 @@ height=43
 colour=0x152438
 fill=yes
 
-[viewfinder]
+[com_3]
 type=Rectangle
 x=116
 y=167
@@ -33,7 +33,7 @@ height=53
 colour=0x0B1A2E
 fill=yes
 
-[stars]
+[com_4]
 type=Rectangle
 x=119
 y=112
@@ -42,7 +42,7 @@ height=56
 colour=0x011024
 fill=yes
 
-[mainmodal_window]
+[com_5]
 type=Rectangle
 x=116
 y=23
@@ -51,7 +51,7 @@ height=90
 colour=0x00061A
 fill=yes
 
-[mainmodal_window_background]
+[viewfinder]
 type=Model
 x=235
 y=150
@@ -62,7 +62,7 @@ modelZoom=400
 modelXAn=500
 discardedModelField=0
 
-[mainmodal_window_content]
+[stars]
 type=Model
 x=239
 y=154
@@ -74,7 +74,7 @@ modelZoom=950
 modelXAn=500
 discardedModelField=0
 
-[content_layer]
+[close_button]
 type=Sprite
 x=482
 y=8

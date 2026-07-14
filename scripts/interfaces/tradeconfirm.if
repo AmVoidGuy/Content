@@ -1,4 +1,4 @@
-[3x3_context_button_on_layer_4]
+[com_0]
 type=Rectangle
 x=17
 y=25
@@ -7,7 +7,7 @@ height=305
 trans=200
 fill=yes
 
-[background_layer]
+[com_1]
 type=Sprite
 x=14
 y=25
@@ -16,7 +16,7 @@ height=300
 graphic=297
 tiling=yes
 
-[content_layer]
+[com_2]
 type=Sprite
 y=53
 width=32
@@ -24,7 +24,7 @@ height=241
 graphic=821
 tiling=yes
 
-[3x3_context_button_on_layer_5]
+[com_3]
 type=Sprite
 x=13
 y=20
@@ -32,7 +32,7 @@ width=32
 height=32
 graphic=824
 
-[root_layer]
+[com_4]
 type=Sprite
 x=480
 y=51
@@ -41,7 +41,7 @@ height=243
 graphic=823
 tiling=yes
 
-[frame_layer]
+[com_5]
 type=Sprite
 x=44
 y=7
@@ -50,7 +50,7 @@ height=34
 graphic=820
 tiling=yes
 
-[close_button_layer]
+[closebutton]
 type=Sprite
 x=474
 y=30
@@ -63,7 +63,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onop=29
 
-[accept_button_layer]
+[com_7]
 type=Sprite
 x=13
 y=294
@@ -71,7 +71,7 @@ width=32
 height=32
 graphic=826
 
-[decline_button_layer]
+[com_8]
 type=Sprite
 x=468
 y=20
@@ -96,7 +96,7 @@ height=32
 graphic=828
 tiling=yes
 
-[trade2title]
+[com_11]
 type=Sprite
 x=13
 y=51
@@ -112,7 +112,7 @@ width=32
 height=32
 graphic=830
 
-[out]
+[com_13]
 type=Sprite
 x=240
 y=63
@@ -121,7 +121,7 @@ height=32
 graphic=842
 baseOpName=" "
 
-[out_loan_layer]
+[com_14]
 type=Sprite
 x=241
 y=294
@@ -129,7 +129,7 @@ width=32
 height=32
 graphic=839
 
-[in]
+[com_15]
 type=Sprite
 x=239
 y=66
@@ -138,7 +138,7 @@ height=222
 graphic=841
 tiling=yes
 
-[in_loan_layer]
+[com_16]
 type=Sprite
 x=239
 y=283
@@ -158,14 +158,14 @@ trans=200
 colour=0xFF0000
 fill=yes
 
-[tradeopponent]
+[com_18]
 type=Layer
 x=259
 y=87
 width=235
 height=232
 
-[trade_removed_warning_right]
+[com_19]
 type=Rectangle
 x=259
 y=68
@@ -176,7 +176,7 @@ trans=200
 colour=0xFF0000
 fill=yes
 
-[tooltip_bounding_layer]
+[trade2accept]
 type=Rectangle
 x=188
 y=295
@@ -187,7 +187,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Accept"
 
-[out_left]
+[dominiondice]
 type=Rectangle
 x=259
 y=295
@@ -198,7 +198,7 @@ fill=yes
 eventCode=hasOp(1)
 opName0="Decline"
 
-[out_right]
+[com_22]
 type=Sprite
 x=184
 y=290
@@ -207,7 +207,7 @@ height=32
 graphic=846
 baseOpName=" "
 
-[out_dragzone]
+[com_23]
 type=Sprite
 x=296
 y=290
@@ -215,7 +215,7 @@ width=32
 height=32
 graphic=847
 
-[out_dragger]
+[com_24]
 type=Sprite
 x=216
 y=276
@@ -264,7 +264,7 @@ width=32
 height=32
 graphic=839
 
-[out_loan]
+[com_30]
 type=Sprite
 x=310
 y=294
@@ -272,7 +272,7 @@ width=32
 height=32
 graphic=839
 
-[in_loan]
+[com_31]
 type=Text
 x=23
 y=71
@@ -285,7 +285,7 @@ font=496
 shadow=yes
 text="You are about to give:"
 
-[tooltip]
+[com_32]
 type=Text
 x=260
 y=70
@@ -298,7 +298,7 @@ font=496
 shadow=yes
 text="In return you will receive:"
 
-[in_left]
+[trade2title]
 type=Text
 x=20
 y=30
@@ -311,7 +311,7 @@ font=495
 shadow=yes
 text="Are you sure you want to make this trade?"
 
-[in_right]
+[com_34]
 type=Text
 x=19
 y=48
@@ -324,7 +324,7 @@ font=494
 shadow=yes
 text="There is <col=ff0000>NO WAY<col=ffffff> to reverse a trade if you change your mind."
 
-[in_dragzone]
+[com_35]
 type=Text
 x=187
 y=297
@@ -337,7 +337,7 @@ font=495
 shadow=yes
 text="Accept"
 
-[in_dragger]
+[com_36]
 type=Text
 x=259
 y=298
@@ -350,7 +350,7 @@ font=495
 shadow=yes
 text="Decline"
 
-[com_37]
+[out_main]
 type=Text
 x=19
 y=89
@@ -363,7 +363,7 @@ font=496
 shadow=yes
 text="Item"
 
-[com_38]
+[out_left]
 type=Text
 x=19
 y=89
@@ -376,7 +376,7 @@ font=495
 shadow=yes
 text="Item"
 
-[com_39]
+[out_right]
 type=Text
 x=137
 y=89
@@ -389,7 +389,7 @@ font=495
 shadow=yes
 text="Item"
 
-[com_40]
+[in_main]
 type=Text
 x=260
 y=89
@@ -402,7 +402,7 @@ font=496
 shadow=yes
 text="Item"
 
-[com_41]
+[in_left]
 type=Text
 x=260
 y=89
@@ -415,7 +415,7 @@ font=495
 shadow=yes
 text="Item"
 
-[3x3_context_button_over_layer_4]
+[in_right]
 type=Text
 x=377
 y=89
@@ -428,7 +428,7 @@ font=495
 shadow=yes
 text="Item"
 
-[3x3_context_button_hit_layer_4]
+[tradeconfirm_close_button]
 type=Layer
 x=463
 y=24
@@ -436,7 +436,7 @@ width=32
 height=32
 hide=yes
 
-[trade2accept]
+[tradeopponent]
 type=Text
 x=338
 y=282
@@ -451,7 +451,7 @@ shadow=yes
 text="Trading with:<br>Unknown"
 onload=142
 
-[3x3_context_button_text_layer_4]
+[trade_removed_warning_left]
 type=Text
 x=26
 y=268
@@ -464,7 +464,7 @@ font=494
 shadow=yes
 text="Trade modified"
 
-[button_2]
+[trade_removed_warning_right]
 type=Text
 x=300
 y=268

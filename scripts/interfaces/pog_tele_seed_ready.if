@@ -1,4 +1,4 @@
-[com_0]
+[background]
 type=Rectangle
 x=1
 y=1
@@ -6,7 +6,7 @@ width=515
 height=333
 fill=yes
 
-[contents]
+[pog_hand]
 type=Model
 x=149
 y=36
@@ -18,7 +18,7 @@ modelXAn=306
 modelYAn=2047
 discardedModelField=0
 
-[pog_hand]
+[pog_tele_seed]
 type=Model
 x=181
 y=113

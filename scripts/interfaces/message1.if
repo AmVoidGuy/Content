@@ -1,4 +1,4 @@
-[layer_1]
+[mes1a]
 type=Text
 x=21
 y=29
@@ -8,7 +8,7 @@ hAlign=Center
 font=497
 text="Line1"
 
-[mes1a]
+[mes1next]
 type=Text
 x=69
 y=77

@@ -9,7 +9,7 @@ trans=35
 colour=0x503800
 fill=yes
 
-[banner]
+[difficultygradient_2]
 type=Rectangle
 x=489
 y=315
@@ -20,7 +20,7 @@ trans=50
 colour=0x503800
 fill=yes
 
-[diffgradlayer]
+[difficultygradient_3]
 type=Rectangle
 x=479
 y=315
@@ -31,7 +31,7 @@ trans=75
 colour=0x503800
 fill=yes
 
-[pest_lander_over_level]
+[difficultygradient_4]
 type=Rectangle
 x=469
 y=315
@@ -42,7 +42,7 @@ trans=90
 colour=0x503800
 fill=yes
 
-[difficultygradient_2]
+[difficultygradient_5]
 type=Rectangle
 x=459
 y=315
@@ -53,7 +53,7 @@ trans=105
 colour=0x503800
 fill=yes
 
-[difficultygradient_3]
+[difficultygradient_6]
 type=Rectangle
 x=449
 y=315
@@ -64,7 +64,7 @@ trans=120
 colour=0x503800
 fill=yes
 
-[difficultygradient_4]
+[difficultygradient_7]
 type=Rectangle
 x=439
 y=315
@@ -75,7 +75,7 @@ trans=135
 colour=0x503800
 fill=yes
 
-[difficultygradient_5]
+[difficultygradient_8]
 type=Rectangle
 x=429
 y=315
@@ -86,7 +86,7 @@ trans=150
 colour=0x503800
 fill=yes
 
-[difficultygradient_6]
+[difficultygradient_9]
 type=Rectangle
 x=419
 y=315
@@ -97,7 +97,7 @@ trans=165
 colour=0x503800
 fill=yes
 
-[difficultygradient_7]
+[difficultygradient_10]
 type=Rectangle
 x=409
 y=315
@@ -108,13 +108,13 @@ trans=180
 colour=0x503800
 fill=yes
 
-[difficultygradient_8]
+[diffgradlayer]
 type=Layer
 x=1
 width=510
 height=334
 
-[difficultygradient_9]
+[pest_lander_over_time]
 type=Text
 x=14
 y=23
@@ -125,7 +125,7 @@ font=495
 shadow=yes
 text="Next Departure: 5 min"
 
-[difficultygradient_10]
+[pest_lander_over_pl1]
 type=Text
 x=14
 y=40
@@ -137,7 +137,7 @@ font=495
 shadow=yes
 text="Players Ready: 5"
 
-[pest_lander_over_time]
+[pest_lander_over_pl2]
 type=Text
 x=14
 y=57
@@ -148,7 +148,7 @@ font=495
 shadow=yes
 text="(Need 5 to 25 players)"
 
-[pest_lander_over_pl1]
+[pest_lander_over_points]
 type=Text
 x=14
 y=73
@@ -159,7 +159,7 @@ font=495
 shadow=yes
 text="Points:pest_points"
 
-[pest_lander_over_pl2]
+[banner]
 type=Model
 x=466
 y=311
@@ -170,7 +170,7 @@ modelZoom=1296
 modelXAn=1972
 modelYAn=132
 
-[pest_lander_over_points]
+[failings_back]
 type=Text
 x=400
 y=313

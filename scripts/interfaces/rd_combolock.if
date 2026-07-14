@@ -1,4 +1,4 @@
-[modal_dialog_window]
+[com_0]
 type=Rectangle
 x=2
 y=68
@@ -16,7 +16,7 @@ height=164
 colour=0x404040
 fill=yes
 
-[com_2]
+[rdcl1]
 type=Layer
 x=12
 y=20
@@ -41,7 +41,7 @@ height=60
 layerId=18677762
 graphic=297
 
-[rda]
+[com_5]
 type=Sprite
 x=270
 y=6
@@ -50,7 +50,7 @@ height=60
 layerId=18677762
 graphic=297
 
-[rdb]
+[com_6]
 type=Sprite
 x=358
 y=6
@@ -59,7 +59,7 @@ height=60
 layerId=18677762
 graphic=297
 
-[rdc]
+[com_7]
 type=Sprite
 x=394
 y=6
@@ -68,7 +68,7 @@ height=60
 layerId=18677762
 graphic=297
 
-[rdd]
+[com_8]
 type=Sprite
 x=6
 y=-1
@@ -77,7 +77,7 @@ height=60
 layerId=18677762
 graphic=297
 
-[rda_left]
+[com_9]
 type=Sprite
 x=60
 y=16
@@ -86,7 +86,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rdb_left]
+[com_10]
 type=Sprite
 x=96
 y=16
@@ -95,7 +95,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rdc_left]
+[com_11]
 type=Sprite
 x=132
 y=16
@@ -104,7 +104,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rdd_left]
+[com_12]
 type=Sprite
 x=168
 y=16
@@ -113,7 +113,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rda_right]
+[com_13]
 type=Sprite
 x=204
 y=16
@@ -122,7 +122,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rdb_right]
+[com_14]
 type=Sprite
 x=240
 y=16
@@ -131,7 +131,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rdc_right]
+[com_15]
 type=Sprite
 x=276
 y=16
@@ -140,7 +140,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[rdd_right]
+[com_16]
 type=Sprite
 x=312
 y=16
@@ -149,7 +149,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[3x1_positive]
+[com_17]
 type=Sprite
 x=348
 y=16
@@ -158,7 +158,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[modal_dialog_window_background]
+[com_18]
 type=Sprite
 x=384
 y=16
@@ -167,7 +167,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[modal_dialog_window_content]
+[com_19]
 type=Sprite
 x=420
 y=16
@@ -176,7 +176,7 @@ height=36
 layerId=18677762
 graphic=173
 
-[modal_dialog_window_border]
+[com_20]
 type=Sprite
 x=428
 y=16
@@ -185,14 +185,14 @@ height=36
 layerId=18677762
 graphic=173
 
-[modal_dialog_window_close_button]
+[com_21]
 type=Sprite
 width=25
 height=30
 layerId=18677762
 graphic=310
 
-[positive_build]
+[com_22]
 type=Sprite
 x=60
 y=-15
@@ -201,7 +201,7 @@ height=36
 layerId=18677762
 graphic=314
 
-[positive_click]
+[com_23]
 type=Sprite
 x=96
 y=-15
@@ -383,7 +383,7 @@ model1Id=3041
 modelZoom=550
 modelXAn=400
 
-[com_43]
+[rda]
 type=Text
 x=65
 y=97
@@ -394,7 +394,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_44]
+[rdb]
 type=Text
 x=189
 y=97
@@ -405,7 +405,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_45]
+[rdc]
 type=Text
 x=313
 y=97
@@ -416,7 +416,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_46]
+[rdd]
 type=Text
 x=437
 y=97
@@ -427,7 +427,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_47]
+[rda_left]
 type=Sprite
 buttonType=Button
 x=22
@@ -437,7 +437,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_48]
+[rda_right]
 type=Sprite
 buttonType=Button
 x=70
@@ -447,7 +447,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_49]
+[rdb_left]
 type=Sprite
 buttonType=Button
 x=146
@@ -457,7 +457,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_50]
+[rdb_right]
 type=Sprite
 buttonType=Button
 x=194
@@ -467,7 +467,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_51]
+[rdc_left]
 type=Sprite
 buttonType=Button
 x=270
@@ -477,7 +477,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_52]
+[rdc_right]
 type=Sprite
 buttonType=Button
 x=318
@@ -487,7 +487,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_53]
+[rdd_left]
 type=Sprite
 buttonType=Button
 x=394
@@ -497,7 +497,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_54]
+[rdd_right]
 type=Sprite
 buttonType=Button
 x=442
@@ -507,7 +507,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_55]
+[rdcombolock]
 type=Text
 x=101
 y=31
@@ -519,7 +519,7 @@ font=496
 shadow=yes
 text="Combination Lock Door"
 
-[com_56]
+[rdenter]
 type=Rectangle
 buttonType=Button
 x=193
@@ -530,7 +530,7 @@ colour=0x404040
 fill=yes
 eventCode=flag22
 
-[com_57]
+[rdenter2]
 type=Text
 x=193
 y=262
@@ -562,7 +562,7 @@ layerId=18677820
 graphic=536
 buttonText="Ok"
 
-[com_60]
+[rdcombolock_close]
 type=Layer
 x=466
 y=23

@@ -1,4 +1,4 @@
-[map03coastline00]
+[scrollmodel_map03]
 type=Model
 x=227
 y=162
@@ -9,7 +9,7 @@ modelZoom=599
 modelXAn=520
 modelYAn=1
 
-[map03coastline01]
+[map03coastline00]
 type=Model
 x=210
 y=90
@@ -21,7 +21,7 @@ modelZoom=1322
 modelXAn=642
 modelYAn=787
 
-[map03coastline02]
+[map03coastline01]
 type=Model
 x=226
 y=114
@@ -33,7 +33,7 @@ modelZoom=1322
 modelXAn=658
 modelYAn=875
 
-[map03coastline03]
+[map03coastline02]
 type=Model
 x=236
 y=141
@@ -45,7 +45,7 @@ modelZoom=1322
 modelXAn=682
 modelYAn=942
 
-[map03coastline04]
+[map03coastline03]
 type=Model
 x=241
 y=168
@@ -57,7 +57,7 @@ modelZoom=1322
 modelXAn=686
 modelYAn=974
 
-[map03coastline05]
+[map03coastline04]
 type=Model
 x=247
 y=193
@@ -69,7 +69,7 @@ modelZoom=1351
 modelXAn=692
 modelYAn=929
 
-[map03coastline7]
+[map03coastline05]
 type=Model
 x=255
 y=212
@@ -81,7 +81,7 @@ modelZoom=1351
 modelXAn=702
 modelYAn=877
 
-[map03coastline6]
+[map03xmark]
 type=Model
 x=323
 y=166
@@ -92,7 +92,7 @@ modelZoom=1349
 modelXAn=474
 modelYAn=1775
 
-[map03coastline8]
+[map03coastline7]
 type=Model
 x=133
 y=20
@@ -104,7 +104,7 @@ modelZoom=1351
 modelXAn=675
 modelYAn=744
 
-[map03coastline9]
+[border.oc]
 type=Model
 x=150
 y=229
@@ -115,7 +115,7 @@ modelZoom=531
 modelXAn=493
 modelYAn=18
 
-[mainmodal_window]
+[border.pc]
 type=Model
 x=165
 y=49
@@ -126,7 +126,7 @@ modelZoom=531
 modelXAn=527
 modelYAn=515
 
-[mainmodal_window_background]
+[map03coastline6]
 type=Model
 x=189
 y=71
@@ -138,7 +138,7 @@ modelZoom=1351
 modelXAn=679
 modelYAn=758
 
-[mainmodal_window_content]
+[border.qc]
 type=Model
 x=340
 y=62
@@ -149,7 +149,7 @@ modelZoom=531
 modelXAn=578
 modelYAn=1030
 
-[com_13]
+[map03coastline8]
 type=Model
 x=152
 y=36
@@ -161,7 +161,7 @@ modelZoom=1351
 modelXAn=693
 modelYAn=793
 
-[map03xmark]
+[map03coastline9]
 type=Model
 x=170
 y=54
@@ -173,7 +173,7 @@ modelZoom=1351
 modelXAn=693
 modelYAn=793
 
-[coastlinelayer]
+[border.rc]
 type=Model
 x=321
 y=245
@@ -184,14 +184,14 @@ modelZoom=531
 modelXAn=576
 modelYAn=1544
 
-[map03fishingicon]
+[coastlinelayer]
 type=Layer
 x=34
 y=32
 width=313
 height=239
 
-[map03rockicon]
+[map03fishingicon]
 type=Model
 x=257
 y=151
@@ -202,7 +202,7 @@ modelZoom=1130
 modelXAn=575
 modelYAn=2041
 
-[map03treeicon01]
+[map03rockicon]
 type=Model
 x=325
 y=85
@@ -213,7 +213,7 @@ modelZoom=1340
 modelXAn=524
 modelYAn=2044
 
-[map03treeicon2]
+[map03treeicon01]
 type=Model
 x=274
 y=125
@@ -224,7 +224,7 @@ modelZoom=1577
 modelXAn=467
 modelYAn=2031
 
-[map03treeicon02]
+[map03treeicon2]
 type=Model
 x=290
 y=162
@@ -235,7 +235,7 @@ modelZoom=1694
 modelXAn=467
 modelYAn=2031
 
-[map03treeicon3]
+[map03treeicon02]
 type=Model
 x=279
 y=87
@@ -246,7 +246,7 @@ modelZoom=1609
 modelXAn=467
 modelYAn=2031
 
-[map03treeicon4]
+[map03treeicon3]
 type=Model
 x=252
 y=91
@@ -257,7 +257,7 @@ modelZoom=1580
 modelXAn=467
 modelYAn=2031
 
-[map03trail_footsteps01]
+[map03treeicon4]
 type=Model
 x=227
 y=76
@@ -268,7 +268,7 @@ modelZoom=1645
 modelXAn=467
 modelYAn=2031
 
-[map03trail_footsteps2]
+[map03trail_footsteps01]
 type=Model
 x=306
 y=83
@@ -279,7 +279,7 @@ modelZoom=1713
 modelXAn=526
 modelYAn=2046
 
-[map03trail_footsteps3]
+[map03trail_footsteps2]
 type=Model
 x=295
 y=83
@@ -290,7 +290,7 @@ modelZoom=1713
 modelXAn=526
 modelYAn=2046
 
-[map03trail_footsteps4]
+[map03trail_footsteps3]
 type=Model
 x=291
 y=90
@@ -301,7 +301,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03trail_footsteps5]
+[map03trail_footsteps4]
 type=Model
 x=291
 y=101
@@ -312,7 +312,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03trail_footsteps6]
+[map03trail_footsteps5]
 type=Model
 x=291
 y=112
@@ -323,7 +323,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03trail_footsteps7]
+[map03trail_footsteps6]
 type=Model
 x=291
 y=122
@@ -334,7 +334,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03trail_footsteps8]
+[map03trail_footsteps7]
 type=Model
 x=295
 y=128
@@ -345,7 +345,7 @@ modelZoom=1713
 modelXAn=526
 modelYAn=2046
 
-[map03trail_footsteps9]
+[map03trail_footsteps8]
 type=Model
 x=305
 y=128
@@ -356,7 +356,7 @@ modelZoom=1713
 modelXAn=526
 modelYAn=2046
 
-[map03trail_footsteps10]
+[map03trail_footsteps9]
 type=Model
 x=315
 y=128
@@ -367,7 +367,7 @@ modelZoom=1713
 modelXAn=526
 modelYAn=2046
 
-[map03trail_footsteps11]
+[map03trail_footsteps10]
 type=Model
 x=323
 y=134
@@ -378,7 +378,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03trail_footsteps12]
+[map03trail_footsteps11]
 type=Model
 x=323
 y=144
@@ -389,7 +389,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03paces01]
+[map03trail_footsteps12]
 type=Model
 x=323
 y=154
@@ -400,7 +400,7 @@ modelZoom=1713
 modelXAn=551
 modelYAn=1563
 
-[map03paces02]
+[map03paces01]
 type=Text
 x=310
 y=85
@@ -410,7 +410,7 @@ colour=0x4C3D26
 font=494
 text="2W"
 
-[map03paces03]
+[map03paces02]
 type=Text
 x=291
 y=117
@@ -420,7 +420,7 @@ colour=0x4C3D26
 font=494
 text="4S"
 
-[map03paces04]
+[map03paces03]
 type=Text
 x=316
 y=130
@@ -430,7 +430,7 @@ colour=0x4C3D26
 font=494
 text="3E"
 
-[com_39]
+[map03paces04]
 type=Text
 x=342
 y=155
@@ -505,7 +505,7 @@ modelZoom=1611
 modelXAn=407
 modelYAn=1966
 
-[mainmodal_window_border]
+[com_46]
 type=Model
 x=226
 y=226
@@ -516,7 +516,7 @@ modelZoom=1594
 modelXAn=525
 modelYAn=94
 
-[mainmodal_window_close_button]
+[com_47]
 type=Sprite
 x=473
 y=13
@@ -525,7 +525,7 @@ height=23
 overLayerId=49
 graphic=539
 
-[com_48]
+[trail_map03_close]
 type=Sprite
 buttonType=Close
 x=2
@@ -536,7 +536,7 @@ layerId=22806577
 graphic=540
 buttonText="Ok"
 
-[com_49]
+[trail_map03_close_button]
 type=Layer
 x=471
 y=8

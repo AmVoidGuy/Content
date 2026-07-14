@@ -1,4 +1,4 @@
-[contents]
+[com_0]
 type=Rectangle
 width=520
 height=340
@@ -6,7 +6,7 @@ trans=50
 colour=0x34270F
 fill=yes
 
-[bespoke_window]
+[eyeglo_change_machine]
 type=Model
 x=132
 y=17
@@ -15,7 +15,7 @@ height=402
 model1Id=17189
 modelZoom=750
 
-[eyeglo_change_machine]
+[com_2]
 type=Inventory
 x=360
 y=83
@@ -35,7 +35,7 @@ height=32
 model1Id=17195
 modelZoom=750
 
-[eyeglo_exchange_coinslot]
+[com_4]
 type=Inventory
 x=231
 y=79
@@ -55,7 +55,7 @@ invBackground9=500,0,-1
 invBackground10=500,0,-1
 invBackground11=500,0,-1
 
-[eyeglo_exchange_cancel]
+[eyeglo_exchange_button]
 type=Model
 buttonType=Button
 x=290
@@ -67,7 +67,7 @@ modelZoom=750
 buttonText="Change disc type"
 eventCode=flag22
 
-[eyeglo_exchange_takecoins]
+[eyeglo_exchange_coinslot]
 type=Model
 buttonType=Button
 x=175
@@ -79,7 +79,7 @@ modelZoom=750
 buttonText="Insert disc?"
 eventCode=flag22
 
-[eyeglo_take_button]
+[eyeglo_exchange_cancel]
 type=Model
 buttonType=Button
 x=177
@@ -91,7 +91,7 @@ modelZoom=750
 buttonText="Cancel exchange"
 eventCode=flag22
 
-[eyeglo_exchange_hand]
+[eyeglo_exchange_takecoins]
 type=Model
 x=181
 y=260
@@ -100,7 +100,7 @@ height=25
 model1Id=17191
 modelZoom=750
 
-[eyeglo_exchange_current_coin]
+[eyeglo_take_button]
 type=Model
 buttonType=Button
 x=177
@@ -112,7 +112,7 @@ modelZoom=750
 buttonText="Accept exchange"
 eventCode=flag22
 
-[eyeglo_exchange_button]
+[eyeglo_exchange_hand]
 type=Model
 x=54
 y=205
@@ -123,7 +123,7 @@ modelZoom=385
 modelXAn=232
 modelYAn=102
 
-[eyeglo_exchange_cancel_clicker]
+[eyeglo_exchange_current_coin]
 type=Model
 x=70
 y=217
@@ -133,7 +133,7 @@ modelZoom=300
 modelXAn=340
 modelYAn=134
 
-[eyeglo_take_button_clicker]
+[com_12]
 type=Sprite
 x=479
 y=5
@@ -142,7 +142,7 @@ height=23
 overLayerId=14
 graphic=539
 
-[eyeglo_change_machine_border]
+[com_13]
 type=Sprite
 buttonType=Close
 x=3
@@ -154,7 +154,7 @@ overLayerId=14
 graphic=540
 buttonText="Ok"
 
-[in]
+[com_14]
 type=Layer
 x=476
 width=32

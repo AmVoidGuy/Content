@@ -1,4 +1,4 @@
-[grim_paper]
+[com_0]
 type=Rectangle
 x=-3
 y=-2
@@ -8,14 +8,14 @@ trans=150
 colour=0x423F1A
 fill=yes
 
-[grim_scroll]
+[grim_paper]
 type=Layer
 x=89
 y=12
 width=300
 height=300
 
-[grim_to_do_list]
+[grim_scroll]
 type=Model
 x=146
 y=102
@@ -28,14 +28,14 @@ modelXAn=507
 modelYAn=2044
 discardedModelField=0
 
-[close_button]
+[grim_to_do_list]
 type=Layer
 x=88
 y=44
 width=300
 height=250
 
-[content_layer]
+[grim_note_title]
 type=Text
 x=8
 y=23
@@ -45,7 +45,7 @@ layerId=35258371
 font=497
 text="Things to do:"
 
-[grim_note_title]
+[grim_list]
 type=Text
 x=7
 y=49
@@ -55,7 +55,7 @@ layerId=35258371
 font=497
 text="Take out the rubbish<br>Buy a new record for the gramophone<br>Check shrunken ogleroot supply<br>Feed ogleroots to my darlings<br>Wash the bedsheets<br>Hang out the washing<br>Practise the piano<br>Terrorise the little brat with the ball again<br>Trim hedges in the garden<br>Floss warts<br>Plot revenge on Fritz's murderer"
 
-[grim_list]
+[close_button]
 type=Sprite
 x=474
 y=13

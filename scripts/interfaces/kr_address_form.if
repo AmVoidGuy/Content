@@ -1,4 +1,4 @@
-[address_form]
+[background]
 type=Rectangle
 width=512
 height=334
@@ -6,7 +6,7 @@ trans=160
 colour=0x46341D
 fill=yes
 
-[heading]
+[address_form]
 type=Model
 x=120
 y=-4
@@ -17,7 +17,7 @@ modelZoom=814
 modelXAn=532
 discardedModelField=0
 
-[line]
+[heading]
 type=Text
 x=149
 y=20
@@ -29,7 +29,7 @@ vAlign=Center
 font=645
 text="Change of address form for the citizens of Seers' Village."
 
-[line_1]
+[line]
 type=Rectangle
 x=174
 y=144
@@ -38,7 +38,7 @@ height=4
 colour=0x46320A
 fill=yes
 
-[line_2]
+[line_1]
 type=Rectangle
 x=174
 y=176
@@ -47,7 +47,7 @@ height=4
 colour=0x46320A
 fill=yes
 
-[line_3]
+[line_2]
 type=Rectangle
 x=174
 y=210
@@ -56,7 +56,7 @@ height=4
 colour=0x46320A
 fill=yes
 
-[close_button]
+[line_3]
 type=Rectangle
 x=269
 y=278
@@ -65,7 +65,7 @@ height=4
 colour=0x46320A
 fill=yes
 
-[content_layer]
+[close_button]
 type=Sprite
 x=482
 y=6

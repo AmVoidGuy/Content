@@ -1,4 +1,4 @@
-[base]
+[com_0]
 type=Sprite
 x=21
 y=148
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[controls]
+[com_1]
 type=Sprite
 x=86
 y=148
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[flip_button]
+[com_2]
 type=Sprite
 x=21
 y=188
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[move_up]
+[com_3]
 type=Sprite
 x=86
 y=188
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[move_left]
+[com_4]
 type=Sprite
 x=21
 y=148
@@ -38,7 +38,7 @@ width=25
 height=30
 graphic=310
 
-[rotate_button]
+[com_5]
 type=Sprite
 x=149
 y=148
@@ -46,7 +46,7 @@ width=25
 height=30
 graphic=311
 
-[move_right]
+[com_6]
 type=Sprite
 x=153
 y=192
@@ -54,7 +54,7 @@ width=36
 height=36
 graphic=315
 
-[move_down]
+[com_7]
 type=Sprite
 x=149
 y=218
@@ -62,7 +62,7 @@ width=25
 height=30
 graphic=313
 
-[checkboxes]
+[com_8]
 type=Sprite
 x=153
 y=168
@@ -70,7 +70,7 @@ width=36
 height=36
 graphic=315
 
-[back]
+[com_9]
 type=Sprite
 x=46
 y=133
@@ -86,7 +86,7 @@ width=36
 height=36
 graphic=314
 
-[schematic_1]
+[com_11]
 type=Sprite
 x=114
 y=133
@@ -94,7 +94,7 @@ width=36
 height=36
 graphic=314
 
-[show_1]
+[com_12]
 type=Sprite
 x=6
 y=173
@@ -102,7 +102,7 @@ width=36
 height=36
 graphic=172
 
-[select_1]
+[com_13]
 type=Sprite
 x=6
 y=203
@@ -118,7 +118,7 @@ width=25
 height=30
 graphic=312
 
-[schematic_2]
+[com_15]
 type=Sprite
 x=46
 y=227
@@ -126,7 +126,7 @@ width=36
 height=36
 graphic=173
 
-[show_2]
+[com_16]
 type=Sprite
 x=113
 y=227
@@ -134,7 +134,7 @@ width=36
 height=36
 graphic=173
 
-[select_2]
+[com_17]
 type=Sprite
 x=82
 y=227
@@ -157,7 +157,7 @@ text="Piece 1"
 script1=gt,0
 script1op1=inv_count,inventory:inv,slug2_page4a
 
-[schematic_3]
+[com_19]
 type=Text
 x=64
 y=1
@@ -172,7 +172,7 @@ text="Piece 2"
 script1=gt,0
 script1op1=inv_count,inventory:inv,slug2_page4b
 
-[show_3]
+[com_20]
 type=Text
 x=64
 y=1
@@ -187,7 +187,7 @@ text="Piece 3"
 script1=gt,0
 script1op1=inv_count,inventory:inv,slug2_page4c
 
-[select_3]
+[com_21]
 type=Text
 x=31
 y=157
@@ -213,7 +213,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varp,if1
 
-[flip_build]
+[com_23]
 type=Sprite
 buttonType=Select
 x=32
@@ -228,7 +228,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varp,if2
 
-[flip_click]
+[com_24]
 type=Sprite
 buttonType=Select
 x=32
@@ -288,7 +288,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varp,if6
 
-[com_28]
+[slug2_rotate_button]
 type=Model
 buttonType=Button
 x=80
@@ -302,7 +302,7 @@ modelXAn=500
 buttonText="Rotate the Fragment"
 eventCode=flag22
 
-[com_29]
+[slug2_move_up]
 type=Model
 buttonType=Button
 x=80
@@ -316,7 +316,7 @@ modelXAn=500
 buttonText="Move Fragment Up"
 eventCode=flag22
 
-[com_30]
+[slug2_move_right]
 type=Model
 buttonType=Button
 x=121
@@ -331,7 +331,7 @@ modelYAn=500
 buttonText="Move Fragment Right"
 eventCode=flag22
 
-[com_31]
+[slug2_move_left]
 type=Model
 buttonType=Button
 x=41
@@ -346,7 +346,7 @@ modelYAn=1530
 buttonText="Move Fragment Left"
 eventCode=flag22
 
-[com_32]
+[slug2_move_down]
 type=Model
 buttonType=Button
 x=80
@@ -361,7 +361,7 @@ modelYAn=1015
 buttonText="Move Fragment Down"
 eventCode=flag22
 
-[com_33]
+[slug2_flip_button]
 type=Model
 buttonType=Button
 x=123

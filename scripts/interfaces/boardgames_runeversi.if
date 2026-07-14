@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square0]
+[com_33]
 type=Sprite
 x=-3
 y=121
@@ -270,7 +270,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square9]
+[com_34]
 type=Sprite
 x=-3
 y=157
@@ -278,7 +278,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square14]
+[com_35]
 type=Sprite
 x=-3
 y=229
@@ -286,7 +286,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square46]
+[com_36]
 type=Sprite
 x=-3
 y=265
@@ -294,7 +294,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square40]
+[com_37]
 type=Sprite
 x=479
 y=50
@@ -302,7 +302,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square55]
+[com_38]
 type=Sprite
 x=479
 y=86
@@ -310,7 +310,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square50]
+[com_39]
 type=Sprite
 x=479
 y=122
@@ -318,7 +318,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square22]
+[com_40]
 type=Sprite
 x=479
 y=158
@@ -326,7 +326,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square2]
+[com_41]
 type=Sprite
 x=479
 y=194
@@ -334,7 +334,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square41]
+[com_42]
 type=Sprite
 x=479
 y=230
@@ -342,7 +342,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square13]
+[com_43]
 type=Sprite
 x=479
 y=266
@@ -350,7 +350,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runeversi_square3]
+[com_44]
 type=Sprite
 x=-3
 y=193
@@ -358,7 +358,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square19]
+[com_45]
 type=Sprite
 x=73
 y=299
@@ -366,7 +366,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square51]
+[com_46]
 type=Sprite
 x=109
 y=299
@@ -374,7 +374,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square32]
+[com_47]
 type=Sprite
 x=145
 y=299
@@ -382,7 +382,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square29]
+[com_48]
 type=Sprite
 x=181
 y=299
@@ -390,7 +390,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square27]
+[com_49]
 type=Sprite
 x=217
 y=299
@@ -398,7 +398,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square57]
+[com_50]
 type=Sprite
 x=253
 y=299
@@ -406,7 +406,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square60]
+[com_51]
 type=Sprite
 x=289
 y=299
@@ -414,7 +414,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square45]
+[com_52]
 type=Sprite
 x=325
 y=299
@@ -422,7 +422,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square58]
+[com_53]
 type=Sprite
 x=361
 y=299
@@ -430,7 +430,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square38]
+[com_54]
 type=Sprite
 x=397
 y=299
@@ -438,7 +438,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square23]
+[com_55]
 type=Sprite
 x=433
 y=299
@@ -446,7 +446,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square15]
+[com_56]
 type=Sprite
 x=72
 y=5
@@ -454,7 +454,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square39]
+[com_57]
 type=Sprite
 x=108
 y=5
@@ -462,7 +462,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square20]
+[com_58]
 type=Sprite
 x=144
 y=5
@@ -470,7 +470,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square37]
+[com_59]
 type=Sprite
 x=180
 y=5
@@ -478,7 +478,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square26]
+[com_60]
 type=Sprite
 x=216
 y=5
@@ -486,7 +486,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square30]
+[com_61]
 type=Sprite
 x=252
 y=5
@@ -494,7 +494,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square18]
+[com_62]
 type=Sprite
 x=288
 y=5
@@ -502,7 +502,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square47]
+[com_63]
 type=Sprite
 x=324
 y=5
@@ -510,7 +510,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square36]
+[com_64]
 type=Sprite
 x=360
 y=5
@@ -518,7 +518,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square63]
+[com_65]
 type=Sprite
 x=396
 y=5
@@ -526,7 +526,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square61]
+[com_66]
 type=Sprite
 x=432
 y=5
@@ -534,7 +534,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square16]
+[com_67]
 type=Text
 x=43
 y=58
@@ -545,7 +545,7 @@ font=495
 shadow=yes
 text="Insert a very long name here!"
 
-[boardgames_runeversi_square35]
+[com_68]
 type=Sprite
 x=37
 y=5
@@ -553,7 +553,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square12]
+[com_69]
 type=Sprite
 x=37
 y=299
@@ -561,7 +561,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square6]
+[com_70]
 type=Sprite
 x=12
 y=290
@@ -569,7 +569,7 @@ width=25
 height=30
 graphic=312
 
-[boardgames_runeversi_square31]
+[com_71]
 type=Sprite
 x=475
 y=20
@@ -577,7 +577,7 @@ width=25
 height=30
 graphic=311
 
-[boardgames_runeversi_square52]
+[com_72]
 type=Sprite
 x=439
 y=5
@@ -585,7 +585,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square11]
+[com_73]
 type=Sprite
 x=475
 y=290
@@ -593,7 +593,7 @@ width=25
 height=30
 graphic=313
 
-[boardgames_runeversi_square17]
+[com_74]
 type=Sprite
 x=439
 y=299
@@ -601,7 +601,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runeversi_square10]
+[com_75]
 type=Text
 x=100
 y=75
@@ -612,7 +612,7 @@ font=495
 shadow=yes
 text="vs"
 
-[boardgames_runeversi_square59]
+[com_76]
 type=Text
 x=43
 y=89
@@ -623,7 +623,7 @@ font=495
 shadow=yes
 text="Insert a very long name here!"
 
-[boardgames_runeversi_square54]
+[com_77]
 type=Sprite
 x=183
 y=26
@@ -631,7 +631,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square53]
+[com_78]
 type=Sprite
 x=183
 y=62
@@ -639,7 +639,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square21]
+[com_79]
 type=Sprite
 x=183
 y=98
@@ -647,7 +647,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square43]
+[com_80]
 type=Sprite
 x=183
 y=134
@@ -655,7 +655,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square62]
+[com_81]
 type=Sprite
 x=183
 y=170
@@ -663,7 +663,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runeversi_square49]
+[com_82]
 type=Sprite
 x=162
 y=34
@@ -671,7 +671,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square42]
+[com_83]
 type=Sprite
 x=144
 y=34
@@ -679,7 +679,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square48]
+[com_84]
 type=Sprite
 x=108
 y=34
@@ -687,7 +687,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square24]
+[com_85]
 type=Sprite
 x=72
 y=34
@@ -695,7 +695,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square5]
+[com_86]
 type=Sprite
 x=36
 y=34
@@ -703,7 +703,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square34]
+[com_87]
 type=Sprite
 x=17
 y=34
@@ -711,7 +711,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runeversi_square44]
+[com_88]
 type=Text
 x=38
 y=127
@@ -723,7 +723,7 @@ font=495
 shadow=yes
 text="Turn:"
 
-[boardgames_runeversi_square8]
+[boardgames_runeversi_sandtimer]
 type=Model
 x=157
 y=287
@@ -732,21 +732,21 @@ height=32
 model1Id=4612
 modelZoom=2048
 
-[boardgames_runeversi_square25]
+[com_90]
 type=Layer
 x=23
 y=237
 width=122
 height=37
 
-[boardgames_runeversi_square56]
+[com_91]
 type=Layer
 x=22
 y=197
 width=123
 height=38
 
-[boardgames_runeversi_square1]
+[com_92]
 type=Text
 x=21
 y=29
@@ -757,7 +757,7 @@ font=496
 shadow=yes
 text="Runeversi"
 
-[boardgames_runeversi_square4]
+[com_93]
 type=Rectangle
 buttonType=Close
 x=6
@@ -768,7 +768,7 @@ layerId=2883674
 fill=yes
 buttonText="Ok"
 
-[boardgames_runeversi_square33]
+[com_94]
 type=Text
 x=25
 y=2
@@ -783,7 +783,7 @@ font=495
 shadow=yes
 text="Resign"
 
-[boardgames_runeversi_square28]
+[boardgames_runeversi_draw]
 type=Rectangle
 buttonType=Button
 x=6
@@ -795,7 +795,7 @@ fill=yes
 buttonText="Offer your opponent a draw"
 eventCode=flag22
 
-[boardgames_runeversi_square7]
+[com_96]
 type=Text
 x=7
 y=3
@@ -810,7 +810,7 @@ font=495
 shadow=yes
 text="Offer draw"
 
-[mainmodal_window_background]
+[com_97]
 type=Sprite
 x=60
 y=-15
@@ -819,7 +819,7 @@ height=36
 layerId=2883674
 graphic=314
 
-[mainmodal_window_content]
+[com_98]
 type=Sprite
 x=62
 y=16
@@ -828,7 +828,7 @@ height=36
 layerId=2883675
 graphic=173
 
-[game_data]
+[com_99]
 type=Sprite
 x=25
 y=-14
@@ -837,7 +837,7 @@ height=36
 layerId=2883675
 graphic=314
 
-[board]
+[boardgames_runeversi_turn]
 type=Text
 x=85
 y=127
@@ -848,7 +848,7 @@ font=495
 shadow=yes
 text="A very long name"
 
-[runeversi_inv]
+[com_101]
 type=Model
 x=221
 y=40
@@ -858,7 +858,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[mainmodal_window_border]
+[com_102]
 type=Model
 x=285
 y=40
@@ -868,7 +868,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[mainmodal_window_close_button]
+[com_103]
 type=Model
 x=349
 y=40
@@ -878,7 +878,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[events]
+[com_104]
 type=Model
 x=413
 y=40
@@ -888,7 +888,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[game_piece_player1]
+[com_105]
 type=Model
 x=253
 y=72
@@ -898,7 +898,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[name_player1]
+[com_106]
 type=Model
 x=317
 y=72
@@ -908,7 +908,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[game_piece_player2]
+[com_107]
 type=Model
 x=381
 y=72
@@ -918,7 +918,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[name_player2]
+[com_108]
 type=Model
 x=445
 y=73
@@ -928,7 +928,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[turn]
+[com_109]
 type=Model
 x=222
 y=104
@@ -938,7 +938,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[name_turn]
+[com_110]
 type=Model
 x=285
 y=104
@@ -948,7 +948,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[status3]
+[com_111]
 type=Model
 x=349
 y=105
@@ -958,7 +958,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[status1]
+[com_112]
 type=Model
 x=412
 y=105
@@ -968,7 +968,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[status2]
+[com_113]
 type=Model
 x=252
 y=137
@@ -978,7 +978,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[sandtimer]
+[com_114]
 type=Model
 x=317
 y=136
@@ -988,7 +988,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[draw_button]
+[com_115]
 type=Model
 x=380
 y=137
@@ -998,7 +998,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[draw_build]
+[com_116]
 type=Model
 x=444
 y=137
@@ -1008,7 +1008,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[draw_click]
+[com_117]
 type=Model
 x=222
 y=168
@@ -1018,7 +1018,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[resign_button]
+[com_118]
 type=Model
 x=284
 y=168
@@ -1028,7 +1028,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[resign_build]
+[com_119]
 type=Model
 x=349
 y=168
@@ -1038,7 +1038,7 @@ model1Id=11103
 modelZoom=2000
 modelXAn=512
 
-[resign_click]
+[com_120]
 type=Model
 x=413
 y=168
@@ -1247,7 +1247,7 @@ height=30
 layerId=2883675
 graphic=313
 
-[com_142]
+[boardgames_runeversi_status2]
 type=Text
 x=23
 y=185
@@ -1301,7 +1301,7 @@ width=36
 height=36
 graphic=172
 
-[com_148]
+[boardgames_runeversi_status1]
 type=Text
 x=23
 y=160
@@ -1313,7 +1313,7 @@ font=494
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
-[com_149]
+[boardgames_runeversi_status3]
 type=Text
 x=27
 y=157
@@ -1429,7 +1429,7 @@ modelZoom=1024
 modelXAn=512
 modelYAn=1024
 
-[com_161]
+[boardgames_runeversi_boardinv]
 type=Inventory
 x=221
 y=40
@@ -1438,7 +1438,7 @@ height=8
 widthAlignment=Grid
 heightAlignment=Grid
 
-[com_162]
+[boardgames_runeversi_square0]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1448,7 +1448,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_163]
+[boardgames_runeversi_square1]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1458,7 +1458,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_164]
+[boardgames_runeversi_square2]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1468,7 +1468,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_165]
+[boardgames_runeversi_square3]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1478,7 +1478,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_166]
+[boardgames_runeversi_square4]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1488,7 +1488,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_167]
+[boardgames_runeversi_square5]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1498,7 +1498,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_168]
+[boardgames_runeversi_square6]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1508,7 +1508,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_169]
+[boardgames_runeversi_square7]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1518,7 +1518,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_170]
+[boardgames_runeversi_square8]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1528,7 +1528,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_171]
+[boardgames_runeversi_square9]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1538,7 +1538,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_172]
+[boardgames_runeversi_square10]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1548,7 +1548,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_173]
+[boardgames_runeversi_square11]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1558,7 +1558,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_174]
+[boardgames_runeversi_square12]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1568,7 +1568,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_175]
+[boardgames_runeversi_square13]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1578,7 +1578,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_176]
+[boardgames_runeversi_square14]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1588,7 +1588,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_177]
+[boardgames_runeversi_square15]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1598,7 +1598,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_178]
+[boardgames_runeversi_square16]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1608,7 +1608,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_179]
+[boardgames_runeversi_square17]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1618,7 +1618,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_180]
+[boardgames_runeversi_square18]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1628,7 +1628,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_181]
+[boardgames_runeversi_square19]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1638,7 +1638,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_182]
+[boardgames_runeversi_square20]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1648,7 +1648,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_183]
+[boardgames_runeversi_square21]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1658,7 +1658,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_184]
+[boardgames_runeversi_square22]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1668,7 +1668,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_185]
+[boardgames_runeversi_square23]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1678,7 +1678,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_186]
+[boardgames_runeversi_square24]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1688,7 +1688,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_187]
+[boardgames_runeversi_square25]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1698,7 +1698,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_188]
+[boardgames_runeversi_square26]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1708,7 +1708,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_189]
+[boardgames_runeversi_square27]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1718,7 +1718,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_190]
+[boardgames_runeversi_square28]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1728,7 +1728,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_191]
+[boardgames_runeversi_square29]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1738,7 +1738,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_192]
+[boardgames_runeversi_square30]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1748,7 +1748,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_193]
+[boardgames_runeversi_square31]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1758,7 +1758,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_194]
+[boardgames_runeversi_square32]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1768,7 +1768,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_195]
+[boardgames_runeversi_square33]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1778,7 +1778,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_196]
+[boardgames_runeversi_square34]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1788,7 +1788,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_197]
+[boardgames_runeversi_square35]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1798,7 +1798,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_198]
+[boardgames_runeversi_square36]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1808,7 +1808,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_199]
+[boardgames_runeversi_square37]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1818,7 +1818,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_200]
+[boardgames_runeversi_square38]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1828,7 +1828,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_201]
+[boardgames_runeversi_square39]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1838,7 +1838,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_202]
+[boardgames_runeversi_square40]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1848,7 +1848,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_203]
+[boardgames_runeversi_square41]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1858,7 +1858,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_204]
+[boardgames_runeversi_square42]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1868,7 +1868,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_205]
+[boardgames_runeversi_square43]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1878,7 +1878,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_206]
+[boardgames_runeversi_square44]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1888,7 +1888,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_207]
+[boardgames_runeversi_square45]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1898,7 +1898,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_208]
+[boardgames_runeversi_square46]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1908,7 +1908,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_209]
+[boardgames_runeversi_square47]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1918,7 +1918,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_210]
+[boardgames_runeversi_square48]
 type=Rectangle
 buttonType=Button
 x=221
@@ -1928,7 +1928,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_211]
+[boardgames_runeversi_square49]
 type=Rectangle
 buttonType=Button
 x=253
@@ -1938,7 +1938,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_212]
+[boardgames_runeversi_square50]
 type=Rectangle
 buttonType=Button
 x=285
@@ -1948,7 +1948,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_213]
+[boardgames_runeversi_square51]
 type=Rectangle
 buttonType=Button
 x=317
@@ -1958,7 +1958,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_214]
+[boardgames_runeversi_square52]
 type=Rectangle
 buttonType=Button
 x=349
@@ -1968,7 +1968,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_215]
+[boardgames_runeversi_square53]
 type=Rectangle
 buttonType=Button
 x=381
@@ -1978,7 +1978,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_216]
+[boardgames_runeversi_square54]
 type=Rectangle
 buttonType=Button
 x=413
@@ -1988,7 +1988,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_217]
+[boardgames_runeversi_square55]
 type=Rectangle
 buttonType=Button
 x=445
@@ -1998,7 +1998,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_218]
+[boardgames_runeversi_square56]
 type=Rectangle
 buttonType=Button
 x=221
@@ -2008,7 +2008,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_219]
+[boardgames_runeversi_square57]
 type=Rectangle
 buttonType=Button
 x=253
@@ -2018,7 +2018,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_220]
+[boardgames_runeversi_square58]
 type=Rectangle
 buttonType=Button
 x=285
@@ -2028,7 +2028,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_221]
+[boardgames_runeversi_square59]
 type=Rectangle
 buttonType=Button
 x=317
@@ -2038,7 +2038,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_222]
+[boardgames_runeversi_square60]
 type=Rectangle
 buttonType=Button
 x=349
@@ -2048,7 +2048,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_223]
+[boardgames_runeversi_square61]
 type=Rectangle
 buttonType=Button
 x=381
@@ -2058,7 +2058,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_224]
+[boardgames_runeversi_square62]
 type=Rectangle
 buttonType=Button
 x=413
@@ -2068,7 +2068,7 @@ height=32
 colour=0xFFFFFF
 eventCode=flag22
 
-[com_225]
+[boardgames_runeversi_square63]
 type=Rectangle
 buttonType=Button
 x=445

@@ -1,4 +1,4 @@
-[back_bank]
+[com_0]
 type=Rectangle
 x=9
 y=21
@@ -7,7 +7,7 @@ height=308
 trans=200
 fill=yes
 
-[bank_layer]
+[com_1]
 type=Rectangle
 x=284
 y=21
@@ -16,7 +16,7 @@ height=308
 trans=200
 fill=yes
 
-[bank_contents]
+[bg_1]
 type=Sprite
 x=24
 y=22
@@ -26,7 +26,7 @@ layerId=17039404
 graphic=297
 tiling=yes
 
-[back]
+[bg_16]
 type=Sprite
 x=292
 y=16
@@ -36,7 +36,7 @@ layerId=17039404
 graphic=297
 tiling=yes
 
-[inv_bg]
+[brdrcrnr_1]
 type=Sprite
 x=17
 y=15
@@ -45,7 +45,7 @@ height=32
 layerId=17039404
 graphic=824
 
-[equipped_bg_1]
+[brdrcrnr_2]
 type=Sprite
 x=17
 y=34
@@ -54,7 +54,7 @@ height=32
 layerId=17039404
 graphic=829
 
-[equipped_bg_2]
+[brdrcrnr_3]
 type=Sprite
 x=17
 y=293
@@ -63,7 +63,7 @@ height=32
 layerId=17039404
 graphic=826
 
-[equipped_bg_3]
+[brdrcrnr_4]
 type=Sprite
 x=255
 y=15
@@ -72,7 +72,7 @@ height=32
 layerId=17039404
 graphic=825
 
-[equipped_bg_4]
+[brdrcrnr_5]
 type=Sprite
 x=255
 y=34
@@ -81,7 +81,7 @@ height=32
 layerId=17039404
 graphic=830
 
-[equipped_bg_5]
+[brdrcrnr_6]
 type=Sprite
 x=255
 y=293
@@ -90,7 +90,7 @@ height=32
 layerId=17039404
 graphic=827
 
-[inv_icon_helm]
+[brdrcrnr_7]
 type=Sprite
 x=291
 y=15
@@ -99,7 +99,7 @@ height=32
 layerId=17039404
 graphic=824
 
-[inv_icon_chest]
+[brdrcrnr_8]
 type=Sprite
 x=291
 y=34
@@ -108,7 +108,7 @@ height=32
 layerId=17039404
 graphic=829
 
-[inv_icon_leggings]
+[brdrcrnr_9]
 type=Sprite
 x=291
 y=293
@@ -117,7 +117,7 @@ height=32
 layerId=17039404
 graphic=826
 
-[inv_icon_boots]
+[brdrcrnr_10]
 type=Sprite
 x=481
 y=15
@@ -126,7 +126,7 @@ height=32
 layerId=17039404
 graphic=825
 
-[inv_icon_weapon]
+[brdrcrnr_11]
 type=Sprite
 x=481
 y=34
@@ -135,7 +135,7 @@ height=32
 layerId=17039404
 graphic=830
 
-[chest_layer]
+[brdrcrnr_12]
 type=Sprite
 x=481
 y=293
@@ -144,7 +144,7 @@ height=32
 layerId=17039404
 graphic=827
 
-[chest_contents]
+[l_brdr_1]
 type=Sprite
 x=4
 y=54
@@ -155,7 +155,7 @@ graphic=821
 tiling=yes
 baseOpName=" "
 
-[modal_dialog_window]
+[r_brdr_1]
 type=Sprite
 x=267
 y=54
@@ -165,7 +165,7 @@ layerId=17039404
 graphic=823
 tiling=yes
 
-[modal_dialog_window_background]
+[t1_brdr_1]
 type=Sprite
 x=47
 y=2
@@ -175,7 +175,7 @@ layerId=17039404
 graphic=820
 tiling=yes
 
-[modal_dialog_window_content]
+[t2_brdr_1]
 type=Sprite
 x=27
 y=32
@@ -185,7 +185,7 @@ layerId=17039404
 graphic=828
 tiling=yes
 
-[modal_dialog_window_border]
+[b_brdr_1]
 type=Sprite
 x=48
 y=305
@@ -195,7 +195,7 @@ layerId=17039404
 graphic=822
 tiling=yes
 
-[modal_dialog_window_close_button]
+[b_brdr_1_1]
 type=Sprite
 x=323
 y=305
@@ -205,7 +205,7 @@ layerId=17039404
 graphic=822
 tiling=yes
 
-[com_22]
+[t1_brdr_1_1]
 type=Sprite
 x=322
 y=2
@@ -215,7 +215,7 @@ layerId=17039404
 graphic=820
 tiling=yes
 
-[com_23]
+[t2_brdr_1_1]
 type=Sprite
 x=300
 y=32
@@ -225,7 +225,7 @@ layerId=17039404
 graphic=828
 tiling=yes
 
-[com_24]
+[r_brdr_1_1]
 type=Sprite
 x=493
 y=55
@@ -235,7 +235,7 @@ layerId=17039404
 graphic=823
 tiling=yes
 
-[com_25]
+[l_brdr_1_1]
 type=Sprite
 x=278
 y=55
@@ -245,7 +245,7 @@ layerId=17039404
 graphic=821
 tiling=yes
 
-[com_26]
+[inv_bg]
 type=Sprite
 x=314
 y=66
@@ -254,7 +254,7 @@ height=62
 layerId=17039404
 graphic=837
 
-[com_27]
+[inv_connection_1]
 type=Sprite
 x=406
 y=123
@@ -263,7 +263,7 @@ height=32
 layerId=17039404
 graphic=841
 
-[com_28]
+[inv_connection_2]
 type=Sprite
 x=406
 y=167
@@ -272,7 +272,7 @@ height=32
 layerId=17039404
 graphic=841
 
-[com_29]
+[inv_connection_2b]
 type=Sprite
 x=385
 y=145
@@ -281,7 +281,7 @@ height=32
 layerId=17039404
 graphic=828
 
-[com_30]
+[inv_connection_3]
 type=Sprite
 x=406
 y=208
@@ -290,7 +290,7 @@ height=32
 layerId=17039404
 graphic=841
 
-[com_31]
+[equipped_bg_1]
 type=Sprite
 x=406
 y=104
@@ -299,7 +299,7 @@ height=36
 layerId=17039404
 graphic=170
 
-[com_32]
+[equipped_bg_2]
 type=Sprite
 x=406
 y=145
@@ -308,7 +308,7 @@ height=36
 layerId=17039404
 graphic=170
 
-[com_33]
+[equipped_bg_3]
 type=Sprite
 x=406
 y=186
@@ -317,7 +317,7 @@ height=36
 layerId=17039404
 graphic=170
 
-[com_34]
+[equipped_bg_4]
 type=Sprite
 x=406
 y=227
@@ -326,7 +326,7 @@ height=36
 layerId=17039404
 graphic=170
 
-[com_35]
+[equipped_bg_5]
 type=Sprite
 x=356
 y=145
@@ -335,7 +335,7 @@ height=36
 layerId=17039404
 graphic=170
 
-[com_36]
+[inv_icon_helm]
 type=Sprite
 x=408
 y=106
@@ -344,7 +344,7 @@ height=32
 layerId=17039404
 graphic=156
 
-[com_37]
+[inv_icon_chest]
 type=Sprite
 x=408
 y=147
@@ -353,7 +353,7 @@ height=32
 layerId=17039404
 graphic=161
 
-[com_38]
+[inv_icon_leggings]
 type=Sprite
 x=408
 y=188
@@ -362,7 +362,7 @@ height=32
 layerId=17039404
 graphic=163
 
-[com_39]
+[inv_icon_boots]
 type=Sprite
 x=408
 y=229
@@ -371,7 +371,7 @@ height=32
 layerId=17039404
 graphic=165
 
-[com_40]
+[inv_icon_weapon]
 type=Sprite
 x=358
 y=147
@@ -380,7 +380,7 @@ height=32
 layerId=17039404
 graphic=159
 
-[com_41]
+[bank_title]
 type=Text
 x=97
 y=26
@@ -392,7 +392,7 @@ font=496
 shadow=yes
 text="Cyrisus's Bank"
 
-[com_42]
+[bank_layer]
 type=Layer
 x=32
 y=52
@@ -402,7 +402,7 @@ layerId=17039404
 oninvtransmit=60
 oninvtransmitlist=514
 
-[com_43]
+[cyrisus_inv]
 type=Text
 x=363
 y=26
@@ -415,14 +415,14 @@ font=496
 shadow=yes
 text="Chest"
 
-[com_44]
+[background]
 type=Layer
 x=-10
 y=2
 width=513
 height=335
 
-[com_45]
+[chest_layer]
 type=Layer
 x=348
 y=105
@@ -431,7 +431,7 @@ height=158
 oninvtransmit=61
 oninvtransmitlist=515
 
-[com_46]
+[close_button]
 type=Sprite
 x=476
 y=28
@@ -444,7 +444,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onclick=29
 
-[com_47]
+[close_button_lyr]
 type=Layer
 x=473
 y=15

@@ -1,11 +1,11 @@
-[100guide_flour_inv]
+[100guide_back1]
 type=Sprite
 y=-4
 width=104
 height=104
 graphic=444
 
-[modal_dialog_window]
+[com_1]
 type=Sprite
 x=103
 y=-4
@@ -13,7 +13,7 @@ width=104
 height=104
 graphic=444
 
-[modal_dialog_window_background]
+[com_2]
 type=Sprite
 x=206
 y=-4
@@ -21,7 +21,7 @@ width=104
 height=104
 graphic=444
 
-[modal_dialog_window_content]
+[com_3]
 type=Sprite
 x=309
 y=-4
@@ -29,7 +29,7 @@ width=104
 height=104
 graphic=444
 
-[modal_dialog_window_border]
+[com_4]
 type=Sprite
 x=412
 y=-4
@@ -37,7 +37,7 @@ width=104
 height=104
 graphic=444
 
-[modal_dialog_window_close_button]
+[com_5]
 type=Sprite
 y=99
 width=104
@@ -234,7 +234,7 @@ model1Id=13353
 modelAnim=guide_interface_down
 modelZoom=400
 
-[com_28]
+[100_blue1]
 type=Rectangle
 x=-50
 y=-1
@@ -244,7 +244,7 @@ trans=160
 colour=0x001040
 fill=yes
 
-[com_29]
+[100_red1]
 type=Rectangle
 x=11
 y=-1
@@ -254,7 +254,7 @@ trans=160
 colour=0x203080
 fill=yes
 
-[com_30]
+[100_blue2]
 type=Rectangle
 x=72
 y=-1
@@ -264,7 +264,7 @@ trans=160
 colour=0x001040
 fill=yes
 
-[com_31]
+[100_red2]
 type=Rectangle
 x=133
 y=-1
@@ -274,7 +274,7 @@ trans=160
 colour=0x203080
 fill=yes
 
-[com_32]
+[100_blue3]
 type=Rectangle
 x=194
 y=-1
@@ -284,7 +284,7 @@ trans=160
 colour=0x001040
 fill=yes
 
-[com_33]
+[100_red3]
 type=Rectangle
 x=255
 y=-1
@@ -294,7 +294,7 @@ trans=160
 colour=0x203080
 fill=yes
 
-[com_34]
+[100_blue4]
 type=Rectangle
 x=316
 y=-1
@@ -304,7 +304,7 @@ trans=160
 colour=0x001040
 fill=yes
 
-[com_35]
+[100_red4]
 type=Rectangle
 x=377
 y=-1
@@ -314,7 +314,7 @@ trans=160
 colour=0x203080
 fill=yes
 
-[com_36]
+[100_blue5]
 type=Rectangle
 x=438
 y=-1
@@ -324,7 +324,7 @@ trans=160
 colour=0x001040
 fill=yes
 
-[com_37]
+[100_red5]
 type=Rectangle
 x=499
 y=-1
@@ -415,7 +415,7 @@ width=88
 height=60
 graphic=297
 
-[com_48]
+[100guide_flour_inv]
 type=Inventory
 x=144
 y=120
@@ -638,7 +638,7 @@ layerId=131147
 graphic=540
 eventCode=flag22
 
-[com_75]
+[100guide_inv_flour_close_button]
 type=Layer
 x=477
 y=3

@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Rectangle
 y=-2
 width=515
@@ -7,7 +7,7 @@ trans=160
 colour=0x46341D
 fill=yes
 
-[bespoke_window]
+[com_1]
 type=Sprite
 x=479
 y=10

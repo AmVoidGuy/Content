@@ -1,4 +1,4 @@
-[layer_1]
+[mes5a]
 type=Text
 x=21
 width=441
@@ -7,7 +7,7 @@ hAlign=Center
 font=497
 text="Line1"
 
-[mes5a]
+[mes5b]
 type=Text
 x=21
 y=16
@@ -17,7 +17,7 @@ hAlign=Center
 font=497
 text="Line2"
 
-[mes5b]
+[mes5c]
 type=Text
 x=21
 y=32
@@ -27,7 +27,7 @@ hAlign=Center
 font=497
 text="Line3"
 
-[mes5c]
+[mes5d]
 type=Text
 x=21
 y=48
@@ -37,7 +37,7 @@ hAlign=Center
 font=497
 text="Line4"
 
-[mes5d]
+[mes5e]
 type=Text
 x=21
 y=64
@@ -47,7 +47,7 @@ hAlign=Center
 font=497
 text="Line5"
 
-[mes5e]
+[mes5next]
 type=Text
 x=65
 y=80

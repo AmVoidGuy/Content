@@ -1,11 +1,11 @@
-[backing]
+[com_0]
 type=Rectangle
 width=520
 height=335
 trans=150
 fill=yes
 
-[contents]
+[com_1]
 type=Text
 x=10
 y=140
@@ -49,7 +49,7 @@ font=496
 shadow=yes
 text="Healer :"
 
-[com_5]
+[barbassault_horn_att]
 type=Text
 x=88
 y=141
@@ -60,7 +60,7 @@ font=495
 shadow=yes
 text="----------------------"
 
-[com_6]
+[barbassualt_horn_def]
 type=Text
 x=88
 y=164
@@ -71,7 +71,7 @@ font=495
 shadow=yes
 text="----------------------"
 
-[com_7]
+[barbassault_horn_col]
 type=Text
 x=88
 y=188
@@ -82,7 +82,7 @@ font=495
 shadow=yes
 text="----------------------"
 
-[barbassault_horn_att]
+[barbassault_horn_heal]
 type=Text
 x=88
 y=211
@@ -93,7 +93,7 @@ font=495
 shadow=yes
 text="----------------------"
 
-[barbassualt_horn_def]
+[com_9]
 type=Model
 x=267
 y=37
@@ -103,7 +103,7 @@ model1Id=20561
 modelZoom=1084
 modelXAn=483
 
-[barbassault_horn_col]
+[com_10]
 type=Model
 x=266
 y=117
@@ -113,7 +113,7 @@ model1Id=20566
 modelZoom=1084
 modelXAn=512
 
-[barbassault_horn_heal]
+[com_11]
 type=Model
 x=265
 y=190
@@ -135,7 +135,7 @@ modelZoom=1084
 modelXAn=450
 modelYAn=2044
 
-[com_13]
+[barbassault_horn_col_r]
 type=Text
 buttonType=Button
 x=313
@@ -150,7 +150,7 @@ text="Red"
 buttonText="Call"
 eventCode=flag22
 
-[com_14]
+[barbassault_horn_col_g]
 type=Text
 buttonType=Button
 x=313
@@ -165,7 +165,7 @@ text="Green"
 buttonText="Call"
 eventCode=flag22
 
-[com_15]
+[barbassault_horn_col_b]
 type=Text
 buttonType=Button
 x=313
@@ -180,7 +180,7 @@ text="Blue"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_col_r]
+[barbassault_horn_att_1]
 type=Text
 buttonType=Button
 x=313
@@ -195,7 +195,7 @@ text="Controlled/Bronze/Wind"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_col_g]
+[barbassault_horn_att_2]
 type=Text
 buttonType=Button
 x=313
@@ -210,7 +210,7 @@ text="Accurate/Iron/Water"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_col_b]
+[barbassault_horn_att_3]
 type=Text
 buttonType=Button
 x=313
@@ -225,7 +225,7 @@ text="Aggressive/Steel/Earth"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_att_2]
+[barbassault_horn_att_4]
 type=Text
 buttonType=Button
 x=313
@@ -240,7 +240,7 @@ text="Defensive/Mithril/Fire"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_att_3]
+[barbassault_horn_def_tofu]
 type=Text
 buttonType=Button
 x=313
@@ -255,7 +255,7 @@ text="Tofu"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_att_4]
+[barbassault_horn_def_worm]
 type=Text
 buttonType=Button
 x=313
@@ -270,7 +270,7 @@ text="Worms"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_def_tofu]
+[barbassault_horn_def_crack]
 type=Text
 buttonType=Button
 x=313
@@ -285,7 +285,7 @@ text="Crackers"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_def_worm]
+[barbassault_horn_heal_tofu]
 type=Text
 buttonType=Button
 x=313
@@ -300,7 +300,7 @@ text="Poison tofu"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_def_crack]
+[barbassault_horn_heal_worm]
 type=Text
 buttonType=Button
 x=313
@@ -315,7 +315,7 @@ text="Poison worms"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_heal_tofu]
+[barbassault_horn_heal_meat]
 type=Text
 buttonType=Button
 x=313
@@ -330,7 +330,7 @@ text="Poison meat"
 buttonText="Call"
 eventCode=flag22
 
-[barbassault_horn_heal_worm]
+[com_26]
 type=Text
 x=37
 y=37
@@ -342,7 +342,7 @@ font=764
 shadow=yes
 text="Horn of Glory"
 
-[barbassault_horn_heal_meat]
+[com_27]
 type=Sprite
 x=478
 y=9
@@ -351,7 +351,7 @@ height=23
 overLayerId=29
 graphic=539
 
-[com_28]
+[barbassault_horn_close]
 type=Sprite
 buttonType=Button
 x=3
@@ -362,7 +362,7 @@ layerId=31719453
 graphic=540
 eventCode=flag22
 
-[barbassault_horn_close]
+[barbassault_horn_close_button]
 type=Layer
 x=475
 y=7

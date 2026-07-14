@@ -1,4 +1,4 @@
-[content_layer1]
+[com_0]
 type=Model
 x=415
 y=15
@@ -8,7 +8,7 @@ model1Id=10566
 modelZoom=843
 modelXAn=484
 
-[content_panel_blue]
+[magictrain_alchem_a]
 type=Text
 x=368
 y=5
@@ -21,7 +21,7 @@ font=497
 shadow=yes
 text="Alchemy"
 
-[object_1]
+[magictrain_alchem_b]
 type=Text
 x=359
 y=30
@@ -32,7 +32,7 @@ font=494
 shadow=yes
 text="Pizazz Points:"
 
-[object_2]
+[magictrain_alchem_pts]
 type=Text
 x=475
 y=31
@@ -44,7 +44,7 @@ font=494
 shadow=yes
 text="9999"
 
-[object_3]
+[magictrain_alchem_item1]
 type=Text
 x=360
 y=53
@@ -55,7 +55,7 @@ font=494
 shadow=yes
 text="Leather Boots:"
 
-[object_4]
+[magictrain_alchem_item2]
 type=Text
 x=360
 y=71
@@ -67,7 +67,7 @@ font=494
 shadow=yes
 text="Adamant Kiteshield:"
 
-[object_5]
+[magictrain_alchem_item3]
 type=Text
 x=360
 y=102
@@ -78,7 +78,7 @@ font=494
 shadow=yes
 text="Adamant Helm:"
 
-[title]
+[magictrain_alchem_item4]
 type=Text
 x=360
 y=124
@@ -89,7 +89,7 @@ font=494
 shadow=yes
 text="Emerald:"
 
-[points]
+[magictrain_alchem_item5]
 type=Text
 x=360
 y=143
@@ -101,7 +101,7 @@ font=494
 shadow=yes
 text="Rune Longsword:"
 
-[magictrain_alchem_pts]
+[magictrain_alchem_cost1]
 type=Text
 x=480
 y=53
@@ -112,7 +112,7 @@ font=494
 shadow=yes
 text="999"
 
-[magictrain_alchem_cost1]
+[magictrain_alchem_cost2]
 type=Text
 x=479
 y=79
@@ -123,7 +123,7 @@ font=494
 shadow=yes
 text="999"
 
-[magictrain_alchem_cost2]
+[magictrain_alchem_cost3]
 type=Text
 x=479
 y=102
@@ -134,7 +134,7 @@ font=494
 shadow=yes
 text="999"
 
-[magictrain_alchem_cost3]
+[magictrain_alchem_cost4]
 type=Text
 x=480
 y=124
@@ -145,7 +145,7 @@ font=494
 shadow=yes
 text="999"
 
-[magictrain_alchem_cost4]
+[magictrain_alchem_cost5]
 type=Text
 x=479
 y=148
@@ -156,7 +156,7 @@ font=494
 shadow=yes
 text="999"
 
-[magictrain_alchem_cost5]
+[magictrain_lay1]
 type=Layer
 x=320
 y=50
@@ -164,7 +164,7 @@ width=32
 height=32
 hide=yes
 
-[magictrain_lay1]
+[magictrain_lay2]
 type=Layer
 x=320
 y=74
@@ -172,7 +172,7 @@ width=32
 height=32
 hide=yes
 
-[magictrain_lay2]
+[magictrain_lay3]
 type=Layer
 x=320
 y=91
@@ -180,7 +180,7 @@ width=32
 height=32
 hide=yes
 
-[com_17]
+[magictrain_lay4]
 type=Layer
 x=321
 y=114
@@ -188,7 +188,7 @@ width=32
 height=32
 hide=yes
 
-[magictrain_lay3]
+[magictrain_lay5]
 type=Layer
 x=320
 y=128
@@ -196,7 +196,7 @@ width=32
 height=32
 hide=yes
 
-[com_19]
+[magictrain_arrow1]
 type=Model
 x=1
 y=-8
@@ -207,7 +207,7 @@ model1Id=10568
 modelZoom=500
 modelXAn=496
 
-[magictrain_lay4]
+[magictrain_arrow2]
 type=Model
 y=-7
 width=32
@@ -217,7 +217,7 @@ model1Id=10568
 modelZoom=500
 modelXAn=490
 
-[com_21]
+[magictrain_arrow3]
 type=Model
 y=1
 width=32
@@ -227,7 +227,7 @@ model1Id=10568
 modelZoom=500
 modelXAn=496
 
-[magictrain_lay5]
+[magictrain_arrow4]
 type=Model
 x=-1
 width=32
@@ -237,7 +237,7 @@ model1Id=10568
 modelZoom=500
 modelXAn=490
 
-[com_23]
+[magictrain_arrow5]
 type=Model
 y=8
 width=32

@@ -1,4 +1,4 @@
-[com_0]
+[brew_backing_scroll]
 type=Model
 x=242
 y=165
@@ -261,7 +261,7 @@ colour=0x333308
 hAlign=Center
 font=497
 
-[close_button]
+[com_26]
 type=Sprite
 x=482
 y=5
@@ -270,7 +270,7 @@ height=23
 overLayerId=28
 graphic=539
 
-[content_layer]
+[brew_close_game_over]
 type=Sprite
 buttonType=Close
 x=2
@@ -281,7 +281,7 @@ layerId=27131932
 graphic=540
 buttonText="Ok"
 
-[com_28]
+[brew_game_over_close_button]
 type=Layer
 x=480
 y=2

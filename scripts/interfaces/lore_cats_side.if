@@ -1,4 +1,4 @@
-[lore_chathead]
+[com_0]
 type=Rectangle
 x=8
 y=28
@@ -7,7 +7,7 @@ height=111
 trans=200
 fill=yes
 
-[contents]
+[com_1]
 type=Rectangle
 x=14
 y=31
@@ -16,7 +16,7 @@ height=105
 trans=200
 fill=yes
 
-[bespoke_window]
+[com_2]
 type=Rectangle
 x=24
 y=36
@@ -25,7 +25,7 @@ height=95
 trans=200
 fill=yes
 
-[lore_name]
+[lore_chathead]
 type=Model
 x=85
 y=70
@@ -38,7 +38,7 @@ discardedModelField=0
 onvartransmit=819
 onvartransmitlist=1174
 
-[cat_bounding_box]
+[com_4]
 type=Sprite
 x=5
 y=25
@@ -46,7 +46,7 @@ width=32
 height=32
 graphic=856
 
-[call]
+[com_5]
 type=Sprite
 x=37
 y=12
@@ -56,7 +56,7 @@ graphic=851
 tiling=yes
 baseOpName=" "
 
-[dismiss]
+[com_6]
 type=Sprite
 x=152
 y=25
@@ -64,7 +64,7 @@ width=32
 height=32
 graphic=857
 
-[call_animal_button]
+[com_7]
 type=Sprite
 x=167
 y=57
@@ -81,7 +81,7 @@ width=32
 height=32
 graphic=859
 
-[size_icon]
+[com_9]
 type=Sprite
 x=37
 y=126
@@ -90,7 +90,7 @@ height=32
 graphic=851
 tiling=yes
 
-[size_percentage]
+[com_10]
 type=Sprite
 x=5
 y=110
@@ -98,7 +98,7 @@ width=32
 height=32
 graphic=858
 
-[hunger_icon]
+[com_11]
 type=Sprite
 x=-9
 y=57
@@ -107,7 +107,7 @@ height=53
 graphic=852
 tiling=yes
 
-[hunger]
+[com_12]
 type=Sprite
 x=-1
 y=169
@@ -116,7 +116,7 @@ height=47
 graphic=1075
 tiling=yes
 
-[bespoke_window_background]
+[com_13]
 type=Sprite
 x=13
 y=153
@@ -125,7 +125,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[bespoke_window_content]
+[com_14]
 type=Sprite
 x=164
 y=169
@@ -134,7 +134,7 @@ height=47
 graphic=1075
 tiling=yes
 
-[bespoke_window_border]
+[com_15]
 type=Sprite
 x=12
 y=199
@@ -143,7 +143,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[dismiss_button]
+[size_icon]
 type=Sprite
 x=126
 y=173
@@ -154,7 +154,7 @@ graphic=1177
 onmouseleave=40,43450394
 onmouserepeat=38,component.parentId,43450394,"Pet Size Percentage",25,300
 
-[com_17]
+[size_percentage]
 type=Text
 x=126
 y=200
@@ -172,7 +172,7 @@ onvartransmit=820
 onmouserepeat=38,component.parentId,43450394,"Pet Size Percentage",25,300
 onvartransmitlist=1175
 
-[com_18]
+[hunger_icon]
 type=Sprite
 x=31
 y=173
@@ -183,7 +183,7 @@ graphic=1176
 onmouseleave=40,43450394
 onmouserepeat=38,component.parentId,43450394,"Pet Hunger Percentage",25,300
 
-[com_19]
+[hunger]
 type=Text
 x=27
 y=200
@@ -210,7 +210,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_21]
+[call_animal_button]
 type=Sprite
 x=29
 y=225
@@ -234,7 +234,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_23]
+[dismiss_button]
 type=Sprite
 x=137
 y=225
@@ -255,7 +255,7 @@ width=166
 height=20
 graphic=1196
 
-[com_25]
+[lore_name]
 type=Text
 x=13
 y=143
@@ -266,13 +266,13 @@ hAlign=Center
 vAlign=Center
 font=496
 
-[com_26]
+[build_layer]
 type=Layer
 width=189
 height=260
 layerId=43450395
 
-[com_27]
+[cat_bounding_box]
 type=Layer
 width=190
 height=261

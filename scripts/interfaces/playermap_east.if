@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Rectangle
 x=-15
 y=-3
@@ -7,7 +7,7 @@ height=340
 trans=66
 colour=0x3300CC
 
-[bespoke_window]
+[aide_adie_scroll]
 type=Model
 x=123
 y=290
@@ -18,7 +18,7 @@ modelZoom=753
 modelXAn=624
 modelYAn=6
 
-[aide_adie_scroll]
+[mapmodel]
 type=Model
 x=240
 y=155
@@ -29,7 +29,7 @@ modelZoom=613
 modelXAn=345
 modelYAn=84
 
-[mapmodel]
+[map_title]
 type=Text
 x=67
 y=297
@@ -40,7 +40,7 @@ hAlign=Center
 font=497
 text="Misthalin & Asgarnia"
 
-[map_title]
+[northpointer]
 type=Model
 x=41
 y=43
@@ -51,7 +51,7 @@ modelZoom=999
 modelXAn=302
 modelYAn=175
 
-[northpointer]
+[x_mark_0]
 type=Model
 x=95
 y=197
@@ -65,7 +65,7 @@ modelYAn=68
 script1=eq,0
 script1op1=varp,newcomers_pos
 
-[x_mark_0]
+[x_mark_1]
 type=Model
 x=128
 y=200
@@ -79,7 +79,7 @@ modelYAn=68
 script1=eq,1
 script1op1=varp,newcomers_pos
 
-[x_mark_1]
+[x_mark_2]
 type=Model
 x=156
 y=218
@@ -93,7 +93,7 @@ modelYAn=68
 script1=eq,2
 script1op1=varp,newcomers_pos
 
-[x_mark_2]
+[x_mark_3]
 type=Model
 x=232
 y=222
@@ -107,7 +107,7 @@ modelYAn=68
 script1=eq,3
 script1op1=varp,newcomers_pos
 
-[x_mark_3]
+[x_mark_4]
 type=Model
 x=253
 y=239
@@ -121,7 +121,7 @@ modelYAn=68
 script1=eq,4
 script1op1=varp,newcomers_pos
 
-[x_mark_4]
+[x_mark_5]
 type=Model
 x=290
 y=246
@@ -135,7 +135,7 @@ modelYAn=68
 script1=eq,5
 script1op1=varp,newcomers_pos
 
-[x_mark_5]
+[x_mark_6]
 type=Model
 x=336
 y=264
@@ -149,7 +149,7 @@ modelYAn=68
 script1=eq,6
 script1op1=varp,newcomers_pos
 
-[x_mark_6]
+[x_mark_7]
 type=Model
 x=94
 y=164
@@ -163,7 +163,7 @@ modelYAn=68
 script1=eq,7
 script1op1=varp,newcomers_pos
 
-[x_mark_7]
+[x_mark_8]
 type=Model
 x=121
 y=169
@@ -177,7 +177,7 @@ modelYAn=68
 script1=eq,8
 script1op1=varp,newcomers_pos
 
-[x_mark_8]
+[x_mark_9]
 type=Model
 x=159
 y=177
@@ -191,7 +191,7 @@ modelYAn=68
 script1=eq,9
 script1op1=varp,newcomers_pos
 
-[x_mark_9]
+[x_mark_10]
 type=Model
 x=223
 y=190
@@ -205,7 +205,7 @@ modelYAn=68
 script1=eq,10
 script1op1=varp,newcomers_pos
 
-[x_mark_10]
+[x_mark_11]
 type=Model
 x=261
 y=204
@@ -219,7 +219,7 @@ modelYAn=68
 script1=eq,11
 script1op1=varp,newcomers_pos
 
-[x_mark_11]
+[x_mark_12]
 type=Model
 x=304
 y=214
@@ -233,7 +233,7 @@ modelYAn=68
 script1=eq,12
 script1op1=varp,newcomers_pos
 
-[x_mark_12]
+[x_mark_13]
 type=Model
 x=343
 y=225
@@ -247,7 +247,7 @@ modelYAn=68
 script1=eq,13
 script1op1=varp,newcomers_pos
 
-[x_mark_13]
+[x_mark_14]
 type=Model
 x=121
 y=129
@@ -261,7 +261,7 @@ modelYAn=68
 script1=eq,14
 script1op1=varp,newcomers_pos
 
-[x_mark_14]
+[x_mark_15]
 type=Model
 x=154
 y=138
@@ -275,7 +275,7 @@ modelYAn=68
 script1=eq,15
 script1op1=varp,newcomers_pos
 
-[x_mark_15]
+[x_mark_16]
 type=Model
 x=193
 y=149
@@ -289,7 +289,7 @@ modelYAn=68
 script1=eq,16
 script1op1=varp,newcomers_pos
 
-[x_mark_16]
+[x_mark_17]
 type=Model
 x=233
 y=159
@@ -303,7 +303,7 @@ modelYAn=68
 script1=eq,17
 script1op1=varp,newcomers_pos
 
-[x_mark_17]
+[x_mark_18]
 type=Model
 x=272
 y=168
@@ -317,7 +317,7 @@ modelYAn=68
 script1=eq,18
 script1op1=varp,newcomers_pos
 
-[x_mark_18]
+[x_mark_19]
 type=Model
 x=311
 y=175
@@ -331,7 +331,7 @@ modelYAn=68
 script1=eq,19
 script1op1=varp,newcomers_pos
 
-[x_mark_19]
+[x_mark_20]
 type=Model
 x=346
 y=185
@@ -345,7 +345,7 @@ modelYAn=68
 script1=eq,20
 script1op1=varp,newcomers_pos
 
-[x_mark_20]
+[x_mark_21]
 type=Model
 x=139
 y=98
@@ -359,7 +359,7 @@ modelYAn=68
 script1=eq,21
 script1op1=varp,newcomers_pos
 
-[x_mark_21]
+[x_mark_22]
 type=Model
 x=172
 y=112
@@ -373,7 +373,7 @@ modelYAn=68
 script1=eq,22
 script1op1=varp,newcomers_pos
 
-[x_mark_22]
+[x_mark_23]
 type=Model
 x=205
 y=118
@@ -387,7 +387,7 @@ modelYAn=68
 script1=eq,23
 script1op1=varp,newcomers_pos
 
-[x_mark_23]
+[x_mark_24]
 type=Model
 x=242
 y=126
@@ -401,7 +401,7 @@ modelYAn=68
 script1=eq,24
 script1op1=varp,newcomers_pos
 
-[x_mark_24]
+[x_mark_25]
 type=Model
 x=278
 y=134
@@ -415,7 +415,7 @@ modelYAn=68
 script1=eq,25
 script1op1=varp,newcomers_pos
 
-[x_mark_25]
+[x_mark_26]
 type=Model
 x=316
 y=145
@@ -429,7 +429,7 @@ modelYAn=68
 script1=eq,26
 script1op1=varp,newcomers_pos
 
-[x_mark_26]
+[x_mark_27]
 type=Model
 x=354
 y=151
@@ -443,7 +443,7 @@ modelYAn=68
 script1=eq,27
 script1op1=varp,newcomers_pos
 
-[x_mark_27]
+[x_mark_28]
 type=Model
 x=147
 y=75
@@ -457,7 +457,7 @@ modelYAn=68
 script1=eq,28
 script1op1=varp,newcomers_pos
 
-[x_mark_28]
+[x_mark_29]
 type=Model
 x=183
 y=83
@@ -471,7 +471,7 @@ modelYAn=68
 script1=eq,29
 script1op1=varp,newcomers_pos
 
-[x_mark_29]
+[x_mark_30]
 type=Model
 x=215
 y=88
@@ -485,7 +485,7 @@ modelYAn=68
 script1=eq,30
 script1op1=varp,newcomers_pos
 
-[x_mark_30]
+[x_mark_31]
 type=Model
 x=252
 y=96
@@ -499,7 +499,7 @@ modelYAn=68
 script1=eq,31
 script1op1=varp,newcomers_pos
 
-[x_mark_31]
+[x_mark_32]
 type=Model
 x=285
 y=104
@@ -513,7 +513,7 @@ modelYAn=68
 script1=eq,32
 script1op1=varp,newcomers_pos
 
-[x_mark_32]
+[x_mark_33]
 type=Model
 x=326
 y=112
@@ -527,7 +527,7 @@ modelYAn=68
 script1=eq,33
 script1op1=varp,newcomers_pos
 
-[x_mark_33]
+[x_mark_34]
 type=Model
 x=361
 y=120
@@ -541,7 +541,7 @@ modelYAn=68
 script1=eq,34
 script1op1=varp,newcomers_pos
 
-[x_mark_34]
+[x_mark_35]
 type=Model
 x=151
 y=44
@@ -555,7 +555,7 @@ modelYAn=68
 script1=eq,35
 script1op1=varp,newcomers_pos
 
-[x_mark_35]
+[x_mark_36]
 type=Model
 x=184
 y=51
@@ -569,7 +569,7 @@ modelYAn=68
 script1=eq,36
 script1op1=varp,newcomers_pos
 
-[x_mark_36]
+[x_mark_37]
 type=Model
 x=214
 y=58
@@ -583,7 +583,7 @@ modelYAn=68
 script1=eq,37
 script1op1=varp,newcomers_pos
 
-[x_mark_37]
+[x_mark_38]
 type=Model
 x=241
 y=62
@@ -597,7 +597,7 @@ modelYAn=68
 script1=eq,38
 script1op1=varp,newcomers_pos
 
-[x_mark_38]
+[x_mark_39]
 type=Model
 x=288
 y=75
@@ -611,7 +611,7 @@ modelYAn=68
 script1=eq,39
 script1op1=varp,newcomers_pos
 
-[x_mark_39]
+[x_mark_40]
 type=Model
 x=329
 y=81
@@ -625,7 +625,7 @@ modelYAn=68
 script1=eq,40
 script1op1=varp,newcomers_pos
 
-[x_mark_40]
+[x_mark_41]
 type=Model
 x=367
 y=89
@@ -639,7 +639,7 @@ modelYAn=68
 script1=eq,41
 script1op1=varp,newcomers_pos
 
-[x_mark_41]
+[lumbridgetext]
 type=Text
 x=275
 y=213
@@ -650,7 +650,7 @@ hAlign=Center
 font=497
 text="Lumbridge"
 
-[lumbridgetext]
+[draynortext]
 type=Text
 x=192
 y=177
@@ -661,7 +661,7 @@ hAlign=Center
 font=497
 text="Draynor"
 
-[draynortext]
+[varrocktext]
 type=Text
 x=294
 y=97
@@ -672,7 +672,7 @@ hAlign=Center
 font=497
 text="Varrock"
 
-[varrocktext]
+[faladortext]
 type=Text
 x=146
 y=105
@@ -683,7 +683,7 @@ hAlign=Center
 font=497
 text="Falador"
 
-[faladortext]
+[portsarimtext]
 type=Text
 x=133
 y=188
@@ -694,7 +694,7 @@ hAlign=Center
 font=497
 text="Port"
 
-[portsarimtext]
+[sarimtext]
 type=Text
 x=122
 y=203
@@ -705,7 +705,7 @@ hAlign=Center
 font=497
 text="Sarim"
 
-[sarimtext]
+[rimmington_text]
 type=Text
 x=86
 y=162
@@ -716,7 +716,7 @@ hAlign=Center
 font=497
 text="Rimmington"
 
-[rimmington_text]
+[edgeville_text]
 type=Text
 x=170
 y=63
@@ -727,7 +727,7 @@ hAlign=Center
 font=497
 text="Edgeville"
 
-[edgeville_text]
+[al_kharid_text]
 type=Text
 x=281
 y=260
@@ -738,7 +738,7 @@ hAlign=Center
 font=497
 text="Al Kharid"
 
-[al_kharid_text]
+[com_56]
 type=Model
 x=316
 y=105
@@ -750,7 +750,7 @@ modelZoom=3088
 modelXAn=489
 modelYAn=162
 
-[bespoke_window_background]
+[com_57]
 type=Model
 x=287
 y=205
@@ -762,7 +762,7 @@ modelZoom=3088
 modelXAn=381
 modelYAn=186
 
-[bespoke_window_content]
+[com_58]
 type=Model
 x=264
 y=226
@@ -774,7 +774,7 @@ modelZoom=3088
 modelXAn=489
 modelYAn=162
 
-[bespoke_window_border]
+[com_59]
 type=Model
 x=444
 y=241
@@ -785,7 +785,7 @@ modelZoom=2064
 modelXAn=474
 modelYAn=18
 
-[bespoke_window_close]
+[com_60]
 type=Layer
 x=8
 y=10

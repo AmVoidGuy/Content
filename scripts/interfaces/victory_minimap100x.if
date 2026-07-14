@@ -1,0 +1,7 @@
+[com_0]
+type=Rectangle
+width=550
+height=400
+trans=220
+colour=0xCCCCFF
+fill=yes

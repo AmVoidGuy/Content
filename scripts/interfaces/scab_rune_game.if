@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Rectangle
 x=-7
 y=2
@@ -10,7 +10,7 @@ onload=740
 onvartransmit=741
 onvartransmitlist=1163
 
-[bespoke_window]
+[com_1]
 type=Model
 x=238
 y=55
@@ -24,7 +24,7 @@ discardedModelField=0
 onvartransmit=742
 onvartransmitlist=1164
 
-[com_2]
+[tool_1]
 type=Model
 x=258
 y=72
@@ -36,7 +36,7 @@ modelXOf=-114
 modelYOf=38
 discardedModelField=0
 
-[com_3]
+[tool_2]
 type=Model
 x=258
 y=196
@@ -48,7 +48,7 @@ modelXOf=-114
 modelYOf=-42
 discardedModelField=0
 
-[tool_1]
+[tool_3]
 type=Model
 x=258
 y=227
@@ -60,7 +60,7 @@ modelXOf=-114
 modelYOf=-93
 discardedModelField=0
 
-[tool_2]
+[com_5]
 type=Model
 x=-40
 y=-2
@@ -72,7 +72,7 @@ modelXOf=-2
 modelYOf=-16
 discardedModelField=0
 
-[tool_3]
+[com_6]
 type=Model
 x=-36
 y=3
@@ -96,37 +96,9 @@ modelXOf=-153
 modelYOf=-16
 discardedModelField=0
 
-[com_8]
-type=Model
-x=54
-y=90
-width=30
-height=31
-model1Id=31025
-modelZoom=750
-modelXOf=-3
-modelYOf=-18
-discardedModelField=0
-eventCode=hasOp(1)
-opName0="Press"
-
-[com_9]
-type=Model
-x=86
-y=90
-width=30
-height=31
-model1Id=31025
-modelZoom=750
-modelXOf=-3
-modelYOf=-18
-discardedModelField=0
-eventCode=hasOp(1)
-opName0="Press"
-
 [scab_rune_1]
 type=Model
-x=119
+x=54
 y=90
 width=30
 height=31
@@ -140,7 +112,7 @@ opName0="Press"
 
 [scab_rune_2]
 type=Model
-x=152
+x=86
 y=90
 width=30
 height=31
@@ -154,7 +126,7 @@ opName0="Press"
 
 [scab_rune_3]
 type=Model
-x=185
+x=119
 y=90
 width=30
 height=31
@@ -168,7 +140,7 @@ opName0="Press"
 
 [scab_rune_4]
 type=Model
-x=218
+x=152
 y=90
 width=30
 height=31
@@ -182,8 +154,8 @@ opName0="Press"
 
 [scab_rune_5]
 type=Model
-x=54
-y=122
+x=185
+y=90
 width=30
 height=31
 model1Id=31025
@@ -196,8 +168,8 @@ opName0="Press"
 
 [scab_rune_6]
 type=Model
-x=86
-y=122
+x=218
+y=90
 width=30
 height=31
 model1Id=31025
@@ -210,7 +182,7 @@ opName0="Press"
 
 [scab_rune_7]
 type=Model
-x=119
+x=54
 y=122
 width=30
 height=31
@@ -224,7 +196,7 @@ opName0="Press"
 
 [scab_rune_8]
 type=Model
-x=152
+x=86
 y=122
 width=30
 height=31
@@ -238,7 +210,7 @@ opName0="Press"
 
 [scab_rune_9]
 type=Model
-x=185
+x=119
 y=122
 width=30
 height=31
@@ -252,7 +224,7 @@ opName0="Press"
 
 [scab_rune_10]
 type=Model
-x=218
+x=152
 y=122
 width=30
 height=31
@@ -266,8 +238,8 @@ opName0="Press"
 
 [scab_rune_11]
 type=Model
-x=54
-y=154
+x=185
+y=122
 width=30
 height=31
 model1Id=31025
@@ -280,8 +252,8 @@ opName0="Press"
 
 [scab_rune_12]
 type=Model
-x=86
-y=154
+x=218
+y=122
 width=30
 height=31
 model1Id=31025
@@ -294,7 +266,7 @@ opName0="Press"
 
 [scab_rune_13]
 type=Model
-x=119
+x=54
 y=154
 width=30
 height=31
@@ -308,7 +280,7 @@ opName0="Press"
 
 [scab_rune_14]
 type=Model
-x=152
+x=86
 y=154
 width=30
 height=31
@@ -322,7 +294,7 @@ opName0="Press"
 
 [scab_rune_15]
 type=Model
-x=185
+x=119
 y=154
 width=30
 height=31
@@ -336,7 +308,7 @@ opName0="Press"
 
 [scab_rune_16]
 type=Model
-x=218
+x=152
 y=154
 width=30
 height=31
@@ -350,8 +322,8 @@ opName0="Press"
 
 [scab_rune_17]
 type=Model
-x=54
-y=186
+x=185
+y=154
 width=30
 height=31
 model1Id=31025
@@ -364,8 +336,8 @@ opName0="Press"
 
 [scab_rune_18]
 type=Model
-x=86
-y=186
+x=218
+y=154
 width=30
 height=31
 model1Id=31025
@@ -378,7 +350,7 @@ opName0="Press"
 
 [scab_rune_19]
 type=Model
-x=119
+x=54
 y=186
 width=30
 height=31
@@ -392,7 +364,7 @@ opName0="Press"
 
 [scab_rune_20]
 type=Model
-x=152
+x=86
 y=186
 width=30
 height=31
@@ -406,7 +378,7 @@ opName0="Press"
 
 [scab_rune_21]
 type=Model
-x=185
+x=119
 y=186
 width=30
 height=31
@@ -420,7 +392,7 @@ opName0="Press"
 
 [scab_rune_22]
 type=Model
-x=218
+x=152
 y=186
 width=30
 height=31
@@ -434,8 +406,8 @@ opName0="Press"
 
 [scab_rune_23]
 type=Model
-x=54
-y=218
+x=185
+y=186
 width=30
 height=31
 model1Id=31025
@@ -448,8 +420,8 @@ opName0="Press"
 
 [scab_rune_24]
 type=Model
-x=86
-y=218
+x=218
+y=186
 width=30
 height=31
 model1Id=31025
@@ -462,7 +434,7 @@ opName0="Press"
 
 [scab_rune_25]
 type=Model
-x=119
+x=54
 y=218
 width=30
 height=31
@@ -476,7 +448,7 @@ opName0="Press"
 
 [scab_rune_26]
 type=Model
-x=152
+x=86
 y=218
 width=30
 height=31
@@ -490,7 +462,7 @@ opName0="Press"
 
 [scab_rune_27]
 type=Model
-x=185
+x=119
 y=218
 width=30
 height=31
@@ -504,7 +476,7 @@ opName0="Press"
 
 [scab_rune_28]
 type=Model
-x=218
+x=152
 y=218
 width=30
 height=31
@@ -518,8 +490,8 @@ opName0="Press"
 
 [scab_rune_29]
 type=Model
-x=54
-y=250
+x=185
+y=218
 width=30
 height=31
 model1Id=31025
@@ -532,8 +504,8 @@ opName0="Press"
 
 [scab_rune_30]
 type=Model
-x=86
-y=250
+x=218
+y=218
 width=30
 height=31
 model1Id=31025
@@ -546,7 +518,7 @@ opName0="Press"
 
 [scab_rune_31]
 type=Model
-x=119
+x=54
 y=250
 width=30
 height=31
@@ -560,7 +532,7 @@ opName0="Press"
 
 [scab_rune_32]
 type=Model
-x=152
+x=86
 y=250
 width=30
 height=31
@@ -574,7 +546,7 @@ opName0="Press"
 
 [scab_rune_33]
 type=Model
-x=185
+x=119
 y=250
 width=30
 height=31
@@ -588,7 +560,7 @@ opName0="Press"
 
 [scab_rune_34]
 type=Model
-x=218
+x=152
 y=250
 width=30
 height=31
@@ -601,6 +573,34 @@ eventCode=hasOp(1)
 opName0="Press"
 
 [scab_rune_35]
+type=Model
+x=185
+y=250
+width=30
+height=31
+model1Id=31025
+modelZoom=750
+modelXOf=-3
+modelYOf=-18
+discardedModelField=0
+eventCode=hasOp(1)
+opName0="Press"
+
+[scab_rune_36]
+type=Model
+x=218
+y=250
+width=30
+height=31
+model1Id=31025
+modelZoom=750
+modelXOf=-3
+modelYOf=-18
+discardedModelField=0
+eventCode=hasOp(1)
+opName0="Press"
+
+[com_44]
 type=Sprite
 x=470
 y=23
@@ -613,7 +613,7 @@ onmouseover=44,component.parentId,542
 onmouseleave=44,component.parentId,541
 onop=29
 
-[scab_rune_36]
+[tool_01_helper]
 type=Layer
 x=279
 y=87
@@ -622,7 +622,7 @@ height=94
 eventCode=hasOp(1)
 opName0="Manipulate cog"
 
-[tool_01_helper]
+[tool_02_helper]
 type=Layer
 x=278
 y=182
@@ -631,7 +631,7 @@ height=44
 eventCode=hasOp(1)
 opName0="Manipulate pinion"
 
-[tool_02_helper]
+[tool_03_helper]
 type=Layer
 x=278
 y=227
@@ -640,7 +640,7 @@ height=48
 eventCode=hasOp(1)
 opName0="Manipulate switch"
 
-[tool_03_helper]
+[counter_01]
 type=Text
 x=326
 y=294
@@ -650,7 +650,7 @@ colour=0xBF751D
 font=645
 shadow=yes
 
-[counter_01]
+[counter_02]
 type=Text
 x=361
 y=294

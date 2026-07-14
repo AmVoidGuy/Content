@@ -28,7 +28,7 @@ font=496
 shadow=yes
 text="Player 1 Interface Screen"
 
-[com_3]
+[barbassault_scroll_pl1_dect]
 type=Text
 buttonType=Button
 x=411
@@ -43,7 +43,7 @@ text="Decline"
 buttonText="Decline"
 eventCode=flag22
 
-[com_4]
+[barbassault_scroll_pl1_dec]
 type=Model
 x=413
 y=232
@@ -55,7 +55,7 @@ modelZoom=1168
 modelXAn=531
 modelYAn=2008
 
-[preset_bg_1]
+[barbassault_scroll_pl1_okt]
 type=Text
 buttonType=Button
 x=352
@@ -70,7 +70,7 @@ text="Accept"
 buttonText="Accept"
 eventCode=flag22
 
-[preset_bg_2]
+[com_6]
 type=Text
 x=323
 y=83
@@ -82,7 +82,7 @@ font=495
 shadow=yes
 text="Player 2 selected role:"
 
-[preset_bg_3]
+[barbassault_scroll_pl1_pl2role]
 type=Text
 x=359
 y=103
@@ -94,7 +94,7 @@ font=495
 shadow=yes
 text="Waiting ..."
 
-[preset_bg_4]
+[com_8]
 type=Text
 x=77
 y=81
@@ -105,7 +105,7 @@ font=496
 shadow=yes
 text="The team:"
 
-[preset_bg_5]
+[com_9]
 type=Text
 x=77
 y=115
@@ -117,7 +117,7 @@ font=496
 shadow=yes
 text="Name"
 
-[title_team_overview]
+[com_10]
 type=Text
 x=148
 y=115
@@ -129,7 +129,7 @@ font=496
 shadow=yes
 text="Role"
 
-[positive_button_layer]
+[com_11]
 type=Text
 x=49
 y=144
@@ -140,7 +140,7 @@ font=495
 shadow=yes
 text="1"
 
-[negative_button_layer]
+[com_12]
 type=Text
 x=49
 y=176
@@ -151,7 +151,7 @@ font=495
 shadow=yes
 text="2"
 
-[barbassault_scroll_pl1_pl2role]
+[com_13]
 type=Text
 x=49
 y=208
@@ -162,7 +162,7 @@ font=495
 shadow=yes
 text="3"
 
-[barbassault_scroll_pl1_p2lvl]
+[com_14]
 type=Text
 x=49
 y=240
@@ -173,7 +173,7 @@ font=495
 shadow=yes
 text="4"
 
-[title_player_name]
+[com_15]
 type=Text
 x=49
 y=272
@@ -184,7 +184,7 @@ font=495
 shadow=yes
 text="5"
 
-[title_role]
+[barbassault_scroll_pl1_tn1]
 type=Text
 x=66
 y=137
@@ -196,7 +196,7 @@ font=494
 shadow=yes
 text="none set"
 
-[title_remove]
+[barbassault_scroll_pl1_tn2]
 type=Text
 x=66
 y=168
@@ -208,7 +208,7 @@ font=494
 shadow=yes
 text="none set"
 
-[title_level]
+[barbassault_scroll_pl1_tn3]
 type=Text
 x=65
 y=203
@@ -220,7 +220,7 @@ font=494
 shadow=yes
 text="none set"
 
-[1]
+[barbassault_scroll_pl1_tn4]
 type=Text
 x=66
 y=232
@@ -232,7 +232,7 @@ font=494
 shadow=yes
 text="none set"
 
-[2]
+[barbassault_scroll_pl1_tn5]
 type=Text
 x=66
 y=267
@@ -244,7 +244,7 @@ font=494
 shadow=yes
 text="none set"
 
-[3]
+[barbassault_scroll_pl1_tr1]
 type=Text
 x=147
 y=137
@@ -257,7 +257,7 @@ font=494
 shadow=yes
 text="none set"
 
-[4]
+[barbassault_scroll_pl1_tr2]
 type=Text
 x=147
 y=167
@@ -270,7 +270,7 @@ font=494
 shadow=yes
 text="none set"
 
-[5]
+[barbassault_scroll_pl1_tr3]
 type=Text
 x=147
 y=202
@@ -283,7 +283,7 @@ font=494
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl1_tn1]
+[barbassault_scroll_pl1_tr4]
 type=Text
 x=147
 y=231
@@ -296,7 +296,7 @@ font=494
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl1_tn2]
+[barbassault_scroll_pl1_tr5]
 type=Text
 x=147
 y=267
@@ -309,7 +309,7 @@ font=494
 shadow=yes
 text="none set"
 
-[barbassault_scroll_pl1_tn3]
+[com_26]
 type=Text
 x=296
 y=115
@@ -321,7 +321,7 @@ font=496
 shadow=yes
 text="Wave"
 
-[barbassault_scroll_pl1_tn4]
+[barbassault_scroll_pl1_wave1]
 type=Text
 x=308
 y=144
@@ -332,7 +332,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_scroll_pl1_tn5]
+[barbassault_scroll_pl1_rem2]
 type=Model
 buttonType=Button
 x=240
@@ -346,7 +346,7 @@ modelYAn=2020
 buttonText="Remove player"
 eventCode=flag22
 
-[barbassault_leader_icon]
+[barbassault_scroll_pl1_rem3]
 type=Model
 buttonType=Button
 x=240
@@ -360,7 +360,7 @@ modelYAn=2020
 buttonText="Remove player"
 eventCode=flag22
 
-[barbassault_player1_icon]
+[barbassault_scroll_pl1_rem4]
 type=Model
 buttonType=Button
 x=240
@@ -374,7 +374,7 @@ modelYAn=2020
 buttonText="Remove player"
 eventCode=flag22
 
-[barbassault_player2_icon]
+[com_31]
 type=Text
 x=223
 y=115
@@ -386,7 +386,7 @@ font=496
 shadow=yes
 text="Remove?"
 
-[barbassault_player3_icon]
+[barbassault_scroll_pl1_wave2]
 type=Text
 x=308
 y=176
@@ -397,7 +397,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_player4_icon]
+[barbassault_scroll_pl1_wave3]
 type=Text
 x=308
 y=208
@@ -408,7 +408,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_scroll_pl1_tr1]
+[barbassault_scroll_pl1_wave4]
 type=Text
 x=308
 y=236
@@ -419,7 +419,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_scroll_pl1_tr2]
+[barbassault_scroll_pl1_wave5]
 type=Text
 x=308
 y=272
@@ -430,7 +430,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_scroll_pl1_tr3]
+[barbassault_scroll_pl1_ok]
 type=Model
 x=356
 y=231
@@ -442,7 +442,7 @@ modelZoom=1040
 modelXAn=405
 modelYAn=2002
 
-[barbassault_scroll_pl1_tr4]
+[com_37]
 type=Rectangle
 x=142
 y=109
@@ -451,7 +451,7 @@ height=187
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_tr5]
+[com_38]
 type=Rectangle
 x=216
 y=109
@@ -460,7 +460,7 @@ height=187
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_rem1]
+[com_39]
 type=Rectangle
 x=60
 y=109
@@ -469,7 +469,7 @@ height=187
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_rem2]
+[com_40]
 type=Rectangle
 x=288
 y=109
@@ -478,7 +478,7 @@ height=187
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_rem3]
+[com_41]
 type=Rectangle
 x=47
 y=163
@@ -487,7 +487,7 @@ height=5
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_rem4]
+[com_42]
 type=Rectangle
 x=47
 y=198
@@ -496,7 +496,7 @@ height=5
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_wave1]
+[com_43]
 type=Rectangle
 x=47
 y=227
@@ -505,7 +505,7 @@ height=5
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_wave2]
+[com_44]
 type=Rectangle
 x=47
 y=262
@@ -514,7 +514,7 @@ height=5
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_wave3]
+[com_45]
 type=Rectangle
 x=47
 y=132
@@ -523,7 +523,7 @@ height=5
 colour=0x80703B
 fill=yes
 
-[barbassault_scroll_pl1_wave4]
+[com_46]
 type=Text
 x=360
 y=135
@@ -535,7 +535,7 @@ font=495
 shadow=yes
 text="Level in role:"
 
-[barbassault_scroll_pl1_wave5]
+[barbassault_scroll_pl1_p2lvl]
 type=Text
 x=360
 y=156
@@ -547,7 +547,7 @@ font=495
 shadow=yes
 text="Waiting ..."
 
-[hard_mode]
+[barbassault_scroll_pl1_rem1]
 type=Model
 buttonType=Button
 x=240
@@ -561,7 +561,7 @@ modelYAn=2020
 buttonText="Remove player"
 eventCode=flag22
 
-[tooltip]
+[barbassault_tick_hover]
 type=Layer
 x=336
 y=216
@@ -569,7 +569,7 @@ width=70
 height=70
 hide=yes
 
-[mainmodal_window]
+[com_50]
 type=Model
 buttonType=Button
 x=20
@@ -584,7 +584,7 @@ modelYAn=2002
 buttonText="Accept"
 eventCode=flag22
 
-[hard_mode_text]
+[barbassault_cross_hover]
 type=Layer
 x=394
 y=216
@@ -592,7 +592,7 @@ width=70
 height=70
 hide=yes
 
-[mainmodal_window_background]
+[com_52]
 type=Model
 buttonType=Button
 x=20

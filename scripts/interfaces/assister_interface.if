@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Rectangle
 x=19
 y=24
@@ -8,7 +8,7 @@ trans=150
 colour=0x999999
 fill=yes
 
-[farming_box]
+[com_1]
 type=Sprite
 x=27
 y=69
@@ -17,7 +17,7 @@ height=25
 trans=180
 graphic=1072
 
-[farming_1]
+[com_2]
 type=Sprite
 x=27
 y=100
@@ -26,7 +26,7 @@ height=25
 trans=180
 graphic=1072
 
-[assist_display_message]
+[com_3]
 type=Sprite
 x=27
 y=131
@@ -35,7 +35,7 @@ height=25
 trans=180
 graphic=1072
 
-[assist_skill_boxes]
+[com_4]
 type=Sprite
 x=27
 y=162
@@ -93,7 +93,7 @@ height=25
 trans=180
 graphic=1072
 
-[com_10]
+[assist_bottom_message]
 type=Text
 x=27
 y=221
@@ -106,7 +106,7 @@ font=494
 shadow=yes
 text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-[com_11]
+[assist_total_xp_backdrop]
 type=Rectangle
 x=274
 y=192
@@ -128,7 +128,7 @@ colour=0xB19773
 baseOpName=" "
 onmouserepeat=529,component.parentId
 
-[com_13]
+[runecraft_layer]
 type=Layer
 x=26
 y=68
@@ -136,7 +136,7 @@ width=212
 height=27
 hide=yes
 
-[assist_bottom_message]
+[checker_collect]
 type=Rectangle
 x=26
 y=68
@@ -147,7 +147,7 @@ colour=0x006666
 fill=yes
 baseOpName=" "
 
-[assist_total_xp_backdrop]
+[runecrafting_event_area]
 type=Rectangle
 x=10
 y=18
@@ -166,7 +166,7 @@ onclick=531,19726424,215,1103,19726350
 onrelease=534,19726353
 onhold=533,19726353
 
-[runecraft_layer]
+[runecrafting_box]
 type=Rectangle
 width=212
 height=27
@@ -175,7 +175,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[runecraft_selected_box]
+[runecrafting_1]
 type=Rectangle
 width=212
 height=27
@@ -201,7 +201,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[fletching_layer]
+[crafting_event_area]
 type=Rectangle
 x=10
 y=49
@@ -220,7 +220,7 @@ onclick=531,19726425,207,1095,19726355
 onrelease=534,19726358
 onhold=533,19726358
 
-[fletching_selected_box]
+[crafting_box]
 type=Rectangle
 width=212
 height=27
@@ -229,7 +229,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[construction_layer]
+[crafting_1]
 type=Rectangle
 width=212
 height=27
@@ -237,7 +237,7 @@ layerId=19726354
 trans=25
 colour=0xFFFFFF
 
-[construction_selected_box]
+[fletching_layer]
 type=Layer
 x=26
 y=130
@@ -245,7 +245,7 @@ width=212
 height=27
 hide=yes
 
-[farming_layer]
+[fletching_selected_box]
 type=Rectangle
 x=26
 y=130
@@ -255,7 +255,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[farming_selected_box]
+[fletching_event_area]
 type=Rectangle
 x=10
 y=80
@@ -274,7 +274,7 @@ onclick=531,19726426,208,1096,19726360
 onrelease=534,19726363
 onhold=533,19726363
 
-[magic_layer]
+[fletching_box]
 type=Rectangle
 width=212
 height=27
@@ -283,7 +283,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[magic_selected_box]
+[fletching_1]
 type=Rectangle
 width=212
 height=27
@@ -291,7 +291,7 @@ layerId=19726359
 trans=25
 colour=0xFFFFFF
 
-[smithing_layer]
+[construction_layer]
 type=Layer
 x=26
 y=161
@@ -299,7 +299,7 @@ width=212
 height=27
 hide=yes
 
-[smithing_selected_box]
+[construction_selected_box]
 type=Rectangle
 x=26
 y=161
@@ -309,7 +309,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[cooking_layer]
+[construction_event_area]
 type=Rectangle
 x=10
 y=111
@@ -328,7 +328,7 @@ onclick=531,19726427,221,1109,19726365
 onrelease=534,19726368
 onhold=533,19726368
 
-[cooking_selected_box]
+[construction_box]
 type=Rectangle
 width=212
 height=27
@@ -337,7 +337,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[herblore_layer]
+[construction_1]
 type=Rectangle
 width=212
 height=27
@@ -345,7 +345,7 @@ layerId=19726364
 trans=25
 colour=0xFFFFFF
 
-[herblore_selected_box]
+[farming_layer]
 type=Layer
 x=26
 y=192
@@ -354,7 +354,7 @@ height=27
 hide=yes
 baseOpName=" "
 
-[runecraft_text]
+[farming_selected_box]
 type=Rectangle
 x=26
 y=192
@@ -364,7 +364,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[runecraft_xp]
+[farming_event_area]
 type=Rectangle
 x=10
 y=142
@@ -383,7 +383,7 @@ onclick=531,19726428,217,1105,19726370
 onrelease=534,19726373
 onhold=533,19726373
 
-[crafting_text]
+[farming_box]
 type=Rectangle
 width=212
 height=27
@@ -392,7 +392,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[crafting_xp]
+[farming_1]
 type=Rectangle
 width=212
 height=27
@@ -400,7 +400,7 @@ layerId=19726369
 trans=25
 colour=0xFFFFFF
 
-[fletching_text]
+[magic_layer]
 type=Layer
 x=274
 y=68
@@ -408,7 +408,7 @@ width=212
 height=27
 hide=yes
 
-[fletching_xp]
+[magic_selected_box]
 type=Rectangle
 x=274
 y=68
@@ -418,7 +418,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[construction_text]
+[magic_event_area]
 type=Rectangle
 x=258
 y=18
@@ -437,7 +437,7 @@ onclick=531,19726429,202,1090,19726375
 onrelease=534,19726378
 onhold=533,19726378
 
-[construction_xp]
+[magic_box]
 type=Rectangle
 width=212
 height=27
@@ -446,7 +446,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[farming_text]
+[magic_1]
 type=Rectangle
 width=212
 height=27
@@ -454,7 +454,7 @@ layerId=19726374
 trans=25
 colour=0xFFFFFF
 
-[farming_xp]
+[smithing_layer]
 type=Layer
 x=274
 y=99
@@ -462,7 +462,7 @@ width=212
 height=27
 hide=yes
 
-[magic_text]
+[smithing_selected_box]
 type=Rectangle
 x=274
 y=99
@@ -472,7 +472,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[magic_xp]
+[smithing_event_area]
 type=Rectangle
 x=258
 y=49
@@ -491,7 +491,7 @@ onclick=531,19726430,210,1098,19726380
 onrelease=534,19726383
 onhold=533,19726383
 
-[smithing_text]
+[smithing_box]
 type=Rectangle
 width=212
 height=27
@@ -500,7 +500,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[smithing_xp]
+[smithing_1]
 type=Rectangle
 width=212
 height=27
@@ -508,7 +508,7 @@ layerId=19726379
 trans=25
 colour=0xFFFFFF
 
-[cooking_text]
+[cooking_layer]
 type=Layer
 x=274
 y=130
@@ -516,7 +516,7 @@ width=212
 height=27
 hide=yes
 
-[cooking_xp]
+[cooking_selected_box]
 type=Rectangle
 x=274
 y=130
@@ -526,7 +526,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[herblore_text]
+[cooking_event_area]
 type=Rectangle
 x=258
 y=80
@@ -545,7 +545,7 @@ onclick=531,19726431,212,1100,19726385
 onrelease=534,19726388
 onhold=533,19726388
 
-[herblore_xp]
+[cooking_box]
 type=Rectangle
 width=212
 height=27
@@ -554,7 +554,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[runecrafting_icon]
+[cooking_1]
 type=Rectangle
 width=212
 height=27
@@ -562,7 +562,7 @@ layerId=19726384
 trans=25
 colour=0xFFFFFF
 
-[crafting_icon_on]
+[herblore_layer]
 type=Layer
 x=274
 y=161
@@ -570,7 +570,7 @@ width=212
 height=27
 hide=yes
 
-[fletching_icon_on]
+[herblore_selected_box]
 type=Rectangle
 x=274
 y=161
@@ -580,7 +580,7 @@ trans=125
 colour=0x006666
 fill=yes
 
-[construction_icon_on]
+[herblore_event_area]
 type=Rectangle
 x=258
 y=111
@@ -599,7 +599,7 @@ onclick=531,19726432,205,1093,19726390
 onrelease=534,19726393
 onhold=533,19726393
 
-[farming_icon_on]
+[herblore_box]
 type=Rectangle
 width=212
 height=27
@@ -608,7 +608,7 @@ trans=225
 colour=0x006666
 fill=yes
 
-[magic_icon_on]
+[herblore_1]
 type=Rectangle
 width=212
 height=27
@@ -616,7 +616,7 @@ layerId=19726389
 trans=25
 colour=0xFFFFFF
 
-[smithing_icon_on]
+[com_58]
 type=Sprite
 x=472
 y=32
@@ -630,7 +630,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onop=29
 
-[cooking_icon_on]
+[com_59]
 type=Sprite
 x=16
 y=24
@@ -640,7 +640,7 @@ trans=64
 graphic=991
 tiling=yes
 
-[herblore_icon_on]
+[com_60]
 type=Sprite
 x=16
 y=227
@@ -649,7 +649,7 @@ height=32
 trans=64
 graphic=993
 
-[runecrafting_event_area]
+[com_61]
 type=Sprite
 x=465
 y=227
@@ -659,7 +659,7 @@ trans=64
 graphic=994
 baseOpName=" "
 
-[crafting_event_area]
+[com_62]
 type=Sprite
 x=465
 y=24
@@ -669,7 +669,7 @@ trans=64
 graphic=992
 tiling=yes
 
-[fletching_event_area]
+[com_63]
 type=Sprite
 x=48
 y=11
@@ -679,7 +679,7 @@ trans=64
 graphic=987
 tiling=yes
 
-[construction_event_area]
+[com_64]
 type=Sprite
 x=3
 y=63
@@ -689,7 +689,7 @@ trans=64
 graphic=988
 tiling=yes
 
-[farming_event_area]
+[com_65]
 type=Sprite
 x=48
 y=243
@@ -699,7 +699,7 @@ trans=64
 graphic=987
 tiling=yes
 
-[magic_event_area]
+[com_66]
 type=Sprite
 x=477
 y=62
@@ -709,7 +709,7 @@ trans=64
 graphic=990
 tiling=yes
 
-[smithing_event_area]
+[com_67]
 type=Sprite
 x=16
 y=40
@@ -718,7 +718,7 @@ height=32
 trans=64
 graphic=996
 
-[cooking_event_area]
+[com_68]
 type=Sprite
 x=23
 y=38
@@ -728,7 +728,7 @@ trans=64
 graphic=995
 tiling=yes
 
-[herblore_event_area]
+[com_69]
 type=Sprite
 x=465
 y=40
@@ -737,7 +737,7 @@ height=32
 trans=64
 graphic=997
 
-[assist_total_text]
+[runecraft_text]
 type=Text
 x=58
 y=75
@@ -750,7 +750,7 @@ text="Runecrafting XP"
 onvartransmit=524,component.parentId,19726407
 onvartransmitlist=1088,1087
 
-[assist_total_xp_display]
+[runecraft_xp]
 type=Text
 x=192
 y=75
@@ -764,7 +764,7 @@ onload=521
 onstattransmit=522,component.parentId,20
 onstattransmitlist=20
 
-[herblore_box]
+[crafting_text]
 type=Text
 x=58
 y=106
@@ -777,7 +777,7 @@ text="Crafting XP"
 onvartransmit=524,component.parentId,19726409
 onvartransmitlist=1088,1087
 
-[herblore_1]
+[crafting_xp]
 type=Text
 x=192
 y=106
@@ -790,7 +790,7 @@ text="XP"
 onstattransmit=522,component.parentId,12
 onstattransmitlist=12
 
-[cooking_box]
+[fletching_text]
 type=Text
 x=58
 y=136
@@ -803,7 +803,7 @@ text="Fletching XP"
 onvartransmit=524,component.parentId,19726411
 onvartransmitlist=1088,1087
 
-[cooking_1]
+[fletching_xp]
 type=Text
 x=192
 y=136
@@ -817,7 +817,7 @@ baseOpName="m"
 onstattransmit=522,component.parentId,9
 onstattransmitlist=9
 
-[smithing_box]
+[construction_text]
 type=Text
 x=58
 y=168
@@ -830,7 +830,7 @@ text="Construction XP"
 onvartransmit=524,component.parentId,19726413
 onvartransmitlist=1088,1087
 
-[smithing_1]
+[construction_xp]
 type=Text
 x=192
 y=168
@@ -843,7 +843,7 @@ text="XP"
 onstattransmit=522,component.parentId,22
 onstattransmitlist=22
 
-[magic_box]
+[farming_text]
 type=Text
 x=58
 y=199
@@ -856,7 +856,7 @@ text="Farming XP"
 onvartransmit=524,component.parentId,19726415
 onvartransmitlist=1088,1087
 
-[magic_1]
+[farming_xp]
 type=Text
 x=192
 y=199
@@ -870,7 +870,7 @@ baseOpName="m"
 onstattransmit=522,component.parentId,19
 onstattransmitlist=19
 
-[construction_box]
+[magic_text]
 type=Text
 x=305
 y=75
@@ -883,7 +883,7 @@ text="Magic XP"
 onvartransmit=524,component.parentId,19726417
 onvartransmitlist=1088,1087
 
-[construction_1]
+[magic_xp]
 type=Text
 x=439
 y=75
@@ -897,7 +897,7 @@ onload=521
 onstattransmit=522,component.parentId,6
 onstattransmitlist=6
 
-[fletching_box]
+[smithing_text]
 type=Text
 x=305
 y=106
@@ -910,7 +910,7 @@ text="Smithing XP"
 onvartransmit=524,component.parentId,19726419
 onvartransmitlist=1088,1087
 
-[fletching_1]
+[smithing_xp]
 type=Text
 x=439
 y=106
@@ -924,7 +924,7 @@ onload=521
 onstattransmit=522,component.parentId,13
 onstattransmitlist=13
 
-[crafting_box]
+[cooking_text]
 type=Text
 x=305
 y=136
@@ -937,7 +937,7 @@ text="Cooking XP"
 onvartransmit=524,component.parentId,19726421
 onvartransmitlist=1088,1087
 
-[crafting_1]
+[cooking_xp]
 type=Text
 x=439
 y=136
@@ -951,7 +951,7 @@ onload=521
 onstattransmit=522,component.parentId,7
 onstattransmitlist=7
 
-[runecrafting_box]
+[herblore_text]
 type=Text
 x=305
 y=168
@@ -964,7 +964,7 @@ text="Herblore XP"
 onvartransmit=524,component.parentId,19726423
 onvartransmitlist=1088,1087
 
-[runecrafting_1]
+[herblore_xp]
 type=Text
 x=439
 y=168
@@ -978,7 +978,7 @@ baseOpName="m"
 onstattransmit=522,component.parentId,15
 onstattransmitlist=15
 
-[mainmodal_window_background]
+[runecrafting_icon]
 type=Sprite
 x=29
 y=69
@@ -990,7 +990,7 @@ onload=527
 onvartransmit=527
 onvartransmitlist=1087
 
-[mainmodal_window_content]
+[crafting_icon_on]
 type=Sprite
 x=29
 y=101
@@ -999,7 +999,7 @@ height=25
 trans=20
 graphic=207
 
-[mainmodal_window_border]
+[fletching_icon_on]
 type=Sprite
 x=29
 y=130
@@ -1008,7 +1008,7 @@ height=25
 trans=20
 graphic=208
 
-[mainmodal_window_close_button]
+[construction_icon_on]
 type=Sprite
 x=29
 y=161
@@ -1017,7 +1017,7 @@ height=25
 trans=20
 graphic=221
 
-[com_92]
+[farming_icon_on]
 type=Sprite
 x=29
 y=193
@@ -1026,7 +1026,7 @@ height=25
 trans=20
 graphic=217
 
-[com_93]
+[magic_icon_on]
 type=Sprite
 x=277
 y=68
@@ -1035,7 +1035,7 @@ height=25
 trans=20
 graphic=202
 
-[com_94]
+[smithing_icon_on]
 type=Sprite
 x=277
 y=100
@@ -1044,7 +1044,7 @@ height=25
 trans=20
 graphic=210
 
-[com_95]
+[cooking_icon_on]
 type=Sprite
 x=277
 y=131
@@ -1053,7 +1053,7 @@ height=25
 trans=20
 graphic=212
 
-[com_96]
+[herblore_icon_on]
 type=Sprite
 x=277
 y=163
@@ -1069,7 +1069,7 @@ y=50
 width=486
 height=212
 
-[com_98]
+[assist_total_text]
 type=Text
 x=273
 y=149
@@ -1083,7 +1083,7 @@ text="Total XP earned"
 onvartransmit=524,component.parentId,19726435
 onvartransmitlist=1088
 
-[com_99]
+[assist_total_xp_display]
 type=Text
 x=425
 y=149
@@ -1097,7 +1097,7 @@ text="XP "
 onvartransmit=535,component.parentId
 onvartransmitlist=1088
 
-[com_100]
+[assist_tooltip_build_layer]
 type=Layer
 x=179
 y=52
@@ -1106,7 +1106,7 @@ height=133
 layerId=19726433
 onmouseleave=40,19726436
 
-[com_101]
+[assist_display_message]
 type=Text
 x=20
 y=34

@@ -6,7 +6,7 @@ width=36
 height=36
 graphic=177
 
-[se_text]
+[com_1]
 type=Sprite
 x=65
 y=202
@@ -14,7 +14,7 @@ width=36
 height=36
 graphic=177
 
-[se_button]
+[com_2]
 type=Sprite
 x=39
 y=202
@@ -38,7 +38,7 @@ width=36
 height=36
 graphic=178
 
-[com_5]
+[clanwars_orb_off]
 type=Text
 clientCode=205
 x=43
@@ -85,7 +85,7 @@ modelYAn=63
 modelYOf=20
 discardedModelField=0
 
-[clanwars_orb_off]
+[com_8]
 type=Model
 x=137
 y=14
@@ -99,7 +99,7 @@ modelYAn=63
 modelYOf=20
 discardedModelField=0
 
-[stop_button]
+[com_9]
 type=Model
 x=25
 y=120
@@ -113,7 +113,7 @@ modelYAn=63
 modelYOf=20
 discardedModelField=0
 
-[nw]
+[com_10]
 type=Model
 x=137
 y=120
@@ -127,7 +127,7 @@ modelYAn=63
 modelYOf=20
 discardedModelField=0
 
-[n]
+[com_11]
 type=Text
 x=60
 y=119
@@ -145,7 +145,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[s]
+[com_12]
 type=Text
 x=5
 y=66
@@ -161,7 +161,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[ne]
+[com_13]
 type=Text
 x=102
 y=66
@@ -178,7 +178,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[sw]
+[com_14]
 type=Text
 x=98
 y=173
@@ -195,7 +195,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[e]
+[com_15]
 type=Text
 x=4
 y=172

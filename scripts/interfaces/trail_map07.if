@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=227
 y=162
@@ -9,7 +9,7 @@ modelZoom=599
 modelXAn=520
 modelYAn=1
 
-[mainmodal_window_background]
+[com_1]
 type=Model
 x=236
 y=68
@@ -20,7 +20,7 @@ modelZoom=1351
 modelXAn=696
 modelYAn=824
 
-[mainmodal_window_content]
+[com_2]
 type=Model
 x=249
 y=92
@@ -163,7 +163,7 @@ modelZoom=1332
 modelXAn=656
 modelYAn=703
 
-[coastlinelayer07]
+[com_15]
 type=Model
 x=321
 y=245
@@ -174,7 +174,7 @@ modelZoom=531
 modelXAn=576
 modelYAn=1544
 
-[com_16]
+[coastlinelayer07]
 type=Layer
 x=42
 y=32
@@ -741,7 +741,7 @@ modelZoom=2109
 modelXAn=467
 modelYAn=2031
 
-[mainmodal_window_border]
+[com_68]
 type=Model
 x=328
 y=136
@@ -752,7 +752,7 @@ modelZoom=2109
 modelXAn=467
 modelYAn=2031
 
-[mainmodal_window_close_button]
+[com_69]
 type=Sprite
 x=473
 y=13
@@ -761,7 +761,7 @@ height=23
 overLayerId=71
 graphic=539
 
-[com_70]
+[trail_map07_close]
 type=Sprite
 buttonType=Close
 x=2
@@ -772,7 +772,7 @@ layerId=23068743
 graphic=540
 buttonText="Ok"
 
-[com_71]
+[trail_map07_close_button]
 type=Layer
 x=471
 y=10

@@ -1,4 +1,4 @@
-[modal_dialog_window]
+[com_0]
 type=Rectangle
 x=2
 y=68
@@ -7,14 +7,14 @@ height=172
 colour=0x3E372E
 fill=yes
 
-[modal_dialog_window_background]
+[tribalcl1]
 type=Layer
 x=12
 y=20
 width=488
 height=36
 
-[modal_dialog_window_content]
+[com_2]
 type=Sprite
 x=94
 y=-3
@@ -23,7 +23,7 @@ height=60
 layerId=24182785
 graphic=297
 
-[modal_dialog_window_border]
+[com_3]
 type=Sprite
 x=182
 y=6
@@ -32,7 +32,7 @@ height=60
 layerId=24182785
 graphic=297
 
-[modal_dialog_window_close_button]
+[com_4]
 type=Sprite
 x=270
 y=6
@@ -77,7 +77,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribala]
+[com_9]
 type=Sprite
 x=96
 y=16
@@ -86,7 +86,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribalb]
+[com_10]
 type=Sprite
 x=132
 y=16
@@ -95,7 +95,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribalc]
+[com_11]
 type=Sprite
 x=168
 y=16
@@ -104,7 +104,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribald]
+[com_12]
 type=Sprite
 x=204
 y=16
@@ -113,7 +113,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribala_left]
+[com_13]
 type=Sprite
 x=240
 y=16
@@ -122,7 +122,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribalb_left]
+[com_14]
 type=Sprite
 x=276
 y=16
@@ -131,7 +131,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribalc_left]
+[com_15]
 type=Sprite
 x=312
 y=16
@@ -140,7 +140,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribald_left]
+[com_16]
 type=Sprite
 x=348
 y=16
@@ -149,7 +149,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribala_right]
+[com_17]
 type=Sprite
 x=384
 y=16
@@ -158,7 +158,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribalb_right]
+[com_18]
 type=Sprite
 x=420
 y=16
@@ -167,7 +167,7 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribalc_right]
+[com_19]
 type=Sprite
 x=428
 y=16
@@ -176,14 +176,14 @@ height=36
 layerId=24182785
 graphic=173
 
-[tribald_right]
+[com_20]
 type=Sprite
 width=25
 height=30
 layerId=24182785
 graphic=310
 
-[3x1_positive]
+[com_21]
 type=Sprite
 x=60
 y=-15
@@ -192,7 +192,7 @@ height=36
 layerId=24182785
 graphic=314
 
-[positive_build]
+[com_22]
 type=Sprite
 x=96
 y=-15
@@ -201,7 +201,7 @@ height=36
 layerId=24182785
 graphic=314
 
-[positive_click]
+[com_23]
 type=Sprite
 x=132
 y=-15
@@ -374,7 +374,7 @@ model1Id=3041
 modelZoom=550
 modelXAn=400
 
-[com_42]
+[tribala]
 type=Text
 x=65
 y=97
@@ -386,7 +386,7 @@ font=496
 shadow=yes
 text="A"
 
-[com_43]
+[tribalb]
 type=Text
 x=189
 y=97
@@ -398,7 +398,7 @@ font=496
 shadow=yes
 text="A"
 
-[com_44]
+[tribalc]
 type=Text
 x=313
 y=97
@@ -410,7 +410,7 @@ font=496
 shadow=yes
 text="A"
 
-[com_45]
+[tribald]
 type=Text
 x=437
 y=97
@@ -422,7 +422,7 @@ font=496
 shadow=yes
 text="A"
 
-[com_46]
+[tribala_left]
 type=Sprite
 buttonType=Button
 x=22
@@ -433,7 +433,7 @@ graphic=308
 buttonText="Left"
 eventCode=flag22
 
-[com_47]
+[tribala_right]
 type=Sprite
 buttonType=Button
 x=70
@@ -444,7 +444,7 @@ graphic=309
 buttonText="Right"
 eventCode=flag22
 
-[com_48]
+[tribalb_left]
 type=Sprite
 buttonType=Button
 x=146
@@ -455,7 +455,7 @@ graphic=308
 buttonText="left"
 eventCode=flag22
 
-[com_49]
+[tribalb_right]
 type=Sprite
 buttonType=Button
 x=194
@@ -466,7 +466,7 @@ graphic=309
 buttonText="Right"
 eventCode=flag22
 
-[com_50]
+[tribalc_left]
 type=Sprite
 buttonType=Button
 x=270
@@ -477,7 +477,7 @@ graphic=308
 buttonText="Left"
 eventCode=flag22
 
-[com_51]
+[tribalc_right]
 type=Sprite
 buttonType=Button
 x=318
@@ -488,7 +488,7 @@ graphic=309
 buttonText="Right"
 eventCode=flag22
 
-[com_52]
+[tribald_left]
 type=Sprite
 buttonType=Button
 x=394
@@ -499,7 +499,7 @@ graphic=308
 buttonText="Left"
 eventCode=flag22
 
-[com_53]
+[tribald_right]
 type=Sprite
 buttonType=Button
 x=442
@@ -510,7 +510,7 @@ graphic=309
 buttonText="Right"
 eventCode=flag22
 
-[com_54]
+[tribalcombolock]
 type=Text
 x=137
 y=31
@@ -523,7 +523,7 @@ font=496
 shadow=yes
 text="Combination Lock Door"
 
-[com_55]
+[tribalenter]
 type=Rectangle
 buttonType=Button
 x=193
@@ -534,7 +534,7 @@ colour=0x3E372E
 fill=yes
 eventCode=flag22
 
-[com_56]
+[tribalenter2]
 type=Text
 x=205
 y=264
@@ -556,7 +556,7 @@ height=23
 overLayerId=59
 graphic=535
 
-[com_58]
+[tribal_door_close]
 type=Sprite
 buttonType=Close
 x=5
@@ -567,7 +567,7 @@ layerId=24182843
 graphic=536
 buttonText="Ok"
 
-[com_59]
+[tribal_door_close_button]
 type=Layer
 x=465
 y=22

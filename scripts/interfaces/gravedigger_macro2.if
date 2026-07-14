@@ -1,4 +1,4 @@
-[com_0]
+[backgroundgrave]
 type=Model
 x=255
 y=166
@@ -101,7 +101,7 @@ height=69
 trans=255
 modelZoom=400
 
-[macro_close]
+[com_12]
 type=Sprite
 x=442
 y=12
@@ -110,7 +110,7 @@ height=23
 overLayerId=14
 graphic=539
 
-[content_layer]
+[com_13]
 type=Sprite
 buttonType=Close
 x=2
@@ -121,7 +121,7 @@ layerId=9240590
 graphic=540
 buttonText="Ok"
 
-[com_14]
+[gravedigger_macro2]
 type=Layer
 x=440
 y=6

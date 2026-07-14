@@ -1,4 +1,4 @@
-[gold_window_no_title_layer]
+[com_0]
 type=Model
 x=240
 y=139
@@ -8,7 +8,7 @@ model1Id=3032
 modelZoom=604
 modelXAn=400
 
-[gold_window_not_title_background_layer]
+[com_1]
 type=Text
 x=170
 y=95
@@ -21,7 +21,7 @@ font=497
 shadow=yes
 text="Congratulations!"
 
-[gold_window_no_title_content_layer]
+[champions_scroll_text]
 type=Text
 x=96
 y=117
@@ -32,7 +32,7 @@ hAlign=Center
 font=495
 text="Well done, you defeated the Champion!"
 
-[scroll_image]
+[champions_scroll_model]
 type=Model
 x=93
 y=153
@@ -43,7 +43,7 @@ modelZoom=300
 modelXAn=347
 modelYAn=1517
 
-[champions_congratulations]
+[com_4]
 type=Model
 x=355
 y=205
@@ -54,7 +54,7 @@ modelZoom=273
 modelXAn=500
 modelYAn=138
 
-[champions_scroll_text]
+[com_5]
 type=Text
 x=180
 y=140
@@ -65,7 +65,7 @@ hAlign=Center
 font=495
 text="You are awarded:"
 
-[champions_rose]
+[com_6]
 type=Text
 x=183
 y=157
@@ -77,7 +77,7 @@ font=495
 text="%1 Slayer Xp"
 script1op1=varp,varp_621
 
-[champions_awarded]
+[com_7]
 type=Text
 x=183
 y=172
@@ -89,7 +89,7 @@ font=495
 text="%1 Hitpoint Xp"
 script1op1=varp,varp_620
 
-[champions_slayer_text]
+[com_8]
 type=Sprite
 x=382
 y=84
@@ -98,7 +98,7 @@ height=23
 overLayerId=10
 graphic=537
 
-[champions_hp_text]
+[com_9]
 type=Sprite
 buttonType=Close
 x=3
@@ -110,7 +110,7 @@ overLayerId=10
 graphic=538
 buttonText="Ok"
 
-[scroll_left_border]
+[champions_scroll_close_button]
 type=Layer
 x=379
 y=79

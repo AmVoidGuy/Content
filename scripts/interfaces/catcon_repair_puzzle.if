@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Sprite
 x=8
 y=25
@@ -7,7 +7,7 @@ height=302
 graphic=297
 tiling=yes
 
-[bespoke_window]
+[com_1]
 type=Sprite
 x=-12
 y=51
@@ -16,7 +16,7 @@ height=252
 graphic=821
 tiling=yes
 
-[main_layer]
+[com_2]
 type=Sprite
 x=1
 y=20
@@ -24,7 +24,7 @@ width=32
 height=32
 graphic=824
 
-[selection_panel]
+[com_3]
 type=Sprite
 x=492
 y=51
@@ -33,7 +33,7 @@ height=251
 graphic=823
 tiling=yes
 
-[side_button_layer]
+[com_4]
 type=Sprite
 x=33
 y=7
@@ -42,7 +42,7 @@ height=34
 graphic=820
 tiling=yes
 
-[left_side]
+[com_5]
 type=Sprite
 x=32
 y=314
@@ -51,7 +51,7 @@ height=32
 graphic=822
 tiling=yes
 
-[colour_side_purple]
+[com_6]
 type=Sprite
 x=1
 y=302
@@ -59,7 +59,7 @@ width=32
 height=32
 graphic=826
 
-[catapult_left]
+[com_7]
 type=Sprite
 x=480
 y=20
@@ -67,7 +67,7 @@ width=32
 height=32
 graphic=825
 
-[right_side]
+[com_8]
 type=Sprite
 x=480
 y=302
@@ -75,7 +75,7 @@ width=32
 height=32
 graphic=827
 
-[colour_side_orange]
+[com_9]
 type=Sprite
 x=7
 y=225
@@ -84,12 +84,12 @@ height=32
 graphic=851
 tiling=yes
 
-[catapult_right]
+[main_layer]
 type=Layer
 width=512
 height=334
 
-[puzzle_board_bound]
+[left_side]
 type=Layer
 y=27
 width=505
@@ -97,7 +97,7 @@ height=211
 layerId=44630026
 hide=yes
 
-[piece_2x1]
+[colour_side_purple]
 type=Rectangle
 x=8
 width=496
@@ -106,7 +106,7 @@ layerId=44630027
 colour=0x5C3F5C
 fill=yes
 
-[piece_3x1]
+[catapult_left]
 type=Model
 x=115
 y=15
@@ -119,14 +119,14 @@ modelXOf=-4
 modelYOf=16
 discardedModelField=0
 
-[piece_4x1]
+[right_side]
 type=Layer
 y=27
 width=505
 height=211
 layerId=44630026
 
-[piece_5x1]
+[colour_side_orange]
 type=Rectangle
 x=8
 width=496
@@ -135,7 +135,7 @@ layerId=44630030
 colour=0x916100
 fill=yes
 
-[piece_t_joint]
+[catapult_right]
 type=Model
 x=122
 y=15
@@ -148,7 +148,7 @@ modelXOf=-22
 modelYOf=16
 discardedModelField=0
 
-[piece_left_t_joint]
+[puzzle_board_bound]
 type=Layer
 x=8
 y=27
@@ -156,7 +156,7 @@ width=497
 height=211
 layerId=44630026
 
-[piece_right_t_joint]
+[piece_2x1]
 type=Model
 width=37
 height=19
@@ -167,7 +167,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[piece_right_joint_3x2]
+[piece_3x1]
 type=Model
 x=-1
 width=57
@@ -179,7 +179,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[piece_right_joint_4x2]
+[piece_4x1]
 type=Model
 x=-1
 width=75
@@ -191,7 +191,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[piece_z_joint]
+[piece_5x1]
 type=Model
 x=-1
 width=93
@@ -203,7 +203,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_2x1]
+[piece_t_joint]
 type=Model
 x=-1
 width=57
@@ -215,7 +215,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_3x1]
+[piece_left_t_joint]
 type=Model
 x=-1
 width=75
@@ -227,7 +227,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_4x1]
+[piece_right_t_joint]
 type=Model
 x=-1
 width=75
@@ -239,7 +239,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_5x1]
+[piece_right_joint_3x2]
 type=Model
 x=-1
 width=57
@@ -251,7 +251,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_t_joint]
+[piece_right_joint_4x2]
 type=Model
 x=-1
 width=75
@@ -263,7 +263,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_left_t_joint]
+[piece_z_joint]
 type=Model
 x=-1
 y=-1
@@ -276,7 +276,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_right_t_joint]
+[top_piece_2x1]
 type=Model
 width=37
 height=19
@@ -287,7 +287,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_right_joint_3x2]
+[top_piece_3x1]
 type=Model
 x=-1
 width=57
@@ -299,7 +299,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_right_joint_4x2]
+[top_piece_4x1]
 type=Model
 x=-1
 width=75
@@ -311,7 +311,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[top_piece_z_joint]
+[top_piece_5x1]
 type=Model
 x=-1
 width=93
@@ -323,7 +323,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_2x1_horizontal]
+[top_piece_t_joint]
 type=Model
 x=-1
 width=57
@@ -335,7 +335,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_3x1_horizontal]
+[top_piece_left_t_joint]
 type=Model
 x=-1
 width=75
@@ -347,7 +347,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_4x1_horizontal]
+[top_piece_right_t_joint]
 type=Model
 x=-1
 width=75
@@ -359,7 +359,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_5x1_horizontal]
+[top_piece_right_joint_3x2]
 type=Model
 x=-1
 width=57
@@ -371,7 +371,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_t_joint_horizontal]
+[top_piece_right_joint_4x2]
 type=Model
 x=-1
 width=75
@@ -383,7 +383,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_left_t_joint_horizontal]
+[top_piece_z_joint]
 type=Model
 x=-1
 y=-1
@@ -396,7 +396,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[select_piece_right_t_joint_horizontal]
+[select_piece_2x1_horizontal]
 type=Rectangle
 width=36
 height=18
@@ -408,7 +408,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[select_piece_right_joint_2_horizontal]
+[select_piece_3x1_horizontal]
 type=Rectangle
 width=54
 height=18
@@ -421,7 +421,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[select_piece_right_joint_3_horizontal]
+[select_piece_4x1_horizontal]
 type=Rectangle
 width=72
 height=18
@@ -434,7 +434,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[select_piece_z_joint_horizontal]
+[select_piece_5x1_horizontal]
 type=Rectangle
 width=90
 height=18
@@ -447,9 +447,87 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[select_piece_2x1_vertical]
+[select_piece_t_joint_horizontal]
 type=Rectangle
 width=54
+height=36
+layerId=44630033
+hide=yes
+trans=254
+colour=0xFFFF00
+fill=yes
+eventCode=hasOp(1,2)
+opName0="Select-Piece"
+opName1="Remove-Piece"
+
+[select_piece_left_t_joint_horizontal]
+type=Rectangle
+width=72
+height=36
+layerId=44630033
+hide=yes
+trans=254
+colour=0xFFFF00
+fill=yes
+eventCode=hasOp(1,2)
+opName0="Select-Piece"
+opName1="Remove-Piece"
+
+[select_piece_right_t_joint_horizontal]
+type=Rectangle
+width=72
+height=36
+layerId=44630033
+hide=yes
+trans=254
+colour=0xFFFF00
+fill=yes
+eventCode=hasOp(1,2)
+opName0="Select-Piece"
+opName1="Remove-Piece"
+
+[select_piece_right_joint_2_horizontal]
+type=Rectangle
+width=54
+height=36
+layerId=44630033
+hide=yes
+trans=254
+colour=0xFFFF00
+fill=yes
+eventCode=hasOp(1,2)
+opName0="Select-Piece"
+opName1="Remove-Piece"
+
+[select_piece_right_joint_3_horizontal]
+type=Rectangle
+width=72
+height=36
+layerId=44630033
+hide=yes
+trans=254
+colour=0xFFFF00
+fill=yes
+eventCode=hasOp(1,2)
+opName0="Select-Piece"
+opName1="Remove-Piece"
+
+[select_piece_z_joint_horizontal]
+type=Rectangle
+width=54
+height=54
+layerId=44630033
+hide=yes
+trans=254
+colour=0xFFFF00
+fill=yes
+eventCode=hasOp(1,2)
+opName0="Select-Piece"
+opName1="Remove-Piece"
+
+[select_piece_2x1_vertical]
+type=Rectangle
+width=18
 height=36
 layerId=44630033
 hide=yes
@@ -462,8 +540,8 @@ opName1="Remove-Piece"
 
 [select_piece_3x1_vertical]
 type=Rectangle
-width=72
-height=36
+width=18
+height=54
 layerId=44630033
 hide=yes
 trans=254
@@ -474,84 +552,6 @@ opName0="Select-Piece"
 opName1="Remove-Piece"
 
 [select_piece_4x1_vertical]
-type=Rectangle
-width=72
-height=36
-layerId=44630033
-hide=yes
-trans=254
-colour=0xFFFF00
-fill=yes
-eventCode=hasOp(1,2)
-opName0="Select-Piece"
-opName1="Remove-Piece"
-
-[select_piece_5x1_vertical]
-type=Rectangle
-width=54
-height=36
-layerId=44630033
-hide=yes
-trans=254
-colour=0xFFFF00
-fill=yes
-eventCode=hasOp(1,2)
-opName0="Select-Piece"
-opName1="Remove-Piece"
-
-[select_piece_t_joint_vertical]
-type=Rectangle
-width=72
-height=36
-layerId=44630033
-hide=yes
-trans=254
-colour=0xFFFF00
-fill=yes
-eventCode=hasOp(1,2)
-opName0="Select-Piece"
-opName1="Remove-Piece"
-
-[select_piece_left_t_joint_vertical]
-type=Rectangle
-width=54
-height=54
-layerId=44630033
-hide=yes
-trans=254
-colour=0xFFFF00
-fill=yes
-eventCode=hasOp(1,2)
-opName0="Select-Piece"
-opName1="Remove-Piece"
-
-[select_piece_right_t_joint_vertical]
-type=Rectangle
-width=18
-height=36
-layerId=44630033
-hide=yes
-trans=254
-colour=0xFFFF00
-fill=yes
-eventCode=hasOp(1,2)
-opName0="Select-Piece"
-opName1="Remove-Piece"
-
-[select_piece_right_joint_2_vertical]
-type=Rectangle
-width=18
-height=54
-layerId=44630033
-hide=yes
-trans=254
-colour=0xFFFF00
-fill=yes
-eventCode=hasOp(1,2)
-opName0="Select-Piece"
-opName1="Remove-Piece"
-
-[select_piece_right_joint_3_vertical]
 type=Rectangle
 width=18
 height=72
@@ -564,7 +564,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[select_piece_z_joint_vertical]
+[select_piece_5x1_vertical]
 type=Rectangle
 width=18
 height=90
@@ -577,7 +577,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[selection_border]
+[select_piece_t_joint_vertical]
 type=Rectangle
 width=36
 height=54
@@ -590,7 +590,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[2x1_highlight]
+[select_piece_left_t_joint_vertical]
 type=Rectangle
 width=36
 height=72
@@ -603,7 +603,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[2x1_normal]
+[select_piece_right_t_joint_vertical]
 type=Rectangle
 width=36
 height=72
@@ -616,7 +616,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[2x1_purple]
+[select_piece_right_joint_2_vertical]
 type=Rectangle
 width=36
 height=54
@@ -629,7 +629,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[2x1_orange]
+[select_piece_right_joint_3_vertical]
 type=Rectangle
 width=36
 height=72
@@ -642,7 +642,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[2x1_icon_select]
+[select_piece_z_joint_vertical]
 type=Rectangle
 width=54
 height=54
@@ -655,14 +655,14 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[3x1_highlight]
+[selection_panel]
 type=Layer
 x=8
 y=239
 width=496
 height=88
 
-[3x1_normal]
+[selection_border]
 type=Rectangle
 x=-1
 y=2
@@ -672,7 +672,7 @@ layerId=44630074
 trans=150
 fill=yes
 
-[3x1_purple]
+[2x1_highlight]
 type=Model
 x=122
 y=30
@@ -684,7 +684,7 @@ modelZoom=4140
 modelXAn=512
 discardedModelField=0
 
-[3x1_orange]
+[2x1_normal]
 type=Model
 x=119
 y=28
@@ -696,7 +696,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[3x1_icon_select]
+[2x1_purple]
 type=Model
 x=119
 y=28
@@ -708,7 +708,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[4x1_highlight]
+[2x1_orange]
 type=Model
 x=119
 y=28
@@ -720,7 +720,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[4x1_normal]
+[2x1_icon_select]
 type=Rectangle
 x=116
 y=25
@@ -734,7 +734,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[4x1_purple]
+[3x1_highlight]
 type=Model
 x=107
 y=63
@@ -746,7 +746,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[4x1_orange]
+[3x1_normal]
 type=Model
 x=107
 y=63
@@ -758,7 +758,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[4x1_icon_select]
+[3x1_purple]
 type=Model
 x=107
 y=63
@@ -770,7 +770,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[5x1_highlight]
+[3x1_orange]
 type=Model
 x=107
 y=63
@@ -782,7 +782,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[5x1_normal]
+[3x1_icon_select]
 type=Rectangle
 x=105
 y=61
@@ -796,7 +796,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[5x1_purple]
+[4x1_highlight]
 type=Model
 x=254
 y=11
@@ -808,7 +808,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[5x1_orange]
+[4x1_normal]
 type=Model
 x=254
 y=11
@@ -820,7 +820,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[5x1_icon_select]
+[4x1_purple]
 type=Model
 x=254
 y=11
@@ -832,7 +832,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_highlight]
+[4x1_orange]
 type=Model
 x=254
 y=11
@@ -844,7 +844,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_normal]
+[theorem_safe]
 type=Rectangle
 x=251
 y=8
@@ -858,7 +858,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[t_purple]
+[5x1_highlight]
 type=Model
 x=234
 y=62
@@ -870,7 +870,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_orange]
+[5x1_normal]
 type=Model
 x=234
 y=62
@@ -882,7 +882,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_icon_select]
+[5x1_purple]
 type=Model
 x=234
 y=62
@@ -894,7 +894,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_left_highlight]
+[5x1_orange]
 type=Model
 x=234
 y=62
@@ -906,7 +906,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_left_normal]
+[5x1_icon_select]
 type=Rectangle
 x=231
 y=59
@@ -920,7 +920,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[t_left_purple]
+[t_highlight]
 type=Model
 x=428
 y=43
@@ -932,7 +932,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_left_orange]
+[t_normal]
 type=Model
 x=428
 y=43
@@ -944,7 +944,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_left_icon_select]
+[t_purple]
 type=Model
 x=428
 y=43
@@ -956,7 +956,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_right_highlight]
+[t_orange]
 type=Model
 x=428
 y=43
@@ -968,7 +968,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_right_normal]
+[t_icon_select]
 type=Rectangle
 x=426
 y=41
@@ -982,7 +982,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[t_right_purple]
+[t_left_highlight]
 type=Model
 x=9
 y=47
@@ -994,7 +994,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_right_orange]
+[t_left_normal]
 type=Model
 x=9
 y=47
@@ -1006,7 +1006,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[t_right_icon_select]
+[t_left_purple]
 type=Model
 x=9
 y=47
@@ -1018,7 +1018,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_3x2_highlight]
+[t_left_orange]
 type=Model
 x=9
 y=47
@@ -1030,7 +1030,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_3x2_normal]
+[t_left_icon_select]
 type=Rectangle
 x=8
 y=46
@@ -1044,7 +1044,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[r_3x2_purple]
+[t_right_highlight]
 type=Model
 x=39
 y=8
@@ -1056,7 +1056,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_3x2_orange]
+[t_right_normal]
 type=Model
 x=39
 y=8
@@ -1068,7 +1068,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_3x2_icon_select]
+[t_right_purple]
 type=Model
 x=39
 y=8
@@ -1080,7 +1080,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_4x2_highlight]
+[t_right_orange]
 type=Model
 x=39
 y=8
@@ -1092,7 +1092,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_4x2_normal]
+[t_right_icon_select]
 type=Rectangle
 x=37
 y=7
@@ -1106,7 +1106,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[r_4x2_purple]
+[r_3x2_highlight]
 type=Model
 x=344
 y=47
@@ -1118,7 +1118,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_4x2_orange]
+[r_3x2_normal]
 type=Model
 x=344
 y=47
@@ -1130,7 +1130,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[r_4x2_icon_select]
+[r_3x2_purple]
 type=Model
 x=344
 y=47
@@ -1142,7 +1142,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[z_highlight]
+[r_3x2_orange]
 type=Model
 x=344
 y=47
@@ -1154,7 +1154,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[z_normal]
+[r_3x2_icon_select]
 type=Rectangle
 x=344
 y=45
@@ -1168,7 +1168,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[z_purple]
+[r_4x2_highlight]
 type=Model
 x=349
 y=4
@@ -1180,7 +1180,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[z_orange]
+[r_4x2_normal]
 type=Model
 x=349
 y=4
@@ -1192,7 +1192,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[z_icon_select]
+[r_4x2_purple]
 type=Model
 x=349
 y=4
@@ -1204,7 +1204,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[completed_close_layer]
+[r_4x2_orange]
 type=Model
 x=349
 y=4
@@ -1216,7 +1216,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[com_104]
+[r_4x2_icon_select]
 type=Rectangle
 x=347
 y=1
@@ -1230,7 +1230,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[com_105]
+[z_highlight]
 type=Model
 x=168
 y=7
@@ -1242,7 +1242,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[completed_close_button]
+[z_normal]
 type=Model
 x=168
 y=7
@@ -1254,7 +1254,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[completed_title]
+[z_purple]
 type=Model
 x=168
 y=7
@@ -1266,7 +1266,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[completed_text]
+[z_orange]
 type=Model
 x=168
 y=7
@@ -1278,7 +1278,7 @@ modelZoom=3500
 modelXAn=512
 discardedModelField=0
 
-[right_highlight_layer]
+[z_icon_select]
 type=Rectangle
 x=167
 y=6
@@ -1292,7 +1292,7 @@ eventCode=hasOp(1,2)
 opName0="Select-Piece"
 opName1="Remove-Piece"
 
-[right_button_highlight]
+[null_model]
 type=Model
 layerId=44630026
 hide=yes
@@ -1300,7 +1300,7 @@ modelZoom=400
 discardedModelField=0
 baseOpName="m"
 
-[right_side_button]
+[null_rectangle]
 type=Rectangle
 x=10
 y=167
@@ -1308,7 +1308,7 @@ layerId=44630026
 hide=yes
 colour=0xFFFF00
 
-[right_side_selector]
+[completed_close_layer]
 type=Layer
 x=1
 y=1
@@ -1317,7 +1317,7 @@ height=332
 layerId=44630026
 hide=yes
 
-[left_highlight_layer]
+[com_113]
 type=Rectangle
 x=81
 y=263
@@ -1328,7 +1328,7 @@ trans=50
 colour=0x339900
 fill=yes
 
-[left_button_highlight]
+[com_114]
 type=Rectangle
 x=78
 y=260
@@ -1339,7 +1339,7 @@ trans=50
 colour=0x339900
 fill=yes
 
-[left_side_button]
+[completed_close_button]
 type=Text
 x=78
 y=260
@@ -1356,7 +1356,7 @@ eventCode=hasOp(1)
 opName0="Close"
 onop=29
 
-[left_side_selector]
+[completed_title]
 type=Text
 x=377
 y=19
@@ -1370,7 +1370,7 @@ font=645
 shadow=yes
 text="Repairs Complete"
 
-[catapult_right_small_indicator]
+[completed_text]
 type=Text
 x=390
 y=95
@@ -1385,7 +1385,7 @@ font=497
 shadow=yes
 text="You finish repairing the catapult.  The Guard looks rather impressed."
 
-[catapult_small_small_indicator]
+[right_highlight_layer]
 type=Layer
 x=415
 y=185
@@ -1393,7 +1393,7 @@ width=85
 height=49
 layerId=44630143
 
-[bespoke_window_background]
+[right_button_highlight]
 type=Rectangle
 x=1
 y=1
@@ -1403,7 +1403,7 @@ layerId=44630134
 colour=0xFFFFFF
 fill=yes
 
-[bespoke_window_content]
+[right_side_button]
 type=Layer
 x=417
 y=187
@@ -1414,7 +1414,7 @@ onload=93,component.parentId
 onmouseover=97,component.parentId
 onmouseleave=93,component.parentId
 
-[bespoke_window_border]
+[right_side_selector]
 type=Rectangle
 x=416
 y=186
@@ -1430,7 +1430,7 @@ onmouseleave=40,44630145
 onop=840
 onmouserepeat=38,component.parentId,44630145,"View right side of the catapult.",50,180
 
-[bespoke_window_close]
+[left_highlight_layer]
 type=Layer
 x=14
 y=185
@@ -1438,7 +1438,7 @@ width=85
 height=49
 layerId=44630143
 
-[com_123]
+[left_button_highlight]
 type=Rectangle
 y=1
 width=84
@@ -1447,7 +1447,7 @@ layerId=44630138
 colour=0xFFFFFF
 fill=yes
 
-[com_124]
+[left_side_button]
 type=Layer
 x=15
 y=187
@@ -1458,7 +1458,7 @@ onload=93,component.parentId
 onmouseover=97,component.parentId
 onmouseleave=93,component.parentId
 
-[com_125]
+[left_side_selector]
 type=Rectangle
 x=15
 y=186
@@ -1474,7 +1474,7 @@ onmouseleave=40,44630145
 onop=840
 onmouserepeat=38,component.parentId,44630145,"View left side of the catapult.",50,180
 
-[com_126]
+[close_button]
 type=Sprite
 x=485
 y=30
@@ -1486,25 +1486,25 @@ opName0="Close"
 onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 
-[com_127]
+[side_button_layer]
 type=Layer
 width=512
 height=334
 
-[com_128]
+[tooltip_bound]
 type=Layer
 x=10
 y=164
 width=493
 height=100
 
-[com_129]
+[tooltip_layer]
 type=Layer
 width=0
 height=0
 layerId=44630144
 
-[com_130]
+[catapult_right_small_indicator]
 type=Model
 x=430
 y=190
@@ -1517,7 +1517,7 @@ modelXOf=-5
 modelYOf=3
 discardedModelField=0
 
-[com_131]
+[catapult_small_small_indicator]
 type=Model
 x=25
 y=190

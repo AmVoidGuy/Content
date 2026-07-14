@@ -9,7 +9,7 @@ modelZoom=960
 modelXAn=185
 discardedModelField=0
 
-[layer_1]
+[com_1]
 type=Model
 x=-32
 y=81

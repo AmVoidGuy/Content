@@ -45,7 +45,7 @@ height=32
 model1Id=27109
 modelZoom=356
 
-[close_button]
+[com_5]
 type=Model
 width=32
 height=32
@@ -53,7 +53,7 @@ layerId=6750215
 model1Id=27108
 modelZoom=400
 
-[pattern_01]
+[btn]
 type=Model
 x=437
 y=31
@@ -63,7 +63,7 @@ overLayerId=7
 model1Id=27105
 modelZoom=400
 
-[pattern_02]
+[com_7]
 type=Layer
 buttonType=Close
 x=437
@@ -73,7 +73,7 @@ height=32
 hide=yes
 buttonText="Ok"
 
-[pattern_03]
+[pattern_01]
 type=Model
 x=89
 y=77
@@ -81,7 +81,7 @@ width=32
 height=32
 modelZoom=400
 
-[title]
+[pattern_02]
 type=Model
 x=184
 y=77
@@ -89,7 +89,7 @@ width=32
 height=32
 modelZoom=400
 
-[pattern_select_01]
+[pattern_03]
 type=Model
 x=281
 y=77
@@ -97,7 +97,7 @@ width=32
 height=32
 modelZoom=400
 
-[pattern_select_02]
+[title]
 type=Text
 x=37
 y=142
@@ -109,7 +109,7 @@ font=645
 shadow=yes
 text="What comes next?"
 
-[pattern_select_03]
+[pattern_select_01]
 type=Model
 buttonType=Button
 x=74
@@ -119,7 +119,7 @@ height=64
 modelZoom=400
 eventCode=flag22
 
-[pattern_select_04]
+[pattern_select_02]
 type=Model
 buttonType=Button
 x=170
@@ -129,7 +129,7 @@ height=64
 modelZoom=400
 eventCode=flag22
 
-[layer_1]
+[pattern_select_03]
 type=Model
 buttonType=Button
 x=266
@@ -139,7 +139,7 @@ height=64
 modelZoom=400
 eventCode=flag22
 
-[com_15]
+[pattern_select_04]
 type=Model
 buttonType=Button
 x=362

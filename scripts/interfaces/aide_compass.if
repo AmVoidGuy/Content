@@ -1,4 +1,4 @@
-[aide_scroll_north]
+[com_0]
 type=Rectangle
 x=8
 y=-5
@@ -8,7 +8,7 @@ trans=200
 colour=0xA4957F
 fill=yes
 
-[aide_north_text_1]
+[aide_scroll_north]
 type=Model
 x=242
 y=32
@@ -19,7 +19,7 @@ modelZoom=1418
 modelXAn=515
 modelYAn=513
 
-[aide_north_text_2]
+[aide_north_text_1]
 type=Text
 x=171
 y=14
@@ -30,7 +30,7 @@ hAlign=Center
 font=496
 text="To the NORTH"
 
-[aide_scroll_east]
+[aide_north_text_2]
 type=Text
 x=171
 y=28
@@ -42,7 +42,7 @@ vAlign=Center
 font=497
 text="To the NORTH"
 
-[aide_scroll_south]
+[aide_scroll_east]
 type=Model
 x=418
 y=144
@@ -53,7 +53,7 @@ modelZoom=1290
 modelXAn=478
 modelYAn=3
 
-[aide_east_text_1]
+[aide_scroll_south]
 type=Model
 x=242
 y=247
@@ -64,7 +64,7 @@ modelZoom=1418
 modelXAn=515
 modelYAn=513
 
-[aide_south_text_1]
+[aide_east_text_1]
 type=Text
 x=382
 y=86
@@ -75,7 +75,7 @@ hAlign=Center
 font=496
 text="To the EAST"
 
-[aide_east_text_2]
+[aide_south_text_1]
 type=Text
 x=172
 y=238
@@ -86,7 +86,7 @@ hAlign=Center
 font=496
 text="To the SOUTH"
 
-[aide_south_text_2]
+[aide_east_text_2]
 type=Text
 x=382
 y=103
@@ -98,7 +98,7 @@ vAlign=Center
 font=497
 text="To the EAST"
 
-[aide_scroll_west]
+[aide_south_text_2]
 type=Text
 x=173
 y=253
@@ -110,7 +110,7 @@ vAlign=Center
 font=497
 text="To the SOUTH"
 
-[aide_west_text_1]
+[aide_scroll_west]
 type=Model
 x=52
 y=142
@@ -120,7 +120,7 @@ model1Id=18530
 modelZoom=1290
 modelXAn=475
 
-[aide_west_text_2]
+[aide_west_text_1]
 type=Text
 x=18
 y=86
@@ -131,7 +131,7 @@ hAlign=Center
 font=496
 text="To the WEST"
 
-[aide_big_sign_post]
+[aide_west_text_2]
 type=Text
 x=17
 y=100
@@ -143,7 +143,7 @@ vAlign=Center
 font=497
 text="To the WEST"
 
-[main_layer]
+[com_13]
 type=Sprite
 x=481
 y=7
@@ -163,7 +163,7 @@ layerId=8847376
 graphic=540
 buttonText="Ok"
 
-[com_15]
+[aide_big_sign_post]
 type=Model
 x=242
 y=145
@@ -173,7 +173,7 @@ model1Id=18535
 modelZoom=1162
 modelXAn=517
 
-[com_16]
+[aide_compass_close_button]
 type=Layer
 x=479
 y=3

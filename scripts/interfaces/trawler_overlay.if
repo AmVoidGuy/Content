@@ -1,4 +1,4 @@
-[water_background]
+[trawler_waterlevel0]
 type=Rectangle
 x=49
 y=23
@@ -11,7 +11,7 @@ fill=yes
 script1=gt,0
 script1op1=varp,trawler_water_overlay
 
-[water_outline]
+[trawler_waterlevel1]
 type=Rectangle
 x=70
 y=23
@@ -24,7 +24,7 @@ fill=yes
 script1=gt,4
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel0]
+[trawler_waterlevel2]
 type=Rectangle
 x=91
 y=23
@@ -37,7 +37,7 @@ fill=yes
 script1=gt,9
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel1]
+[trawler_waterlevel3]
 type=Rectangle
 x=112
 y=23
@@ -50,7 +50,7 @@ fill=yes
 script1=gt,14
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel2]
+[trawler_waterlevel4]
 type=Rectangle
 x=133
 y=23
@@ -63,7 +63,7 @@ fill=yes
 script1=gt,19
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel3]
+[trawler_waterlevel5]
 type=Rectangle
 x=154
 y=23
@@ -76,7 +76,7 @@ fill=yes
 script1=gt,24
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel4]
+[trawler_waterlevel6]
 type=Rectangle
 x=175
 y=23
@@ -89,7 +89,7 @@ fill=yes
 script1=gt,29
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel5]
+[trawler_waterlevel7]
 type=Rectangle
 x=196
 y=23
@@ -102,7 +102,7 @@ fill=yes
 script1=gt,34
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel6]
+[trawler_waterlevel8]
 type=Rectangle
 x=217
 y=23
@@ -115,7 +115,7 @@ fill=yes
 script1=gt,39
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel7]
+[trawler_waterlevel9]
 type=Rectangle
 x=238
 y=23
@@ -128,7 +128,7 @@ fill=yes
 script1=gt,44
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel8]
+[trawler_waterlevel10]
 type=Rectangle
 x=259
 y=23
@@ -141,7 +141,7 @@ fill=yes
 script1=gt,49
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel9]
+[trawler_waterlevel11]
 type=Rectangle
 x=280
 y=23
@@ -154,7 +154,7 @@ fill=yes
 script1=gt,54
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel10]
+[trawler_waterlevel12]
 type=Rectangle
 x=301
 y=23
@@ -167,7 +167,7 @@ fill=yes
 script1=gt,59
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel11]
+[trawler_waterlevel13]
 type=Rectangle
 x=322
 y=23
@@ -180,7 +180,7 @@ fill=yes
 script1=gt,64
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel12]
+[trawler_waterlevel14]
 type=Rectangle
 x=343
 y=23
@@ -193,7 +193,7 @@ fill=yes
 script1=gt,69
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel13]
+[trawler_waterlevel15]
 type=Rectangle
 x=364
 y=23
@@ -206,7 +206,7 @@ fill=yes
 script1=gt,74
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel14]
+[trawler_waterlevel16]
 type=Rectangle
 x=385
 y=23
@@ -219,7 +219,7 @@ fill=yes
 script1=gt,79
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel15]
+[trawler_waterlevel17]
 type=Rectangle
 x=406
 y=23
@@ -232,7 +232,7 @@ fill=yes
 script1=gt,84
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel16]
+[trawler_waterlevel18]
 type=Rectangle
 x=427
 y=23
@@ -245,7 +245,7 @@ fill=yes
 script1=gt,89
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel17]
+[trawler_waterlevel19]
 type=Rectangle
 x=448
 y=23
@@ -258,13 +258,13 @@ fill=yes
 script1=gt,94
 script1op1=varp,trawler_water_overlay
 
-[trawler_waterlevel18]
+[trawler_layer]
 type=Layer
 x=20
 width=475
 height=62
 
-[trawler_waterlevel19]
+[com_21]
 type=Text
 y=20
 width=47
@@ -275,7 +275,7 @@ font=495
 shadow=yes
 text="Water:"
 
-[trawler_layer]
+[com_22]
 type=Text
 y=42
 width=32
@@ -323,7 +323,7 @@ layerId=23986196
 trans=128
 colour=0x808080
 
-[com_26]
+[trawler_nettextok]
 type=Text
 x=31
 y=42
@@ -335,7 +335,7 @@ font=495
 shadow=yes
 text="Okay"
 
-[trawler_nettextok]
+[trawler_nettextripped]
 type=Text
 x=31
 y=42
@@ -347,7 +347,7 @@ font=495
 shadow=yes
 text="Ripped!"
 
-[trawler_nettextripped]
+[trawler_catchtext]
 type=Text
 x=225
 y=42
@@ -359,7 +359,7 @@ font=495
 shadow=yes
 text="Nothing"
 
-[trawler_catchtext]
+[trawler_timetext]
 type=Text
 x=396
 y=42

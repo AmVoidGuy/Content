@@ -1,18 +1,18 @@
-[layer_1]
+[com_0]
 type=Rectangle
 x=311
 y=6
 width=196
 height=18
 
-[hard_mode_text]
+[com_1]
 type=Rectangle
 x=311
 y=23
 width=196
 height=82
 
-[top_outline]
+[com_2]
 type=Rectangle
 x=311
 y=6
@@ -21,7 +21,7 @@ height=18
 trans=128
 fill=yes
 
-[bottom_outline]
+[com_3]
 type=Rectangle
 x=311
 y=23
@@ -30,7 +30,7 @@ height=82
 trans=196
 fill=yes
 
-[top_bg]
+[barbassault_current_team]
 type=Text
 x=334
 y=8
@@ -41,32 +41,10 @@ font=496
 shadow=yes
 text="Current team"
 
-[bottom_bg]
-type=Text
-x=388
-y=27
-width=111
-height=16
-colour=0xFFA81F
-font=495
-shadow=yes
-text="-----"
-
-[barbassault_current_team]
-type=Text
-x=388
-y=42
-width=111
-height=16
-colour=0xFFA81F
-font=495
-shadow=yes
-text="-----"
-
 [barbassault_leader_name]
 type=Text
 x=388
-y=57
+y=27
 width=111
 height=16
 colour=0xFFA81F
@@ -77,7 +55,7 @@ text="-----"
 [barbassault_player_1_name]
 type=Text
 x=388
-y=72
+y=42
 width=111
 height=16
 colour=0xFFA81F
@@ -88,7 +66,7 @@ text="-----"
 [barbassault_player_2_name]
 type=Text
 x=388
-y=87
+y=57
 width=111
 height=16
 colour=0xFFA81F
@@ -97,6 +75,28 @@ shadow=yes
 text="-----"
 
 [barbassault_player_3_name]
+type=Text
+x=388
+y=72
+width=111
+height=16
+colour=0xFFA81F
+font=495
+shadow=yes
+text="-----"
+
+[barbassault_player_4_name]
+type=Text
+x=388
+y=87
+width=111
+height=16
+colour=0xFFA81F
+font=495
+shadow=yes
+text="-----"
+
+[com_10]
 type=Text
 x=334
 y=27
@@ -107,7 +107,7 @@ font=495
 shadow=yes
 text="Leader:"
 
-[barbassault_player_4_name]
+[com_11]
 type=Text
 x=334
 y=42
@@ -118,7 +118,7 @@ font=495
 shadow=yes
 text="Player 1:"
 
-[leader_label]
+[com_12]
 type=Text
 x=334
 y=57
@@ -129,7 +129,7 @@ font=495
 shadow=yes
 text="Player 2:"
 
-[p1_label]
+[com_13]
 type=Text
 x=334
 y=72
@@ -140,7 +140,7 @@ font=495
 shadow=yes
 text="Player 3:"
 
-[p2_label]
+[com_14]
 type=Text
 x=334
 y=87
@@ -151,7 +151,7 @@ font=495
 shadow=yes
 text="Player 4:"
 
-[p3_label]
+[barbassault_leader_icon]
 type=Model
 x=317
 y=27
@@ -161,7 +161,7 @@ modelZoom=4112
 modelXAn=510
 modelYAn=2014
 
-[p4_label]
+[barbassault_player1_icon]
 type=Model
 x=317
 y=42
@@ -171,7 +171,7 @@ modelZoom=4112
 modelXAn=510
 modelYAn=2014
 
-[barbassault_leader_icon]
+[barbassault_player2_icon]
 type=Model
 x=317
 y=57
@@ -181,7 +181,7 @@ modelZoom=4112
 modelXAn=510
 modelYAn=2014
 
-[barbassault_player1_icon]
+[barbassault_player3_icon]
 type=Model
 x=317
 y=72
@@ -191,7 +191,7 @@ modelZoom=4112
 modelXAn=510
 modelYAn=2014
 
-[barbassault_player2_icon]
+[barbassault_player4_icon]
 type=Model
 x=317
 y=87

@@ -366,7 +366,7 @@ vAlign=Center
 font=497
 text="Choose your path"
 
-[close_button]
+[com_33]
 type=Sprite
 x=484
 y=3
@@ -375,7 +375,7 @@ height=23
 overLayerId=35
 graphic=539
 
-[com_34]
+[close_window]
 type=Sprite
 buttonType=Close
 x=4
@@ -386,7 +386,7 @@ layerId=3342371
 graphic=540
 buttonText="Ok"
 
-[com_35]
+[burgh_map_close_button]
 type=Layer
 x=480
 width=32

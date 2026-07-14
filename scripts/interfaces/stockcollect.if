@@ -1,4 +1,4 @@
-[offerbutton5]
+[com_0]
 type=Rectangle
 x=80
 y=70
@@ -7,7 +7,7 @@ height=215
 trans=200
 fill=yes
 
-[offersummary5]
+[com_1]
 type=Sprite
 x=76
 y=56
@@ -16,7 +16,7 @@ height=220
 graphic=297
 tiling=yes
 
-[offerbutton5_hide]
+[com_2]
 type=Sprite
 x=74
 y=86
@@ -25,7 +25,7 @@ height=161
 graphic=955
 tiling=yes
 
-[offerbutton4]
+[com_3]
 type=Sprite
 x=74
 y=54
@@ -33,7 +33,7 @@ width=32
 height=32
 graphic=958
 
-[offersummary4]
+[com_4]
 type=Sprite
 x=408
 y=86
@@ -42,7 +42,7 @@ height=161
 graphic=957
 tiling=yes
 
-[offerbutton4_hide]
+[com_5]
 type=Sprite
 x=106
 y=54
@@ -51,7 +51,7 @@ height=7
 graphic=954
 tiling=yes
 
-[offerbutton3]
+[com_6]
 type=Sprite
 x=106
 y=247
@@ -60,7 +60,7 @@ height=32
 graphic=956
 tiling=yes
 
-[offersummary3]
+[com_7]
 type=Sprite
 x=74
 y=247
@@ -68,7 +68,7 @@ width=32
 height=32
 graphic=960
 
-[offerbutton3_hide]
+[com_8]
 type=Sprite
 x=408
 y=54
@@ -76,7 +76,7 @@ width=32
 height=32
 graphic=959
 
-[offerbutton2]
+[com_9]
 type=Sprite
 x=408
 y=247
@@ -84,7 +84,7 @@ width=32
 height=32
 graphic=961
 
-[offersummary2]
+[com_10]
 type=Sprite
 x=85
 y=82
@@ -93,7 +93,7 @@ height=6
 graphic=962
 tiling=yes
 
-[offerbutton1]
+[com_11]
 type=Sprite
 x=74
 y=70
@@ -101,7 +101,7 @@ width=32
 height=32
 graphic=963
 
-[offersummary1]
+[com_12]
 type=Sprite
 x=408
 y=70
@@ -109,7 +109,7 @@ width=32
 height=32
 graphic=964
 
-[offerbutton0]
+[closebutton]
 type=Sprite
 x=415
 y=63
@@ -123,7 +123,7 @@ onmouseleave=44,component.parentId,831
 onop=29
 onclick=29
 
-[offersummary0]
+[com_14]
 type=Sprite
 x=85
 y=59
@@ -131,7 +131,7 @@ width=25
 height=25
 graphic=1164
 
-[offerbutton0_layer]
+[title]
 type=Text
 x=81
 y=63
@@ -146,7 +146,7 @@ onload=654
 oninvtransmit=656
 oninvtransmitlist=523,524,525,526,527,528
 
-[lending_container_bg]
+[shadow_0]
 type=Rectangle
 x=93
 y=100
@@ -155,7 +155,7 @@ height=80
 trans=200
 fill=yes
 
-[lending_title]
+[offerbutton0]
 type=Layer
 x=88
 y=95
@@ -163,21 +163,21 @@ width=106
 height=80
 onload=581,component.parentId
 
-[lending_item_bg]
+[offersummary0]
 type=Layer
 x=88
 y=95
 width=106
 height=80
 
-[lending_item]
+[offertooltip0]
 type=Layer
 x=88
 y=95
 width=106
 height=80
 
-[lending_indicator]
+[tooltip0]
 type=Layer
 x=24
 y=24
@@ -185,7 +185,7 @@ width=10
 height=10
 layerId=7143443
 
-[offerbutton1_layer]
+[shadow_1]
 type=Rectangle
 x=209
 y=100
@@ -194,7 +194,7 @@ height=80
 trans=200
 fill=yes
 
-[offerbutton2_layer]
+[offerbutton1]
 type=Layer
 x=204
 y=95
@@ -202,21 +202,21 @@ width=106
 height=80
 onload=581,component.parentId
 
-[offerbutton3_layer]
+[offersummary1]
 type=Layer
 x=204
 y=95
 width=106
 height=80
 
-[offerbutton4_layer]
+[offertooltip1]
 type=Layer
 x=204
 y=95
 width=106
 height=80
 
-[offerbutton5_layer]
+[tooltip1]
 type=Layer
 x=24
 y=24
@@ -224,7 +224,7 @@ width=10
 height=10
 layerId=7143448
 
-[offerbutton6_layer]
+[shadow_2]
 type=Rectangle
 x=325
 y=100
@@ -233,7 +233,7 @@ height=80
 trans=200
 fill=yes
 
-[offerbutton7_layer]
+[offerbutton2]
 type=Layer
 x=320
 y=95
@@ -241,21 +241,21 @@ width=106
 height=80
 onload=581,component.parentId
 
-[lending_container]
+[offersummary2]
 type=Layer
 x=320
 y=95
 width=106
 height=80
 
-[lending_layer_hide]
+[offertooltip2]
 type=Layer
 x=320
 y=95
 width=106
 height=80
 
-[send_to_bank_layer]
+[tooltip2]
 type=Layer
 x=24
 y=24
@@ -263,7 +263,7 @@ width=10
 height=10
 layerId=7143453
 
-[com_31]
+[offerbutton2_hide]
 type=Layer
 x=320
 y=95
@@ -287,7 +287,7 @@ layerId=7143455
 graphic=1167
 tiling=yes
 
-[com_34]
+[shadow_3]
 type=Rectangle
 x=93
 y=190
@@ -296,7 +296,7 @@ height=80
 trans=200
 fill=yes
 
-[com_35]
+[offerbutton3]
 type=Layer
 x=88
 y=185
@@ -304,21 +304,21 @@ width=106
 height=80
 onload=581,component.parentId
 
-[com_36]
+[offersummary3]
 type=Layer
 x=88
 y=185
 width=106
 height=80
 
-[contents]
+[offertooltip3]
 type=Layer
 x=88
 y=185
 width=106
 height=80
 
-[mainmodal_window_background]
+[tooltip3]
 type=Layer
 x=24
 y=24
@@ -326,14 +326,14 @@ width=10
 height=10
 layerId=7143461
 
-[mainmodal_window_content]
+[offerbutton3_hide]
 type=Layer
 x=88
 y=185
 width=106
 height=80
 
-[send_to_inv_layer]
+[com_40]
 type=Rectangle
 width=140
 height=110
@@ -342,7 +342,7 @@ trans=160
 colour=0x808080
 fill=yes
 
-[mainmodal_window_border]
+[com_41]
 type=Sprite
 width=140
 height=110
@@ -350,7 +350,7 @@ layerId=7143463
 graphic=1167
 tiling=yes
 
-[closebutton]
+[shadow_4]
 type=Rectangle
 x=209
 y=190
@@ -359,7 +359,7 @@ height=80
 trans=200
 fill=yes
 
-[send_to_bank_on_layer]
+[offerbutton4]
 type=Layer
 x=204
 y=185
@@ -367,21 +367,21 @@ width=106
 height=80
 onload=581,component.parentId
 
-[send_to_bank_over_layer]
+[offersummary4]
 type=Layer
 x=204
 y=185
 width=106
 height=80
 
-[send_to_bank_hit_layer]
+[offertooltip4]
 type=Layer
 x=204
 y=185
 width=106
 height=80
 
-[send_to_bank_selected_layer]
+[tooltip4]
 type=Layer
 x=24
 y=24
@@ -389,14 +389,14 @@ width=10
 height=10
 layerId=7143469
 
-[send_to_bank_active_layer]
+[offerbutton4_hide]
 type=Layer
 x=204
 y=185
 width=106
 height=80
 
-[send_to_bank_disabled_layer]
+[com_48]
 type=Rectangle
 width=140
 height=110
@@ -405,7 +405,7 @@ trans=160
 colour=0x808080
 fill=yes
 
-[send_to_bank_text_layer]
+[com_49]
 type=Sprite
 width=140
 height=110
@@ -413,7 +413,7 @@ layerId=7143471
 graphic=1167
 tiling=yes
 
-[send_to_bank_text]
+[shadow_5]
 type=Rectangle
 x=325
 y=190
@@ -422,7 +422,7 @@ height=80
 trans=200
 fill=yes
 
-[send_to_inv_on_layer]
+[offerbutton5]
 type=Layer
 x=320
 y=185
@@ -430,21 +430,21 @@ width=106
 height=80
 onload=581,component.parentId
 
-[send_to_inv_over_layer]
+[offersummary5]
 type=Layer
 x=320
 y=185
 width=106
 height=80
 
-[send_to_inv_hit_layer]
+[offertooltip5]
 type=Layer
 x=320
 y=185
 width=106
 height=80
 
-[send_to_inv_selected_layer]
+[tooltip5]
 type=Layer
 x=24
 y=24
@@ -452,14 +452,14 @@ width=10
 height=10
 layerId=7143477
 
-[send_to_inv_active_layer]
+[offerbutton5_hide]
 type=Layer
 x=320
 y=185
 width=106
 height=80
 
-[send_to_inv_disabled_layer]
+[com_56]
 type=Rectangle
 width=140
 height=110
@@ -468,7 +468,7 @@ trans=160
 colour=0x808080
 fill=yes
 
-[send_to_inv_text_layer]
+[com_57]
 type=Sprite
 width=140
 height=110

@@ -1090,7 +1090,7 @@ font=495
 shadow=yes
 text="00"
 
-[layer_1]
+[com_95]
 type=Text
 x=137
 y=320
@@ -1102,7 +1102,7 @@ font=495
 shadow=yes
 text="/"
 
-[com_96]
+[scrollbar_surround]
 type=Layer
 x=-2
 y=48
@@ -1110,7 +1110,7 @@ width=168
 height=207
 scrollHeight=350
 
-[dungeoneering]
+[scrollbar]
 type=Layer
 x=165
 y=49
@@ -1118,7 +1118,7 @@ width=16
 height=206
 onload=63,component.parentId,34275424,792,789,790,791,773,788
 
-[stat_dungeoneering]
+[com_98]
 type=Text
 x=12
 y=9
@@ -1130,7 +1130,7 @@ font=496
 shadow=yes
 text="Player :"
 
-[statbase_dungeoneering]
+[stat_name]
 type=Text
 x=1
 y=31
@@ -1142,7 +1142,7 @@ font=496
 shadow=yes
 text="Player ~ Name"
 
-[com_100]
+[dream_playerstat_close]
 type=Sprite
 x=165
 y=8
@@ -1155,7 +1155,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onclick=29
 
-[divination]
+[dream_player_close]
 type=Layer
 x=160
 y=4
@@ -1163,7 +1163,7 @@ width=26
 height=23
 hide=yes
 
-[scrollbar_surround]
+[com_102]
 type=Sprite
 width=26
 height=23

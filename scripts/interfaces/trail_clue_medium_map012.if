@@ -1116,7 +1116,7 @@ modelZoom=1351
 modelXAn=364
 modelYAn=1421
 
-[mainmodal_window]
+[com_103]
 type=Model
 x=278
 y=57
@@ -1127,7 +1127,7 @@ modelZoom=1639
 modelXAn=464
 modelYAn=1919
 
-[mainmodal_window_background]
+[com_104]
 type=Model
 x=298
 y=57
@@ -1138,7 +1138,7 @@ modelZoom=1615
 modelXAn=554
 modelYAn=105
 
-[mainmodal_window_content]
+[com_105]
 type=Model
 x=312
 y=92
@@ -1149,7 +1149,7 @@ modelZoom=1639
 modelXAn=464
 modelYAn=1919
 
-[mainmodal_window_border]
+[com_106]
 type=Model
 x=332
 y=92
@@ -1160,7 +1160,7 @@ modelZoom=1585
 modelXAn=537
 modelYAn=97
 
-[mainmodal_window_close_button]
+[com_107]
 type=Sprite
 x=473
 y=13
@@ -1169,7 +1169,7 @@ height=23
 overLayerId=109
 graphic=539
 
-[com_108]
+[trail_clue_medium_012_close]
 type=Sprite
 buttonType=Close
 x=2

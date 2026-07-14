@@ -1,4 +1,4 @@
-[content_layer]
+[background]
 type=Model
 width=512
 height=334
@@ -8,7 +8,7 @@ modelZoom=577
 modelXAn=512
 discardedModelField=0
 
-[universe]
+[background_layer]
 type=Layer
 width=512
 height=334
@@ -27,7 +27,7 @@ discardedModelField=0
 onload=515
 ontimer=516
 
-[background_layer]
+[foreground_layer]
 type=Layer
 x=20
 y=-56

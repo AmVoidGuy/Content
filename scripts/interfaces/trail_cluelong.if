@@ -1,4 +1,4 @@
-[trail_cluelong_graphic]
+[com_0]
 type=Model
 x=227
 y=162
@@ -105,7 +105,7 @@ font=497
 shadow=yes
 text="The quick brown fox jumped over the "
 
-[mainmodal_window]
+[com_9]
 type=Sprite
 x=473
 y=13
@@ -114,7 +114,7 @@ height=25
 overLayerId=11
 graphic=539
 
-[mainmodal_window_background]
+[trail_cluelong_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -125,7 +125,7 @@ layerId=22609931
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_content]
+[trail_cluelong_close_button]
 type=Layer
 x=470
 y=10

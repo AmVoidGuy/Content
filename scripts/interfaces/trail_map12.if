@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=228
 y=163
@@ -9,7 +9,7 @@ modelZoom=599
 modelXAn=520
 modelYAn=1
 
-[mainmodal_window_background]
+[com_1]
 type=Model
 x=300
 y=193
@@ -20,7 +20,7 @@ modelZoom=811
 modelXAn=512
 modelYAn=510
 
-[mainmodal_window_content]
+[com_2]
 type=Model
 x=288
 y=196
@@ -1029,7 +1029,7 @@ height=23
 overLayerId=95
 graphic=539
 
-[com_94]
+[trail_map12_close]
 type=Sprite
 buttonType=Close
 x=2
@@ -1040,7 +1040,7 @@ layerId=23396447
 graphic=540
 buttonText="Ok"
 
-[com_95]
+[trail_map12_close_button]
 type=Layer
 x=471
 y=9

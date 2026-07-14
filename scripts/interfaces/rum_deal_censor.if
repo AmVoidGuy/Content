@@ -19,7 +19,7 @@ modelZoom=799
 modelXAn=611
 modelYAn=2040
 
-[com_2]
+[ball_of_wool]
 type=Model
 x=103
 y=256
@@ -30,7 +30,7 @@ modelZoom=400
 modelXAn=106
 modelYAn=207
 
-[ball_of_wool]
+[kitycat]
 type=Model
 x=340
 y=223
@@ -43,7 +43,7 @@ modelZoom=400
 modelXAn=73
 modelYAn=237
 
-[kitycat]
+[com_4]
 type=Text
 x=208
 y=19

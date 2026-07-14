@@ -10,7 +10,7 @@ model2Id=13369
 modelAnim=guide_if_question
 modelZoom=656
 
-[100_flour_q_anim1]
+[100_flour5]
 type=Model
 x=73
 y=292
@@ -22,7 +22,7 @@ modelAnim=guide_flour_spin
 modelZoom=656
 modelXAn=147
 
-[100_flour_anim5]
+[100_flour4]
 type=Model
 x=73
 y=296
@@ -34,7 +34,7 @@ modelAnim=guide_flour_spin
 modelZoom=656
 modelXAn=147
 
-[100_flour_anim4]
+[100_flour3]
 type=Model
 x=73
 y=288
@@ -46,7 +46,7 @@ modelAnim=guide_flour_spin
 modelZoom=528
 modelXAn=207
 
-[100_flour_anim3]
+[100_flour2]
 type=Model
 x=73
 y=287
@@ -58,7 +58,7 @@ modelAnim=guide_flour_spin
 modelZoom=656
 modelXAn=147
 
-[100_flour_anim2]
+[100_flour1]
 type=Model
 x=73
 y=289
@@ -70,7 +70,7 @@ modelAnim=guide_flour_spin
 modelZoom=528
 modelXAn=207
 
-[100_flour_anim1]
+[100_flour_plain]
 type=Model
 x=73
 y=291
@@ -81,7 +81,7 @@ model1Id=13361
 modelZoom=528
 modelXAn=207
 
-[100_flour_plain_layer]
+[100_flour_q_anim1]
 type=Layer
 x=351
 y=-3
@@ -89,7 +89,7 @@ width=164
 height=326
 hide=yes
 
-[100_flour5]
+[100_flour_anim5]
 type=Layer
 x=351
 y=-11
@@ -97,7 +97,7 @@ width=195
 height=334
 hide=yes
 
-[100_flour4]
+[100_flour_anim4]
 type=Layer
 x=351
 y=-15
@@ -105,7 +105,7 @@ width=170
 height=338
 hide=yes
 
-[100_flour3]
+[100_flour_anim3]
 type=Layer
 x=351
 y=-7
@@ -113,7 +113,7 @@ width=168
 height=330
 hide=yes
 
-[100_flour2]
+[100_flour_anim2]
 type=Layer
 x=351
 y=-6
@@ -121,7 +121,7 @@ width=178
 height=329
 hide=yes
 
-[100_flour1]
+[100_flour_anim1]
 type=Layer
 x=351
 y=-8
@@ -129,7 +129,7 @@ width=173
 height=331
 hide=yes
 
-[100_flour_plain]
+[100_flour_plain_layer]
 type=Layer
 x=351
 y=-10

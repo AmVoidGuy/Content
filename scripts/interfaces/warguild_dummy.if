@@ -190,7 +190,7 @@ font=495
 shadow=yes
 text="<br><br>These are the types<br>of attack to use on<br>each of the dummies<br>that pop up from<br>the floor.<br><br>You will find that you<br>need more than one<br>weapon to be<br>successful."
 
-[close]
+[com_17]
 type=Sprite
 x=450
 y=23
@@ -199,7 +199,7 @@ height=23
 overLayerId=19
 graphic=539
 
-[content_layer]
+[warguild_dummy_close]
 type=Sprite
 buttonType=Close
 x=2
@@ -210,7 +210,7 @@ layerId=27000851
 graphic=540
 buttonText="Ok"
 
-[com_19]
+[warguild_dummy_close_button]
 type=Layer
 x=448
 y=20

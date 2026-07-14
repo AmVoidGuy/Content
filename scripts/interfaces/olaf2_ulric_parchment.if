@@ -1,4 +1,4 @@
-[mainmodal_window]
+[olaf2_scroll_backing]
 type=Model
 x=240
 y=155
@@ -10,7 +10,7 @@ modelXAn=512
 modelYAn=1024
 discardedModelField=0
 
-[mainmodal_window_background]
+[olaf2_close]
 type=Sprite
 x=478
 y=6
@@ -21,7 +21,7 @@ onmouseover=44,16711681,538
 onmouseleave=44,16711681,537
 onclick=29
 
-[mainmodal_window_content]
+[olaf2_close_button]
 type=Layer
 x=475
 y=2
@@ -29,7 +29,7 @@ width=32
 height=32
 hide=yes
 
-[com_3]
+[olaf2_parchment_text]
 type=Text
 x=124
 y=88

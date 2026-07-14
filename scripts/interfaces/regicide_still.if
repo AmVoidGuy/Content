@@ -1,4 +1,4 @@
-[right_dial_back]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[right_dial_text]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[left_dial_back]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[left_dial_text]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[pressure_needle]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[heat_needle]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[regicide_add_coal]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[add_coal_text]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[left_wheel]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[right_wheel]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[bar_model]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[regicide_pressure_valve_down]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[regicide_pressure_valve_up]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[regicide_tar_valve_down]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[regicide_tar_valve_up]
+[com_14]
 type=Sprite
 x=188
 y=260
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[r1]
+[com_15]
 type=Sprite
 x=276
 y=20
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[r2]
+[com_16]
 type=Sprite
 x=364
 y=80
@@ -134,7 +134,7 @@ width=88
 height=60
 graphic=297
 
-[r3]
+[com_17]
 type=Sprite
 x=276
 y=80
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[r4]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[r5]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -158,7 +158,7 @@ width=88
 height=60
 graphic=297
 
-[r6]
+[com_20]
 type=Sprite
 x=276
 y=260
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[r7]
+[com_21]
 type=Sprite
 x=364
 y=140
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[r8]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[r9]
+[com_23]
 type=Sprite
 x=364
 y=200
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[r10]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[r11]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[r12]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -214,7 +214,7 @@ width=88
 height=60
 graphic=297
 
-[r13]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -222,7 +222,7 @@ width=88
 height=60
 graphic=297
 
-[r14]
+[com_28]
 type=Sprite
 x=412
 y=200
@@ -230,7 +230,7 @@ width=88
 height=60
 graphic=297
 
-[r15]
+[com_29]
 type=Sprite
 x=412
 y=260
@@ -238,7 +238,7 @@ width=88
 height=60
 graphic=297
 
-[r16]
+[com_30]
 type=Sprite
 x=12
 y=20
@@ -246,7 +246,7 @@ width=25
 height=30
 graphic=310
 
-[r17]
+[com_31]
 type=Sprite
 x=-3
 y=49
@@ -254,7 +254,7 @@ width=36
 height=36
 graphic=172
 
-[r18]
+[com_32]
 type=Sprite
 x=-3
 y=85
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[r19]
+[com_33]
 type=Sprite
 x=-3
 y=121
@@ -270,7 +270,7 @@ width=36
 height=36
 graphic=172
 
-[r20]
+[com_34]
 type=Sprite
 x=-3
 y=157
@@ -278,7 +278,7 @@ width=36
 height=36
 graphic=172
 
-[r21]
+[com_35]
 type=Sprite
 x=-3
 y=193
@@ -286,7 +286,7 @@ width=36
 height=36
 graphic=172
 
-[r22]
+[com_36]
 type=Sprite
 x=-3
 y=229
@@ -294,7 +294,7 @@ width=36
 height=36
 graphic=172
 
-[r23]
+[com_37]
 type=Sprite
 x=-3
 y=265
@@ -302,7 +302,7 @@ width=36
 height=36
 graphic=172
 
-[r24]
+[com_38]
 type=Sprite
 x=479
 y=50
@@ -310,7 +310,7 @@ width=36
 height=36
 graphic=315
 
-[r25]
+[com_39]
 type=Sprite
 x=479
 y=86
@@ -318,7 +318,7 @@ width=36
 height=36
 graphic=315
 
-[tar_regulator_text]
+[com_40]
 type=Sprite
 x=479
 y=122
@@ -326,7 +326,7 @@ width=36
 height=36
 graphic=315
 
-[pressure_valve_text]
+[com_41]
 type=Sprite
 x=479
 y=158
@@ -342,7 +342,7 @@ width=36
 height=36
 graphic=315
 
-[total_text]
+[com_43]
 type=Sprite
 x=479
 y=230
@@ -390,7 +390,7 @@ width=36
 height=36
 graphic=173
 
-[mainmodal_window]
+[com_49]
 type=Sprite
 x=253
 y=299
@@ -398,7 +398,7 @@ width=36
 height=36
 graphic=173
 
-[mainmodal_window_background]
+[com_50]
 type=Sprite
 x=289
 y=299
@@ -406,7 +406,7 @@ width=36
 height=36
 graphic=173
 
-[mainmodal_window_content]
+[com_51]
 type=Sprite
 x=361
 y=299
@@ -414,7 +414,7 @@ width=36
 height=36
 graphic=173
 
-[mainmodal_window_border]
+[com_52]
 type=Sprite
 x=397
 y=299
@@ -422,7 +422,7 @@ width=36
 height=36
 graphic=173
 
-[mainmodal_window_close_button]
+[com_53]
 type=Sprite
 x=433
 y=299
@@ -1090,7 +1090,7 @@ modelYAn=1024
 script1=eq,0
 script1op1=varp_bit,regicide_still_settings,25
 
-[com_119]
+[regicide_add_coal]
 type=Model
 buttonType=Button
 x=190
@@ -1200,7 +1200,7 @@ modelZoom=400
 modelXAn=512
 modelYAn=512
 
-[com_128]
+[regicide_pressure_valve_down]
 type=Text
 buttonType=Button
 x=56
@@ -1213,7 +1213,7 @@ shadow=yes
 buttonText="Turn pressure valve down"
 eventCode=flag22
 
-[com_129]
+[regicide_pressure_valve_up]
 type=Text
 buttonType=Button
 x=88
@@ -1226,7 +1226,7 @@ shadow=yes
 buttonText="Turn pressure valve up"
 eventCode=flag22
 
-[com_130]
+[regicide_tar_valve_down]
 type=Text
 buttonType=Button
 x=391
@@ -1239,7 +1239,7 @@ shadow=yes
 buttonText="Turn tar flow valve down"
 eventCode=flag22
 
-[com_131]
+[regicide_tar_valve_up]
 type=Text
 buttonType=Button
 x=423
@@ -1639,7 +1639,7 @@ height=23
 overLayerId=168
 graphic=535
 
-[com_167]
+[regicide_still_close]
 type=Sprite
 buttonType=Close
 x=4
@@ -1650,7 +1650,7 @@ layerId=18743464
 graphic=536
 buttonText="Ok"
 
-[com_168]
+[reg_close]
 type=Layer
 x=469
 y=19

@@ -1,4 +1,4 @@
-[layer_1]
+[com_0]
 type=Rectangle
 width=520
 height=340
@@ -85,7 +85,7 @@ overLayerId=9
 graphic=538
 buttonText="Ok"
 
-[com_9]
+[myq3_castle_sketch_west_close_button]
 type=Layer
 x=421
 y=10

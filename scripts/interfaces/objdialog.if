@@ -1,4 +1,4 @@
-[root]
+[com_0]
 type=Rectangle
 width=506
 height=130
@@ -15,7 +15,7 @@ trans=180
 colour=0x423329
 fill=yes
 
-[resultlist]
+[com_2]
 type=Rectangle
 y=110
 width=506
@@ -24,7 +24,7 @@ trans=200
 colour=0x372424
 fill=yes
 
-[resultlist_hide]
+[com_3]
 type=Rectangle
 y=110
 width=506
@@ -33,20 +33,20 @@ trans=220
 colour=0x372424
 fill=yes
 
-[com_4]
+[resultlist]
 type=Layer
 x=60
 width=430
 height=107
 
-[resultscrollbar]
+[resultlist_hide]
 type=Layer
 x=64
 y=3
 width=422
 height=105
 
-[com_6]
+[objdialog_title]
 type=Text
 x=4
 y=10
@@ -58,7 +58,7 @@ hAlign=Center
 vAlign=Center
 font=496
 
-[searchtext]
+[com_7]
 type=Text
 x=4
 y=48
@@ -72,13 +72,13 @@ lineHeight=15
 font=494
 text="To search for an item, start by typing part of its name.<br>Then, simply select the item you want from the results on display."
 
-[com_8]
+[resultscrollbar]
 type=Layer
 x=490
 width=16
 height=108
 
-[objgraphic]
+[searchtext]
 type=Text
 x=27
 y=111
@@ -88,7 +88,7 @@ colour=0xFFFFFF
 font=495
 shadow=yes
 
-[24px_close]
+[closebutton]
 type=Sprite
 x=490
 y=111
@@ -110,7 +110,7 @@ height=32
 graphic=851
 tiling=yes
 
-[com_12]
+[indent_box]
 type=Sprite
 x=46
 width=32
@@ -138,7 +138,7 @@ height=36
 graphic=1139
 baseOpName="  "
 
-[com_15]
+[objgraphic]
 type=Sprite
 x=12
 y=10

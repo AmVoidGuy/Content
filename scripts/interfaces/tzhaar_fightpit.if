@@ -1,4 +1,4 @@
-[tzhaar_fightpit_foes]
+[tzhaar_fightpit_champion]
 type=Text
 x=146
 y=25
@@ -10,7 +10,7 @@ font=494
 shadow=yes
 text="Current Champion: TzHaar-Xil-Huz"
 
-[com_1]
+[tzhaar_fightpit_foes]
 type=Text
 y=6
 width=184
@@ -24,7 +24,7 @@ text="Foes Remaining:"
 onvartransmit=70
 onvartransmitlist=560
 
-[com_2]
+[tzhaar_fightpit_remaining]
 type=Layer
 x=170
 y=31

@@ -1,4 +1,4 @@
-[messcroll1]
+[com_0]
 type=Model
 x=220
 y=166
@@ -9,7 +9,7 @@ modelZoom=561
 modelXAn=533
 modelYAn=3
 
-[messcroll2]
+[messcroll1]
 type=Text
 x=59
 y=38
@@ -19,7 +19,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll3]
+[messcroll2]
 type=Text
 x=59
 y=54
@@ -29,7 +29,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll4]
+[messcroll3]
 type=Text
 x=59
 y=70
@@ -39,7 +39,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll5]
+[messcroll4]
 type=Text
 x=59
 y=87
@@ -49,7 +49,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll6]
+[messcroll5]
 type=Text
 x=59
 y=104
@@ -59,7 +59,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll7]
+[messcroll6]
 type=Text
 x=59
 y=121
@@ -69,7 +69,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll8]
+[messcroll7]
 type=Text
 x=59
 y=138
@@ -79,7 +79,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll9]
+[messcroll8]
 type=Text
 x=59
 y=155
@@ -89,7 +89,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll10]
+[messcroll9]
 type=Text
 x=59
 y=172
@@ -99,7 +99,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll11]
+[messcroll10]
 type=Text
 x=59
 y=189
@@ -109,7 +109,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll12]
+[messcroll11]
 type=Text
 x=59
 y=206
@@ -119,7 +119,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll13]
+[messcroll12]
 type=Text
 x=59
 y=223
@@ -129,7 +129,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll14]
+[messcroll13]
 type=Text
 x=59
 y=240
@@ -139,7 +139,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[messcroll15]
+[messcroll14]
 type=Text
 x=59
 y=257
@@ -149,7 +149,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[mainmodal_window]
+[messcroll15]
 type=Text
 x=59
 y=274
@@ -159,7 +159,7 @@ colour=0xFFFF00
 hAlign=Center
 font=495
 
-[mainmodal_window_background]
+[com_16]
 type=Sprite
 x=442
 y=30
@@ -168,7 +168,7 @@ height=23
 overLayerId=18
 graphic=537
 
-[mainmodal_window_content]
+[com_17]
 type=Sprite
 buttonType=Close
 x=3
@@ -180,7 +180,7 @@ overLayerId=18
 graphic=538
 buttonText="Ok"
 
-[com_18]
+[messagescroll_close_button]
 type=Layer
 x=439
 y=25

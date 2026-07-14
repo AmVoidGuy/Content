@@ -1,4 +1,4 @@
-[castlewars_confim_puchase_message]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[castlewars_confirm_button_layer]
+[com_1]
 type=Sprite
 x=15
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[castlewars_decline_button_layer]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[sara_cape_layer]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[zam_cape_layer]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[sara_hood_layer]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[zam_hood_layer]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[flag_cape_layer]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[kills_cape_layer]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[500_cape_layer]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[1000_cape_layer]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[5000_cape_layer]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[halo_guthix_layer]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[halo_sara_layer]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[halo_zam_layer]
+[com_14]
 type=Sprite
 x=188
 y=260
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[shield_layer]
+[com_15]
 type=Sprite
 x=276
 y=20
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[book_layer]
+[com_16]
 type=Sprite
 x=364
 y=80
@@ -134,7 +134,7 @@ width=88
 height=60
 graphic=297
 
-[lvl1_helm_layer]
+[com_17]
 type=Sprite
 x=276
 y=80
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[lvl1_torso_layer]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[lvl1_legs_layer]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -158,7 +158,7 @@ width=88
 height=60
 graphic=297
 
-[lvl1_shield_layer]
+[com_20]
 type=Sprite
 x=276
 y=260
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[lvl1_sword_layer]
+[com_21]
 type=Sprite
 x=364
 y=140
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[lvl2_helm_layer]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[lvl2_torso_layer]
+[com_23]
 type=Sprite
 x=359
 y=200
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[lvl2_legs_layer]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[lvl2_shield_layer]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[lvl2_sword_layer]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -214,7 +214,7 @@ width=88
 height=60
 graphic=297
 
-[lvl3_helm_layer]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -222,7 +222,7 @@ width=88
 height=60
 graphic=297
 
-[lvl3_torso_layer]
+[com_28]
 type=Sprite
 x=406
 y=200
@@ -230,7 +230,7 @@ width=88
 height=60
 graphic=297
 
-[lvl3_legs_layer]
+[com_29]
 type=Sprite
 x=412
 y=260
@@ -238,7 +238,7 @@ width=88
 height=60
 graphic=297
 
-[lvl3_shield_layer]
+[com_30]
 type=Sprite
 x=12
 y=20
@@ -246,7 +246,7 @@ width=25
 height=30
 graphic=310
 
-[lvl3_sword_layer]
+[com_31]
 type=Sprite
 x=-3
 y=49
@@ -254,7 +254,7 @@ width=36
 height=36
 graphic=172
 
-[lvl4_helm_layer]
+[com_32]
 type=Sprite
 x=-3
 y=85
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[lvl4_torso_layer]
+[com_33]
 type=Sprite
 x=-3
 y=121
@@ -270,7 +270,7 @@ width=36
 height=36
 graphic=172
 
-[lvl4_legs_layer]
+[com_34]
 type=Sprite
 x=-3
 y=157
@@ -278,7 +278,7 @@ width=36
 height=36
 graphic=172
 
-[lvl4_shield_layer]
+[com_35]
 type=Sprite
 x=-3
 y=193
@@ -286,7 +286,7 @@ width=36
 height=36
 graphic=172
 
-[lvl4_sword_layer]
+[com_36]
 type=Sprite
 x=-3
 y=229
@@ -294,7 +294,7 @@ width=36
 height=36
 graphic=172
 
-[armour_big_layer_to_hold_items]
+[com_37]
 type=Sprite
 x=-3
 y=265
@@ -318,7 +318,7 @@ width=36
 height=36
 graphic=315
 
-[lvl_1_helm_cost]
+[com_40]
 type=Sprite
 x=479
 y=122
@@ -334,7 +334,7 @@ width=36
 height=36
 graphic=315
 
-[menu_layer]
+[com_42]
 type=Sprite
 x=479
 y=194
@@ -342,7 +342,7 @@ width=36
 height=36
 graphic=315
 
-[dec_armour_button]
+[com_43]
 type=Sprite
 x=479
 y=230
@@ -350,7 +350,7 @@ width=36
 height=36
 graphic=315
 
-[dec_armour_button_l]
+[com_44]
 type=Sprite
 x=479
 y=266
@@ -358,7 +358,7 @@ width=36
 height=36
 graphic=315
 
-[dec_armour_button_m]
+[com_45]
 type=Sprite
 x=73
 y=299
@@ -366,7 +366,7 @@ width=36
 height=36
 graphic=173
 
-[dec_armour_button_r]
+[com_46]
 type=Sprite
 x=109
 y=299
@@ -374,7 +374,7 @@ width=36
 height=36
 graphic=173
 
-[dec_armour_button_u]
+[com_47]
 type=Sprite
 x=145
 y=299
@@ -382,7 +382,7 @@ width=36
 height=36
 graphic=173
 
-[dec_armour_button_text]
+[com_48]
 type=Sprite
 x=181
 y=299
@@ -390,7 +390,7 @@ width=36
 height=36
 graphic=173
 
-[consume_button]
+[com_49]
 type=Sprite
 x=217
 y=299
@@ -398,7 +398,7 @@ width=36
 height=36
 graphic=173
 
-[consume_button_l]
+[com_50]
 type=Sprite
 x=253
 y=299
@@ -406,7 +406,7 @@ width=36
 height=36
 graphic=173
 
-[consume_button_m]
+[com_51]
 type=Sprite
 x=289
 y=299
@@ -414,7 +414,7 @@ width=36
 height=36
 graphic=173
 
-[consume_button_r]
+[com_52]
 type=Sprite
 x=325
 y=299
@@ -422,7 +422,7 @@ width=36
 height=36
 graphic=173
 
-[consume_button_u]
+[com_53]
 type=Sprite
 x=361
 y=299
@@ -430,7 +430,7 @@ width=36
 height=36
 graphic=173
 
-[consume_button_text]
+[com_54]
 type=Sprite
 x=397
 y=299
@@ -438,7 +438,7 @@ width=36
 height=36
 graphic=173
 
-[misc_items_button]
+[com_55]
 type=Sprite
 x=433
 y=299
@@ -446,7 +446,7 @@ width=36
 height=36
 graphic=173
 
-[misc_items_button_l]
+[com_56]
 type=Sprite
 x=72
 y=5
@@ -454,7 +454,7 @@ width=36
 height=36
 graphic=314
 
-[misc_items_button_m]
+[com_57]
 type=Sprite
 x=108
 y=5
@@ -462,7 +462,7 @@ width=36
 height=36
 graphic=314
 
-[misc_items_button_r]
+[com_58]
 type=Sprite
 x=144
 y=5
@@ -470,7 +470,7 @@ width=36
 height=36
 graphic=314
 
-[misc_items_button_u]
+[com_59]
 type=Sprite
 x=180
 y=5
@@ -478,7 +478,7 @@ width=36
 height=36
 graphic=314
 
-[misc_items_button_text]
+[com_60]
 type=Sprite
 x=216
 y=5
@@ -486,7 +486,7 @@ width=36
 height=36
 graphic=314
 
-[item_layer]
+[com_61]
 type=Sprite
 x=252
 y=5
@@ -494,7 +494,7 @@ width=36
 height=36
 graphic=314
 
-[item_layer_background]
+[com_62]
 type=Sprite
 x=288
 y=5
@@ -502,7 +502,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_horizontal_1a]
+[com_63]
 type=Sprite
 x=324
 y=5
@@ -510,7 +510,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_horizontal_1b]
+[com_64]
 type=Sprite
 x=360
 y=5
@@ -518,7 +518,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_horizontal_1c]
+[com_65]
 type=Sprite
 x=396
 y=5
@@ -526,7 +526,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_horizontal_1d]
+[com_66]
 type=Sprite
 x=432
 y=5
@@ -534,7 +534,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_horizontal_2]
+[com_67]
 type=Sprite
 x=252
 y=34
@@ -542,7 +542,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_vertical_1]
+[com_68]
 type=Sprite
 x=37
 y=5
@@ -550,7 +550,7 @@ width=36
 height=36
 graphic=314
 
-[item_list_divider_vertical_2]
+[com_69]
 type=Sprite
 x=37
 y=299
@@ -558,7 +558,7 @@ width=36
 height=36
 graphic=173
 
-[item_list_divider_vertical_3]
+[com_70]
 type=Sprite
 x=12
 y=290
@@ -566,7 +566,7 @@ width=25
 height=30
 graphic=312
 
-[item_list_divider_vertical_4]
+[com_71]
 type=Sprite
 x=475
 y=20
@@ -574,7 +574,7 @@ width=25
 height=30
 graphic=311
 
-[decorative_armour_layer]
+[com_72]
 type=Sprite
 x=439
 y=5
@@ -582,7 +582,7 @@ width=36
 height=36
 graphic=314
 
-[armour_scrolling_item_layer]
+[com_73]
 type=Sprite
 x=475
 y=290
@@ -590,7 +590,7 @@ width=25
 height=30
 graphic=313
 
-[armour_scrollbar_layer]
+[com_74]
 type=Sprite
 x=439
 y=299
@@ -598,7 +598,7 @@ width=36
 height=36
 graphic=173
 
-[rect1b]
+[com_75]
 type=Sprite
 x=288
 y=34
@@ -606,7 +606,7 @@ width=36
 height=36
 graphic=314
 
-[lvl_1_helm]
+[com_76]
 type=Sprite
 x=324
 y=34
@@ -614,7 +614,7 @@ width=36
 height=36
 graphic=314
 
-[lvl1_helm_layer_info]
+[com_77]
 type=Sprite
 x=360
 y=34
@@ -622,7 +622,7 @@ width=36
 height=36
 graphic=314
 
-[rect1a]
+[com_78]
 type=Sprite
 x=396
 y=34
@@ -630,7 +630,7 @@ width=36
 height=36
 graphic=314
 
-[rect2b]
+[com_79]
 type=Sprite
 x=432
 y=34
@@ -638,7 +638,7 @@ width=36
 height=36
 graphic=314
 
-[lvl_1_torso]
+[com_80]
 type=Sprite
 x=459
 y=34
@@ -646,7 +646,7 @@ width=36
 height=36
 graphic=314
 
-[lvl1_torso_layer_info]
+[com_81]
 type=Sprite
 x=216
 y=34
@@ -654,7 +654,7 @@ width=36
 height=36
 graphic=314
 
-[rect2a]
+[com_82]
 type=Sprite
 x=180
 y=34
@@ -670,7 +670,7 @@ width=36
 height=36
 graphic=314
 
-[lvl_1_torso_cost]
+[com_84]
 type=Sprite
 x=108
 y=34
@@ -686,7 +686,7 @@ width=36
 height=36
 graphic=314
 
-[rect3b]
+[com_86]
 type=Sprite
 x=36
 y=34
@@ -694,7 +694,7 @@ width=36
 height=36
 graphic=314
 
-[lvl_1_legs]
+[com_87]
 type=Sprite
 x=17
 y=34
@@ -702,7 +702,7 @@ width=36
 height=36
 graphic=314
 
-[layer_1]
+[com_88]
 type=Text
 x=21
 y=29
@@ -714,7 +714,7 @@ font=496
 shadow=yes
 text="Castle Wars Ticket Exchange"
 
-[rect3a]
+[castlewars_trade_tickets]
 type=Inventory
 x=76
 y=65
@@ -728,7 +728,7 @@ iop0=Value
 iop1=Buy
 eventCode=hasIop(0,1)
 
-[com_90]
+[castlewars_trade_coins]
 type=Inventory
 x=217
 y=159
@@ -740,7 +740,7 @@ iop0=Value
 iop1=Buy
 eventCode=hasIop(0,1)
 
-[lvl_1_legs_cost]
+[close_button]
 type=Sprite
 buttonType=Close
 x=472
@@ -760,7 +760,7 @@ height=23
 layerId=3932253
 graphic=536
 
-[rect4b]
+[com_93]
 type=Layer
 x=470
 y=20

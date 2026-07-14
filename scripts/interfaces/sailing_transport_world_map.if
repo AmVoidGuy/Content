@@ -389,7 +389,7 @@ opName0="Ok"
 onmouseover=67,6225931,17359
 onmouseleave=67,6225931,17360
 
-[sailing_transport_go_menaphos]
+[close_button]
 type=Sprite
 x=483
 y=6

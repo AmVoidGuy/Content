@@ -1,4 +1,4 @@
-[bg1]
+[background]
 type=Sprite
 width=520
 height=335
@@ -6,7 +6,7 @@ layerId=10420266
 graphic=297
 tiling=yes
 
-[contents]
+[com_1]
 type=Sprite
 x=234
 y=232
@@ -16,7 +16,7 @@ layerId=10420266
 graphic=1075
 tiling=yes
 
-[bg2]
+[com_2]
 type=Sprite
 x=234
 y=7
@@ -26,7 +26,7 @@ layerId=10420266
 graphic=1075
 tiling=yes
 
-[bg3]
+[com_3]
 type=Sprite
 x=-6
 y=8
@@ -36,7 +36,7 @@ layerId=10420266
 graphic=1075
 tiling=yes
 
-[bespoke_window]
+[com_4]
 type=Sprite
 x=248
 y=215
@@ -46,7 +46,7 @@ layerId=10420266
 graphic=1074
 tiling=yes
 
-[completed_hand_silhouette]
+[com_5]
 type=Sprite
 x=249
 y=-10
@@ -56,7 +56,7 @@ layerId=10420266
 graphic=1074
 tiling=yes
 
-[complete_hand_layer]
+[com_6]
 type=Sprite
 x=8
 y=-9
@@ -66,7 +66,7 @@ layerId=10420266
 graphic=1074
 tiling=yes
 
-[fingers]
+[com_7]
 type=Sprite
 x=490
 y=232
@@ -76,7 +76,7 @@ layerId=10420266
 graphic=1075
 tiling=yes
 
-[hand]
+[com_8]
 type=Sprite
 x=490
 y=7
@@ -86,7 +86,7 @@ layerId=10420266
 graphic=1075
 tiling=yes
 
-[thumb]
+[com_9]
 type=Sprite
 x=220
 y=8
@@ -96,7 +96,7 @@ layerId=10420266
 graphic=1075
 tiling=yes
 
-[wrist]
+[com_10]
 type=Sprite
 x=248
 y=311
@@ -107,7 +107,7 @@ graphic=1074
 tiling=yes
 baseOpName=" "
 
-[brace]
+[com_11]
 type=Sprite
 x=248
 y=206
@@ -118,7 +118,7 @@ graphic=1074
 tiling=yes
 baseOpName=" "
 
-[reset]
+[com_12]
 type=Sprite
 x=8
 y=311
@@ -129,7 +129,7 @@ graphic=1074
 tiling=yes
 baseOpName=" "
 
-[arrow_left]
+[close_button]
 type=Sprite
 x=479
 y=9
@@ -143,7 +143,7 @@ onmouseover=44,10420237,536
 onmouseleave=44,10420237,535
 onop=29
 
-[arrow_right]
+[com_14]
 type=Rectangle
 x=8
 y=8
@@ -154,7 +154,7 @@ trans=245
 colour=0xFFFFFF
 fill=yes
 
-[arrow_up]
+[com_15]
 type=Rectangle
 x=247
 y=9
@@ -165,7 +165,7 @@ trans=245
 colour=0xFFFFFF
 fill=yes
 
-[arrow_down]
+[com_16]
 type=Rectangle
 x=247
 y=231
@@ -176,7 +176,7 @@ trans=245
 colour=0xFFFFFF
 fill=yes
 
-[rotate_right]
+[completed_hand_silhouette]
 type=Model
 x=51
 y=33
@@ -190,7 +190,7 @@ modelYOf=140
 orthog=yes
 discardedModelField=65454
 
-[rotate_left]
+[complete_hand_layer]
 type=Layer
 x=51
 y=33
@@ -199,7 +199,7 @@ height=283
 layerId=10420266
 hide=yes
 
-[fingers_highlight_layer]
+[fingers]
 type=Model
 width=127
 height=116
@@ -213,7 +213,7 @@ discardedModelField=65356
 eventCode=hasOp(1)
 opName0="Fingers"
 
-[hand_highlight_layer]
+[hand]
 type=Model
 x=-1
 y=1
@@ -229,7 +229,7 @@ discardedModelField=65322
 eventCode=hasOp(1)
 opName0="Hand"
 
-[thumb_highlight_layer]
+[thumb]
 type=Model
 width=58
 height=47
@@ -243,7 +243,7 @@ discardedModelField=65294
 eventCode=hasOp(1)
 opName0="Thumb"
 
-[wrist_highlight_layer]
+[wrist]
 type=Model
 x=-10
 y=1
@@ -258,7 +258,7 @@ discardedModelField=65248
 eventCode=hasOp(1)
 opName0="Wrist"
 
-[brace_highlight_layer]
+[brace]
 type=Model
 width=82
 height=43
@@ -272,7 +272,7 @@ discardedModelField=65200
 eventCode=hasOp(1)
 opName0="Brace"
 
-[completed_hand]
+[rotate_left]
 type=Sprite
 x=413
 y=248
@@ -285,7 +285,7 @@ opName0="Rotate-Left"
 onmouseover=44,component.parentId,1229
 onmouseleave=44,component.parentId,1228
 
-[fingers_highlight]
+[rotate_right]
 type=Sprite
 x=448
 y=248
@@ -298,7 +298,7 @@ opName0="Rotate-Right"
 onmouseover=44,component.parentId,1231
 onmouseleave=44,component.parentId,1230
 
-[hand_highlight]
+[reset]
 type=Sprite
 x=431
 y=283
@@ -311,7 +311,7 @@ opName0="Restart"
 onmouseover=44,component.parentId,1233
 onmouseleave=44,component.parentId,1232
 
-[thumb_highlight]
+[arrow_up]
 type=Model
 x=305
 y=239
@@ -328,7 +328,7 @@ opName0="Move-Up"
 onmouseover=67,component.parentId,32160
 onmouseleave=67,component.parentId,32196
 
-[wrist_highlight]
+[arrow_right]
 type=Model
 x=328
 y=269
@@ -346,7 +346,7 @@ opName0="Move-Right"
 onmouseover=67,component.parentId,32160
 onmouseleave=67,component.parentId,32196
 
-[brace_highlight]
+[arrow_left]
 type=Model
 x=274
 y=269
@@ -364,7 +364,7 @@ opName0="Move-Left"
 onmouseover=67,component.parentId,32160
 onmouseleave=67,component.parentId,32196
 
-[bespoke_window_background]
+[arrow_down]
 type=Model
 x=305
 y=294
@@ -382,7 +382,7 @@ opName0="Move-Down"
 onmouseover=67,component.parentId,32160
 onmouseleave=67,component.parentId,32196
 
-[bespoke_window_content]
+[fingers_highlight_layer]
 type=Layer
 x=254
 y=21
@@ -391,7 +391,7 @@ height=114
 layerId=10420266
 hide=yes
 
-[bespoke_window_border]
+[hand_highlight_layer]
 type=Layer
 x=378
 y=98
@@ -400,7 +400,7 @@ height=114
 layerId=10420266
 hide=yes
 
-[bespoke_window_close]
+[thumb_highlight_layer]
 type=Layer
 x=291
 y=167
@@ -409,7 +409,7 @@ height=53
 layerId=10420266
 hide=yes
 
-[com_34]
+[wrist_highlight_layer]
 type=Layer
 x=265
 y=140
@@ -418,7 +418,7 @@ height=33
 layerId=10420266
 hide=yes
 
-[com_35]
+[brace_highlight_layer]
 type=Layer
 x=401
 y=40
@@ -427,7 +427,7 @@ height=42
 layerId=10420266
 hide=yes
 
-[com_36]
+[completed_hand]
 type=Model
 width=176
 height=282
@@ -439,7 +439,7 @@ modelYOf=140
 orthog=yes
 discardedModelField=65400
 
-[com_37]
+[fingers_highlight]
 type=Model
 x=4
 width=127
@@ -452,7 +452,7 @@ modelYOf=4
 orthog=yes
 discardedModelField=65233
 
-[com_38]
+[hand_highlight]
 type=Model
 x=1
 y=-4
@@ -466,7 +466,7 @@ modelYOf=8
 orthog=yes
 discardedModelField=65200
 
-[com_39]
+[thumb_highlight]
 type=Model
 x=3
 y=7
@@ -480,7 +480,7 @@ modelYOf=-3
 orthog=yes
 discardedModelField=65202
 
-[com_40]
+[wrist_highlight]
 type=Model
 x=3
 y=3
@@ -493,7 +493,7 @@ modelYOf=-2
 orthog=yes
 discardedModelField=65210
 
-[com_41]
+[brace_highlight]
 type=Model
 y=-1
 width=82
@@ -506,7 +506,7 @@ modelYOf=2
 orthog=yes
 discardedModelField=65200
 
-[com_42]
+[contents]
 type=Layer
 x=7
 width=512
@@ -514,14 +514,14 @@ height=334
 xAlignment=Percentage_Center
 yAlignment=Percentage_Center
 
-[com_43]
+[content_layer]
 type=Layer
 width=512
 height=334
 xAlignment=Percentage_Center
 yAlignment=Percentage_Center
 
-[com_44]
+[fsborder_main_layer]
 type=Layer
 width=16391
 height=16391
@@ -530,7 +530,7 @@ heightAlignment=Percentage
 xAlignment=Center
 yAlignment=Center
 
-[com_45]
+[fsborder_resizing_layer]
 type=Layer
 width=16391
 height=16391
@@ -624,7 +624,7 @@ yAlignment=Center
 graphic=826
 tiling=yes
 
-[com_54]
+[fsborder_right_layer]
 type=Layer
 width=8192
 height=16391
@@ -634,7 +634,7 @@ xAlignment=Bottom_Right
 yAlignment=Center
 layerId=10420269
 
-[com_55]
+[fsborder_left_layer]
 type=Layer
 width=8188
 height=16391
@@ -643,7 +643,7 @@ heightAlignment=Percentage
 yAlignment=Center
 layerId=10420269
 
-[com_56]
+[fsborder_upper_layer]
 type=Layer
 width=16391
 height=8192
@@ -652,7 +652,7 @@ heightAlignment=Percentage
 xAlignment=Center
 layerId=10420269
 
-[com_57]
+[fsborder_lower_layer]
 type=Layer
 width=16391
 height=8182
@@ -662,7 +662,7 @@ xAlignment=Center
 yAlignment=Bottom_Right
 layerId=10420269
 
-[com_58]
+[fsborder_interface_layer]
 type=Layer
 width=512
 height=334

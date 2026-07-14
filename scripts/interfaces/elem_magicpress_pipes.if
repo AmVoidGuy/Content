@@ -1,4 +1,4 @@
-[sparepipe1m]
+[base_plate]
 type=Model
 x=222
 y=147
@@ -9,7 +9,7 @@ model1Id=18787
 modelZoom=400
 modelXAn=519
 
-[base_plate]
+[flashicontextures]
 type=Model
 x=57
 y=26
@@ -23,7 +23,7 @@ modelYAn=624
 script1=lt,3
 script1op1=varp,if2
 
-[sparepipe1]
+[sparepipe2m]
 type=Model
 x=48
 y=23
@@ -37,7 +37,7 @@ modelYAn=645
 script1=lt,2
 script1op1=varp,if2
 
-[sparepipe2]
+[sparepipe3m]
 type=Model
 x=40
 y=9
@@ -50,28 +50,28 @@ modelXAn=517
 script1=lt,1
 script1op1=varp,if2
 
-[sparepipe3]
+[sparepipe1]
 type=Layer
 x=344
 y=36
 width=130
 height=81
 
-[connectiona_1_l]
+[sparepipe2]
 type=Layer
 x=343
 y=126
 width=125
 height=78
 
-[connectionb_2_l]
+[sparepipe3]
 type=Layer
 x=349
 y=217
 width=118
 height=65
 
-[connectionc_3_l]
+[connectiona_1]
 type=Model
 x=50
 y=146
@@ -82,13 +82,13 @@ model1Id=18801
 modelZoom=407
 modelXAn=517
 
-[connection1_2_l]
+[connectiona_1_l]
 type=Layer
 width=516
 height=339
 hide=yes
 
-[connection1_3_l]
+[connectionb_2]
 type=Model
 x=156
 y=141
@@ -99,13 +99,13 @@ model1Id=18807
 modelZoom=400
 modelXAn=517
 
-[connection2_3_l]
+[connectionb_2_l]
 type=Layer
 width=517
 height=348
 hide=yes
 
-[connectiona_2_l]
+[connectionc_3]
 type=Model
 x=262
 y=142
@@ -116,13 +116,13 @@ model1Id=18812
 modelZoom=400
 modelXAn=517
 
-[connectiona_3_l]
+[connectionc_3_l]
 type=Layer
 width=525
 height=346
 hide=yes
 
-[connectiona_b_l]
+[connection1_2]
 type=Model
 buttonType=Button
 x=104
@@ -141,13 +141,13 @@ script2op1=varbit,varbit_2647
 script3=eq,7
 script3op1=varbit,varbit_2648
 
-[connectiona_c_l]
+[connection1_2_l]
 type=Layer
 width=520
 height=353
 hide=yes
 
-[connectionb_1_l]
+[connection1_3]
 type=Model
 x=160
 y=207
@@ -164,13 +164,13 @@ script2op1=varbit,varbit_2647
 script3=eq,8
 script3op1=varbit,varbit_2648
 
-[connectionb_3_l]
+[connection1_3_l]
 type=Layer
 width=517
 height=353
 hide=yes
 
-[connectionb_c_l]
+[connection2_3]
 type=Model
 x=210
 y=212
@@ -181,13 +181,13 @@ model1Id=18800
 modelZoom=407
 modelXAn=517
 
-[connectionc_1_l]
+[connection2_3_l]
 type=Layer
 width=515
 height=342
 hide=yes
 
-[connectionc_2_l]
+[connectiona_2]
 type=Model
 x=122
 y=170
@@ -198,13 +198,13 @@ model1Id=18802
 modelZoom=400
 modelXAn=517
 
-[inletcm]
+[connectiona_2_l]
 type=Layer
 width=524
 height=347
 hide=yes
 
-[inlet1m]
+[connectiona_3]
 type=Model
 x=154
 y=150
@@ -215,13 +215,13 @@ model1Id=18803
 modelZoom=407
 modelXAn=517
 
-[inlet2m]
+[connectiona_3_l]
 type=Layer
 width=519
 height=349
 hide=yes
 
-[inlet3m]
+[connectiona_b]
 type=Model
 x=103
 y=69
@@ -232,13 +232,13 @@ model1Id=18804
 modelZoom=407
 modelXAn=517
 
-[inletam]
+[connectiona_b_l]
 type=Layer
 width=518
 height=345
 hide=yes
 
-[inletbm]
+[connectiona_c]
 type=Model
 x=160
 y=75
@@ -249,13 +249,13 @@ model1Id=18805
 modelZoom=410
 modelXAn=517
 
-[backgroundm]
+[connectiona_c_l]
 type=Layer
 width=516
 height=350
 hide=yes
 
-[closewin]
+[connectionb_1]
 type=Model
 x=99
 y=162
@@ -266,13 +266,13 @@ model1Id=18806
 modelZoom=400
 modelXAn=517
 
-[sparepipe2m]
+[connectionb_1_l]
 type=Layer
 width=513
 height=344
 hide=yes
 
-[sparepipe3m]
+[connectionb_3]
 type=Model
 x=222
 y=167
@@ -283,13 +283,13 @@ model1Id=18808
 modelZoom=400
 modelXAn=517
 
-[connectiona_1]
+[connectionb_3_l]
 type=Layer
 width=516
 height=356
 hide=yes
 
-[connectionb_2]
+[connectionb_c]
 type=Model
 x=211
 y=75
@@ -300,13 +300,13 @@ model1Id=18809
 modelZoom=407
 modelXAn=517
 
-[connectionc_3]
+[connectionb_c_l]
 type=Layer
 width=513
 height=349
 hide=yes
 
-[connection1_2]
+[connectionc_1]
 type=Model
 x=153
 y=172
@@ -317,13 +317,13 @@ model1Id=18810
 modelZoom=407
 modelXAn=517
 
-[connection1_3]
+[connectionc_1_l]
 type=Layer
 width=519
 height=348
 hide=yes
 
-[connection2_3]
+[connectionc_2]
 type=Model
 x=209
 y=134
@@ -334,13 +334,13 @@ model1Id=18811
 modelZoom=400
 modelXAn=517
 
-[connectiona_2]
+[connectionc_2_l]
 type=Layer
 width=514
 height=344
 hide=yes
 
-[connectiona_3]
+[inletcm]
 type=Model
 buttonType=Button
 x=249
@@ -356,7 +356,7 @@ eventCode=flag22
 script1=eq,3
 script1op1=varp,if1
 
-[connectiona_b]
+[inlet1m]
 type=Model
 buttonType=Button
 x=37
@@ -372,7 +372,7 @@ eventCode=flag22
 script1=eq,4
 script1op1=varp,if1
 
-[connectiona_c]
+[inlet2m]
 type=Model
 buttonType=Button
 x=140
@@ -388,7 +388,7 @@ eventCode=flag22
 script1=eq,5
 script1op1=varp,if1
 
-[connectionb_1]
+[inlet3m]
 type=Model
 buttonType=Button
 x=249
@@ -404,7 +404,7 @@ eventCode=flag22
 script1=eq,6
 script1op1=varp,if1
 
-[connectionb_3]
+[inletam]
 type=Model
 buttonType=Button
 x=35
@@ -420,7 +420,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varp,if1
 
-[connectionb_c]
+[inletbm]
 type=Model
 buttonType=Button
 x=141
@@ -436,7 +436,7 @@ eventCode=flag22
 script1=eq,2
 script1op1=varp,if1
 
-[connectionc_1]
+[backgroundm]
 type=Model
 x=220
 y=145
@@ -446,7 +446,7 @@ model1Id=18788
 modelZoom=442
 modelXAn=517
 
-[connectionc_2]
+[com_44]
 type=Sprite
 x=475
 y=6
@@ -455,7 +455,7 @@ height=23
 overLayerId=46
 graphic=535
 
-[content_layer]
+[closewin]
 type=Sprite
 buttonType=Close
 x=3
@@ -467,7 +467,7 @@ overLayerId=46
 graphic=536
 buttonText="Ok"
 
-[com_46]
+[elem_magicpress_pipes_close_button]
 type=Layer
 x=472
 y=2

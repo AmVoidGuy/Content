@@ -1,4 +1,4 @@
-[mainmodal_window]
+[background]
 type=Model
 x=290
 y=270
@@ -9,7 +9,7 @@ modelZoom=321
 modelXAn=123
 modelYAn=1945
 
-[mainmodal_window_background]
+[symbol]
 type=Model
 x=277
 y=271
@@ -20,7 +20,7 @@ modelZoom=321
 modelXAn=123
 modelYAn=1945
 
-[mainmodal_window_content]
+[com_2]
 type=Sprite
 x=478
 y=6
@@ -29,7 +29,7 @@ height=23
 overLayerId=4
 graphic=539
 
-[symbol]
+[com_3]
 type=Sprite
 buttonType=Close
 x=3
@@ -41,7 +41,7 @@ overLayerId=4
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_border]
+[cave_goblin_markers_close_button]
 type=Layer
 x=475
 y=1

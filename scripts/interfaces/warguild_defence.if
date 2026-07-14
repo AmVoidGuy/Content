@@ -90,7 +90,7 @@ font=495
 shadow=yes
 text="Slashing blades. Use slash defence."
 
-[mainmodal_window]
+[com_8]
 type=Text
 x=202
 y=255
@@ -101,7 +101,7 @@ font=495
 shadow=yes
 text="Magic missile. Use magic defence."
 
-[mainmodal_window_background]
+[com_9]
 type=Text
 x=129
 y=29
@@ -114,7 +114,7 @@ font=496
 shadow=yes
 text="Catapult Defence Game Key"
 
-[mainmodal_window_content]
+[com_10]
 type=Sprite
 x=380
 y=25
@@ -123,7 +123,7 @@ height=23
 overLayerId=12
 graphic=539
 
-[mainmodal_window_border]
+[com_11]
 type=Sprite
 buttonType=Close
 x=3
@@ -134,7 +134,7 @@ layerId=26869772
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_close_button]
+[com_12]
 type=Layer
 x=377
 y=21

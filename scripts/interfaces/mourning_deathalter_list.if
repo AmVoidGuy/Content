@@ -1,11 +1,11 @@
-[mourning_deathalter_item1]
+[mourning_deathalter_layer2]
 type=Layer
 x=37
 y=37
 width=387
 height=287
 
-[mourning_deathalter_item2]
+[mourning_deathalter_layer]
 type=Layer
 x=48
 y=78
@@ -13,7 +13,7 @@ width=342
 height=215
 scrollHeight=1000
 
-[mourning_deathalter_item3]
+[com_2]
 type=Text
 x=53
 y=56
@@ -22,7 +22,7 @@ height=17
 font=497
 text="List of needed items:"
 
-[mourning_deathalter_item4]
+[mourning_deathalter_item1]
 type=Text
 x=8
 width=331
@@ -32,7 +32,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item1"
 
-[mourning_deathalter_item5]
+[com_4]
 type=Model
 x=163
 y=79
@@ -43,7 +43,7 @@ model1Id=3623
 modelZoom=643
 modelXAn=510
 
-[mourning_deathalter_item6]
+[mourning_deathalter_item2]
 type=Text
 x=8
 y=20
@@ -54,7 +54,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item2"
 
-[mourning_deathalter_item7]
+[mourning_deathalter_item3]
 type=Text
 x=8
 y=40
@@ -65,7 +65,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item3"
 
-[mourning_deathalter_item8]
+[mourning_deathalter_item4]
 type=Text
 x=8
 y=60
@@ -76,7 +76,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item4"
 
-[mourning_deathalter_item9]
+[mourning_deathalter_item5]
 type=Text
 x=8
 y=80
@@ -87,7 +87,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item5"
 
-[mourning_deathalter_item10]
+[mourning_deathalter_item6]
 type=Text
 x=8
 y=100
@@ -98,7 +98,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item6"
 
-[mourning_deathalter_item11]
+[mourning_deathalter_item7]
 type=Text
 x=8
 y=120
@@ -109,7 +109,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item7"
 
-[mourning_deathalter_item12]
+[mourning_deathalter_item8]
 type=Text
 x=8
 y=140
@@ -120,7 +120,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item8"
 
-[mourning_deathalter_item13]
+[mourning_deathalter_item9]
 type=Text
 x=8
 y=160
@@ -131,7 +131,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item9"
 
-[mourning_deathalter_item14]
+[mourning_deathalter_item10]
 type=Text
 x=8
 y=180
@@ -142,7 +142,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item10"
 
-[mourning_deathalter_item15]
+[mourning_deathalter_item11]
 type=Text
 x=8
 y=200
@@ -153,7 +153,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item11"
 
-[mourning_deathalter_item16]
+[mourning_deathalter_item12]
 type=Text
 x=8
 y=220
@@ -164,7 +164,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item12"
 
-[mourning_deathalter_item17]
+[mourning_deathalter_item13]
 type=Text
 x=8
 y=240
@@ -175,7 +175,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item13"
 
-[mourning_deathalter_item18]
+[mourning_deathalter_item14]
 type=Text
 x=8
 y=260
@@ -186,7 +186,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item14"
 
-[mourning_deathalter_item19]
+[mourning_deathalter_item15]
 type=Text
 x=8
 y=280
@@ -197,7 +197,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item15"
 
-[mourning_deathalter_item20]
+[mourning_deathalter_item16]
 type=Text
 x=8
 y=300
@@ -208,7 +208,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item16"
 
-[mourning_deathalter_item21]
+[mourning_deathalter_item17]
 type=Text
 x=8
 y=320
@@ -219,7 +219,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item17"
 
-[mourning_deathalter_item22]
+[mourning_deathalter_item18]
 type=Text
 x=8
 y=340
@@ -230,7 +230,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item18"
 
-[mourning_deathalter_item23]
+[mourning_deathalter_item19]
 type=Text
 x=8
 y=360
@@ -241,7 +241,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item19"
 
-[mourning_deathalter_item24]
+[mourning_deathalter_item20]
 type=Text
 x=8
 y=380
@@ -252,7 +252,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item20"
 
-[mourning_deathalter_item25]
+[mourning_deathalter_item21]
 type=Text
 x=8
 y=400
@@ -263,7 +263,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item21"
 
-[mourning_deathalter_item26]
+[mourning_deathalter_item22]
 type=Text
 x=8
 y=420
@@ -274,7 +274,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item22"
 
-[mourning_deathalter_item27]
+[mourning_deathalter_item23]
 type=Text
 x=8
 y=440
@@ -285,7 +285,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item23"
 
-[mourning_deathalter_item28]
+[mourning_deathalter_item24]
 type=Text
 x=8
 y=460
@@ -296,7 +296,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item24"
 
-[mourning_deathalter_item29]
+[mourning_deathalter_item25]
 type=Text
 x=8
 y=480
@@ -307,7 +307,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item25"
 
-[mourning_deathalter_item30]
+[mourning_deathalter_item26]
 type=Text
 x=8
 y=500
@@ -318,7 +318,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item26"
 
-[mourning_deathalter_item31]
+[mourning_deathalter_item27]
 type=Text
 x=8
 y=520
@@ -329,7 +329,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item27"
 
-[mourning_deathalter_item32]
+[mourning_deathalter_item28]
 type=Text
 x=8
 y=540
@@ -340,7 +340,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item28"
 
-[mourning_deathalter_item33]
+[mourning_deathalter_item29]
 type=Text
 x=8
 y=560
@@ -351,7 +351,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item29"
 
-[mourning_deathalter_item34]
+[mourning_deathalter_item30]
 type=Text
 x=8
 y=580
@@ -362,7 +362,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item30"
 
-[mourning_deathalter_item35]
+[mourning_deathalter_item31]
 type=Text
 x=8
 y=600
@@ -373,7 +373,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item31"
 
-[mourning_deathalter_item36]
+[mourning_deathalter_item32]
 type=Text
 x=8
 y=620
@@ -384,7 +384,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item32"
 
-[mourning_deathalter_item37]
+[mourning_deathalter_item33]
 type=Text
 x=8
 y=640
@@ -395,7 +395,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item33"
 
-[mourning_deathalter_item38]
+[mourning_deathalter_item34]
 type=Text
 x=8
 y=660
@@ -406,7 +406,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item34"
 
-[mourning_deathalter_item39]
+[mourning_deathalter_item35]
 type=Text
 x=8
 y=680
@@ -417,7 +417,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item35"
 
-[mourning_deathalter_item40]
+[mourning_deathalter_item36]
 type=Text
 x=8
 y=700
@@ -428,7 +428,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item36"
 
-[mourning_deathalter_item41]
+[mourning_deathalter_item37]
 type=Text
 x=8
 y=720
@@ -439,7 +439,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item37"
 
-[mourning_deathalter_item42]
+[mourning_deathalter_item38]
 type=Text
 x=7
 y=740
@@ -450,7 +450,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item38"
 
-[mourning_deathalter_item43]
+[mourning_deathalter_item39]
 type=Text
 x=8
 y=760
@@ -461,7 +461,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item39"
 
-[mourning_deathalter_item44]
+[mourning_deathalter_item40]
 type=Text
 x=8
 y=780
@@ -472,7 +472,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item40"
 
-[mourning_deathalter_item45]
+[mourning_deathalter_item41]
 type=Text
 x=8
 y=800
@@ -483,7 +483,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item41"
 
-[mourning_deathalter_item46]
+[mourning_deathalter_item42]
 type=Text
 x=8
 y=820
@@ -494,7 +494,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item42"
 
-[mourning_deathalter_item47]
+[mourning_deathalter_item43]
 type=Text
 x=8
 y=840
@@ -505,7 +505,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item43"
 
-[mourning_deathalter_item48]
+[mourning_deathalter_item44]
 type=Text
 x=8
 y=860
@@ -516,7 +516,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item44"
 
-[mourning_deathalter_item49]
+[mourning_deathalter_item45]
 type=Text
 x=8
 y=880
@@ -527,7 +527,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item45"
 
-[mourning_deathalter_item50]
+[mourning_deathalter_item46]
 type=Text
 x=8
 y=900
@@ -538,7 +538,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item46"
 
-[mainmodal_window]
+[mourning_deathalter_item47]
 type=Text
 x=8
 y=920
@@ -549,7 +549,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item47"
 
-[mainmodal_window_background]
+[mourning_deathalter_item48]
 type=Text
 x=8
 y=940
@@ -560,7 +560,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item48"
 
-[mainmodal_window_content]
+[mourning_deathalter_item49]
 type=Text
 x=8
 y=960
@@ -571,7 +571,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item49"
 
-[com_53]
+[mourning_deathalter_item50]
 type=Text
 x=8
 y=980
@@ -582,7 +582,7 @@ hAlign=Center
 font=495
 text="mourning_deathalter_item50"
 
-[mourning_deathalter_layer]
+[com_54]
 type=Sprite
 x=378
 y=53
@@ -603,7 +603,7 @@ overLayerId=56
 graphic=538
 buttonText="Ok"
 
-[mainmodal_window_border]
+[mourning_deathalter_list_close_button]
 type=Layer
 x=375
 y=49

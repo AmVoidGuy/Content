@@ -5,7 +5,7 @@ y=37
 width=387
 height=287
 
-[lj_scroll_bar]
+[lj_layer1]
 type=Layer
 x=49
 y=73
@@ -13,7 +13,7 @@ width=358
 height=225
 scrollHeight=2040
 
-[lj_layer1]
+[lj_title]
 type=Text
 x=4
 y=2
@@ -34,7 +34,7 @@ model1Id=7120
 modelZoom=570
 modelXAn=510
 
-[content_layer]
+[lj1]
 type=Text
 x=4
 y=32
@@ -44,7 +44,7 @@ layerId=10223617
 font=497
 text="lj1"
 
-[lj_title]
+[lj2]
 type=Text
 x=4
 y=52
@@ -54,7 +54,7 @@ layerId=10223617
 font=497
 text="lj2"
 
-[com_6]
+[lj3]
 type=Text
 x=4
 y=72
@@ -64,7 +64,7 @@ layerId=10223617
 font=497
 text="lj3"
 
-[lj1]
+[lj4]
 type=Text
 x=4
 y=92
@@ -74,7 +74,7 @@ layerId=10223617
 font=497
 text="lj4"
 
-[lj2]
+[lj5]
 type=Text
 x=4
 y=112
@@ -84,7 +84,7 @@ layerId=10223617
 font=497
 text="lj5"
 
-[lj3]
+[lj6]
 type=Text
 x=4
 y=132
@@ -94,7 +94,7 @@ layerId=10223617
 font=497
 text="lj6"
 
-[lj4]
+[lj7]
 type=Text
 x=4
 y=152
@@ -104,7 +104,7 @@ layerId=10223617
 font=497
 text="lj7"
 
-[lj5]
+[lj8]
 type=Text
 x=4
 y=172
@@ -114,7 +114,7 @@ layerId=10223617
 font=497
 text="lj8"
 
-[lj6]
+[lj9]
 type=Text
 x=4
 y=192
@@ -124,7 +124,7 @@ layerId=10223617
 font=497
 text="lj9"
 
-[lj7]
+[lj10]
 type=Text
 x=4
 y=212
@@ -134,7 +134,7 @@ layerId=10223617
 font=497
 text="lj10"
 
-[lj8]
+[lj11]
 type=Text
 x=4
 y=232
@@ -144,7 +144,7 @@ layerId=10223617
 font=497
 text="lj11"
 
-[lj9]
+[lj12]
 type=Text
 x=4
 y=252
@@ -154,7 +154,7 @@ layerId=10223617
 font=497
 text="lj12"
 
-[lj10]
+[lj13]
 type=Text
 x=4
 y=272
@@ -164,7 +164,7 @@ layerId=10223617
 font=497
 text="lj13"
 
-[lj11]
+[lj14]
 type=Text
 x=4
 y=292
@@ -174,7 +174,7 @@ layerId=10223617
 font=497
 text="lj14"
 
-[lj12]
+[lj15]
 type=Text
 x=4
 y=312
@@ -184,7 +184,7 @@ layerId=10223617
 font=497
 text="lj15"
 
-[lj13]
+[lj16]
 type=Text
 x=4
 y=332
@@ -194,7 +194,7 @@ layerId=10223617
 font=497
 text="lj16"
 
-[lj14]
+[lj17]
 type=Text
 x=4
 y=352
@@ -204,7 +204,7 @@ layerId=10223617
 font=497
 text="lj17"
 
-[lj15]
+[lj18]
 type=Text
 x=4
 y=372
@@ -214,7 +214,7 @@ layerId=10223617
 font=497
 text="lj18"
 
-[lj16]
+[lj19]
 type=Text
 x=4
 y=392
@@ -224,7 +224,7 @@ layerId=10223617
 font=497
 text="lj19"
 
-[lj17]
+[lj20]
 type=Text
 x=4
 y=412
@@ -234,7 +234,7 @@ layerId=10223617
 font=497
 text="lj20"
 
-[lj18]
+[lj21]
 type=Text
 x=4
 y=432
@@ -244,7 +244,7 @@ layerId=10223617
 font=497
 text="lj21"
 
-[lj19]
+[lj22]
 type=Text
 x=4
 y=452
@@ -254,7 +254,7 @@ layerId=10223617
 font=497
 text="lj22"
 
-[lj20]
+[lj23]
 type=Text
 x=4
 y=472
@@ -264,7 +264,7 @@ layerId=10223617
 font=497
 text="lj23"
 
-[lj21]
+[lj24]
 type=Text
 x=4
 y=492
@@ -274,7 +274,7 @@ layerId=10223617
 font=497
 text="lj24"
 
-[lj22]
+[lj25]
 type=Text
 x=4
 y=512
@@ -284,7 +284,7 @@ layerId=10223617
 font=497
 text="lj25"
 
-[lj23]
+[lj26]
 type=Text
 x=4
 y=532
@@ -294,7 +294,7 @@ layerId=10223617
 font=497
 text="lj26"
 
-[lj24]
+[lj27]
 type=Text
 x=4
 y=552
@@ -304,7 +304,7 @@ layerId=10223617
 font=497
 text="lj27"
 
-[lj25]
+[lj28]
 type=Text
 x=4
 y=572
@@ -314,7 +314,7 @@ layerId=10223617
 font=497
 text="lj28"
 
-[lj26]
+[lj29]
 type=Text
 x=4
 y=592
@@ -324,7 +324,7 @@ layerId=10223617
 font=497
 text="lj29"
 
-[lj27]
+[lj30]
 type=Text
 x=4
 y=612
@@ -334,7 +334,7 @@ layerId=10223617
 font=497
 text="lj30"
 
-[lj28]
+[lj31]
 type=Text
 x=4
 y=632
@@ -344,7 +344,7 @@ layerId=10223617
 font=497
 text="lj31"
 
-[lj29]
+[lj32]
 type=Text
 x=4
 y=652
@@ -354,7 +354,7 @@ layerId=10223617
 font=497
 text="lj32"
 
-[lj30]
+[lj33]
 type=Text
 x=4
 y=672
@@ -364,7 +364,7 @@ layerId=10223617
 font=497
 text="lj33"
 
-[lj31]
+[lj34]
 type=Text
 x=4
 y=692
@@ -374,7 +374,7 @@ layerId=10223617
 font=497
 text="lj34"
 
-[lj32]
+[lj35]
 type=Text
 x=4
 y=712
@@ -384,7 +384,7 @@ layerId=10223617
 font=497
 text="lj35"
 
-[lj33]
+[lj36]
 type=Text
 x=4
 y=732
@@ -394,7 +394,7 @@ layerId=10223617
 font=497
 text="lj36"
 
-[lj34]
+[lj37]
 type=Text
 x=4
 y=752
@@ -404,7 +404,7 @@ layerId=10223617
 font=497
 text="lj37"
 
-[lj35]
+[lj38]
 type=Text
 x=4
 y=772
@@ -414,7 +414,7 @@ layerId=10223617
 font=497
 text="lj38"
 
-[lj36]
+[lj39]
 type=Text
 x=4
 y=792
@@ -424,7 +424,7 @@ layerId=10223617
 font=497
 text="lj39"
 
-[lj37]
+[lj40]
 type=Text
 x=4
 y=812
@@ -434,7 +434,7 @@ layerId=10223617
 font=497
 text="lj40"
 
-[lj38]
+[lj41]
 type=Text
 x=4
 y=832
@@ -444,7 +444,7 @@ layerId=10223617
 font=497
 text="lj41"
 
-[lj39]
+[lj42]
 type=Text
 x=4
 y=852
@@ -454,7 +454,7 @@ layerId=10223617
 font=497
 text="lj42"
 
-[lj40]
+[lj43]
 type=Text
 x=4
 y=872
@@ -464,7 +464,7 @@ layerId=10223617
 font=497
 text="lj43"
 
-[lj41]
+[lj44]
 type=Text
 x=4
 y=892
@@ -474,7 +474,7 @@ layerId=10223617
 font=497
 text="lj44"
 
-[lj42]
+[lj45]
 type=Text
 x=4
 y=912
@@ -484,7 +484,7 @@ layerId=10223617
 font=497
 text="lj45"
 
-[lj43]
+[lj46]
 type=Text
 x=4
 y=932
@@ -494,7 +494,7 @@ layerId=10223617
 font=497
 text="lj46"
 
-[lj44]
+[lj47]
 type=Text
 x=4
 y=952
@@ -504,7 +504,7 @@ layerId=10223617
 font=497
 text="lj47"
 
-[lj45]
+[lj48]
 type=Text
 x=4
 y=972
@@ -514,7 +514,7 @@ layerId=10223617
 font=497
 text="lj48"
 
-[lj46]
+[lj49]
 type=Text
 x=4
 y=992
@@ -524,7 +524,7 @@ layerId=10223617
 font=497
 text="lj49"
 
-[lj47]
+[lj50]
 type=Text
 x=4
 y=1012
@@ -534,7 +534,7 @@ layerId=10223617
 font=497
 text="lj50"
 
-[lj48]
+[lj51]
 type=Text
 x=4
 y=1032
@@ -544,7 +544,7 @@ layerId=10223617
 font=497
 text="lj51"
 
-[lj49]
+[lj52]
 type=Text
 x=4
 y=1052
@@ -554,7 +554,7 @@ layerId=10223617
 font=497
 text="lj52"
 
-[lj50]
+[lj53]
 type=Text
 x=4
 y=1072
@@ -564,7 +564,7 @@ layerId=10223617
 font=497
 text="lj53"
 
-[lj51]
+[lj54]
 type=Text
 x=4
 y=1092
@@ -574,7 +574,7 @@ layerId=10223617
 font=497
 text="lj54"
 
-[lj52]
+[lj55]
 type=Text
 x=4
 y=1112
@@ -584,7 +584,7 @@ layerId=10223617
 font=497
 text="lj55"
 
-[lj53]
+[lj56]
 type=Text
 x=4
 y=1132
@@ -594,7 +594,7 @@ layerId=10223617
 font=497
 text="lj56"
 
-[lj54]
+[lj57]
 type=Text
 x=4
 y=1152
@@ -604,7 +604,7 @@ layerId=10223617
 font=497
 text="lj57"
 
-[lj55]
+[lj58]
 type=Text
 x=4
 y=1172
@@ -614,7 +614,7 @@ layerId=10223617
 font=497
 text="lj58"
 
-[lj56]
+[lj59]
 type=Text
 x=4
 y=1192
@@ -624,7 +624,7 @@ layerId=10223617
 font=497
 text="lj59"
 
-[lj57]
+[lj60]
 type=Text
 x=4
 y=1212
@@ -634,7 +634,7 @@ layerId=10223617
 font=497
 text="lj60"
 
-[lj58]
+[lj61]
 type=Text
 x=4
 y=1232
@@ -644,7 +644,7 @@ layerId=10223617
 font=497
 text="lj61"
 
-[lj59]
+[lj62]
 type=Text
 x=4
 y=1252
@@ -654,7 +654,7 @@ layerId=10223617
 font=497
 text="lj62"
 
-[lj60]
+[lj63]
 type=Text
 x=4
 y=1272
@@ -664,7 +664,7 @@ layerId=10223617
 font=497
 text="lj63"
 
-[lj61]
+[lj64]
 type=Text
 x=4
 y=1292
@@ -674,7 +674,7 @@ layerId=10223617
 font=497
 text="lj64"
 
-[lj62]
+[lj65]
 type=Text
 x=4
 y=1312
@@ -684,7 +684,7 @@ layerId=10223617
 font=497
 text="lj65"
 
-[lj63]
+[lj66]
 type=Text
 x=4
 y=1332
@@ -694,7 +694,7 @@ layerId=10223617
 font=497
 text="lj66"
 
-[lj64]
+[lj67]
 type=Text
 x=4
 y=1352
@@ -704,7 +704,7 @@ layerId=10223617
 font=497
 text="lj67"
 
-[lj65]
+[lj68]
 type=Text
 x=4
 y=1372
@@ -714,7 +714,7 @@ layerId=10223617
 font=497
 text="lj68"
 
-[lj66]
+[lj69]
 type=Text
 x=4
 y=1392
@@ -724,7 +724,7 @@ layerId=10223617
 font=497
 text="lj69"
 
-[lj67]
+[lj70]
 type=Text
 x=4
 y=1412
@@ -734,7 +734,7 @@ layerId=10223617
 font=497
 text="lj70"
 
-[lj68]
+[lj71]
 type=Text
 x=4
 y=1432
@@ -744,7 +744,7 @@ layerId=10223617
 font=497
 text="lj71"
 
-[lj69]
+[lj72]
 type=Text
 x=4
 y=1452
@@ -754,7 +754,7 @@ layerId=10223617
 font=497
 text="lj72"
 
-[lj70]
+[lj73]
 type=Text
 x=4
 y=1472
@@ -764,7 +764,7 @@ layerId=10223617
 font=497
 text="lj73"
 
-[lj71]
+[lj74]
 type=Text
 x=4
 y=1492
@@ -774,7 +774,7 @@ layerId=10223617
 font=497
 text="lj74"
 
-[lj72]
+[lj75]
 type=Text
 x=4
 y=1512
@@ -784,7 +784,7 @@ layerId=10223617
 font=497
 text="lj75"
 
-[lj73]
+[lj76]
 type=Text
 x=4
 y=1532
@@ -794,7 +794,7 @@ layerId=10223617
 font=497
 text="lj76"
 
-[lj74]
+[lj77]
 type=Text
 x=4
 y=1552
@@ -804,7 +804,7 @@ layerId=10223617
 font=497
 text="lj77"
 
-[lj75]
+[lj78]
 type=Text
 x=4
 y=1572
@@ -814,7 +814,7 @@ layerId=10223617
 font=497
 text="lj78"
 
-[lj76]
+[lj79]
 type=Text
 x=4
 y=1592
@@ -824,7 +824,7 @@ layerId=10223617
 font=497
 text="lj79"
 
-[lj77]
+[lj80]
 type=Text
 x=4
 y=1612
@@ -834,7 +834,7 @@ layerId=10223617
 font=497
 text="lj80"
 
-[lj78]
+[lj81]
 type=Text
 x=4
 y=1632
@@ -844,7 +844,7 @@ layerId=10223617
 font=497
 text="lj81"
 
-[lj79]
+[lj82]
 type=Text
 x=4
 y=1652
@@ -854,7 +854,7 @@ layerId=10223617
 font=497
 text="lj82"
 
-[lj80]
+[lj83]
 type=Text
 x=4
 y=1672
@@ -864,7 +864,7 @@ layerId=10223617
 font=497
 text="lj83"
 
-[lj81]
+[lj84]
 type=Text
 x=4
 y=1692
@@ -874,7 +874,7 @@ layerId=10223617
 font=497
 text="lj84"
 
-[lj82]
+[lj85]
 type=Text
 x=4
 y=1712
@@ -884,7 +884,7 @@ layerId=10223617
 font=497
 text="lj85"
 
-[lj83]
+[lj86]
 type=Text
 x=4
 y=1732
@@ -894,7 +894,7 @@ layerId=10223617
 font=497
 text="lj86"
 
-[lj84]
+[lj87]
 type=Text
 x=4
 y=1752
@@ -904,7 +904,7 @@ layerId=10223617
 font=497
 text="lj87"
 
-[lj85]
+[lj88]
 type=Text
 x=4
 y=1772
@@ -914,7 +914,7 @@ layerId=10223617
 font=497
 text="lj88"
 
-[lj86]
+[lj89]
 type=Text
 x=4
 y=1792
@@ -924,7 +924,7 @@ layerId=10223617
 font=497
 text="lj89"
 
-[lj87]
+[lj90]
 type=Text
 x=4
 y=1812
@@ -934,7 +934,7 @@ layerId=10223617
 font=497
 text="lj90"
 
-[lj88]
+[lj91]
 type=Text
 x=4
 y=1832
@@ -944,7 +944,7 @@ layerId=10223617
 font=497
 text="lj91"
 
-[lj89]
+[lj92]
 type=Text
 x=4
 y=1852
@@ -954,7 +954,7 @@ layerId=10223617
 font=497
 text="lj92"
 
-[lj90]
+[lj93]
 type=Text
 x=4
 y=1872
@@ -964,7 +964,7 @@ layerId=10223617
 font=497
 text="lj93"
 
-[lj91]
+[lj94]
 type=Text
 x=4
 y=1892
@@ -974,7 +974,7 @@ layerId=10223617
 font=497
 text="lj94"
 
-[lj92]
+[lj95]
 type=Text
 x=4
 y=1912
@@ -984,7 +984,7 @@ layerId=10223617
 font=497
 text="lj95"
 
-[lj93]
+[lj96]
 type=Text
 x=4
 y=1932
@@ -994,7 +994,7 @@ layerId=10223617
 font=497
 text="lj96"
 
-[lj94]
+[lj97]
 type=Text
 x=4
 y=1952
@@ -1004,7 +1004,7 @@ layerId=10223617
 font=497
 text="lj97"
 
-[lj95]
+[lj98]
 type=Text
 x=4
 y=1972
@@ -1014,7 +1014,7 @@ layerId=10223617
 font=497
 text="lj98"
 
-[lj96]
+[lj99]
 type=Text
 x=4
 y=1992
@@ -1024,7 +1024,7 @@ layerId=10223617
 font=497
 text="lj99"
 
-[lj97]
+[lj100]
 type=Text
 x=4
 y=2012
@@ -1034,7 +1034,7 @@ layerId=10223617
 font=497
 text="lj100"
 
-[lj98]
+[com_104]
 type=Sprite
 x=361
 y=49
@@ -1043,7 +1043,7 @@ height=23
 overLayerId=106
 graphic=537
 
-[lj99]
+[com_105]
 type=Sprite
 buttonType=Close
 x=4
@@ -1054,7 +1054,7 @@ layerId=10223722
 graphic=538
 buttonText="Ok"
 
-[lj100]
+[letter_lj_close]
 type=Layer
 x=357
 y=44

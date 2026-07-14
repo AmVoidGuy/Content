@@ -1,4 +1,4 @@
-[bg3]
+[com_0]
 type=Model
 x=30
 y=68
@@ -16,7 +16,7 @@ height=32
 model1Id=20544
 modelZoom=912
 
-[bg2]
+[com_2]
 type=Model
 x=-3
 y=48
@@ -50,7 +50,7 @@ text="Poison"
 buttonText="Poison egg -> Healer"
 eventCode=flag22
 
-[com_5]
+[barbassault_explosive_healer]
 type=Text
 buttonType=Button
 x=32
@@ -66,7 +66,7 @@ text="Explosive"
 buttonText="Explosive egg -> Healer"
 eventCode=flag22
 
-[com_6]
+[barbassault_stun_healer]
 type=Text
 buttonType=Button
 x=32
@@ -118,7 +118,7 @@ height=32
 model1Id=20543
 modelZoom=912
 
-[com_11]
+[barbassault_poison_runner]
 type=Text
 buttonType=Button
 x=130
@@ -134,7 +134,7 @@ text="Poison"
 buttonText="Poison egg -> Runner"
 eventCode=flag22
 
-[com_12]
+[barbassault_explosive_runner]
 type=Text
 buttonType=Button
 x=130
@@ -150,7 +150,7 @@ text="Explosive"
 buttonText="Explosive egg -> Runner"
 eventCode=flag22
 
-[bg1]
+[barbassault_stun_runner]
 type=Text
 buttonType=Button
 x=130
@@ -166,7 +166,7 @@ text="Stun"
 buttonText="Stun egg -> Runner"
 eventCode=flag22
 
-[queen_icon]
+[com_14]
 type=Model
 x=224
 y=68
@@ -175,7 +175,7 @@ height=32
 model1Id=20548
 modelZoom=1800
 
-[queen_icon_off]
+[com_15]
 type=Model
 x=193
 y=17
@@ -184,7 +184,7 @@ height=32
 model1Id=20544
 modelZoom=912
 
-[queen_button]
+[com_16]
 type=Model
 x=193
 y=48
@@ -193,7 +193,7 @@ height=32
 model1Id=20545
 modelZoom=912
 
-[fighter_red_button_fade]
+[vm_kudos_conq_side_command]
 type=Model
 x=194
 y=79
@@ -202,7 +202,7 @@ height=32
 model1Id=20543
 modelZoom=912
 
-[barbassault_explosive_fighter]
+[barbassault_poison_fighter]
 type=Text
 buttonType=Button
 x=226
@@ -218,7 +218,7 @@ text="Poison"
 buttonText="Poison egg -> Fighter"
 eventCode=flag22
 
-[fighter_icon]
+[barbassault_explosive_fighter]
 type=Text
 buttonType=Button
 x=226
@@ -234,7 +234,7 @@ text="Explosive"
 buttonText="Explosive egg -> Fighter"
 eventCode=flag22
 
-[fighter_icon_off]
+[barbassault_stun_fighter]
 type=Text
 buttonType=Button
 x=226
@@ -250,7 +250,7 @@ text="Stun"
 buttonText="Stun egg -> Fighter"
 eventCode=flag22
 
-[fighter_red_button]
+[com_21]
 type=Model
 x=319
 y=68
@@ -259,7 +259,7 @@ height=32
 model1Id=20555
 modelZoom=1800
 
-[fighter_blue_button]
+[com_22]
 type=Model
 x=289
 y=17
@@ -268,7 +268,7 @@ height=32
 model1Id=20544
 modelZoom=912
 
-[healer_icon]
+[com_23]
 type=Model
 x=289
 y=48
@@ -277,7 +277,7 @@ height=32
 model1Id=20545
 modelZoom=912
 
-[healer_icon_off]
+[com_24]
 type=Model
 x=290
 y=79
@@ -286,7 +286,7 @@ height=32
 model1Id=20543
 modelZoom=912
 
-[healer_red_button]
+[barbassault_poison_ranger]
 type=Text
 buttonType=Button
 x=322
@@ -302,7 +302,7 @@ text="Poison"
 buttonText="Poison egg -> Ranger"
 eventCode=flag22
 
-[healer_blue_button]
+[barbassault_explosive_ranger]
 type=Text
 buttonType=Button
 x=322
@@ -318,7 +318,7 @@ text="Explosive"
 buttonText="Explosive egg -> Ranger"
 eventCode=flag22
 
-[runner_icon]
+[barbassault_stun_ranger]
 type=Text
 buttonType=Button
 x=322
@@ -334,7 +334,7 @@ text="Stun"
 buttonText="Stun egg -> Ranger"
 eventCode=flag22
 
-[runner_icon_off]
+[com_28]
 type=Model
 x=418
 y=68
@@ -343,7 +343,7 @@ height=32
 model1Id=20553
 modelZoom=1800
 
-[runner_red_button]
+[com_29]
 type=Model
 x=384
 y=79
@@ -352,7 +352,7 @@ height=32
 model1Id=20572
 modelZoom=912
 
-[runner_blue_button]
+[barbassault_omega_queen]
 type=Text
 buttonType=Button
 x=418
@@ -368,7 +368,7 @@ text="Omega"
 buttonText="Omega egg -> Queen"
 eventCode=flag22
 
-[ranger_icon]
+[owned.340]
 type=Text
 y=12
 width=30
@@ -380,7 +380,7 @@ font=496
 shadow=yes
 text="##"
 
-[ranger_icon_off]
+[owned.341]
 type=Text
 y=41
 width=30
@@ -392,7 +392,7 @@ font=496
 shadow=yes
 text="##"
 
-[ranger_red_button]
+[owned.342]
 type=Text
 y=72
 width=30
@@ -404,7 +404,7 @@ font=496
 shadow=yes
 text="##"
 
-[ranger_blue_button]
+[owned.343]
 type=Text
 x=96
 y=12
@@ -417,7 +417,7 @@ font=496
 shadow=yes
 text="##"
 
-[div_3]
+[owned.344]
 type=Text
 x=96
 y=41
@@ -430,7 +430,7 @@ font=496
 shadow=yes
 text="##"
 
-[div_2]
+[owned.345]
 type=Text
 x=96
 y=72
@@ -443,7 +443,7 @@ font=496
 shadow=yes
 text="##"
 
-[mainmodal_window]
+[owned.346]
 type=Text
 x=194
 y=12
@@ -456,7 +456,7 @@ font=496
 shadow=yes
 text="##"
 
-[mainmodal_window_background]
+[owned.347]
 type=Text
 x=194
 y=41
@@ -469,7 +469,7 @@ font=496
 shadow=yes
 text="##"
 
-[mainmodal_window_content]
+[owned.348]
 type=Text
 x=194
 y=72
@@ -482,7 +482,7 @@ font=496
 shadow=yes
 text="##"
 
-[egg_counter]
+[com_40]
 type=Text
 x=290
 y=12
@@ -508,7 +508,7 @@ font=496
 shadow=yes
 text="##"
 
-[egg_count_4]
+[com_42]
 type=Text
 x=290
 y=72
@@ -521,7 +521,7 @@ font=496
 shadow=yes
 text="##"
 
-[egg_count_3]
+[com_43]
 type=Text
 x=384
 y=72

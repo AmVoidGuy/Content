@@ -1,4 +1,4 @@
-[pouch_model]
+[com_0]
 type=Model
 x=148
 y=39
@@ -9,7 +9,7 @@ modelZoom=475
 modelXAn=340
 modelYAn=104
 
-[slot1]
+[com_1]
 type=Sprite
 x=16
 y=33
@@ -25,7 +25,7 @@ width=32
 height=32
 modelZoom=400
 
-[slot2]
+[com_3]
 type=Text
 buttonType=Button
 x=16
@@ -39,7 +39,7 @@ shadow=yes
 buttonText="Wield bolts"
 eventCode=flag22
 
-[xbows_model2]
+[com_4]
 type=Text
 buttonType=Button
 x=16
@@ -53,7 +53,7 @@ shadow=yes
 buttonText="Remove from Pouch"
 eventCode=flag22
 
-[slot3]
+[com_5]
 type=Sprite
 x=16
 y=69
@@ -61,7 +61,7 @@ width=36
 height=36
 graphic=170
 
-[xbows_model3]
+[xbows_model2]
 type=Model
 x=18
 y=71
@@ -69,7 +69,7 @@ width=32
 height=32
 modelZoom=400
 
-[slot4]
+[com_7]
 type=Text
 buttonType=Button
 x=16
@@ -83,7 +83,7 @@ shadow=yes
 buttonText="Wield bolts"
 eventCode=flag22
 
-[xbows_model4]
+[com_8]
 type=Text
 buttonType=Button
 x=16
@@ -97,7 +97,7 @@ shadow=yes
 buttonText="Remove from Pouch"
 eventCode=flag22
 
-[slot_worn]
+[com_9]
 type=Sprite
 x=16
 y=105
@@ -105,7 +105,7 @@ width=36
 height=36
 graphic=170
 
-[xbows_model5]
+[xbows_model3]
 type=Model
 x=18
 y=107
@@ -113,7 +113,7 @@ width=32
 height=32
 modelZoom=400
 
-[num1]
+[com_11]
 type=Text
 buttonType=Button
 x=16
@@ -127,7 +127,7 @@ shadow=yes
 buttonText="Wield bolts"
 eventCode=flag22
 
-[num2]
+[com_12]
 type=Text
 buttonType=Button
 x=16
@@ -141,7 +141,7 @@ shadow=yes
 buttonText="Remove from Pouch"
 eventCode=flag22
 
-[num3]
+[com_13]
 type=Sprite
 x=16
 y=141
@@ -149,7 +149,7 @@ width=36
 height=36
 graphic=170
 
-[num4]
+[xbows_model4]
 type=Model
 x=18
 y=143
@@ -157,7 +157,7 @@ width=32
 height=32
 modelZoom=400
 
-[num5]
+[com_15]
 type=Text
 buttonType=Button
 x=16
@@ -171,7 +171,7 @@ shadow=yes
 buttonText="Wield bolts"
 eventCode=flag22
 
-[text1]
+[com_16]
 type=Text
 buttonType=Button
 x=16
@@ -185,7 +185,7 @@ shadow=yes
 buttonText="Remove from Pouch"
 eventCode=flag22
 
-[text2]
+[com_17]
 type=Sprite
 x=16
 y=199
@@ -193,7 +193,7 @@ width=36
 height=36
 graphic=170
 
-[text3]
+[xbows_model5]
 type=Model
 x=18
 y=201
@@ -201,7 +201,7 @@ width=32
 height=32
 modelZoom=400
 
-[text4]
+[com_19]
 type=Text
 buttonType=Button
 x=16
@@ -215,7 +215,7 @@ shadow=yes
 buttonText="Unwield bolts"
 eventCode=flag22
 
-[text5]
+[num1]
 type=Text
 x=58
 y=35
@@ -229,7 +229,7 @@ text="%1"
 script1=gt,0
 script1op1=varbit,varbit_2469
 
-[current_title]
+[num2]
 type=Text
 x=58
 y=71
@@ -244,7 +244,7 @@ text2="%1"
 script1=gt,0
 script1op1=varbit,varbit_2470
 
-[background_layer]
+[num3]
 type=Text
 x=58
 y=106
@@ -259,7 +259,7 @@ text2="%1"
 script1=gt,0
 script1op1=varbit,varbit_2471
 
-[frame_layer]
+[num4]
 type=Text
 x=58
 y=143
@@ -274,7 +274,7 @@ text2="%1"
 script1=gt,0
 script1op1=varbit,varbit_2472
 
-[content_layer]
+[num5]
 type=Text
 x=54
 y=201
@@ -287,7 +287,7 @@ shadow=yes
 text="0"
 text2="0"
 
-[close_button_layer]
+[text1]
 type=Text
 x=58
 y=54
@@ -298,7 +298,7 @@ font=495
 shadow=yes
 text="Text"
 
-[root_layer]
+[text2]
 type=Text
 x=58
 y=89
@@ -309,7 +309,7 @@ font=495
 shadow=yes
 text="Text"
 
-[com_27]
+[text3]
 type=Text
 x=58
 y=125
@@ -320,7 +320,7 @@ font=495
 shadow=yes
 text="Text"
 
-[com_28]
+[text4]
 type=Text
 x=58
 y=161
@@ -331,7 +331,7 @@ font=495
 shadow=yes
 text="Text"
 
-[com_29]
+[text5]
 type=Text
 x=54
 y=219
@@ -374,7 +374,7 @@ height=23
 overLayerId=34
 graphic=539
 
-[com_33]
+[xbows_pouch_close]
 type=Sprite
 buttonType=Close
 x=2
@@ -385,7 +385,7 @@ layerId=28377122
 graphic=540
 buttonText="Ok"
 
-[com_34]
+[xbows_pouch_close_button]
 type=Layer
 x=157
 y=226

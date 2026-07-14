@@ -1,9 +1,9 @@
-[feud_safe]
+[feud_safe_l1]
 type=Layer
 width=600
 height=500
 
-[feud_bh]
+[feud_safe]
 type=Model
 x=249
 y=279
@@ -14,7 +14,7 @@ modelZoom=207
 modelXAn=41
 modelYAn=2036
 
-[bespoke_window]
+[feud_bh]
 type=Layer
 x=337
 y=97
@@ -199,7 +199,7 @@ modelYAn=2026
 buttonText="Reset Safe"
 eventCode=flag22
 
-[bespoke_window_background]
+[com_13]
 type=Sprite
 x=483
 y=4
@@ -208,7 +208,7 @@ height=23
 overLayerId=15
 graphic=541
 
-[bespoke_window_content]
+[feud_safe_close]
 type=Sprite
 buttonType=Close
 x=4
@@ -219,7 +219,7 @@ layerId=21626895
 graphic=542
 buttonText="Ok"
 
-[bespoke_window_border]
+[feud_safe_close_layer]
 type=Layer
 x=479
 y=1

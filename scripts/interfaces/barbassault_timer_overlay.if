@@ -1,4 +1,4 @@
-[layer_top]
+[barbassault_wave_complete_timer]
 type=Text
 x=481
 y=5
@@ -9,7 +9,7 @@ font=496
 shadow=yes
 text="XX"
 
-[barbassault_wave_complete_timer]
+[barbassault_wave_complete_timere_text]
 type=Text
 x=354
 y=5
@@ -21,7 +21,7 @@ font=495
 shadow=yes
 text="Time until next wave:"
 
-[barbassault_wave_complete_timere_text]
+[barbassault_exit_room_to_cancel]
 type=Text
 x=374
 y=18

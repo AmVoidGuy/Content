@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=216
 y=169
@@ -7,7 +7,7 @@ height=16
 model1Id=16051
 modelZoom=126
 
-[mainmodal_window_background]
+[com_1]
 type=Sprite
 x=482
 y=1
@@ -16,7 +16,7 @@ height=23
 overLayerId=3
 graphic=541
 
-[mainmodal_window_content]
+[com_2]
 type=Sprite
 buttonType=Close
 x=3
@@ -27,7 +27,7 @@ layerId=27787267
 graphic=542
 buttonText="Ok"
 
-[com_3]
+[fairy2_message_close]
 type=Layer
 x=479
 width=32

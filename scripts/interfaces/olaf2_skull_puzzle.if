@@ -1,4 +1,4 @@
-[content_layer]
+[olaf2_skull_background]
 type=Model
 x=236
 y=140
@@ -9,7 +9,7 @@ modelZoom=420
 modelXAn=512
 discardedModelField=0
 
-[bespoke_window]
+[olaf2_close]
 type=Sprite
 x=478
 y=6
@@ -20,7 +20,7 @@ onmouseover=44,16580609,538
 onmouseleave=44,16580609,537
 onclick=29
 
-[olaf2_skull_background]
+[olaf2_close_button]
 type=Layer
 x=475
 y=2
@@ -149,35 +149,35 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Confirm"
 
-[bespoke_window_background]
+[olaf2_top_lever]
 type=Layer
 x=400
 y=61
 width=23
 height=40
 
-[bespoke_window_content]
+[olaf2_right_lever]
 type=Layer
 x=438
 y=102
 width=21
 height=40
 
-[bespoke_window_border]
+[olaf2_bottom_lever]
 type=Layer
 x=399
 y=141
 width=23
 height=39
 
-[bespoke_window_close]
+[olaf2_left_lever]
 type=Layer
 x=360
 y=99
 width=24
 height=43
 
-[com_17]
+[olaf2_confirm_lever]
 type=Layer
 x=387
 y=215

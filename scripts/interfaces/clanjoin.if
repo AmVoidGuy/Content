@@ -9,7 +9,7 @@ font=494
 shadow=yes
 text="Talking in: Not in chat"
 
-[com_1]
+[owner_txt]
 type=Text
 x=25
 y=41
@@ -50,7 +50,7 @@ trans=166
 colour=0x170801
 fill=yes
 
-[com_5]
+[clanlist]
 type=Layer
 x=9
 y=63
@@ -58,14 +58,14 @@ width=160
 height=154
 onload=195,component.parentId
 
-[com_6]
+[clanlistscrollbar]
 type=Layer
 x=174
 y=56
 width=16
 height=168
 
-[com_7]
+[clanchat_title]
 type=Text
 x=64
 y=4
@@ -78,7 +78,7 @@ font=496
 shadow=yes
 text="Clan Chat"
 
-[com_8]
+[joinchat]
 type=Text
 x=18
 y=229
@@ -94,7 +94,7 @@ eventCode=hasOp(1)
 opName0="Join Chat"
 onop=194,opindex
 
-[com_9]
+[clansetup]
 type=Text
 x=98
 y=229
@@ -127,7 +127,7 @@ height=6
 graphic=962
 tiling=yes
 
-[com_12]
+[loot_tooltip_layer]
 type=Layer
 x=130
 y=35
@@ -135,14 +135,14 @@ width=13
 height=13
 layerId=38600717
 
-[com_13]
+[loot_tooltip_bounding_box]
 type=Layer
 x=4
 y=5
 width=177
 height=111
 
-[com_14]
+[loot_button]
 type=Sprite
 x=148
 y=23

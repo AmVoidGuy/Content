@@ -273,7 +273,7 @@ font=497
 shadow=yes
 text="Ardougne"
 
-[shipjourney_text]
+[com_24]
 type=Model
 x=246
 y=66
@@ -284,7 +284,7 @@ modelZoom=1500
 modelXAn=306
 modelYAn=199
 
-[com_25]
+[shipjourney_text]
 type=Text
 x=12
 y=8
@@ -295,7 +295,7 @@ font=497
 shadow=yes
 text="You Journey on the ship...."
 
-[com_26]
+[sarim_to_entrana_ship]
 type=Model
 x=246
 y=97
@@ -309,7 +309,7 @@ modelYAn=1989
 script1=eq,1
 script1op1=varp,journey_number
 
-[com_27]
+[entrana_to_sarim_ship]
 type=Model
 x=246
 y=97
@@ -323,7 +323,7 @@ modelYAn=1989
 script1=eq,2
 script1op1=varp,journey_number
 
-[com_28]
+[sarim_to_crandor_ship]
 type=Model
 x=246
 y=97
@@ -337,7 +337,7 @@ modelYAn=1989
 script1=eq,3
 script1op1=varp,journey_number
 
-[com_29]
+[crandor_to_sarim_ship]
 type=Model
 x=246
 y=97
@@ -351,7 +351,7 @@ modelYAn=1989
 script1=eq,4
 script1op1=varp,journey_number
 
-[com_30]
+[sarim_to_karamja_ship]
 type=Model
 x=246
 y=97
@@ -365,7 +365,7 @@ modelYAn=1989
 script1=eq,5
 script1op1=varp,journey_number
 
-[tai_feldip_layer]
+[karamja_to_sarim_ship]
 type=Model
 x=246
 y=97
@@ -379,7 +379,7 @@ modelYAn=1989
 script1=eq,6
 script1op1=varp,journey_number
 
-[feldip_tai_layer]
+[ardougne_to_brimhaven_ship]
 type=Model
 x=246
 y=97
@@ -393,7 +393,7 @@ modelYAn=1985
 script1=eq,7
 script1op1=varp,journey_number
 
-[karamja_voidknight_layer]
+[brimhaven_to_ardougne_ship]
 type=Model
 x=246
 y=97
@@ -407,7 +407,7 @@ modelYAn=1985
 script1=eq,8
 script1op1=varp,journey_number
 
-[sarim_voidknight_layer]
+[khazzard_to_cairn_ship]
 type=Model
 x=246
 y=97
@@ -420,7 +420,7 @@ modelYAn=1989
 script1=eq,9
 script1op1=varp,journey_number
 
-[cairn_sarim_layer]
+[cairn_to_khazzard_ship]
 type=Model
 x=246
 y=97
@@ -434,7 +434,7 @@ modelYAn=1989
 script1=eq,10
 script1op1=varp,journey_number
 
-[trawler_khazzard_layer]
+[khazzard_to_trawler_ship]
 type=Model
 x=246
 y=97
@@ -448,7 +448,7 @@ modelYAn=1988
 script1=eq,11
 script1op1=varp,journey_number
 
-[khazzard_trawler_layer]
+[trawler_to_khazzard_ship]
 type=Model
 x=246
 y=97
@@ -462,7 +462,7 @@ modelYAn=1988
 script1=eq,12
 script1op1=varp,journey_number
 
-[cairn_khazzard_layer]
+[cairn_to_sarim_ship]
 type=Model
 x=246
 y=97
@@ -476,7 +476,7 @@ modelYAn=1989
 script1=eq,13
 script1op1=varp,journey_number
 
-[khazzard_cairn_layer]
+[sarim_to_voidknight_ship]
 type=Model
 x=246
 y=97
@@ -490,7 +490,7 @@ modelYAn=1988
 script1=eq,14
 script1op1=varp,journey_number
 
-[brimhaven_ardougne_layer]
+[karamja_to_voidknight_ship]
 type=Model
 x=246
 y=97
@@ -504,7 +504,7 @@ modelYAn=1986
 script1=eq,15
 script1op1=varp,journey_number
 
-[ardougne_brimhaven_layer]
+[feldip_to_tai_bwo_wannai_boat]
 type=Model
 x=246
 y=97
@@ -518,7 +518,7 @@ modelYAn=1989
 script1=eq,16
 script1op1=varp,journey_number
 
-[karamja_sarim_layer]
+[tai_bwo_wannai_to_feldip_boat]
 type=Model
 x=246
 y=97
@@ -532,7 +532,7 @@ modelYAn=1989
 script1=eq,17
 script1op1=varp,journey_number
 
-[sarim_karamja_layer]
+[com_43]
 type=Model
 x=289
 y=80
@@ -543,7 +543,7 @@ modelZoom=1372
 modelXAn=306
 modelYAn=199
 
-[sarim_crandor_layer]
+[com_44]
 type=Text
 x=173
 y=229
@@ -555,7 +555,7 @@ font=497
 shadow=yes
 text="Atoll"
 
-[crandor_sarim_layer]
+[com_45]
 type=Model
 x=164
 y=259
@@ -566,7 +566,7 @@ modelZoom=1500
 modelXAn=306
 modelYAn=199
 
-[entrana_sarim_layer]
+[com_46]
 type=Model
 x=70
 y=181
@@ -601,7 +601,7 @@ font=497
 shadow=yes
 text="Hills"
 
-[content_layer_1]
+[com_49]
 type=Text
 x=1
 y=2
@@ -613,7 +613,7 @@ font=497
 shadow=yes
 text="The ogres follow the scent of the chompy.... "
 
-[control_object]
+[com_50]
 type=Text
 x=3
 y=1
@@ -625,7 +625,7 @@ font=497
 shadow=yes
 text="The ogres travel back with the goods"
 
-[tai_bwo_wannai_to_feldip_boat]
+[ship_journey_title_text_3]
 type=Layer
 x=8
 y=8
@@ -633,7 +633,7 @@ width=305
 height=20
 hide=yes
 
-[entrana_to_sarim_ship]
+[ship_journey_title_text_2]
 type=Layer
 x=9
 y=8

@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=238
 y=168
@@ -8,7 +8,7 @@ model1Id=9853
 modelZoom=800
 modelXAn=490
 
-[mainmodal_window_background]
+[messagescroll1_gf]
 type=Text
 x=81
 y=89
@@ -19,7 +19,7 @@ hAlign=Center
 font=497
 text="I (insert full name here) do hereby swear fealty   "
 
-[mainmodal_window_content]
+[messagescroll2_gf]
 type=Text
 x=82
 y=113
@@ -30,7 +30,7 @@ hAlign=Center
 font=497
 text="and indebtedness to the Fairy Godfather until"
 
-[com_3]
+[messagescroll3_gf]
 type=Text
 x=82
 y=137
@@ -41,7 +41,7 @@ hAlign=Center
 font=497
 text="such time as he releases me from my bond."
 
-[layer_1]
+[messagescroll4_gf]
 type=Text
 x=82
 y=160
@@ -51,7 +51,7 @@ colour=0x362407
 hAlign=Center
 font=497
 
-[mainmodal_window_border]
+[messagescroll5_gf]
 type=Text
 x=82
 y=182
@@ -62,7 +62,7 @@ hAlign=Center
 font=497
 text="Signed"
 
-[mainmodal_window_close_button]
+[messagescroll6_gf]
 type=Text
 x=82
 y=204
@@ -72,7 +72,7 @@ colour=0x362407
 hAlign=Center
 font=497
 
-[messagescroll1_gf]
+[messagescroll7_gf]
 type=Text
 x=82
 y=226
@@ -83,7 +83,7 @@ hAlign=Center
 font=497
 text="(insert full name and date here)"
 
-[messagescroll2_gf]
+[messagescroll8_gf]
 type=Text
 x=82
 y=249
@@ -93,7 +93,7 @@ colour=0x362407
 hAlign=Center
 font=497
 
-[messagescroll3_gf]
+[com_9]
 type=Sprite
 x=421
 y=52
@@ -102,7 +102,7 @@ height=23
 overLayerId=11
 graphic=537
 
-[messagescroll4_gf]
+[com_10]
 type=Sprite
 buttonType=Close
 x=4
@@ -113,7 +113,7 @@ layerId=27983883
 graphic=538
 buttonText="Ok"
 
-[messagescroll5_gf]
+[scroll_godfather_close]
 type=Layer
 x=417
 y=48

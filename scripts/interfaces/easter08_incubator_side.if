@@ -327,7 +327,7 @@ y=227
 width=182
 height=30
 
-[com_30]
+[tooltip_layer]
 type=Layer
 x=13
 y=11
@@ -335,7 +335,7 @@ width=14
 height=21
 layerId=46989341
 
-[water_highlight_layer]
+[com_31]
 type=Sprite
 x=156
 y=197
@@ -343,7 +343,7 @@ width=25
 height=25
 graphic=774
 
-[water_highlight_rect]
+[com_32]
 type=Sprite
 x=11
 y=196
@@ -351,7 +351,7 @@ width=25
 height=25
 graphic=775
 
-[coal_highlight_layer]
+[water_highlight_layer]
 type=Layer
 x=2
 y=192
@@ -359,7 +359,7 @@ width=40
 height=35
 hide=yes
 
-[coal_highlight_rect]
+[water_highlight_rect]
 type=Rectangle
 x=3
 y=2
@@ -370,7 +370,7 @@ trans=180
 colour=0xFFFFFF
 fill=yes
 
-[com_35]
+[coal_highlight_layer]
 type=Layer
 x=148
 y=192
@@ -378,7 +378,7 @@ width=40
 height=35
 hide=yes
 
-[com_36]
+[coal_highlight_rect]
 type=Rectangle
 x=3
 y=2

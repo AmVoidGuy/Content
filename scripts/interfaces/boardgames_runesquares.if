@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v0]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v1]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v2]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v3]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v4]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v5]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v6]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v7]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v8]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v9]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v10]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v11]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v12]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v13]
+[com_14]
 type=Sprite
 x=276
 y=20
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v14]
+[com_15]
 type=Sprite
 x=188
 y=260
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v15]
+[com_16]
 type=Sprite
 x=364
 y=80
@@ -134,7 +134,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v16]
+[com_17]
 type=Sprite
 x=276
 y=80
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v17]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v18]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -158,7 +158,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v19]
+[com_20]
 type=Sprite
 x=276
 y=260
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v20]
+[com_21]
 type=Sprite
 x=364
 y=140
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v21]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v22]
+[com_23]
 type=Sprite
 x=364
 y=200
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v23]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v24]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v25]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -214,7 +214,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v26]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -222,7 +222,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v27]
+[com_28]
 type=Sprite
 x=412
 y=200
@@ -230,7 +230,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v28]
+[com_29]
 type=Sprite
 x=409
 y=258
@@ -238,7 +238,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_runesquares_v29]
+[com_30]
 type=Sprite
 x=12
 y=20
@@ -246,7 +246,7 @@ width=25
 height=30
 graphic=310
 
-[boardgames_runesquares_v30]
+[com_31]
 type=Sprite
 x=-3
 y=49
@@ -254,7 +254,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v31]
+[com_32]
 type=Sprite
 x=-3
 y=85
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v32]
+[com_33]
 type=Sprite
 x=-3
 y=121
@@ -270,7 +270,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v33]
+[com_34]
 type=Sprite
 x=-3
 y=157
@@ -278,7 +278,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v34]
+[com_35]
 type=Sprite
 x=-3
 y=229
@@ -286,7 +286,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v35]
+[com_36]
 type=Sprite
 x=-3
 y=265
@@ -294,7 +294,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v36]
+[com_37]
 type=Sprite
 x=479
 y=50
@@ -302,7 +302,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v37]
+[com_38]
 type=Sprite
 x=479
 y=86
@@ -310,7 +310,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v38]
+[com_39]
 type=Sprite
 x=479
 y=122
@@ -318,7 +318,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v39]
+[com_40]
 type=Sprite
 x=479
 y=158
@@ -326,7 +326,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v40]
+[com_41]
 type=Sprite
 x=479
 y=194
@@ -334,7 +334,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v41]
+[com_42]
 type=Sprite
 x=479
 y=230
@@ -342,7 +342,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v42]
+[com_43]
 type=Sprite
 x=479
 y=266
@@ -350,7 +350,7 @@ width=36
 height=36
 graphic=315
 
-[boardgames_runesquares_v43]
+[com_44]
 type=Sprite
 x=-3
 y=193
@@ -358,7 +358,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_v44]
+[com_45]
 type=Sprite
 x=73
 y=299
@@ -366,7 +366,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v45]
+[com_46]
 type=Sprite
 x=109
 y=299
@@ -374,7 +374,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v46]
+[com_47]
 type=Sprite
 x=145
 y=299
@@ -382,7 +382,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v47]
+[com_48]
 type=Sprite
 x=181
 y=299
@@ -390,7 +390,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v48]
+[com_49]
 type=Sprite
 x=217
 y=299
@@ -398,7 +398,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v49]
+[com_50]
 type=Sprite
 x=253
 y=299
@@ -406,7 +406,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v50]
+[com_51]
 type=Sprite
 x=289
 y=299
@@ -414,7 +414,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v51]
+[com_52]
 type=Sprite
 x=325
 y=299
@@ -422,7 +422,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v52]
+[com_53]
 type=Sprite
 x=361
 y=299
@@ -430,7 +430,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v53]
+[com_54]
 type=Sprite
 x=397
 y=299
@@ -438,7 +438,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v54]
+[com_55]
 type=Sprite
 x=433
 y=299
@@ -446,7 +446,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_v55]
+[com_56]
 type=Sprite
 x=72
 y=5
@@ -454,7 +454,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h0]
+[com_57]
 type=Sprite
 x=108
 y=5
@@ -462,7 +462,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h1]
+[com_58]
 type=Sprite
 x=144
 y=5
@@ -470,7 +470,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h2]
+[com_59]
 type=Sprite
 x=180
 y=5
@@ -478,7 +478,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h3]
+[com_60]
 type=Sprite
 x=216
 y=5
@@ -486,7 +486,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h4]
+[com_61]
 type=Sprite
 x=252
 y=5
@@ -494,7 +494,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h5]
+[com_62]
 type=Sprite
 x=288
 y=5
@@ -502,7 +502,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h6]
+[com_63]
 type=Sprite
 x=324
 y=5
@@ -510,7 +510,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h7]
+[com_64]
 type=Sprite
 x=360
 y=5
@@ -518,7 +518,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h8]
+[com_65]
 type=Sprite
 x=396
 y=5
@@ -526,7 +526,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h9]
+[com_66]
 type=Sprite
 x=432
 y=5
@@ -534,7 +534,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h10]
+[com_67]
 type=Text
 x=43
 y=58
@@ -545,7 +545,7 @@ font=495
 shadow=yes
 text="Insert a very long name here!"
 
-[boardgames_runesquares_h11]
+[com_68]
 type=Sprite
 x=37
 y=5
@@ -553,7 +553,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h12]
+[com_69]
 type=Sprite
 x=37
 y=299
@@ -561,7 +561,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_h13]
+[com_70]
 type=Sprite
 x=12
 y=290
@@ -569,7 +569,7 @@ width=25
 height=30
 graphic=312
 
-[boardgames_runesquares_h14]
+[com_71]
 type=Sprite
 x=475
 y=20
@@ -577,7 +577,7 @@ width=25
 height=30
 graphic=311
 
-[boardgames_runesquares_h15]
+[com_72]
 type=Sprite
 x=439
 y=5
@@ -585,7 +585,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h16]
+[com_73]
 type=Sprite
 x=475
 y=290
@@ -593,7 +593,7 @@ width=25
 height=30
 graphic=313
 
-[boardgames_runesquares_h17]
+[com_74]
 type=Sprite
 x=439
 y=299
@@ -601,7 +601,7 @@ width=36
 height=36
 graphic=173
 
-[boardgames_runesquares_h18]
+[com_75]
 type=Text
 x=100
 y=75
@@ -612,7 +612,7 @@ font=495
 shadow=yes
 text="vs"
 
-[boardgames_runesquares_h19]
+[com_76]
 type=Text
 x=43
 y=89
@@ -623,7 +623,7 @@ font=495
 shadow=yes
 text="Insert a very long name here!"
 
-[boardgames_runesquares_h20]
+[com_77]
 type=Sprite
 x=183
 y=26
@@ -631,7 +631,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_h21]
+[com_78]
 type=Sprite
 x=183
 y=62
@@ -639,7 +639,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_h22]
+[com_79]
 type=Sprite
 x=183
 y=98
@@ -647,7 +647,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_h23]
+[com_80]
 type=Sprite
 x=183
 y=134
@@ -655,7 +655,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_h24]
+[com_81]
 type=Sprite
 x=183
 y=170
@@ -663,7 +663,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_h25]
+[com_82]
 type=Sprite
 x=162
 y=34
@@ -671,7 +671,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h26]
+[com_83]
 type=Sprite
 x=144
 y=34
@@ -679,7 +679,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h27]
+[com_84]
 type=Sprite
 x=108
 y=34
@@ -687,7 +687,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h28]
+[com_85]
 type=Sprite
 x=72
 y=34
@@ -695,7 +695,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h29]
+[com_86]
 type=Sprite
 x=36
 y=34
@@ -703,7 +703,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h30]
+[com_87]
 type=Sprite
 x=17
 y=34
@@ -711,7 +711,7 @@ width=36
 height=36
 graphic=314
 
-[boardgames_runesquares_h31]
+[com_88]
 type=Text
 x=38
 y=127
@@ -723,7 +723,7 @@ font=495
 shadow=yes
 text="Turn:"
 
-[boardgames_runesquares_h32]
+[boardgames_runesquares_sandtimer]
 type=Model
 x=158
 y=289
@@ -732,21 +732,21 @@ height=32
 model1Id=4612
 modelZoom=2048
 
-[boardgames_runesquares_h33]
+[com_90]
 type=Layer
 x=26
 y=265
 width=122
 height=42
 
-[boardgames_runesquares_h34]
+[com_91]
 type=Layer
 x=26
 y=215
 width=122
 height=43
 
-[boardgames_runesquares_h35]
+[com_92]
 type=Text
 x=21
 y=29
@@ -757,7 +757,7 @@ font=496
 shadow=yes
 text="Runesquares"
 
-[boardgames_runesquares_h36]
+[com_93]
 type=Rectangle
 buttonType=Close
 x=6
@@ -768,7 +768,7 @@ layerId=2621530
 fill=yes
 buttonText="Ok"
 
-[boardgames_runesquares_h37]
+[com_94]
 type=Text
 x=6
 y=6
@@ -783,7 +783,7 @@ font=495
 shadow=yes
 text="Resign"
 
-[boardgames_runesquares_h38]
+[boardgames_runesquares_draw]
 type=Rectangle
 buttonType=Button
 x=6
@@ -795,7 +795,7 @@ fill=yes
 buttonText="Offer your opponent a draw"
 eventCode=flag22
 
-[boardgames_runesquares_h39]
+[com_96]
 type=Text
 x=6
 y=6
@@ -810,7 +810,7 @@ font=495
 shadow=yes
 text="Offer draw"
 
-[boardgames_runesquares_h40]
+[com_97]
 type=Sprite
 x=21
 y=-15
@@ -819,7 +819,7 @@ height=36
 layerId=2621530
 graphic=314
 
-[boardgames_runesquares_h41]
+[com_98]
 type=Sprite
 x=21
 y=-15
@@ -828,7 +828,7 @@ height=36
 layerId=2621531
 graphic=314
 
-[boardgames_runesquares_h42]
+[boardgames_runesquares_turn]
 type=Text
 x=85
 y=127
@@ -839,7 +839,7 @@ font=495
 shadow=yes
 text="A very long name"
 
-[boardgames_runesquares_h43]
+[com_100]
 type=Sprite
 x=22
 y=21
@@ -848,21 +848,21 @@ height=36
 layerId=2621531
 graphic=173
 
-[boardgames_runesquares_h44]
+[com_101]
 type=Sprite
 width=25
 height=30
 layerId=2621530
 graphic=310
 
-[boardgames_runesquares_h45]
+[com_102]
 type=Sprite
 width=25
 height=30
 layerId=2621531
 graphic=310
 
-[boardgames_runesquares_h46]
+[com_103]
 type=Sprite
 x=97
 width=30
@@ -870,7 +870,7 @@ height=30
 layerId=2621530
 graphic=311
 
-[boardgames_runesquares_h47]
+[com_104]
 type=Sprite
 x=97
 width=25
@@ -878,7 +878,7 @@ height=30
 layerId=2621531
 graphic=311
 
-[boardgames_runesquares_h48]
+[com_105]
 type=Sprite
 y=12
 width=25
@@ -886,7 +886,7 @@ height=30
 layerId=2621530
 graphic=312
 
-[boardgames_runesquares_h49]
+[com_106]
 type=Sprite
 y=12
 width=25
@@ -894,7 +894,7 @@ height=30
 layerId=2621531
 graphic=312
 
-[boardgames_runesquares_h50]
+[com_107]
 type=Sprite
 x=97
 y=12
@@ -903,7 +903,7 @@ height=30
 layerId=2621530
 graphic=313
 
-[boardgames_runesquares_h51]
+[com_108]
 type=Sprite
 x=21
 y=21
@@ -912,7 +912,7 @@ height=36
 layerId=2621530
 graphic=173
 
-[boardgames_runesquares_h52]
+[com_109]
 type=Sprite
 x=97
 y=12
@@ -921,7 +921,7 @@ height=30
 layerId=2621531
 graphic=313
 
-[boardgames_runesquares_h53]
+[boardgames_runesquares_status2]
 type=Text
 x=23
 y=185
@@ -933,7 +933,7 @@ font=494
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
-[boardgames_runesquares_h54]
+[com_111]
 type=Sprite
 x=183
 y=206
@@ -941,7 +941,7 @@ width=36
 height=36
 graphic=172
 
-[boardgames_runesquares_h55]
+[com_112]
 type=Sprite
 x=183
 y=242
@@ -957,7 +957,7 @@ width=36
 height=36
 graphic=172
 
-[com_114]
+[boardgames_runesquares_status1]
 type=Text
 x=23
 y=160
@@ -969,7 +969,7 @@ font=494
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
-[com_115]
+[boardgames_runesquares_status3]
 type=Text
 x=27
 y=157
@@ -1085,7 +1085,7 @@ modelZoom=1024
 modelXAn=512
 modelYAn=1024
 
-[com_127]
+[boardgames_runesquares_boardinv]
 type=Inventory
 x=212
 y=34
@@ -1097,7 +1097,7 @@ marginX=2
 marginY=2
 eventCode=objReplaceEnabled
 
-[com_128]
+[boardgames_runesquares_v0]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1111,7 +1111,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v0
 
-[com_129]
+[boardgames_runesquares_v1]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1125,7 +1125,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v1
 
-[com_130]
+[boardgames_runesquares_v2]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1139,7 +1139,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v2
 
-[com_131]
+[boardgames_runesquares_v3]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1153,7 +1153,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v3
 
-[com_132]
+[boardgames_runesquares_v4]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1167,7 +1167,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v4
 
-[com_133]
+[boardgames_runesquares_v5]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1181,7 +1181,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v5
 
-[com_134]
+[boardgames_runesquares_v6]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1195,7 +1195,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v6
 
-[com_135]
+[boardgames_runesquares_v7]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1209,7 +1209,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v7
 
-[com_136]
+[boardgames_runesquares_v8]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1223,7 +1223,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v8
 
-[com_137]
+[boardgames_runesquares_v9]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1237,7 +1237,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v9
 
-[com_138]
+[boardgames_runesquares_v10]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1251,7 +1251,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v10
 
-[com_139]
+[boardgames_runesquares_v11]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1265,7 +1265,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v11
 
-[com_140]
+[boardgames_runesquares_v12]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1279,7 +1279,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v12
 
-[com_141]
+[boardgames_runesquares_v13]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1293,7 +1293,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v13
 
-[com_142]
+[boardgames_runesquares_v14]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1307,7 +1307,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v14
 
-[com_143]
+[boardgames_runesquares_v15]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1321,7 +1321,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v15
 
-[com_144]
+[boardgames_runesquares_v16]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1335,7 +1335,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v16
 
-[com_145]
+[boardgames_runesquares_v17]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1349,7 +1349,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v17
 
-[com_146]
+[boardgames_runesquares_v18]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1363,7 +1363,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v18
 
-[com_147]
+[boardgames_runesquares_v19]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1377,7 +1377,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v19
 
-[com_148]
+[boardgames_runesquares_v20]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1391,7 +1391,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v20
 
-[com_149]
+[boardgames_runesquares_v21]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1405,7 +1405,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v21
 
-[com_150]
+[boardgames_runesquares_v22]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1419,7 +1419,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v22
 
-[com_151]
+[boardgames_runesquares_v23]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1433,7 +1433,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v23
 
-[com_152]
+[boardgames_runesquares_v24]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1447,7 +1447,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v24
 
-[com_153]
+[boardgames_runesquares_v25]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1461,7 +1461,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v25
 
-[com_154]
+[boardgames_runesquares_v26]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1475,7 +1475,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v26
 
-[com_155]
+[boardgames_runesquares_v27]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1489,7 +1489,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v27
 
-[com_156]
+[boardgames_runesquares_v28]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1503,7 +1503,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v28
 
-[com_157]
+[boardgames_runesquares_v29]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1517,7 +1517,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v29
 
-[com_158]
+[boardgames_runesquares_v30]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1531,7 +1531,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v30
 
-[com_159]
+[boardgames_runesquares_v31]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1545,7 +1545,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v31
 
-[com_160]
+[boardgames_runesquares_v32]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1559,7 +1559,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v32
 
-[com_161]
+[boardgames_runesquares_v33]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1573,7 +1573,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v33
 
-[com_162]
+[boardgames_runesquares_v34]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1587,7 +1587,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v34
 
-[com_163]
+[boardgames_runesquares_v35]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1601,7 +1601,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v35
 
-[com_164]
+[boardgames_runesquares_v36]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1615,7 +1615,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v36
 
-[com_165]
+[boardgames_runesquares_v37]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1629,7 +1629,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v37
 
-[boardgames_runesquares_v0_1]
+[boardgames_runesquares_v38]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1643,7 +1643,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v38
 
-[boardgames_runesquares_v1_1]
+[boardgames_runesquares_v39]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1657,7 +1657,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v39
 
-[boardgames_runesquares_v2_1]
+[boardgames_runesquares_v40]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1671,7 +1671,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v40
 
-[boardgames_runesquares_v3_1]
+[boardgames_runesquares_v41]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1685,7 +1685,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v41
 
-[boardgames_runesquares_v4_1]
+[boardgames_runesquares_v42]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1699,7 +1699,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v42
 
-[boardgames_runesquares_v5_1]
+[boardgames_runesquares_v43]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1713,7 +1713,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v43
 
-[boardgames_runesquares_v6_1]
+[boardgames_runesquares_v44]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1727,7 +1727,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v44
 
-[boardgames_runesquares_v7_1]
+[boardgames_runesquares_v45]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1741,7 +1741,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v45
 
-[boardgames_runesquares_v8_1]
+[boardgames_runesquares_v46]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1755,7 +1755,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v46
 
-[boardgames_runesquares_v9_1]
+[boardgames_runesquares_v47]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1769,7 +1769,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v47
 
-[boardgames_runesquares_v10_1]
+[boardgames_runesquares_v48]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1783,7 +1783,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v48
 
-[boardgames_runesquares_v11_1]
+[boardgames_runesquares_v49]
 type=Rectangle
 buttonType=Button
 x=244
@@ -1797,7 +1797,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v49
 
-[boardgames_runesquares_v12_1]
+[boardgames_runesquares_v50]
 type=Rectangle
 buttonType=Button
 x=278
@@ -1811,7 +1811,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v50
 
-[boardgames_runesquares_v13_1]
+[boardgames_runesquares_v51]
 type=Rectangle
 buttonType=Button
 x=312
@@ -1825,7 +1825,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v51
 
-[boardgames_runesquares_v14_1]
+[boardgames_runesquares_v52]
 type=Rectangle
 buttonType=Button
 x=346
@@ -1839,7 +1839,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v52
 
-[boardgames_runesquares_v15_1]
+[boardgames_runesquares_v53]
 type=Rectangle
 buttonType=Button
 x=380
@@ -1853,7 +1853,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v53
 
-[boardgames_runesquares_v16_1]
+[boardgames_runesquares_v54]
 type=Rectangle
 buttonType=Button
 x=414
@@ -1867,7 +1867,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v54
 
-[boardgames_runesquares_v17_1]
+[boardgames_runesquares_v55]
 type=Rectangle
 buttonType=Button
 x=448
@@ -1881,7 +1881,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v55
 
-[boardgames_runesquares_v18_1]
+[boardgames_runesquares_h0]
 type=Rectangle
 buttonType=Button
 x=212
@@ -1895,7 +1895,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h0
 
-[boardgames_runesquares_v19_1]
+[boardgames_runesquares_h1]
 type=Rectangle
 buttonType=Button
 x=246
@@ -1909,7 +1909,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h1
 
-[boardgames_runesquares_v20_1]
+[boardgames_runesquares_h2]
 type=Rectangle
 buttonType=Button
 x=280
@@ -1923,7 +1923,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h2
 
-[boardgames_runesquares_v21_1]
+[boardgames_runesquares_h3]
 type=Rectangle
 buttonType=Button
 x=314
@@ -1937,7 +1937,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h3
 
-[boardgames_runesquares_v22_1]
+[boardgames_runesquares_h4]
 type=Rectangle
 buttonType=Button
 x=348
@@ -1951,7 +1951,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h4
 
-[boardgames_runesquares_v23_1]
+[boardgames_runesquares_h5]
 type=Rectangle
 buttonType=Button
 x=382
@@ -1965,7 +1965,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h5
 
-[boardgames_runesquares_v24_1]
+[boardgames_runesquares_h6]
 type=Rectangle
 buttonType=Button
 x=416
@@ -1979,7 +1979,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h6
 
-[boardgames_runesquares_v25_1]
+[boardgames_runesquares_h7]
 type=Rectangle
 buttonType=Button
 x=450
@@ -1993,7 +1993,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h7
 
-[boardgames_runesquares_v26_1]
+[boardgames_runesquares_h8]
 type=Rectangle
 buttonType=Button
 x=212
@@ -2007,7 +2007,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h8
 
-[boardgames_runesquares_v27_1]
+[boardgames_runesquares_h9]
 type=Rectangle
 buttonType=Button
 x=246
@@ -2021,7 +2021,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h9
 
-[boardgames_runesquares_v28_1]
+[boardgames_runesquares_h10]
 type=Rectangle
 buttonType=Button
 x=280
@@ -2035,7 +2035,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h10
 
-[boardgames_runesquares_v29_1]
+[boardgames_runesquares_h11]
 type=Rectangle
 buttonType=Button
 x=314
@@ -2049,7 +2049,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h11
 
-[boardgames_runesquares_v30_1]
+[boardgames_runesquares_h12]
 type=Rectangle
 buttonType=Button
 x=348
@@ -2063,7 +2063,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h12
 
-[boardgames_runesquares_v31_1]
+[boardgames_runesquares_h13]
 type=Rectangle
 buttonType=Button
 x=382
@@ -2077,7 +2077,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h13
 
-[boardgames_runesquares_v32_1]
+[boardgames_runesquares_h14]
 type=Rectangle
 buttonType=Button
 x=416
@@ -2091,7 +2091,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h14
 
-[boardgames_runesquares_v33_1]
+[boardgames_runesquares_h15]
 type=Rectangle
 buttonType=Button
 x=450
@@ -2105,7 +2105,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h15
 
-[boardgames_runesquares_v34_1]
+[boardgames_runesquares_h16]
 type=Rectangle
 buttonType=Button
 x=212
@@ -2119,7 +2119,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h16
 
-[boardgames_runesquares_v35_1]
+[boardgames_runesquares_h17]
 type=Rectangle
 buttonType=Button
 x=246
@@ -2133,7 +2133,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h17
 
-[boardgames_runesquares_v36_1]
+[boardgames_runesquares_h18]
 type=Rectangle
 buttonType=Button
 x=280
@@ -2147,7 +2147,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h18
 
-[boardgames_runesquares_v37_1]
+[boardgames_runesquares_h19]
 type=Rectangle
 buttonType=Button
 x=314
@@ -2161,7 +2161,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h19
 
-[boardgames_runesquares_v38_1]
+[boardgames_runesquares_h20]
 type=Rectangle
 buttonType=Button
 x=348
@@ -2175,7 +2175,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h20
 
-[boardgames_runesquares_v39_1]
+[boardgames_runesquares_h21]
 type=Rectangle
 buttonType=Button
 x=382
@@ -2189,7 +2189,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h21
 
-[boardgames_runesquares_v40_1]
+[boardgames_runesquares_h22]
 type=Rectangle
 buttonType=Button
 x=416
@@ -2203,7 +2203,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h22
 
-[boardgames_runesquares_v41_1]
+[boardgames_runesquares_h23]
 type=Rectangle
 buttonType=Button
 x=450
@@ -2217,7 +2217,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h23
 
-[boardgames_runesquares_v42_1]
+[boardgames_runesquares_h24]
 type=Rectangle
 buttonType=Button
 x=212
@@ -2231,7 +2231,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h24
 
-[boardgames_runesquares_v43_1]
+[boardgames_runesquares_h25]
 type=Rectangle
 buttonType=Button
 x=246
@@ -2245,7 +2245,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h25
 
-[boardgames_runesquares_v44_1]
+[boardgames_runesquares_h26]
 type=Rectangle
 buttonType=Button
 x=280
@@ -2259,7 +2259,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h26
 
-[boardgames_runesquares_v45_1]
+[boardgames_runesquares_h27]
 type=Rectangle
 buttonType=Button
 x=314
@@ -2273,7 +2273,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h27
 
-[boardgames_runesquares_v46_1]
+[boardgames_runesquares_h28]
 type=Rectangle
 buttonType=Button
 x=348
@@ -2287,7 +2287,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h28
 
-[boardgames_runesquares_v47_1]
+[boardgames_runesquares_h29]
 type=Rectangle
 buttonType=Button
 x=382
@@ -2301,7 +2301,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h29
 
-[boardgames_runesquares_v48_1]
+[boardgames_runesquares_h30]
 type=Rectangle
 buttonType=Button
 x=416
@@ -2315,7 +2315,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h30
 
-[boardgames_runesquares_v49_1]
+[boardgames_runesquares_h31]
 type=Rectangle
 buttonType=Button
 x=450
@@ -2329,7 +2329,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h31
 
-[boardgames_runesquares_v50_1]
+[boardgames_runesquares_h32]
 type=Rectangle
 buttonType=Button
 x=212
@@ -2343,7 +2343,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h32
 
-[boardgames_runesquares_v51_1]
+[boardgames_runesquares_h33]
 type=Rectangle
 buttonType=Button
 x=246
@@ -2357,7 +2357,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h33
 
-[boardgames_runesquares_v52_1]
+[boardgames_runesquares_h34]
 type=Rectangle
 buttonType=Button
 x=280
@@ -2371,7 +2371,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h34
 
-[boardgames_runesquares_v53_1]
+[boardgames_runesquares_h35]
 type=Rectangle
 buttonType=Button
 x=314
@@ -2385,7 +2385,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h35
 
-[boardgames_runesquares_v54_1]
+[boardgames_runesquares_h36]
 type=Rectangle
 buttonType=Button
 x=348
@@ -2399,7 +2399,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h36
 
-[boardgames_runesquares_v55_1]
+[boardgames_runesquares_h37]
 type=Rectangle
 buttonType=Button
 x=382
@@ -2413,7 +2413,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h37
 
-[boardgames_runesquares_h0_1]
+[boardgames_runesquares_h38]
 type=Rectangle
 buttonType=Button
 x=416
@@ -2427,7 +2427,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h38
 
-[boardgames_runesquares_h1_1]
+[boardgames_runesquares_h39]
 type=Rectangle
 buttonType=Button
 x=450
@@ -2441,7 +2441,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h39
 
-[boardgames_runesquares_h2_1]
+[boardgames_runesquares_h40]
 type=Rectangle
 buttonType=Button
 x=212
@@ -2455,7 +2455,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h40
 
-[boardgames_runesquares_h3_1]
+[boardgames_runesquares_h41]
 type=Rectangle
 buttonType=Button
 x=246
@@ -2469,7 +2469,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h41
 
-[boardgames_runesquares_h4_1]
+[boardgames_runesquares_h42]
 type=Rectangle
 buttonType=Button
 x=280
@@ -2483,7 +2483,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h42
 
-[boardgames_runesquares_h5_1]
+[boardgames_runesquares_h43]
 type=Rectangle
 buttonType=Button
 x=314
@@ -2497,7 +2497,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h43
 
-[boardgames_runesquares_h6_1]
+[boardgames_runesquares_h44]
 type=Rectangle
 buttonType=Button
 x=348
@@ -2511,7 +2511,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h44
 
-[boardgames_runesquares_h7_1]
+[boardgames_runesquares_h45]
 type=Rectangle
 buttonType=Button
 x=382
@@ -2525,7 +2525,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h45
 
-[boardgames_runesquares_h8_1]
+[boardgames_runesquares_h46]
 type=Rectangle
 buttonType=Button
 x=416
@@ -2539,7 +2539,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h46
 
-[boardgames_runesquares_h9_1]
+[boardgames_runesquares_h47]
 type=Rectangle
 buttonType=Button
 x=450
@@ -2553,7 +2553,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h47
 
-[boardgames_runesquares_h10_1]
+[boardgames_runesquares_h48]
 type=Rectangle
 buttonType=Button
 x=212
@@ -2567,7 +2567,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h48
 
-[boardgames_runesquares_h11_1]
+[boardgames_runesquares_h49]
 type=Rectangle
 buttonType=Button
 x=246
@@ -2581,7 +2581,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h49
 
-[boardgames_runesquares_h12_1]
+[boardgames_runesquares_h50]
 type=Rectangle
 buttonType=Button
 x=280
@@ -2595,7 +2595,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h50
 
-[boardgames_runesquares_h13_1]
+[boardgames_runesquares_h51]
 type=Rectangle
 buttonType=Button
 x=314
@@ -2609,7 +2609,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h51
 
-[boardgames_runesquares_h14_1]
+[boardgames_runesquares_h52]
 type=Rectangle
 buttonType=Button
 x=348
@@ -2623,7 +2623,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h52
 
-[boardgames_runesquares_h15_1]
+[boardgames_runesquares_h53]
 type=Rectangle
 buttonType=Button
 x=382
@@ -2637,7 +2637,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h53
 
-[boardgames_runesquares_h16_1]
+[boardgames_runesquares_h54]
 type=Rectangle
 buttonType=Button
 x=416
@@ -2651,7 +2651,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h54
 
-[boardgames_runesquares_h17_1]
+[boardgames_runesquares_h55]
 type=Rectangle
 buttonType=Button
 x=450
@@ -2665,7 +2665,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h55
 
-[boardgames_runesquares_h18_1]
+[com_240]
 type=Rectangle
 x=212
 y=32
@@ -2674,7 +2674,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h19_1]
+[com_241]
 type=Rectangle
 x=210
 y=304
@@ -2683,7 +2683,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h20_1]
+[com_242]
 type=Rectangle
 x=210
 y=32
@@ -2692,7 +2692,7 @@ height=272
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h21_1]
+[com_243]
 type=Rectangle
 x=482
 y=34
@@ -2701,7 +2701,7 @@ height=272
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h22_1]
+[com_244]
 type=Rectangle
 x=244
 y=66
@@ -2710,7 +2710,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h23_1]
+[com_245]
 type=Rectangle
 x=278
 y=66
@@ -2719,7 +2719,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h24_1]
+[com_246]
 type=Rectangle
 x=312
 y=66
@@ -2728,7 +2728,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h25_1]
+[com_247]
 type=Rectangle
 x=346
 y=66
@@ -2737,7 +2737,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h26_1]
+[com_248]
 type=Rectangle
 x=380
 y=66
@@ -2746,7 +2746,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h27_1]
+[com_249]
 type=Rectangle
 x=414
 y=66
@@ -2755,7 +2755,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h28_1]
+[com_250]
 type=Rectangle
 x=448
 y=66
@@ -2764,7 +2764,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h29_1]
+[com_251]
 type=Rectangle
 x=448
 y=100
@@ -2773,7 +2773,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h30_1]
+[com_252]
 type=Rectangle
 x=244
 y=134
@@ -2782,7 +2782,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h31_1]
+[com_253]
 type=Rectangle
 x=244
 y=100
@@ -2791,7 +2791,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h32_1]
+[com_254]
 type=Rectangle
 x=278
 y=100
@@ -2800,7 +2800,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h33_1]
+[com_255]
 type=Rectangle
 x=312
 y=100
@@ -2809,7 +2809,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h34_1]
+[com_256]
 type=Rectangle
 x=346
 y=100
@@ -2818,7 +2818,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h35_1]
+[com_257]
 type=Rectangle
 x=380
 y=100
@@ -2827,7 +2827,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h36_1]
+[com_258]
 type=Rectangle
 x=414
 y=100
@@ -2836,7 +2836,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h37_1]
+[com_259]
 type=Rectangle
 x=278
 y=134
@@ -2845,7 +2845,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h38_1]
+[com_260]
 type=Rectangle
 x=312
 y=134
@@ -2854,7 +2854,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h39_1]
+[com_261]
 type=Rectangle
 x=346
 y=134
@@ -2863,7 +2863,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h40_1]
+[com_262]
 type=Rectangle
 x=380
 y=134
@@ -2872,7 +2872,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h41_1]
+[com_263]
 type=Rectangle
 x=414
 y=134
@@ -2881,7 +2881,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h42_1]
+[com_264]
 type=Rectangle
 x=448
 y=134
@@ -2890,7 +2890,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h43_1]
+[com_265]
 type=Rectangle
 x=244
 y=168
@@ -2899,7 +2899,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h44_1]
+[com_266]
 type=Rectangle
 x=278
 y=168
@@ -2908,7 +2908,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h45_1]
+[com_267]
 type=Rectangle
 x=312
 y=168
@@ -2917,7 +2917,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h46_1]
+[com_268]
 type=Rectangle
 x=346
 y=168
@@ -2926,7 +2926,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h47_1]
+[com_269]
 type=Rectangle
 x=380
 y=168
@@ -2935,7 +2935,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h48_1]
+[com_270]
 type=Rectangle
 x=414
 y=168
@@ -2944,7 +2944,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h49_1]
+[com_271]
 type=Rectangle
 x=448
 y=168
@@ -2953,7 +2953,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h50_1]
+[com_272]
 type=Rectangle
 x=244
 y=202
@@ -2962,7 +2962,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h51_1]
+[com_273]
 type=Rectangle
 x=278
 y=202
@@ -2971,7 +2971,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h52_1]
+[com_274]
 type=Rectangle
 x=312
 y=202
@@ -2980,7 +2980,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h53_1]
+[com_275]
 type=Rectangle
 x=346
 y=202
@@ -2989,7 +2989,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h54_1]
+[com_276]
 type=Rectangle
 x=380
 y=202
@@ -2998,7 +2998,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[boardgames_runesquares_h55_1]
+[com_277]
 type=Rectangle
 x=414
 y=202
@@ -3007,7 +3007,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[mainmodal_window_background]
+[com_278]
 type=Rectangle
 x=448
 y=202
@@ -3016,7 +3016,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[mainmodal_window_content]
+[com_279]
 type=Rectangle
 x=244
 y=236
@@ -3025,7 +3025,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[game_data]
+[com_280]
 type=Rectangle
 x=278
 y=236
@@ -3034,7 +3034,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[runesquares_inv]
+[com_281]
 type=Rectangle
 x=312
 y=236
@@ -3043,7 +3043,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[vertical]
+[com_282]
 type=Rectangle
 x=346
 y=236
@@ -3052,7 +3052,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[dots]
+[com_283]
 type=Rectangle
 x=380
 y=236
@@ -3061,7 +3061,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[horizontal]
+[com_284]
 type=Rectangle
 x=414
 y=236
@@ -3070,7 +3070,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[mainmodal_window_border]
+[com_285]
 type=Rectangle
 x=448
 y=236
@@ -3079,7 +3079,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[mainmodal_window_close_button]
+[com_286]
 type=Rectangle
 x=244
 y=270
@@ -3088,7 +3088,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[events]
+[com_287]
 type=Rectangle
 x=278
 y=270
@@ -3097,7 +3097,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[game_piece_player1]
+[com_288]
 type=Rectangle
 x=312
 y=270
@@ -3106,7 +3106,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[name_player1]
+[com_289]
 type=Rectangle
 x=346
 y=270
@@ -3115,7 +3115,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[game_piece_player2]
+[com_290]
 type=Rectangle
 x=380
 y=270
@@ -3124,7 +3124,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[name_player2]
+[com_291]
 type=Rectangle
 x=414
 y=270
@@ -3133,7 +3133,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[turn]
+[com_292]
 type=Rectangle
 x=448
 y=270
@@ -3142,7 +3142,7 @@ height=2
 colour=0xFFFFFF
 fill=yes
 
-[name_turn]
+[boardgames_runesquares_v0_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3157,7 +3157,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v0
 
-[status3]
+[boardgames_runesquares_v1_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3172,7 +3172,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v1
 
-[status1]
+[boardgames_runesquares_v2_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3187,7 +3187,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v2
 
-[status2]
+[boardgames_runesquares_v3_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3202,7 +3202,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v3
 
-[sandtimer]
+[boardgames_runesquares_v4_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3217,7 +3217,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v4
 
-[draw_button]
+[boardgames_runesquares_v5_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3232,7 +3232,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v5
 
-[draw_build]
+[boardgames_runesquares_v6_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3247,7 +3247,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v6
 
-[draw_click]
+[boardgames_runesquares_v7_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3262,7 +3262,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v7
 
-[resign_button]
+[boardgames_runesquares_v8_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3277,7 +3277,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v8
 
-[resign_build]
+[boardgames_runesquares_v9_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3292,7 +3292,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v9
 
-[resign_click]
+[boardgames_runesquares_v10_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3307,7 +3307,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v10
 
-[com_304]
+[boardgames_runesquares_v11_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3322,7 +3322,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v11
 
-[com_305]
+[boardgames_runesquares_v12_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3337,7 +3337,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v12
 
-[com_306]
+[boardgames_runesquares_v13_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3352,7 +3352,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v13
 
-[com_307]
+[boardgames_runesquares_v14_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3367,7 +3367,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v14
 
-[com_308]
+[boardgames_runesquares_v15_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3382,7 +3382,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v15
 
-[com_309]
+[boardgames_runesquares_v16_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3397,7 +3397,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v16
 
-[com_310]
+[boardgames_runesquares_v17_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3412,7 +3412,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v17
 
-[com_311]
+[boardgames_runesquares_v18_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3427,7 +3427,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v18
 
-[com_312]
+[boardgames_runesquares_v19_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3442,7 +3442,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v19
 
-[com_313]
+[boardgames_runesquares_v20_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3457,7 +3457,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v20
 
-[com_314]
+[boardgames_runesquares_v21_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3472,7 +3472,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v21
 
-[com_315]
+[boardgames_runesquares_v22_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3487,7 +3487,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v22
 
-[com_316]
+[boardgames_runesquares_v23_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3502,7 +3502,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v23
 
-[com_317]
+[boardgames_runesquares_v24_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3517,7 +3517,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v24
 
-[com_318]
+[boardgames_runesquares_v25_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3532,7 +3532,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v25
 
-[com_319]
+[boardgames_runesquares_v26_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3547,7 +3547,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v26
 
-[com_320]
+[boardgames_runesquares_v27_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3562,7 +3562,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v27
 
-[com_321]
+[boardgames_runesquares_v28_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3577,7 +3577,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v28
 
-[com_322]
+[boardgames_runesquares_v29_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3592,7 +3592,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v29
 
-[com_323]
+[boardgames_runesquares_v30_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3607,7 +3607,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v30
 
-[com_324]
+[boardgames_runesquares_v31_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3622,7 +3622,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v31
 
-[com_325]
+[boardgames_runesquares_v32_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3637,7 +3637,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v32
 
-[com_326]
+[boardgames_runesquares_v33_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3652,7 +3652,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v33
 
-[com_327]
+[boardgames_runesquares_v34_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3667,7 +3667,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v34
 
-[com_328]
+[boardgames_runesquares_v35_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3682,7 +3682,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v35
 
-[com_329]
+[boardgames_runesquares_v36_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3697,7 +3697,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v36
 
-[com_330]
+[boardgames_runesquares_v37_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3712,7 +3712,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v37
 
-[com_331]
+[boardgames_runesquares_v38_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3727,7 +3727,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v38
 
-[com_332]
+[boardgames_runesquares_v39_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3742,7 +3742,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v39
 
-[com_333]
+[runeswithdraw_9]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3757,7 +3757,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v40
 
-[com_334]
+[boardgames_runesquares_v41_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3772,7 +3772,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v41
 
-[com_335]
+[boardgames_runesquares_v42_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3787,7 +3787,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v42
 
-[com_336]
+[boardgames_runesquares_v43_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3802,7 +3802,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v43
 
-[com_337]
+[boardgames_runesquares_v44_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3817,7 +3817,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v44
 
-[com_338]
+[boardgames_runesquares_v45_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3832,7 +3832,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v45
 
-[com_339]
+[boardgames_runesquares_v46_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3847,7 +3847,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v46
 
-[com_340]
+[boardgames_runesquares_v47_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3862,7 +3862,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v47
 
-[com_341]
+[boardgames_runesquares_v48_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3877,7 +3877,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v48
 
-[com_342]
+[boardgames_runesquares_v49_1]
 type=Rectangle
 buttonType=Button
 x=239
@@ -3892,7 +3892,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v49
 
-[com_343]
+[boardgames_runesquares_v50_1]
 type=Rectangle
 buttonType=Button
 x=273
@@ -3907,7 +3907,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v50
 
-[com_344]
+[boardgames_runesquares_v51_1]
 type=Rectangle
 buttonType=Button
 x=307
@@ -3922,7 +3922,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v51
 
-[com_345]
+[boardgames_runesquares_v52_1]
 type=Rectangle
 buttonType=Button
 x=341
@@ -3937,7 +3937,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v52
 
-[com_346]
+[boardgames_runesquares_v53_1]
 type=Rectangle
 buttonType=Button
 x=375
@@ -3952,7 +3952,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v53
 
-[com_347]
+[boardgames_runesquares_v54_1]
 type=Rectangle
 buttonType=Button
 x=409
@@ -3967,7 +3967,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v54
 
-[com_348]
+[boardgames_runesquares_v55_1]
 type=Rectangle
 buttonType=Button
 x=443
@@ -3982,7 +3982,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_v55
 
-[com_349]
+[boardgames_runesquares_h0_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -3997,7 +3997,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h0
 
-[com_350]
+[boardgames_runesquares_h1_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4012,7 +4012,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h1
 
-[com_351]
+[boardgames_runesquares_h2_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4027,7 +4027,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h2
 
-[com_352]
+[boardgames_runesquares_h3_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4042,7 +4042,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h3
 
-[com_353]
+[boardgames_runesquares_h4_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4057,7 +4057,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h4
 
-[com_354]
+[boardgames_runesquares_h5_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4072,7 +4072,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h5
 
-[com_355]
+[boardgames_runesquares_h6_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4087,7 +4087,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h6
 
-[com_356]
+[boardgames_runesquares_h7_1]
 type=Rectangle
 buttonType=Button
 x=456
@@ -4102,7 +4102,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h7
 
-[com_357]
+[boardgames_runesquares_h8_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -4117,7 +4117,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h8
 
-[com_358]
+[boardgames_runesquares_h9_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4132,7 +4132,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h9
 
-[com_359]
+[boardgames_runesquares_h10_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4147,7 +4147,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h10
 
-[com_360]
+[boardgames_runesquares_h11_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4162,7 +4162,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h11
 
-[com_361]
+[boardgames_runesquares_h12_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4177,7 +4177,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h12
 
-[com_362]
+[boardgames_runesquares_h13_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4192,7 +4192,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h13
 
-[com_363]
+[boardgames_runesquares_h14_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4207,7 +4207,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h14
 
-[com_364]
+[boardgames_runesquares_h15_1]
 type=Rectangle
 buttonType=Button
 x=456
@@ -4222,7 +4222,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h15
 
-[com_365]
+[boardgames_runesquares_h16_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -4237,7 +4237,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h16
 
-[com_366]
+[boardgames_runesquares_h17_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4252,7 +4252,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h17
 
-[com_367]
+[boardgames_runesquares_h18_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4267,7 +4267,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h18
 
-[com_368]
+[boardgames_runesquares_h19_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4282,7 +4282,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h19
 
-[com_369]
+[boardgames_runesquares_h20_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4297,7 +4297,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h20
 
-[com_370]
+[boardgames_runesquares_h21_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4312,7 +4312,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h21
 
-[com_371]
+[boardgames_runesquares_h22_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4327,7 +4327,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h22
 
-[com_372]
+[boardgames_runesquares_h23_1]
 type=Rectangle
 buttonType=Button
 x=456
@@ -4342,7 +4342,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h23
 
-[com_373]
+[boardgames_runesquares_h24_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -4357,7 +4357,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h24
 
-[com_374]
+[boardgames_runesquares_h25_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4372,7 +4372,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h25
 
-[com_375]
+[boardgames_runesquares_h26_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4387,7 +4387,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h26
 
-[com_376]
+[boardgames_runesquares_h27_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4402,7 +4402,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h27
 
-[com_377]
+[boardgames_runesquares_h28_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4417,7 +4417,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h28
 
-[com_378]
+[boardgames_runesquares_h29_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4432,7 +4432,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h29
 
-[com_379]
+[boardgames_runesquares_h30_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4447,7 +4447,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h30
 
-[com_380]
+[boardgames_runesquares_h31_1]
 type=Rectangle
 buttonType=Button
 x=456
@@ -4462,7 +4462,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h31
 
-[com_381]
+[boardgames_runesquares_h32_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -4477,7 +4477,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h32
 
-[com_382]
+[boardgames_runesquares_h33_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4492,7 +4492,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h33
 
-[com_383]
+[boardgames_runesquares_h34_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4507,7 +4507,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h34
 
-[com_384]
+[boardgames_runesquares_h35_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4522,7 +4522,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h35
 
-[com_385]
+[boardgames_runesquares_h36_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4537,7 +4537,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h36
 
-[com_386]
+[boardgames_runesquares_h37_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4552,7 +4552,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h37
 
-[com_387]
+[boardgames_runesquares_h38_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4567,7 +4567,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h38
 
-[com_388]
+[boardgames_runesquares_h39_1]
 type=Rectangle
 buttonType=Button
 x=456
@@ -4582,7 +4582,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h39
 
-[com_389]
+[boardgames_runesquares_h40_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -4597,7 +4597,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h40
 
-[com_390]
+[boardgames_runesquares_h41_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4612,7 +4612,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h41
 
-[com_391]
+[boardgames_runesquares_h42_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4627,7 +4627,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h42
 
-[com_392]
+[boardgames_runesquares_h43_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4642,7 +4642,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h43
 
-[com_393]
+[boardgames_runesquares_h44_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4657,7 +4657,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h44
 
-[com_394]
+[boardgames_runesquares_h45_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4672,7 +4672,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h45
 
-[com_395]
+[boardgames_runesquares_h46_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4687,7 +4687,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h46
 
-[com_396]
+[boardgames_runesquares_h47_1]
 type=Rectangle
 buttonType=Button
 x=456
@@ -4702,7 +4702,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h47
 
-[com_397]
+[boardgames_runesquares_h48_1]
 type=Rectangle
 buttonType=Button
 x=218
@@ -4717,7 +4717,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h48
 
-[com_398]
+[boardgames_runesquares_h49_1]
 type=Rectangle
 buttonType=Button
 x=252
@@ -4732,7 +4732,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h49
 
-[com_399]
+[boardgames_runesquares_h50_1]
 type=Rectangle
 buttonType=Button
 x=286
@@ -4747,7 +4747,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h50
 
-[com_400]
+[boardgames_runesquares_h51_1]
 type=Rectangle
 buttonType=Button
 x=320
@@ -4762,7 +4762,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h51
 
-[com_401]
+[boardgames_runesquares_h52_1]
 type=Rectangle
 buttonType=Button
 x=354
@@ -4777,7 +4777,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h52
 
-[com_402]
+[boardgames_runesquares_h53_1]
 type=Rectangle
 buttonType=Button
 x=388
@@ -4792,7 +4792,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h53
 
-[com_403]
+[boardgames_runesquares_h54_1]
 type=Rectangle
 buttonType=Button
 x=422
@@ -4807,7 +4807,7 @@ eventCode=flag22
 script1=gt,0
 script1op1=varbit,boardgames_runesquares_h54
 
-[com_404]
+[boardgames_runesquares_h55_1]
 type=Rectangle
 buttonType=Button
 x=456

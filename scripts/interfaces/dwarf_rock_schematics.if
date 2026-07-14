@@ -1,15 +1,15 @@
-[content_layer]
+[dwarf_rock_black_background]
 type=Rectangle
 width=512
 height=334
 fill=yes
 
-[bespoke_window]
+[dwarf_rock_paper1]
 type=Layer
 width=512
 height=334
 
-[dwarf_rock_paper1]
+[dwarf_rock_paper]
 type=Model
 x=242
 y=172
@@ -26,7 +26,7 @@ type=Layer
 width=512
 height=334
 
-[dwarf_rock_schematic2]
+[dwarf_rock_schematic_1]
 type=Model
 x=239
 y=171
@@ -38,12 +38,12 @@ modelZoom=345
 modelXAn=520
 modelYAn=6
 
-[dwarf_rock_schematic3]
+[dwarf_rock_schematic2]
 type=Layer
 width=512
 height=334
 
-[dwarf_rock_buttons]
+[dwarf_rock_schematic_2]
 type=Model
 x=236
 y=173
@@ -55,12 +55,12 @@ modelZoom=339
 modelXAn=521
 modelYAn=2043
 
-[dwarf_rock_border1]
+[dwarf_rock_schematic3]
 type=Layer
 width=512
 height=334
 
-[dwarf_rock_border2]
+[dwarf_rock_schematic_3]
 type=Model
 x=239
 y=174
@@ -72,19 +72,19 @@ modelZoom=332
 modelXAn=574
 modelYAn=2039
 
-[dwarf_rock_border3]
+[dwarf_rock_buttons]
 type=Layer
 x=445
 y=13
 width=66
 height=28
 
-[dwarf_rock_congrat_layer]
+[dwarf_rock_border1]
 type=Layer
 width=512
 height=334
 
-[dwarf_rock_paper]
+[dwarf_rock_border_1]
 type=Model
 x=239
 y=171
@@ -96,12 +96,12 @@ modelZoom=345
 modelXAn=520
 modelYAn=6
 
-[dwarf_rock_schematic_1]
+[dwarf_rock_border2]
 type=Layer
 width=512
 height=334
 
-[dwarf_rock_schematic_2]
+[dwarf_rock_border_2]
 type=Model
 x=236
 y=173
@@ -113,12 +113,12 @@ modelZoom=339
 modelXAn=521
 modelYAn=2043
 
-[dwarf_rock_schematic_3]
+[dwarf_rock_border3]
 type=Layer
 width=512
 height=334
 
-[dwarf_rock_border_1]
+[dwarf_rock_border_3]
 type=Model
 x=239
 y=174
@@ -130,14 +130,14 @@ modelZoom=332
 modelXAn=574
 modelYAn=2039
 
-[dwarf_rock_border_2]
+[dwarf_rock_congrat_layer]
 type=Layer
 y=46
 width=512
 height=27
 hide=yes
 
-[dwarf_rock_border_3]
+[dwarf_rock_congrat_text]
 type=Text
 width=512
 height=27
@@ -149,7 +149,7 @@ font=496
 shadow=yes
 text="That's it, it all makes sense now! If you were a dwarf, that is..."
 
-[dwarf_rock_congrat_text]
+[com_18]
 type=Sprite
 x=482
 y=4
@@ -158,7 +158,7 @@ height=23
 overLayerId=20
 graphic=539
 
-[bespoke_window_background]
+[dwarf_rock_close_button]
 type=Sprite
 buttonType=Close
 x=3
@@ -170,7 +170,7 @@ overLayerId=20
 graphic=540
 buttonText="Ok"
 
-[bespoke_window_content]
+[dwarf_rock_schematics_close_button]
 type=Layer
 x=479
 y=1

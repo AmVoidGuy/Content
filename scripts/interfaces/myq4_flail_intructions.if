@@ -1,4 +1,4 @@
-[background_model]
+[com_0]
 type=Rectangle
 y=1
 width=514
@@ -7,7 +7,7 @@ trans=160
 colour=0x46341D
 fill=yes
 
-[header]
+[background_model]
 type=Model
 x=44
 y=-20
@@ -19,7 +19,7 @@ modelXOf=-3
 modelYOf=36
 discardedModelField=0
 
-[myq4_flail_text_1]
+[header]
 type=Text
 x=145
 y=70
@@ -31,7 +31,7 @@ vAlign=Center
 font=645
 text="Ivandis Flail"
 
-[close_button]
+[myq4_flail_text_1]
 type=Text
 x=123
 y=99
@@ -41,7 +41,7 @@ colour=0x292715
 font=497
 text="Ivandis flail requires silvthril chain to connect blessed silver sickle to. However, to increase charges for the flail, need to add an emerald to the sickle before chain is attached. "
 
-[layer_1]
+[com_4]
 type=Text
 x=123
 y=194
@@ -52,7 +52,7 @@ font=497
 text="Find it difficult to make big hole for emerald to fit in sickle and am just frustrated. More effort to make this work is just crazy, why won't it just work??  "
 baseOpName=" "
 
-[com_5]
+[close_button]
 type=Sprite
 x=477
 y=12

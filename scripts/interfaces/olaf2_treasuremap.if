@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Rectangle
 x=1
 y=1
@@ -8,7 +8,7 @@ trans=64
 colour=0x3D352E
 fill=yes
 
-[mainmodal_window_background]
+[olaf2_treasuremap]
 type=Model
 x=229
 y=136
@@ -20,7 +20,7 @@ modelXAn=459
 modelYAn=2041
 discardedModelField=0
 
-[mainmodal_window_content]
+[olaf2_close]
 type=Sprite
 x=478
 y=6
@@ -31,7 +31,7 @@ onmouseover=44,16646146,538
 onmouseleave=44,16646146,537
 onclick=29
 
-[olaf2_treasuremap]
+[com_3]
 type=Layer
 x=475
 y=2

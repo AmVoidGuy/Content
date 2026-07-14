@@ -1,4 +1,4 @@
-[universe]
+[com_0]
 type=Rectangle
 x=-2
 y=-3
@@ -6,7 +6,7 @@ width=568
 height=369
 fill=yes
 
-[background]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[content]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[border]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[menu]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[left]
+[com_5]
 type=Sprite
 x=100
 y=80
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[armchairs]
+[com_6]
 type=Sprite
 x=100
 y=140
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[on_0]
+[com_7]
 type=Sprite
 x=100
 y=200
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[bookcases]
+[com_8]
 type=Sprite
 x=188
 y=20
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[beerbarrels]
+[com_9]
 type=Sprite
 x=100
 y=260
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[kitchentables]
+[com_10]
 type=Sprite
 x=188
 y=80
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[diningtables]
+[com_11]
 type=Sprite
 x=188
 y=140
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[diningbenches]
+[com_12]
 type=Sprite
 x=188
 y=200
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[beds]
+[com_13]
 type=Sprite
 x=188
 y=260
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[wardrobes]
+[com_14]
 type=Sprite
 x=276
 y=20
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[right]
+[com_15]
 type=Sprite
 x=364
 y=80
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[dressers]
+[com_16]
 type=Sprite
 x=276
 y=80
@@ -134,7 +134,7 @@ width=88
 height=60
 graphic=297
 
-[clocks]
+[com_17]
 type=Sprite
 x=276
 y=140
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[caperacks]
+[com_18]
 type=Sprite
 x=276
 y=200
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[magicwardrobes]
+[com_19]
 type=Sprite
 x=276
 y=260
@@ -158,7 +158,7 @@ width=88
 height=60
 graphic=297
 
-[armourcases]
+[com_20]
 type=Sprite
 x=364
 y=140
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[treasurechests]
+[com_21]
 type=Sprite
 x=364
 y=20
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[fancydressboxes]
+[com_22]
 type=Sprite
 x=364
 y=200
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[toyboxes]
+[com_23]
 type=Sprite
 x=364
 y=260
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[scrollbar]
+[com_24]
 type=Sprite
 x=412
 y=20
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[frame]
+[com_25]
 type=Sprite
 x=412
 y=80
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[title]
+[com_26]
 type=Sprite
 x=412
 y=140
@@ -222,7 +222,7 @@ width=88
 height=60
 graphic=297
 
-[close_button]
+[com_28]
 type=Sprite
 x=412
 y=260
@@ -246,7 +246,7 @@ width=36
 height=36
 graphic=172
 
-[on_1]
+[com_31]
 type=Sprite
 x=-3
 y=157
@@ -254,7 +254,7 @@ width=36
 height=36
 graphic=172
 
-[on_2]
+[com_32]
 type=Sprite
 x=-3
 y=193
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[on_3]
+[com_33]
 type=Sprite
 x=-3
 y=229
@@ -270,7 +270,7 @@ width=36
 height=36
 graphic=172
 
-[on_4]
+[com_34]
 type=Sprite
 x=-3
 y=265
@@ -278,7 +278,7 @@ width=36
 height=36
 graphic=172
 
-[on_5]
+[com_35]
 type=Sprite
 x=479
 y=50
@@ -286,7 +286,7 @@ width=36
 height=36
 graphic=315
 
-[on_6]
+[com_36]
 type=Sprite
 x=479
 y=86
@@ -294,7 +294,7 @@ width=36
 height=36
 graphic=315
 
-[on_7]
+[com_37]
 type=Sprite
 x=479
 y=122
@@ -302,7 +302,7 @@ width=36
 height=36
 graphic=315
 
-[on_8]
+[com_38]
 type=Sprite
 x=479
 y=158
@@ -310,7 +310,7 @@ width=36
 height=36
 graphic=315
 
-[on_9]
+[com_39]
 type=Sprite
 x=479
 y=194
@@ -318,7 +318,7 @@ width=36
 height=36
 graphic=315
 
-[on_10]
+[com_40]
 type=Sprite
 x=479
 y=230
@@ -326,7 +326,7 @@ width=36
 height=36
 graphic=315
 
-[on_11]
+[com_41]
 type=Sprite
 x=479
 y=266
@@ -334,7 +334,7 @@ width=36
 height=36
 graphic=315
 
-[on_12]
+[com_42]
 type=Sprite
 x=145
 y=299
@@ -342,7 +342,7 @@ width=36
 height=36
 graphic=173
 
-[on_13]
+[com_43]
 type=Sprite
 x=181
 y=299
@@ -350,7 +350,7 @@ width=36
 height=36
 graphic=173
 
-[on_14]
+[com_44]
 type=Sprite
 x=217
 y=299
@@ -358,7 +358,7 @@ width=36
 height=36
 graphic=173
 
-[on_15]
+[com_45]
 type=Sprite
 x=253
 y=299
@@ -366,7 +366,7 @@ width=36
 height=36
 graphic=173
 
-[over_0]
+[com_46]
 type=Sprite
 x=289
 y=299
@@ -374,7 +374,7 @@ width=36
 height=36
 graphic=173
 
-[over_1]
+[com_47]
 type=Sprite
 x=325
 y=299
@@ -382,7 +382,7 @@ width=36
 height=36
 graphic=173
 
-[over_2]
+[com_48]
 type=Sprite
 x=361
 y=299
@@ -390,7 +390,7 @@ width=36
 height=36
 graphic=173
 
-[over_3]
+[com_49]
 type=Sprite
 x=397
 y=299
@@ -398,7 +398,7 @@ width=36
 height=36
 graphic=173
 
-[over_4]
+[com_50]
 type=Sprite
 x=433
 y=299
@@ -406,7 +406,7 @@ width=36
 height=36
 graphic=173
 
-[over_5]
+[com_51]
 type=Sprite
 x=216
 y=5
@@ -414,7 +414,7 @@ width=36
 height=36
 graphic=314
 
-[over_6]
+[com_52]
 type=Sprite
 x=252
 y=5
@@ -422,7 +422,7 @@ width=36
 height=36
 graphic=314
 
-[over_7]
+[com_53]
 type=Sprite
 x=288
 y=5
@@ -430,7 +430,7 @@ width=36
 height=36
 graphic=314
 
-[over_8]
+[com_54]
 type=Sprite
 x=324
 y=5
@@ -438,7 +438,7 @@ width=36
 height=36
 graphic=314
 
-[over_9]
+[com_55]
 type=Sprite
 x=360
 y=5
@@ -446,7 +446,7 @@ width=36
 height=36
 graphic=314
 
-[over_10]
+[com_56]
 type=Sprite
 x=396
 y=5
@@ -454,7 +454,7 @@ width=36
 height=36
 graphic=314
 
-[over_11]
+[com_57]
 type=Sprite
 x=432
 y=5
@@ -462,7 +462,7 @@ width=36
 height=36
 graphic=314
 
-[over_12]
+[com_58]
 type=Sprite
 x=252
 y=34
@@ -470,7 +470,7 @@ width=36
 height=36
 graphic=314
 
-[over_13]
+[com_59]
 type=Sprite
 x=475
 y=20
@@ -478,7 +478,7 @@ width=25
 height=30
 graphic=311
 
-[over_14]
+[com_60]
 type=Sprite
 x=439
 y=5
@@ -486,7 +486,7 @@ width=36
 height=36
 graphic=314
 
-[over_15]
+[com_61]
 type=Sprite
 x=475
 y=290
@@ -494,7 +494,7 @@ width=25
 height=30
 graphic=313
 
-[hit_0]
+[com_62]
 type=Sprite
 x=439
 y=299
@@ -502,7 +502,7 @@ width=36
 height=36
 graphic=173
 
-[hit_1]
+[com_63]
 type=Sprite
 x=288
 y=34
@@ -510,7 +510,7 @@ width=36
 height=36
 graphic=314
 
-[hit_2]
+[com_64]
 type=Sprite
 x=324
 y=34
@@ -518,7 +518,7 @@ width=36
 height=36
 graphic=314
 
-[hit_3]
+[com_65]
 type=Sprite
 x=360
 y=34
@@ -526,7 +526,7 @@ width=36
 height=36
 graphic=314
 
-[hit_4]
+[com_66]
 type=Sprite
 x=396
 y=34
@@ -534,7 +534,7 @@ width=36
 height=36
 graphic=314
 
-[hit_5]
+[com_67]
 type=Sprite
 x=432
 y=34
@@ -542,7 +542,7 @@ width=36
 height=36
 graphic=314
 
-[hit_6]
+[com_68]
 type=Sprite
 x=459
 y=34
@@ -550,7 +550,7 @@ width=36
 height=36
 graphic=314
 
-[hit_7]
+[com_69]
 type=Sprite
 x=216
 y=34
@@ -558,7 +558,7 @@ width=36
 height=36
 graphic=314
 
-[hit_8]
+[poh_furnituremenu]
 type=Layer
 x=32
 y=80
@@ -566,7 +566,7 @@ width=250
 height=222
 scrollHeight=981
 
-[hit_9]
+[com_71]
 type=Model
 buttonType=Button
 x=10
@@ -580,7 +580,7 @@ modelXAn=202
 modelYAn=385
 eventCode=flag22
 
-[hit_10]
+[com_72]
 type=Model
 buttonType=Button
 x=11
@@ -594,7 +594,7 @@ modelXAn=79
 modelYAn=1841
 eventCode=flag22
 
-[hit_11]
+[com_73]
 type=Model
 buttonType=Button
 x=6
@@ -608,7 +608,7 @@ modelXAn=174
 modelYAn=1852
 eventCode=flag22
 
-[hit_12]
+[com_74]
 type=Model
 buttonType=Button
 x=22
@@ -622,7 +622,7 @@ modelXAn=117
 modelYAn=1123
 eventCode=flag22
 
-[hit_13]
+[com_75]
 type=Model
 buttonType=Button
 x=23
@@ -636,7 +636,7 @@ modelXAn=106
 modelYAn=714
 eventCode=flag22
 
-[hit_14]
+[com_76]
 type=Model
 buttonType=Button
 x=17
@@ -650,7 +650,7 @@ modelXAn=152
 modelYAn=1827
 eventCode=flag22
 
-[hit_15]
+[com_77]
 type=Model
 buttonType=Button
 x=19

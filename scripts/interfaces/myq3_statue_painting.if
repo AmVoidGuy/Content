@@ -1,16 +1,16 @@
-[myq3_painting]
+[com_0]
 type=Rectangle
 width=550
 height=400
 trans=150
 fill=yes
 
-[bespoke_window]
+[myq3_painting]
 type=Layer
 width=550
 height=400
 
-[com_2]
+[myq3_frame]
 type=Model
 x=256
 y=367
@@ -21,7 +21,7 @@ model1Id=18143
 modelZoom=256
 modelYAn=507
 
-[myq3_frame]
+[myq3_statue]
 type=Model
 x=255
 y=290
@@ -31,7 +31,7 @@ layerId=29622273
 model1Id=17616
 modelZoom=455
 
-[myq3_statue]
+[myq3_painting_key]
 type=Model
 x=255
 y=290
@@ -42,7 +42,7 @@ trans=255
 model1Id=17642
 modelZoom=455
 
-[myq3_painting_key]
+[com_5]
 type=Sprite
 x=481
 y=8
@@ -51,7 +51,7 @@ height=23
 overLayerId=7
 graphic=539
 
-[bespoke_window_background]
+[com_6]
 type=Sprite
 buttonType=Close
 x=2
@@ -63,7 +63,7 @@ overLayerId=7
 graphic=540
 buttonText="Ok"
 
-[bespoke_window_content]
+[myq3_statue_painting_close_button]
 type=Layer
 x=479
 y=4

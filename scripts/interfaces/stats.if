@@ -1,4 +1,4 @@
-[main_layer]
+[com_0]
 type=Rectangle
 x=3
 y=17
@@ -6,7 +6,7 @@ width=184
 height=231
 colour=0x726451
 
-[background_layer]
+[com_1]
 type=Rectangle
 x=4
 y=18
@@ -14,7 +14,7 @@ width=182
 height=229
 colour=0x726451
 
-[content_layer]
+[com_2]
 type=Rectangle
 x=4
 y=18
@@ -22,7 +22,7 @@ width=183
 height=230
 colour=0x2E2B23
 
-[list]
+[com_3]
 type=Rectangle
 x=5
 y=19
@@ -30,7 +30,7 @@ width=180
 height=227
 fill=yes
 
-[background]
+[skilltotal]
 type=Text
 x=3
 y=2
@@ -42,14 +42,14 @@ font=496
 shadow=yes
 onstattransmit=544,component.parentId
 
-[icon]
+[com_5]
 type=Sprite
 width=36
 height=36
 layerId=20971669
 graphic=174
 
-[stat]
+[com_6]
 type=Sprite
 x=22
 width=36
@@ -57,7 +57,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[stat_base]
+[com_7]
 type=Sprite
 x=54
 width=36
@@ -66,7 +66,7 @@ layerId=20971669
 graphic=174
 baseOpName="  "
 
-[vanityicon]
+[com_8]
 type=Sprite
 x=76
 width=36
@@ -74,7 +74,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[button]
+[com_9]
 type=Sprite
 x=108
 width=36
@@ -82,7 +82,7 @@ height=36
 layerId=20971669
 graphic=174
 
-[scrollbar]
+[com_10]
 type=Sprite
 x=131
 width=36
@@ -90,7 +90,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[fixed_area]
+[com_11]
 type=Sprite
 y=32
 width=36
@@ -98,7 +98,7 @@ height=36
 layerId=20971669
 graphic=174
 
-[skills_line]
+[com_12]
 type=Sprite
 x=22
 y=32
@@ -107,7 +107,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[skilltotal]
+[com_13]
 type=Sprite
 x=54
 y=32
@@ -116,7 +116,7 @@ height=36
 layerId=20971669
 graphic=174
 
-[combat_level]
+[com_14]
 type=Sprite
 x=76
 y=32
@@ -125,7 +125,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[qp_layer]
+[com_15]
 type=Sprite
 x=108
 y=32
@@ -134,7 +134,7 @@ height=36
 layerId=20971669
 graphic=174
 
-[tooltip]
+[com_16]
 type=Sprite
 x=131
 y=32
@@ -143,7 +143,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[frame_layer]
+[com_17]
 type=Sprite
 y=64
 width=36
@@ -461,7 +461,7 @@ height=36
 layerId=20971669
 graphic=175
 
-[com_53]
+[lvl_icon_attack]
 type=Sprite
 x=3
 y=4
@@ -473,7 +473,7 @@ baseOpName="  "
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_54]
+[lvl_icon_hitpoints]
 type=Sprite
 x=57
 y=6
@@ -484,7 +484,7 @@ graphic=203
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_55]
+[lvl_icon_mining]
 type=Sprite
 x=113
 y=3
@@ -495,7 +495,7 @@ graphic=209
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_56]
+[lvl_icon_strength]
 type=Sprite
 x=3
 y=37
@@ -507,7 +507,7 @@ baseOpName=" "
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_57]
+[lvl_icon_agility]
 type=Sprite
 x=59
 y=36
@@ -518,7 +518,7 @@ graphic=204
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_58]
+[lvl_icon_smithing]
 type=Sprite
 x=112
 y=36
@@ -529,7 +529,7 @@ graphic=210
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_59]
+[lvl_icon_defence]
 type=Sprite
 x=3
 y=70
@@ -540,7 +540,7 @@ graphic=199
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_60]
+[lvl_icon_herblore]
 type=Sprite
 x=58
 y=71
@@ -551,7 +551,7 @@ graphic=205
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_61]
+[lvl_icon_fishing]
 type=Sprite
 x=114
 y=69
@@ -562,7 +562,7 @@ graphic=211
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_62]
+[lvl_icon_ranged]
 type=Sprite
 x=3
 y=102
@@ -573,7 +573,7 @@ graphic=200
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_63]
+[lvl_icon_thieving]
 type=Sprite
 x=58
 y=101
@@ -584,7 +584,7 @@ graphic=206
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_64]
+[lvl_icon_cooking]
 type=Sprite
 x=111
 y=101
@@ -595,7 +595,7 @@ graphic=212
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_65]
+[lvl_icon_prayer]
 type=Sprite
 x=3
 y=135
@@ -606,7 +606,7 @@ graphic=201
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_66]
+[lvl_icon_crafting]
 type=Sprite
 x=57
 y=133
@@ -617,7 +617,7 @@ graphic=207
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_67]
+[lvl_icon_firemaking]
 type=Sprite
 x=112
 y=132
@@ -628,7 +628,7 @@ graphic=213
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_68]
+[lvl_icon_magic]
 type=Sprite
 x=3
 y=165
@@ -640,7 +640,7 @@ baseOpName="lvl"
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_69]
+[lvl_icon_fletching]
 type=Sprite
 x=58
 y=164
@@ -651,7 +651,7 @@ graphic=208
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_70]
+[lvl_icon_woodcutting]
 type=Sprite
 x=111
 y=165
@@ -662,7 +662,7 @@ graphic=214
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_71]
+[lvl_icon_runecraft]
 type=Sprite
 x=4
 y=198
@@ -673,7 +673,7 @@ graphic=215
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_72]
+[lvl_icon_farming]
 type=Sprite
 x=112
 y=197
@@ -684,7 +684,7 @@ graphic=217
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_73]
+[lvl_icon_construction]
 type=Sprite
 x=4
 y=227
@@ -695,7 +695,7 @@ graphic=221
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_74]
+[lvl_icon_hunter]
 type=Sprite
 x=57
 y=230
@@ -717,7 +717,7 @@ graphic=222
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_76]
+[lvl_icon_slayer]
 type=Sprite
 x=57
 y=197
@@ -728,7 +728,7 @@ graphic=216
 onvartransmit=968,component.parentId
 onvartransmitlist=1179
 
-[com_77]
+[stat_attack]
 type=Text
 x=27
 y=4
@@ -742,7 +742,7 @@ shadow=yes
 onstattransmit=525,component.parentId,0
 onstattransmitlist=0
 
-[com_78]
+[statbase_attack]
 type=Text
 x=36
 y=21
@@ -756,7 +756,7 @@ shadow=yes
 onstattransmit=532,component.parentId,0
 onstattransmitlist=0
 
-[com_79]
+[stat_strength]
 type=Text
 x=27
 y=36
@@ -770,7 +770,7 @@ shadow=yes
 onstattransmit=525,component.parentId,2
 onstattransmitlist=2
 
-[com_80]
+[statbase_strength]
 type=Text
 x=37
 y=52
@@ -784,7 +784,7 @@ shadow=yes
 onstattransmit=532,component.parentId,2
 onstattransmitlist=2
 
-[com_81]
+[stat_defence]
 type=Text
 x=27
 y=68
@@ -798,7 +798,7 @@ shadow=yes
 onstattransmit=525,component.parentId,1
 onstattransmitlist=1
 
-[com_82]
+[statbase_defence]
 type=Text
 x=37
 y=84
@@ -812,7 +812,7 @@ shadow=yes
 onstattransmit=532,component.parentId,1
 onstattransmitlist=1
 
-[com_83]
+[stat_ranged]
 type=Text
 x=27
 y=100
@@ -826,7 +826,7 @@ shadow=yes
 onstattransmit=525,component.parentId,4
 onstattransmitlist=4
 
-[com_84]
+[statbase_ranged]
 type=Text
 x=37
 y=116
@@ -840,7 +840,7 @@ shadow=yes
 onstattransmit=532,component.parentId,4
 onstattransmitlist=4
 
-[com_85]
+[stat_prayer]
 type=Text
 x=27
 y=132
@@ -854,7 +854,7 @@ shadow=yes
 onstattransmit=525,component.parentId,5
 onstattransmitlist=5
 
-[com_86]
+[statbase_prayer]
 type=Text
 x=37
 y=148
@@ -868,7 +868,7 @@ shadow=yes
 onstattransmit=532,component.parentId,5
 onstattransmitlist=5
 
-[com_87]
+[stat_magic]
 type=Text
 x=27
 y=164
@@ -882,7 +882,7 @@ shadow=yes
 onstattransmit=525,component.parentId,6
 onstattransmitlist=6
 
-[com_88]
+[statbase_magic]
 type=Text
 x=37
 y=180
@@ -896,7 +896,7 @@ shadow=yes
 onstattransmit=532,component.parentId,6
 onstattransmitlist=6
 
-[com_89]
+[stat_runecraft]
 type=Text
 x=27
 y=196
@@ -910,7 +910,7 @@ shadow=yes
 onstattransmit=525,component.parentId,20
 onstattransmitlist=20
 
-[com_90]
+[statbase_runecraft]
 type=Text
 x=37
 y=212
@@ -924,7 +924,7 @@ shadow=yes
 onstattransmit=532,component.parentId,20
 onstattransmitlist=20
 
-[com_91]
+[stat_construction]
 type=Text
 x=27
 y=228
@@ -938,7 +938,7 @@ shadow=yes
 onstattransmit=525,component.parentId,22
 onstattransmitlist=22
 
-[com_92]
+[statbase_construction]
 type=Text
 x=37
 y=244
@@ -952,7 +952,7 @@ shadow=yes
 onstattransmit=532,component.parentId,22
 onstattransmitlist=22
 
-[com_93]
+[stat_hitpoints]
 type=Text
 x=81
 y=4
@@ -966,7 +966,7 @@ shadow=yes
 onstattransmit=525,component.parentId,3
 onstattransmitlist=3
 
-[com_94]
+[statbase_hitpoints]
 type=Text
 x=90
 y=21
@@ -980,7 +980,7 @@ shadow=yes
 onstattransmit=532,component.parentId,3
 onstattransmitlist=3
 
-[com_95]
+[stat_agility]
 type=Text
 x=81
 y=36
@@ -994,7 +994,7 @@ shadow=yes
 onstattransmit=525,component.parentId,16
 onstattransmitlist=16
 
-[com_96]
+[statbase_agility]
 type=Text
 x=90
 y=53
@@ -1008,7 +1008,7 @@ shadow=yes
 onstattransmit=532,component.parentId,16
 onstattransmitlist=16
 
-[com_97]
+[stat_herblore]
 type=Text
 x=81
 y=68
@@ -1022,7 +1022,7 @@ shadow=yes
 onstattransmit=525,component.parentId,15
 onstattransmitlist=15
 
-[com_98]
+[statbase_herblore]
 type=Text
 x=90
 y=85
@@ -1036,7 +1036,7 @@ shadow=yes
 onstattransmit=532,component.parentId,15
 onstattransmitlist=15
 
-[com_99]
+[stat_thieving]
 type=Text
 x=81
 y=100
@@ -1050,7 +1050,7 @@ shadow=yes
 onstattransmit=525,component.parentId,17
 onstattransmitlist=17
 
-[com_100]
+[statbase_thieving]
 type=Text
 x=90
 y=117
@@ -1064,7 +1064,7 @@ shadow=yes
 onstattransmit=532,component.parentId,17
 onstattransmitlist=17
 
-[com_101]
+[stat_crafting]
 type=Text
 x=81
 y=132
@@ -1078,7 +1078,7 @@ shadow=yes
 onstattransmit=525,component.parentId,12
 onstattransmitlist=12
 
-[com_102]
+[statbase_crafting]
 type=Text
 x=90
 y=149
@@ -1092,7 +1092,7 @@ shadow=yes
 onstattransmit=532,component.parentId,12
 onstattransmitlist=12
 
-[com_103]
+[stat_fletching]
 type=Text
 x=81
 y=164
@@ -1106,7 +1106,7 @@ shadow=yes
 onstattransmit=525,component.parentId,9
 onstattransmitlist=9
 
-[com_104]
+[statbase_fletching]
 type=Text
 x=90
 y=181
@@ -1120,7 +1120,7 @@ shadow=yes
 onstattransmit=532,component.parentId,9
 onstattransmitlist=9
 
-[com_105]
+[stat_slayer]
 type=Text
 x=81
 y=196
@@ -1134,7 +1134,7 @@ shadow=yes
 onstattransmit=525,component.parentId,18
 onstattransmitlist=18
 
-[com_106]
+[statbase_slayer]
 type=Text
 x=90
 y=213
@@ -1149,7 +1149,7 @@ baseOpName="m"
 onstattransmit=532,component.parentId,18
 onstattransmitlist=18
 
-[com_107]
+[stat_hunter]
 type=Text
 x=81
 y=228
@@ -1163,7 +1163,7 @@ shadow=yes
 onstattransmit=525,component.parentId,21
 onstattransmitlist=21
 
-[com_108]
+[statbase_hunter]
 type=Text
 x=90
 y=245
@@ -1177,7 +1177,7 @@ shadow=yes
 onstattransmit=532,component.parentId,21
 onstattransmitlist=21
 
-[com_109]
+[stat_mining]
 type=Text
 x=136
 y=4
@@ -1191,7 +1191,7 @@ shadow=yes
 onstattransmit=525,component.parentId,14
 onstattransmitlist=14
 
-[com_110]
+[statbase_mining]
 type=Text
 x=145
 y=21
@@ -1205,7 +1205,7 @@ shadow=yes
 onstattransmit=532,component.parentId,14
 onstattransmitlist=14
 
-[com_111]
+[stat_smithing]
 type=Text
 x=136
 y=36
@@ -1219,7 +1219,7 @@ shadow=yes
 onstattransmit=525,component.parentId,13
 onstattransmitlist=13
 
-[com_112]
+[statbase_smithing]
 type=Text
 x=145
 y=53
@@ -1233,7 +1233,7 @@ shadow=yes
 onstattransmit=532,component.parentId,13
 onstattransmitlist=13
 
-[com_113]
+[stat_fishing]
 type=Text
 x=136
 y=68
@@ -1247,7 +1247,7 @@ shadow=yes
 onstattransmit=525,component.parentId,10
 onstattransmitlist=10
 
-[com_114]
+[statbase_fishing]
 type=Text
 x=145
 y=85
@@ -1261,7 +1261,7 @@ shadow=yes
 onstattransmit=532,component.parentId,10
 onstattransmitlist=10
 
-[com_115]
+[stat_cooking]
 type=Text
 x=136
 y=100
@@ -1275,7 +1275,7 @@ shadow=yes
 onstattransmit=525,component.parentId,7
 onstattransmitlist=7
 
-[com_116]
+[statbase_cooking]
 type=Text
 x=145
 y=117
@@ -1289,7 +1289,7 @@ shadow=yes
 onstattransmit=532,component.parentId,7
 onstattransmitlist=7
 
-[com_117]
+[stat_firemaking]
 type=Text
 x=136
 y=132
@@ -1303,7 +1303,7 @@ shadow=yes
 onstattransmit=525,component.parentId,11
 onstattransmitlist=11
 
-[com_118]
+[statbase_firemaking]
 type=Text
 x=146
 y=149
@@ -1317,7 +1317,7 @@ shadow=yes
 onstattransmit=532,component.parentId,11
 onstattransmitlist=11
 
-[com_119]
+[stat_woodcutting]
 type=Text
 x=136
 y=164
@@ -1331,7 +1331,7 @@ shadow=yes
 onstattransmit=525,component.parentId,8
 onstattransmitlist=8
 
-[com_120]
+[statbase_woodcutting]
 type=Text
 x=145
 y=181
@@ -1345,7 +1345,7 @@ shadow=yes
 onstattransmit=532,component.parentId,8
 onstattransmitlist=8
 
-[com_121]
+[stat_farming]
 type=Text
 x=136
 y=196
@@ -1359,7 +1359,7 @@ shadow=yes
 onstattransmit=525,component.parentId,19
 onstattransmitlist=19
 
-[com_122]
+[statbase_farming]
 type=Text
 x=145
 y=213
@@ -1401,7 +1401,7 @@ shadow=yes
 onstattransmit=532,component.parentId,23
 onstattransmitlist=23
 
-[com_125]
+[attack_button]
 type=Text
 x=2
 y=2
@@ -1416,7 +1416,7 @@ opName0="View"
 onmouseover=545,component.parentId,0,20971671
 onmouseleave=546,20971671
 
-[com_126]
+[strength_button]
 type=Text
 x=2
 y=34
@@ -1430,7 +1430,7 @@ opName0="View"
 onmouseover=545,component.parentId,2,20971671
 onmouseleave=546,20971671
 
-[com_127]
+[defence_button]
 type=Text
 x=2
 y=66
@@ -1444,7 +1444,7 @@ opName0="View"
 onmouseover=545,component.parentId,1,20971671
 onmouseleave=546,20971671
 
-[com_128]
+[ranged_button]
 type=Text
 x=2
 y=98
@@ -1458,7 +1458,7 @@ opName0="View"
 onmouseover=545,component.parentId,4,20971671
 onmouseleave=546,20971671
 
-[com_129]
+[prayer_button]
 type=Text
 x=2
 y=130
@@ -1472,7 +1472,7 @@ opName0="View"
 onmouseover=545,component.parentId,5,20971671
 onmouseleave=546,20971671
 
-[com_130]
+[magic_button]
 type=Text
 x=2
 y=162
@@ -1486,7 +1486,7 @@ opName0="View"
 onmouseover=545,component.parentId,6,20971671
 onmouseleave=546,20971671
 
-[com_131]
+[runecraft_button]
 type=Text
 x=2
 y=194
@@ -1500,7 +1500,7 @@ opName0="View"
 onmouseover=545,component.parentId,20,20971671
 onmouseleave=546,20971671
 
-[com_132]
+[construction_button]
 type=Text
 x=2
 y=226
@@ -1514,7 +1514,7 @@ opName0="View"
 onmouseover=545,component.parentId,22,20971671
 onmouseleave=546,20971671
 
-[com_133]
+[hitpoints_button]
 type=Text
 x=56
 y=2
@@ -1528,7 +1528,7 @@ opName0="View"
 onmouseover=545,component.parentId,3,20971671
 onmouseleave=546,20971671
 
-[com_134]
+[agility_button]
 type=Text
 x=56
 y=34
@@ -1542,7 +1542,7 @@ opName0="View"
 onmouseover=545,component.parentId,16,20971671
 onmouseleave=546,20971671
 
-[com_135]
+[herblore_button]
 type=Text
 x=56
 y=66
@@ -1556,7 +1556,7 @@ opName0="View"
 onmouseover=545,component.parentId,15,20971671
 onmouseleave=546,20971671
 
-[com_136]
+[thieving_button]
 type=Text
 x=56
 y=98
@@ -1570,7 +1570,7 @@ opName0="View"
 onmouseover=545,component.parentId,17,20971671
 onmouseleave=546,20971671
 
-[com_137]
+[crafting_button]
 type=Text
 x=56
 y=130
@@ -1584,7 +1584,7 @@ opName0="View"
 onmouseover=545,component.parentId,12,20971671
 onmouseleave=546,20971671
 
-[com_138]
+[fletching_button]
 type=Text
 x=56
 y=162
@@ -1598,7 +1598,7 @@ opName0="View"
 onmouseover=545,component.parentId,9,20971671
 onmouseleave=546,20971671
 
-[com_139]
+[slayer_button]
 type=Text
 x=56
 y=194
@@ -1612,7 +1612,7 @@ opName0="View"
 onmouseover=545,component.parentId,18,20971671
 onmouseleave=546,20971671
 
-[com_140]
+[hunter_button]
 type=Text
 x=54
 y=226
@@ -1626,7 +1626,7 @@ opName0="View"
 onmouseover=545,component.parentId,21,20971671
 onmouseleave=546,20971671
 
-[com_141]
+[mining_button]
 type=Text
 x=110
 y=2
@@ -1640,7 +1640,7 @@ opName0="View"
 onmouseover=545,component.parentId,14,20971671
 onmouseleave=546,20971671
 
-[com_142]
+[smithing_button]
 type=Text
 x=110
 y=34
@@ -1654,7 +1654,7 @@ opName0="View"
 onmouseover=545,component.parentId,13,20971671
 onmouseleave=546,20971671
 
-[com_143]
+[fishing_button]
 type=Text
 x=110
 y=66
@@ -1668,7 +1668,7 @@ opName0="View"
 onmouseover=545,component.parentId,10,20971671
 onmouseleave=546,20971671
 
-[com_144]
+[cooking_button]
 type=Text
 x=110
 y=98
@@ -1682,7 +1682,7 @@ opName0="View"
 onmouseover=545,component.parentId,7,20971671
 onmouseleave=546,20971671
 
-[com_145]
+[firemaking_button]
 type=Text
 x=110
 y=130
@@ -1696,7 +1696,7 @@ opName0="View"
 onmouseover=545,component.parentId,11,20971671
 onmouseleave=546,20971671
 
-[com_146]
+[woodcutting_button]
 type=Text
 x=110
 y=162
@@ -1710,7 +1710,7 @@ opName0="View"
 onmouseover=545,component.parentId,8,20971671
 onmouseleave=546,20971671
 
-[com_147]
+[farming_button]
 type=Text
 x=110
 y=194
@@ -1738,7 +1738,7 @@ opName0="View"
 onmouseover=545,component.parentId,23,20971671
 onmouseleave=546,20971671
 
-[com_149]
+[scrolled_layer]
 type=Layer
 x=3
 y=19
@@ -1747,7 +1747,7 @@ height=227
 scrollHeight=260
 baseOpName="  "
 
-[com_150]
+[scroller]
 type=Layer
 x=169
 y=19
@@ -1756,7 +1756,7 @@ height=227
 baseOpName="  "
 onload=825,component.parentId,20971669,792,789,790,791,773,788
 
-[com_151]
+[tips]
 type=Layer
 y=19
 width=190

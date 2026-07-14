@@ -1,4 +1,4 @@
-[monster_armour]
+[tut2_title]
 type=Text
 x=64
 y=27
@@ -10,7 +10,7 @@ font=497
 shadow=yes
 text="Monster name"
 
-[monster_affinity_weakness]
+[tut2_a]
 type=Text
 x=14
 y=92
@@ -22,7 +22,7 @@ font=497
 shadow=yes
 text="Line1"
 
-[monster_hitchance]
+[tut2_b]
 type=Text
 x=14
 y=132
@@ -34,7 +34,7 @@ font=497
 shadow=yes
 text="Line2"
 
-[player_hitchance]
+[tut2_c]
 type=Text
 x=14
 y=172
@@ -46,7 +46,7 @@ font=497
 shadow=yes
 text="Line3"
 
-[monster_hitpoints]
+[tut2_d]
 type=Text
 x=14
 y=210
@@ -58,7 +58,7 @@ font=497
 shadow=yes
 text="Line4"
 
-[monster_attack_level]
+[monster_stat_icon]
 type=Sprite
 x=14
 y=20
@@ -66,7 +66,7 @@ width=50
 height=50
 graphic=838
 
-[monster_defence_level]
+[moster_stat_close]
 type=Sprite
 x=165
 y=11
@@ -79,7 +79,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onclick=29
 
-[monster_magic_level]
+[com_7]
 type=Layer
 x=160
 y=3

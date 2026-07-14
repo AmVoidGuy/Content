@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Model
 x=239
 y=155
@@ -7,7 +7,7 @@ height=32
 model1Id=3044
 modelZoom=525
 
-[com_1]
+[mm_mstitle]
 type=Text
 x=82
 y=82
@@ -18,7 +18,7 @@ hAlign=Center
 font=497
 shadow=yes
 
-[mm_mstitle]
+[mm_ms1]
 type=Text
 x=82
 y=98
@@ -28,7 +28,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms1]
+[mm_ms2]
 type=Text
 x=82
 y=114
@@ -38,7 +38,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms2]
+[mm_ms3]
 type=Text
 x=82
 y=131
@@ -48,7 +48,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms3]
+[mm_ms4]
 type=Text
 x=82
 y=148
@@ -58,7 +58,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms4]
+[mm_ms5]
 type=Text
 x=82
 y=165
@@ -68,7 +68,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms5]
+[mm_ms6]
 type=Text
 x=82
 y=182
@@ -78,7 +78,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms6]
+[mm_ms7]
 type=Text
 x=82
 y=199
@@ -88,7 +88,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms7]
+[mm_ms8]
 type=Text
 x=82
 y=216
@@ -98,7 +98,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms8]
+[mm_ms9]
 type=Text
 x=82
 y=233
@@ -108,7 +108,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms9]
+[mm_ms10]
 type=Text
 x=82
 y=250
@@ -118,7 +118,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms10]
+[mm_ms11]
 type=Text
 x=82
 y=267
@@ -128,7 +128,7 @@ colour=0xCCCCCC
 hAlign=Center
 font=497
 
-[mm_ms11]
+[com_13]
 type=Sprite
 x=444
 y=54
@@ -137,7 +137,7 @@ height=23
 overLayerId=15
 graphic=537
 
-[mm_close]
+[mm_upright]
 type=Sprite
 buttonType=Close
 x=3

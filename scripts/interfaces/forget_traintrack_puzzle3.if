@@ -453,7 +453,7 @@ modelXAn=350
 script1=eq,1
 script1op1=varbit,forget_if18
 
-[3track_rr]
+[dragtimeoutstation]
 type=Model
 x=248
 y=130
@@ -512,7 +512,7 @@ model1Id=8636
 modelZoom=1200
 modelXAn=350
 
-[3switch_a]
+[com_40]
 type=Layer
 x=83
 y=123
@@ -520,7 +520,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_b]
+[3switch_a]
 type=Model
 x=168
 y=10
@@ -534,7 +534,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if1
 
-[3switch_c]
+[com_42]
 type=Layer
 x=129
 y=89
@@ -542,7 +542,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_d]
+[3switch_b]
 type=Model
 x=121
 y=43
@@ -556,7 +556,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if2
 
-[3switch_e]
+[com_44]
 type=Layer
 x=120
 y=162
@@ -564,7 +564,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_f]
+[3switch_c]
 type=Model
 x=131
 y=-32
@@ -578,7 +578,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if3
 
-[3switch_g]
+[com_46]
 type=Layer
 x=171
 y=56
@@ -586,7 +586,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_h]
+[3switch_d]
 type=Model
 x=79
 y=74
@@ -600,7 +600,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if4
 
-[3switch_i]
+[com_48]
 type=Layer
 x=165
 y=165
@@ -608,7 +608,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_j]
+[3switch_e]
 type=Model
 x=83
 y=-35
@@ -622,7 +622,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if5
 
-[3switch_k]
+[com_50]
 type=Layer
 x=211
 y=59
@@ -630,7 +630,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_l]
+[3switch_f]
 type=Model
 x=37
 y=73
@@ -644,7 +644,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if6
 
-[3switch_m]
+[com_52]
 type=Layer
 x=202
 y=201
@@ -652,7 +652,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_n]
+[3switch_g]
 type=Model
 x=46
 y=-71
@@ -666,7 +666,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if7
 
-[3switch_o]
+[com_54]
 type=Layer
 x=248
 y=30
@@ -674,7 +674,7 @@ width=32
 height=32
 hide=yes
 
-[3switch_p]
+[3switch_h]
 type=Model
 y=104
 width=32
@@ -687,7 +687,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if8
 
-[3switch_q]
+[com_56]
 type=Layer
 x=248
 y=136
@@ -695,7 +695,7 @@ width=32
 height=61
 hide=yes
 
-[3switch_r]
+[3switch_i]
 type=Model
 width=32
 height=32
@@ -707,7 +707,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if9
 
-[3switch_s]
+[com_58]
 type=Layer
 x=248
 y=135
@@ -715,7 +715,7 @@ width=32
 height=103
 hide=yes
 
-[3button_alr]
+[3switch_j]
 type=Model
 width=32
 height=32
@@ -727,7 +727,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if10
 
-[3button_blr]
+[com_60]
 type=Layer
 x=247
 y=61
@@ -735,7 +735,7 @@ width=71
 height=32
 hide=yes
 
-[3button_clr]
+[3switch_k]
 type=Model
 y=73
 width=32
@@ -748,7 +748,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if11
 
-[3button_dlr]
+[com_62]
 type=Layer
 x=247
 y=125
@@ -756,7 +756,7 @@ width=70
 height=32
 hide=yes
 
-[3button_elr]
+[3switch_l]
 type=Model
 y=8
 width=32
@@ -769,7 +769,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if12
 
-[3button_flr]
+[com_64]
 type=Layer
 x=247
 y=133
@@ -777,7 +777,7 @@ width=76
 height=103
 hide=yes
 
-[3button_glr]
+[3switch_m]
 type=Model
 width=32
 height=32
@@ -789,7 +789,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if13
 
-[3button_hlr]
+[com_66]
 type=Layer
 x=247
 y=31
@@ -797,7 +797,7 @@ width=105
 height=32
 hide=yes
 
-[3button_ilr]
+[3switch_n]
 type=Model
 y=106
 width=32
@@ -810,7 +810,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if14
 
-[3button_jlr]
+[com_68]
 type=Layer
 x=246
 y=89
@@ -818,7 +818,7 @@ width=112
 height=32
 hide=yes
 
-[3button_klr]
+[3switch_o]
 type=Model
 y=43
 width=32
@@ -831,7 +831,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if15
 
-[3button_llr]
+[com_70]
 type=Layer
 x=347
 y=230
@@ -839,7 +839,7 @@ width=32
 height=50
 hide=yes
 
-[3button_mlr]
+[3switch_p]
 type=Model
 x=-99
 y=-100
@@ -853,7 +853,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if16
 
-[3button_nlr]
+[com_72]
 type=Layer
 x=246
 y=57
@@ -861,7 +861,7 @@ width=147
 height=32
 hide=yes
 
-[3button_olr]
+[3switch_q]
 type=Model
 y=75
 width=32
@@ -874,7 +874,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if17
 
-[3button_plr]
+[com_74]
 type=Layer
 x=280
 y=147
@@ -882,7 +882,7 @@ width=130
 height=45
 hide=yes
 
-[3button_qlr]
+[3switch_r]
 type=Model
 x=-32
 y=-17
@@ -896,7 +896,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if18
 
-[3button_rlr]
+[com_76]
 type=Layer
 x=280
 y=162
@@ -904,7 +904,7 @@ width=140
 height=80
 hide=yes
 
-[3button_slr]
+[forthcollection]
 type=Model
 x=-32
 y=-32
@@ -918,7 +918,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if19
 
-[com_78]
+[3button_alr]
 type=Model
 buttonType=Button
 x=83
@@ -929,7 +929,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_79]
+[3button_blr]
 type=Model
 buttonType=Button
 x=130
@@ -940,7 +940,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[3counter_r]
+[3button_clr]
 type=Model
 buttonType=Button
 x=121
@@ -951,7 +951,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[3counter_l]
+[3button_dlr]
 type=Model
 buttonType=Button
 x=172
@@ -962,7 +962,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_82]
+[3button_elr]
 type=Model
 buttonType=Button
 x=165
@@ -973,7 +973,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[content_layer]
+[3button_flr]
 type=Model
 buttonType=Button
 x=210
@@ -984,7 +984,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_84]
+[3button_glr]
 type=Model
 buttonType=Button
 x=204
@@ -995,7 +995,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_85]
+[3button_hlr]
 type=Model
 buttonType=Button
 x=249
@@ -1006,7 +1006,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_86]
+[3button_ilr]
 type=Model
 buttonType=Button
 x=249
@@ -1017,7 +1017,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_87]
+[3button_jlr]
 type=Model
 buttonType=Button
 x=248
@@ -1028,7 +1028,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_88]
+[3button_klr]
 type=Model
 buttonType=Button
 x=290
@@ -1039,7 +1039,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_89]
+[3button_llr]
 type=Model
 buttonType=Button
 x=289
@@ -1050,7 +1050,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_90]
+[3button_mlr]
 type=Model
 buttonType=Button
 x=294
@@ -1061,7 +1061,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_91]
+[3button_nlr]
 type=Model
 buttonType=Button
 x=324
@@ -1072,7 +1072,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_92]
+[3button_olr]
 type=Model
 buttonType=Button
 x=330
@@ -1083,7 +1083,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_93]
+[3button_plr]
 type=Model
 buttonType=Button
 x=344
@@ -1094,7 +1094,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_94]
+[3button_qlr]
 type=Model
 buttonType=Button
 x=365
@@ -1105,7 +1105,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_95]
+[3button_rlr]
 type=Model
 buttonType=Button
 x=377
@@ -1116,7 +1116,7 @@ modelZoom=400
 buttonText="Set Junction"
 eventCode=flag22
 
-[com_96]
+[3button_slr]
 type=Model
 buttonType=Button
 x=383
@@ -1147,7 +1147,7 @@ model1Id=8430
 modelZoom=1200
 modelXAn=350
 
-[com_99]
+[3counter_r]
 type=Text
 x=45
 y=56
@@ -1159,7 +1159,7 @@ shadow=yes
 text="x%1"
 script1op1=varbit,forget_num_right
 
-[com_100]
+[3counter_l]
 type=Text
 x=45
 y=26
@@ -1180,7 +1180,7 @@ height=23
 overLayerId=103
 graphic=539
 
-[com_102]
+[forget_traintrack_puzzle3_close]
 type=Sprite
 buttonType=Button
 x=4
@@ -1191,7 +1191,7 @@ layerId=8519783
 graphic=540
 eventCode=flag22
 
-[com_103]
+[forget_traintrack_puzzle3_layer]
 type=Layer
 x=456
 y=15

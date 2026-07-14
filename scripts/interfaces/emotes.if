@@ -1,11 +1,11 @@
-[com_0]
+[emote_scroll]
 type=Layer
 x=173
 y=1
 width=16
 height=260
 
-[com_1]
+[emote_page_one]
 type=Layer
 width=173
 height=260
@@ -15,7 +15,7 @@ onload=30,30408704,30408705
 onvartransmit=838
 onvartransmitlist=313,465,802,1085
 
-[com_2]
+[emote_yes]
 type=Sprite
 x=-2
 y=6
@@ -28,7 +28,7 @@ opName0="Yes"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Yes",50,150
 
-[com_3]
+[emote_no]
 type=Sprite
 x=42
 y=6
@@ -41,7 +41,7 @@ opName0="No"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"No",50,150
 
-[com_4]
+[emote_bow]
 type=Sprite
 x=86
 y=6
@@ -54,7 +54,7 @@ opName0="Bow"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Bow",50,150
 
-[com_5]
+[emote_angry]
 type=Sprite
 x=130
 y=6
@@ -67,7 +67,7 @@ opName0="Angry"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Angry",50,150
 
-[com_6]
+[emote_think]
 type=Sprite
 x=-2
 y=55
@@ -80,7 +80,7 @@ opName0="Think"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Think",50,150
 
-[com_7]
+[emote_wave]
 type=Sprite
 x=42
 y=55
@@ -93,7 +93,7 @@ opName0="Wave"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Wave",50,150
 
-[com_8]
+[emote_shrug]
 type=Sprite
 x=86
 y=55
@@ -106,7 +106,7 @@ opName0="Shrug"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Shrug",50,150
 
-[com_9]
+[emote_cheer]
 type=Sprite
 x=130
 y=55
@@ -119,7 +119,7 @@ opName0="Cheer"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Cheer",50,150
 
-[com_10]
+[emote_beckon]
 type=Sprite
 x=-3
 y=104
@@ -132,7 +132,7 @@ opName0="Beckon"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Beckon",50,150
 
-[com_11]
+[emote_laugh]
 type=Sprite
 x=39
 y=104
@@ -145,7 +145,7 @@ opName0="Laugh"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Laugh",50,150
 
-[com_12]
+[emote_jump_with_joy]
 type=Sprite
 x=86
 y=104
@@ -158,7 +158,7 @@ opName0="Jump for Joy"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Jump For Joy",50,150
 
-[com_13]
+[emote_yawn]
 type=Sprite
 x=130
 y=104
@@ -171,7 +171,7 @@ opName0="Yawn"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Yawn",50,150
 
-[com_14]
+[emote_dance]
 type=Sprite
 x=-1
 y=153
@@ -184,7 +184,7 @@ opName0="Dance"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Dance",50,150
 
-[com_15]
+[emote_dance_scottish]
 type=Sprite
 x=42
 y=153
@@ -197,7 +197,7 @@ opName0="Jig"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Jig",50,150
 
-[com_16]
+[emote_dance_spin]
 type=Sprite
 x=86
 y=153
@@ -210,7 +210,7 @@ opName0="Spin"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Spin",50,150
 
-[com_17]
+[emote_dance_headbang]
 type=Sprite
 x=130
 y=153
@@ -223,7 +223,7 @@ opName0="Headbang"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Headbang",50,150
 
-[com_18]
+[emote_cry]
 type=Sprite
 x=-1
 y=202
@@ -236,7 +236,7 @@ opName0="Cry"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Cry",50,150
 
-[com_19]
+[emote_blow_kiss]
 type=Sprite
 x=42
 y=202
@@ -249,7 +249,7 @@ opName0="Blow Kiss"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Blow Kiss",50,150
 
-[com_20]
+[emote_panic]
 type=Sprite
 x=86
 y=202
@@ -262,7 +262,7 @@ opName0="Panic"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Panic",50,150
 
-[com_21]
+[emote_ya_boo_sucks]
 type=Sprite
 x=130
 y=202
@@ -275,7 +275,7 @@ opName0="Raspberry"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Raspberry",50,150
 
-[com_22]
+[emote_clap]
 type=Sprite
 x=-1
 y=252
@@ -288,7 +288,7 @@ opName0="Clap"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Clap",50,150
 
-[com_23]
+[emote_fremmenik_salute]
 type=Sprite
 x=42
 y=252
@@ -301,7 +301,7 @@ opName0="Salute"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Salute",50,150
 
-[com_24]
+[emote_goblin_bow]
 type=Sprite
 x=86
 y=252
@@ -314,7 +314,7 @@ opName0="Goblin Bow"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Goblin Bow",50,150
 
-[com_25]
+[emote_goblin_salute]
 type=Sprite
 x=130
 y=252
@@ -327,7 +327,7 @@ opName0="Goblin Salute"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Goblin Salute",50,150
 
-[com_26]
+[emote_glassbox]
 type=Sprite
 x=-2
 y=302
@@ -340,7 +340,7 @@ opName0="Glass Box"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Glass Box",50,150
 
-[com_27]
+[emote_climbrope]
 type=Sprite
 x=42
 y=302
@@ -354,7 +354,7 @@ opName0="Climb Rope"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Climb Rope",50,150
 
-[com_28]
+[emote_lean]
 type=Sprite
 x=86
 y=302
@@ -367,7 +367,7 @@ opName0="Lean"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Lean",50,150
 
-[com_29]
+[emote_glasswall]
 type=Sprite
 x=130
 y=302
@@ -380,7 +380,7 @@ opName0="Glass Wall"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Glass Wall",50,150
 
-[com_30]
+[emote_doh]
 type=Sprite
 x=130
 y=352
@@ -393,7 +393,7 @@ opName0="Slap Head"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Slap Head",50,150
 
-[com_31]
+[emote_stamp]
 type=Sprite
 x=42
 y=352
@@ -406,7 +406,7 @@ opName0="Stomp"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Stomp",50,150
 
-[com_32]
+[emote_flap]
 type=Sprite
 x=86
 y=352
@@ -419,7 +419,7 @@ opName0="Flap"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Flap",50,150
 
-[com_33]
+[emote_idea]
 type=Sprite
 x=-6
 y=352
@@ -432,7 +432,7 @@ opName0="Idea"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Idea",50,150
 
-[com_34]
+[emote_zombie_walk]
 type=Sprite
 x=-3
 y=403
@@ -445,7 +445,7 @@ opName0="Zombie Walk"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Zombie Walk",50,150
 
-[com_35]
+[emote_zombie_dance]
 type=Sprite
 x=42
 y=403
@@ -458,7 +458,7 @@ opName0="Zombie Dance"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Zombie Dance",50,150
 
-[com_36]
+[emote_zombie_hand]
 type=Sprite
 x=86
 y=403
@@ -471,7 +471,7 @@ opName0="Zombie Hand"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Zombie Hand",50,150
 
-[com_37]
+[emote_terrified]
 type=Sprite
 x=130
 y=403
@@ -484,7 +484,7 @@ opName0="Scared"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Scared",50,150
 
-[com_38]
+[emote_rabbit]
 type=Sprite
 x=-3
 y=453
@@ -497,7 +497,7 @@ opName0="Bunny Hop"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Bunny-hop",50,150
 
-[com_39]
+[emote_skillcape]
 type=Sprite
 x=42
 y=453
@@ -510,7 +510,7 @@ opName0="Skill Cape"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Skillcape",50,150
 
-[com_40]
+[emote_snowman_dance]
 type=Sprite
 x=86
 y=453
@@ -523,7 +523,7 @@ opName0="Snowman Dance"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Snowman Dance",50,150
 
-[com_41]
+[emote_music]
 type=Sprite
 x=130
 y=453
@@ -549,7 +549,7 @@ opName0="Safety First"
 onmouseleave=40,30408747
 onmouserepeat=38,component.parentId,30408747,"Safety First",50,150
 
-[com_43]
+[emote_tool_tip]
 type=Layer
 x=34
 y=119

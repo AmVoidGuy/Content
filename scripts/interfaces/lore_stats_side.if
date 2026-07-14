@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Rectangle
 x=8
 y=28
@@ -7,7 +7,7 @@ height=111
 trans=200
 fill=yes
 
-[inventory_window]
+[com_1]
 type=Rectangle
 x=14
 y=31
@@ -16,7 +16,7 @@ height=105
 trans=200
 fill=yes
 
-[inventory_area]
+[com_2]
 type=Rectangle
 x=23
 y=36
@@ -25,7 +25,7 @@ height=95
 trans=200
 fill=yes
 
-[inventory_scroll_layer]
+[lore_chathead]
 type=Model
 x=85
 y=70
@@ -38,7 +38,7 @@ discardedModelField=0
 onvartransmit=751
 onvartransmitlist=1174,1160
 
-[inventory_slotlayer]
+[com_4]
 type=Sprite
 x=5
 y=25
@@ -46,7 +46,7 @@ width=32
 height=32
 graphic=856
 
-[inventory_invlayer]
+[com_5]
 type=Sprite
 x=37
 y=12
@@ -56,7 +56,7 @@ graphic=851
 tiling=yes
 baseOpName=" "
 
-[inventory_scrollbar]
+[com_6]
 type=Sprite
 x=152
 y=25
@@ -64,7 +64,7 @@ width=32
 height=32
 graphic=857
 
-[fixed_area]
+[com_7]
 type=Sprite
 x=167
 y=57
@@ -73,7 +73,7 @@ height=53
 graphic=852
 tiling=yes
 
-[fixed_spell_points_holder]
+[com_8]
 type=Sprite
 x=152
 y=110
@@ -81,7 +81,7 @@ width=32
 height=32
 graphic=859
 
-[fixed_health_holder]
+[com_9]
 type=Sprite
 x=37
 y=126
@@ -90,7 +90,7 @@ height=32
 graphic=851
 tiling=yes
 
-[animal_fixed_time_left]
+[com_10]
 type=Sprite
 x=5
 y=110
@@ -98,7 +98,7 @@ width=32
 height=32
 graphic=858
 
-[lore_fixed_expand_collapse]
+[com_11]
 type=Sprite
 x=-9
 y=57
@@ -107,7 +107,7 @@ height=53
 graphic=852
 tiling=yes
 
-[collapse_build]
+[com_12]
 type=Sprite
 x=-1
 y=169
@@ -116,7 +116,7 @@ height=47
 graphic=1075
 tiling=yes
 
-[collapse_click]
+[com_13]
 type=Sprite
 x=13
 y=153
@@ -125,7 +125,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[lore_fixed_expand_collapse_graphic]
+[com_14]
 type=Sprite
 x=164
 y=169
@@ -134,7 +134,7 @@ height=47
 graphic=1075
 tiling=yes
 
-[lore_fixed_give]
+[com_15]
 type=Sprite
 x=12
 y=199
@@ -143,7 +143,7 @@ height=32
 graphic=1074
 tiling=yes
 
-[lore_fixed_dump]
+[com_16]
 type=Sprite
 x=-10
 y=-2
@@ -152,7 +152,7 @@ height=20
 layerId=43384850
 graphic=1196
 
-[lore_fixed_renew]
+[lore_magic_button]
 type=Rectangle
 width=146
 height=14
@@ -160,7 +160,7 @@ layerId=43384850
 trans=255
 colour=0xFFFF00
 
-[lore_fixed_spell]
+[com_18]
 type=Layer
 x=21
 y=5
@@ -168,7 +168,7 @@ width=146
 height=14
 layerId=43384894
 
-[spell_fixed_auto_fire]
+[com_19]
 type=Model
 x=3
 width=143
@@ -179,7 +179,7 @@ modelZoom=1153
 modelXAn=500
 discardedModelField=0
 
-[lore_fixed_attack]
+[com_20]
 type=Model
 x=2
 width=9
@@ -191,7 +191,7 @@ modelXAn=500
 modelXOf=67
 discardedModelField=0
 
-[lore_fixed_call]
+[com_21]
 type=Model
 x=9
 width=9
@@ -203,7 +203,7 @@ modelXAn=500
 modelXOf=60
 discardedModelField=0
 
-[lore_fixed_dismiss]
+[com_22]
 type=Model
 x=16
 width=9
@@ -215,7 +215,7 @@ modelXAn=500
 modelXOf=53
 discardedModelField=0
 
-[fixed_settings]
+[com_23]
 type=Model
 x=23
 width=9
@@ -239,7 +239,7 @@ modelXAn=500
 modelXOf=38
 discardedModelField=0
 
-[call_animal_button_graphic_1]
+[com_25]
 type=Model
 x=38
 width=8
@@ -263,7 +263,7 @@ modelXAn=500
 modelXOf=24
 discardedModelField=0
 
-[bobdump_graphic_1]
+[com_27]
 type=Model
 x=52
 width=8
@@ -287,7 +287,7 @@ modelXAn=500
 modelXOf=10
 discardedModelField=0
 
-[bobgive_graphic_1]
+[com_29]
 type=Model
 x=66
 width=8
@@ -299,7 +299,7 @@ modelXAn=500
 modelXOf=3
 discardedModelField=0
 
-[lore_fixed_switchmode]
+[com_30]
 type=Model
 x=73
 width=8
@@ -323,7 +323,7 @@ modelXAn=500
 modelXOf=-11
 discardedModelField=0
 
-[lore_renew_button_graphic_1]
+[com_32]
 type=Model
 x=87
 width=8
@@ -347,7 +347,7 @@ modelXAn=500
 modelXOf=-25
 discardedModelField=0
 
-[dismiss_button_graphic_1]
+[com_34]
 type=Model
 x=101
 width=8
@@ -371,7 +371,7 @@ modelXAn=500
 modelXOf=-39
 discardedModelField=0
 
-[attack_button_1]
+[com_36]
 type=Model
 x=115
 width=9
@@ -395,7 +395,7 @@ modelXAn=500
 modelXOf=-53
 discardedModelField=0
 
-[lore_spell_button_graphic_1]
+[com_38]
 type=Model
 x=129
 width=9
@@ -419,7 +419,7 @@ modelXAn=500
 modelXOf=-67
 discardedModelField=0
 
-[switchmode_graphic_1]
+[lore_magic]
 type=Text
 y=-1
 width=146
@@ -437,7 +437,7 @@ onmouserepeat=777,component.parentId,43384897,43384897,1
 onvartransmitlist=1177
 onstattransmitlist=23
 
-[lore_fixed_health_bar]
+[points_icon]
 type=Sprite
 x=32
 y=173
@@ -448,7 +448,7 @@ graphic=1182
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Summoning points remaining"
 
-[lore_fixed_spell_points]
+[points_left]
 type=Text
 x=29
 y=200
@@ -466,7 +466,7 @@ onstattransmit=755
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Summoning points remaining"
 onstattransmitlist=23
 
-[full_details_layer]
+[time_icon]
 type=Sprite
 x=134
 y=173
@@ -477,7 +477,7 @@ graphic=1178
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Familiar time remaining"
 
-[lore_bounding_box]
+[animal_time_left]
 type=Text
 x=131
 y=200
@@ -495,7 +495,7 @@ onvartransmit=752
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Familiar time remaining"
 onvartransmitlist=1176
 
-[lore_bob]
+[size_icon]
 type=Sprite
 x=126
 y=173
@@ -506,7 +506,7 @@ graphic=1177
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Pet size percentage"
 
-[info_popup]
+[size_percentage]
 type=Text
 x=126
 y=200
@@ -524,7 +524,7 @@ onvartransmit=753
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Pet size percentage"
 onvartransmitlist=1175
 
-[info_popup_bg]
+[hunger_icon]
 type=Sprite
 x=31
 y=173
@@ -535,7 +535,7 @@ graphic=1176
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Pet hunger percentage"
 
-[info_popup_text]
+[hunger]
 type=Text
 x=27
 y=200
@@ -551,7 +551,7 @@ text="9999"
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Pet hunger percentage"
 
-[info_popup_scrollbar]
+[com_49]
 type=Layer
 x=23
 y=218
@@ -562,7 +562,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[header_holder]
+[call_animal_button]
 type=Sprite
 x=29
 y=225
@@ -575,7 +575,7 @@ opName0="Call Follower"
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Call familiar"
 
-[background]
+[com_51]
 type=Layer
 x=129
 y=218
@@ -586,7 +586,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[lore_chathead]
+[dismiss_button]
 type=Sprite
 x=137
 y=225
@@ -599,7 +599,7 @@ opName0="Dismiss Follower"
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Dismiss familiar"
 
-[lore_renew_button]
+[com_53]
 type=Sprite
 x=13
 y=145
@@ -607,7 +607,7 @@ width=166
 height=20
 graphic=1196
 
-[call_animal_button]
+[lore_name]
 type=Text
 x=15
 y=143
@@ -619,7 +619,7 @@ hAlign=Center
 vAlign=Center
 font=496
 
-[time]
+[com_55]
 type=Sprite
 x=8
 y=28
@@ -629,7 +629,7 @@ layerId=43384894
 graphic=297
 tiling=yes
 
-[dismiss_button]
+[com_56]
 type=Sprite
 x=26
 y=26
@@ -648,7 +648,7 @@ layerId=43384894
 graphic=859
 baseOpName=" "
 
-[lore_name]
+[com_58]
 type=Sprite
 x=-8
 y=60
@@ -657,7 +657,7 @@ height=32
 layerId=43384894
 graphic=853
 
-[familiar_info]
+[com_59]
 type=Sprite
 x=7
 y=43
@@ -667,7 +667,7 @@ layerId=43384894
 graphic=1074
 baseOpName=" "
 
-[com_60]
+[lore_pouch_counter]
 type=Text
 x=7
 y=62
@@ -684,7 +684,7 @@ oninvtransmit=769
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Scrolls remaining"
 oninvtransmitlist=93
 
-[call_animal_button_graphic]
+[lore_pets]
 type=Layer
 x=2
 y=1
@@ -693,14 +693,14 @@ height=261
 layerId=43385020
 hide=yes
 
-[com_62]
+[lore_familairs]
 type=Layer
 width=190
 height=261
 layerId=43385020
 hide=yes
 
-[dismiss_button_graphic]
+[com_63]
 type=Layer
 x=76
 y=218
@@ -711,7 +711,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[info_holder]
+[bobdump]
 type=Sprite
 x=84
 y=227
@@ -724,13 +724,13 @@ opName0="Take BoB"
 onmouseleave=40,43384897
 onmouserepeat=779,component.parentId,43384897,43384897,1,"Take Beast of Burden items"
 
-[lore_health_holder]
+[build_layer]
 type=Layer
 width=189
 height=260
 layerId=43385020
 
-[lore_familiar_healthbar_button]
+[wolf_howl]
 type=Layer
 x=7
 y=27
@@ -739,7 +739,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[attack_layer]
+[lore_wolf_howl]
 type=Sprite
 width=32
 height=36
@@ -750,7 +750,7 @@ eventCode=targetMask=npc
 baseOpName="Wolf Howl"
 onload=774,component.parentId,43384898,43384897,1194,1195,1,"Howl","Makes NPCs flee for a short time",12425,1,-1,0,-1,0,-1,0
 
-[settings]
+[dreadfowl_strike]
 type=Layer
 x=7
 y=27
@@ -759,7 +759,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_spell_points_holder]
+[lore_dreadfowl_strike]
 type=Sprite
 width=32
 height=36
@@ -770,7 +770,7 @@ eventCode=targetMask=npc|player
 baseOpName="Dreadfowl Strike"
 onload=774,component.parentId,43384900,43384897,1194,1195,4,"Dreadfowl Strike","A magical attack",12445,1,-1,0,-1,0,-1,0
 
-[lore_familiar_specbar_button]
+[vampire_touch]
 type=Layer
 x=7
 y=27
@@ -779,7 +779,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[scroll_counter_holder_small]
+[lore_vampire_touch]
 type=Sprite
 width=32
 height=36
@@ -791,7 +791,7 @@ baseOpName="Vampire Touch"
 onload=774,component.parentId,43384902,43384897,1194,1195,31,"Vampire Touch","A magical attack that may also heal 2 of your Hitpoints",12447,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[scroll_small]
+[herb_call]
 type=Layer
 x=7
 y=27
@@ -800,7 +800,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[spell_icon]
+[lore_herbcall]
 type=Sprite
 width=32
 height=32
@@ -812,7 +812,7 @@ opName0="Cast"
 onload=774,component.parentId,43384904,43384897,1194,1195,41,"Herbcall","Has a chance to produce a grimy herb",12422,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[spell_auto_fire]
+[stony_shell]
 type=Layer
 x=7
 y=27
@@ -821,7 +821,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[scroll_background]
+[lore_stony_shell]
 type=Sprite
 width=32
 height=32
@@ -833,7 +833,7 @@ opName0="Cast"
 onload=774,component.parentId,43384906,43384897,1194,1195,16,"Stony Shell","Boosts your Defence by 4.",12533,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[scroll_object]
+[evil_flames]
 type=Layer
 x=7
 y=27
@@ -842,7 +842,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[scroll_counter_holder]
+[lore_evil_flames]
 type=Sprite
 width=32
 height=32
@@ -854,7 +854,7 @@ baseOpName="Evil Flames"
 onload=774,component.parentId,43384908,43384897,1194,1195,42,"Evil Flames","Causes Magic-based damage and drains target's Ranged",12448,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[scroll]
+[fruit_fall]
 type=Layer
 x=7
 y=27
@@ -863,7 +863,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[scroll_inv]
+[lore_fruit_fall]
 type=Sprite
 width=32
 height=36
@@ -875,7 +875,7 @@ opName0="Cast"
 onload=774,component.parentId,43384910,43384897,1194,1195,69,"Fruitfall","Produces random fruit nearby",12423,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[scroll_familiar]
+[thieving_fingers]
 type=Layer
 x=7
 y=27
@@ -884,7 +884,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_81]
+[lore_thieving_fingers]
 type=Sprite
 width=32
 height=32
@@ -896,7 +896,7 @@ opName0="Cast"
 onload=774,component.parentId,43384912,43384897,1194,1195,47,"Thieving Fingers","Boosts your Thieving",12426,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[lore_scroll_counter_inv]
+[egg_spawn]
 type=Layer
 x=7
 y=27
@@ -905,7 +905,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_83]
+[lore_egg_spawn]
 type=Sprite
 width=32
 height=36
@@ -917,7 +917,7 @@ opName0="Cast"
 onload=774,component.parentId,43384914,43384897,1194,1195,10,"Egg Spawn","Spawns red spiders' eggs nearby",12428,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[lore_scroll_counter_familiar]
+[fish_rain]
 type=Layer
 x=7
 y=27
@@ -926,7 +926,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[switchmode_back]
+[lore_fish_rain]
 type=Sprite
 width=32
 height=32
@@ -938,7 +938,7 @@ opName0="Cast"
 onload=774,component.parentId,43384916,43384897,1194,1195,56,"Fish Rain","Makes fish appear nearby",12424,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[switchmode_graphic]
+[abyssal_stealth]
 type=Layer
 x=7
 y=27
@@ -947,7 +947,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_pets]
+[lore_abyssal_stealth]
 type=Sprite
 width=32
 height=32
@@ -959,7 +959,7 @@ opName0="Cast"
 onload=774,component.parentId,43384918,43384897,1194,1195,62,"Abyssal Stealth","Boosts your Thieving and Agility",12427,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[lore_pet_hunger_button]
+[multi_chop]
 type=Layer
 x=7
 y=27
@@ -968,7 +968,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_pet_growth_button]
+[lore_multi_chop]
 type=Sprite
 width=32
 height=32
@@ -980,7 +980,7 @@ baseOpName="Multichop"
 onload=774,component.parentId,43384920,43384897,1194,1195,33,"Multichop","Cuts up to 3 logs from a nearby tree",12429,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_abilities]
+[unburden]
 type=Layer
 x=7
 y=27
@@ -989,7 +989,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[pet_ability_1]
+[proceed_tickdown]
 type=Sprite
 width=32
 height=36
@@ -1001,7 +1001,7 @@ opName0="Cast"
 onload=774,component.parentId,43384922,43384897,1194,1195,40,"Unburden","Restores run energy based on your current Agility level",12431,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_ability_graphic_3]
+[crushing_claw]
 type=Layer
 x=7
 y=27
@@ -1010,7 +1010,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[pet_ability_text_bg_3]
+[lore_crushing_claw]
 type=Sprite
 width=32
 height=32
@@ -1022,7 +1022,7 @@ baseOpName="Crushing Claw"
 onload=774,component.parentId,43384924,43384897,1194,1195,74,"Crushing Claw","Causes Magic-based damage and drains target's Defence",12449,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_ability_text_3]
+[mantis_strike]
 type=Layer
 x=7
 y=27
@@ -1031,7 +1031,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[pet_ability_2]
+[lore_mantis_strike]
 type=Sprite
 width=32
 height=32
@@ -1043,7 +1043,7 @@ baseOpName="Mantis Strike"
 onload=774,component.parentId,43384926,43384897,1194,1195,75,"Mantis Strike","Causes Magic-based damage, drains other player's Prayer and binds",12450,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_ability_3]
+[famine]
 type=Layer
 x=7
 y=27
@@ -1053,7 +1053,7 @@ layerId=43384894
 hide=yes
 eventCode=targetMask=player
 
-[pet_ability_graphic_2]
+[lore_famine]
 type=Sprite
 width=32
 height=32
@@ -1065,7 +1065,7 @@ baseOpName="Famine"
 onload=774,component.parentId,43384928,43384897,1194,1195,70,"Famine","Destroys target player's food",12830,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_ability_text_bg_2]
+[sandstorm]
 type=Layer
 x=7
 y=27
@@ -1074,7 +1074,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[pet_ability_text_2]
+[lore_sandstorm]
 type=Sprite
 width=32
 height=32
@@ -1086,7 +1086,7 @@ opName0="Cast"
 onload=774,component.parentId,43384930,43384897,1194,1195,25,"Sandstorm","Deals damage to nearby opponents",12446,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_ability_graphic_1]
+[com_100]
 type=Layer
 x=7
 y=27
@@ -1096,7 +1096,7 @@ layerId=43384894
 hide=yes
 eventCode=targetMask=npc|loc
 
-[pet_ability_text_bg_1]
+[lore_envenom_weapon]
 type=Sprite
 width=32
 height=32
@@ -1107,7 +1107,7 @@ opName0="Cast"
 onload=774,component.parentId,43384932,43384897,1194,1195,19,"Venom Shot","Has a chance of making your next Ranged attack poisonous",12432,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[pet_ability_text_1]
+[cheese_feast]
 type=Layer
 x=7
 y=27
@@ -1116,7 +1116,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_103]
+[lore_cheese_feast]
 type=Sprite
 width=32
 height=32
@@ -1128,7 +1128,7 @@ opName0="Cast"
 onload=774,component.parentId,43384934,43384897,1194,1195,23,"Cheese Feast","Generates 4 cheese that appears in the Albino Rat's inventory.",12430,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[attack_button]
+[insane_ferocity]
 type=Layer
 x=7
 y=27
@@ -1137,7 +1137,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[bobgive]
+[lore_insane_ferocity]
 type=Sprite
 width=32
 height=32
@@ -1149,7 +1149,7 @@ opName0="Cast"
 onload=774,component.parentId,43384936,43384897,1194,1195,32,"Insane Ferocity","Boosts the Honey Badgers Attack and Strength, at the expense of Defence.",12433,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[bobdump]
+[toad_bark]
 type=Layer
 x=7
 y=27
@@ -1158,7 +1158,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_107]
+[lore_toad_bark]
 type=Sprite
 width=32
 height=32
@@ -1170,7 +1170,7 @@ baseOpName="Toad Bark"
 onload=774,component.parentId,43384938,43384897,1194,1195,66,"Toad Bark","Damages a target",12452,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[bobdump_graphic]
+[arctic_blast]
 type=Layer
 x=7
 y=27
@@ -1179,7 +1179,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[switchmode_button]
+[lore_arctic_blast]
 type=Sprite
 width=32
 height=36
@@ -1191,7 +1191,7 @@ baseOpName="Arctic Blast"
 onload=774,component.parentId,43384940,43384897,1194,1195,71,"Arctic Blast","Magical attack that can stun the target",12451,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_110]
+[winter_storage]
 type=Layer
 x=7
 y=27
@@ -1200,7 +1200,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[bobgive_graphic]
+[lore_winter_storage]
 type=Sprite
 width=32
 height=32
@@ -1213,7 +1213,7 @@ onload=774,component.parentId,43384942,43384897,1194,1195,96,"Winter Storage","B
 onmouseleave=40,43384897
 onclick=17,component.parentId
 
-[com_112]
+[healing_aura]
 type=Layer
 x=7
 y=27
@@ -1222,7 +1222,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_renew_button_graphic]
+[lore_healing_aura]
 type=Sprite
 width=32
 height=32
@@ -1234,7 +1234,7 @@ opName0="Cast"
 onload=774,component.parentId,43384944,43384897,1194,1195,88,"Healing Aura","Heals 15% of your Hitpoints.",12434,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[time_icon]
+[com_114]
 type=Layer
 x=7
 y=27
@@ -1243,7 +1243,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[animal_time_left]
+[lore_ophedian_incubation]
 type=Sprite
 width=32
 height=32
@@ -1256,7 +1256,7 @@ onload=774,component.parentId,43384946,43384897,1194,1195,63,"Ophidian Incubatio
 onmouseleave=40,43384897
 onclick=17,component.parentId
 
-[com_116]
+[adamantite_shell]
 type=Layer
 x=7
 y=27
@@ -1265,7 +1265,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_spell_button_graphic]
+[lore_adamantite_shell]
 type=Sprite
 width=32
 height=32
@@ -1277,7 +1277,7 @@ opName0="Cast"
 onload=774,component.parentId,43384948,43384897,1194,1195,67,"Testudo","Boosts your Defence by 8.",12439,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_118]
+[slime_trail]
 type=Layer
 x=7
 y=27
@@ -1286,7 +1286,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[settings_button_graphic]
+[lore_slime_trail]
 type=Sprite
 width=32
 height=32
@@ -1298,7 +1298,7 @@ baseOpName="Slime Trail"
 onload=774,component.parentId,43384950,43384897,1194,1195,13,"Slime Spray","Damages an enemy",12459,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_120]
+[electric_lash]
 type=Layer
 x=7
 y=27
@@ -1307,7 +1307,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_auto_fire_graphic]
+[lore_electric_lash]
 type=Sprite
 width=32
 height=32
@@ -1319,7 +1319,7 @@ baseOpName="Electric Lash"
 onload=774,component.parentId,43384952,43384897,1194,1195,18,"Electric Lash","Mild damaging attack that causes a very short stun",12460,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[lore_scroll_counter_small]
+[dissolve]
 type=Layer
 x=7
 y=27
@@ -1328,7 +1328,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[scroll_counter_graphic_small]
+[lore_dissolve]
 type=Sprite
 width=32
 height=32
@@ -1340,7 +1340,7 @@ baseOpName="Dissolve"
 onload=774,component.parentId,43384954,43384897,1194,1195,55,"Dissolve","Causes Magic-based damage and drains target's Attack",12453,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_124]
+[abyssal_drain]
 type=Layer
 x=7
 y=27
@@ -1349,7 +1349,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[lore_auto_fire_graphic_fixed]
+[lore_abyssal_drain]
 type=Sprite
 width=32
 height=32
@@ -1361,7 +1361,7 @@ baseOpName="Dissolve"
 onload=774,component.parentId,43384956,43384897,1194,1195,54,"Abyssal Drain","Causes Magic-based damage and drains target's Magic",12454,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_126]
+[petrify]
 type=Layer
 x=7
 y=27
@@ -1370,7 +1370,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[settings_button_graphic_1]
+[lore_petrify]
 type=Sprite
 width=32
 height=32
@@ -1382,7 +1382,7 @@ baseOpName="Dissolve"
 onload=774,component.parentId,43384958,43384897,1194,1195,43,"Petrifying Gaze","Damages a target and causes combat stat damage, unless target is wielding a mirror shield",12458,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_128]
+[tireless_run]
 type=Layer
 x=7
 y=27
@@ -1391,7 +1391,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_129]
+[lore_tireless_run]
 type=Sprite
 width=32
 height=32
@@ -1403,7 +1403,7 @@ opName0="Cast"
 onload=774,component.parentId,43384960,43384897,1194,1195,52,"Tireless Run","Boosts your Agility and restores run energy",12441,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_130]
+[blood_drain]
 type=Layer
 x=7
 y=27
@@ -1412,7 +1412,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_131]
+[wipe_bare]
 type=Sprite
 width=32
 height=32
@@ -1424,7 +1424,7 @@ opName0="Cast"
 onload=774,component.parentId,43384962,43384897,1194,1195,49,"Blood Drain","Heals stat damage, poison and disease at the cost of Hitpoints.",12444,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_132]
+[dust_cloud]
 type=Layer
 x=7
 y=27
@@ -1433,7 +1433,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_133]
+[lore_dust_cloud]
 type=Sprite
 width=32
 height=32
@@ -1454,7 +1454,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_135]
+[lore_overwhelming_waters]
 type=Sprite
 width=32
 height=32
@@ -1466,7 +1466,7 @@ baseOpName="Overwhelming Waters"
 onload=774,component.parentId,43384966,43384897,1194,1195,58,"Doomsphere Device","A water-based magical attack",12455,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_136]
+[generate_compost]
 type=Layer
 x=7
 y=27
@@ -1475,7 +1475,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_137]
+[lore_generate_compost]
 type=Sprite
 width=32
 height=32
@@ -1487,7 +1487,7 @@ baseOpName="Generate Compost"
 onload=774,component.parentId,43384968,43384897,1194,1195,28,"Generate Compost","Fills an empty compost bin with compost",12440,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_138]
+[nesting]
 type=Layer
 x=7
 y=27
@@ -1496,7 +1496,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_139]
+[lore_nesting]
 type=Sprite
 width=32
 height=32
@@ -1508,7 +1508,7 @@ baseOpName="Nesting"
 onload=774,component.parentId,43384970,43384897,1194,1195,78,"Acorn Missile","Inflicts up to 11 damage on up to 3 opponents. Chance of acorn being dropped.",12457,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_140]
+[poisonous_blast]
 type=Layer
 x=7
 y=27
@@ -1517,7 +1517,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_141]
+[lore_poisonous_blast]
 type=Sprite
 width=32
 height=32
@@ -1529,7 +1529,7 @@ baseOpName="Poison Blast"
 onload=774,component.parentId,43384972,43384897,1194,1195,64,"Poisonous Blast","A poison-inducing attack",12467,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_142]
+[deadly_claw]
 type=Layer
 x=7
 y=27
@@ -1538,7 +1538,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_143]
+[lore_deadly_claw]
 type=Sprite
 width=32
 height=32
@@ -1550,7 +1550,7 @@ baseOpName="Deadly Claw"
 onload=774,component.parentId,43384974,43384897,1194,1195,77,"Deadly Claw","Three magical attacks at once",12831,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_144]
+[regrowth]
 type=Layer
 x=7
 y=27
@@ -1559,7 +1559,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_145]
+[lore_regrowth]
 type=Sprite
 width=32
 height=32
@@ -1571,7 +1571,7 @@ baseOpName="Regrowth"
 onload=774,component.parentId,43384976,43384897,1194,1195,80,"Regrowth","Will cause a farmed tree that has been chopped down to regrow faster.",12442,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_146]
+[spike_shot]
 type=Layer
 x=7
 y=27
@@ -1580,7 +1580,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_147]
+[lore_spike_shot]
 type=Sprite
 width=32
 height=32
@@ -1592,7 +1592,7 @@ baseOpName="Spike Shot"
 onload=774,component.parentId,43384978,43384897,1194,1195,83,"Spike Shot","Damaging strike that stuns the target",12456,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_148]
+[bull_rush]
 type=Layer
 x=7
 y=27
@@ -1601,7 +1601,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_149]
+[lore_bull_rush]
 type=Sprite
 width=32
 height=32
@@ -1613,7 +1613,7 @@ baseOpName="Bull Rush"
 onload=774,component.parentId,43384980,43384897,1194,1195,86,"Bull Rush","Damages the target with a chance to stun them; damage dealt depends on minotaur type",12461,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_150]
+[magic_might]
 type=Layer
 x=7
 y=27
@@ -1622,7 +1622,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_151]
+[lore_magic_might]
 type=Sprite
 width=32
 height=32
@@ -1634,7 +1634,7 @@ opName0="Cast"
 onload=774,component.parentId,43384982,43384897,1194,1195,92,"Magic Focus","Boosts your Magic by 7.",12437,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_152]
+[swallow_whole]
 type=Layer
 x=7
 y=27
@@ -1643,7 +1643,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_153]
+[lore_swallow_whole]
 type=Sprite
 width=32
 height=32
@@ -1656,7 +1656,7 @@ onload=774,component.parentId,43384984,43384897,1194,1195,68,"Swallow Whole","Al
 onmouseleave=40,43384897
 onclick=17,component.parentId
 
-[com_154]
+[swamp_plague]
 type=Layer
 x=7
 y=27
@@ -1665,7 +1665,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_155]
+[lore_swamp_plague]
 type=Sprite
 width=32
 height=32
@@ -1677,7 +1677,7 @@ baseOpName="Swamp Plague"
 onload=774,component.parentId,43384986,43384897,1194,1195,85,"Swamp Plague","Area-effect, magical poison attack",12832,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_156]
+[call_to_arms]
 type=Layer
 x=7
 y=27
@@ -1686,7 +1686,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_157]
+[lore_call_to_arms]
 type=Sprite
 width=32
 height=32
@@ -1698,7 +1698,7 @@ opName0="Cast"
 onload=774,component.parentId,43384988,43384897,1194,1195,34,"Call To Arms","Teleports you to the Pest Control landing boat area",12443,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_158]
+[titans_constitution]
 type=Layer
 x=7
 y=27
@@ -1707,7 +1707,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_159]
+[lore_titans_constitution]
 type=Sprite
 width=32
 height=32
@@ -1719,7 +1719,7 @@ opName0="Cast"
 onload=774,component.parentId,43384990,43384897,1194,1195,79,"Titan's Constitution","Boosts your Defence and Hitpoints significantly",12824,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_160]
+[boil]
 type=Layer
 x=7
 y=27
@@ -1728,7 +1728,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_161]
+[lore_boil]
 type=Sprite
 width=32
 height=32
@@ -1740,7 +1740,7 @@ baseOpName="Bull Rush"
 onload=774,component.parentId,43384992,43384897,1194,1195,89,"Boil","Damages a player, with extra damage based on how much armour they are wearing",12833,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_162]
+[steel_of_legends]
 type=Layer
 x=7
 y=27
@@ -1749,7 +1749,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_163]
+[lore_steel_of_legends]
 type=Sprite
 width=32
 height=32
@@ -1761,7 +1761,7 @@ opName0="Cast"
 onload=774,component.parentId,43384994,43384897,1194,1195,99,"Steel of Legends","Makes the Steel Titan's next attack 4 attacks at once.",12825,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_164]
+[explode]
 type=Layer
 x=7
 y=27
@@ -1770,7 +1770,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_165]
+[lore_explode]
 type=Sprite
 width=32
 height=32
@@ -1782,7 +1782,7 @@ opName0="Cast"
 onload=774,component.parentId,43384997,43384897,1194,1195,29,"Explode","Detonates the chinchompa",12834,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_166]
+[goad]
 type=Layer
 x=7
 y=27
@@ -1791,7 +1791,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_167]
+[lore_goad]
 type=Sprite
 width=32
 height=32
@@ -1803,7 +1803,7 @@ baseOpName="Goad"
 onload=774,component.parentId,43384998,43384897,1194,1195,57,"Goad","Sends your spirit graahk to attack an enemy",12835,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_168]
+[ambush]
 type=Layer
 x=7
 y=27
@@ -1812,7 +1812,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_169]
+[lore_ambush]
 type=Sprite
 width=32
 height=32
@@ -1833,7 +1833,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_171]
+[lore_obsidian_thunder]
 type=Sprite
 width=32
 height=32
@@ -1845,7 +1845,7 @@ baseOpName="Obsidian Thunder"
 onload=774,component.parentId,43385002,43384897,1194,1195,83,"Ebon Thunder","Magical attack that also drains points from the target's Special Attack bar",12837,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_172]
+[mountain_strength]
 type=Layer
 x=7
 y=27
@@ -1854,7 +1854,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_173]
+[lore_mountain_strength]
 type=Sprite
 width=32
 height=32
@@ -1875,7 +1875,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_175]
+[lore_chaotic_runecrafting]
 type=Sprite
 width=32
 height=32
@@ -1908,7 +1908,7 @@ baseOpName="Goad"
 onload=774,component.parentId,43385008,43384897,1194,1195,17,"Pester","Sends the spirit mosquito to attack an enemy",12838,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_178]
+[lava_assault]
 type=Layer
 x=7
 y=27
@@ -1917,7 +1917,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_179]
+[lore_lava_assault]
 type=Sprite
 width=32
 height=32
@@ -1929,7 +1929,7 @@ opName0="Cast"
 onload=774,component.parentId,43385010,43384897,1194,1195,22,"Fireball Assault","Damages multiple targets",12839,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_180]
+[rending]
 type=Layer
 x=7
 y=27
@@ -1938,7 +1938,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_181]
+[lore_rending]
 type=Sprite
 width=32
 height=32
@@ -1950,7 +1950,7 @@ baseOpName="Rending"
 onload=774,component.parentId,43385012,43384897,1194,1195,57,"Rending","Causes Magic-based damage and drains target's Strength",12840,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_182]
+[iron_within]
 type=Layer
 x=7
 y=27
@@ -1959,7 +1959,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_183]
+[lore_iron_within]
 type=Sprite
 width=32
 height=32
@@ -1971,7 +1971,7 @@ opName0="Cast"
 onload=774,component.parentId,43385014,43384897,1194,1195,95,"Iron Within","Makes the Iron Titan strike 3 times on it's next attack.",12828,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_184]
+[immense_heat]
 type=Layer
 x=7
 y=27
@@ -1980,7 +1980,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_185]
+[lore_immense_heat]
 type=Sprite
 width=32
 height=32
@@ -1993,7 +1993,7 @@ onload=774,component.parentId,43385016,43384897,1194,1195,46,"Immense Heat","Sme
 onmouseleave=40,43384897
 onclick=17,component.parentId
 
-[com_186]
+[inferno]
 type=Layer
 x=7
 y=27
@@ -2002,7 +2002,7 @@ height=32
 layerId=43384894
 hide=yes
 
-[com_187]
+[lore_inferno]
 type=Sprite
 width=32
 height=32
@@ -2014,7 +2014,7 @@ baseOpName="Inferno"
 onload=774,component.parentId,43385018,43384897,1194,1195,76,"Inferno","Damaging magical attack that can disarm the target's weapon or shield",12841,1,-1,0,-1,0,-1,0
 onmouseleave=40,43384897
 
-[com_188]
+[lore_bounding_box]
 type=Layer
 width=190
 height=261

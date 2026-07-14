@@ -5,7 +5,7 @@ width=562
 height=362
 fill=yes
 
-[poh_oubliette_button_model]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -13,7 +13,7 @@ width=88
 height=60
 graphic=297
 
-[poh_formal_button_model]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -21,7 +21,7 @@ width=88
 height=60
 graphic=297
 
-[poh_portal_button_model]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -29,7 +29,7 @@ width=88
 height=60
 graphic=297
 
-[poh_chapel_button_model]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -37,7 +37,7 @@ width=88
 height=60
 graphic=297
 
-[poh_costume_button_model]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -45,7 +45,7 @@ width=88
 height=60
 graphic=297
 
-[poh_study_button_model]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -53,7 +53,7 @@ width=88
 height=60
 graphic=297
 
-[poh_menagerie_button_model]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -61,7 +61,7 @@ width=88
 height=60
 graphic=297
 
-[poh_bedroom_button_model]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -69,7 +69,7 @@ width=88
 height=60
 graphic=297
 
-[poh_treasure_button_model]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -77,7 +77,7 @@ width=88
 height=60
 graphic=297
 
-[poh_pit_button_model_1]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -85,7 +85,7 @@ width=88
 height=60
 graphic=297
 
-[poh_pit_button_model_2]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -93,7 +93,7 @@ width=88
 height=60
 graphic=297
 
-[poh_pit_button_model_3]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -101,7 +101,7 @@ width=88
 height=60
 graphic=297
 
-[poh_pit_button_model_4]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -109,7 +109,7 @@ width=88
 height=60
 graphic=297
 
-[poh_stairs_button_model_1]
+[com_14]
 type=Sprite
 x=188
 y=260
@@ -117,7 +117,7 @@ width=88
 height=60
 graphic=297
 
-[poh_stairs_button_model_2]
+[com_15]
 type=Sprite
 x=276
 y=20
@@ -125,7 +125,7 @@ width=88
 height=60
 graphic=297
 
-[poh_junction_button_model_1]
+[com_16]
 type=Sprite
 x=364
 y=80
@@ -133,7 +133,7 @@ width=88
 height=60
 graphic=297
 
-[poh_junction_button_model_2]
+[com_17]
 type=Sprite
 x=276
 y=80
@@ -141,7 +141,7 @@ width=88
 height=60
 graphic=297
 
-[poh_junction_button_model_3]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -149,7 +149,7 @@ width=88
 height=60
 graphic=297
 
-[poh_junction_button_model_4]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -157,7 +157,7 @@ width=88
 height=60
 graphic=297
 
-[poh_aqua_button_model_1]
+[com_20]
 type=Sprite
 x=276
 y=260
@@ -165,7 +165,7 @@ width=88
 height=60
 graphic=297
 
-[poh_aqua_button_model_2]
+[com_21]
 type=Sprite
 x=326
 y=139
@@ -173,7 +173,7 @@ width=88
 height=60
 graphic=297
 
-[poh_corridor_button_model_1]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -181,7 +181,7 @@ width=88
 height=60
 graphic=297
 
-[poh_corridor_button_model_2]
+[com_23]
 type=Sprite
 x=364
 y=200
@@ -189,7 +189,7 @@ width=88
 height=60
 graphic=297
 
-[poh_corridor_button_model_3]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -197,7 +197,7 @@ width=88
 height=60
 graphic=297
 
-[poh_throne_button_model]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -205,7 +205,7 @@ width=88
 height=60
 graphic=297
 
-[poh_questtroph_button_model]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -213,7 +213,7 @@ width=88
 height=60
 graphic=297
 
-[poh_combat_button_model]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -221,7 +221,7 @@ width=88
 height=60
 graphic=297
 
-[poh_games_button_model]
+[com_28]
 type=Sprite
 x=412
 y=200
@@ -229,7 +229,7 @@ width=88
 height=60
 graphic=297
 
-[poh_skilltroph_button_model]
+[com_29]
 type=Sprite
 x=412
 y=260
@@ -237,7 +237,7 @@ width=88
 height=60
 graphic=297
 
-[poh_workshop_button_model]
+[com_30]
 type=Sprite
 x=-3
 y=85
@@ -245,7 +245,7 @@ width=36
 height=36
 graphic=172
 
-[poh_dining_button_model]
+[com_31]
 type=Sprite
 x=-3
 y=121
@@ -253,7 +253,7 @@ width=36
 height=36
 graphic=172
 
-[poh_kitchen_button_model]
+[com_32]
 type=Sprite
 x=-3
 y=157
@@ -261,7 +261,7 @@ width=36
 height=36
 graphic=172
 
-[poh_garden_button_model]
+[com_33]
 type=Sprite
 x=-3
 y=193
@@ -269,7 +269,7 @@ width=36
 height=36
 graphic=172
 
-[poh_parlour_button_main_layer]
+[com_34]
 type=Sprite
 x=-3
 y=229
@@ -277,7 +277,7 @@ width=36
 height=36
 graphic=172
 
-[poh_parlour_button_model]
+[com_35]
 type=Sprite
 x=-3
 y=265
@@ -285,7 +285,7 @@ width=36
 height=36
 graphic=172
 
-[poh_roommenu]
+[com_36]
 type=Sprite
 x=479
 y=50
@@ -293,7 +293,7 @@ width=36
 height=36
 graphic=315
 
-[poh_garden_button_main_layer]
+[com_37]
 type=Sprite
 x=479
 y=86
@@ -301,7 +301,7 @@ width=36
 height=36
 graphic=315
 
-[poh_kitchen_button_main_layer]
+[com_38]
 type=Sprite
 x=479
 y=122
@@ -309,7 +309,7 @@ width=36
 height=36
 graphic=315
 
-[poh_dining_button_main_layer]
+[com_39]
 type=Sprite
 x=479
 y=158
@@ -317,7 +317,7 @@ width=36
 height=36
 graphic=315
 
-[poh_workshop_button_main_layer]
+[com_40]
 type=Sprite
 x=479
 y=194
@@ -325,7 +325,7 @@ width=36
 height=36
 graphic=315
 
-[poh_bedroom_button_main_layer]
+[com_41]
 type=Sprite
 x=479
 y=230
@@ -333,7 +333,7 @@ width=36
 height=36
 graphic=315
 
-[poh_skilltroph_button_main_layer]
+[com_42]
 type=Sprite
 x=479
 y=266
@@ -341,7 +341,7 @@ width=36
 height=36
 graphic=315
 
-[poh_games_button_main_layer]
+[com_43]
 type=Sprite
 x=145
 y=299
@@ -349,7 +349,7 @@ width=36
 height=36
 graphic=173
 
-[poh_combat_button_main_layer]
+[com_44]
 type=Sprite
 x=181
 y=299
@@ -357,7 +357,7 @@ width=36
 height=36
 graphic=173
 
-[poh_questtroph_button_main_layer]
+[com_45]
 type=Sprite
 x=217
 y=299
@@ -365,7 +365,7 @@ width=36
 height=36
 graphic=173
 
-[poh_menagerie_button_main_layer]
+[com_46]
 type=Sprite
 x=253
 y=299
@@ -373,7 +373,7 @@ width=36
 height=36
 graphic=173
 
-[poh_study_button_main_layer]
+[com_47]
 type=Sprite
 x=289
 y=299
@@ -381,7 +381,7 @@ width=36
 height=36
 graphic=173
 
-[poh_costume_button_main_layer]
+[com_48]
 type=Sprite
 x=325
 y=299
@@ -389,7 +389,7 @@ width=36
 height=36
 graphic=173
 
-[poh_chapel_button_main_layer]
+[com_49]
 type=Sprite
 x=361
 y=299
@@ -397,7 +397,7 @@ width=36
 height=36
 graphic=173
 
-[poh_portal_button_main_layer]
+[com_50]
 type=Sprite
 x=397
 y=299
@@ -405,7 +405,7 @@ width=36
 height=36
 graphic=173
 
-[poh_formal_button_main_layer]
+[com_51]
 type=Sprite
 x=433
 y=299
@@ -413,7 +413,7 @@ width=36
 height=36
 graphic=173
 
-[poh_throne_button_main_layer]
+[com_52]
 type=Sprite
 x=108
 y=5
@@ -421,7 +421,7 @@ width=36
 height=36
 graphic=314
 
-[poh_aqua_button_main_layer]
+[com_53]
 type=Sprite
 x=144
 y=5
@@ -429,7 +429,7 @@ width=36
 height=36
 graphic=314
 
-[poh_oubliette_button_main_layer]
+[com_54]
 type=Sprite
 x=180
 y=5
@@ -437,7 +437,7 @@ width=36
 height=36
 graphic=314
 
-[poh_corridor_button_main_layer]
+[com_55]
 type=Sprite
 x=216
 y=5
@@ -445,7 +445,7 @@ width=36
 height=36
 graphic=314
 
-[poh_junction_button_main_layer]
+[com_56]
 type=Sprite
 x=252
 y=5
@@ -453,7 +453,7 @@ width=36
 height=36
 graphic=314
 
-[poh_stairs_button_main_layer]
+[com_57]
 type=Sprite
 x=288
 y=5
@@ -461,7 +461,7 @@ width=36
 height=36
 graphic=314
 
-[poh_pit_button_main_layer]
+[com_58]
 type=Sprite
 x=324
 y=5
@@ -469,7 +469,7 @@ width=36
 height=36
 graphic=314
 
-[poh_treasure_button_main_layer]
+[com_59]
 type=Sprite
 x=360
 y=5
@@ -477,7 +477,7 @@ width=36
 height=36
 graphic=314
 
-[poh_room_window]
+[com_60]
 type=Sprite
 x=396
 y=5
@@ -485,7 +485,7 @@ width=36
 height=36
 graphic=314
 
-[poh_room_background]
+[com_61]
 type=Sprite
 x=432
 y=5
@@ -493,7 +493,7 @@ width=36
 height=36
 graphic=314
 
-[poh_room_content]
+[com_62]
 type=Sprite
 x=252
 y=34
@@ -501,7 +501,7 @@ width=36
 height=36
 graphic=314
 
-[poh_dummy_scroll_bar_layer]
+[com_63]
 type=Sprite
 x=475
 y=20
@@ -509,7 +509,7 @@ width=25
 height=30
 graphic=311
 
-[scrollbar_layer]
+[com_64]
 type=Sprite
 x=439
 y=5
@@ -517,7 +517,7 @@ width=36
 height=36
 graphic=314
 
-[move_button_layer]
+[com_65]
 type=Sprite
 x=475
 y=290
@@ -525,7 +525,7 @@ width=25
 height=30
 graphic=313
 
-[poh_room_border]
+[com_66]
 type=Sprite
 x=439
 y=299
@@ -533,7 +533,7 @@ width=36
 height=36
 graphic=173
 
-[poh_room_close_button]
+[com_67]
 type=Text
 x=41
 y=30
@@ -545,7 +545,7 @@ font=496
 shadow=yes
 text="Room  Creation Menu"
 
-[poh_parlour_button_on_layer]
+[com_68]
 type=Sprite
 x=288
 y=34
@@ -553,7 +553,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button_over_layer]
+[com_69]
 type=Sprite
 x=324
 y=34
@@ -561,7 +561,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button_hit_layer]
+[com_70]
 type=Sprite
 x=360
 y=34
@@ -569,7 +569,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button_selected_layer]
+[com_71]
 type=Sprite
 x=396
 y=34
@@ -577,7 +577,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button]
+[com_72]
 type=Sprite
 x=432
 y=34
@@ -585,7 +585,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button_disabled_layer]
+[com_73]
 type=Sprite
 x=325
 y=140
@@ -593,7 +593,7 @@ width=88
 height=60
 graphic=297
 
-[poh_parlour_button_text_layer]
+[com_74]
 type=Sprite
 x=459
 y=34
@@ -601,7 +601,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button_text_req]
+[com_75]
 type=Sprite
 x=216
 y=34
@@ -609,7 +609,7 @@ width=36
 height=36
 graphic=314
 
-[poh_parlour_button_text]
+[com_76]
 type=Sprite
 x=180
 y=34
@@ -617,7 +617,7 @@ width=36
 height=36
 graphic=314
 
-[poh_garden_button_on_layer]
+[com_77]
 type=Sprite
 x=144
 y=34
@@ -625,7 +625,7 @@ width=36
 height=36
 graphic=314
 
-[poh_garden_button_over_layer]
+[com_78]
 type=Sprite
 x=108
 y=34
@@ -633,7 +633,7 @@ width=36
 height=36
 graphic=314
 
-[poh_garden_button_hit_layer]
+[poh_roommenu]
 type=Layer
 x=32
 y=80
@@ -641,7 +641,7 @@ width=332
 height=222
 scrollHeight=1279
 
-[poh_garden_button_selected_layer]
+[com_80]
 type=Model
 buttonType=Button
 x=14
@@ -655,7 +655,7 @@ modelXAn=202
 modelYAn=1800
 eventCode=flag22
 
-[poh_garden_button]
+[com_81]
 type=Model
 buttonType=Button
 x=11
@@ -669,7 +669,7 @@ modelXAn=79
 modelYAn=1841
 eventCode=flag22
 
-[poh_garden_button_disabled_layer]
+[com_82]
 type=Model
 buttonType=Button
 x=13
@@ -683,7 +683,7 @@ modelXAn=174
 modelYAn=272
 eventCode=flag22
 
-[poh_garden_button_text_layer]
+[com_83]
 type=Model
 buttonType=Button
 x=18
@@ -697,7 +697,7 @@ modelXAn=48
 modelYAn=403
 eventCode=flag22
 
-[poh_garden_button_text_req]
+[com_84]
 type=Model
 buttonType=Button
 x=18
@@ -711,7 +711,7 @@ modelXAn=78
 modelYAn=203
 eventCode=flag22
 
-[poh_garden_button_text]
+[com_85]
 type=Model
 buttonType=Button
 x=15
@@ -725,7 +725,7 @@ modelXAn=43
 modelYAn=1746
 eventCode=flag22
 
-[poh_kitchen_button_on_layer]
+[com_86]
 type=Model
 buttonType=Button
 x=19
@@ -739,7 +739,7 @@ modelXAn=100
 modelYAn=1831
 eventCode=flag22
 
-[poh_kitchen_button_over_layer]
+[com_87]
 type=Model
 buttonType=Button
 x=13
@@ -753,7 +753,7 @@ modelXAn=34
 modelYAn=97
 eventCode=flag22
 
-[poh_kitchen_button_hit_layer]
+[com_88]
 type=Model
 buttonType=Button
 x=38
@@ -767,7 +767,7 @@ modelXAn=127
 modelYAn=1831
 eventCode=flag22
 
-[poh_kitchen_button_selected_layer]
+[com_89]
 type=Model
 buttonType=Button
 x=16
@@ -781,7 +781,7 @@ modelXAn=86
 modelYAn=1994
 eventCode=flag22
 
-[poh_kitchen_button]
+[com_90]
 type=Model
 buttonType=Button
 x=19
@@ -795,7 +795,7 @@ modelXAn=96
 modelYAn=28
 eventCode=flag22
 
-[poh_kitchen_button_disabled_layer]
+[com_91]
 type=Model
 buttonType=Button
 x=19
@@ -809,7 +809,7 @@ modelXAn=222
 modelYAn=1901
 eventCode=flag22
 
-[poh_kitchen_button_text_layer]
+[com_92]
 type=Model
 buttonType=Button
 x=19
@@ -823,7 +823,7 @@ modelXAn=123
 modelYAn=1904
 eventCode=flag22
 
-[poh_kitchen_button_text_req]
+[com_93]
 type=Model
 buttonType=Button
 x=19
@@ -837,7 +837,7 @@ modelXAn=141
 modelYAn=1948
 eventCode=flag22
 
-[poh_dining_button_on_layer]
+[com_94]
 type=Model
 buttonType=Button
 x=23
@@ -851,7 +851,7 @@ modelXAn=114
 modelYAn=129
 eventCode=flag22
 
-[poh_dining_button_over_layer]
+[com_95]
 type=Model
 buttonType=Button
 x=17
@@ -865,7 +865,7 @@ modelXAn=108
 modelYAn=1868
 eventCode=flag22
 
-[poh_dining_button_hit_layer]
+[com_96]
 type=Model
 buttonType=Button
 x=-1
@@ -879,7 +879,7 @@ modelXAn=34
 modelYAn=496
 eventCode=flag22
 
-[poh_dining_button_selected_layer]
+[com_97]
 type=Model
 buttonType=Button
 x=23
@@ -893,7 +893,7 @@ modelXAn=28
 modelYAn=1850
 eventCode=flag22
 
-[poh_diningroom_button]
+[com_98]
 type=Model
 buttonType=Button
 x=17
@@ -907,7 +907,7 @@ modelXAn=111
 modelYAn=1836
 eventCode=flag22
 
-[poh_dining_button_disabled_layer]
+[com_99]
 type=Model
 buttonType=Button
 x=38
@@ -921,7 +921,7 @@ modelXAn=86
 modelYAn=525
 eventCode=flag22
 
-[poh_dining_button_text_layer]
+[com_100]
 type=Model
 buttonType=Button
 x=10
@@ -935,7 +935,7 @@ modelXAn=35
 modelYAn=1360
 eventCode=flag22
 
-[poh_dining_button_text_req]
+[com_101]
 type=Model
 buttonType=Button
 y=1129
@@ -948,7 +948,7 @@ modelXAn=92
 modelYAn=93
 eventCode=flag22
 
-[poh_workshop_button_on_layer]
+[com_102]
 type=Model
 buttonType=Button
 x=-3
@@ -962,7 +962,7 @@ modelXAn=86
 modelYAn=525
 eventCode=flag22
 
-[poh_workshop_button_over_layer]
+[com_103]
 type=Model
 buttonType=Button
 x=36
@@ -976,7 +976,7 @@ modelXAn=92
 modelYAn=933
 eventCode=flag22
 
-[poh_workshop_button_hit_layer]
+[com_104]
 type=Model
 buttonType=Button
 x=39
@@ -990,7 +990,7 @@ modelXAn=86
 modelYAn=525
 eventCode=flag22
 
-[poh_workshop_button_selected_layer]
+[com_105]
 type=Model
 buttonType=Button
 x=13
@@ -1004,7 +1004,7 @@ modelXAn=86
 modelYAn=525
 eventCode=flag22
 
-[poh_workshop_button]
+[com_106]
 type=Model
 buttonType=Button
 x=-3
@@ -1018,7 +1018,7 @@ modelXAn=86
 modelYAn=525
 eventCode=flag22
 
-[poh_workshop_button_disabled_layer]
+[com_107]
 type=Rectangle
 x=32
 y=80
@@ -1026,7 +1026,7 @@ width=349
 height=222
 colour=0x333333
 
-[poh_workshop_button_text_layer]
+[com_108]
 type=Text
 x=78
 y=19
@@ -1039,7 +1039,7 @@ font=495
 shadow=yes
 text="Parlour: Lvl 1"
 
-[poh_workshop_button_text_req]
+[com_109]
 type=Text
 x=78
 y=83
@@ -1052,7 +1052,7 @@ font=495
 shadow=yes
 text="Garden: Lvl 1"
 
-[poh_bedroom_button_on_layer]
+[com_110]
 type=Text
 x=78
 y=142
@@ -1065,7 +1065,7 @@ font=495
 shadow=yes
 text="Kitchen: Lvl 5"
 
-[poh_bedroom_button_over_layer]
+[com_111]
 type=Text
 x=78
 y=205
@@ -1078,7 +1078,7 @@ font=495
 shadow=yes
 text="Dining room: Lvl 10"
 
-[poh_bedroom_button_hit_layer]
+[com_112]
 type=Text
 x=78
 y=264
@@ -1091,7 +1091,7 @@ font=495
 shadow=yes
 text="Workshop: Lvl 15"
 
-[poh_bedroom_button_selected_layer]
+[com_113]
 type=Text
 x=78
 y=322
@@ -1104,7 +1104,7 @@ font=495
 shadow=yes
 text="Bedroom: Lvl 20"
 
-[poh_bedroom_button]
+[com_114]
 type=Text
 x=78
 y=383
@@ -1117,7 +1117,7 @@ font=495
 shadow=yes
 text="Hall - Skill trophies: Lvl 25"
 
-[poh_bedroom_button_disabled_layer]
+[com_115]
 type=Text
 x=78
 y=445
@@ -1130,7 +1130,7 @@ font=495
 shadow=yes
 text="Games room: Lvl 30"
 
-[poh_bedroom_button_text_layer]
+[com_116]
 type=Text
 x=78
 y=504
@@ -1143,7 +1143,7 @@ font=495
 shadow=yes
 text="Combat room: Lvl 32"
 
-[poh_bedroom_button_text_req]
+[com_117]
 type=Text
 x=69
 y=562
@@ -1157,7 +1157,7 @@ font=495
 shadow=yes
 text="Hall - Quest trophies: Lvl 35"
 
-[poh_skilltroph_button_on_layer]
+[com_118]
 type=Text
 x=78
 y=623
@@ -1170,7 +1170,7 @@ font=495
 shadow=yes
 text="Study: Lvl 40"
 
-[poh_skilltroph_button_over_layer]
+[com_119]
 type=Text
 x=78
 y=684
@@ -1183,7 +1183,7 @@ font=495
 shadow=yes
 text="Costume room: Lvl 42"
 
-[poh_skilltroph_button_hit_layer]
+[com_120]
 type=Text
 x=78
 y=745
@@ -1196,7 +1196,7 @@ font=495
 shadow=yes
 text="Chapel: Lvl 45"
 
-[poh_skilltroph_button_selected_layer]
+[com_121]
 type=Text
 x=78
 y=804
@@ -1209,7 +1209,7 @@ font=495
 shadow=yes
 text="Portal chamber: Lvl 50"
 
-[poh_skillhall_button]
+[com_122]
 type=Text
 x=78
 y=864
@@ -1222,7 +1222,7 @@ font=495
 shadow=yes
 text="Formal garden: Lvl 55"
 
-[poh_skilltroph_button_disabled_layer]
+[com_123]
 type=Text
 x=80
 y=923
@@ -1235,7 +1235,7 @@ font=495
 shadow=yes
 text="Throne room: Lvl 60"
 
-[poh_skilltroph_button_text_layer]
+[com_124]
 type=Text
 x=78
 y=986
@@ -1248,7 +1248,7 @@ font=495
 shadow=yes
 text="Oubliette: Lvl 65"
 
-[poh_skilltroph_button_text_req]
+[com_125]
 type=Text
 x=78
 y=1044
@@ -1261,7 +1261,7 @@ font=495
 shadow=yes
 text="Dungeon - Corridor: Lvl 70"
 
-[poh_games_button_on_layer]
+[com_126]
 type=Text
 x=79
 y=1103
@@ -1274,7 +1274,7 @@ font=495
 shadow=yes
 text="Dungeon - Junction: Lvl 70"
 
-[poh_games_button_over_layer]
+[com_127]
 type=Text
 x=79
 y=1167
@@ -1287,7 +1287,7 @@ font=495
 shadow=yes
 text="Dungeon - Stairs: Lvl 70"
 
-[poh_games_button_hit_layer]
+[com_128]
 type=Sprite
 x=12
 y=20
@@ -1295,7 +1295,7 @@ width=88
 height=60
 graphic=297
 
-[poh_games_button_selected_layer]
+[com_129]
 type=Sprite
 x=37
 y=5
@@ -1303,7 +1303,7 @@ width=36
 height=36
 graphic=314
 
-[poh_gamesroom_button]
+[com_130]
 type=Sprite
 x=72
 y=5
@@ -1311,7 +1311,7 @@ width=36
 height=36
 graphic=314
 
-[poh_games_button_disabled_layer]
+[com_131]
 type=Sprite
 x=17
 y=34
@@ -1319,7 +1319,7 @@ width=36
 height=36
 graphic=314
 
-[poh_games_button_text_layer]
+[com_132]
 type=Sprite
 x=36
 y=34
@@ -1327,7 +1327,7 @@ width=36
 height=36
 graphic=314
 
-[poh_games_button_text_req]
+[com_133]
 type=Sprite
 x=72
 y=34
@@ -1335,7 +1335,7 @@ width=36
 height=36
 graphic=314
 
-[poh_combat_button_on_layer]
+[com_134]
 type=Sprite
 x=-3
 y=49
@@ -1343,7 +1343,7 @@ width=36
 height=36
 graphic=172
 
-[poh_combat_button_over_layer]
+[com_135]
 type=Sprite
 x=12
 y=20
@@ -1351,7 +1351,7 @@ width=25
 height=30
 graphic=310
 
-[poh_combat_button_hit_layer]
+[com_136]
 type=Rectangle
 x=11
 y=-27
@@ -1359,7 +1359,7 @@ width=374
 height=47
 fill=yes
 
-[poh_combat_button_selected_layer]
+[com_137]
 type=Text
 x=21
 y=60
@@ -1370,7 +1370,7 @@ font=495
 shadow=yes
 text="Select a room to build"
 
-[poh_combatroom_button]
+[com_138]
 type=Text
 x=245
 y=34
@@ -1386,7 +1386,7 @@ text="1000 coins"
 script1=gt,999
 script1op1=varp,if1
 
-[poh_combat_button_disabled_layer]
+[com_139]
 type=Text
 x=245
 y=94
@@ -1402,7 +1402,7 @@ text="1000 coins"
 script1=gt,499
 script1op1=varp,if1
 
-[poh_combat_button_text_layer]
+[com_140]
 type=Text
 x=245
 y=154
@@ -1418,7 +1418,7 @@ text="5000 coins"
 script1=gt,1249
 script1op1=varp,if1
 
-[poh_combat_button_text_req]
+[com_141]
 type=Text
 x=245
 y=214
@@ -1434,7 +1434,7 @@ text="5000 coins"
 script1=gt,1499
 script1op1=varp,if1
 
-[poh_questtroph_button_on_layer]
+[com_142]
 type=Text
 x=245
 y=274
@@ -1450,7 +1450,7 @@ text="10000 coins"
 script1=gt,1499
 script1op1=varp,if1
 
-[poh_questtroph_button_over_layer]
+[com_143]
 type=Text
 x=245
 y=334
@@ -1466,7 +1466,7 @@ text="10000 coins"
 script1=gt,1499
 script1op1=varp,if1
 
-[poh_questtroph_button_hit_layer]
+[com_144]
 type=Text
 x=245
 y=394
@@ -1482,7 +1482,7 @@ text="15000 coins"
 script1=gt,1999
 script1op1=varp,if1
 
-[poh_questtroph_button_selected_layer]
+[com_145]
 type=Text
 x=245
 y=454
@@ -1498,7 +1498,7 @@ text="25000 coins"
 script1=gt,2499
 script1op1=varp,if1
 
-[poh_questhall_button]
+[com_146]
 type=Text
 x=245
 y=513
@@ -1514,7 +1514,7 @@ text="25000 coins"
 script1=gt,2499
 script1op1=varp,if1
 
-[poh_questtroph_button_disabled_layer]
+[com_147]
 type=Text
 x=245
 y=575
@@ -1530,7 +1530,7 @@ text="25000 coins"
 script1=gt,1999
 script1op1=varp,if1
 
-[poh_questtroph_button_text_layer]
+[com_148]
 type=Text
 x=245
 y=635
@@ -1546,7 +1546,7 @@ text="50000 coins"
 script1=gt,2499
 script1op1=varp,if1
 
-[poh_questtroph_button_text_req]
+[com_149]
 type=Text
 x=245
 y=696
@@ -1562,7 +1562,7 @@ text="50000 coins"
 script1=gt,2999
 script1op1=varp,if1
 
-[poh_menagerie_button_on_layer]
+[com_150]
 type=Text
 x=245
 y=756
@@ -1578,7 +1578,7 @@ text="50000 coins"
 script1=gt,2999
 script1op1=varp,if1
 
-[poh_menagerie_button_over_layer]
+[com_151]
 type=Text
 x=245
 y=816
@@ -1594,7 +1594,7 @@ text="100000 coins"
 script1=gt,2999
 script1op1=varp,if1
 
-[poh_menagerie_button_hit_layer]
+[com_152]
 type=Text
 x=245
 y=876
@@ -1610,7 +1610,7 @@ text="75000 coins"
 script1=gt,2999
 script1op1=varp,if1
 
-[poh_menagerie_button_selected_layer]
+[com_153]
 type=Text
 x=245
 y=937
@@ -1626,7 +1626,7 @@ text="150000 coins"
 script1=gt,9999
 script1op1=varp,if1
 
-[poh_menagerie_button]
+[com_154]
 type=Text
 x=245
 y=997
@@ -1642,7 +1642,7 @@ text="150000 coins"
 script1=gt,9999
 script1op1=varp,if1
 
-[poh_menagerie_button_disabled_layer]
+[com_155]
 type=Text
 x=245
 y=1057
@@ -1658,7 +1658,7 @@ text="7500 coins"
 script1=gt,4999
 script1op1=varp,if1
 
-[poh_menagerie_button_text_layer]
+[com_156]
 type=Text
 x=245
 y=1117
@@ -1674,7 +1674,7 @@ text="7500 coins"
 script1=gt,4999
 script1op1=varp,if1
 
-[poh_menagerie_button_text_req]
+[com_157]
 type=Text
 x=245
 y=1178
@@ -1690,7 +1690,7 @@ text="7500 coins"
 script1=gt,4999
 script1op1=varp,if1
 
-[poh_study_button_on_layer]
+[com_158]
 type=Text
 x=78
 y=1227
@@ -1703,7 +1703,7 @@ font=495
 shadow=yes
 text="Treasure room: Lvl 75"
 
-[poh_study_button_over_layer]
+[com_159]
 type=Text
 x=245
 y=1238
@@ -1719,7 +1719,7 @@ text="250000 coins"
 script1=gt,4999
 script1op1=varp,if1
 
-[poh_study_button_hit_layer]
+[poh_parlour_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1730,7 +1730,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_study_button_selected_layer]
+[poh_garden_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1741,7 +1741,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_study_button]
+[poh_kitchen_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1752,7 +1752,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_study_button_disabled_layer]
+[poh_diningroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1763,7 +1763,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_study_button_text_layer]
+[poh_workshop_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1774,7 +1774,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_study_button_text_req]
+[poh_bedroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1785,7 +1785,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_on_layer]
+[poh_skillhall_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1796,7 +1796,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_over_layer]
+[poh_gamesroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1807,7 +1807,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_hit_layer]
+[poh_combatroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1818,7 +1818,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_selected_layer]
+[poh_questhall_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1829,7 +1829,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costumeroom_button]
+[poh_study_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1840,7 +1840,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_disabled_layer]
+[com_171]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1851,7 +1851,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_text_layer]
+[poh_chapel_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1862,7 +1862,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_costume_button_text_req]
+[poh_teleroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1873,7 +1873,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_on_layer]
+[poh_formalgarden_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1884,7 +1884,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_over_layer]
+[poh_throneroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1895,7 +1895,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_hit_layer]
+[poh_oubliette_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1906,7 +1906,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_selected_layer]
+[poh_dungeoncorridor_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1917,7 +1917,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button]
+[poh_dungeoncross_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1928,7 +1928,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_disabled_layer]
+[poh_dungeonstairs_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1939,7 +1939,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_text_layer]
+[poh_treasureroom_button]
 type=Rectangle
 buttonType=Button
 x=2
@@ -1950,7 +1950,7 @@ layerId=26345551
 colour=0x333300
 eventCode=flag22
 
-[poh_chapel_button_text_req]
+[m]
 type=Sprite
 x=28
 y=302
@@ -1958,7 +1958,7 @@ width=150
 height=10
 graphic=297
 
-[poh_portal_button_on_layer]
+[com_182]
 type=Sprite
 x=12
 y=290
@@ -1966,7 +1966,7 @@ width=25
 height=30
 graphic=312
 
-[poh_portal_button_over_layer]
+[com_183]
 type=Sprite
 x=73
 y=299
@@ -1974,7 +1974,7 @@ width=36
 height=36
 graphic=173
 
-[poh_portal_button_hit_layer]
+[com_184]
 type=Sprite
 x=37
 y=299
@@ -1982,7 +1982,7 @@ width=36
 height=36
 graphic=173
 
-[poh_portal_button_selected_layer]
+[com_185]
 type=Sprite
 x=109
 y=299
@@ -1990,7 +1990,7 @@ width=36
 height=36
 graphic=173
 
-[poh_teleroom_button]
+[com_186]
 type=Rectangle
 x=24
 y=319
@@ -1998,7 +1998,7 @@ width=123
 height=32
 fill=yes
 
-[poh_portal_button_disabled_layer]
+[com_187]
 type=Sprite
 x=471
 y=26
@@ -2007,7 +2007,7 @@ height=23
 overLayerId=189
 graphic=535
 
-[poh_portal_button_text_layer]
+[com_188]
 type=Sprite
 buttonType=Close
 x=4
@@ -2018,7 +2018,7 @@ layerId=26345661
 graphic=536
 buttonText="Ok"
 
-[poh_portal_button_text_req]
+[com_189]
 type=Layer
 x=467
 y=23

@@ -20,7 +20,7 @@ modelZoom=537
 modelXAn=236
 modelYAn=2046
 
-[vill_com_layer]
+[tbw_village_score]
 type=Text
 x=131
 y=2
@@ -33,14 +33,14 @@ shadow=yes
 text="%1 %"
 script1op1=varbit,favour_percentage
 
-[content_layer_1]
+[vill_com_layer]
 type=Layer
 x=328
 y=17
 width=165
 height=20
 
-[tbw_village_score]
+[village_community]
 type=Text
 x=6
 y=2

@@ -1,4 +1,4 @@
-[pest_status_port4]
+[pest_status_over_time]
 type=Text
 x=5
 y=87
@@ -9,7 +9,7 @@ font=494
 shadow=yes
 text="%1 Min"
 
-[pest_status_port3]
+[pest_status_over_health]
 type=Text
 x=29
 y=32
@@ -20,7 +20,7 @@ font=494
 shadow=yes
 text="%100"
 
-[pest_status_port2]
+[pest_status_port1]
 type=Model
 x=350
 y=39
@@ -29,7 +29,7 @@ height=32
 model1Id=15285
 modelZoom=5000
 
-[pest_status_port1]
+[pest_status_port2]
 type=Model
 x=387
 y=39
@@ -38,7 +38,7 @@ height=32
 model1Id=15286
 modelZoom=5000
 
-[portal_w]
+[pest_status_port3]
 type=Model
 x=425
 y=39
@@ -47,7 +47,7 @@ height=32
 model1Id=15287
 modelZoom=5000
 
-[pest_status_porttxt1]
+[pest_status_port4]
 type=Model
 x=463
 y=39
@@ -56,7 +56,7 @@ height=32
 model1Id=15288
 modelZoom=5000
 
-[purple_shield]
+[com_6]
 type=Model
 y=76
 width=32
@@ -65,7 +65,7 @@ model1Id=15289
 modelZoom=1800
 modelXAn=3
 
-[pest_portal_shield_1]
+[pest_portal_1_done]
 type=Model
 x=350
 y=24
@@ -77,7 +77,7 @@ modelXAn=540
 script1=gt,0
 script1op1=varbit,varbit_2226
 
-[pest_portal_destoryed_1]
+[pest_portal_2_done]
 type=Model
 x=387
 y=24
@@ -89,7 +89,7 @@ modelXAn=540
 script1=gt,0
 script1op1=varbit,varbit_2227
 
-[com_9]
+[pest_portal_3_done]
 type=Model
 x=425
 y=24
@@ -101,7 +101,7 @@ modelXAn=546
 script1=gt,0
 script1op1=varbit,varbit_2228
 
-[portal_e]
+[pest_portal_4_done]
 type=Model
 x=463
 y=24
@@ -113,7 +113,7 @@ modelXAn=540
 script1=gt,0
 script1op1=varbit,varbit_2229
 
-[portal_se]
+[pest_status_over_dam]
 type=Text
 x=29
 y=60
@@ -124,7 +124,7 @@ font=494
 shadow=yes
 text="0"
 
-[portal_sw]
+[com_12]
 type=Model
 y=49
 width=32
@@ -133,7 +133,7 @@ model1Id=15284
 modelZoom=2056
 modelXAn=579
 
-[pest_status_porttxt4]
+[pest_status_porttxt1]
 type=Text
 x=356
 y=10
@@ -144,7 +144,7 @@ font=494
 shadow=yes
 text="100"
 
-[red_shield]
+[pest_status_porttxt2]
 type=Text
 x=393
 y=10
@@ -166,7 +166,7 @@ font=494
 shadow=yes
 text="100"
 
-[com_16]
+[pest_status_porttxt4]
 type=Text
 x=470
 y=10
@@ -177,7 +177,7 @@ font=494
 shadow=yes
 text="100"
 
-[pest_portal_shield_4]
+[shield1]
 type=Model
 width=32
 height=32
@@ -185,14 +185,14 @@ layerId=26738706
 model1Id=27167
 modelZoom=3500
 
-[yellow_shield]
+[purple_shield]
 type=Layer
 x=350
 y=46
 width=32
 height=32
 
-[pest_portal_destoryed_4]
+[shield2]
 type=Model
 width=32
 height=32
@@ -200,14 +200,14 @@ layerId=26738708
 model1Id=27167
 modelZoom=3500
 
-[pest_status_porttxt2]
+[blue_shield]
 type=Layer
 x=387
 y=46
 width=32
 height=32
 
-[com_21]
+[shield3]
 type=Model
 width=32
 height=32
@@ -215,14 +215,14 @@ layerId=26738710
 model1Id=27167
 modelZoom=3500
 
-[blue_shield]
+[yellow_shield]
 type=Layer
 x=425
 y=46
 width=32
 height=32
 
-[pest_portal_shield_3]
+[shield4]
 type=Model
 width=32
 height=32
@@ -230,14 +230,14 @@ layerId=26738712
 model1Id=27167
 modelZoom=3500
 
-[com_24]
+[red_shield]
 type=Layer
 x=463
 y=46
 width=32
 height=32
 
-[pest_portal_destoryed_3]
+[com_25]
 type=Text
 x=361
 y=60
@@ -248,7 +248,7 @@ font=495
 shadow=yes
 text="W"
 
-[pest_portal_shield_2]
+[com_26]
 type=Text
 x=399
 y=60
@@ -259,7 +259,7 @@ font=495
 shadow=yes
 text="E"
 
-[pest_portal_destoryed_2]
+[com_27]
 type=Text
 x=433
 y=60
@@ -270,7 +270,7 @@ font=495
 shadow=yes
 text="SE"
 
-[game_info]
+[com_28]
 type=Text
 x=470
 y=60

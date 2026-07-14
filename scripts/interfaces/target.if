@@ -1,4 +1,4 @@
-[board]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[dart_bull]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[dart_1]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[dart_4]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[dart_6]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[dart_5]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[dart_9]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[dart_3]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[dart_8]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[dart_2]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[dart_7]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[dart_10]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[score_title]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[score_text]
+[com_14]
 type=Sprite
 x=188
 y=260
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[left10]
+[com_21]
 type=Sprite
 x=364
 y=140
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[left9]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[left8]
+[com_23]
 type=Sprite
 x=364
 y=200
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[left7]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[left6]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[left5]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -214,7 +214,7 @@ width=88
 height=60
 graphic=297
 
-[left4]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -222,7 +222,7 @@ width=88
 height=60
 graphic=297
 
-[left3]
+[com_28]
 type=Sprite
 x=412
 y=200
@@ -230,7 +230,7 @@ width=88
 height=60
 graphic=297
 
-[left2]
+[com_29]
 type=Sprite
 x=412
 y=260
@@ -238,7 +238,7 @@ width=88
 height=60
 graphic=297
 
-[left1]
+[com_30]
 type=Sprite
 x=12
 y=20
@@ -246,7 +246,7 @@ width=25
 height=30
 graphic=310
 
-[dart_hitmiss]
+[com_31]
 type=Sprite
 x=-3
 y=49
@@ -254,7 +254,7 @@ width=36
 height=36
 graphic=172
 
-[modal_dialog_window]
+[com_32]
 type=Sprite
 x=-3
 y=85
@@ -262,7 +262,7 @@ width=36
 height=36
 graphic=172
 
-[modal_dialog_window_background]
+[com_33]
 type=Sprite
 x=-3
 y=121
@@ -270,7 +270,7 @@ width=36
 height=36
 graphic=172
 
-[modal_dialog_window_content]
+[com_34]
 type=Sprite
 x=-3
 y=157
@@ -278,7 +278,7 @@ width=36
 height=36
 graphic=172
 
-[modal_dialog_window_border]
+[com_35]
 type=Sprite
 x=-3
 y=193
@@ -286,7 +286,7 @@ width=36
 height=36
 graphic=172
 
-[modal_dialog_window_close_button]
+[com_36]
 type=Sprite
 x=-3
 y=229
@@ -722,7 +722,7 @@ layerId=21299290
 graphic=536
 buttonText="Ok"
 
-[com_90]
+[dart_close_button]
 type=Layer
 x=465
 y=22
@@ -740,7 +740,7 @@ model1Id=10369
 modelZoom=360
 modelXAn=97
 
-[com_92]
+[dart_bull]
 type=Model
 x=253
 y=172
@@ -780,7 +780,7 @@ modelYAn=1200
 script1=lt,11
 script1op1=varp,targetcount
 
-[com_95]
+[dart_1]
 type=Model
 x=256
 y=131
@@ -794,7 +794,7 @@ modelYAn=150
 script1=eq,1
 script1op1=varp,targethit
 
-[com_96]
+[dart_4]
 type=Model
 x=290
 y=193
@@ -808,7 +808,7 @@ modelYAn=150
 script1=eq,4
 script1op1=varp,targethit
 
-[com_97]
+[dart_6]
 type=Model
 x=247
 y=233
@@ -822,7 +822,7 @@ modelYAn=150
 script1=eq,6
 script1op1=varp,targethit
 
-[com_98]
+[dart_5]
 type=Model
 x=193
 y=189
@@ -836,7 +836,7 @@ modelYAn=150
 script1=eq,5
 script1op1=varp,targethit
 
-[com_99]
+[dart_9]
 type=Model
 x=191
 y=90
@@ -850,7 +850,7 @@ modelYAn=150
 script1=eq,9
 script1op1=varp,targethit
 
-[com_100]
+[dart_3]
 type=Model
 x=215
 y=126
@@ -864,7 +864,7 @@ modelYAn=150
 script1=eq,3
 script1op1=varp,targethit
 
-[com_101]
+[dart_8]
 type=Model
 x=298
 y=101
@@ -878,7 +878,7 @@ modelYAn=150
 script1=eq,8
 script1op1=varp,targethit
 
-[com_102]
+[dart_2]
 type=Model
 x=294
 y=144
@@ -892,7 +892,7 @@ modelYAn=150
 script1=eq,2
 script1op1=varp,targethit
 
-[com_103]
+[dart_7]
 type=Model
 x=328
 y=163
@@ -906,7 +906,7 @@ modelYAn=150
 script1=eq,7
 script1op1=varp,targethit
 
-[com_104]
+[dart_10]
 type=Model
 x=275
 y=61
@@ -944,7 +944,7 @@ font=495
 shadow=yes
 text="Score:"
 
-[com_107]
+[score_text]
 type=Text
 x=420
 y=169
@@ -1140,7 +1140,7 @@ modelYAn=1200
 script1=lt,2
 script1op1=varp,targetcount
 
-[com_123]
+[dart_hitmiss]
 type=Text
 x=207
 y=111

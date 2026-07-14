@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=-477
 y=-40
@@ -10,7 +10,7 @@ modelXOf=17
 modelYOf=205
 discardedModelField=0
 
-[mainmodal_window_background]
+[com_1]
 type=Text
 x=58
 y=58
@@ -21,7 +21,7 @@ hAlign=Center
 font=645
 text="The runes must be in sets of three, I think, but I have had no luck in completing this conundrum. Perhaps, if my Thieving skills were greater, I could in some way interfere with the mechanism. May those who follow have more luck in this accursed place.<br>-Toralis of Menaphos"
 
-[mainmodal_window_content]
+[com_2]
 type=Sprite
 x=470
 y=10

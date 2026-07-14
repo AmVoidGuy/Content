@@ -1,4 +1,4 @@
-[build]
+[com_0]
 type=Rectangle
 x=17
 y=25
@@ -8,7 +8,7 @@ trans=200
 fill=yes
 baseOpName="    "
 
-[click]
+[com_1]
 type=Sprite
 x=14
 y=25
@@ -17,7 +17,7 @@ height=300
 graphic=297
 tiling=yes
 
-[items_container]
+[com_2]
 type=Rectangle
 x=27
 y=88
@@ -27,7 +27,7 @@ trans=224
 fill=yes
 baseOpName="    "
 
-[items_scrollbar]
+[com_3]
 type=Sprite
 y=53
 width=32
@@ -35,7 +35,7 @@ height=241
 graphic=821
 tiling=yes
 
-[xp_container]
+[com_4]
 type=Sprite
 x=13
 y=20
@@ -43,7 +43,7 @@ width=32
 height=32
 graphic=824
 
-[mainmodal_window]
+[com_5]
 type=Sprite
 x=480
 y=51
@@ -61,7 +61,7 @@ height=34
 graphic=820
 tiling=yes
 
-[xp]
+[com_7]
 type=Sprite
 x=45
 y=306
@@ -70,7 +70,7 @@ height=32
 graphic=822
 tiling=yes
 
-[bg]
+[close_button]
 type=Sprite
 x=474
 y=30
@@ -83,7 +83,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onop=29
 
-[xp_message]
+[com_9]
 type=Sprite
 x=13
 y=294
@@ -91,7 +91,7 @@ width=32
 height=32
 graphic=826
 
-[xp_confirm]
+[com_10]
 type=Sprite
 x=468
 y=20
@@ -99,7 +99,7 @@ width=32
 height=32
 graphic=825
 
-[xp_cancel]
+[com_11]
 type=Sprite
 x=468
 y=294
@@ -107,7 +107,7 @@ width=32
 height=32
 graphic=827
 
-[mainmodal_window_background]
+[com_12]
 type=Sprite
 x=24
 y=35
@@ -116,7 +116,7 @@ height=32
 graphic=828
 tiling=yes
 
-[mainmodal_window_content]
+[com_13]
 type=Sprite
 x=13
 y=37
@@ -124,7 +124,7 @@ width=32
 height=32
 graphic=829
 
-[mainmodal_window_border]
+[com_14]
 type=Sprite
 x=468
 y=37
@@ -132,7 +132,7 @@ width=32
 height=32
 graphic=830
 
-[mainmodal_window_close_button]
+[com_15]
 type=Sprite
 x=19
 y=65
@@ -150,7 +150,7 @@ height=32
 graphic=851
 tiling=yes
 
-[com_17]
+[shop_title]
 type=Text
 x=18
 y=27
@@ -163,7 +163,7 @@ font=496
 shadow=yes
 text="Mrs. Winkin's World of Seeds"
 
-[com_18]
+[tomato]
 type=Model
 x=40
 y=106
@@ -246,7 +246,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Watermelon seeds",25,50
 
-[com_22]
+[guam]
 type=Model
 x=213
 y=103
@@ -290,7 +290,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Marrentill seeds",25,50
 
-[com_24]
+[ranarr]
 type=Model
 x=301
 y=103
@@ -312,7 +312,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Ranarr seeds",25,50
 
-[com_25]
+[kwuarm]
 type=Model
 x=345
 y=103
@@ -334,7 +334,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Kwuarm seeds",25,50
 
-[com_26]
+[tarromin]
 type=Model
 x=389
 y=103
@@ -484,7 +484,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Redberry seeds",25,50
 
-[com_33]
+[fade_to_black_prayers]
 type=Model
 x=282
 y=146
@@ -589,7 +589,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Poison ivy seeds",25,50
 
-[com_38]
+[acorn]
 type=Model
 x=83
 y=191
@@ -611,7 +611,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Acorns",25,50
 
-[com_39]
+[willow]
 type=Model
 x=125
 y=197
@@ -632,7 +632,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Willow tree seeds",25,50
 
-[com_40]
+[maple]
 type=Model
 x=167
 y=197
@@ -653,7 +653,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Maple tree seeds",25,50
 
-[com_41]
+[pineapple]
 type=Model
 x=211
 y=197
@@ -674,7 +674,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Pineapple tree seeds",25,50
 
-[com_42]
+[yew]
 type=Model
 x=255
 y=196
@@ -718,7 +718,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Palm tree seeds",25,50
 
-[com_44]
+[spirittree]
 type=Model
 x=352
 y=193
@@ -740,7 +740,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Spirit tree seeds",25,50
 
-[com_45]
+[supercompost]
 type=Model
 x=398
 y=190
@@ -761,7 +761,7 @@ opName4="Buy X"
 onmouseleave=40,44957755
 onmouserepeat=38,component.parentId,44957755,"Super compost potion",25,50
 
-[com_46]
+[flag]
 type=Model
 x=432
 y=194
@@ -882,7 +882,7 @@ onload=864
 onvartransmit=864
 onvartransmitlist=1195
 
-[com_56]
+[rabbit_points]
 type=Text
 x=290
 y=58
@@ -906,12 +906,12 @@ font=495
 shadow=yes
 text="Total points remaining :"
 
-[com_58]
+[tooltip_box]
 type=Layer
 width=512
 height=334
 
-[com_59]
+[tooltip_build]
 type=Layer
 x=8
 y=9

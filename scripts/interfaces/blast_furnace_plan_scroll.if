@@ -1,4 +1,4 @@
-[layer_1]
+[com_0]
 type=Model
 x=219
 y=136
@@ -9,7 +9,7 @@ modelZoom=886
 modelXAn=420
 modelYAn=1
 
-[com_1]
+[x_2]
 type=Model
 x=360
 y=170
@@ -21,7 +21,7 @@ modelZoom=1808
 modelXAn=420
 modelYAn=1
 
-[x_2]
+[com_2]
 type=Text
 x=85
 y=57
@@ -149,7 +149,7 @@ font=494
 shadow=yes
 text="Coke"
 
-[com_12]
+[x_1]
 type=Model
 x=301
 y=114
@@ -161,7 +161,7 @@ modelZoom=1808
 modelXAn=420
 modelYAn=1
 
-[x_1]
+[x_3]
 type=Model
 x=362
 y=226
@@ -173,7 +173,7 @@ modelZoom=1808
 modelXAn=420
 modelYAn=1
 
-[x_3]
+[x_4]
 type=Model
 x=258
 y=263

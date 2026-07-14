@@ -20,7 +20,7 @@ font=496
 shadow=yes
 text="Windspeed:"
 
-[ahoy_windspeed_indicator]
+[int_deathmatch]
 type=Text
 x=459
 y=7

@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=488
 height=304
 graphic=297
 
-[mainmodal_window_background]
+[bankpin_aa]
 type=Sprite
 x=33
 y=103
@@ -18,7 +18,7 @@ opName0="Enter digit"
 onmouseover=69,1,851979
 onmouseleave=69,0,851979
 
-[mainmodal_window_content]
+[bankpin_bb]
 type=Sprite
 x=127
 y=103
@@ -30,7 +30,7 @@ opName0="Enter digit"
 onmouseover=69,1,851980
 onmouseleave=69,0,851980
 
-[com_3]
+[bankpin_cc]
 type=Sprite
 x=221
 y=103
@@ -42,7 +42,7 @@ opName0="Enter digit"
 onmouseover=69,1,851981
 onmouseleave=69,0,851981
 
-[numberbuttons]
+[bankpin_dd]
 type=Sprite
 x=305
 y=103
@@ -54,7 +54,7 @@ opName0="Enter digit"
 onmouseover=69,1,851982
 onmouseleave=69,0,851982
 
-[0]
+[bankpin_ee]
 type=Sprite
 x=33
 y=175
@@ -66,7 +66,7 @@ opName0="Enter digit"
 onmouseover=69,1,851983
 onmouseleave=69,0,851983
 
-[1]
+[bankpin_ff]
 type=Sprite
 x=127
 y=175
@@ -78,7 +78,7 @@ opName0="Enter digit"
 onmouseover=69,1,851984
 onmouseleave=69,0,851984
 
-[2]
+[bankpin_gg]
 type=Sprite
 x=221
 y=175
@@ -90,7 +90,7 @@ opName0="Enter digit"
 onmouseover=69,1,851985
 onmouseleave=69,0,851985
 
-[3]
+[bankpin_hh]
 type=Sprite
 x=33
 y=247
@@ -102,7 +102,7 @@ opName0="Enter digit"
 onmouseover=69,1,851986
 onmouseleave=69,0,851986
 
-[4]
+[bankpin_ii]
 type=Sprite
 x=127
 y=247
@@ -114,7 +114,7 @@ opName0="Enter digit"
 onmouseover=69,1,851987
 onmouseleave=69,0,851987
 
-[5]
+[bankpin_jj]
 type=Sprite
 x=221
 y=247
@@ -126,7 +126,7 @@ opName0="Enter digit"
 onmouseover=69,1,851988
 onmouseleave=69,0,851988
 
-[6]
+[bankpin_a]
 type=Text
 x=37
 y=149
@@ -139,7 +139,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[7]
+[bankpin_b]
 type=Text
 x=131
 y=149
@@ -152,7 +152,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[8]
+[bankpin_c]
 type=Text
 x=225
 y=149
@@ -165,7 +165,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[9]
+[bankpin_d]
 type=Text
 x=309
 y=149
@@ -178,7 +178,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[com_15]
+[bankpin_e]
 type=Text
 x=37
 y=221
@@ -191,7 +191,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[enter_box]
+[bankpin_f]
 type=Text
 x=131
 y=221
@@ -204,7 +204,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[forgot_button_layer]
+[bankpin_g]
 type=Text
 x=225
 y=221
@@ -217,7 +217,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[forgot_button_build]
+[bankpin_h]
 type=Text
 x=37
 y=293
@@ -230,7 +230,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=562
 
-[forgot_button]
+[bankpin_i]
 type=Text
 x=131
 y=293
@@ -243,7 +243,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=563
 
-[next_digit_instruction]
+[bankpin_j]
 type=Text
 x=225
 y=293
@@ -256,7 +256,7 @@ onload=700,component.parentId
 onvartransmit=700,component.parentId
 onvartransmitlist=563
 
-[digit_1]
+[bankpin_digit_1]
 type=Text
 x=424
 y=30
@@ -270,7 +270,7 @@ onload=697,component.parentId,1
 onvartransmit=697,component.parentId,1
 onvartransmitlist=563
 
-[digit_2]
+[bankpin_digit_2]
 type=Text
 x=440
 y=30
@@ -284,7 +284,7 @@ onload=697,component.parentId,2
 onvartransmit=697,component.parentId,2
 onvartransmitlist=563
 
-[digit_3]
+[bankpin_digit_3]
 type=Text
 x=456
 y=30
@@ -298,7 +298,7 @@ onload=697,component.parentId,3
 onvartransmit=697,component.parentId,3
 onvartransmitlist=563
 
-[digit_4]
+[bankpin_digit_4]
 type=Text
 x=472
 y=30
@@ -312,14 +312,14 @@ onload=697,component.parentId,4
 onvartransmit=697,component.parentId,4
 onvartransmitlist=563
 
-[mainmodal_window_border]
+[enter_box]
 type=Layer
 x=328
 y=248
 width=146
 height=48
 
-[mainmodal_window_close_button]
+[com_26]
 type=Sprite
 width=104
 height=104
@@ -335,7 +335,7 @@ height=104
 layerId=851993
 graphic=444
 
-[com_28]
+[bankpin_message]
 type=Text
 x=18
 y=57
@@ -347,7 +347,7 @@ font=496
 shadow=yes
 text="Please enter your FOUR DIGIT PIN using the buttons below."
 
-[com_29]
+[bankpin_forgotten]
 type=Text
 x=327
 y=274
@@ -363,7 +363,7 @@ onmouseleave=45,component.parentId,12547357
 onvartransmit=699,component.parentId
 onvartransmitlist=563
 
-[com_30]
+[bankpin_cancel]
 type=Text
 x=327
 y=252

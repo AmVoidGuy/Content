@@ -40,7 +40,7 @@ font=497
 shadow=yes
 text=" Extremely weak<br>Slow discorporation of ethereal body<br>Drifting in and out of coma<br>Shallow breath<br>Fading magical energy<br>High fever"
 
-[close_button]
+[com_4]
 type=Sprite
 buttonType=Close
 x=5
@@ -62,7 +62,7 @@ modelZoom=273
 modelXAn=500
 modelYAn=138
 
-[com_6]
+[fairy_symptoms_close]
 type=Layer
 x=376
 y=77

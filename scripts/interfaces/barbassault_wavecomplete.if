@@ -1,4 +1,4 @@
-[ba_wave_breakdown_normal]
+[com_0]
 type=Rectangle
 x=1
 width=512
@@ -6,7 +6,7 @@ height=400
 trans=120
 fill=yes
 
-[wave_complete_normal_layer]
+[com_1]
 type=Model
 x=247
 y=165
@@ -27,7 +27,7 @@ modelZoom=475
 modelXAn=429
 modelYAn=2035
 
-[com_3]
+[barbassault_axe_icon]
 type=Model
 x=400
 y=253
@@ -36,7 +36,7 @@ height=32
 model1Id=20620
 modelZoom=713
 
-[com_4]
+[barbassault_text1]
 type=Text
 x=210
 y=32
@@ -168,7 +168,7 @@ font=495
 shadow=yes
 text="Failed Attacker attacks"
 
-[com_15]
+[barbassault_compl_n1]
 type=Text
 x=175
 y=51
@@ -180,7 +180,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_role]
+[barbassault_compl_n2]
 type=Text
 x=175
 y=67
@@ -192,7 +192,7 @@ font=495
 shadow=yes
 text="0"
 
-[ba_wave_breakdown_queen]
+[barbassault_compl_n3]
 type=Text
 x=175
 y=83
@@ -204,7 +204,7 @@ font=495
 shadow=yes
 text="0"
 
-[ba_wave_breakdown_king]
+[barbassault_compl_n4]
 type=Text
 x=175
 y=99
@@ -216,7 +216,7 @@ font=495
 shadow=yes
 text="0"
 
-[ba_wave_breakdown_xp]
+[barbassault_compl_n5]
 type=Text
 x=175
 y=115
@@ -228,7 +228,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_20]
+[barbassault_compl_n6]
 type=Text
 x=175
 y=131
@@ -240,7 +240,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_21]
+[barbassault_compl_n7]
 type=Text
 x=175
 y=147
@@ -252,7 +252,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_22]
+[barbassault_compl_n9]
 type=Text
 x=175
 y=164
@@ -264,7 +264,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_23]
+[barbassault_compl_n10]
 type=Text
 x=175
 y=180
@@ -288,7 +288,7 @@ font=495
 shadow=yes
 text="Total"
 
-[com_25]
+[barbassault_compl_p1]
 type=Text
 x=217
 y=51
@@ -300,7 +300,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_26]
+[barbassault_compl_p2]
 type=Text
 x=217
 y=67
@@ -312,7 +312,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_27]
+[barbassault_compl_p3]
 type=Text
 x=217
 y=83
@@ -324,7 +324,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_28]
+[barbassault_compl_p4]
 type=Text
 x=217
 y=98
@@ -336,7 +336,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n1]
+[barbassault_compl_p5]
 type=Text
 x=217
 y=115
@@ -348,7 +348,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n2]
+[barbassault_compl_p6]
 type=Text
 x=217
 y=131
@@ -360,7 +360,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n3]
+[barbassault_compl_p7]
 type=Text
 x=217
 y=147
@@ -372,7 +372,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n4]
+[barbassault_compl_p9]
 type=Text
 x=217
 y=164
@@ -384,7 +384,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n5]
+[barbassault_compl_p10]
 type=Text
 x=217
 y=180
@@ -396,7 +396,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n6]
+[barbassault_compl_ptot]
 type=Text
 x=217
 y=212
@@ -408,7 +408,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_n7]
+[com_35]
 type=Text
 x=172
 y=28
@@ -420,7 +420,7 @@ font=495
 shadow=yes
 text="#"
 
-[barbassault_compl_n9]
+[com_36]
 type=Text
 x=186
 y=17
@@ -433,7 +433,7 @@ font=495
 shadow=yes
 text="Team Honour Points"
 
-[barbassault_compl_n10]
+[com_37]
 type=Text
 x=347
 y=55
@@ -446,7 +446,7 @@ font=495
 shadow=yes
 text="Role:"
 
-[com_38]
+[barbassault_compl_role]
 type=Text
 x=347
 y=72
@@ -459,7 +459,7 @@ font=495
 shadow=yes
 text="None"
 
-[barbassault_compl_p1]
+[barbassault_compl_indp1]
 type=Text
 x=282
 y=51
@@ -471,7 +471,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p2]
+[barbassault_compl_indp4]
 type=Text
 x=282
 y=99
@@ -483,7 +483,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p3]
+[barbassault_compl_indp5]
 type=Text
 x=282
 y=115
@@ -495,7 +495,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p4]
+[barbassault_compl_indp3]
 type=Text
 x=282
 y=83
@@ -507,7 +507,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p5]
+[barbassault_compl_indp2]
 type=Text
 x=282
 y=67
@@ -519,7 +519,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p6]
+[barbassault_compl_indp6]
 type=Text
 x=282
 y=131
@@ -531,7 +531,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p7]
+[barbassault_compl_indp9]
 type=Text
 x=282
 y=164
@@ -543,7 +543,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p9]
+[barbassault_compl_indp7]
 type=Text
 x=282
 y=147
@@ -555,7 +555,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_p10]
+[barbassault_compl_indp10]
 type=Text
 x=282
 y=180
@@ -567,7 +567,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_ptot]
+[barbassault_compl_indptot]
 type=Text
 x=283
 y=212
@@ -591,7 +591,7 @@ font=496
 shadow=yes
 text="Honour Points reward :"
 
-[com_50]
+[barbassault_compl_gtot]
 type=Text
 x=165
 y=227
@@ -603,7 +603,7 @@ font=496
 shadow=yes
 text="0"
 
-[barbassault_compl_indp1]
+[com_51]
 type=Text
 x=208
 y=50
@@ -615,7 +615,7 @@ font=495
 shadow=yes
 text="-"
 
-[barbassault_compl_indp4]
+[com_52]
 type=Text
 x=209
 y=147
@@ -627,7 +627,7 @@ font=495
 shadow=yes
 text="-"
 
-[barbassault_compl_indp5]
+[com_53]
 type=Text
 x=208
 y=179
@@ -639,7 +639,7 @@ font=495
 shadow=yes
 text="-"
 
-[barbassault_compl_indp3]
+[barbassault_compl_min_10]
 type=Text
 x=273
 y=180
@@ -651,7 +651,7 @@ font=495
 shadow=yes
 text="-"
 
-[barbassault_compl_indp2]
+[barbassault_compl_min_7]
 type=Text
 x=273
 y=149
@@ -663,7 +663,7 @@ font=495
 shadow=yes
 text="-"
 
-[barbassault_compl_indp6]
+[barbassault_compl_min_1]
 type=Text
 x=272
 y=51
@@ -675,7 +675,7 @@ font=495
 shadow=yes
 text="-"
 
-[barbassault_compl_indp9]
+[com_57]
 type=Text
 x=324
 y=99
@@ -688,7 +688,7 @@ font=495
 shadow=yes
 text="Total Honour Points in role:"
 
-[barbassault_compl_indp7]
+[barbassault_compl_gtotrole]
 type=Text
 x=350
 y=132
@@ -701,7 +701,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_indp10]
+[com_59]
 type=Text
 x=265
 y=17
@@ -713,7 +713,7 @@ font=495
 shadow=yes
 text="Individual Honour Points"
 
-[barbassault_compl_indptot]
+[ba_comp_l]
 type=Layer
 x=51
 y=44
@@ -721,7 +721,7 @@ width=428
 height=250
 hide=yes
 
-[com_61]
+[ba_comp_lq]
 type=Layer
 x=60
 y=55
@@ -729,7 +729,7 @@ width=420
 height=230
 hide=yes
 
-[barbassault_compl_gtot]
+[com_62]
 type=Text
 x=104
 y=8
@@ -756,7 +756,7 @@ font=495
 shadow=yes
 text="Reward:"
 
-[com_64]
+[barbassault_compl_queenrewards]
 type=Text
 x=104
 y=71
@@ -769,7 +769,7 @@ font=495
 shadow=yes
 text="--Points output--"
 
-[com_65]
+[barbassault_compl_firstrole]
 type=Text
 x=180
 y=28
@@ -782,7 +782,7 @@ font=495
 shadow=yes
 text="-Role-"
 
-[barbassault_compl_min_10]
+[barbassault_compl_simple]
 type=Text
 buttonType=Button
 x=336
@@ -798,7 +798,7 @@ shadow=yes
 text="Simple breakdown"
 eventCode=flag22
 
-[barbassault_compl_min_7]
+[com_67]
 type=Text
 x=129
 y=47
@@ -811,7 +811,7 @@ font=495
 shadow=yes
 text="Honour Points Reward:"
 
-[barbassault_compl_min_1]
+[barbassault_compl_main_points]
 type=Text
 x=182
 y=72
@@ -824,7 +824,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_69]
+[barbassault_compl_main_totpoints]
 type=Text
 x=182
 y=136
@@ -837,14 +837,14 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_compl_gtotrole]
+[ba_compl_la]
 type=Layer
 x=60
 y=56
 width=419
 height=230
 
-[com_71]
+[barbassault_compl_advanced]
 type=Text
 buttonType=Button
 x=320
@@ -860,7 +860,7 @@ shadow=yes
 text="Advanced Breakdown"
 eventCode=flag22
 
-[barbassault_level_up_layer_dull]
+[com_72]
 type=Text
 x=118
 y=114
@@ -901,7 +901,7 @@ width=32
 height=32
 hide=yes
 
-[com_76]
+[barbassault_level_up_dull]
 type=Model
 buttonType=Button
 x=4
@@ -914,7 +914,7 @@ modelZoom=1680
 buttonText="Level up"
 eventCode=flag22
 
-[com_77]
+[barbassault_level_up_txt_dull]
 type=Text
 x=6
 y=11
@@ -929,7 +929,7 @@ font=496
 shadow=yes
 text="Level<br>up"
 
-[com_78]
+[barbassault_level_up_layer_dull]
 type=Layer
 x=162
 y=158
@@ -937,7 +937,7 @@ width=72
 height=65
 layerId=32571462
 
-[com_79]
+[barbassault_level_up]
 type=Model
 buttonType=Button
 x=4
@@ -950,7 +950,7 @@ modelZoom=1680
 buttonText="Level up"
 eventCode=flag22
 
-[com_80]
+[barbassault_level_up_txt]
 type=Text
 x=6
 y=11
@@ -965,7 +965,7 @@ font=496
 shadow=yes
 text="Level<br>up"
 
-[com_81]
+[barbassault_level_up_layer]
 type=Layer
 x=162
 y=158

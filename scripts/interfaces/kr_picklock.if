@@ -1,11 +1,11 @@
-[content_layer]
+[kr_background1]
 type=Rectangle
 width=513
 height=336
 colour=0x111100
 fill=yes
 
-[bespoke_window]
+[kr_doorlock]
 type=Model
 x=251
 y=128
@@ -17,7 +17,7 @@ modelXAn=2031
 modelYAn=123
 discardedModelField=0
 
-[kr_background1]
+[kr_closebtn]
 type=Sprite
 x=464
 y=24
@@ -30,7 +30,7 @@ onmouseover=44,component.parentId,542
 onmouseleave=44,component.parentId,541
 onop=29
 
-[kr_doorlock]
+[kr_instr1]
 type=Text
 x=32
 y=13
@@ -42,7 +42,7 @@ font=494
 shadow=yes
 text="Correct tumbler and height"
 
-[kr_instr1]
+[kr_instr2]
 type=Text
 x=32
 y=32
@@ -54,7 +54,7 @@ font=494
 shadow=yes
 text="Correct height, wrong tumbler"
 
-[kr_instr2]
+[kr_instr5]
 type=Text
 x=32
 y=49
@@ -66,7 +66,7 @@ font=494
 shadow=yes
 text="Wrong height, wrong tumbler"
 
-[kr_instr5]
+[kr_instr3]
 type=Text
 x=438
 y=126
@@ -79,7 +79,7 @@ font=494
 shadow=yes
 text="Selected tumbler height"
 
-[kr_instr3]
+[kr_tumbler_height]
 type=Text
 x=379
 y=133
@@ -94,7 +94,7 @@ text="0/5"
 onvartransmit=170
 onvartransmitlist=1051
 
-[kr_tumbler_height]
+[kr_tumbler_column]
 type=Text
 x=100
 y=285
@@ -105,7 +105,7 @@ font=494
 shadow=yes
 text="Tumbler"
 
-[kr_tumbler_column]
+[kr_guess_column]
 type=Text
 x=5
 y=157
@@ -116,7 +116,7 @@ font=494
 shadow=yes
 text="Guess"
 
-[kr_guess_column]
+[com_10]
 type=Rectangle
 x=55
 y=80
@@ -138,7 +138,7 @@ colour=0xB1B192
 fill=yes
 baseOpName="rr"
 
-[com_12]
+[kr_arrow_up]
 type=Model
 x=371
 y=48
@@ -150,7 +150,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Up"
 
-[kr_arrow_up]
+[kr_arrow_down]
 type=Model
 x=371
 y=178
@@ -163,7 +163,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Down"
 
-[kr_arrow_down]
+[kr_check_btn]
 type=Text
 x=331
 y=269
@@ -180,7 +180,7 @@ opName0="Check"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,6574110
 
-[kr_check_btn]
+[kr_tumb_col_1]
 type=Text
 x=62
 y=251
@@ -193,7 +193,7 @@ font=494
 shadow=yes
 text="1"
 
-[kr_tumb_col_1]
+[kr_tumb_col_2]
 type=Text
 x=94
 y=251
@@ -206,7 +206,7 @@ font=494
 shadow=yes
 text="2"
 
-[kr_tumb_col_2]
+[kr_tumb_col_3]
 type=Text
 x=126
 y=251
@@ -219,7 +219,7 @@ font=494
 shadow=yes
 text="3"
 
-[kr_tumb_col_3]
+[kr_tumb_col_4]
 type=Text
 x=158
 y=251
@@ -232,7 +232,7 @@ font=494
 shadow=yes
 text="4"
 
-[kr_tumb_col_4]
+[kr_instr4]
 type=Text
 x=228
 y=222
@@ -243,7 +243,7 @@ font=494
 shadow=yes
 text="Select a tumbler"
 
-[kr_instr4]
+[kr_tumb_1]
 type=Text
 x=218
 y=238
@@ -260,7 +260,7 @@ opName0="Select"
 onmouseover=45,component.parentId,16777215
 onmouseleave=169,1,component.parentId
 
-[kr_tumb_1]
+[kr_tumb_2]
 type=Text
 x=241
 y=238
@@ -277,7 +277,7 @@ opName0="Select"
 onmouseover=45,component.parentId,16777215
 onmouseleave=169,2,component.parentId
 
-[kr_tumb_2]
+[kr_tumb_3]
 type=Text
 x=265
 y=238
@@ -294,7 +294,7 @@ opName0="Select"
 onmouseover=45,component.parentId,16777215
 onmouseleave=169,3,component.parentId
 
-[kr_tumb_3]
+[kr_tumb_4]
 type=Text
 x=290
 y=238
@@ -311,18 +311,9 @@ opName0="Select"
 onmouseover=45,component.parentId,16777215
 onmouseleave=169,4,component.parentId
 
-[kr_tumb_4]
-type=Model
-x=62
-y=233
-width=16
-height=16
-modelZoom=1500
-discardedModelField=0
-
 [kr_chart_1_1]
 type=Model
-x=94
+x=62
 y=233
 width=16
 height=16
@@ -331,7 +322,7 @@ discardedModelField=0
 
 [kr_chart_2_1]
 type=Model
-x=126
+x=94
 y=233
 width=16
 height=16
@@ -340,7 +331,7 @@ discardedModelField=0
 
 [kr_chart_3_1]
 type=Model
-x=158
+x=126
 y=233
 width=16
 height=16
@@ -349,8 +340,8 @@ discardedModelField=0
 
 [kr_chart_4_1]
 type=Model
-x=62
-y=217
+x=158
+y=233
 width=16
 height=16
 modelZoom=1500
@@ -358,7 +349,7 @@ discardedModelField=0
 
 [kr_chart_1_2]
 type=Model
-x=94
+x=62
 y=217
 width=16
 height=16
@@ -367,7 +358,7 @@ discardedModelField=0
 
 [kr_chart_2_2]
 type=Model
-x=126
+x=94
 y=217
 width=16
 height=16
@@ -376,7 +367,7 @@ discardedModelField=0
 
 [kr_chart_3_2]
 type=Model
-x=158
+x=126
 y=217
 width=16
 height=16
@@ -385,8 +376,8 @@ discardedModelField=0
 
 [kr_chart_4_2]
 type=Model
-x=62
-y=201
+x=158
+y=217
 width=16
 height=16
 modelZoom=1500
@@ -394,7 +385,7 @@ discardedModelField=0
 
 [kr_chart_1_3]
 type=Model
-x=94
+x=62
 y=201
 width=16
 height=16
@@ -403,7 +394,7 @@ discardedModelField=0
 
 [kr_chart_2_3]
 type=Model
-x=126
+x=94
 y=201
 width=16
 height=16
@@ -412,7 +403,7 @@ discardedModelField=0
 
 [kr_chart_3_3]
 type=Model
-x=158
+x=126
 y=201
 width=16
 height=16
@@ -421,8 +412,8 @@ discardedModelField=0
 
 [kr_chart_4_3]
 type=Model
-x=62
-y=185
+x=158
+y=201
 width=16
 height=16
 modelZoom=1500
@@ -430,7 +421,7 @@ discardedModelField=0
 
 [kr_chart_1_4]
 type=Model
-x=94
+x=62
 y=185
 width=16
 height=16
@@ -439,7 +430,7 @@ discardedModelField=0
 
 [kr_chart_2_4]
 type=Model
-x=126
+x=94
 y=185
 width=16
 height=16
@@ -448,7 +439,7 @@ discardedModelField=0
 
 [kr_chart_3_4]
 type=Model
-x=158
+x=126
 y=185
 width=16
 height=16
@@ -457,8 +448,8 @@ discardedModelField=0
 
 [kr_chart_4_4]
 type=Model
-x=62
-y=169
+x=158
+y=185
 width=16
 height=16
 modelZoom=1500
@@ -466,7 +457,7 @@ discardedModelField=0
 
 [kr_chart_1_5]
 type=Model
-x=94
+x=62
 y=169
 width=16
 height=16
@@ -475,7 +466,7 @@ discardedModelField=0
 
 [kr_chart_2_5]
 type=Model
-x=126
+x=94
 y=169
 width=16
 height=16
@@ -484,7 +475,7 @@ discardedModelField=0
 
 [kr_chart_3_5]
 type=Model
-x=158
+x=126
 y=169
 width=16
 height=16
@@ -493,8 +484,8 @@ discardedModelField=0
 
 [kr_chart_4_5]
 type=Model
-x=62
-y=153
+x=158
+y=169
 width=16
 height=16
 modelZoom=1500
@@ -502,7 +493,7 @@ discardedModelField=0
 
 [kr_chart_1_6]
 type=Model
-x=94
+x=62
 y=153
 width=16
 height=16
@@ -511,7 +502,7 @@ discardedModelField=0
 
 [kr_chart_2_6]
 type=Model
-x=126
+x=94
 y=153
 width=16
 height=16
@@ -520,7 +511,7 @@ discardedModelField=0
 
 [kr_chart_3_6]
 type=Model
-x=158
+x=126
 y=153
 width=16
 height=16
@@ -529,8 +520,8 @@ discardedModelField=0
 
 [kr_chart_4_6]
 type=Model
-x=62
-y=137
+x=158
+y=153
 width=16
 height=16
 modelZoom=1500
@@ -538,7 +529,7 @@ discardedModelField=0
 
 [kr_chart_1_7]
 type=Model
-x=94
+x=62
 y=137
 width=16
 height=16
@@ -547,7 +538,7 @@ discardedModelField=0
 
 [kr_chart_2_7]
 type=Model
-x=126
+x=94
 y=137
 width=16
 height=16
@@ -556,7 +547,7 @@ discardedModelField=0
 
 [kr_chart_3_7]
 type=Model
-x=158
+x=126
 y=137
 width=16
 height=16
@@ -565,8 +556,8 @@ discardedModelField=0
 
 [kr_chart_4_7]
 type=Model
-x=62
-y=121
+x=158
+y=137
 width=16
 height=16
 modelZoom=1500
@@ -574,7 +565,7 @@ discardedModelField=0
 
 [kr_chart_1_8]
 type=Model
-x=94
+x=62
 y=121
 width=16
 height=16
@@ -583,7 +574,7 @@ discardedModelField=0
 
 [kr_chart_2_8]
 type=Model
-x=126
+x=94
 y=121
 width=16
 height=16
@@ -592,7 +583,7 @@ discardedModelField=0
 
 [kr_chart_3_8]
 type=Model
-x=158
+x=126
 y=121
 width=16
 height=16
@@ -601,8 +592,8 @@ discardedModelField=0
 
 [kr_chart_4_8]
 type=Model
-x=62
-y=105
+x=158
+y=121
 width=16
 height=16
 modelZoom=1500
@@ -610,7 +601,7 @@ discardedModelField=0
 
 [kr_chart_1_9]
 type=Model
-x=94
+x=62
 y=105
 width=16
 height=16
@@ -619,7 +610,7 @@ discardedModelField=0
 
 [kr_chart_2_9]
 type=Model
-x=126
+x=94
 y=105
 width=16
 height=16
@@ -628,7 +619,7 @@ discardedModelField=0
 
 [kr_chart_3_9]
 type=Model
-x=158
+x=126
 y=105
 width=16
 height=16
@@ -637,8 +628,8 @@ discardedModelField=0
 
 [kr_chart_4_9]
 type=Model
-x=62
-y=89
+x=158
+y=105
 width=16
 height=16
 modelZoom=1500
@@ -646,7 +637,7 @@ discardedModelField=0
 
 [kr_chart_1_10]
 type=Model
-x=94
+x=62
 y=89
 width=16
 height=16
@@ -655,7 +646,7 @@ discardedModelField=0
 
 [kr_chart_2_10]
 type=Model
-x=126
+x=94
 y=89
 width=16
 height=16
@@ -664,7 +655,7 @@ discardedModelField=0
 
 [kr_chart_3_10]
 type=Model
-x=158
+x=126
 y=89
 width=16
 height=16
@@ -672,6 +663,15 @@ modelZoom=1500
 discardedModelField=0
 
 [kr_chart_4_10]
+type=Model
+x=158
+y=89
+width=16
+height=16
+modelZoom=1500
+discardedModelField=0
+
+[kr_key_1]
 type=Model
 x=14
 y=12
@@ -682,7 +682,7 @@ modelZoom=1500
 modelXAn=554
 discardedModelField=0
 
-[kr_key_1]
+[kr_key_2]
 type=Model
 x=14
 y=30
@@ -693,7 +693,7 @@ modelZoom=1500
 modelXAn=554
 discardedModelField=0
 
-[kr_key_2]
+[kr_key_3]
 type=Model
 x=14
 y=48

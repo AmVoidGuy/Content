@@ -1,4 +1,4 @@
-[coffer_change_text]
+[miscb_if_bg]
 type=Model
 x=238
 y=154
@@ -8,7 +8,7 @@ model1Id=15112
 modelZoom=403
 modelXAn=512
 
-[modal_dialog_window]
+[com_1]
 type=Text
 x=124
 y=7
@@ -29,14 +29,14 @@ layerId=25624579
 colour=0x442D22
 fill=yes
 
-[info_panel]
+[miscb_if_mining]
 type=Layer
 x=177
 y=57
 width=93
 height=61
 
-[info_holder_active_5]
+[miscb_if_mining_text]
 type=Text
 x=2
 y=3
@@ -49,7 +49,7 @@ font=495
 shadow=yes
 text="Mining"
 
-[miscb_if_fishing_text]
+[miscb_if_mining_icon]
 type=Model
 x=-21
 y=14
@@ -61,7 +61,7 @@ modelZoom=1627
 modelXAn=578
 modelYAn=4
 
-[info_holder_active_4]
+[com_6]
 type=Rectangle
 x=119
 y=75
@@ -71,13 +71,13 @@ layerId=25624583
 colour=0x442D22
 fill=yes
 
-[miscb_if_wood_text]
+[miscb_if_herbs]
 type=Layer
 y=96
 width=156
 height=148
 
-[miscb_if_bg]
+[miscb_herbs_icon]
 type=Model
 x=32
 y=33
@@ -88,7 +88,7 @@ model1Id=4622
 modelZoom=617
 modelXAn=512
 
-[miscb_if_mining_icon]
+[miscb_if_mining_up]
 type=Model
 buttonType=Button
 x=78
@@ -102,7 +102,7 @@ modelXAn=512
 buttonText="Add"
 eventCode=flag22
 
-[miscb_if_mining]
+[miscb_if_herbs_text]
 type=Text
 x=73
 y=88
@@ -114,7 +114,7 @@ font=495
 shadow=yes
 text="Herbs"
 
-[miscb_herbs_icon]
+[miscb_if_mining_down]
 type=Model
 buttonType=Button
 x=78
@@ -129,7 +129,7 @@ modelYAn=1024
 buttonText="Remove"
 eventCode=flag22
 
-[info_holder_active_2]
+[miscb_if_mining_bar1]
 type=Rectangle
 x=61
 y=40
@@ -141,7 +141,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,misc_points_mine
 
-[miscb_if_mining_text]
+[miscb_if_mining_bar2]
 type=Rectangle
 x=61
 y=36
@@ -153,7 +153,7 @@ fill=yes
 script1=gt,1
 script1op1=varbit,misc_points_mine
 
-[miscb_flax_model]
+[miscb_if_mining_bar3]
 type=Rectangle
 x=61
 y=32
@@ -165,7 +165,7 @@ fill=yes
 script1=gt,2
 script1op1=varbit,misc_points_mine
 
-[com_15]
+[miscb_if_mining_bar4]
 type=Rectangle
 x=61
 y=28
@@ -177,7 +177,7 @@ fill=yes
 script1=gt,3
 script1op1=varbit,misc_points_mine
 
-[miscb_if_herbs]
+[miscb_if_mining_bar5]
 type=Rectangle
 x=61
 y=24
@@ -189,7 +189,7 @@ fill=yes
 script1=gt,4
 script1op1=varbit,misc_points_mine
 
-[info_holder_active_3]
+[miscb_if_mining_bar6]
 type=Rectangle
 x=61
 y=20
@@ -201,7 +201,7 @@ fill=yes
 script1=gt,5
 script1op1=varbit,misc_points_mine
 
-[miscb_if_herbs_text]
+[miscb_if_mining_bar7]
 type=Rectangle
 x=61
 y=16
@@ -213,7 +213,7 @@ fill=yes
 script1=gt,6
 script1op1=varbit,misc_points_mine
 
-[miscb_if_north]
+[miscb_if_mining_bar8]
 type=Rectangle
 x=61
 y=12
@@ -225,7 +225,7 @@ fill=yes
 script1=gt,7
 script1op1=varbit,misc_points_mine
 
-[miscb_if_coffers]
+[miscb_if_mining_bar9]
 type=Rectangle
 x=61
 y=8
@@ -237,7 +237,7 @@ fill=yes
 script1=gt,8
 script1op1=varbit,misc_points_mine
 
-[info_holder_active]
+[miscb_if_mining_bar10]
 type=Rectangle
 x=61
 y=4
@@ -249,7 +249,7 @@ fill=yes
 script1=gt,9
 script1op1=varbit,misc_points_mine
 
-[green_large_progress_layer]
+[miscb_if_north]
 type=Model
 x=327
 y=-2
@@ -260,7 +260,7 @@ modelZoom=1955
 modelXAn=537
 modelYAn=8
 
-[withdraw_button_layer]
+[miscb_herbs_iconcopy]
 type=Model
 x=21
 y=18
@@ -270,14 +270,14 @@ model1Id=4620
 modelZoom=490
 modelXAn=512
 
-[deposit_button_layer]
+[miscb_if_coffers]
 type=Layer
 x=11
 y=31
 width=153
 height=56
 
-[miscb_if_wood_icon1]
+[miscb_if_coffers_text]
 type=Text
 x=10
 width=72
@@ -289,7 +289,7 @@ font=495
 shadow=yes
 text="Coffers:"
 
-[miscb_if_wood_icon2]
+[miscb_if_herbs_up]
 type=Model
 buttonType=Button
 x=139
@@ -303,7 +303,7 @@ modelXAn=512
 buttonText="Add"
 eventCode=flag22
 
-[miscb_if_wood]
+[miscb_if_herbs_down]
 type=Model
 buttonType=Button
 x=139
@@ -318,7 +318,7 @@ modelYAn=1024
 buttonText="Remove"
 eventCode=flag22
 
-[miscb_if_wood_icon]
+[com_28]
 type=Rectangle
 x=49
 width=15
@@ -327,7 +327,7 @@ layerId=25624616
 colour=0x442D22
 fill=yes
 
-[miscb_if_fishing]
+[miscb_if_wood_bar1]
 type=Rectangle
 x=52
 y=50
@@ -339,7 +339,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,misc_points_wood
 
-[miscb_if_fishing_icon]
+[miscb_if_wood_bar2]
 type=Rectangle
 x=52
 y=46
@@ -351,7 +351,7 @@ fill=yes
 script1=gt,1
 script1op1=varbit,misc_points_wood
 
-[miscb_if_idle]
+[miscb_if_wood_bar3]
 type=Rectangle
 x=52
 y=40
@@ -363,7 +363,7 @@ fill=yes
 script1=gt,2
 script1op1=varbit,misc_points_wood
 
-[info_holder_active_1]
+[miscb_if_wood_bar4]
 type=Rectangle
 x=52
 y=35
@@ -375,7 +375,7 @@ fill=yes
 script1=gt,3
 script1op1=varbit,misc_points_wood
 
-[miscb_if_idle_text]
+[miscb_if_wood_bar5]
 type=Rectangle
 x=52
 y=30
@@ -387,7 +387,7 @@ fill=yes
 script1=gt,4
 script1op1=varbit,misc_points_wood
 
-[miscb_if_idle_icon1]
+[miscb_if_wood_bar6]
 type=Rectangle
 x=52
 y=24
@@ -399,7 +399,7 @@ fill=yes
 script1=gt,5
 script1op1=varbit,misc_points_wood
 
-[fish_icon]
+[miscb_if_wood_bar7]
 type=Rectangle
 x=52
 y=19
@@ -411,7 +411,7 @@ fill=yes
 script1=gt,6
 script1op1=varbit,misc_points_wood
 
-[fish_icon2]
+[miscb_if_wood_bar8]
 type=Rectangle
 x=52
 y=13
@@ -423,7 +423,7 @@ fill=yes
 script1=gt,7
 script1op1=varbit,misc_points_wood
 
-[miscb_if_bgcopy]
+[miscb_if_wood_icon1]
 type=Model
 x=143
 y=113
@@ -433,7 +433,7 @@ model1Id=15113
 modelZoom=1450
 modelXAn=512
 
-[miscc_if_bgcopy_1]
+[miscb_if_wood_bar9]
 type=Rectangle
 x=52
 y=7
@@ -445,7 +445,7 @@ fill=yes
 script1=gt,8
 script1op1=varbit,misc_points_wood
 
-[miscc_if_wood_icon_1_1]
+[miscb_if_wood_icon2]
 type=Model
 x=170
 y=113
@@ -456,14 +456,14 @@ model1Id=15113
 modelZoom=1800
 modelXAn=512
 
-[miscc_if_wood_icon2_1]
+[miscb_if_wood]
 type=Layer
 x=160
 y=133
 width=88
 height=59
 
-[miscc_if_wood_icon_1]
+[miscb_if_wood_text]
 type=Text
 x=8
 width=30
@@ -474,7 +474,7 @@ font=495
 shadow=yes
 text="Wood"
 
-[miscc_if_wood_icon2]
+[miscb_if_wood_icon]
 type=Model
 x=158
 y=129
@@ -484,7 +484,7 @@ model1Id=15113
 modelZoom=1500
 modelXAn=512
 
-[miscb_if_rarewood]
+[miscb_if_wood_up]
 type=Model
 buttonType=Button
 x=69
@@ -498,7 +498,7 @@ modelXAn=512
 buttonText="Add"
 eventCode=flag22
 
-[rarewood_back]
+[miscb_if_wood_down]
 type=Model
 buttonType=Button
 x=72
@@ -513,7 +513,7 @@ modelYAn=1024
 buttonText="Remove"
 eventCode=flag22
 
-[miscb_if_rarewood_text]
+[miscb_if_wood_bar10]
 type=Rectangle
 x=52
 y=2
@@ -525,7 +525,7 @@ fill=yes
 script1=gt,9
 script1op1=varbit,misc_points_wood
 
-[miscc_spade]
+[com_46]
 type=Model
 x=33
 y=3
@@ -536,7 +536,7 @@ model1Id=4622
 modelZoom=805
 modelXAn=512
 
-[miscb_if_farm]
+[miscb_flax_model]
 type=Model
 width=64
 height=129
@@ -545,7 +545,7 @@ model1Id=15114
 modelZoom=556
 modelXAn=512
 
-[farm_back]
+[com_48]
 type=Rectangle
 x=48
 y=2
@@ -555,7 +555,7 @@ layerId=25624635
 colour=0x442D22
 fill=yes
 
-[miscb_if_farm_text]
+[miscb_if_herbs_bar1]
 type=Rectangle
 x=122
 y=122
@@ -567,7 +567,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,misc_points_herb
 
-[info_panel_layer]
+[miscb_if_herbs_bar2]
 type=Rectangle
 x=122
 y=117
@@ -579,7 +579,7 @@ fill=yes
 script1=gt,1
 script1op1=varbit,misc_points_herb
 
-[com_51]
+[miscb_if_herbs_bar3]
 type=Rectangle
 x=122
 y=112
@@ -591,7 +591,7 @@ fill=yes
 script1=gt,2
 script1op1=varbit,misc_points_herb
 
-[com_52]
+[miscb_if_herbs_bar4]
 type=Rectangle
 x=122
 y=107
@@ -603,7 +603,7 @@ fill=yes
 script1=gt,3
 script1op1=varbit,misc_points_herb
 
-[com_53]
+[miscb_if_herbs_bar5]
 type=Rectangle
 x=122
 y=102
@@ -615,7 +615,7 @@ fill=yes
 script1=gt,4
 script1op1=varbit,misc_points_herb
 
-[miscb_if_mining_up]
+[miscb_if_herbs_bar6]
 type=Rectangle
 x=122
 y=97
@@ -627,7 +627,7 @@ fill=yes
 script1=gt,5
 script1op1=varbit,misc_points_herb
 
-[miscb_if_mining_down]
+[miscb_if_herbs_bar7]
 type=Rectangle
 x=122
 y=92
@@ -639,7 +639,7 @@ fill=yes
 script1=gt,6
 script1op1=varbit,misc_points_herb
 
-[miscb_if_mining_bar1]
+[miscb_if_herbs_bar8]
 type=Rectangle
 x=122
 y=87
@@ -651,7 +651,7 @@ fill=yes
 script1=gt,7
 script1op1=varbit,misc_points_herb
 
-[miscb_if_mining_bar2]
+[miscb_if_herbs_bar9]
 type=Rectangle
 x=122
 y=82
@@ -663,7 +663,7 @@ fill=yes
 script1=gt,8
 script1op1=varbit,misc_points_herb
 
-[miscb_if_mining_bar3]
+[miscb_if_herbs_bar10]
 type=Rectangle
 x=122
 y=77
@@ -675,14 +675,14 @@ fill=yes
 script1=gt,9
 script1op1=varbit,misc_points_herb
 
-[miscb_if_mining_bar4]
+[miscb_if_fishing]
 type=Layer
 x=189
 y=212
 width=104
 height=76
 
-[miscb_if_mining_bar5]
+[miscb_if_fishing_text]
 type=Text
 x=1
 y=2
@@ -694,7 +694,7 @@ font=495
 shadow=yes
 text="Fishing"
 
-[miscb_if_mining_bar6]
+[miscb_if_fishing_icon]
 type=Model
 x=246
 y=259
@@ -704,7 +704,7 @@ model1Id=4621
 modelZoom=900
 modelXAn=512
 
-[miscb_if_mining_bar7]
+[miscb_if_fishing_up]
 type=Model
 buttonType=Button
 x=70
@@ -718,7 +718,7 @@ modelXAn=512
 buttonText="Add"
 eventCode=flag22
 
-[miscb_if_mining_bar8]
+[miscb_if_fishing_down]
 type=Model
 buttonType=Button
 x=70
@@ -733,7 +733,7 @@ modelYAn=1024
 buttonText="Remove"
 eventCode=flag22
 
-[miscb_if_mining_bar9]
+[miscb_if_fishing_bar1]
 type=Rectangle
 x=51
 y=43
@@ -745,7 +745,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,misc_points_fish
 
-[miscb_if_mining_bar10]
+[miscb_if_fishing_bar2]
 type=Rectangle
 x=51
 y=38
@@ -757,7 +757,7 @@ fill=yes
 script1=gt,1
 script1op1=varbit,misc_points_fish
 
-[miscb_if_coffers_text]
+[miscb_if_fishing_bar3]
 type=Rectangle
 x=51
 y=33
@@ -769,7 +769,7 @@ fill=yes
 script1=gt,2
 script1op1=varbit,misc_points_fish
 
-[miscb_coins_icon]
+[com_67]
 type=Rectangle
 x=55
 width=16
@@ -778,7 +778,7 @@ layerId=25624655
 colour=0x442D22
 fill=yes
 
-[miscb_if_herbs_up]
+[miscb_if_fishing_bar4]
 type=Rectangle
 x=51
 y=29
@@ -790,7 +790,7 @@ fill=yes
 script1=gt,3
 script1op1=varbit,misc_points_fish
 
-[miscb_if_herbs_down]
+[miscb_if_fishing_bar5]
 type=Rectangle
 x=51
 y=25
@@ -802,7 +802,7 @@ fill=yes
 script1=gt,4
 script1op1=varbit,misc_points_fish
 
-[com_70]
+[miscb_if_fishing_bar6]
 type=Rectangle
 x=51
 y=22
@@ -814,7 +814,7 @@ fill=yes
 script1=gt,5
 script1op1=varbit,misc_points_fish
 
-[miscb_if_wood_bar1]
+[miscb_if_fishing_bar7]
 type=Rectangle
 x=51
 y=19
@@ -826,7 +826,7 @@ fill=yes
 script1=gt,6
 script1op1=varbit,misc_points_fish
 
-[miscb_if_wood_bar2]
+[miscb_if_fishing_bar8]
 type=Rectangle
 x=51
 y=14
@@ -838,7 +838,7 @@ fill=yes
 script1=gt,7
 script1op1=varbit,misc_points_fish
 
-[miscb_if_wood_bar3]
+[miscb_if_fishing_bar9]
 type=Rectangle
 x=51
 y=10
@@ -850,7 +850,7 @@ fill=yes
 script1=gt,8
 script1op1=varbit,misc_points_fish
 
-[miscb_if_wood_bar4]
+[miscb_if_fishing_bar10]
 type=Rectangle
 x=51
 y=5
@@ -862,7 +862,7 @@ fill=yes
 script1=gt,9
 script1op1=varbit,misc_points_fish
 
-[miscb_if_wood_bar5]
+[miscb_if_idle_bar1]
 type=Rectangle
 x=58
 y=66
@@ -874,7 +874,7 @@ fill=yes
 script1=gt,0
 script1op1=varp,if1
 
-[miscb_if_wood_bar6]
+[miscb_if_idle_bar2]
 type=Rectangle
 x=58
 y=62
@@ -886,7 +886,7 @@ fill=yes
 script1=gt,1
 script1op1=varp,if1
 
-[miscb_if_wood_bar7]
+[miscb_if_idle_bar3]
 type=Rectangle
 x=58
 y=57
@@ -898,7 +898,7 @@ fill=yes
 script1=gt,2
 script1op1=varp,if1
 
-[miscb_if_wood_bar8]
+[miscb_if_idle_bar4]
 type=Rectangle
 x=58
 y=53
@@ -911,14 +911,14 @@ fill=yes
 script1=gt,3
 script1op1=varp,if1
 
-[miscb_if_wood_bar9]
+[miscb_if_idle]
 type=Layer
 x=19
 y=249
 width=88
 height=80
 
-[miscb_if_wood_bar10]
+[miscb_if_idle_text]
 type=Text
 x=1
 y=6
@@ -931,7 +931,7 @@ font=495
 shadow=yes
 text="Idle"
 
-[miscb_if_wood_up]
+[miscb_if_idle_icon1]
 type=Model
 y=30
 width=53
@@ -942,7 +942,7 @@ modelZoom=1611
 modelXAn=583
 modelYAn=2012
 
-[miscb_if_wood_down]
+[miscb_if_idle_bar5]
 type=Rectangle
 x=58
 y=48
@@ -955,7 +955,7 @@ fill=yes
 script1=gt,4
 script1op1=varp,if1
 
-[com_83]
+[miscb_if_idle_bar6]
 type=Rectangle
 x=58
 y=43
@@ -967,7 +967,7 @@ fill=yes
 script1=gt,5
 script1op1=varp,if1
 
-[miscb_if_herbs_bar1]
+[miscb_if_idle_bar7]
 type=Rectangle
 x=58
 y=38
@@ -980,7 +980,7 @@ fill=yes
 script1=gt,6
 script1op1=varp,if1
 
-[miscb_if_herbs_bar2]
+[miscb_if_idle_bar8]
 type=Rectangle
 x=58
 y=34
@@ -992,7 +992,7 @@ fill=yes
 script1=gt,7
 script1op1=varp,if1
 
-[miscb_if_herbs_bar3]
+[miscb_if_idle_bar9]
 type=Rectangle
 x=58
 y=29
@@ -1005,7 +1005,7 @@ fill=yes
 script1=gt,8
 script1op1=varp,if1
 
-[miscb_if_herbs_bar4]
+[miscb_if_idle_bar10]
 type=Rectangle
 x=58
 y=25
@@ -1017,7 +1017,7 @@ fill=yes
 script1=gt,9
 script1op1=varp,if1
 
-[miscb_if_herbs_bar5]
+[miscb_if_idle_bar11]
 type=Rectangle
 x=58
 y=20
@@ -1029,7 +1029,7 @@ fill=yes
 script1=gt,10
 script1op1=varp,if1
 
-[miscb_if_herbs_bar6]
+[miscb_if_idle_bar12]
 type=Rectangle
 x=58
 y=15
@@ -1041,7 +1041,7 @@ fill=yes
 script1=gt,11
 script1op1=varp,if1
 
-[miscb_if_herbs_bar7]
+[miscb_if_idle_bar13]
 type=Rectangle
 x=58
 y=10
@@ -1053,7 +1053,7 @@ fill=yes
 script1=gt,12
 script1op1=varp,if1
 
-[miscb_if_herbs_bar8]
+[miscb_if_idle_bar14]
 type=Rectangle
 x=58
 y=6
@@ -1065,7 +1065,7 @@ fill=yes
 script1=gt,13
 script1op1=varp,if1
 
-[miscb_if_herbs_bar9]
+[miscb_if_idle_bar15]
 type=Rectangle
 x=58
 y=3
@@ -1077,7 +1077,7 @@ fill=yes
 script1=gt,14
 script1op1=varp,if1
 
-[miscb_if_herbs_bar10]
+[miscb_if_coffers_money]
 type=Text
 x=89
 width=72
@@ -1088,7 +1088,7 @@ font=495
 shadow=yes
 text="500,000"
 
-[miscb_if_fishing_up]
+[miscb_if_coffers_deposit]
 type=Text
 buttonType=Button
 x=89
@@ -1104,7 +1104,7 @@ text="Deposit"
 buttonText="Deposit"
 eventCode=flag22
 
-[miscb_if_fishing_down]
+[miscb_if_coffers_withdraw]
 type=Text
 buttonType=Button
 x=89
@@ -1120,7 +1120,7 @@ text="Withdraw"
 buttonText="Withdraw"
 eventCode=flag22
 
-[miscb_if_fishing_bar1]
+[com_96]
 type=Model
 x=289
 y=211
@@ -1130,7 +1130,7 @@ model1Id=4621
 modelZoom=1500
 modelXAn=512
 
-[miscb_if_fishing_bar2]
+[com_97]
 type=Model
 x=275
 y=236
@@ -1140,7 +1140,7 @@ model1Id=4621
 modelZoom=1350
 modelXAn=512
 
-[miscb_if_fishing_bar3]
+[slow_lose]
 type=Model
 x=160
 y=163
@@ -1150,7 +1150,7 @@ model1Id=4619
 modelZoom=525
 modelXAn=512
 
-[com_99]
+[miscb_if_questionmark]
 type=Model
 buttonType=Button
 x=450
@@ -1163,7 +1163,7 @@ modelXAn=515
 modelYAn=18
 eventCode=flag22
 
-[miscb_if_fishing_bar4]
+[miscb_if_text_help]
 type=Text
 x=433
 y=306
@@ -1175,7 +1175,7 @@ font=495
 shadow=yes
 text="Help"
 
-[miscb_if_fishing_bar5]
+[com_101]
 type=Text
 x=8
 y=12
@@ -1190,7 +1190,7 @@ text2="Deposit money in"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_fishing_bar6]
+[com_102]
 type=Text
 x=8
 y=27
@@ -1205,7 +1205,7 @@ text2="the coffers to"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_fishing_bar7]
+[com_103]
 type=Text
 x=8
 y=42
@@ -1220,7 +1220,7 @@ text2="pay your subjects"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_fishing_bar8]
+[com_104]
 type=Text
 x=8
 y=57
@@ -1235,7 +1235,7 @@ text2="and make them"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_fishing_bar9]
+[com_105]
 type=Text
 x=8
 y=72
@@ -1250,7 +1250,7 @@ text2="work harder."
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_fishing_bar10]
+[com_106]
 type=Text
 x=8
 y=13
@@ -1265,7 +1265,7 @@ text2="Use the arrows to"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_idle_bar1]
+[com_107]
 type=Text
 x=8
 y=28
@@ -1280,7 +1280,7 @@ text2="adjust the amount"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_idle_bar2]
+[com_108]
 type=Text
 x=8
 y=43
@@ -1295,7 +1295,7 @@ text2="of effort your"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_idle_bar3]
+[com_109]
 type=Text
 x=8
 y=58
@@ -1310,7 +1310,7 @@ text2="subjects spend"
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_idle_bar4]
+[com_110]
 type=Text
 x=8
 y=73
@@ -1325,7 +1325,7 @@ text2="on each resource."
 script1=eq,1
 script1op1=varp,if2
 
-[miscb_if_idle_bar5]
+[miscb_if_fishing_cookedtext]
 type=Text
 buttonType=Button
 x=6
@@ -1340,7 +1340,7 @@ text="Cooked"
 buttonText="Cooked or raw fish?"
 eventCode=flag22
 
-[miscb_if_idle_bar6]
+[miscb_if_fishing_cooked]
 type=Sprite
 buttonType=Toggly
 x=18
@@ -1355,7 +1355,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varbit,misc_cooked
 
-[miscb_if_idle_bar7]
+[miscc_if_bgcopy_1]
 type=Model
 x=478
 y=187
@@ -1365,7 +1365,7 @@ model1Id=4619
 modelZoom=625
 modelXAn=512
 
-[miscb_if_idle_bar8]
+[miscc_spade]
 type=Model
 x=371
 y=173
@@ -1375,7 +1375,7 @@ model1Id=15116
 modelZoom=1655
 modelXAn=519
 
-[miscb_if_idle_bar9]
+[com_115]
 type=Rectangle
 x=70
 y=1
@@ -1385,7 +1385,7 @@ layerId=25624715
 colour=0x442D22
 fill=yes
 
-[miscb_if_idle_bar10]
+[miscb_if_rarewood_up]
 type=Model
 buttonType=Button
 x=90
@@ -1399,7 +1399,7 @@ modelXAn=512
 buttonText="Add"
 eventCode=flag22
 
-[miscb_if_idle_bar11]
+[miscb_if_rarewood_down]
 type=Model
 buttonType=Button
 x=89
@@ -1414,7 +1414,7 @@ modelYAn=1024
 buttonText="Remove"
 eventCode=flag22
 
-[miscb_if_idle_bar12]
+[miscb_if_rarewood_bar1]
 type=Rectangle
 x=73
 y=41
@@ -1426,7 +1426,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,varbit_2131
 
-[miscb_if_idle_bar13]
+[miscb_if_rarewood_bar2]
 type=Rectangle
 x=73
 y=37
@@ -1438,7 +1438,7 @@ fill=yes
 script1=gt,1
 script1op1=varbit,varbit_2131
 
-[miscb_if_idle_bar14]
+[miscb_if_rarewood_bar3]
 type=Rectangle
 x=73
 y=33
@@ -1450,7 +1450,7 @@ fill=yes
 script1=gt,2
 script1op1=varbit,varbit_2131
 
-[miscb_if_idle_bar15]
+[miscb_if_rarewood_bar4]
 type=Rectangle
 x=73
 y=29
@@ -1462,7 +1462,7 @@ fill=yes
 script1=gt,3
 script1op1=varbit,varbit_2131
 
-[miscb_if_fishing_cookedtext]
+[miscb_if_rarewood_bar5]
 type=Rectangle
 x=73
 y=25
@@ -1474,7 +1474,7 @@ fill=yes
 script1=gt,4
 script1op1=varbit,varbit_2131
 
-[miscb_if_fishing_cooked]
+[miscb_if_rarewood_bar6]
 type=Rectangle
 x=73
 y=21
@@ -1486,7 +1486,7 @@ fill=yes
 script1=gt,5
 script1op1=varbit,varbit_2131
 
-[com_124]
+[miscb_if_rarewood_bar7]
 type=Rectangle
 x=73
 y=17
@@ -1498,7 +1498,7 @@ fill=yes
 script1=gt,6
 script1op1=varbit,varbit_2131
 
-[miscb_if_rarewood_up]
+[miscb_if_rarewood_bar8]
 type=Rectangle
 x=73
 y=13
@@ -1510,7 +1510,7 @@ fill=yes
 script1=gt,7
 script1op1=varbit,varbit_2131
 
-[miscb_if_rarewood_down]
+[miscb_if_rarewood_bar9]
 type=Rectangle
 x=73
 y=9
@@ -1522,7 +1522,7 @@ fill=yes
 script1=gt,8
 script1op1=varbit,varbit_2131
 
-[miscb_if_rarewood_bar1]
+[miscb_if_rarewood_bar10]
 type=Rectangle
 x=73
 y=5
@@ -1534,7 +1534,7 @@ fill=yes
 script1=gt,9
 script1op1=varbit,varbit_2131
 
-[miscb_if_rarewood_bar2]
+[miscb_if_rarewood_choosemahogany]
 type=Sprite
 buttonType=Select
 x=1
@@ -1549,7 +1549,7 @@ eventCode=flag22
 script1=eq,0
 script1op1=varbit,varbit_2133
 
-[miscb_if_rarewood_bar3]
+[miscb_if_rarewood_chooseteak]
 type=Sprite
 buttonType=Select
 x=1
@@ -1564,7 +1564,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varbit,varbit_2133
 
-[miscb_if_rarewood_bar4]
+[miscb_if_rarewood_chooseboth]
 type=Sprite
 buttonType=Select
 x=1
@@ -1579,7 +1579,7 @@ eventCode=flag22
 script1=eq,2
 script1op1=varbit,varbit_2133
 
-[miscb_if_rarewood_bar5]
+[miscb_if_rarewood_choosemahoganytext]
 type=Text
 buttonType=Button
 x=17
@@ -1594,7 +1594,7 @@ text="Mahogany"
 buttonText="Mahogany, Teak or both?"
 eventCode=flag22
 
-[miscb_if_rarewood_bar6]
+[miscb_if_rarewood_chooseteaktext]
 type=Text
 buttonType=Button
 x=17
@@ -1609,7 +1609,7 @@ text="Teak"
 buttonText="Mahogany, Teak or both?"
 eventCode=flag22
 
-[miscb_if_rarewood_bar7]
+[miscb_if_rarewood_choosebothtext]
 type=Text
 buttonType=Button
 x=17
@@ -1624,7 +1624,7 @@ text="Both"
 buttonText="Mahogany, Teak or both?"
 eventCode=flag22
 
-[miscb_if_rarewood_bar8]
+[miscb_if_rarewood_text]
 type=Text
 x=2
 y=3
@@ -1636,7 +1636,7 @@ font=495
 shadow=yes
 text="Hardwood"
 
-[miscb_if_rarewood_bar9]
+[miscc_if_wood_icon_1_1]
 type=Model
 x=401
 y=86
@@ -1646,7 +1646,7 @@ model1Id=15117
 modelZoom=1800
 modelXAn=512
 
-[miscb_if_rarewood_bar10]
+[miscc_if_wood_icon2_1]
 type=Model
 x=424
 y=42
@@ -1656,7 +1656,7 @@ model1Id=15115
 modelZoom=1500
 modelXAn=512
 
-[miscb_if_rarewood_choosemahogany]
+[miscc_if_wood_icon_1]
 type=Model
 x=420
 y=68
@@ -1666,7 +1666,7 @@ model1Id=15117
 modelZoom=1500
 modelXAn=512
 
-[miscb_if_rarewood_choosemahoganytext]
+[miscc_if_wood_icon2]
 type=Model
 x=370
 y=22
@@ -1676,7 +1676,7 @@ model1Id=15115
 modelZoom=1500
 modelXAn=512
 
-[miscb_if_rarewood_chooseteak]
+[miscb_if_rarewood]
 type=Layer
 x=395
 y=34
@@ -1684,7 +1684,7 @@ width=104
 height=76
 hide=yes
 
-[miscb_if_rarewood_chooseteaktext]
+[com_140]
 type=Rectangle
 x=46
 y=3
@@ -1694,7 +1694,7 @@ layerId=25624717
 colour=0x442D22
 fill=yes
 
-[miscb_if_rarewood_chooseboth]
+[miscb_if_farm]
 type=Layer
 x=383
 y=185
@@ -1702,7 +1702,7 @@ width=90
 height=63
 hide=yes
 
-[miscb_if_rarewood_choosebothtext]
+[miscb_if_farm_text]
 type=Text
 x=14
 y=3
@@ -1714,7 +1714,7 @@ font=495
 shadow=yes
 text="Farm"
 
-[miscb_if_rarewood_disable]
+[miscb_if_farm_up]
 type=Model
 buttonType=Button
 x=69
@@ -1727,7 +1727,7 @@ modelXAn=512
 buttonText="Add"
 eventCode=flag22
 
-[com_144]
+[miscb_if_farm_down]
 type=Model
 buttonType=Button
 x=68
@@ -1742,7 +1742,7 @@ modelYAn=1024
 buttonText="Remove"
 eventCode=flag22
 
-[miscb_if_farm_up]
+[miscb_if_farm_bar1]
 type=Rectangle
 x=49
 y=42
@@ -1754,7 +1754,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_down]
+[miscb_if_farm_bar2]
 type=Rectangle
 x=49
 y=38
@@ -1766,7 +1766,7 @@ fill=yes
 script1=gt,1
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar1]
+[miscb_if_farm_bar3]
 type=Rectangle
 x=49
 y=34
@@ -1778,7 +1778,7 @@ fill=yes
 script1=gt,2
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar2]
+[miscb_if_farm_bar4]
 type=Rectangle
 x=49
 y=30
@@ -1790,7 +1790,7 @@ fill=yes
 script1=gt,3
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar3]
+[miscb_if_farm_bar5]
 type=Rectangle
 x=49
 y=26
@@ -1802,7 +1802,7 @@ fill=yes
 script1=gt,4
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar4]
+[miscb_if_farm_bar6]
 type=Rectangle
 x=49
 y=22
@@ -1814,7 +1814,7 @@ fill=yes
 script1=gt,5
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar5]
+[miscb_if_farm_bar7]
 type=Rectangle
 x=49
 y=18
@@ -1826,7 +1826,7 @@ fill=yes
 script1=gt,6
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar6]
+[miscb_if_farm_bar8]
 type=Rectangle
 x=49
 y=14
@@ -1838,7 +1838,7 @@ fill=yes
 script1=gt,7
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar7]
+[miscb_if_farm_bar9]
 type=Rectangle
 x=49
 y=10
@@ -1850,7 +1850,7 @@ fill=yes
 script1=gt,8
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar8]
+[miscb_if_farm_bar10]
 type=Rectangle
 x=49
 y=6
@@ -1862,7 +1862,7 @@ fill=yes
 script1=gt,9
 script1op1=varbit,varbit_2132
 
-[miscb_if_farm_bar9]
+[miscb_if_herbs_chooseherb]
 type=Sprite
 buttonType=Button
 x=75
@@ -1877,7 +1877,7 @@ eventCode=flag22
 script1=eq,0
 script1op1=varbit,varbit_2134
 
-[miscb_if_farm_bar10]
+[miscb_if_herbs_chooseherbtext]
 type=Text
 buttonType=Button
 x=93
@@ -1892,7 +1892,7 @@ text="Herbs"
 buttonText="Herbs or Flax?"
 eventCode=flag22
 
-[miscb_if_farm_disable]
+[miscb_if_herbs_chooseflax]
 type=Sprite
 buttonType=Button
 x=75
@@ -1907,7 +1907,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varbit,varbit_2134
 
-[miscb_if_herbs_chooseherb]
+[miscb_if_herbs_chooseflaxtext]
 type=Text
 buttonType=Button
 x=93
@@ -1922,21 +1922,21 @@ text="Flax"
 buttonText="Herbs or Flax?"
 eventCode=flag22
 
-[miscb_if_herbs_chooseherbtext]
+[miscb_help_1]
 type=Layer
 x=267
 y=90
 width=151
 height=104
 
-[miscb_if_herbs_chooseflax]
+[miscb_help_2]
 type=Layer
 x=314
 y=241
 width=146
 height=93
 
-[miscb_if_herbs_chooseflaxtext]
+[com_161]
 type=Sprite
 x=486
 y=4
@@ -1945,7 +1945,7 @@ height=23
 overLayerId=163
 graphic=539
 
-[mainmodal_window]
+[com_162]
 type=Sprite
 buttonType=Close
 x=3
@@ -1957,7 +1957,7 @@ overLayerId=163
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_background]
+[misc_both_manage_close_button]
 type=Layer
 x=483
 y=1

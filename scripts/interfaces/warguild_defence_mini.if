@@ -1,4 +1,4 @@
-[title]
+[com_0]
 type=Rectangle
 x=11
 y=22
@@ -7,7 +7,7 @@ height=232
 colour=0x333333
 fill=yes
 
-[warguild_stab]
+[com_1]
 type=Rectangle
 x=17
 y=27
@@ -16,7 +16,7 @@ height=53
 colour=0x666666
 fill=yes
 
-[aif_bronze_button_text]
+[com_2]
 type=Rectangle
 x=17
 y=83
@@ -25,7 +25,7 @@ height=53
 colour=0x666666
 fill=yes
 
-[warguild_blunt]
+[com_3]
 type=Rectangle
 x=16
 y=139
@@ -34,7 +34,7 @@ height=53
 colour=0x666666
 fill=yes
 
-[aif_bronze_button_text_1]
+[com_4]
 type=Rectangle
 x=16
 y=196
@@ -43,7 +43,7 @@ height=53
 colour=0x666666
 fill=yes
 
-[warguild_slash]
+[com_5]
 type=Model
 x=29
 y=59
@@ -55,7 +55,7 @@ modelZoom=426
 modelXAn=39
 modelYAn=1676
 
-[aif_bronze_button_text_2]
+[com_6]
 type=Model
 x=26
 y=108
@@ -67,7 +67,7 @@ modelZoom=426
 modelXAn=11
 modelYAn=1619
 
-[warguild_magic]
+[com_7]
 type=Model
 x=29
 y=166
@@ -78,7 +78,7 @@ modelAnim=warguild_projspin
 modelZoom=426
 modelYAn=1950
 
-[aif_bronze_button_text_3]
+[com_8]
 type=Model
 x=25
 y=225
@@ -89,7 +89,7 @@ modelAnim=warguild_projspin
 modelZoom=400
 modelYAn=1573
 
-[stab_model]
+[warguild_stab_text]
 type=Text
 buttonType=Button
 x=17
@@ -108,7 +108,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varbit,varbit_2247
 
-[blunt_model]
+[com_10]
 type=Text
 buttonType=Button
 x=17
@@ -127,7 +127,7 @@ eventCode=flag22
 script1=eq,2
 script1op1=varbit,varbit_2247
 
-[slash_model]
+[warguild_slash_text]
 type=Text
 buttonType=Button
 x=17
@@ -146,7 +146,7 @@ eventCode=flag22
 script1=eq,3
 script1op1=varbit,varbit_2247
 
-[magic_model]
+[warguild_magic_text]
 type=Text
 buttonType=Button
 x=17

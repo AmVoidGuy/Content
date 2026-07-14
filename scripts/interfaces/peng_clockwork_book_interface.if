@@ -47,7 +47,7 @@ height=23
 overLayerId=6
 graphic=535
 
-[description01]
+[bookmacro1_close]
 type=Sprite
 buttonType=Close
 x=5
@@ -58,7 +58,7 @@ layerId=32964614
 graphic=536
 buttonText="Ok"
 
-[description02]
+[bookmacro_close_button]
 type=Layer
 x=465
 y=23
@@ -66,7 +66,7 @@ width=32
 height=32
 hide=yes
 
-[description03]
+[description01]
 type=Text
 x=44
 y=172
@@ -76,7 +76,7 @@ colour=0x534A41
 font=496
 text="Making a clockwork toy is very simple and a good place to start for new crafters. Simply create a clockwork mechanism on your Crafting table, then use it and a wood plank to make a toy soldier or a doll. Wind them up and watch them go!"
 
-[clockwork_mechanism]
+[description02]
 type=Text
 x=54
 y=73
@@ -86,7 +86,7 @@ colour=0x302C27
 font=496
 text="Multi-rotation head for lifelike simulation"
 
-[description04]
+[description03]
 type=Text
 x=51
 y=121
@@ -96,7 +96,7 @@ colour=0x302C27
 font=496
 text="A well-hidden clockwork system"
 
-[paper_note]
+[clockwork_mechanism]
 type=Model
 x=326
 y=203
@@ -106,7 +106,7 @@ model1Id=21553
 modelZoom=750
 modelXAn=208
 
-[larry_note]
+[description04]
 type=Text
 x=391
 y=81
@@ -116,7 +116,7 @@ colour=0x302C27
 font=496
 text="The clockwork mechanism."
 
-[paperclip]
+[paper_note]
 type=Model
 x=367
 y=197
@@ -127,7 +127,7 @@ modelZoom=1200
 modelXAn=429
 modelYAn=495
 
-[com_13]
+[larry_note]
 type=Text
 x=290
 y=171
@@ -138,7 +138,7 @@ lineHeight=12
 font=764
 text="It would be simple to alter the design by adding a piece of silk to the wooden frame and clockwork mechanism. You could make a suit that could be controlled from the inside."
 
-[com_14]
+[paperclip]
 type=Model
 x=450
 y=173
@@ -149,7 +149,7 @@ modelZoom=750
 modelXAn=484
 modelYAn=1278
 
-[content_layer]
+[com_15]
 type=Rectangle
 x=148
 y=125

@@ -1,4 +1,4 @@
-[fires]
+[starting_symbols___still_kit]
 type=Layer
 x=2
 y=86
@@ -76,7 +76,7 @@ font=496
 shadow=yes
 text="0"
 
-[hopper_fire_model]
+[hopper_fire]
 type=Layer
 x=16
 y=84
@@ -84,7 +84,7 @@ width=33
 height=35
 hide=yes
 
-[pipe_fire_model]
+[hopper_fire_model]
 type=Model
 x=2
 y=24
@@ -96,7 +96,7 @@ modelZoom=400
 modelXAn=327
 modelYAn=3
 
-[bridge_fire_model]
+[pipe_fire]
 type=Layer
 x=15
 y=122
@@ -104,7 +104,7 @@ width=36
 height=28
 hide=yes
 
-[bitternut_model]
+[pipe_fire_model]
 type=Model
 x=3
 y=10
@@ -116,7 +116,7 @@ modelZoom=400
 modelXAn=327
 modelYAn=3
 
-[sweetgrub_model]
+[bridge_fire]
 type=Layer
 x=14
 y=160
@@ -124,7 +124,7 @@ width=39
 height=31
 hide=yes
 
-[bucket_model]
+[bridge_fire_model]
 type=Model
 x=3
 y=-31
@@ -136,14 +136,14 @@ modelZoom=400
 modelXAn=327
 modelYAn=3
 
-[colourwater_model]
+[ingredients_and_boilers]
 type=Layer
 x=8
 y=28
 width=498
 height=52
 
-[bark_model]
+[bitternut_off]
 type=Model
 x=168
 y=37
@@ -154,7 +154,7 @@ modelZoom=700
 modelXAn=348
 modelYAn=15
 
-[boiler1_model]
+[sweetgrub_off]
 type=Model
 x=214
 y=38
@@ -165,7 +165,7 @@ modelZoom=700
 modelXAn=405
 modelYAn=42
 
-[boiler2_model]
+[bucket_off]
 type=Model
 x=263
 y=46
@@ -177,7 +177,7 @@ modelZoom=600
 modelXAn=444
 modelYAn=3
 
-[boiler3_model]
+[red_water_off]
 type=Model
 x=310
 y=35
@@ -188,7 +188,7 @@ modelZoom=790
 modelXAn=483
 modelYAn=18
 
-[score_sheet]
+[scrapey_bark_off]
 type=Model
 x=358
 y=40
@@ -199,7 +199,7 @@ modelZoom=700
 modelXAn=390
 modelYAn=30
 
-[red_bottle_off]
+[boiler_1_off]
 type=Model
 x=17
 y=38
@@ -209,7 +209,7 @@ model1Id=15677
 modelZoom=700
 modelXAn=402
 
-[red_bottle_off_model]
+[boiler_2_off]
 type=Model
 x=68
 y=38
@@ -219,7 +219,7 @@ model1Id=15679
 modelZoom=700
 modelXAn=402
 
-[blue_bottle_off]
+[boiler_3_off]
 type=Model
 x=117
 y=38
@@ -229,7 +229,7 @@ model1Id=15681
 modelZoom=700
 modelXAn=402
 
-[blue_bottle_off_model]
+[bitternut_on]
 type=Layer
 x=154
 y=24
@@ -237,7 +237,7 @@ width=56
 height=56
 hide=yes
 
-[red_bottle_on]
+[bitternut_on_model]
 type=Model
 x=14
 y=14
@@ -249,7 +249,7 @@ modelZoom=700
 modelXAn=348
 modelYAn=15
 
-[red_bottle_on_model]
+[sweet_grub_on]
 type=Layer
 x=206
 y=29
@@ -257,7 +257,7 @@ width=53
 height=50
 hide=yes
 
-[blue_bottle_on]
+[sweetgrub_on_model]
 type=Model
 x=8
 y=10
@@ -269,7 +269,7 @@ modelZoom=700
 modelXAn=405
 modelYAn=42
 
-[blue_bottle_on_model]
+[red_water_on]
 type=Layer
 x=298
 y=30
@@ -277,7 +277,7 @@ width=54
 height=50
 hide=yes
 
-[red_bottle_warning]
+[red_water_on_model]
 type=Model
 x=12
 y=5
@@ -289,7 +289,7 @@ modelZoom=790
 modelXAn=483
 modelYAn=18
 
-[red_bottle_warning_model]
+[scrapey_bark_on]
 type=Layer
 x=349
 y=31
@@ -297,7 +297,7 @@ width=52
 height=48
 hide=yes
 
-[blue_bottle_warning]
+[scrapey_bark_on_model]
 type=Model
 x=10
 y=8
@@ -309,7 +309,7 @@ modelZoom=700
 modelXAn=390
 modelYAn=30
 
-[blue_bottle_warning_model]
+[boiler_1_on]
 type=Layer
 x=6
 y=25
@@ -317,7 +317,7 @@ width=52
 height=54
 hide=yes
 
-[boiler1_count]
+[boiler_1_on_model]
 type=Model
 x=11
 y=14
@@ -328,7 +328,7 @@ model1Id=15678
 modelZoom=700
 modelXAn=402
 
-[boiler2_count]
+[boiler_2_on]
 type=Layer
 x=49
 y=25
@@ -336,7 +336,7 @@ width=63
 height=55
 hide=yes
 
-[boiler3_count]
+[boiler_2_on_model]
 type=Model
 x=19
 y=13
@@ -347,7 +347,7 @@ model1Id=15680
 modelZoom=700
 modelXAn=402
 
-[bitternut_count]
+[boiler_3_on]
 type=Layer
 x=102
 y=25
@@ -355,7 +355,7 @@ width=57
 height=55
 hide=yes
 
-[sweetgrub_count]
+[boiler_3_on_model]
 type=Model
 x=16
 y=13
@@ -366,7 +366,7 @@ model1Id=15682
 modelZoom=700
 modelXAn=402
 
-[bucket_count]
+[bucket_on]
 type=Layer
 x=250
 y=27
@@ -375,7 +375,7 @@ height=53
 overLayerId=0
 hide=yes
 
-[colourwater_count]
+[bucket_on_model]
 type=Model
 x=13
 y=20
@@ -388,7 +388,7 @@ modelZoom=600
 modelXAn=444
 modelYAn=3
 
-[bark_count]
+[blue_water_off]
 type=Layer
 x=299
 y=28
@@ -397,7 +397,7 @@ height=50
 overLayerId=26
 hide=yes
 
-[brew_score_text]
+[blue_water_off_model]
 type=Model
 x=11
 y=7
@@ -409,7 +409,7 @@ modelZoom=790
 modelXAn=483
 modelYAn=18
 
-[score_sheet_model]
+[blue_water_on]
 type=Layer
 x=298
 y=30
@@ -417,7 +417,7 @@ width=54
 height=50
 hide=yes
 
-[red_score]
+[blue_water_on_model]
 type=Model
 x=12
 y=6
@@ -429,14 +429,14 @@ modelZoom=790
 modelXAn=483
 modelYAn=18
 
-[blue_score]
+[score_sheet]
 type=Layer
 x=329
 y=263
 width=184
 height=73
 
-[brew_time_display]
+[score_sheet_model]
 type=Model
 x=409
 y=276
@@ -447,7 +447,7 @@ modelZoom=912
 modelXAn=288
 modelYAn=2029
 
-[com_44]
+[red_score]
 type=Text
 x=400
 y=288
@@ -457,7 +457,7 @@ colour=0x990000
 font=496
 text="0"
 
-[com_45]
+[blue_score]
 type=Text
 x=435
 y=287
@@ -467,14 +467,14 @@ colour=0x0000CC
 font=496
 text="0"
 
-[com_46]
+[red_bottle_off]
 type=Layer
 x=420
 y=13
 width=69
 height=68
 
-[com_47]
+[red_bottle_off_model]
 type=Model
 x=19
 y=22
@@ -485,7 +485,7 @@ model1Id=15696
 modelZoom=850
 modelXAn=468
 
-[com_48]
+[blue_bottle_off]
 type=Layer
 x=420
 y=13
@@ -493,7 +493,7 @@ width=69
 height=68
 hide=yes
 
-[com_49]
+[blue_bottle_off_model]
 type=Model
 x=19
 y=22
@@ -504,7 +504,7 @@ model1Id=15670
 modelZoom=850
 modelXAn=468
 
-[com_50]
+[red_bottle_on]
 type=Layer
 x=420
 y=13
@@ -512,7 +512,7 @@ width=69
 height=68
 hide=yes
 
-[com_51]
+[red_bottle_on_model]
 type=Model
 x=19
 y=22
@@ -524,7 +524,7 @@ modelAnim=game_brew_bottle_flash
 modelZoom=850
 modelXAn=468
 
-[com_52]
+[blue_bottle_on]
 type=Layer
 x=420
 y=13
@@ -532,7 +532,7 @@ width=69
 height=68
 hide=yes
 
-[com_53]
+[blue_bottle_on_model]
 type=Model
 x=19
 y=22
@@ -544,7 +544,7 @@ modelAnim=game_brew_bottle_flash
 modelZoom=850
 modelXAn=468
 
-[com_54]
+[red_bottle_warning]
 type=Layer
 x=420
 y=13
@@ -552,7 +552,7 @@ width=69
 height=68
 hide=yes
 
-[com_55]
+[red_bottle_warning_model]
 type=Model
 x=19
 y=22
@@ -564,7 +564,7 @@ modelAnim=game_brew_bottle_flash
 modelZoom=850
 modelXAn=468
 
-[com_56]
+[blue_bottle_warning]
 type=Layer
 x=420
 y=13
@@ -572,7 +572,7 @@ width=69
 height=68
 hide=yes
 
-[com_57]
+[blue_bottle_warning_model]
 type=Model
 x=19
 y=22
@@ -584,7 +584,7 @@ modelAnim=game_brew_bottle_flash
 modelZoom=656
 modelXAn=468
 
-[com_58]
+[boiler1_count]
 type=Text
 x=29
 y=23
@@ -595,7 +595,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_59]
+[boiler2_count]
 type=Text
 x=80
 y=23
@@ -606,7 +606,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_60]
+[boiler3_count]
 type=Text
 x=129
 y=23
@@ -617,7 +617,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_61]
+[bitternut_count]
 type=Text
 x=180
 y=23
@@ -628,7 +628,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_62]
+[sweetgrub_count]
 type=Text
 x=225
 y=23
@@ -639,7 +639,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_63]
+[bucket_count]
 type=Text
 x=276
 y=23
@@ -650,7 +650,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_64]
+[colourwater_count]
 type=Text
 x=322
 y=24
@@ -661,7 +661,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_65]
+[bark_count]
 type=Text
 x=371
 y=24
@@ -672,7 +672,7 @@ font=496
 shadow=yes
 text="0"
 
-[com_66]
+[brew_score_text]
 type=Text
 x=33
 y=2
@@ -685,7 +685,7 @@ font=495
 shadow=yes
 text="Current Score"
 
-[com_67]
+[brew_time_display]
 type=Text
 x=358
 y=310

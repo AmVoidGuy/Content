@@ -1,4 +1,4 @@
-[modal_dialog_window]
+[com_0]
 type=Rectangle
 x=2
 y=68
@@ -7,7 +7,7 @@ height=172
 colour=0x202020
 fill=yes
 
-[modal_dialog_window_background]
+[com_1]
 type=Rectangle
 x=6
 y=72
@@ -16,14 +16,14 @@ height=164
 colour=0x404040
 fill=yes
 
-[modal_dialog_window_content]
+[seercl1]
 type=Layer
 x=12
 y=20
 width=488
 height=36
 
-[modal_dialog_window_border]
+[com_3]
 type=Sprite
 x=94
 y=-3
@@ -32,7 +32,7 @@ height=60
 layerId=19529730
 graphic=297
 
-[modal_dialog_window_close_button]
+[com_4]
 type=Sprite
 x=182
 y=6
@@ -77,7 +77,7 @@ height=60
 layerId=19529730
 graphic=297
 
-[seera]
+[com_9]
 type=Sprite
 x=60
 y=16
@@ -86,7 +86,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerb]
+[com_10]
 type=Sprite
 x=96
 y=16
@@ -95,7 +95,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerc]
+[com_11]
 type=Sprite
 x=132
 y=16
@@ -104,7 +104,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerd]
+[com_12]
 type=Sprite
 x=168
 y=16
@@ -113,7 +113,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seera_left]
+[com_13]
 type=Sprite
 x=204
 y=16
@@ -122,7 +122,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerb_left]
+[com_14]
 type=Sprite
 x=240
 y=16
@@ -131,7 +131,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerc_left]
+[com_15]
 type=Sprite
 x=276
 y=16
@@ -140,7 +140,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerd_left]
+[com_16]
 type=Sprite
 x=312
 y=16
@@ -149,7 +149,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seera_right]
+[com_17]
 type=Sprite
 x=348
 y=16
@@ -158,7 +158,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerb_right]
+[com_18]
 type=Sprite
 x=384
 y=16
@@ -167,7 +167,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerc_right]
+[com_19]
 type=Sprite
 x=420
 y=16
@@ -176,7 +176,7 @@ height=36
 layerId=19529730
 graphic=173
 
-[seerd_right]
+[com_20]
 type=Sprite
 x=428
 y=16
@@ -185,14 +185,14 @@ height=36
 layerId=19529730
 graphic=173
 
-[3x1_positive]
+[com_21]
 type=Sprite
 width=25
 height=30
 layerId=19529730
 graphic=310
 
-[positive_build]
+[com_22]
 type=Sprite
 x=60
 y=-15
@@ -201,7 +201,7 @@ height=36
 layerId=19529730
 graphic=314
 
-[positive_click]
+[com_23]
 type=Sprite
 x=96
 y=-15
@@ -383,7 +383,7 @@ model1Id=3041
 modelZoom=550
 modelXAn=400
 
-[com_43]
+[seera]
 type=Text
 x=65
 y=97
@@ -394,7 +394,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_44]
+[seerb]
 type=Text
 x=189
 y=97
@@ -405,7 +405,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_45]
+[seerc]
 type=Text
 x=313
 y=97
@@ -416,7 +416,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_46]
+[seerd]
 type=Text
 x=437
 y=97
@@ -427,7 +427,7 @@ hAlign=Center
 font=496
 text="A"
 
-[com_47]
+[seera_left]
 type=Sprite
 buttonType=Button
 x=22
@@ -437,7 +437,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_48]
+[seera_right]
 type=Sprite
 buttonType=Button
 x=70
@@ -447,7 +447,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_49]
+[seerb_left]
 type=Sprite
 buttonType=Button
 x=146
@@ -457,7 +457,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_50]
+[seerb_right]
 type=Sprite
 buttonType=Button
 x=194
@@ -467,7 +467,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_51]
+[seerc_left]
 type=Sprite
 buttonType=Button
 x=270
@@ -477,7 +477,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_52]
+[seerc_right]
 type=Sprite
 buttonType=Button
 x=318
@@ -487,7 +487,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_53]
+[seerd_left]
 type=Sprite
 buttonType=Button
 x=394
@@ -497,7 +497,7 @@ height=36
 graphic=308
 eventCode=flag22
 
-[com_54]
+[seerd_right]
 type=Sprite
 buttonType=Button
 x=442
@@ -507,7 +507,7 @@ height=36
 graphic=309
 eventCode=flag22
 
-[com_55]
+[seercombolock]
 type=Text
 x=101
 y=32
@@ -519,7 +519,7 @@ font=496
 shadow=yes
 text="Combination Lock Door"
 
-[com_56]
+[seerenter]
 type=Rectangle
 buttonType=Button
 x=193
@@ -530,7 +530,7 @@ colour=0x404040
 fill=yes
 eventCode=flag22
 
-[com_57]
+[seerenter2]
 type=Text
 x=192
 y=262
@@ -562,7 +562,7 @@ layerId=19529788
 graphic=536
 buttonText="Ok"
 
-[com_60]
+[seers_combo_close]
 type=Layer
 x=468
 y=22

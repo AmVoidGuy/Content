@@ -1,4 +1,4 @@
-[castlewars_game_hud]
+[com_0]
 type=Text
 x=152
 y=23
@@ -11,7 +11,7 @@ shadow=yes
 text="Zamorak = %1"
 script1op1=varbit,castlewars_zamorak_score
 
-[castlewars_zamorak_eject]
+[com_1]
 type=Text
 x=251
 y=23
@@ -24,7 +24,7 @@ shadow=yes
 text="%1 = Saradomin"
 script1op1=varbit,castlewars_saradomin_score
 
-[sara_side]
+[com_2]
 type=Model
 y=89
 width=32
@@ -40,7 +40,7 @@ height=32
 model1Id=4862
 modelZoom=2134
 
-[saradomin_score]
+[com_4]
 type=Text
 x=33
 y=38
@@ -52,7 +52,7 @@ text2="Safe"
 script1=eq,0
 script1op1=varbit,castlewars_saradomin_flag
 
-[saradomin_flag]
+[com_5]
 type=Text
 x=35
 y=73
@@ -64,13 +64,13 @@ text2="Safe"
 script1=eq,0
 script1op1=varbit,castlewars_zamorak_flag
 
-[taken_by_zam_player]
+[com_6]
 type=Layer
 y=180
 width=106
 height=148
 
-[zama_side]
+[com_7]
 type=Text
 x=33
 y=8
@@ -97,7 +97,7 @@ font=494
 text="%1 Min"
 script1op1=varp,castlewars_timer
 
-[zamorak_score]
+[com_9]
 type=Model
 x=1
 y=4
@@ -108,7 +108,7 @@ model1Id=4855
 modelZoom=1244
 modelXAn=512
 
-[zamorak_flag]
+[com_10]
 type=Model
 x=-5
 y=35
@@ -119,7 +119,7 @@ model1Id=4859
 modelZoom=1165
 modelXAn=512
 
-[taken_by_sara_player]
+[com_11]
 type=Text
 x=33
 y=43
@@ -134,7 +134,7 @@ text2="Unlocked"
 script1=eq,1
 script1op1=varbit,castlewars_zamorak_sidedoor
 
-[time_remaining]
+[com_12]
 type=Model
 x=1
 y=59
@@ -145,7 +145,7 @@ model1Id=4861
 modelZoom=2063
 modelXAn=512
 
-[castlewars_ticket_info]
+[com_13]
 type=Text
 x=33
 y=78
@@ -160,7 +160,7 @@ text2="Cleared"
 script1=eq,1
 script1op1=varbit,castlewars_zamorak_tunnel1
 
-[castlewars_icon_sar]
+[com_14]
 type=Model
 x=1
 y=264
@@ -170,7 +170,7 @@ model1Id=4861
 modelZoom=2063
 modelXAn=512
 
-[gold_frame_2_layer]
+[com_15]
 type=Text
 x=33
 y=103
@@ -185,7 +185,7 @@ text2="Cleared"
 script1=eq,1
 script1op1=varbit,castlewars_zamorak_tunnel2
 
-[gold_frame_2_background_layer]
+[com_16]
 type=Model
 y=111
 width=32
@@ -195,7 +195,7 @@ model1Id=4853
 modelZoom=1135
 modelXAn=512
 
-[gold_frame_2_content_layer]
+[com_17]
 type=Text
 x=33
 y=128
@@ -210,7 +210,7 @@ text2="Destroyed"
 script1=eq,1
 script1op1=varbit,castlewars_zamorak_catapult
 
-[health]
+[com_18]
 type=Text
 x=33
 y=38
@@ -223,7 +223,7 @@ text2="Taken"
 script1=eq,1
 script1op1=varbit,castlewars_saradomin_flag
 
-[door]
+[com_19]
 type=Text
 x=33
 y=38
@@ -236,7 +236,7 @@ text2="Dropped"
 script1=eq,2
 script1op1=varbit,castlewars_saradomin_flag
 
-[tunnel1]
+[com_20]
 type=Text
 x=35
 y=73
@@ -249,7 +249,7 @@ text2="Taken"
 script1=eq,1
 script1op1=varbit,castlewars_zamorak_flag
 
-[tunnel2]
+[com_21]
 type=Text
 x=35
 y=73
@@ -262,7 +262,7 @@ text2="Dropped"
 script1=eq,2
 script1op1=varbit,castlewars_zamorak_flag
 
-[catapult]
+[castlewars_zamorak_eject]
 type=Text
 x=247
 y=119

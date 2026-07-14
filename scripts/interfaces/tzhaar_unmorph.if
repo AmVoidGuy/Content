@@ -1,4 +1,4 @@
-[button_layer]
+[com_0]
 type=Sprite
 x=48
 y=100
@@ -7,7 +7,7 @@ height=36
 graphic=184
 tiling=yes
 
-[icon]
+[com_1]
 type=Sprite
 x=22
 y=100
@@ -15,7 +15,7 @@ width=36
 height=36
 graphic=177
 
-[button]
+[com_2]
 type=Sprite
 x=130
 y=100
@@ -23,7 +23,7 @@ width=36
 height=36
 graphic=178
 
-[build]
+[tzhaar_unmorph_button]
 type=Text
 clientCode=205
 x=24

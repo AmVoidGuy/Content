@@ -34,7 +34,7 @@ discardedModelField=64359
 modelBaseWidth=799
 modelBaseHeight=789
 
-[com_2]
+[black]
 type=Model
 x=-377
 y=301
@@ -51,7 +51,7 @@ discardedModelField=64371
 modelBaseWidth=579
 modelBaseHeight=381
 
-[black]
+[com_3]
 type=Model
 x=7
 y=7

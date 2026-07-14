@@ -411,7 +411,7 @@ shadow=yes
 text="__________"
 eventCode=flag22
 
-[poh_hangman_guess_instructions_layer]
+[com_30]
 type=Text
 width=465
 height=17
@@ -420,7 +420,7 @@ colour=0x6633FF
 font=495
 text="Enter up to five letters in any order then click 'guess' again."
 
-[centre]
+[poh_hangman_guess_instructions_layer]
 type=Layer
 y=72
 width=406

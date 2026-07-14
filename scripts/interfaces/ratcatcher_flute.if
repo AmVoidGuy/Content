@@ -1,4 +1,4 @@
-[ratcatcher_big_flute]
+[ratcatcher_scroll]
 type=Model
 x=254
 y=135
@@ -8,7 +8,7 @@ model1Id=4652
 modelZoom=891
 modelXAn=492
 
-[ratcatcher_mini_flute1]
+[ratcatcher_big_flute]
 type=Model
 x=26
 y=147
@@ -19,7 +19,7 @@ modelZoom=720
 modelXAn=443
 modelYAn=2
 
-[ratcatcher_mini_flute2]
+[ratcatcher_mini_flute1]
 type=Model
 x=119
 y=102
@@ -29,7 +29,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[ratcatcher_mini_flute3]
+[ratcatcher_mini_flute2]
 type=Model
 x=160
 y=110
@@ -39,7 +39,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[ratcatcher_mini_flute4]
+[ratcatcher_mini_flute3]
 type=Model
 x=202
 y=109
@@ -49,7 +49,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[ratcatcher_mini_flute5]
+[ratcatcher_mini_flute4]
 type=Model
 x=246
 y=101
@@ -59,7 +59,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[ratcatcher_mini_flute6]
+[ratcatcher_mini_flute5]
 type=Model
 x=290
 y=96
@@ -69,7 +69,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[ratcatcher_mini_flute7]
+[ratcatcher_mini_flute6]
 type=Model
 x=335
 y=101
@@ -79,7 +79,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[ratcatcher_mini_flute8]
+[ratcatcher_mini_flute7]
 type=Model
 x=381
 y=106
@@ -89,7 +89,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[rc_flute_pageno]
+[ratcatcher_mini_flute8]
 type=Model
 x=426
 y=110
@@ -99,7 +99,7 @@ model1Id=10098
 modelZoom=400
 modelXAn=512
 
-[rc_flute_up_octave]
+[rc_flute_pageno]
 type=Text
 x=313
 y=35
@@ -109,7 +109,7 @@ hAlign=Center
 font=497
 text="Page 1 of 8"
 
-[rc_flute_d]
+[rc_flute_up_octave]
 type=Model
 buttonType=Toggly
 x=138
@@ -125,7 +125,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varbit,vc_note_current_hi
 
-[rc_flute_e]
+[rc_flute_d]
 type=Model
 buttonType=Toggly
 x=119
@@ -141,7 +141,7 @@ eventCode=flag22
 script1=eq,63
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_fsharp]
+[rc_flute_e]
 type=Model
 buttonType=Toggly
 x=160
@@ -157,7 +157,7 @@ eventCode=flag22
 script1=eq,62
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_g]
+[rc_flute_fsharp]
 type=Model
 buttonType=Toggly
 x=202
@@ -173,7 +173,7 @@ eventCode=flag22
 script1=eq,60
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_a]
+[rc_flute_g]
 type=Model
 buttonType=Toggly
 x=246
@@ -189,7 +189,7 @@ eventCode=flag22
 script1=eq,56
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_b]
+[rc_flute_a]
 type=Model
 buttonType=Toggly
 x=290
@@ -205,7 +205,7 @@ eventCode=flag22
 script1=eq,48
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_csharp]
+[rc_flute_b]
 type=Model
 buttonType=Toggly
 x=335
@@ -221,7 +221,7 @@ eventCode=flag22
 script1=eq,32
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_c]
+[rc_flute_csharp]
 type=Model
 buttonType=Toggly
 x=381
@@ -237,7 +237,7 @@ eventCode=flag22
 script1=eq,1
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_play]
+[rc_flute_c]
 type=Model
 buttonType=Toggly
 x=426
@@ -253,7 +253,7 @@ eventCode=flag22
 script1=eq,24
 script1op1=varbit,vc_fingers_current
 
-[rc_flute_prev_layer]
+[rc_flute_play]
 type=Text
 buttonType=Button
 x=208
@@ -269,7 +269,7 @@ text="PLAY"
 buttonText="Play your tune."
 eventCode=flag22
 
-[rc_flute_next_layer]
+[rc_flute_next_note]
 type=Model
 buttonType=Button
 x=1
@@ -284,7 +284,7 @@ modelXAn=512
 buttonText="Next page."
 eventCode=flag22
 
-[rc_flute_next_note]
+[rc_flute_prev_note]
 type=Model
 buttonType=Button
 x=2
@@ -300,21 +300,21 @@ modelYAn=1024
 buttonText="Previous Page."
 eventCode=flag22
 
-[rc_flute_prev_note]
+[rc_flute_prev_layer]
 type=Layer
 x=358
 y=55
 width=44
 height=42
 
-[mainmodal_window]
+[rc_flute_next_layer]
 type=Layer
 x=410
 y=57
 width=44
 height=42
 
-[mainmodal_window_background]
+[com_25]
 type=Sprite
 x=484
 y=4
@@ -323,7 +323,7 @@ height=23
 overLayerId=27
 graphic=539
 
-[mainmodal_window_content]
+[ratcatcher_flute_close_window]
 type=Sprite
 buttonType=Close
 x=4
@@ -334,7 +334,7 @@ layerId=18481179
 graphic=540
 buttonText="Ok"
 
-[com_27]
+[ratcatcher_flute_close]
 type=Layer
 x=480
 y=-1

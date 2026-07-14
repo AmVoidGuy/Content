@@ -1,4 +1,4 @@
-[layer_1]
+[game_brew_backing]
 type=Model
 x=-7
 y=-25
@@ -11,7 +11,7 @@ modelXOf=4
 modelYOf=4
 discardedModelField=64461
 
-[bespoke_window]
+[game_brew_table]
 type=Model
 x=22
 y=54
@@ -23,7 +23,7 @@ modelXAn=512
 modelYOf=1
 discardedModelField=64612
 
-[game_brew_backing]
+[game_brew_bamboo]
 type=Model
 x=44
 y=94
@@ -36,7 +36,7 @@ discardedModelField=64187
 eventCode=hasOp(1)
 opName0="Take Pipe"
 
-[game_brew_table]
+[game_brew_bridge]
 type=Model
 x=105
 y=98
@@ -49,7 +49,7 @@ discardedModelField=64036
 eventCode=hasOp(1)
 opName0="Take Bridge Section"
 
-[game_brew_bamboo]
+[game_brew_bucket]
 type=Model
 x=187
 y=104
@@ -63,7 +63,7 @@ discardedModelField=64420
 eventCode=hasOp(1)
 opName0="Take Bucket"
 
-[game_brew_bridge]
+[game_brew_torch]
 type=Model
 x=27
 y=232
@@ -79,7 +79,7 @@ discardedModelField=64072
 eventCode=hasOp(1)
 opName0="Take Torch"
 
-[game_brew_bucket]
+[game_brew_sheets]
 type=Model
 x=337
 y=95
@@ -93,7 +93,7 @@ discardedModelField=64140
 eventCode=hasOp(1)
 opName0="Take Lumber Patch"
 
-[game_brew_torch]
+[game_brew_jar]
 type=Model
 x=427
 y=105
@@ -108,7 +108,7 @@ discardedModelField=64373
 eventCode=hasOp(1)
 opName0="Take Jar"
 
-[game_brew_sheets]
+[game_brew_bowl_blue]
 type=Model
 x=115
 y=214
@@ -121,7 +121,7 @@ discardedModelField=64110
 eventCode=hasOp(1)
 opName0="Take Bowl"
 
-[game_brew_jar]
+[game_brew_tinderbox]
 type=Model
 x=191
 y=214
@@ -136,7 +136,7 @@ discardedModelField=64420
 eventCode=hasOp(1)
 opName0="Take Tinderbox"
 
-[game_brew_bowl_blue]
+[game_brew_meat]
 type=Model
 x=277
 y=215
@@ -150,7 +150,7 @@ discardedModelField=64420
 eventCode=hasOp(1)
 opName0="Take Meat"
 
-[game_brew_tinderbox]
+[game_brew_knife]
 type=Model
 x=364
 y=215
@@ -165,7 +165,7 @@ discardedModelField=64420
 eventCode=hasOp(1)
 opName0="Take Knife"
 
-[game_brew_meat]
+[game_brew_net]
 type=Model
 x=414
 y=214
@@ -180,7 +180,7 @@ discardedModelField=64115
 eventCode=hasOp(1)
 opName0="Take Net"
 
-[game_brew_knife]
+[game_brew_axe]
 type=Model
 x=270
 y=104
@@ -196,7 +196,7 @@ discardedModelField=64314
 eventCode=hasOp(1)
 opName0="Take Axe"
 
-[game_brew_net]
+[game_brew_bamboo_text]
 type=Text
 x=25
 y=68
@@ -208,7 +208,7 @@ font=495
 shadow=yes
 text="Bamboo pipe"
 
-[game_brew_axe]
+[game_brew_bridge_text]
 type=Text
 x=102
 y=68
@@ -221,7 +221,7 @@ font=495
 shadow=yes
 text="Bridge section"
 
-[game_brew_bamboo_text]
+[game_brew_bucket_text]
 type=Text
 x=179
 y=68
@@ -234,7 +234,7 @@ font=495
 shadow=yes
 text="Bucket"
 
-[game_brew_bridge_text]
+[game_brew_torch_text]
 type=Text
 x=25
 y=185
@@ -247,7 +247,7 @@ font=495
 shadow=yes
 text="Torch"
 
-[game_brew_bucket_text]
+[game_brew_sheet_text]
 type=Text
 x=333
 y=68
@@ -260,7 +260,7 @@ font=495
 shadow=yes
 text="Lumber patch"
 
-[game_brew_torch_text]
+[game_brew_jar_text]
 type=Text
 x=410
 y=68
@@ -273,7 +273,7 @@ font=495
 shadow=yes
 text="Jar"
 
-[game_brew_sheet_text]
+[game_brew_bowl_blue_text]
 type=Text
 x=102
 y=185
@@ -286,7 +286,7 @@ font=495
 shadow=yes
 text="Bowl"
 
-[game_brew_jar_text]
+[game_brew_tinder_text]
 type=Text
 x=179
 y=185
@@ -299,7 +299,7 @@ font=495
 shadow=yes
 text="Tinderbox"
 
-[game_brew_bowl_blue_text]
+[game_brew_meat_text]
 type=Text
 x=256
 y=185
@@ -312,7 +312,7 @@ font=495
 shadow=yes
 text="Meat"
 
-[game_brew_tinder_text]
+[game_brew_knife_text]
 type=Text
 x=333
 y=185
@@ -325,7 +325,7 @@ font=495
 shadow=yes
 text="Knife"
 
-[game_brew_meat_text]
+[game_brew_net_text]
 type=Text
 x=410
 y=185
@@ -338,7 +338,7 @@ font=495
 shadow=yes
 text="Net"
 
-[game_brew_knife_text]
+[game_brew_axe_text]
 type=Text
 x=256
 y=68
@@ -351,7 +351,7 @@ font=495
 shadow=yes
 text="Axe"
 
-[game_brew_net_text]
+[game_brew_bamboo_counter]
 type=Text
 x=72
 y=145
@@ -362,7 +362,7 @@ font=495
 shadow=yes
 text="0"
 
-[game_brew_axe_text]
+[game_brew_bridge_counter]
 type=Text
 x=158
 y=144
@@ -373,7 +373,7 @@ font=495
 shadow=yes
 text="0"
 
-[game_brew_bamboo_counter]
+[game_brew_patch_counter]
 type=Text
 x=389
 y=145
@@ -384,7 +384,7 @@ font=495
 shadow=yes
 text="0"
 
-[game_brew_bridge_counter]
+[com_29]
 type=Sprite
 x=483
 y=6

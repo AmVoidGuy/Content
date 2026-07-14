@@ -1,4 +1,4 @@
-[layer_1]
+[com_0]
 type=Rectangle
 width=512
 height=334
@@ -15,7 +15,7 @@ modelAnim=rocko_waves
 modelZoom=272
 discardedModelField=64371
 
-[layer_2]
+[com_2]
 type=Model
 x=129
 width=125

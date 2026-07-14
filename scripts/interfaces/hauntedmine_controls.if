@@ -1,4 +1,4 @@
-[layer_1]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -1065,7 +1065,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_points1]
+[com_121]
 type=Model
 x=121
 y=100
@@ -1076,7 +1076,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_points2]
+[com_122]
 type=Model
 x=121
 y=84
@@ -1087,7 +1087,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_points3]
+[com_123]
 type=Model
 x=121
 y=67
@@ -1098,7 +1098,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_points4]
+[com_124]
 type=Model
 x=122
 y=50
@@ -1109,7 +1109,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1536
 
-[hauntedmine_points5]
+[com_125]
 type=Model
 x=139
 y=50
@@ -1120,7 +1120,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_points6]
+[com_126]
 type=Model
 x=156
 y=50
@@ -1131,7 +1131,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_points7]
+[com_127]
 type=Model
 x=172
 y=169
@@ -1142,7 +1142,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_points8]
+[com_128]
 type=Model
 x=189
 y=169
@@ -1197,7 +1197,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[start_button]
+[com_133]
 type=Model
 x=205
 y=83
@@ -1208,7 +1208,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart_start]
+[com_134]
 type=Model
 x=188
 y=83
@@ -1471,7 +1471,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_route3]
+[com_158]
 type=Model
 x=291
 y=256
@@ -1482,7 +1482,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_cart3]
+[com_159]
 type=Model
 x=291
 y=273
@@ -1493,7 +1493,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_route2]
+[com_160]
 type=Model
 x=291
 y=290
@@ -1504,7 +1504,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_cart2]
+[com_161]
 type=Model
 x=343
 y=289
@@ -1515,7 +1515,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_route4]
+[com_162]
 type=Model
 x=342
 y=272
@@ -1526,7 +1526,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_cart4]
+[com_163]
 type=Model
 x=342
 y=255
@@ -1537,7 +1537,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=512
 
-[hauntedmine_route5]
+[com_164]
 type=Model
 x=362
 y=289
@@ -1548,7 +1548,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart5]
+[com_165]
 type=Model
 x=380
 y=289
@@ -1559,7 +1559,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_route6]
+[com_166]
 type=Model
 x=397
 y=289
@@ -1570,7 +1570,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart6]
+[com_167]
 type=Model
 x=415
 y=289
@@ -1581,7 +1581,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_route7_1]
+[com_168]
 type=Model
 x=432
 y=289
@@ -1592,7 +1592,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_route7_2]
+[com_169]
 type=Model
 x=450
 y=289
@@ -1603,7 +1603,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart7]
+[com_170]
 type=Model
 x=393
 y=118
@@ -1613,7 +1613,7 @@ model1Id=4911
 modelZoom=3600
 modelXAn=512
 
-[hauntedmine_route8]
+[com_171]
 type=Model
 x=342
 y=118
@@ -1624,7 +1624,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart8]
+[com_172]
 type=Model
 x=359
 y=118
@@ -1635,7 +1635,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart0]
+[com_173]
 type=Model
 x=376
 y=118
@@ -1646,7 +1646,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[hauntedmine_cart1]
+[com_174]
 type=Model
 x=392
 y=152
@@ -2022,7 +2022,7 @@ font=495
 shadow=yes
 text="Controls"
 
-[com_208]
+[hauntedmine_points1]
 type=Model
 x=122
 y=169
@@ -2036,7 +2036,7 @@ modelYAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,1
 
-[com_209]
+[hauntedmine_points2]
 type=Model
 x=104
 y=170
@@ -2050,7 +2050,7 @@ modelYAn=1536
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,2
 
-[com_210]
+[hauntedmine_points3]
 type=Model
 x=224
 y=238
@@ -2064,7 +2064,7 @@ modelYAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,3
 
-[com_211]
+[hauntedmine_points4]
 type=Model
 x=223
 y=118
@@ -2078,7 +2078,7 @@ modelYAn=1024
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,4
 
-[com_212]
+[hauntedmine_points5]
 type=Model
 x=223
 y=169
@@ -2092,7 +2092,7 @@ modelYAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,5
 
-[com_213]
+[hauntedmine_points6]
 type=Model
 x=343
 y=238
@@ -2106,7 +2106,7 @@ modelYAn=1024
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,6
 
-[com_214]
+[hauntedmine_points7]
 type=Model
 x=343
 y=135
@@ -2119,7 +2119,7 @@ modelXAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,7
 
-[com_215]
+[hauntedmine_points8]
 type=Model
 x=392
 y=135
@@ -2185,7 +2185,7 @@ graphic2=296
 script1=gt,8191
 script1op1=varp,hauntedmine_bits
 
-[com_221]
+[hauntedmine_cart_start]
 type=Text
 buttonType=Button
 x=22
@@ -2460,7 +2460,7 @@ modelZoom=1500
 modelXAn=49
 modelYAn=393
 
-[com_245]
+[hauntedmine_route3]
 type=Layer
 x=17
 y=5
@@ -2591,7 +2591,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1536
 
-[com_258]
+[hauntedmine_cart3]
 type=Model
 x=155
 y=243
@@ -2605,7 +2605,7 @@ modelYAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,15
 
-[com_259]
+[hauntedmine_route2]
 type=Layer
 x=17
 y=5
@@ -2785,7 +2785,7 @@ layerId=9437443
 colour=0xA00000
 fill=yes
 
-[com_277]
+[hauntedmine_cart2]
 type=Model
 x=343
 y=100
@@ -2799,7 +2799,7 @@ modelYAn=1536
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,14
 
-[com_278]
+[hauntedmine_route4]
 type=Layer
 x=17
 y=5
@@ -2930,7 +2930,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[mainmodal_window_background]
+[com_291]
 type=Model
 x=52
 y=147
@@ -2940,7 +2940,7 @@ layerId=9437462
 modelZoom=3600
 modelXAn=512
 
-[mainmodal_window_content]
+[com_292]
 type=Model
 x=206
 y=45
@@ -2950,7 +2950,7 @@ layerId=9437462
 modelZoom=3600
 modelXAn=512
 
-[mainmodal_window_border]
+[com_293]
 type=Model
 x=105
 y=45
@@ -2961,7 +2961,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1536
 
-[mainmodal_window_close_button]
+[com_294]
 type=Rectangle
 x=112
 y=248
@@ -2992,7 +2992,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1024
 
-[com_297]
+[hauntedmine_cart4]
 type=Model
 x=177
 y=238
@@ -3005,7 +3005,7 @@ modelXAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,16
 
-[com_298]
+[hauntedmine_route5]
 type=Layer
 x=17
 y=5
@@ -3104,7 +3104,7 @@ layerId=9437482
 colour=0xA00000
 fill=yes
 
-[com_308]
+[hauntedmine_cart5]
 type=Model
 x=336
 y=238
@@ -3118,7 +3118,7 @@ modelYAn=1024
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,17
 
-[com_309]
+[hauntedmine_route6]
 type=Layer
 x=17
 y=5
@@ -3228,7 +3228,7 @@ layerId=9437493
 colour=0xA00000
 fill=yes
 
-[com_320]
+[hauntedmine_cart6]
 type=Model
 x=342
 y=243
@@ -3242,7 +3242,7 @@ modelYAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,18
 
-[com_321]
+[hauntedmine_route7.1]
 type=Layer
 x=17
 y=5
@@ -3443,7 +3443,7 @@ layerId=9437505
 colour=0xA00000
 fill=yes
 
-[com_341]
+[hauntedmine_route7.2]
 type=Layer
 x=17
 y=5
@@ -3471,7 +3471,7 @@ layerId=9437525
 colour=0xA00000
 fill=yes
 
-[com_344]
+[scab_rune_game_ro8_00]
 type=Rectangle
 x=120
 y=70
@@ -3481,7 +3481,7 @@ layerId=9437525
 colour=0xA00000
 fill=yes
 
-[com_345]
+[scab_rune_game_ro8_01]
 type=Rectangle
 x=344
 y=129
@@ -3491,7 +3491,7 @@ layerId=9437525
 colour=0xA00000
 fill=yes
 
-[com_346]
+[scab_rune_game_ro8_02]
 type=Rectangle
 x=221
 y=103
@@ -3501,7 +3501,7 @@ layerId=9437525
 colour=0xA00000
 fill=yes
 
-[com_347]
+[scab_rune_game_ro8_03]
 type=Rectangle
 x=74
 y=180
@@ -3573,7 +3573,7 @@ layerId=9437525
 colour=0xA00000
 fill=yes
 
-[com_354]
+[hauntedmine_cart7]
 type=Model
 x=392
 y=175
@@ -3587,7 +3587,7 @@ modelYAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,19
 
-[com_355]
+[hauntedmine_route8]
 type=Layer
 x=17
 y=5
@@ -3707,7 +3707,7 @@ modelZoom=3600
 modelXAn=512
 modelYAn=1536
 
-[com_367]
+[hauntedmine_cart8]
 type=Model
 x=59
 y=152
@@ -3721,7 +3721,7 @@ modelYAn=1024
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,20
 
-[com_368]
+[hauntedmine_cart0]
 type=Model
 x=21
 y=152
@@ -3733,7 +3733,7 @@ modelXAn=512
 script1=eq,1
 script1op1=varp_bit,hauntedmine_bits,13
 
-[com_369]
+[hauntedmine_cart1]
 type=Model
 x=21
 y=152
@@ -3766,7 +3766,7 @@ layerId=9437556
 graphic=536
 buttonText="Ok"
 
-[com_372]
+[hauntedmine_controls_close]
 type=Layer
 x=467
 y=20

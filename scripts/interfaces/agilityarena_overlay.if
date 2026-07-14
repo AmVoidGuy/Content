@@ -24,7 +24,7 @@ fill=yes
 script1=eq,1
 script1op1=varp_bit,agilityarena_varbit,2
 
-[red]
+[com_2]
 type=Rectangle
 x=485
 y=5
@@ -33,7 +33,7 @@ height=22
 trans=40
 colour=0xCCCCCC
 
-[green]
+[com_3]
 type=Rectangle
 x=485
 y=26

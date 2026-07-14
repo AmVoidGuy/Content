@@ -26,7 +26,7 @@ height=46
 hAlign=Center
 font=497
 
-[kings_seal]
+[com_3]
 type=Sprite
 x=367
 y=87
@@ -35,7 +35,7 @@ height=23
 overLayerId=5
 graphic=537
 
-[close_button]
+[com_4]
 type=Sprite
 buttonType=Close
 x=2
@@ -54,7 +54,7 @@ width=32
 height=32
 hide=yes
 
-[com_6]
+[kings_seal]
 type=Model
 x=369
 y=207

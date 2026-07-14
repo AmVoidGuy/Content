@@ -1,10 +1,10 @@
-[chat_container]
+[quickchat]
 type=Layer
 width=506
 height=130
 hide=yes
 
-[mobile_listener]
+[quickchat_path]
 type=Layer
 x=38
 y=2
@@ -12,13 +12,13 @@ width=466
 height=14
 layerId=8978432
 
-[mobile_listener_graphic]
+[quickchat_path_highlight]
 type=Layer
 width=466
 height=14
 layerId=8978433
 
-[quickchat]
+[quickchat_title]
 type=Text
 x=38
 y=2
@@ -30,7 +30,7 @@ colour=0xFFFF00
 font=494
 shadow=yes
 
-[quickchat_path]
+[quickchat_closebutton]
 type=Sprite
 y=1
 width=16
@@ -43,7 +43,7 @@ onmouseover=1055,component.parentId
 onmouseleave=1056,component.parentId
 onop=1053
 
-[quickchat_path_highlight]
+[quickchat_helpbutton]
 type=Sprite
 x=21
 y=1
@@ -56,7 +56,7 @@ opName0="Quick Chat Help"
 onmouseover=1057,component.parentId
 onmouseleave=1058,component.parentId
 
-[quickchat_title]
+[com_6]
 type=Rectangle
 y=16
 width=506
@@ -64,7 +64,7 @@ height=2
 layerId=8978432
 colour=0x847963
 
-[quickchat_closebutton]
+[quickchat_countdialog]
 type=Layer
 x=2
 y=18
@@ -73,7 +73,7 @@ height=112
 layerId=8978432
 hide=yes
 
-[quickchat_helpbutton]
+[quickchat_countdialog_input]
 type=Text
 y=30
 width=506
@@ -84,7 +84,7 @@ vAlign=Center
 font=495
 text="0"
 
-[quickchat_separator_h]
+[quickchat_listdialog]
 type=Layer
 x=2
 y=18
@@ -93,7 +93,7 @@ height=112
 layerId=8978432
 hide=yes
 
-[quickchat_countdialog]
+[quickchat_listdialog_text]
 type=Text
 width=506
 height=14
@@ -103,7 +103,7 @@ vAlign=Center
 font=495
 text="Please select an option from the list below:"
 
-[quickchat_countdialog_input]
+[quickchat_listdialog_scroll]
 type=Layer
 x=486
 y=14
@@ -112,14 +112,14 @@ height=98
 layerId=8978441
 onload=30,component.parentId,8978444
 
-[quickchat_listdialog]
+[quickchat_listdialog_options]
 type=Layer
 y=14
 width=486
 height=98
 layerId=8978441
 
-[quickchat_listdialog_text]
+[quickchat_objdialog]
 type=Layer
 x=2
 y=18
@@ -128,7 +128,7 @@ height=112
 layerId=8978432
 hide=yes
 
-[quickchat_listdialog_scroll]
+[quickchat_objdialog_input]
 type=Text
 width=506
 height=14
@@ -138,7 +138,7 @@ vAlign=Center
 font=495
 text="Please enter a search term and select an object from the list:"
 
-[quickchat_listdialog_options]
+[quickchat_objdialog_scroll]
 type=Layer
 x=486
 y=14
@@ -147,14 +147,14 @@ height=98
 layerId=8978445
 onload=30,component.parentId,8978448
 
-[quickchat_objdialog]
+[quickchat_objdialog_search]
 type=Layer
 y=14
 width=486
 height=98
 layerId=8978445
 
-[quickchat_objdialog_input]
+[quickchat_menu]
 type=Layer
 x=2
 y=18
@@ -162,37 +162,17 @@ width=502
 height=112
 layerId=8978432
 
-[quickchat_objdialog_scroll]
-type=Layer
-width=502
-height=112
-layerId=8978449
-
-[quickchat_objdialog_search]
-type=Layer
-width=502
-height=112
-layerId=8978450
-
-[quickchat_menu]
-type=Layer
-width=502
-height=112
-layerId=8978449
-
 [quickchat_menu_0]
 type=Layer
 width=502
 height=112
-layerId=8978452
+layerId=8978449
 
 [quickchat_menu_highlight_0]
-type=Rectangle
-width=2
+type=Layer
+width=502
 height=112
-layerId=8978452
-colour=0x847963
-fill=yes
+layerId=8978450
 
 [quickchat_menu_1]
 type=Layer
@@ -204,13 +184,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978455
+layerId=8978452
 
-[quickchat_menu_separator_1]
+[com_22]
 type=Rectangle
 width=2
 height=112
-layerId=8978455
+layerId=8978452
 colour=0x847963
 fill=yes
 
@@ -224,13 +204,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978458
+layerId=8978455
 
-[quickchat_menu_separator_2]
+[com_25]
 type=Rectangle
 width=2
 height=112
-layerId=8978458
+layerId=8978455
 colour=0x847963
 fill=yes
 
@@ -244,13 +224,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978461
+layerId=8978458
 
-[quickchat_menu_separator_3]
+[com_28]
 type=Rectangle
 width=2
 height=112
-layerId=8978461
+layerId=8978458
 colour=0x847963
 fill=yes
 
@@ -264,13 +244,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978464
+layerId=8978461
 
-[quickchat_menu_separator_4]
+[com_31]
 type=Rectangle
 width=2
 height=112
-layerId=8978464
+layerId=8978461
 colour=0x847963
 fill=yes
 
@@ -284,13 +264,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978467
+layerId=8978464
 
-[quickchat_menu_separator_5]
+[com_34]
 type=Rectangle
 width=2
 height=112
-layerId=8978467
+layerId=8978464
 colour=0x847963
 fill=yes
 
@@ -304,13 +284,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978470
+layerId=8978467
 
-[quickchat_menu_separator_6]
+[com_37]
 type=Rectangle
 width=2
 height=112
-layerId=8978470
+layerId=8978467
 colour=0x847963
 fill=yes
 
@@ -324,13 +304,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978473
+layerId=8978470
 
-[quickchat_menu_separator_7]
+[com_40]
 type=Rectangle
 width=2
 height=112
-layerId=8978473
+layerId=8978470
 colour=0x847963
 fill=yes
 
@@ -344,13 +324,13 @@ layerId=8978449
 type=Layer
 width=502
 height=112
-layerId=8978476
+layerId=8978473
 
-[quickchat_menu_separator_8]
+[com_43]
 type=Rectangle
 width=2
 height=112
-layerId=8978476
+layerId=8978473
 colour=0x847963
 fill=yes
 
@@ -364,9 +344,29 @@ layerId=8978449
 type=Layer
 width=502
 height=112
+layerId=8978476
+
+[com_46]
+type=Rectangle
+width=2
+height=112
+layerId=8978476
+colour=0x847963
+fill=yes
+
+[quickchat_menu_10]
+type=Layer
+width=502
+height=112
+layerId=8978449
+
+[quickchat_menu_highlight_10]
+type=Layer
+width=502
+height=112
 layerId=8978479
 
-[quickchat_menu_separator_9]
+[com_49]
 type=Rectangle
 width=2
 height=112
@@ -374,12 +374,12 @@ layerId=8978479
 colour=0x847963
 fill=yes
 
-[quickchat_menu_10]
+[chat]
 type=Layer
 width=506
 height=130
 
-[quickchat_menu_highlight_10]
+[input]
 type=Text
 x=3
 y=114
@@ -389,7 +389,7 @@ layerId=8978482
 font=495
 onload=80
 
-[quickchat_menu_separator_10]
+[quickchat_op]
 type=Layer
 x=3
 y=114
@@ -401,7 +401,7 @@ opName0="Public Quick Chat"
 opName1="Clan Quick Chat"
 onop=1049,opindex
 
-[quickchat_highlight_rect]
+[com_53]
 type=Line
 x=1
 y=114
@@ -409,14 +409,14 @@ width=504
 layerId=8978482
 colour=0x807660
 
-[rebuild_timer]
+[scrollarea]
 type=Layer
 width=488
 height=114
 layerId=8978482
 scrollHeight=999
 
-[chat]
+[scrollbar]
 type=Layer
 x=488
 width=16
@@ -424,7 +424,7 @@ height=114
 layerId=8978482
 onload=30,component.parentId,8978486
 
-[top_layer]
+[line0]
 type=Text
 x=3
 width=484
@@ -435,7 +435,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dropdown_layer]
+[line1]
 type=Text
 x=3
 y=14
@@ -447,7 +447,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dropdown_build]
+[line2]
 type=Text
 x=3
 y=28
@@ -459,7 +459,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dropdown_click]
+[line3]
 type=Text
 x=3
 y=42
@@ -471,7 +471,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[filters_layer]
+[line4]
 type=Text
 x=3
 y=56
@@ -483,7 +483,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[filters_build]
+[line5]
 type=Text
 x=3
 y=70
@@ -495,7 +495,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[filters_click]
+[line6]
 type=Text
 x=3
 y=84
@@ -507,7 +507,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[actions_layer]
+[line7]
 type=Text
 x=3
 y=98
@@ -519,7 +519,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[actions_build]
+[line8]
 type=Text
 x=3
 y=112
@@ -532,7 +532,7 @@ baseOpName=" "
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[actions_click]
+[line9]
 type=Text
 x=3
 y=126
@@ -544,7 +544,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[divider_top]
+[line10]
 type=Text
 x=3
 y=140
@@ -556,7 +556,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[player_input_wrapper]
+[line11]
 type=Text
 x=3
 y=154
@@ -568,7 +568,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[mobile_player_input_background]
+[line12]
 type=Text
 x=3
 y=168
@@ -580,7 +580,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[divider_graphic]
+[line13]
 type=Text
 x=3
 y=182
@@ -592,7 +592,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[mobile_channel_name]
+[line14]
 type=Text
 x=3
 y=196
@@ -604,7 +604,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[mobile_channel_graphic]
+[line15]
 type=Text
 x=3
 y=210
@@ -616,7 +616,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[mobile_channel_text]
+[line16]
 type=Text
 x=3
 y=224
@@ -628,7 +628,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[group_ironman_ops]
+[line17]
 type=Text
 x=3
 y=238
@@ -640,7 +640,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[player_name]
+[line18]
 type=Text
 x=3
 y=252
@@ -652,7 +652,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[highlight_rect]
+[line19]
 type=Text
 x=3
 y=266
@@ -664,7 +664,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[inputarea]
+[line20]
 type=Text
 x=3
 y=280
@@ -676,7 +676,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[wiki_button_wrapper]
+[line21]
 type=Text
 x=3
 y=294
@@ -688,7 +688,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[wiki_button]
+[line22]
 type=Text
 x=3
 y=308
@@ -700,7 +700,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[wiki_button_build]
+[line23]
 type=Text
 x=3
 y=322
@@ -712,7 +712,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[wiki_button_click]
+[line24]
 type=Text
 x=3
 y=336
@@ -724,7 +724,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[wiki_icon]
+[line25]
 type=Text
 x=3
 y=350
@@ -736,7 +736,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[input]
+[line26]
 type=Text
 x=3
 y=364
@@ -748,7 +748,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[caret]
+[line27]
 type=Text
 x=3
 y=378
@@ -760,7 +760,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[chat_render_layer]
+[line28]
 type=Text
 x=3
 y=392
@@ -772,7 +772,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[mobile_render_background]
+[line29]
 type=Text
 x=3
 y=406
@@ -784,7 +784,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[scrollarea]
+[line30]
 type=Text
 x=3
 y=420
@@ -796,7 +796,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[scrollbar]
+[line31]
 type=Text
 x=3
 y=434
@@ -808,7 +808,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dob_layer]
+[line32]
 type=Text
 x=3
 y=448
@@ -820,7 +820,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[blocklayer]
+[line33]
 type=Text
 x=3
 y=462
@@ -832,7 +832,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_90]
+[line34]
 type=Text
 x=3
 y=476
@@ -844,7 +844,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_91]
+[line35]
 type=Text
 x=3
 y=490
@@ -856,7 +856,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_92]
+[line36]
 type=Text
 x=3
 y=504
@@ -868,7 +868,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[borders_4]
+[line37]
 type=Text
 x=3
 y=518
@@ -880,7 +880,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_94]
+[line38]
 type=Text
 x=3
 y=532
@@ -892,7 +892,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_95]
+[line39]
 type=Text
 x=3
 y=546
@@ -904,7 +904,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_96]
+[line40]
 type=Text
 x=3
 y=560
@@ -916,7 +916,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_97]
+[line41]
 type=Text
 x=3
 y=574
@@ -928,7 +928,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_98]
+[line42]
 type=Text
 x=3
 y=588
@@ -940,7 +940,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_99]
+[line43]
 type=Text
 x=3
 y=602
@@ -952,7 +952,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_100]
+[line44]
 type=Text
 x=3
 y=616
@@ -964,7 +964,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_101]
+[line45]
 type=Text
 x=3
 y=630
@@ -976,7 +976,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[controls]
+[line46]
 type=Text
 x=3
 y=644
@@ -988,7 +988,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dayddback]
+[line47]
 type=Text
 x=3
 y=658
@@ -1000,7 +1000,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[monthddback]
+[line48]
 type=Text
 x=3
 y=672
@@ -1012,7 +1012,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[yearddback]
+[line49]
 type=Text
 x=3
 y=686
@@ -1024,7 +1024,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[day]
+[line50]
 type=Text
 x=3
 y=700
@@ -1036,7 +1036,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[daytext]
+[line51]
 type=Text
 x=3
 y=714
@@ -1048,7 +1048,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[borders_1]
+[line52]
 type=Text
 x=3
 y=728
@@ -1060,7 +1060,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_109]
+[line53]
 type=Text
 x=3
 y=742
@@ -1072,7 +1072,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_110]
+[line54]
 type=Text
 x=3
 y=756
@@ -1084,7 +1084,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_111]
+[line55]
 type=Text
 x=3
 y=770
@@ -1096,7 +1096,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_112]
+[line56]
 type=Text
 x=3
 y=784
@@ -1108,7 +1108,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_113]
+[line57]
 type=Text
 x=3
 y=798
@@ -1120,7 +1120,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_114]
+[line58]
 type=Text
 x=3
 y=812
@@ -1132,7 +1132,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_115]
+[line59]
 type=Text
 x=3
 y=826
@@ -1144,7 +1144,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_116]
+[line60]
 type=Text
 x=3
 y=840
@@ -1156,7 +1156,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dayddbutton]
+[line61]
 type=Text
 x=3
 y=854
@@ -1168,7 +1168,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_118]
+[line62]
 type=Text
 x=3
 y=868
@@ -1180,7 +1180,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_119]
+[line63]
 type=Text
 x=3
 y=882
@@ -1192,7 +1192,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_120]
+[line64]
 type=Text
 x=3
 y=896
@@ -1204,7 +1204,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dayarrow]
+[line65]
 type=Text
 x=3
 y=910
@@ -1216,7 +1216,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[month]
+[line66]
 type=Text
 x=3
 y=924
@@ -1228,7 +1228,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[monthtext]
+[line67]
 type=Text
 x=3
 y=938
@@ -1240,7 +1240,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[borders_3]
+[line68]
 type=Text
 x=3
 y=952
@@ -1252,7 +1252,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_125]
+[line69]
 type=Text
 x=3
 y=966
@@ -1264,7 +1264,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_126]
+[line70]
 type=Text
 x=3
 y=980
@@ -1276,7 +1276,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_127]
+[line71]
 type=Text
 x=3
 y=994
@@ -1288,7 +1288,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_128]
+[line72]
 type=Text
 x=3
 y=1008
@@ -1300,7 +1300,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_129]
+[line73]
 type=Text
 x=3
 y=1022
@@ -1312,7 +1312,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_130]
+[line74]
 type=Text
 x=3
 y=1036
@@ -1324,7 +1324,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_131]
+[line75]
 type=Text
 x=3
 y=1050
@@ -1336,7 +1336,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_132]
+[line76]
 type=Text
 x=3
 y=1064
@@ -1348,7 +1348,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[monthddbutton]
+[line77]
 type=Text
 x=3
 y=1078
@@ -1360,7 +1360,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_134]
+[line78]
 type=Text
 x=3
 y=1092
@@ -1372,7 +1372,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_135]
+[line79]
 type=Text
 x=3
 y=1106
@@ -1384,7 +1384,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_136]
+[line80]
 type=Text
 x=3
 y=1120
@@ -1396,7 +1396,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[montharrow]
+[line81]
 type=Text
 x=3
 y=1134
@@ -1408,7 +1408,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[year]
+[line82]
 type=Text
 x=3
 y=1148
@@ -1420,7 +1420,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[yeartext]
+[line83]
 type=Text
 x=3
 y=1162
@@ -1432,7 +1432,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[borders_2]
+[line84]
 type=Text
 x=3
 y=1176
@@ -1444,7 +1444,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_141]
+[line85]
 type=Text
 x=3
 y=1190
@@ -1456,7 +1456,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_142]
+[line86]
 type=Text
 x=3
 y=1204
@@ -1468,7 +1468,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_143]
+[line87]
 type=Text
 x=3
 y=1218
@@ -1480,7 +1480,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_144]
+[line88]
 type=Text
 x=3
 y=1232
@@ -1492,7 +1492,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_145]
+[line89]
 type=Text
 x=3
 y=1246
@@ -1504,7 +1504,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_146]
+[line90]
 type=Text
 x=3
 y=1260
@@ -1516,7 +1516,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_147]
+[line91]
 type=Text
 x=3
 y=1274
@@ -1528,7 +1528,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_148]
+[line92]
 type=Text
 x=3
 y=1288
@@ -1540,7 +1540,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[yearddbutton]
+[line93]
 type=Text
 x=3
 y=1302
@@ -1552,7 +1552,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_150]
+[line94]
 type=Text
 x=3
 y=1316
@@ -1564,7 +1564,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_151]
+[line95]
 type=Text
 x=3
 y=1330
@@ -1576,7 +1576,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_152]
+[line96]
 type=Text
 x=3
 y=1344
@@ -1588,7 +1588,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[yeararrow]
+[line97]
 type=Text
 x=3
 y=1358
@@ -1600,7 +1600,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[dayddlistborder]
+[line98]
 type=Text
 x=3
 y=1372
@@ -1612,7 +1612,7 @@ eventCode=hasOp(8)
 opName7="8"
 onop=86,opindex,"event_opbase",0
 
-[com_155]
+[line99]
 type=Text
 x=3
 y=1386

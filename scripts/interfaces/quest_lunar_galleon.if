@@ -1,11 +1,11 @@
-[lunar_galleon_map_scroll]
+[com_0]
 type=Rectangle
 width=512
 height=400
 colour=0x282822
 fill=yes
 
-[com_1]
+[lunar_galleon_map_scroll]
 type=Model
 x=227
 y=140
@@ -28,7 +28,7 @@ vAlign=Center
 font=497
 text="Pirates'<br> Cove"
 
-[lunar_galleon_map]
+[com_3]
 type=Text
 x=122
 y=136
@@ -40,7 +40,7 @@ vAlign=Center
 font=497
 text="Moonclan<br> Island"
 
-[com_4]
+[lunar_galleon_map]
 type=Model
 x=250
 y=154
@@ -127,7 +127,7 @@ modelZoom=1071
 modelXAn=232
 modelYAn=1891
 
-[lunar_galleon]
+[com_12]
 type=Model
 x=164
 y=62
@@ -138,7 +138,7 @@ modelZoom=1327
 modelXAn=364
 modelYAn=111
 
-[content_layer]
+[lunar_galleon]
 type=Model
 x=297
 y=183

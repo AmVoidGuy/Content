@@ -1,4 +1,4 @@
-[main]
+[com_0]
 type=Rectangle
 x=3
 y=25
@@ -8,7 +8,7 @@ trans=166
 colour=0x170801
 fill=yes
 
-[com_1]
+[friendscroll]
 type=Layer
 x=174
 y=25
@@ -16,7 +16,7 @@ width=16
 height=194
 onload=30,36044801,36044802
 
-[friends_layer]
+[friendbox]
 type=Layer
 x=8
 y=25
@@ -27,7 +27,7 @@ scrollHeight=195
 baseOpName="r    "
 onload=123
 
-[friend_scrolling_layer]
+[friends_title]
 type=Text
 x=4
 y=4
@@ -39,7 +39,7 @@ font=495
 shadow=yes
 text="Friends List - RuneScape XXX"
 
-[friend_rectangles]
+[addfriend]
 type=Sprite
 x=15
 y=224
@@ -50,7 +50,7 @@ eventCode=hasOp(1)
 opName0="Add Friend"
 onop=103
 
-[friend_world_icon_layer]
+[delfriend]
 type=Sprite
 x=95
 y=224
@@ -61,7 +61,7 @@ eventCode=hasOp(1)
 opName0="Delete Friend"
 onop=104
 
-[friend_world_layer]
+[com_6]
 type=Text
 x=21
 y=226
@@ -74,7 +74,7 @@ font=494
 shadow=yes
 text="Add Friend"
 
-[friend_name_layer]
+[com_7]
 type=Text
 x=101
 y=227
@@ -87,7 +87,7 @@ font=494
 shadow=yes
 text="Del Friend"
 
-[friend_name_change_icon_layer]
+[com_8]
 type=Sprite
 x=3
 y=19
@@ -96,7 +96,7 @@ height=32
 graphic=962
 tiling=yes
 
-[friend_scrollbar_layer]
+[com_9]
 type=Sprite
 x=3
 y=218
@@ -105,7 +105,7 @@ height=32
 graphic=962
 tiling=yes
 
-[friend_fixed_layer]
+[loadingmes]
 type=Text
 x=9
 y=25

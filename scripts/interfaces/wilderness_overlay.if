@@ -1,4 +1,4 @@
-[wilderness_layer]
+[com_0]
 type=Sprite
 x=15
 width=25
@@ -7,7 +7,7 @@ layerId=24969218
 trans=100
 graphic=1184
 
-[wilderness_layer_bounty]
+[wilderness_level_text]
 type=Text
 x=1
 y=26
@@ -20,7 +20,7 @@ font=495
 shadow=yes
 ontimer=54
 
-[com_2]
+[wilderness_layer]
 type=Layer
 x=457
 y=256

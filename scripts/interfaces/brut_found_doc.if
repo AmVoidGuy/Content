@@ -21,7 +21,7 @@ lineHeight=17
 font=495
 shadow=yes
 
-[layer_1]
+[com_2]
 type=Model
 x=234
 y=135
@@ -32,7 +32,7 @@ modelZoom=604
 modelXAn=406
 discardedModelField=0
 
-[com_3]
+[exit]
 type=Sprite
 x=379
 y=80

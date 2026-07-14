@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Text
 x=7
 y=7
@@ -10,7 +10,7 @@ font=496
 shadow=yes
 text="Blast Furnace Temp Gauge"
 
-[mainmodal_window]
+[temp_gauge_fuelflag]
 type=Model
 x=303
 y=174
@@ -19,7 +19,7 @@ height=32
 model1Id=9096
 modelZoom=908
 
-[temp_gauge_fuelflag]
+[clock_crazy_1]
 type=Model
 x=172
 y=181
@@ -28,7 +28,7 @@ height=32
 model1Id=9097
 modelZoom=960
 
-[temp_gauge_brokenflag]
+[temp_gauge_needle]
 type=Model
 x=235
 y=150
@@ -37,7 +37,7 @@ height=32
 model1Id=9083
 modelZoom=172
 
-[temp_gauge_needle]
+[com_4]
 type=Sprite
 x=482
 y=5
@@ -46,7 +46,7 @@ height=23
 overLayerId=6
 graphic=539
 
-[mainmodal_window_background]
+[com_5]
 type=Sprite
 buttonType=Close
 x=3
@@ -57,7 +57,7 @@ layerId=1966086
 graphic=540
 buttonText="Ok"
 
-[mainmodal_window_content]
+[blast_furnace_temp_gauge_close_button]
 type=Layer
 x=479
 y=1

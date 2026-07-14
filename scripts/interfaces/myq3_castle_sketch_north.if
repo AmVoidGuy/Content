@@ -1,10 +1,10 @@
-[myq3_castle_sketch_01_1_north]
+[myq3_castle_sketch_01_black_north]
 type=Rectangle
 width=520
 height=340
 fill=yes
 
-[myq3_castle_sketch_01_1_1_north]
+[myq3_castle_sketch_01_1_north]
 type=Model
 x=227
 y=111
@@ -14,7 +14,7 @@ model1Id=18157
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_2_north]
+[myq3_castle_sketch_01_1_1_north]
 type=Model
 x=227
 y=111
@@ -24,7 +24,7 @@ model1Id=18153
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_3_north]
+[myq3_castle_sketch_01_1_2_north]
 type=Model
 x=227
 y=111
@@ -34,7 +34,7 @@ model1Id=18152
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_4_north]
+[myq3_castle_sketch_01_1_3_north]
 type=Model
 x=227
 y=111
@@ -44,7 +44,7 @@ model1Id=18154
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_5_north]
+[myq3_castle_sketch_01_1_4_north]
 type=Model
 x=227
 y=111
@@ -54,7 +54,7 @@ model1Id=18155
 modelZoom=570
 modelXAn=495
 
-[close_button]
+[myq3_castle_sketch_01_1_5_north]
 type=Model
 x=227
 y=111
@@ -64,7 +64,7 @@ model1Id=18156
 modelZoom=570
 modelXAn=495
 
-[layer_1]
+[com_7]
 type=Sprite
 x=428
 y=25
@@ -73,7 +73,7 @@ height=23
 overLayerId=9
 graphic=537
 
-[com_8]
+[myq3_sketch_north_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -85,7 +85,7 @@ overLayerId=9
 graphic=538
 buttonText="Ok"
 
-[com_9]
+[myq3_castle_sketch_north_close_button]
 type=Layer
 x=425
 y=20

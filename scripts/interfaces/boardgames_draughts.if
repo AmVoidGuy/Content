@@ -1,4 +1,4 @@
-[events]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[game_piece_player1]
+[com_1]
 type=Sprite
 x=12
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[game_data]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[draughts_board]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[draughts_inv]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -46,7 +46,7 @@ width=88
 height=60
 graphic=297
 
-[name_player1]
+[com_6]
 type=Sprite
 x=100
 y=80
@@ -54,7 +54,7 @@ width=88
 height=60
 graphic=297
 
-[game_piece_player2]
+[com_7]
 type=Sprite
 x=100
 y=140
@@ -62,7 +62,7 @@ width=88
 height=60
 graphic=297
 
-[name_player2]
+[com_8]
 type=Sprite
 x=100
 y=200
@@ -70,7 +70,7 @@ width=88
 height=60
 graphic=297
 
-[turn]
+[com_9]
 type=Sprite
 x=188
 y=20
@@ -78,7 +78,7 @@ width=88
 height=60
 graphic=297
 
-[name_turn]
+[com_10]
 type=Sprite
 x=100
 y=260
@@ -86,7 +86,7 @@ width=88
 height=60
 graphic=297
 
-[status3]
+[com_11]
 type=Sprite
 x=188
 y=80
@@ -94,7 +94,7 @@ width=88
 height=60
 graphic=297
 
-[status1]
+[com_12]
 type=Sprite
 x=188
 y=140
@@ -102,7 +102,7 @@ width=88
 height=60
 graphic=297
 
-[status2]
+[com_13]
 type=Sprite
 x=188
 y=200
@@ -110,7 +110,7 @@ width=88
 height=60
 graphic=297
 
-[sandtimer]
+[com_14]
 type=Sprite
 x=276
 y=20
@@ -118,7 +118,7 @@ width=88
 height=60
 graphic=297
 
-[draw_button]
+[com_15]
 type=Sprite
 x=188
 y=260
@@ -126,7 +126,7 @@ width=88
 height=60
 graphic=297
 
-[resign_button]
+[com_16]
 type=Sprite
 x=364
 y=80
@@ -134,7 +134,7 @@ width=88
 height=60
 graphic=297
 
-[board]
+[com_17]
 type=Sprite
 x=276
 y=80
@@ -142,7 +142,7 @@ width=88
 height=60
 graphic=297
 
-[board_back]
+[com_18]
 type=Sprite
 x=276
 y=140
@@ -150,7 +150,7 @@ width=88
 height=60
 graphic=297
 
-[boardgames_draughts_runeflash]
+[com_19]
 type=Sprite
 x=276
 y=200
@@ -158,7 +158,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_background]
+[com_20]
 type=Sprite
 x=276
 y=260
@@ -166,7 +166,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_content]
+[com_21]
 type=Sprite
 x=364
 y=140
@@ -174,7 +174,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_border]
+[com_22]
 type=Sprite
 x=364
 y=20
@@ -182,7 +182,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_close_button]
+[com_23]
 type=Sprite
 x=364
 y=200
@@ -190,7 +190,7 @@ width=88
 height=60
 graphic=297
 
-[draw_build]
+[com_24]
 type=Sprite
 x=364
 y=260
@@ -198,7 +198,7 @@ width=88
 height=60
 graphic=297
 
-[draw_click]
+[com_25]
 type=Sprite
 x=412
 y=20
@@ -206,7 +206,7 @@ width=88
 height=60
 graphic=297
 
-[resign_build]
+[com_26]
 type=Sprite
 x=412
 y=80
@@ -214,7 +214,7 @@ width=88
 height=60
 graphic=297
 
-[resign_click]
+[com_27]
 type=Sprite
 x=412
 y=140
@@ -774,7 +774,7 @@ font=495
 shadow=yes
 text="Resign"
 
-[com_94]
+[boardgames_draughts_draw]
 type=Rectangle
 buttonType=Button
 x=6
@@ -820,7 +820,7 @@ height=36
 layerId=2097242
 graphic=314
 
-[com_98]
+[boardgames_draughts_turn]
 type=Text
 x=85
 y=127
@@ -930,7 +930,7 @@ y=41
 width=258
 height=258
 
-[com_111]
+[boardgames_draughts_status2]
 type=Text
 x=23
 y=185
@@ -942,7 +942,7 @@ font=494
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
-[com_112]
+[boardgames_draughts_runeflash]
 type=Model
 x=220
 y=42
@@ -953,7 +953,7 @@ modelAnim=runeflash_off
 modelZoom=768
 modelXAn=512
 
-[com_113]
+[boardgames_draughts_boardinv]
 type=Inventory
 x=220
 y=42
@@ -996,7 +996,7 @@ width=36
 height=36
 graphic=172
 
-[com_118]
+[boardgames_draughts_status1]
 type=Text
 x=17
 y=156
@@ -1009,7 +1009,7 @@ font=494
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
-[com_119]
+[boardgames_draughts_status3]
 type=Text
 x=27
 y=157
@@ -1043,7 +1043,7 @@ modelZoom=1024
 modelXAn=512
 modelYAn=1024
 
-[com_122]
+[boardgames_draughts_sandtimer]
 type=Model
 x=158
 y=283

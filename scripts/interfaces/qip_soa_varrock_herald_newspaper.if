@@ -16,7 +16,7 @@ width=151
 height=199
 scrollHeight=750
 
-[scroll_left]
+[com_2]
 type=Text
 x=3
 y=16
@@ -27,7 +27,7 @@ colour=0x1B1B1B
 font=497
 text="Text"
 
-[scroll_right]
+[back_page_scroll_right]
 type=Layer
 x=319
 y=77
@@ -35,7 +35,7 @@ width=151
 height=199
 scrollHeight=750
 
-[back_page_scroll_right]
+[com_4]
 type=Text
 x=3
 y=16
@@ -54,7 +54,7 @@ width=444
 height=252
 hide=yes
 
-[com_6]
+[front_page_text_left]
 type=Text
 x=18
 y=27
@@ -65,7 +65,7 @@ colour=0x1B1B1B
 font=497
 text="This is an interface type test."
 
-[front_page_text_left]
+[front_page_text_right]
 type=Text
 x=287
 y=27
@@ -76,7 +76,7 @@ colour=0x1B1B1B
 font=497
 text="This is an interface type test."
 
-[front_page_text_right]
+[com_8]
 type=Sprite
 x=467
 y=19
@@ -85,7 +85,7 @@ height=23
 overLayerId=10
 graphic=541
 
-[content_layer]
+[com_9]
 type=Sprite
 buttonType=Close
 x=14

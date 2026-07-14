@@ -39,7 +39,7 @@ vAlign=Center
 font=497
 text="Magic Training Arena Shop"
 
-[magictraining_shop_telepts]
+[com_4]
 type=Text
 x=10
 y=294
@@ -52,7 +52,7 @@ font=494
 shadow=yes
 text="Telekinetic Pizazz Points"
 
-[magictraining_shop_enchanpts]
+[com_5]
 type=Text
 x=10
 y=311
@@ -65,7 +65,7 @@ font=494
 shadow=yes
 text="Enchantment Pizazz Points"
 
-[magictraining_shop_alchempts]
+[com_6]
 type=Text
 x=240
 y=296
@@ -78,7 +78,7 @@ font=494
 shadow=yes
 text="Graveyard Pizazz Points"
 
-[magictraining_shop_gravepts]
+[com_7]
 type=Text
 x=240
 y=311
@@ -91,7 +91,7 @@ font=494
 shadow=yes
 text="Alchemist Pizazz Points"
 
-[magictraining_shop_upgrade1]
+[magictraining_shop_telepts]
 type=Text
 x=200
 y=296
@@ -102,7 +102,7 @@ font=494
 shadow=yes
 text="99999"
 
-[magictraining_shop_upgrade3]
+[magictraining_shop_enchanpts]
 type=Text
 x=200
 y=312
@@ -113,7 +113,7 @@ font=494
 shadow=yes
 text="99999"
 
-[magictraining_shop_upgrade2]
+[magictraining_shop_alchempts]
 type=Text
 x=424
 y=312
@@ -124,7 +124,7 @@ font=494
 shadow=yes
 text="99999"
 
-[shop_items_layer]
+[magictraining_shop_gravepts]
 type=Text
 x=424
 y=296
@@ -135,7 +135,7 @@ font=494
 shadow=yes
 text="99999"
 
-[com_12]
+[magictraining_shop_upgrade1]
 type=Text
 x=86
 y=108
@@ -148,7 +148,7 @@ font=494
 shadow=yes
 text="(Upgrade)"
 
-[mainmodal_window]
+[magictraining_shop_upgrade3]
 type=Text
 x=155
 y=106
@@ -161,7 +161,7 @@ font=494
 shadow=yes
 text="(Upgrade)"
 
-[mainmodal_window_background]
+[magictraining_shop_upgrade2]
 type=Text
 x=226
 y=107
@@ -174,7 +174,7 @@ font=494
 shadow=yes
 text="(Upgrade)"
 
-[mainmodal_window_content]
+[com_15]
 type=Sprite
 x=465
 y=20
@@ -187,7 +187,7 @@ onmouseover=44,component.parentId,540
 onmouseleave=44,component.parentId,539
 onop=29
 
-[layer_1]
+[shop_items_layer]
 type=Layer
 x=8
 y=63

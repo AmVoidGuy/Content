@@ -16,7 +16,7 @@ height=300
 graphic=297
 tiling=yes
 
-[drop_inv_layer]
+[com_2]
 type=Sprite
 y=59
 width=32
@@ -24,7 +24,7 @@ height=241
 graphic=821
 tiling=yes
 
-[chest_inv_layer]
+[com_3]
 type=Sprite
 x=13
 y=20
@@ -32,7 +32,7 @@ width=32
 height=32
 graphic=824
 
-[scrollbar_right]
+[com_4]
 type=Sprite
 x=480
 y=51
@@ -41,7 +41,7 @@ height=243
 graphic=823
 tiling=yes
 
-[scrollbar_left]
+[com_5]
 type=Sprite
 x=44
 y=7
@@ -50,7 +50,7 @@ height=34
 graphic=820
 tiling=yes
 
-[background_layer]
+[com_6]
 type=Sprite
 x=45
 y=306
@@ -59,7 +59,7 @@ height=32
 graphic=822
 tiling=yes
 
-[content_layer]
+[close_button]
 type=Sprite
 x=474
 y=30
@@ -72,7 +72,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onop=29
 
-[frame_layer]
+[com_8]
 type=Sprite
 x=13
 y=294
@@ -80,7 +80,7 @@ width=32
 height=32
 graphic=826
 
-[close_button_layer]
+[com_9]
 type=Sprite
 x=468
 y=20
@@ -88,7 +88,7 @@ width=32
 height=32
 graphic=825
 
-[root_layer]
+[com_10]
 type=Sprite
 x=468
 y=294
@@ -96,7 +96,7 @@ width=32
 height=32
 graphic=827
 
-[left_layer]
+[com_11]
 type=Sprite
 x=24
 y=39
@@ -105,7 +105,7 @@ height=32
 graphic=828
 tiling=yes
 
-[right_layer]
+[com_12]
 type=Sprite
 x=13
 y=41
@@ -113,7 +113,7 @@ width=32
 height=32
 graphic=829
 
-[accept_button_layer]
+[com_13]
 type=Sprite
 x=468
 y=41
@@ -121,12 +121,12 @@ width=32
 height=32
 graphic=830
 
-[3x3_context_button_layer_4]
+[divider]
 type=Model
 modelZoom=400
 discardedModelField=0
 
-[add_inv_layer]
+[divider_1]
 type=Model
 modelZoom=400
 discardedModelField=0
@@ -140,7 +140,7 @@ height=32
 graphic=851
 tiling=yes
 
-[divider_bottom]
+[com_17]
 type=Sprite
 x=246
 y=58
@@ -158,7 +158,7 @@ height=27
 graphic=852
 tiling=yes
 
-[divider_top]
+[com_19]
 type=Text
 x=301
 y=28
@@ -171,7 +171,7 @@ font=496
 shadow=yes
 text="Items being dropped"
 
-[3x3_context_button_on_layer_4]
+[com_20]
 type=Text
 x=42
 y=25
@@ -184,7 +184,7 @@ font=496
 shadow=yes
 text="Items ready to be dropped"
 
-[3x3_context_button_over_layer_4]
+[scrollbar_left]
 type=Layer
 x=245
 y=58
@@ -192,14 +192,14 @@ width=16
 height=224
 onload=678
 
-[3x3_context_button_selected_layer_4]
+[scrollbar_right]
 type=Layer
 x=477
 y=58
 width=17
 height=225
 
-[accept_button]
+[timer_graphic]
 type=Sprite
 x=262
 y=27
@@ -207,7 +207,7 @@ width=25
 height=25
 graphic=1178
 
-[3x3_context_button_hit_layer_4]
+[time]
 type=Text
 x=286
 y=31
@@ -220,7 +220,7 @@ text="00"
 onvartransmit=677
 onvartransmitlist=1135
 
-[3x3_context_button_disabled_layer_4]
+[accept_button]
 type=Layer
 x=431
 y=289
@@ -232,7 +232,7 @@ onload=93,component.parentId
 onmouseover=97,component.parentId
 onmouseleave=93,component.parentId
 
-[com_26]
+[accept]
 type=Text
 x=428
 y=288
@@ -245,7 +245,7 @@ font=495
 shadow=yes
 text="Accept"
 
-[3x3_context_button_text_layer_4]
+[chest_inv_layer]
 type=Layer
 x=20
 y=61
@@ -253,7 +253,7 @@ width=223
 height=220
 scrollHeight=1296
 
-[button_2]
+[drop_inv_layer]
 type=Layer
 x=263
 y=60
@@ -261,7 +261,7 @@ width=214
 height=222
 scrollHeight=1296
 
-[com_29]
+[add_inv_layer]
 type=Layer
 x=20
 y=285

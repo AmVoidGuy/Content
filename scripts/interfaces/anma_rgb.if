@@ -1,4 +1,4 @@
-[contents]
+[anma_rect]
 type=Rectangle
 width=513
 height=334
@@ -9,7 +9,7 @@ colourOver=0x736550
 colour2Over=0x736550
 fill=yes
 
-[bespoke_window]
+[anma_white_rect]
 type=Rectangle
 x=81
 y=5
@@ -18,7 +18,7 @@ height=276
 colour=0xE6D2A9
 fill=yes
 
-[anma_white_rect]
+[com_2]
 type=Sprite
 x=468
 y=10
@@ -27,7 +27,7 @@ height=24
 overLayerId=4
 graphic=539
 
-[anma_complete_a_layer]
+[com_3]
 type=Sprite
 buttonType=Close
 x=1
@@ -38,7 +38,7 @@ layerId=31457284
 graphic=540
 buttonText="Ok"
 
-[anma_complete_b_layer]
+[anma_close_button]
 type=Layer
 x=467
 y=9
@@ -46,7 +46,7 @@ width=29
 height=26
 hide=yes
 
-[anma_complete_c_layer]
+[anma_complete_a]
 type=Model
 x=163
 y=114
@@ -56,14 +56,14 @@ layerId=31457286
 model1Id=20432
 modelZoom=1368
 
-[anma_random_1_layer]
+[anma_complete_a_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_random_2_layer]
+[anma_complete_b]
 type=Model
 x=163
 y=114
@@ -73,14 +73,14 @@ layerId=31457288
 model1Id=20433
 modelZoom=1368
 
-[anma_random_3_layer]
+[anma_complete_b_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_random_4_layer]
+[anma_complete_c]
 type=Model
 x=163
 y=114
@@ -90,14 +90,14 @@ layerId=31457290
 model1Id=20434
 modelZoom=1368
 
-[anma_random_5_layer]
+[anma_complete_c_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_random_6_layer]
+[anma_random_1]
 type=Model
 x=163
 y=114
@@ -107,14 +107,14 @@ layerId=31457292
 model1Id=20437
 modelZoom=1368
 
-[anma_button_1_layer]
+[anma_random_1_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_button_2_layer]
+[anma_random_2]
 type=Model
 x=163
 y=114
@@ -124,14 +124,14 @@ layerId=31457294
 model1Id=20438
 modelZoom=1368
 
-[anma_button_3_layer]
+[anma_random_2_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_button_4_layer]
+[anma_random_3]
 type=Model
 x=163
 y=114
@@ -141,14 +141,14 @@ layerId=31457296
 model1Id=20439
 modelZoom=1368
 
-[anma_button_5_layer]
+[anma_random_3_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_button_6_layer]
+[anma_random_4]
 type=Model
 x=163
 y=114
@@ -158,14 +158,14 @@ layerId=31457298
 model1Id=20440
 modelZoom=1368
 
-[anma_button_7_layer]
+[anma_random_4_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_button_8_layer]
+[anma_random_5]
 type=Model
 x=163
 y=114
@@ -175,14 +175,14 @@ layerId=31457300
 model1Id=20441
 modelZoom=1368
 
-[anma_button_9_layer]
+[anma_random_5_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_button_1_layer_1_off]
+[anma_random_6]
 type=Model
 x=163
 y=114
@@ -192,14 +192,14 @@ layerId=31457302
 model1Id=20442
 modelZoom=1368
 
-[anma_button_2_layer_1_off]
+[anma_random_6_layer]
 type=Layer
 x=84
 y=7
 width=356
 height=271
 
-[anma_button_3_layer_1_off]
+[anma_buton_1_off]
 type=Model
 buttonType=Button
 width=32
@@ -211,7 +211,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_button_4_layer_1_off]
+[anma_buton_1_on]
 type=Model
 buttonType=Button
 width=32
@@ -223,7 +223,7 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_button_5_layer_1_off]
+[anma_buton_2_off]
 type=Model
 buttonType=Button
 width=32
@@ -235,14 +235,14 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_button_6_layer_1_off]
+[anma_button_1_layer]
 type=Layer
 x=46
 y=290
 width=32
 height=32
 
-[anma_button_7_layer_1_off]
+[anma_buton_2_on]
 type=Model
 buttonType=Button
 width=32
@@ -254,14 +254,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_button_8_layer_1_off]
+[anma_button_2_layer]
 type=Layer
 x=94
 y=290
 width=32
 height=32
 
-[anma_button_9_layer_1_off]
+[anma_buton_3_off]
 type=Model
 buttonType=Button
 width=32
@@ -273,7 +273,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_complete_a]
+[anma_buton_3_on]
 type=Model
 buttonType=Button
 width=32
@@ -285,14 +285,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_complete_b]
+[anma_button_3_layer]
 type=Layer
 x=142
 y=289
 width=32
 height=32
 
-[anma_complete_c]
+[anma_buton_4_off]
 type=Model
 buttonType=Button
 width=32
@@ -304,7 +304,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_random_1]
+[anma_buton_4_on]
 type=Model
 buttonType=Button
 width=32
@@ -316,14 +316,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_random_2]
+[anma_button_4_layer]
 type=Layer
 x=191
 y=289
 width=32
 height=32
 
-[anma_random_3]
+[anma_buton_5_off]
 type=Model
 buttonType=Button
 y=1
@@ -336,7 +336,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_random_4]
+[anma_buton_5_on]
 type=Model
 buttonType=Button
 y=1
@@ -349,14 +349,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_random_5]
+[anma_button_5_layer]
 type=Layer
 x=238
 y=288
 width=32
 height=32
 
-[anma_random_6]
+[anma_buton_6_off]
 type=Model
 buttonType=Button
 width=32
@@ -368,7 +368,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_buton_1_off]
+[anma_buton_6_on]
 type=Model
 buttonType=Button
 width=32
@@ -380,14 +380,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_buton_1_on]
+[anma_button_6_layer]
 type=Layer
 x=285
 y=289
 width=32
 height=32
 
-[anma_buton_2_off]
+[anma_buton_7_off]
 type=Model
 buttonType=Button
 width=32
@@ -399,7 +399,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_buton_2_on]
+[anma_buton_7_on]
 type=Model
 buttonType=Button
 width=32
@@ -411,14 +411,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_buton_3_off]
+[anma_button_7_layer]
 type=Layer
 x=335
 y=289
 width=32
 height=32
 
-[anma_buton_3_on]
+[anma_buton_8_off]
 type=Model
 buttonType=Button
 width=32
@@ -430,7 +430,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_buton_4_off]
+[anma_buton_8_on]
 type=Model
 buttonType=Button
 width=32
@@ -442,14 +442,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_buton_4_on]
+[anma_button_8_layer]
 type=Layer
 x=381
 y=289
 width=32
 height=32
 
-[anma_buton_5_off]
+[anma_buton_9_off]
 type=Model
 buttonType=Button
 width=32
@@ -461,7 +461,7 @@ modelXAn=512
 buttonText="On"
 eventCode=flag22
 
-[anma_buton_5_on]
+[anma_buton_9_on]
 type=Model
 buttonType=Button
 width=32
@@ -473,14 +473,14 @@ modelXAn=512
 buttonText="Off"
 eventCode=flag22
 
-[anma_buton_6_off]
+[anma_button_9_layer]
 type=Layer
 x=430
 y=289
 width=32
 height=32
 
-[anma_buton_6_on]
+[anma_button_1_layer_1_off]
 type=Layer
 x=46
 y=290
@@ -488,7 +488,7 @@ width=32
 height=32
 hide=yes
 
-[anma_buton_7_off]
+[anma_button_2_layer_1_off]
 type=Layer
 x=94
 y=290
@@ -496,7 +496,7 @@ width=32
 height=32
 hide=yes
 
-[anma_buton_7_on]
+[anma_button_3_layer_1_off]
 type=Layer
 x=142
 y=289
@@ -504,7 +504,7 @@ width=32
 height=32
 hide=yes
 
-[anma_buton_8_off]
+[anma_button_4_layer_1_off]
 type=Layer
 x=191
 y=289
@@ -512,7 +512,7 @@ width=32
 height=32
 hide=yes
 
-[anma_buton_8_on]
+[anma_button_5_layer_1_off]
 type=Layer
 x=238
 y=288
@@ -520,7 +520,7 @@ width=32
 height=32
 hide=yes
 
-[anma_buton_9_off]
+[anma_button_6_layer_1_off]
 type=Layer
 x=285
 y=289
@@ -528,7 +528,7 @@ width=32
 height=32
 hide=yes
 
-[anma_buton_9_on]
+[anma_button_7_layer_1_off]
 type=Layer
 x=335
 y=289
@@ -536,7 +536,7 @@ width=32
 height=32
 hide=yes
 
-[bespoke_window_background]
+[anma_button_8_layer_1_off]
 type=Layer
 x=381
 y=289
@@ -544,7 +544,7 @@ width=32
 height=32
 hide=yes
 
-[bespoke_window_content]
+[anma_button_9_layer_1_off]
 type=Layer
 x=430
 y=289

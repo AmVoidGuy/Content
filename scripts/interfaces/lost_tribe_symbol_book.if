@@ -1,9 +1,9 @@
-[lost_tribe_book_cover]
+[com_0]
 type=Rectangle
 width=512
 height=388
 
-[lost_tribe_pages]
+[lost_tribe_book_cover]
 type=Model
 x=240
 y=146
@@ -13,7 +13,7 @@ model1Id=6870
 modelZoom=204
 modelXAn=420
 
-[com_2]
+[lost_tribe_pages]
 type=Model
 x=238
 y=153
@@ -153,7 +153,7 @@ modelZoom=385
 modelXAn=435
 modelYAn=2014
 
-[lost_tribe_symbols]
+[com_14]
 type=Model
 x=429
 y=235
@@ -165,6 +165,12 @@ modelZoom=424
 modelXAn=604
 modelYAn=15
 
+[lost_tribe_symbols]
+type=Layer
+width=512
+height=334
+hide=yes
+
 [lost_tribe_directions]
 type=Layer
 width=512
@@ -172,12 +178,6 @@ height=334
 hide=yes
 
 [lost_tribe_right_arrow]
-type=Layer
-width=512
-height=334
-hide=yes
-
-[lost_tribe_left_arrow]
 type=Sprite
 buttonType=Button
 x=11
@@ -188,7 +188,7 @@ layerId=11993107
 graphic=309
 eventCode=flag22
 
-[lost_tribe_r_arrow_layer]
+[lost_tribe_left_arrow]
 type=Sprite
 buttonType=Button
 x=8
@@ -199,14 +199,14 @@ layerId=11993108
 graphic=308
 eventCode=flag22
 
-[lost_tribe_l_arrow_layer]
+[lost_tribe_r_arrow_layer]
 type=Layer
 x=349
 y=282
 width=63
 height=52
 
-[com_20]
+[content_upper]
 type=Layer
 x=107
 y=279
@@ -345,7 +345,7 @@ vAlign=Center
 font=497
 text="-Idithuun-<br>Goblins of the<br>South"
 
-[a_history]
+[com_32]
 type=Text
 x=284
 y=204
@@ -357,7 +357,7 @@ vAlign=Center
 font=497
 text="-Narogoshuun-<br>Goblins of the<br>West"
 
-[lost_tribe_titles]
+[a_history]
 type=Text
 x=311
 y=43
@@ -369,7 +369,7 @@ hAlign=Center
 font=645
 text="A History of the Goblin Race"
 
-[com_34]
+[lost_tribe_titles]
 type=Layer
 width=512
 height=388
@@ -407,7 +407,7 @@ vAlign=Center
 font=497
 text="The legends also speak<br>of goblins fighting<br>against goblins during<br>the wars, so it is likely<br>that gods other than<br>their creators used<br>them as footsoldiers."
 
-[lost_tribe_page_1]
+[com_38]
 type=Text
 x=275
 y=166
@@ -418,7 +418,7 @@ vAlign=Center
 font=497
 text="Although goblins are still<br>warlike, it is probable<br>that in earlier ages<br>they were more<br>organised than they<br>are now,"
 
-[com_39]
+[lost_tribe_page_1]
 type=Layer
 width=512
 height=388
@@ -448,7 +448,7 @@ vAlign=Center
 font=497
 text="This is corroborated<br>by finds unearthed<br>at various<br>archaeological sites,<br>including the large<br>excavation east of<br>Varrock."
 
-[lost_tribe_page_2]
+[com_42]
 type=Text
 x=278
 y=39
@@ -460,7 +460,7 @@ vAlign=Center
 font=497
 text="Armour and weapons<br>have been found,<br>obviously made to fit<br>goblins but far more<br>well-made than their<br>current equipment."
 
-[com_43]
+[lost_tribe_page_2]
 type=Layer
 width=512
 height=388
@@ -486,7 +486,7 @@ layerId=11993135
 font=497
 text="The separate identities of<br>the tribes have long<br>since dissolved and<br>no goblins remember the<br>symbols, although their<br>generals may still<br>recognize the ancient<br>tribal names."
 
-[lost_tribe_page_3]
+[com_46]
 type=Text
 x=277
 y=192
@@ -496,7 +496,7 @@ layerId=11993135
 font=497
 text="In the following pages<br>I present a list of<br>the tribes and their<br>symbols."
 
-[com_47]
+[lost_tribe_page_3]
 type=Layer
 width=512
 height=334
@@ -511,7 +511,7 @@ height=23
 overLayerId=50
 graphic=539
 
-[lost_tribe_symbol__book_close]
+[com_49]
 type=Sprite
 buttonType=Close
 x=2
@@ -522,7 +522,7 @@ layerId=11993138
 graphic=540
 buttonText="Ok"
 
-[com_50]
+[lost_tribe_symbol__book_close]
 type=Layer
 x=471
 y=9

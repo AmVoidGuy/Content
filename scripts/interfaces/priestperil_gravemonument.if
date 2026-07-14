@@ -15,7 +15,7 @@ height=293
 graphic=297
 tiling=yes
 
-[monumentmodel]
+[com_2]
 type=Model
 x=96
 y=190
@@ -30,7 +30,7 @@ modelYOf=-38
 orthog=yes
 discardedModelField=0
 
-[monumenttext]
+[com_3]
 type=Model
 x=77
 y=50
@@ -43,7 +43,7 @@ modelYOf=-1
 orthog=yes
 discardedModelField=0
 
-[mainmodal_window]
+[monumentmodel]
 type=Model
 x=206
 y=197
@@ -57,7 +57,7 @@ modelXOf=2
 modelYOf=14
 discardedModelField=0
 
-[mainmodal_window_background]
+[com_5]
 type=Sprite
 x=9
 y=18
@@ -65,7 +65,7 @@ width=32
 height=32
 graphic=824
 
-[mainmodal_window_content]
+[com_6]
 type=Sprite
 x=481
 y=62
@@ -74,7 +74,7 @@ height=232
 graphic=823
 tiling=yes
 
-[mainmodal_window_border]
+[com_7]
 type=Sprite
 x=37
 y=5
@@ -83,7 +83,7 @@ height=28
 graphic=820
 tiling=yes
 
-[mainmodal_window_close_button]
+[com_8]
 type=Sprite
 x=9
 y=293
@@ -149,7 +149,7 @@ width=429
 height=31
 graphic=822
 
-[com_16]
+[monumenttitle]
 type=Text
 x=94
 y=32
@@ -161,7 +161,7 @@ font=496
 shadow=yes
 text="Grave Monument"
 
-[com_17]
+[monumenttext]
 type=Text
 x=195
 y=73

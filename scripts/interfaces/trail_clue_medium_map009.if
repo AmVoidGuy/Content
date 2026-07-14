@@ -1137,7 +1137,7 @@ model1Id=11369
 modelZoom=1518
 modelXAn=500
 
-[mainmodal_window]
+[com_108]
 type=Model
 x=336
 y=113
@@ -1147,7 +1147,7 @@ model1Id=11369
 modelZoom=1518
 modelXAn=500
 
-[mainmodal_window_background]
+[com_109]
 type=Model
 x=178
 y=89
@@ -1157,7 +1157,7 @@ model1Id=11369
 modelZoom=1518
 modelXAn=500
 
-[mainmodal_window_content]
+[com_110]
 type=Model
 x=253
 y=256
@@ -1167,7 +1167,7 @@ model1Id=11369
 modelZoom=1518
 modelXAn=500
 
-[mainmodal_window_border]
+[com_111]
 type=Model
 x=178
 y=188
@@ -1177,7 +1177,7 @@ model1Id=11369
 modelZoom=1518
 modelXAn=500
 
-[mainmodal_window_close_button]
+[com_112]
 type=Text
 x=279
 y=214

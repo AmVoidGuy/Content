@@ -7,7 +7,7 @@ height=40
 colour=0x0A2133
 fill=yes
 
-[cloud1_1]
+[com_1]
 type=Rectangle
 y=39
 width=514
@@ -15,7 +15,7 @@ height=40
 colour=0x0E2537
 fill=yes
 
-[cloud1]
+[com_2]
 type=Rectangle
 x=-1
 y=79
@@ -24,7 +24,7 @@ height=40
 colour=0x12293B
 fill=yes
 
-[cloud2]
+[com_3]
 type=Rectangle
 x=-1
 y=119
@@ -33,7 +33,7 @@ height=25
 colour=0x162D3F
 fill=yes
 
-[dragon]
+[com_4]
 type=Rectangle
 x=-1
 y=144
@@ -105,7 +105,7 @@ height=25
 colour=0x364D5F
 fill=yes
 
-[com_12]
+[cloud1_1]
 type=Model
 x=359
 y=238
@@ -115,7 +115,7 @@ model1Id=26577
 modelZoom=528
 discardedModelField=0
 
-[com_13]
+[cloud1]
 type=Model
 x=58
 y=212
@@ -125,7 +125,7 @@ model1Id=26577
 modelZoom=528
 discardedModelField=0
 
-[com_14]
+[cloud2]
 type=Model
 x=356
 y=108
@@ -135,7 +135,7 @@ model1Id=26577
 modelZoom=656
 discardedModelField=0
 
-[com_15]
+[dragon]
 type=Model
 x=342
 y=177

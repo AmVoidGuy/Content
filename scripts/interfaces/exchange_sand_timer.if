@@ -1,4 +1,4 @@
-[sand_timer]
+[com_0]
 type=Sprite
 x=5
 y=4
@@ -23,7 +23,7 @@ width=32
 height=32
 graphic=824
 
-[continue_button_layer]
+[com_3]
 type=Sprite
 x=492
 y=32
@@ -32,7 +32,7 @@ height=271
 graphic=823
 tiling=yes
 
-[mainmodal_window]
+[com_4]
 type=Sprite
 x=32
 y=-12
@@ -41,7 +41,7 @@ height=29
 graphic=820
 tiling=yes
 
-[mainmodal_window_background]
+[com_5]
 type=Sprite
 x=31
 y=314
@@ -50,14 +50,14 @@ height=36
 graphic=822
 tiling=yes
 
-[mainmodal_window_content]
+[com_6]
 type=Sprite
 y=302
 width=32
 height=32
 graphic=826
 
-[mainmodal_window_border]
+[com_7]
 type=Sprite
 x=480
 y=1
@@ -65,7 +65,7 @@ width=32
 height=32
 graphic=825
 
-[closebutton]
+[com_8]
 type=Sprite
 x=480
 y=302
@@ -73,7 +73,7 @@ width=32
 height=32
 graphic=827
 
-[continue_button_on_layer]
+[sand_timer]
 type=Model
 x=184
 y=30
@@ -87,7 +87,7 @@ modelYAn=24
 modelYOf=102
 discardedModelField=0
 
-[continue_button_over_layer]
+[com_10]
 type=Sprite
 x=16
 y=16
@@ -95,7 +95,7 @@ width=25
 height=25
 graphic=1164
 
-[continue_button_hit_layer]
+[com_11]
 type=Text
 x=50
 y=289
@@ -108,7 +108,7 @@ font=495
 shadow=yes
 text="Step 4 : With your items placed on the Grand Exchange system, just wait a while and we will let you know when your items are traded."
 
-[continue_button_1]
+[continue_button]
 type=Sprite
 x=472
 y=21
@@ -120,7 +120,7 @@ opName0="Continue"
 onmouseover=44,component.parentId,1175
 onmouseleave=44,component.parentId,1174
 
-[continue_button_text_layer]
+[close_button]
 type=Text
 x=375
 y=21

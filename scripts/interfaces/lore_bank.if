@@ -1,4 +1,4 @@
-[bobdump]
+[shadow]
 type=Rectangle
 x=74
 y=24
@@ -7,7 +7,7 @@ height=305
 trans=200
 fill=yes
 
-[bobgive]
+[com_1]
 type=Sprite
 x=71
 y=24
@@ -16,7 +16,7 @@ height=300
 graphic=297
 tiling=yes
 
-[confirm_drop_text]
+[com_2]
 type=Sprite
 x=57
 y=52
@@ -34,7 +34,7 @@ width=32
 height=32
 graphic=824
 
-[confirm_drop_graphic]
+[com_4]
 type=Sprite
 x=420
 y=50
@@ -52,7 +52,7 @@ height=34
 graphic=820
 tiling=yes
 
-[info_holder_active]
+[com_6]
 type=Sprite
 x=102
 y=305
@@ -61,7 +61,7 @@ height=32
 graphic=822
 tiling=yes
 
-[inv_root]
+[com_7]
 type=Sprite
 x=70
 y=293
@@ -77,7 +77,7 @@ width=32
 height=32
 graphic=825
 
-[info_holder_inactive]
+[com_9]
 type=Sprite
 x=408
 y=293
@@ -85,7 +85,7 @@ width=32
 height=32
 graphic=827
 
-[lore_bob_inv_root]
+[com_10]
 type=Sprite
 x=81
 y=34
@@ -94,7 +94,7 @@ height=32
 graphic=828
 tiling=yes
 
-[mainmodal_window]
+[com_11]
 type=Sprite
 x=70
 y=36
@@ -102,7 +102,7 @@ width=32
 height=32
 graphic=829
 
-[mainmodal_window_background]
+[com_12]
 type=Sprite
 x=408
 y=36
@@ -110,7 +110,7 @@ width=32
 height=32
 graphic=830
 
-[mainmodal_window_content]
+[closebutton]
 type=Sprite
 x=413
 y=29
@@ -124,7 +124,7 @@ onmouseleave=44,component.parentId,831
 onop=29
 onclick=29
 
-[bob_inv_holder]
+[com_14]
 type=Text
 x=147
 y=28
@@ -136,7 +136,7 @@ font=496
 shadow=yes
 text="Familiar Inventory"
 
-[player_inv_holder]
+[divider]
 type=Model
 x=12
 y=-1
@@ -145,7 +145,7 @@ modelXAn=1874
 modelYAn=559
 discardedModelField=0
 
-[bob_icon_layer]
+[com_16]
 type=Sprite
 x=77
 y=87
@@ -155,7 +155,7 @@ trans=120
 graphic=1074
 tiling=yes
 
-[confirm_drop_item_layer]
+[com_17]
 type=Sprite
 x=77
 y=141
@@ -175,7 +175,7 @@ trans=120
 graphic=1074
 tiling=yes
 
-[base_layer]
+[com_19]
 type=Sprite
 x=76
 y=249
@@ -185,7 +185,7 @@ trans=120
 graphic=1074
 tiling=yes
 
-[content_panel_blue]
+[com_20]
 type=Sprite
 x=116
 y=53
@@ -195,7 +195,7 @@ trans=120
 graphic=1075
 tiling=yes
 
-[modal_dialog_window_content]
+[com_21]
 type=Sprite
 x=170
 y=53
@@ -205,7 +205,7 @@ trans=120
 graphic=1075
 tiling=yes
 
-[mainmodal_window_border]
+[com_22]
 type=Sprite
 x=224
 y=53
@@ -215,7 +215,7 @@ trans=120
 graphic=1075
 tiling=yes
 
-[mainmodal_window_close_button]
+[com_23]
 type=Sprite
 x=278
 y=53
@@ -225,7 +225,7 @@ trans=120
 graphic=1075
 tiling=yes
 
-[lore_bob_inv_oplayer]
+[com_24]
 type=Sprite
 x=332
 y=53
@@ -235,7 +235,7 @@ trans=120
 graphic=1075
 tiling=yes
 
-[lore_bob_inv_scroll_layer]
+[com_25]
 type=Sprite
 x=386
 y=53
@@ -245,7 +245,7 @@ trans=120
 graphic=1075
 tiling=yes
 
-[lore_bob_inv_slotlayer]
+[divider_1]
 type=Model
 x=12
 y=-14
@@ -261,14 +261,14 @@ y=65
 width=308
 height=244
 
-[lore_bob_inv_scrollbar]
+[com_28]
 type=Layer
 x=77
 y=26
 width=356
 height=292
 
-[inv_oplayer]
+[bobdump]
 type=Sprite
 x=330
 y=267
@@ -281,7 +281,7 @@ opName0="Take BoB"
 onmouseleave=40,43974686
 onmouserepeat=38,component.parentId,43974686,"Take Beast of Burden items.",25,100
 
-[inv_scroll_layer]
+[build_layer]
 type=Layer
 y=27
 width=323

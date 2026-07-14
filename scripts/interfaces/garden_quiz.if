@@ -1,4 +1,4 @@
-[background]
+[garden_quiz_a]
 type=Text
 buttonType=Button
 x=31
@@ -10,7 +10,7 @@ font=495
 text="option1"
 eventCode=flag22
 
-[info_holder_inactive]
+[garden_quiz_b]
 type=Text
 buttonType=Button
 x=31
@@ -22,7 +22,7 @@ font=495
 text="option1"
 eventCode=flag22
 
-[info_holder_inactive_1]
+[garden_quiz_c]
 type=Text
 buttonType=Button
 x=31
@@ -34,7 +34,7 @@ font=495
 text="option3"
 eventCode=flag22
 
-[info_holder_inactive_2]
+[com_3]
 type=Text
 x=10
 y=42
@@ -45,7 +45,7 @@ hAlign=Center
 font=495
 text="[A]"
 
-[garden_quiz_a]
+[com_4]
 type=Text
 x=10
 y=60
@@ -56,7 +56,7 @@ hAlign=Center
 font=495
 text="[B]"
 
-[garden_quiz_b]
+[com_5]
 type=Text
 x=10
 y=78
@@ -67,7 +67,7 @@ hAlign=Center
 font=495
 text="[C]"
 
-[garden_quiz_c]
+[garden_quiz_title_1]
 type=Text
 x=38
 y=5
@@ -76,7 +76,7 @@ height=14
 colour=0x800000
 font=495
 
-[com_7]
+[garden_quiz_title_2]
 type=Text
 x=38
 y=21
@@ -85,7 +85,7 @@ height=14
 colour=0x800000
 font=495
 
-[com_8]
+[garden_quiz_number]
 type=Text
 x=4
 y=5

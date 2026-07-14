@@ -1,4 +1,4 @@
-[bow]
+[shadow]
 type=Rectangle
 x=60
 y=41
@@ -7,7 +7,7 @@ height=256
 trans=200
 fill=yes
 
-[staff]
+[blue_underlay]
 type=Rectangle
 x=57
 y=34
@@ -16,7 +16,7 @@ height=257
 colour=0x82A1C4
 fill=yes
 
-[sword]
+[com_2]
 type=Sprite
 x=63
 y=39
@@ -26,7 +26,7 @@ trans=20
 graphic=297
 tiling=yes
 
-[barbarian]
+[com_3]
 type=Sprite
 x=43
 y=66
@@ -36,7 +36,7 @@ trans=20
 graphic=821
 tiling=yes
 
-[dragon]
+[com_4]
 type=Sprite
 x=437
 y=65
@@ -46,7 +46,7 @@ trans=20
 graphic=823
 tiling=yes
 
-[dwarf]
+[com_5]
 type=Sprite
 x=56
 y=34
@@ -55,7 +55,7 @@ height=32
 trans=20
 graphic=824
 
-[pirate]
+[com_6]
 type=Sprite
 x=88
 y=21
@@ -65,7 +65,7 @@ trans=20
 graphic=820
 tiling=yes
 
-[mainmodal_window]
+[com_7]
 type=Sprite
 x=88
 y=272
@@ -75,7 +75,7 @@ trans=20
 graphic=822
 tiling=yes
 
-[mainmodal_window_background]
+[com_8]
 type=Sprite
 x=56
 y=260
@@ -84,7 +84,7 @@ height=32
 trans=20
 graphic=826
 
-[mainmodal_window_content]
+[com_9]
 type=Sprite
 x=425
 y=34
@@ -93,7 +93,7 @@ height=32
 trans=20
 graphic=825
 
-[tophat]
+[com_10]
 type=Sprite
 x=425
 y=260
@@ -102,7 +102,7 @@ height=32
 trans=20
 graphic=827
 
-[weapons_layer]
+[com_11]
 type=Sprite
 x=62
 y=49
@@ -112,7 +112,7 @@ trans=20
 graphic=828
 tiling=yes
 
-[mainmodal_window_border]
+[close_button]
 type=Sprite
 x=431
 y=43
@@ -126,7 +126,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onop=29
 
-[mainmodal_window_close_button]
+[title]
 type=Text
 x=146
 y=44
@@ -138,7 +138,7 @@ font=496
 shadow=yes
 text="Select a Snowman Hat"
 
-[barb_build]
+[divider]
 type=Model
 y=1
 modelZoom=400
@@ -156,7 +156,7 @@ font=494
 shadow=yes
 text=" Barbarian hat"
 
-[barbarian_hat]
+[dragon_hat]
 type=Text
 x=148
 y=150
@@ -168,7 +168,7 @@ font=494
 shadow=yes
 text="Dragon hat"
 
-[barb_click]
+[dwarf_hat]
 type=Text
 x=230
 y=150
@@ -181,7 +181,7 @@ shadow=yes
 text="Dwarf hat"
 baseOpName=" "
 
-[dragon_build]
+[pirate_hat]
 type=Text
 x=311
 y=150
@@ -193,7 +193,7 @@ font=494
 shadow=yes
 text="Pirate hat"
 
-[dragon_hat]
+[top_hat]
 type=Text
 x=390
 y=150
@@ -205,13 +205,13 @@ font=494
 shadow=yes
 text="Top hat"
 
-[com_20]
+[divider0]
 type=Model
 y=1
 modelZoom=400
 discardedModelField=0
 
-[dragon_click]
+[com_21]
 type=Layer
 x=72
 y=96
@@ -221,7 +221,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[dwarf_build]
+[barbarian_hat_button]
 type=Rectangle
 x=72
 y=96
@@ -234,7 +234,7 @@ eventCode=hasOp(1)
 baseOpName="Barbarian Snowman Hat"
 opName0="Select"
 
-[dwarf_hat]
+[com_23]
 type=Layer
 x=149
 y=96
@@ -244,7 +244,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_24]
+[dragon_hat_button]
 type=Rectangle
 x=149
 y=96
@@ -257,7 +257,7 @@ eventCode=hasOp(1)
 baseOpName="Dragon Snowman Hat"
 opName0="Select"
 
-[dwarf_click]
+[com_25]
 type=Layer
 x=231
 y=96
@@ -267,7 +267,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[pirate_build]
+[dwarf_hat_button]
 type=Rectangle
 x=231
 y=96
@@ -280,7 +280,7 @@ eventCode=hasOp(1)
 baseOpName="Dwarf Snowman Hat"
 opName0="Select"
 
-[pirate_hat]
+[com_27]
 type=Layer
 x=312
 y=96
@@ -290,7 +290,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_28]
+[pirate_hat_button]
 type=Rectangle
 x=312
 y=96
@@ -303,7 +303,7 @@ eventCode=hasOp(1)
 baseOpName="Pirate Snowman Hat"
 opName0="Select"
 
-[pirate_click]
+[com_29]
 type=Layer
 x=391
 y=96
@@ -313,7 +313,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[tophat_build]
+[top_hat_button]
 type=Rectangle
 x=391
 y=96
@@ -326,7 +326,7 @@ eventCode=hasOp(1)
 baseOpName="Snowman Top Hat"
 opName0="Select"
 
-[top_hat]
+[com_31]
 type=Layer
 x=149
 y=192
@@ -337,7 +337,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_32]
+[bow_button]
 type=Rectangle
 x=149
 y=192
@@ -351,7 +351,7 @@ eventCode=hasOp(1)
 baseOpName="Holly Bow"
 opName0="Select"
 
-[tophat_click]
+[com_33]
 type=Layer
 x=231
 y=192
@@ -362,7 +362,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[bow_build]
+[staff_button]
 type=Rectangle
 x=231
 y=192
@@ -387,7 +387,7 @@ onload=92,component.parentId
 onmouseover=94,component.parentId
 onmouseleave=92,component.parentId
 
-[com_36]
+[sword_button]
 type=Rectangle
 x=313
 y=192
@@ -401,13 +401,13 @@ eventCode=hasOp(1)
 baseOpName="Ice Sword"
 opName0="Select"
 
-[bow_click]
+[divider2]
 type=Model
 y=1
 modelZoom=400
 discardedModelField=0
 
-[staff_build]
+[com_38]
 type=Line
 x=58
 y=34
@@ -429,14 +429,14 @@ width=387
 colour=0xCCCCCC
 baseOpName=" "
 
-[staff_click]
+[com_41]
 type=Line
 x=432
 y=43
 width=12
 colour=0xCCCCCC
 
-[sword_build]
+[com_42]
 type=Model
 x=79
 y=100
@@ -478,7 +478,7 @@ modelXOf=2
 modelYOf=13
 discardedModelField=0
 
-[sword_click]
+[com_45]
 type=Model
 x=314
 y=110
@@ -548,7 +548,7 @@ modelYAn=2041
 modelXOf=3
 discardedModelField=0
 
-[com_50]
+[bow]
 type=Text
 x=145
 y=250
@@ -561,7 +561,7 @@ font=494
 shadow=yes
 text="Holly Bow"
 
-[com_51]
+[staff]
 type=Text
 x=228
 y=250
@@ -574,7 +574,7 @@ font=494
 shadow=yes
 text="Winter Staff"
 
-[com_52]
+[sword]
 type=Text
 x=309
 y=250
@@ -587,13 +587,13 @@ font=494
 shadow=yes
 text="Ice Sword"
 
-[com_53]
+[weapons_layer]
 type=Layer
 width=512
 height=334
 hide=yes
 
-[com_54]
+[websites_dia07]
 type=Rectangle
 x=57
 y=35

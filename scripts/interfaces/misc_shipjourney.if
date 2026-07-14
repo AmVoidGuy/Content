@@ -60,7 +60,7 @@ colour=0x282315
 font=497
 text="Rellekka"
 
-[misc_shipmodel]
+[com_6]
 type=Text
 x=88
 y=165
@@ -71,7 +71,7 @@ hAlign=Center
 font=497
 text="Neitiznot & Jatizso"
 
-[layer_1]
+[misc_shipmodel]
 type=Model
 x=239
 y=154

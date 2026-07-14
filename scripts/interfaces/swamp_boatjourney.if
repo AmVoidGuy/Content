@@ -6,7 +6,7 @@ height=334
 colour=0x433621
 fill=yes
 
-[swamp_shipmodel]
+[com_1]
 type=Model
 x=236
 y=128
@@ -17,7 +17,7 @@ modelZoom=926
 modelXAn=271
 modelYAn=63
 
-[com_2]
+[swamp_shipmodel]
 type=Model
 x=236
 y=128

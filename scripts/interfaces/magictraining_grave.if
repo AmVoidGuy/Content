@@ -1,4 +1,4 @@
-[content_layer3]
+[magictrain_back_madel_grave]
 type=Model
 x=415
 y=17
@@ -8,7 +8,7 @@ model1Id=10567
 modelZoom=843
 modelXAn=427
 
-[content_panel_blue]
+[magictrain_grave_a]
 type=Text
 x=363
 y=15
@@ -21,7 +21,7 @@ font=497
 shadow=yes
 text="Graveyard"
 
-[title_text]
+[magictrain_grav_b]
 type=Text
 x=362
 y=31
@@ -34,7 +34,7 @@ font=494
 shadow=yes
 text="Pizazz Points:"
 
-[points]
+[magictrain_grave_pts]
 type=Text
 x=461
 y=38
@@ -45,7 +45,7 @@ font=494
 shadow=yes
 text="9999"
 
-[magictrain_grave_pts]
+[38747401]
 type=Model
 x=473
 y=297
@@ -55,7 +55,7 @@ model1Id=10569
 modelZoom=1484
 modelXAn=165
 
-[magictrain_grave_bones1]
+[38747402]
 type=Model
 x=472
 y=260
@@ -66,7 +66,7 @@ modelZoom=993
 modelXAn=131
 modelYAn=1790
 
-[magictrain_grave_bones2]
+[38747403]
 type=Model
 x=476
 y=221
@@ -77,7 +77,7 @@ modelZoom=1073
 modelXAn=79
 modelYAn=1020
 
-[magictrain_grave_bones3]
+[38747404]
 type=Model
 x=472
 y=180
@@ -88,7 +88,7 @@ modelZoom=1152
 modelXAn=199
 modelYAn=1727
 
-[magictrain_grave_bones4]
+[magictrain_bone_type_4]
 type=Text
 x=456
 y=180
@@ -99,7 +99,7 @@ font=495
 shadow=yes
 text="4"
 
-[magictrain_bone_type_4]
+[com_9]
 type=Text
 x=456
 y=221
@@ -121,7 +121,7 @@ font=495
 shadow=yes
 text="2"
 
-[magictrain_bone_type_3]
+[magictrain_bone_type_1]
 type=Text
 x=456
 y=296

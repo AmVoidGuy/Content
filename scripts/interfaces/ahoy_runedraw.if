@@ -1,4 +1,4 @@
-[scroll]
+[com_0]
 type=Model
 x=210
 y=136
@@ -9,7 +9,7 @@ modelZoom=881
 modelXAn=410
 modelYAn=2046
 
-[board]
+[com_1]
 type=Model
 x=217
 y=137
@@ -20,7 +20,7 @@ modelZoom=824
 modelXAn=436
 modelYAn=7
 
-[title]
+[com_2]
 type=Text
 x=169
 y=72
@@ -32,7 +32,7 @@ font=497
 shadow=yes
 text="Rune-Draw"
 
-[pl_score]
+[com_3]
 type=Text
 x=71
 y=108
@@ -43,7 +43,7 @@ font=497
 shadow=yes
 text="Your Score"
 
-[opp_score]
+[com_4]
 type=Text
 x=314
 y=111
@@ -97,7 +97,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[opp_runes]
+[runedraw_slot_2]
 type=Model
 x=105
 y=145
@@ -108,7 +108,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_11]
+[runedraw_slot_3]
 type=Model
 x=140
 y=137
@@ -119,7 +119,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_13]
+[runedraw_slot_4]
 type=Model
 x=173
 y=131
@@ -130,7 +130,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_19]
+[runedraw_slot_5]
 type=Model
 x=205
 y=125
@@ -141,7 +141,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_18]
+[runedraw_slot_6]
 type=Model
 x=69
 y=172
@@ -152,7 +152,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_17]
+[runedraw_slot_7]
 type=Model
 x=104
 y=175
@@ -163,7 +163,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_15]
+[runedraw_slot_8]
 type=Model
 x=139
 y=167
@@ -174,7 +174,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_14]
+[runedraw_slot_9]
 type=Model
 x=172
 y=158
@@ -185,7 +185,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_16]
+[runedraw_slot_10]
 type=Model
 x=204
 y=154
@@ -196,7 +196,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_12]
+[runedraw_slot_11]
 type=Model
 x=267
 y=157
@@ -207,7 +207,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_20]
+[runedraw_slot_12]
 type=Model
 x=301
 y=158
@@ -218,7 +218,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[player_runes]
+[runedraw_slot_13]
 type=Model
 x=336
 y=151
@@ -229,7 +229,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_2]
+[runedraw_slot_14]
 type=Model
 x=370
 y=142
@@ -240,7 +240,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_9]
+[runedraw_slot_15]
 type=Model
 x=402
 y=143
@@ -251,7 +251,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_4]
+[runedraw_slot_16]
 type=Model
 x=266
 y=188
@@ -262,7 +262,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_3]
+[runedraw_slot_17]
 type=Model
 x=302
 y=190
@@ -273,7 +273,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_6]
+[runedraw_slot_18]
 type=Model
 x=337
 y=183
@@ -284,7 +284,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_8]
+[runedraw_slot_19]
 type=Model
 x=371
 y=172
@@ -295,7 +295,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_5]
+[runedraw_slot_20]
 type=Model
 x=404
 y=172
@@ -306,7 +306,7 @@ modelZoom=1027
 modelXAn=525
 modelYAn=762
 
-[runedraw_slot_7]
+[runedraw_score_l]
 type=Text
 x=75
 y=69
@@ -319,7 +319,7 @@ font=497
 text="DEATH"
 script1op1=varbit,varbit_230
 
-[runedraw_slot_10]
+[runedraw_totalscore_l]
 type=Text
 x=62
 y=223
@@ -332,7 +332,7 @@ font=497
 shadow=yes
 text="Text"
 
-[runedraw_score_l]
+[runedraw_score_r]
 type=Text
 x=335
 y=72
@@ -345,7 +345,7 @@ font=497
 text="DEATH"
 script1op1=varbit,varbit_231
 
-[runedraw_totalscore_l]
+[runedraw_totalscore_r]
 type=Text
 x=346
 y=229
@@ -358,21 +358,21 @@ font=497
 shadow=yes
 text="Text"
 
-[runedraw_score_r]
+[runedraw_layer_draw]
 type=Layer
 x=171
 y=208
 width=62
 height=43
 
-[runedraw_totalscore_r]
+[runedraw_layer_hold]
 type=Layer
 x=170
 y=256
 width=63
 height=43
 
-[closebutton]
+[com_33]
 type=Sprite
 x=481
 y=4
@@ -381,7 +381,7 @@ height=23
 overLayerId=35
 graphic=539
 
-[content_layer]
+[com_34]
 type=Sprite
 buttonType=Close
 x=3
@@ -392,7 +392,7 @@ layerId=589859
 graphic=540
 buttonText="Ok"
 
-[com_35]
+[ahoy_runedraw_close_button]
 type=Layer
 x=478
 width=32

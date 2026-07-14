@@ -1,4 +1,4 @@
-[items]
+[com_0]
 type=Sprite
 x=12
 y=20
@@ -6,7 +6,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window]
+[com_1]
 type=Sprite
 x=15
 y=80
@@ -14,7 +14,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_background]
+[com_2]
 type=Sprite
 x=12
 y=140
@@ -22,7 +22,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_content]
+[com_3]
 type=Sprite
 x=12
 y=200
@@ -30,7 +30,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_border]
+[com_4]
 type=Sprite
 x=12
 y=260
@@ -38,7 +38,7 @@ width=88
 height=60
 graphic=297
 
-[mainmodal_window_close_button]
+[com_5]
 type=Sprite
 x=100
 y=20
@@ -713,7 +713,7 @@ font=496
 shadow=yes
 text="Ranging Guild Ticket Exchange"
 
-[com_89]
+[rangingguild_trade_tickets]
 type=Inventory
 x=76
 y=65

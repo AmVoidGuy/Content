@@ -1,10 +1,10 @@
-[content_layer]
+[dwarf_rock_rectangle]
 type=Rectangle
 width=512
 height=334
 fill=yes
 
-[dwarf_rock_rectangle]
+[dwarf_rock_backing]
 type=Model
 x=243
 y=170
@@ -15,7 +15,7 @@ modelZoom=400
 modelXAn=117
 modelYAn=3
 
-[dwarf_rock_backing]
+[dwarf_rock_head]
 type=Model
 x=243
 y=170
@@ -26,7 +26,7 @@ modelZoom=400
 modelXAn=90
 modelYAn=10
 
-[dwarf_rock_head]
+[dwarf_rock_front]
 type=Model
 x=243
 y=170
@@ -37,7 +37,7 @@ modelZoom=400
 modelXAn=117
 modelYAn=3
 
-[dwarf_rock_front]
+[dwarf_rock_zoom_npcname]
 type=Text
 x=80
 y=15
@@ -50,7 +50,7 @@ font=497
 shadow=yes
 text="Name"
 
-[dwarf_rock_zoom_playerlayer]
+[dwarf_rock_zoom_npctxt]
 type=Text
 x=80
 y=37
@@ -62,7 +62,7 @@ hAlign=Center
 font=497
 text="Line1"
 
-[dwarf_rock_fade_layer]
+[dwarf_rock_zoom_npchead]
 type=Model
 x=25
 y=37
@@ -86,26 +86,26 @@ hAlign=Center
 font=497
 text="Line1"
 
-[dwarf_rock_fade_model]
+[dwarf_rock_zoom_npclayer]
 type=Layer
 y=1
 width=512
 height=94
 
-[com_9]
+[dwarf_rock_zoom_playerlayer]
 type=Layer
 x=70
 y=291
 width=379
 height=33
 
-[com_10]
+[dwarf_rock_fade_layer]
 type=Layer
 width=512
 height=334
 hide=yes
 
-[com_11]
+[dwarf_rock_fade_model]
 type=Model
 width=512
 height=334

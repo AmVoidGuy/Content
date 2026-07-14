@@ -14,7 +14,7 @@ height=23
 layerId=35913728
 graphic=1018
 
-[com_2]
+[chat_all]
 type=Layer
 x=5
 y=1
@@ -22,7 +22,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_3]
+[chat_all_graphic]
 type=Sprite
 width=56
 height=22
@@ -35,7 +35,7 @@ onmouseover=173,0
 onmouseleave=174,0
 onop=175,opindex,0
 
-[com_4]
+[text_all]
 type=Text
 width=56
 height=22
@@ -47,7 +47,7 @@ font=494
 shadow=yes
 text="All"
 
-[com_5]
+[chat_game]
 type=Layer
 x=62
 y=1
@@ -55,7 +55,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_6]
+[chat_game_graphic]
 type=Sprite
 width=56
 height=22
@@ -68,7 +68,7 @@ onmouseover=173,1
 onmouseleave=174,1
 onop=175,opindex,1
 
-[com_7]
+[text_game]
 type=Text
 width=56
 height=22
@@ -80,7 +80,7 @@ font=494
 shadow=yes
 text="Game"
 
-[com_8]
+[chat_public]
 type=Layer
 x=119
 y=1
@@ -88,7 +88,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_9]
+[chat_public_graphic]
 type=Sprite
 width=56
 height=22
@@ -105,7 +105,7 @@ onmouseover=173,2
 onmouseleave=174,2
 onop=175,opindex,2
 
-[com_10]
+[text_public]
 type=Text
 width=56
 height=11
@@ -117,7 +117,7 @@ font=494
 shadow=yes
 text="Public"
 
-[com_11]
+[text_public_setting]
 type=Text
 y=11
 width=56
@@ -129,7 +129,7 @@ font=494
 shadow=yes
 text="On"
 
-[com_12]
+[chat_private]
 type=Layer
 x=176
 y=1
@@ -137,7 +137,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_13]
+[chat_private_graphic]
 type=Sprite
 width=56
 height=22
@@ -153,7 +153,7 @@ onmouseover=173,3
 onmouseleave=174,3
 onop=175,opindex,3
 
-[com_14]
+[text_private]
 type=Text
 width=56
 height=11
@@ -165,7 +165,7 @@ font=494
 shadow=yes
 text="Private"
 
-[com_15]
+[text_private_setting]
 type=Text
 y=11
 width=56
@@ -177,7 +177,7 @@ font=494
 shadow=yes
 text="On"
 
-[com_16]
+[chat_clan]
 type=Layer
 x=233
 y=1
@@ -185,7 +185,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_17]
+[chat_clan_graphic]
 type=Sprite
 width=56
 height=22
@@ -201,7 +201,7 @@ onmouseover=173,4
 onmouseleave=174,4
 onop=175,opindex,4
 
-[com_18]
+[text_clan]
 type=Text
 width=56
 height=11
@@ -213,7 +213,7 @@ font=494
 shadow=yes
 text="Clan"
 
-[com_19]
+[text_clan_setting]
 type=Text
 y=11
 width=56
@@ -225,7 +225,7 @@ font=494
 shadow=yes
 text="On"
 
-[com_20]
+[chat_trade]
 type=Layer
 x=290
 y=1
@@ -233,7 +233,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_21]
+[chat_trade_graphic]
 type=Sprite
 width=56
 height=22
@@ -249,7 +249,7 @@ onmouseover=173,5
 onmouseleave=174,5
 onop=175,opindex,5
 
-[com_22]
+[text_trade]
 type=Text
 width=56
 height=11
@@ -261,7 +261,7 @@ font=494
 shadow=yes
 text="Trade"
 
-[com_23]
+[text_trade_setting]
 type=Text
 y=11
 width=56
@@ -273,7 +273,7 @@ font=494
 shadow=yes
 text="On"
 
-[com_24]
+[chat_assist]
 type=Layer
 x=347
 y=1
@@ -281,7 +281,7 @@ width=56
 height=22
 layerId=35913728
 
-[com_25]
+[chat_assist_graphic]
 type=Sprite
 width=56
 height=22
@@ -297,7 +297,7 @@ onmouseover=173,6
 onmouseleave=174,6
 onop=175,opindex,6
 
-[com_26]
+[text_assist]
 type=Text
 width=56
 height=11
@@ -309,7 +309,7 @@ font=494
 shadow=yes
 text="Assist"
 
-[com_27]
+[text_assist_setting]
 type=Text
 y=11
 width=56
@@ -321,7 +321,7 @@ font=494
 shadow=yes
 text="On"
 
-[com_28]
+[reportabuse]
 type=Layer
 x=404
 y=1
@@ -341,7 +341,7 @@ graphic=1024
 onmouseover=188,component.parentId
 onmouseleave=190,component.parentId
 
-[com_30]
+[text_report_abuse]
 type=Text
 width=111
 height=22
@@ -353,7 +353,7 @@ font=494
 shadow=yes
 text="Report Abuse"
 
-[com_31]
+[backbase2]
 type=Layer
 x=519
 y=466
@@ -367,13 +367,13 @@ height=37
 layerId=35913759
 graphic=1032
 
-[com_33]
+[backbase2_hide]
 type=Layer
 width=269
 height=37
 layerId=35913759
 
-[com_34]
+[stone7]
 type=Sprite
 x=3
 width=38
@@ -384,7 +384,7 @@ eventCode=hasOp(1)
 opName0="Summoning"
 onop=115,7
 
-[com_35]
+[stone8]
 type=Sprite
 x=41
 width=33
@@ -396,7 +396,7 @@ eventCode=hasOp(1)
 opName0="Friends List"
 onop=115,8
 
-[com_36]
+[stone9]
 type=Sprite
 x=74
 width=33
@@ -408,7 +408,7 @@ eventCode=hasOp(1)
 opName0="Ignore List"
 onop=115,9
 
-[com_37]
+[stone10]
 type=Sprite
 x=107
 width=33
@@ -420,7 +420,7 @@ eventCode=hasOp(1)
 opName0="Clan Chat"
 onop=115,10
 
-[com_38]
+[stone11]
 type=Sprite
 x=140
 width=33
@@ -432,7 +432,7 @@ eventCode=hasOp(1)
 opName0="Options"
 onop=115,11
 
-[com_39]
+[stone12]
 type=Sprite
 x=173
 width=33
@@ -444,7 +444,7 @@ eventCode=hasOp(1)
 opName0="Emotes"
 onop=115,12
 
-[com_40]
+[stone13]
 type=Sprite
 x=206
 width=38
@@ -455,7 +455,7 @@ eventCode=hasOp(1)
 opName0="Music Player"
 onop=115,13
 
-[com_41]
+[icon7]
 type=Sprite
 x=6
 y=1
@@ -464,7 +464,7 @@ height=36
 layerId=35913761
 graphic=1242
 
-[com_42]
+[icon8]
 type=Sprite
 x=42
 y=2
@@ -473,7 +473,7 @@ height=36
 layerId=35913761
 graphic=904
 
-[com_43]
+[icon9]
 type=Sprite
 x=75
 y=2
@@ -482,7 +482,7 @@ height=36
 layerId=35913761
 graphic=905
 
-[com_44]
+[icon10]
 type=Sprite
 x=107
 y=2
@@ -491,7 +491,7 @@ height=36
 layerId=35913761
 graphic=1241
 
-[com_45]
+[icon11]
 type=Sprite
 x=142
 y=1
@@ -500,7 +500,7 @@ height=36
 layerId=35913761
 graphic=907
 
-[com_46]
+[icon12]
 type=Sprite
 x=175
 y=3
@@ -509,7 +509,7 @@ height=36
 layerId=35913761
 graphic=908
 
-[com_47]
+[icon13]
 type=Sprite
 x=208
 y=3
@@ -518,7 +518,7 @@ height=36
 layerId=35913761
 graphic=909
 
-[com_48]
+[backhmid1]
 type=Layer
 x=516
 y=161
@@ -532,14 +532,14 @@ height=44
 layerId=35913776
 graphic=1036
 
-[com_50]
+[backhmid1_hide]
 type=Layer
 width=249
 height=44
 layerId=35913776
 onload=114
 
-[com_51]
+[stone0]
 type=Sprite
 x=6
 y=7
@@ -551,7 +551,7 @@ eventCode=hasOp(1)
 opName0="Combat Options"
 onop=115,0
 
-[com_52]
+[stone1]
 type=Sprite
 x=44
 y=7
@@ -564,7 +564,7 @@ eventCode=hasOp(1)
 opName0="Stats"
 onop=115,1
 
-[com_53]
+[stone2]
 type=Sprite
 x=77
 y=7
@@ -577,7 +577,7 @@ eventCode=hasOp(1)
 opName0="Quest List"
 onop=115,2
 
-[com_54]
+[stone3]
 type=Sprite
 x=110
 y=7
@@ -591,7 +591,7 @@ opName0="Inventory"
 onload=115,3
 onop=115,3
 
-[com_55]
+[stone4]
 type=Sprite
 x=143
 y=7
@@ -604,7 +604,7 @@ eventCode=hasOp(1)
 opName0="Worn Equipment"
 onop=115,4
 
-[com_56]
+[stone5]
 type=Sprite
 x=176
 y=7
@@ -617,7 +617,7 @@ eventCode=hasOp(1)
 opName0="Prayer"
 onop=115,5
 
-[com_57]
+[stone6]
 type=Sprite
 x=209
 y=7
@@ -629,7 +629,7 @@ eventCode=hasOp(1)
 opName0="Magic"
 onop=115,6
 
-[com_58]
+[icon0]
 type=Sprite
 x=13
 y=8
@@ -638,7 +638,7 @@ height=36
 layerId=35913778
 graphic=168
 
-[com_59]
+[icon1]
 type=Sprite
 x=44
 y=7
@@ -647,7 +647,7 @@ height=36
 layerId=35913778
 graphic=898
 
-[com_60]
+[icon2]
 type=Sprite
 x=79
 y=8
@@ -656,7 +656,7 @@ height=36
 layerId=35913778
 graphic=899
 
-[com_61]
+[icon3]
 type=Sprite
 x=111
 y=6
@@ -665,7 +665,7 @@ height=36
 layerId=35913778
 graphic=900
 
-[com_62]
+[icon4]
 type=Sprite
 x=143
 y=9
@@ -674,7 +674,7 @@ height=36
 layerId=35913778
 graphic=901
 
-[com_63]
+[icon5]
 type=Sprite
 x=176
 y=7
@@ -683,7 +683,7 @@ height=36
 layerId=35913778
 graphic=902
 
-[com_64]
+[icon6]
 type=Sprite
 x=210
 y=8
@@ -692,7 +692,7 @@ height=36
 layerId=35913778
 graphic=903
 
-[com_65]
+[backleft1]
 type=Layer
 y=4
 width=4
@@ -705,7 +705,7 @@ height=334
 layerId=35913793
 graphic=4
 
-[com_67]
+[backright2]
 type=Layer
 x=737
 y=205
@@ -719,7 +719,7 @@ height=261
 layerId=35913795
 graphic=1035
 
-[com_69]
+[backtop1]
 type=Layer
 width=516
 height=4
@@ -731,7 +731,7 @@ height=4
 layerId=35913797
 graphic=1039
 
-[com_71]
+[backvmid2]
 type=Layer
 x=516
 y=205
@@ -759,27 +759,27 @@ height=128
 layerId=35913801
 graphic=1034
 
-[com_75]
+[main]
 type=Layer
 x=4
 y=4
 width=512
 height=334
 
-[com_76]
+[maingame]
 type=Layer
 clientCode=1337
 width=512
 height=334
 layerId=35913803
 
-[main]
+[mainoverlay]
 type=Layer
 width=512
 height=334
 layerId=35913803
 
-[com_78]
+[multiway_icon]
 type=Sprite
 x=472
 y=296
@@ -789,7 +789,7 @@ layerId=35913803
 hide=yes
 graphic=442
 
-[com_79]
+[assist_engaged]
 type=Sprite
 x=442
 y=296
@@ -799,7 +799,7 @@ layerId=35913803
 hide=yes
 graphic=1073
 
-[com_80]
+[pm1]
 type=Text
 y=265
 width=512
@@ -812,7 +812,7 @@ eventCode=hasOp(10)
 opName9="Report Abuse"
 onop=88,opindex,"event_opbase"
 
-[com_81]
+[pm2]
 type=Text
 y=278
 width=512
@@ -825,7 +825,7 @@ eventCode=hasOp(10)
 opName9="Report Abuse"
 onop=88,opindex,"event_opbase"
 
-[com_82]
+[pm3]
 type=Text
 y=291
 width=512
@@ -838,7 +838,7 @@ eventCode=hasOp(10)
 opName9="Report Abuse"
 onop=88,opindex,"event_opbase"
 
-[com_83]
+[pm4]
 type=Text
 y=304
 width=512
@@ -851,7 +851,7 @@ eventCode=hasOp(10)
 opName9="Report Abuse"
 onop=88,opindex,"event_opbase"
 
-[com_84]
+[pm5]
 type=Text
 y=317
 width=512
@@ -864,13 +864,13 @@ eventCode=hasOp(10)
 opName9="Report Abuse"
 onop=88,opindex,"event_opbase"
 
-[com_85]
+[mainmodal]
 type=Layer
 width=512
 height=334
 layerId=35913803
 
-[com_86]
+[minimap]
 type=Layer
 x=516
 width=249
@@ -885,7 +885,7 @@ layerId=35913814
 graphic=1221
 tiling=yes
 
-[com_88]
+[map]
 type=Sprite
 clientCode=1338
 x=35
@@ -895,7 +895,7 @@ height=152
 layerId=35913814
 graphic=1185
 
-[com_89]
+[compass]
 type=Sprite
 clientCode=1339
 x=11
@@ -905,7 +905,7 @@ height=33
 layerId=35913814
 graphic=1186
 
-[com_90]
+[mapback]
 type=Sprite
 y=4
 width=249
@@ -913,7 +913,7 @@ height=157
 layerId=35913814
 graphic=12
 
-[com_91]
+[logoutbutton]
 type=Sprite
 x=225
 y=1
@@ -982,7 +982,7 @@ layerId=35913814
 graphic=1197
 ontimer=808
 
-[com_97]
+[topstat_background_prayer]
 type=Sprite
 x=190
 y=50
@@ -994,7 +994,7 @@ onload=812
 onstattransmit=812
 onstattransmitlist=5
 
-[com_98]
+[topstat_circle_prayer]
 type=Sprite
 x=191
 y=51
@@ -1013,7 +1013,7 @@ layerId=35913814
 graphic=1220
 tiling=yes
 
-[com_100]
+[from_define_101]
 type=Text
 x=223
 y=67
@@ -1029,7 +1029,7 @@ onload=801,component.parentId,5
 onstattransmit=801,component.parentId,5
 onstattransmitlist=5
 
-[com_101]
+[topstat_graphic_prayer]
 type=Sprite
 x=196
 y=57
@@ -1095,7 +1095,7 @@ layerId=35913814
 graphic=1199
 onload=813
 
-[com_107]
+[topstat_background_lore]
 type=Sprite
 x=174
 y=127
@@ -1104,7 +1104,7 @@ height=34
 layerId=35913814
 graphic=1215
 
-[com_108]
+[topstat_circle_lore]
 type=Sprite
 x=175
 y=128
@@ -1140,7 +1140,7 @@ onload=801,component.parentId,23
 onstattransmit=801,component.parentId,23
 onstattransmitlist=23
 
-[com_111]
+[topstat_graphic_lore]
 type=Sprite
 x=180
 y=134
@@ -1149,7 +1149,7 @@ height=20
 layerId=35913814
 graphic=1200
 
-[com_112]
+[chat]
 type=Layer
 y=338
 width=519
@@ -1162,7 +1162,7 @@ height=142
 layerId=35913840
 graphic=1017
 
-[com_114]
+[mes_layer]
 type=Layer
 x=20
 y=24
@@ -1171,7 +1171,7 @@ height=96
 layerId=35913840
 hide=yes
 
-[chat]
+[mes_layer_large]
 type=Layer
 x=7
 y=7
@@ -1179,13 +1179,13 @@ width=506
 height=130
 layerId=35913840
 
-[com_116]
+[mes_layer_hide]
 type=Layer
 width=519
 height=142
 layerId=35913840
 
-[com_117]
+[chatdefault]
 type=Layer
 x=7
 y=7
@@ -1193,7 +1193,7 @@ width=506
 height=130
 layerId=35913844
 
-[com_118]
+[chatoverlay]
 type=Layer
 x=20
 y=24
@@ -1201,7 +1201,7 @@ width=479
 height=96
 layerId=35913844
 
-[com_119]
+[chatoverlaylarge]
 type=Layer
 x=7
 y=7
@@ -1209,7 +1209,7 @@ width=506
 height=130
 layerId=35913844
 
-[com_120]
+[chatmodal]
 type=Layer
 x=20
 y=24
@@ -1217,7 +1217,7 @@ width=479
 height=96
 layerId=35913844
 
-[com_121]
+[chatmodallarge]
 type=Layer
 x=7
 y=7
@@ -1225,7 +1225,7 @@ width=506
 height=130
 layerId=35913844
 
-[com_122]
+[mes_text]
 type=Text
 x=10
 y=20
@@ -1236,7 +1236,7 @@ hAlign=Center
 vAlign=Center
 font=496
 
-[com_123]
+[mes_text2]
 type=Text
 x=10
 y=60
@@ -1248,7 +1248,7 @@ hAlign=Center
 vAlign=Center
 font=496
 
-[com_124]
+[side]
 type=Layer
 x=547
 y=205
@@ -1262,117 +1262,117 @@ height=261
 layerId=35913852
 graphic=1031
 
-[com_126]
+[sidemodal]
 type=Layer
 clientCode=1354
 width=190
 height=261
 layerId=35913852
 
-[com_127]
+[side_hide]
 type=Layer
 width=190
 height=261
 layerId=35913852
 
-[stone0]
+[side0]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone1]
+[side1]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone2]
+[side2]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone3]
+[side3]
 type=Layer
 width=190
 height=261
 layerId=35913855
 
-[stone4]
-type=Layer
-width=190
-height=261
-layerId=35913855
-hide=yes
-
-[stone5]
+[side4]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone6]
+[side5]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone7]
+[side6]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone8]
+[side7]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone9]
+[side8]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone10]
+[side9]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone11]
+[side10]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone12]
+[side11]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[stone13]
+[side12]
 type=Layer
 width=190
 height=261
 layerId=35913855
 hide=yes
 
-[logout]
+[side13]
+type=Layer
+width=190
+height=261
+layerId=35913855
+hide=yes
+
+[side99]
 type=Layer
 width=190
 height=261

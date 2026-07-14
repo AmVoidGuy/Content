@@ -1,4 +1,4 @@
-[map05xmark]
+[scrollmodel_map05]
 type=Model
 x=227
 y=162
@@ -9,7 +9,7 @@ modelZoom=599
 modelXAn=520
 modelYAn=1
 
-[mainmodal_window]
+[map05xmark]
 type=Model
 x=112
 y=67
@@ -21,7 +21,7 @@ modelZoom=1349
 modelXAn=474
 modelYAn=1775
 
-[mainmodal_window_background]
+[map05cratemodel]
 type=Model
 x=190
 y=194
@@ -32,7 +32,7 @@ modelZoom=809
 modelXAn=475
 modelYAn=19
 
-[mainmodal_window_content]
+[map05fencesmall01]
 type=Model
 x=112
 y=119
@@ -44,7 +44,7 @@ modelZoom=640
 modelXAn=397
 modelYAn=500
 
-[layer_4]
+[map05fencesmall02]
 type=Model
 x=146
 y=228
@@ -55,7 +55,7 @@ modelZoom=822
 modelXAn=543
 modelYAn=762
 
-[com_5]
+[map05fencesmall03]
 type=Model
 x=212
 y=86
@@ -66,7 +66,7 @@ modelZoom=868
 modelXAn=397
 modelYAn=500
 
-[map05tree]
+[map05fencesmall04]
 type=Model
 x=233
 y=103
@@ -77,7 +77,7 @@ modelZoom=868
 modelXAn=397
 modelYAn=500
 
-[map05tree_1]
+[map05fencesmall05]
 type=Model
 x=298
 y=70
@@ -88,7 +88,7 @@ modelZoom=735
 modelXAn=467
 modelYAn=2029
 
-[map05tree_2]
+[map05fencesmall06]
 type=Model
 x=285
 y=70
@@ -99,7 +99,7 @@ modelZoom=735
 modelXAn=469
 modelYAn=506
 
-[map05rock3]
+[map05fencesmall07]
 type=Model
 x=306
 y=60
@@ -110,7 +110,7 @@ modelZoom=735
 modelXAn=469
 modelYAn=506
 
-[map05rock4]
+[map05fencesmall08]
 type=Model
 x=316
 y=54
@@ -121,7 +121,7 @@ modelZoom=628
 modelXAn=160
 modelYAn=1012
 
-[map05rock7]
+[map05fencesmall09]
 type=Model
 x=273
 y=64
@@ -132,7 +132,7 @@ modelZoom=628
 modelXAn=160
 modelYAn=1012
 
-[map05rock9]
+[map05fence01]
 type=Model
 x=125
 y=92
@@ -144,7 +144,7 @@ modelZoom=744
 modelXAn=368
 modelYAn=2042
 
-[map05rock10]
+[map05fence02]
 type=Model
 x=185
 y=236
@@ -155,7 +155,7 @@ modelZoom=676
 modelXAn=429
 modelYAn=518
 
-[map05rock11]
+[map05fence03]
 type=Model
 x=270
 y=236
@@ -166,7 +166,7 @@ modelZoom=680
 modelXAn=429
 modelYAn=518
 
-[map05rock12]
+[map05fence04]
 type=Model
 x=278
 y=236
@@ -177,7 +177,7 @@ modelZoom=680
 modelXAn=429
 modelYAn=518
 
-[map05rock8]
+[map05fence05]
 type=Model
 x=205
 y=105
@@ -188,7 +188,7 @@ modelZoom=744
 modelXAn=369
 modelYAn=2043
 
-[layer_3]
+[map05fence06]
 type=Model
 x=330
 y=216
@@ -199,7 +199,7 @@ modelZoom=682
 modelXAn=301
 modelYAn=222
 
-[com_18]
+[map05fence07]
 type=Model
 x=224
 y=130
@@ -210,7 +210,7 @@ modelZoom=947
 modelXAn=371
 modelYAn=1542
 
-[layer_2]
+[map05fence08]
 type=Model
 x=223
 y=88
@@ -221,7 +221,7 @@ modelZoom=1042
 modelXAn=369
 modelYAn=2043
 
-[layer_1]
+[map05fence09]
 type=Model
 x=244
 y=89
@@ -232,7 +232,7 @@ modelZoom=1042
 modelXAn=369
 modelYAn=2043
 
-[map05layer1]
+[map05fence10]
 type=Model
 x=123
 y=123
@@ -244,7 +244,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[map05cratemodel_1]
+[map05fence11]
 type=Model
 x=111
 y=123
@@ -256,7 +256,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[mainmodal_window_border]
+[map05fence12]
 type=Model
 x=127
 y=109
@@ -268,7 +268,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[mainmodal_window_close_button]
+[map05fence13]
 type=Model
 x=127
 y=90
@@ -280,7 +280,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_25]
+[map05fence14]
 type=Model
 x=126
 y=81
@@ -292,7 +292,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[diag_3]
+[map05fence15]
 type=Model
 x=240
 y=131
@@ -303,7 +303,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[diag_4]
+[map05fence16]
 type=Model
 x=228
 y=131
@@ -314,7 +314,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[diag_5]
+[map05post01]
 type=Model
 x=206
 y=121
@@ -325,7 +325,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[end]
+[map05post02]
 type=Model
 x=254
 y=142
@@ -336,7 +336,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_30]
+[map05pos03]
 type=Model
 x=265
 y=142
@@ -347,7 +347,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_31]
+[map05post04]
 type=Model
 x=254
 y=126
@@ -358,7 +358,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_32]
+[map05post05]
 type=Model
 x=254
 y=111
@@ -369,7 +369,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_33]
+[map05post06]
 type=Model
 x=254
 y=96
@@ -380,7 +380,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_34]
+[map05post07]
 type=Model
 x=254
 y=84
@@ -391,7 +391,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[diag_7]
+[map05post08]
 type=Model
 x=296
 y=99
@@ -402,7 +402,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[diag_10]
+[map05post09]
 type=Model
 x=299
 y=81
@@ -413,7 +413,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[diag_8]
+[map05post10]
 type=Model
 x=299
 y=72
@@ -424,7 +424,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_38]
+[map05post11]
 type=Model
 x=299
 y=63
@@ -435,7 +435,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_39]
+[map05post12]
 type=Model
 x=310
 y=70
@@ -446,7 +446,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[long_top]
+[map05post13]
 type=Model
 x=329
 y=70
@@ -457,7 +457,7 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[long_1]
+[map05post14]
 type=Model
 x=331
 y=56
@@ -468,14 +468,14 @@ modelZoom=415
 modelXAn=632
 modelYAn=509
 
-[com_42]
+[map05layer1]
 type=Layer
 x=174
 y=55
 width=203
 height=220
 
-[com_43]
+[border.oe]
 type=Model
 x=150
 y=229
@@ -486,7 +486,7 @@ modelZoom=531
 modelXAn=493
 modelYAn=18
 
-[com_44]
+[border.pe]
 type=Model
 x=165
 y=49
@@ -497,7 +497,7 @@ modelZoom=531
 modelXAn=527
 modelYAn=515
 
-[com_45]
+[border.qe]
 type=Model
 x=340
 y=62
@@ -508,7 +508,7 @@ modelZoom=531
 modelXAn=578
 modelYAn=1030
 
-[com_46]
+[border.re]
 type=Model
 x=321
 y=245
@@ -539,7 +539,7 @@ height=23
 overLayerId=50
 graphic=539
 
-[com_49]
+[trail_map05_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -550,7 +550,7 @@ layerId=22937650
 graphic=540
 buttonText="Ok"
 
-[com_50]
+[trail_map05_close_button]
 type=Layer
 x=470
 y=9

@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=21
 y=45
@@ -11,7 +11,7 @@ modelXOf=5
 modelYOf=9
 discardedModelField=0
 
-[mainmodal_window_background]
+[messagescroll1_gf]
 type=Text
 x=65
 y=59
@@ -22,7 +22,7 @@ hAlign=Center
 font=497
 text="To: Engineer Claus Mousetrap"
 
-[mainmodal_window_content]
+[messagescroll2_gf]
 type=Text
 x=81
 y=82
@@ -32,7 +32,7 @@ colour=0x362407
 font=497
 text="This morning I received a complaint about your inability to repair the Camp Tyras catapult, arriving without the tools and materials required.  To avoid further delay, I'll repeat your instructions:"
 
-[com_3]
+[messagescroll3]
 type=Text
 x=82
 y=151
@@ -42,7 +42,7 @@ colour=0x362407
 font=497
 text="*The replacement wooden parts must be made from MAHOGANY planks and at least MITHRIL nails. <br>*You will need METAL PARTS, which have been ordered from Rolad, the dwarf scholar.<br>The pride of the King's Engineers is at stake, Claus."
 
-[messagescroll1_gf]
+[messagescroll7_gf]
 type=Text
 x=83
 y=236
@@ -53,7 +53,7 @@ hAlign=Center
 font=497
 text="SORT THIS MESS OUT!"
 
-[messagescroll2_gf]
+[messagescroll8_gf]
 type=Text
 x=112
 y=263
@@ -64,7 +64,7 @@ hAlign=Right
 font=497
 text="Chief Engineer, Commander Measures"
 
-[messagescroll3]
+[com_6]
 type=Sprite
 x=421
 y=52
@@ -77,7 +77,7 @@ onmouseover=44,component.parentId,538
 onmouseleave=44,component.parentId,537
 onop=29
 
-[messagescroll7_gf]
+[com_7]
 type=Sprite
 x=4
 y=4
@@ -86,7 +86,7 @@ height=23
 layerId=15663112
 graphic=538
 
-[messagescroll8_gf]
+[scroll_close]
 type=Layer
 x=417
 y=48

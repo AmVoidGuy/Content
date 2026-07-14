@@ -1,4 +1,4 @@
-[graphics_layer]
+[com_0]
 type=Rectangle
 width=512
 height=335
@@ -9,7 +9,7 @@ onload=663,17432577,17432578
 onvartransmit=663,17432577,17432578
 onvartransmitlist=1146
 
-[gravestone_centre]
+[model]
 type=Model
 x=10
 y=84
@@ -18,7 +18,7 @@ height=151
 modelZoom=377
 discardedModelField=0
 
-[gravestone_right]
+[text]
 type=Text
 x=74
 y=115
@@ -27,7 +27,7 @@ height=93
 font=494
 shadow=yes
 
-[gravestone_left]
+[com_3]
 type=Sprite
 x=478
 y=9

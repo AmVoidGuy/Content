@@ -1,4 +1,4 @@
-[prevent_clickthru]
+[com_0]
 type=Rectangle
 width=512
 height=334
@@ -73,7 +73,7 @@ height=24
 colour=0xF312314
 fill=yes
 
-[com_9]
+[rogue_tb_open]
 type=Text
 buttonType=Button
 x=6
@@ -88,32 +88,10 @@ shadow=yes
 text="open casket"
 eventCode=flag22
 
-[rogue_tb_open]
-type=Rectangle
-buttonType=Button
-x=114
-y=4
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
 [rogue_tbr1c1]
 type=Rectangle
 buttonType=Button
-x=151
-y=4
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr1]
-type=Rectangle
-buttonType=Button
-x=188
+x=114
 y=4
 width=32
 height=32
@@ -124,40 +102,18 @@ eventCode=flag22
 [rogue_tbr1c2]
 type=Rectangle
 buttonType=Button
-x=225
+x=151
 y=4
 width=32
 height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr2]
-type=Rectangle
-buttonType=Button
-x=262
-y=4
-width=32
-height=32
-colour=0xFE9C001
+colour=0xFA9907
 fill=yes
 eventCode=flag22
 
 [rogue_tbr1c3]
 type=Rectangle
 buttonType=Button
-x=299
-y=4
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr3]
-type=Rectangle
-buttonType=Button
-x=336
+x=188
 y=4
 width=32
 height=32
@@ -168,63 +124,30 @@ eventCode=flag22
 [rogue_tbr1c4]
 type=Rectangle
 buttonType=Button
-x=373
+x=225
 y=4
 width=32
 height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr4]
-type=Rectangle
-buttonType=Button
-x=410
-y=4
-width=32
-height=32
-colour=0xFA9907
+colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
 [rogue_tbr1c5]
 type=Rectangle
 buttonType=Button
-x=114
-y=41
+x=262
+y=4
 width=32
 height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr5]
-type=Rectangle
-buttonType=Button
-x=151
-y=41
-width=32
-height=32
-colour=0xFA9907
+colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
 [rogue_tbr1c6]
 type=Rectangle
 buttonType=Button
-x=188
-y=41
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr6]
-type=Rectangle
-buttonType=Button
-x=225
-y=41
+x=299
+y=4
 width=32
 height=32
 colour=0xFE9C001
@@ -234,41 +157,19 @@ eventCode=flag22
 [rogue_tbr1c7]
 type=Rectangle
 buttonType=Button
-x=262
-y=41
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr7]
-type=Rectangle
-buttonType=Button
-x=299
-y=41
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tbr1c8]
-type=Rectangle
-buttonType=Button
 x=336
-y=41
+y=4
 width=32
 height=32
 colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr8]
+[rogue_tbr1c8]
 type=Rectangle
 buttonType=Button
 x=373
-y=41
+y=4
 width=32
 height=32
 colour=0xFA9907
@@ -279,18 +180,7 @@ eventCode=flag22
 type=Rectangle
 buttonType=Button
 x=410
-y=41
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr9]
-type=Rectangle
-buttonType=Button
-x=114
-y=78
+y=4
 width=32
 height=32
 colour=0xFA9907
@@ -300,19 +190,8 @@ eventCode=flag22
 [rogue_tbr2c1]
 type=Rectangle
 buttonType=Button
-x=151
-y=78
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr10]
-type=Rectangle
-buttonType=Button
-x=188
-y=78
+x=114
+y=41
 width=32
 height=32
 colour=0xFA9907
@@ -322,41 +201,19 @@ eventCode=flag22
 [rogue_tbr2c2]
 type=Rectangle
 buttonType=Button
-x=225
-y=78
+x=151
+y=41
 width=32
 height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr11]
-type=Rectangle
-buttonType=Button
-x=262
-y=78
-width=32
-height=32
-colour=0xFE9C001
+colour=0xFA9907
 fill=yes
 eventCode=flag22
 
 [rogue_tbr2c3]
 type=Rectangle
 buttonType=Button
-x=299
-y=78
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr12]
-type=Rectangle
-buttonType=Button
-x=336
-y=78
+x=188
+y=41
 width=32
 height=32
 colour=0xFA9907
@@ -366,41 +223,19 @@ eventCode=flag22
 [rogue_tbr2c4]
 type=Rectangle
 buttonType=Button
-x=373
-y=78
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr13]
-type=Rectangle
-buttonType=Button
-x=410
-y=78
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tbr2c5]
-type=Rectangle
-buttonType=Button
-x=114
-y=115
+x=225
+y=41
 width=32
 height=32
 colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr14]
+[rogue_tbr2c5]
 type=Rectangle
 buttonType=Button
-x=151
-y=115
+x=262
+y=41
 width=32
 height=32
 colour=0xFE9C001
@@ -410,41 +245,19 @@ eventCode=flag22
 [rogue_tbr2c6]
 type=Rectangle
 buttonType=Button
-x=188
-y=115
+x=299
+y=41
 width=32
 height=32
 colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr15]
-type=Rectangle
-buttonType=Button
-x=225
-y=115
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
 [rogue_tbr2c7]
 type=Rectangle
 buttonType=Button
-x=262
-y=115
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr16]
-type=Rectangle
-buttonType=Button
-x=299
-y=115
+x=336
+y=41
 width=32
 height=32
 colour=0xFA9907
@@ -454,22 +267,11 @@ eventCode=flag22
 [rogue_tbr2c8]
 type=Rectangle
 buttonType=Button
-x=336
-y=115
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr17]
-type=Rectangle
-buttonType=Button
 x=373
-y=115
+y=41
 width=32
 height=32
-colour=0xFE9C001
+colour=0xFA9907
 fill=yes
 eventCode=flag22
 
@@ -477,62 +279,29 @@ eventCode=flag22
 type=Rectangle
 buttonType=Button
 x=410
-y=115
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr18]
-type=Rectangle
-buttonType=Button
-x=114
-y=152
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tbr3c1]
-type=Rectangle
-buttonType=Button
-x=151
-y=152
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr19]
-type=Rectangle
-buttonType=Button
-x=188
-y=152
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tbr3c2]
-type=Rectangle
-buttonType=Button
-x=225
-y=152
+y=41
 width=32
 height=32
 colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr20]
+[rogue_tbr3c1]
 type=Rectangle
 buttonType=Button
-x=262
-y=152
+x=114
+y=78
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr3c2]
+type=Rectangle
+buttonType=Button
+x=151
+y=78
 width=32
 height=32
 colour=0xFA9907
@@ -542,41 +311,19 @@ eventCode=flag22
 [rogue_tbr3c3]
 type=Rectangle
 buttonType=Button
-x=299
-y=152
+x=188
+y=78
 width=32
 height=32
 colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr21]
-type=Rectangle
-buttonType=Button
-x=336
-y=152
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
 [rogue_tbr3c4]
 type=Rectangle
 buttonType=Button
-x=373
-y=152
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr22]
-type=Rectangle
-buttonType=Button
-x=410
-y=152
+x=225
+y=78
 width=32
 height=32
 colour=0xFE9C001
@@ -586,19 +333,8 @@ eventCode=flag22
 [rogue_tbr3c5]
 type=Rectangle
 buttonType=Button
-x=114
-y=189
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr23]
-type=Rectangle
-buttonType=Button
-x=151
-y=189
+x=262
+y=78
 width=32
 height=32
 colour=0xFE9C001
@@ -608,41 +344,19 @@ eventCode=flag22
 [rogue_tbr3c6]
 type=Rectangle
 buttonType=Button
-x=188
-y=189
+x=299
+y=78
 width=32
 height=32
 colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr24]
-type=Rectangle
-buttonType=Button
-x=225
-y=189
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
 [rogue_tbr3c7]
 type=Rectangle
 buttonType=Button
-x=262
-y=189
-width=32
-height=32
-colour=0xFA9907
-fill=yes
-eventCode=flag22
-
-[rogue_tsr25]
-type=Rectangle
-buttonType=Button
-x=299
-y=189
+x=336
+y=78
 width=32
 height=32
 colour=0xFA9907
@@ -652,22 +366,11 @@ eventCode=flag22
 [rogue_tbr3c8]
 type=Rectangle
 buttonType=Button
-x=336
-y=189
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr26]
-type=Rectangle
-buttonType=Button
 x=373
-y=189
+y=78
 width=32
 height=32
-colour=0xFE9C001
+colour=0xFA9907
 fill=yes
 eventCode=flag22
 
@@ -675,18 +378,7 @@ eventCode=flag22
 type=Rectangle
 buttonType=Button
 x=410
-y=189
-width=32
-height=32
-colour=0xFE9C001
-fill=yes
-eventCode=flag22
-
-[rogue_tsr27]
-type=Rectangle
-buttonType=Button
-x=114
-y=226
+y=78
 width=32
 height=32
 colour=0xFA9907
@@ -696,6 +388,314 @@ eventCode=flag22
 [rogue_tbr4c1]
 type=Rectangle
 buttonType=Button
+x=114
+y=115
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c2]
+type=Rectangle
+buttonType=Button
+x=151
+y=115
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c3]
+type=Rectangle
+buttonType=Button
+x=188
+y=115
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c4]
+type=Rectangle
+buttonType=Button
+x=225
+y=115
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c5]
+type=Rectangle
+buttonType=Button
+x=262
+y=115
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c6]
+type=Rectangle
+buttonType=Button
+x=299
+y=115
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c7]
+type=Rectangle
+buttonType=Button
+x=336
+y=115
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c8]
+type=Rectangle
+buttonType=Button
+x=373
+y=115
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr4c9]
+type=Rectangle
+buttonType=Button
+x=410
+y=115
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c1]
+type=Rectangle
+buttonType=Button
+x=114
+y=152
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c2]
+type=Rectangle
+buttonType=Button
+x=151
+y=152
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c3]
+type=Rectangle
+buttonType=Button
+x=188
+y=152
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c4]
+type=Rectangle
+buttonType=Button
+x=225
+y=152
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c5]
+type=Rectangle
+buttonType=Button
+x=262
+y=152
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c6]
+type=Rectangle
+buttonType=Button
+x=299
+y=152
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c7]
+type=Rectangle
+buttonType=Button
+x=336
+y=152
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c8]
+type=Rectangle
+buttonType=Button
+x=373
+y=152
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr5c9]
+type=Rectangle
+buttonType=Button
+x=410
+y=152
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c1]
+type=Rectangle
+buttonType=Button
+x=114
+y=189
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c2]
+type=Rectangle
+buttonType=Button
+x=151
+y=189
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c3]
+type=Rectangle
+buttonType=Button
+x=188
+y=189
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c4]
+type=Rectangle
+buttonType=Button
+x=225
+y=189
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c5]
+type=Rectangle
+buttonType=Button
+x=262
+y=189
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c6]
+type=Rectangle
+buttonType=Button
+x=299
+y=189
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c7]
+type=Rectangle
+buttonType=Button
+x=336
+y=189
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c8]
+type=Rectangle
+buttonType=Button
+x=373
+y=189
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr6c9]
+type=Rectangle
+buttonType=Button
+x=410
+y=189
+width=32
+height=32
+colour=0xFE9C001
+fill=yes
+eventCode=flag22
+
+[rogue_tbr7c1]
+type=Rectangle
+buttonType=Button
+x=114
+y=226
+width=32
+height=32
+colour=0xFA9907
+fill=yes
+eventCode=flag22
+
+[rogue_tbr7c2]
+type=Rectangle
+buttonType=Button
 x=151
 y=226
 width=32
@@ -704,7 +704,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr28]
+[rogue_tbr7c3]
 type=Rectangle
 buttonType=Button
 x=188
@@ -715,7 +715,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c2]
+[rogue_tbr7c4]
 type=Rectangle
 buttonType=Button
 x=225
@@ -726,7 +726,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr29]
+[rogue_tbr7c5]
 type=Rectangle
 buttonType=Button
 x=262
@@ -737,7 +737,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c3]
+[rogue_tbr7c6]
 type=Rectangle
 buttonType=Button
 x=299
@@ -748,7 +748,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr30]
+[rogue_tbr7c7]
 type=Rectangle
 buttonType=Button
 x=336
@@ -759,7 +759,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c4]
+[rogue_tbr7c8]
 type=Rectangle
 buttonType=Button
 x=373
@@ -770,7 +770,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr31]
+[rogue_tbr7c9]
 type=Rectangle
 buttonType=Button
 x=410
@@ -781,7 +781,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c5]
+[rogue_tbr8c1]
 type=Rectangle
 buttonType=Button
 x=114
@@ -792,7 +792,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr32]
+[rogue_tbr8c2]
 type=Rectangle
 buttonType=Button
 x=151
@@ -803,7 +803,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c6]
+[rogue_tbr8c3]
 type=Rectangle
 buttonType=Button
 x=188
@@ -814,7 +814,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr33]
+[rogue_tbr8c4]
 type=Rectangle
 buttonType=Button
 x=225
@@ -825,7 +825,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c7]
+[rogue_tbr8c5]
 type=Rectangle
 buttonType=Button
 x=262
@@ -836,7 +836,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr34]
+[rogue_tbr8c6]
 type=Rectangle
 buttonType=Button
 x=299
@@ -847,7 +847,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c8]
+[rogue_tbr8c7]
 type=Rectangle
 buttonType=Button
 x=336
@@ -858,7 +858,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr35]
+[rogue_tbr8c8]
 type=Rectangle
 buttonType=Button
 x=373
@@ -869,7 +869,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr4c9]
+[rogue_tbr8c9]
 type=Rectangle
 buttonType=Button
 x=410
@@ -880,7 +880,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr36]
+[rogue_tbr9c1]
 type=Rectangle
 buttonType=Button
 x=115
@@ -891,7 +891,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr5c1]
+[rogue_tbr9c2]
 type=Rectangle
 buttonType=Button
 x=151
@@ -902,7 +902,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr37]
+[rogue_tbr9c3]
 type=Rectangle
 buttonType=Button
 x=189
@@ -913,7 +913,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr5c2]
+[rogue_tbr9c4]
 type=Rectangle
 buttonType=Button
 x=225
@@ -924,7 +924,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr38]
+[rogue_tbr9c5]
 type=Rectangle
 buttonType=Button
 x=262
@@ -935,7 +935,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tbr5c3]
+[rogue_tbr9c6]
 type=Rectangle
 buttonType=Button
 x=299
@@ -946,7 +946,7 @@ colour=0xFE9C001
 fill=yes
 eventCode=flag22
 
-[rogue_tsr39]
+[rogue_tbr9c7]
 type=Rectangle
 buttonType=Button
 x=336
@@ -957,7 +957,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr5c4]
+[rogue_tbr9c8]
 type=Rectangle
 buttonType=Button
 x=373
@@ -968,7 +968,7 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tsr40]
+[rogue_tbr9c9]
 type=Rectangle
 buttonType=Button
 x=410
@@ -979,77 +979,77 @@ colour=0xFA9907
 fill=yes
 eventCode=flag22
 
-[rogue_tbr5c5]
+[rogue_tb_earth_lyr]
 type=Layer
 x=4
 y=284
 width=47
 height=48
 
-[rogue_tsr41]
+[rogue_tb_water_lyr]
 type=Layer
 x=3
 y=234
 width=47
 height=48
 
-[rogue_tbr5c6]
+[rogue_tb_air_lyr]
 type=Layer
 x=3
 y=184
 width=47
 height=48
 
-[rogue_tsr42]
+[jc_layer3]
 type=Layer
 x=3
 y=134
 width=47
 height=48
 
-[rogue_tbr5c7]
+[rogue_tb_mind_lyr]
 type=Layer
 x=3
 y=84
 width=47
 height=48
 
-[rogue_tsr43]
+[rogue_tb_body_lyr]
 type=Layer
 x=52
 y=134
 width=47
 height=48
 
-[rogue_tbr5c8]
+[rogue_tb_death_lyr]
 type=Layer
 x=52
 y=184
 width=47
 height=48
 
-[rogue_tsr44]
+[rogue_tb_chaos_lyr]
 type=Layer
 x=52
 y=234
 width=47
 height=48
 
-[rogue_tbr5c9]
+[rogue_tb_law_lyr]
 type=Layer
 x=53
 y=284
 width=47
 height=48
 
-[rogue_tsr45]
+[rogue_tb_delete_lyr]
 type=Layer
 x=52
 y=84
 width=47
 height=48
 
-[rogue_tbr6c1]
+[selectone]
 type=Model
 x=8
 y=8
@@ -1060,7 +1060,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr46]
+[selecttwo]
 type=Model
 x=8
 y=8
@@ -1071,7 +1071,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c2]
+[selectthree]
 type=Model
 x=8
 y=8
@@ -1082,7 +1082,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr47]
+[selectfour]
 type=Model
 x=8
 y=8
@@ -1093,7 +1093,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c3]
+[selectfive]
 type=Model
 x=8
 y=8
@@ -1104,7 +1104,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr48]
+[selectsix]
 type=Model
 x=8
 y=8
@@ -1115,7 +1115,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c4]
+[selectseven]
 type=Model
 x=8
 y=8
@@ -1126,7 +1126,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr49]
+[selecteight]
 type=Model
 x=8
 y=8
@@ -1137,7 +1137,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c5]
+[selectnine]
 type=Model
 x=8
 y=8
@@ -1148,7 +1148,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr50]
+[selectten]
 type=Model
 x=8
 y=8
@@ -1159,7 +1159,7 @@ model1Id=8986
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c6]
+[selectonemo]
 type=Model
 x=8
 y=8
@@ -1170,7 +1170,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr51]
+[select2mo]
 type=Model
 x=8
 y=8
@@ -1181,7 +1181,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c7]
+[selcectthreemo]
 type=Model
 x=8
 y=8
@@ -1192,7 +1192,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr52]
+[selectfourmo]
 type=Model
 x=8
 y=8
@@ -1203,7 +1203,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c8]
+[select5mo]
 type=Model
 x=8
 y=8
@@ -1214,7 +1214,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr53]
+[selectsixmo]
 type=Model
 x=8
 y=8
@@ -1225,7 +1225,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr6c9]
+[selectsevenmo]
 type=Model
 x=8
 y=8
@@ -1236,7 +1236,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr54]
+[selecteightmo]
 type=Model
 x=8
 y=8
@@ -1247,7 +1247,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr7c1]
+[selectninemo]
 type=Model
 x=8
 y=8
@@ -1258,7 +1258,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tsr55]
+[selecttenmo]
 type=Model
 x=8
 y=8
@@ -1269,7 +1269,7 @@ model2Id=8985
 modelZoom=600
 modelXAn=500
 
-[rogue_tbr7c2]
+[rogue_tb_earth_btn]
 type=Model
 buttonType=Button
 x=12
@@ -1282,7 +1282,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tsr56]
+[rogue_tb_water_btn]
 type=Model
 buttonType=Button
 x=11
@@ -1295,7 +1295,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tbr7c3]
+[rogue_tb_air_btn]
 type=Model
 buttonType=Button
 x=9
@@ -1308,7 +1308,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tsr57]
+[rogue_tb_mind_btn]
 type=Model
 buttonType=Button
 x=9
@@ -1321,7 +1321,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tbr7c4]
+[rogue_tb_fire_btn]
 type=Model
 buttonType=Button
 x=10
@@ -1334,7 +1334,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tsr58]
+[rogue_tb_body_btn]
 type=Model
 buttonType=Button
 x=59
@@ -1347,7 +1347,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tbr7c5]
+[rogue_tb_death_btn]
 type=Model
 buttonType=Button
 x=59
@@ -1360,7 +1360,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tsr59]
+[rogue_tb_chaos_btn]
 type=Model
 buttonType=Button
 x=60
@@ -1373,7 +1373,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tbr7c6]
+[rogue_tb_law_btn]
 type=Model
 buttonType=Button
 x=61
@@ -1386,7 +1386,7 @@ modelXAn=500
 modelYAn=1050
 eventCode=flag22
 
-[rogue_tsr60]
+[rogue_tb_delete_btn]
 type=Model
 buttonType=Button
 x=60
@@ -1398,7 +1398,7 @@ modelZoom=600
 modelXAn=500
 eventCode=flag22
 
-[rogue_tbr7c7]
+[com_131]
 type=Inventory
 x=114
 y=4
@@ -1409,7 +1409,7 @@ heightAlignment=Grid
 marginX=5
 marginY=5
 
-[rogue_tsr61]
+[com_132]
 type=Sprite
 x=4
 y=5
@@ -1418,7 +1418,7 @@ height=23
 overLayerId=134
 graphic=539
 
-[rogue_tbr7c8]
+[rogue_tb_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -1429,7 +1429,7 @@ layerId=18874502
 graphic=540
 buttonText="Ok"
 
-[rogue_tsr62]
+[com_134]
 type=Layer
 x=1
 width=32

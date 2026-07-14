@@ -1,4 +1,4 @@
-[tutorial_progress_overlay]
+[tutorial_progress0]
 type=Rectangle
 x=35
 y=25
@@ -11,7 +11,7 @@ fill=yes
 script1=gt,1
 script1op1=varp,tutorial_progress_overlay
 
-[com_1]
+[tutorial_progress1]
 type=Rectangle
 x=56
 y=25
@@ -24,7 +24,7 @@ fill=yes
 script1=gt,2
 script1op1=varp,tutorial_progress_overlay
 
-[com_2]
+[tutorial_progress2]
 type=Rectangle
 x=77
 y=25
@@ -37,7 +37,7 @@ fill=yes
 script1=gt,3
 script1op1=varp,tutorial_progress_overlay
 
-[com_3]
+[tutorial_progress3]
 type=Rectangle
 x=98
 y=25
@@ -50,7 +50,7 @@ fill=yes
 script1=gt,4
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_rtfm_layer]
+[tutorial_progress4]
 type=Rectangle
 x=119
 y=25
@@ -63,7 +63,7 @@ fill=yes
 script1=gt,5
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress0]
+[tutorial_progress5]
 type=Rectangle
 x=140
 y=25
@@ -76,7 +76,7 @@ fill=yes
 script1=gt,6
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress1]
+[tutorial_progress6]
 type=Rectangle
 x=161
 y=25
@@ -89,7 +89,7 @@ fill=yes
 script1=gt,7
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress2]
+[tutorial_progress7]
 type=Rectangle
 x=182
 y=25
@@ -102,7 +102,7 @@ fill=yes
 script1=gt,8
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress3]
+[tutorial_progress8]
 type=Rectangle
 x=203
 y=25
@@ -115,7 +115,7 @@ fill=yes
 script1=gt,9
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress4]
+[tutorial_progress9]
 type=Rectangle
 x=224
 y=25
@@ -128,7 +128,7 @@ fill=yes
 script1=gt,10
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress5]
+[tutorial_progress10]
 type=Rectangle
 x=245
 y=25
@@ -141,7 +141,7 @@ fill=yes
 script1=gt,11
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress6]
+[tutorial_progress11]
 type=Rectangle
 x=266
 y=25
@@ -154,7 +154,7 @@ fill=yes
 script1=gt,12
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress7]
+[tutorial_progress12]
 type=Rectangle
 x=287
 y=25
@@ -167,7 +167,7 @@ fill=yes
 script1=gt,13
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress8]
+[tutorial_progress13]
 type=Rectangle
 x=308
 y=25
@@ -180,7 +180,7 @@ fill=yes
 script1=gt,14
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress9]
+[tutorial_progress14]
 type=Rectangle
 x=329
 y=25
@@ -193,7 +193,7 @@ fill=yes
 script1=gt,15
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress10]
+[tutorial_progress15]
 type=Rectangle
 x=350
 y=25
@@ -206,7 +206,7 @@ fill=yes
 script1=gt,16
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress11]
+[tutorial_progress16]
 type=Rectangle
 x=371
 y=25
@@ -219,7 +219,7 @@ fill=yes
 script1=gt,17
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress12]
+[tutorial_progress17]
 type=Rectangle
 x=392
 y=25
@@ -232,7 +232,7 @@ fill=yes
 script1=gt,18
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress13]
+[tutorial_progress18]
 type=Rectangle
 x=413
 y=25
@@ -245,7 +245,7 @@ fill=yes
 script1=gt,19
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress14]
+[tutorial_progress19]
 type=Rectangle
 x=434
 y=25
@@ -258,14 +258,14 @@ fill=yes
 script1=gt,20
 script1op1=varp,tutorial_progress_overlay
 
-[tutorial_progress15]
+[tutorial_progress_overlay]
 type=Layer
 x=34
 y=275
 width=504
 height=66
 
-[tutorial_progress16]
+[com_21]
 type=Text
 x=4
 y=297
@@ -277,7 +277,7 @@ font=495
 shadow=yes
 text="% Done"
 
-[tutorial_progress17]
+[com_22]
 type=Text
 x=158
 y=313
@@ -289,7 +289,7 @@ font=495
 shadow=yes
 text="Tutorial Island Progress"
 
-[tutorial_progress18]
+[com_23]
 type=Rectangle
 x=69
 y=300
@@ -298,14 +298,14 @@ height=10
 trans=128
 colour=0x808080
 
-[tutorial_progress19]
+[tutorial_rtfm_layer]
 type=Layer
 x=2
 y=206
 width=512
 height=128
 
-[layer_1]
+[com_25]
 type=Model
 x=228
 y=29

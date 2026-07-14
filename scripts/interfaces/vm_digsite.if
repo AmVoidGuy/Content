@@ -1,10 +1,10 @@
-[vm_digsite_coin_saranthium_model]
+[com_0]
 type=Rectangle
 width=512
 height=334
 fill=yes
 
-[vm_digsite_coin_senntisten_model]
+[com_1]
 type=Sprite
 x=483
 y=7
@@ -17,7 +17,7 @@ onmouseover=44,component.parentId,540
 onmouseleave=44,component.parentId,539
 onop=29
 
-[vm_digsite_arrow_heads_model]
+[vm_digsite_text]
 type=Text
 x=235
 y=3
@@ -29,7 +29,7 @@ font=495
 shadow=yes
 text="Text"
 
-[vm_digsite_jewllery_model]
+[vm_digsite_coin_saranthium_model]
 type=Model
 x=101
 y=133
@@ -40,7 +40,7 @@ modelXAn=302
 modelYAn=1834
 discardedModelField=0
 
-[vm_timeline_no_display_model]
+[vm_digsite_coin_senntisten_model]
 type=Model
 x=101
 y=133
@@ -49,6 +49,39 @@ height=32
 modelZoom=1484
 modelXAn=302
 modelYAn=1834
+discardedModelField=0
+
+[vm_digsite_arrow_heads_model]
+type=Model
+x=103
+y=245
+width=32
+height=32
+modelZoom=461
+modelXAn=197
+modelYAn=1694
+discardedModelField=0
+
+[vm_digsite_jewllery_model]
+type=Model
+x=103
+y=245
+width=32
+height=32
+modelZoom=461
+modelXAn=197
+modelYAn=1694
+discardedModelField=0
+
+[vm_timeline_no_display_model]
+type=Model
+x=103
+y=245
+width=32
+height=32
+modelZoom=461
+modelXAn=197
+modelYAn=1694
 discardedModelField=0
 
 [vm_digsite_pottery_model]
@@ -128,40 +161,7 @@ modelXAn=197
 modelYAn=1694
 discardedModelField=0
 
-[vm_digsite_text]
-type=Model
-x=103
-y=245
-width=32
-height=32
-modelZoom=461
-modelXAn=197
-modelYAn=1694
-discardedModelField=0
-
 [vm_digsite_display_number]
-type=Model
-x=103
-y=245
-width=32
-height=32
-modelZoom=461
-modelXAn=197
-modelYAn=1694
-discardedModelField=0
-
-[vm_digsite_display_num]
-type=Model
-x=103
-y=245
-width=32
-height=32
-modelZoom=461
-modelXAn=197
-modelYAn=1694
-discardedModelField=0
-
-[mainmodal_window]
 type=Text
 x=34
 y=306
@@ -173,7 +173,7 @@ font=496
 shadow=yes
 text="Display number"
 
-[mainmodal_window_background]
+[vm_digsite_display_num]
 type=Text
 x=159
 y=306

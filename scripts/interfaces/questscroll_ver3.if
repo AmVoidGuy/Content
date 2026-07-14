@@ -1,4 +1,4 @@
-[content_layer]
+[com_0]
 type=Model
 x=240
 y=139
@@ -9,7 +9,7 @@ modelZoom=554
 modelXAn=502
 modelYAn=2047
 
-[layer_1]
+[com_1]
 type=Text
 x=157
 y=73
@@ -22,7 +22,7 @@ font=497
 shadow=yes
 text="Congratulations!"
 
-[com_2]
+[quest_title_ver3]
 type=Text
 x=96
 y=90
@@ -35,7 +35,7 @@ lineHeight=14
 font=495
 text="You have completed Death Plateau!"
 
-[com_3]
+[quest_model_ver3]
 type=Model
 x=72
 y=133
@@ -45,7 +45,7 @@ modelZoom=1500
 modelXAn=11
 modelYAn=1849
 
-[quest_title_ver3]
+[com_4]
 type=Text
 x=181
 y=255
@@ -57,7 +57,7 @@ font=495
 shadow=yes
 text="Quest Points:"
 
-[quest_model_ver3]
+[quest_points_ver3]
 type=Text
 x=316
 y=255
@@ -80,7 +80,7 @@ model1Id=3037
 modelZoom=800
 modelXAn=500
 
-[quest_points_ver3]
+[com_7]
 type=Text
 x=157
 y=119
@@ -91,7 +91,7 @@ hAlign=Center
 font=495
 text="You are awarded:"
 
-[com_8]
+[quest_reward1_ver3]
 type=Text
 x=157
 y=136
@@ -101,7 +101,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_awardedtext_ver3]
+[quest_reward2_ver3]
 type=Text
 x=157
 y=151
@@ -111,7 +111,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_reward1_ver3]
+[quest_reward3_ver3]
 type=Text
 x=157
 y=166
@@ -121,7 +121,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_reward2_ver3]
+[skullduration_tab]
 type=Text
 x=157
 y=181
@@ -131,7 +131,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_reward3_ver3]
+[quest_reward5_ver3]
 type=Text
 x=157
 y=196
@@ -141,7 +141,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_reward4_ver3]
+[quest_reward6_ver3]
 type=Text
 x=157
 y=211
@@ -151,7 +151,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_reward5_ver3]
+[quest_reward7_ver3]
 type=Text
 x=157
 y=226
@@ -161,7 +161,7 @@ colour=0x3B2E22
 hAlign=Center
 font=495
 
-[quest_reward6_ver3]
+[com_15]
 type=Sprite
 x=424
 y=62
@@ -170,7 +170,7 @@ height=23
 overLayerId=17
 graphic=537
 
-[quest_reward7_ver3]
+[com_16]
 type=Sprite
 buttonType=Close
 x=4
@@ -181,7 +181,7 @@ layerId=18153489
 graphic=538
 buttonText="Ok"
 
-[quest_reward8_ver3]
+[questscroll_ver3_close]
 type=Layer
 x=420
 y=58
@@ -189,7 +189,7 @@ width=32
 height=32
 hide=yes
 
-[close]
+[quest_reward8_ver3]
 type=Text
 x=157
 y=241

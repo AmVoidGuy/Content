@@ -1,10 +1,10 @@
-[layer_1]
+[com_0]
 type=Rectangle
 width=535
 height=343
 fill=yes
 
-[bespoke_window]
+[com_1]
 type=Model
 x=360
 y=264
@@ -28,13 +28,13 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[com_3]
+[rotation1_fixed]
 type=Layer
 width=513
 height=335
 hide=yes
 
-[rotation1_fixed]
+[com_4]
 type=Model
 x=312
 y=216
@@ -52,7 +52,7 @@ width=513
 height=335
 hide=yes
 
-[rotation2]
+[com_6]
 type=Model
 x=328
 y=232
@@ -64,7 +64,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[rotation3]
+[tol_cage_1_1]
 type=Model
 x=328
 y=232
@@ -76,7 +76,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[rotation4]
+[tol_cage_1_2]
 type=Model
 x=328
 y=232
@@ -88,7 +88,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[com_9]
+[tol_cage_1_3]
 type=Model
 x=328
 y=232
@@ -100,12 +100,12 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_cage_left]
+[rotation2]
 type=Layer
 width=513
 height=335
 
-[turn_left_button]
+[com_11]
 type=Model
 x=328
 y=232
@@ -117,7 +117,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_cage_right]
+[tol_cage_2_1]
 type=Model
 x=328
 y=232
@@ -129,7 +129,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[turn_right_button]
+[tol_cage_2_2]
 type=Model
 x=328
 y=232
@@ -141,7 +141,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_cage_confirm]
+[tol_cage_2_3]
 type=Model
 x=328
 y=232
@@ -153,7 +153,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_confirm_button]
+[rotation3]
 type=Layer
 width=513
 height=335
@@ -171,7 +171,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[com_17]
+[tol_cage_3_1]
 type=Model
 x=328
 y=232
@@ -183,7 +183,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_horizontal_pipes]
+[tol_cage_3_2]
 type=Model
 x=328
 y=232
@@ -195,7 +195,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_vertical_pipes]
+[tol_cage_3_3]
 type=Model
 x=328
 y=232
@@ -207,13 +207,13 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_cage_horiz]
+[rotation4]
 type=Layer
 width=517
 height=338
 hide=yes
 
-[tol_horizontal_select]
+[com_21]
 type=Model
 x=328
 y=232
@@ -225,7 +225,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_cage_vert]
+[tol_cage_4_1]
 type=Model
 x=328
 y=232
@@ -237,7 +237,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_vertical_select]
+[tol_cage_4_2]
 type=Model
 x=328
 y=232
@@ -249,7 +249,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[com_24]
+[tol_cage_4_3]
 type=Model
 x=328
 y=232
@@ -273,7 +273,7 @@ modelZoom=748
 modelXAn=195
 modelYAn=78
 
-[tol_cage_minus]
+[tol_cage_left]
 type=Model
 buttonType=Button
 x=312
@@ -286,7 +286,7 @@ modelZoom=1040
 modelXAn=420
 eventCode=flag22
 
-[tol_minus]
+[turn_left_button]
 type=Layer
 x=302
 y=272
@@ -295,7 +295,7 @@ height=43
 overLayerId=27
 hide=yes
 
-[tol_cage_plus]
+[com_28]
 type=Model
 x=8
 y=8
@@ -306,7 +306,7 @@ model1Id=22433
 modelZoom=1040
 modelXAn=420
 
-[tol_plus]
+[tol_cage_right]
 type=Model
 buttonType=Button
 x=392
@@ -319,7 +319,7 @@ modelZoom=1040
 modelXAn=420
 eventCode=flag22
 
-[com_30]
+[turn_right_button]
 type=Layer
 x=385
 y=272
@@ -328,7 +328,7 @@ height=40
 overLayerId=30
 hide=yes
 
-[tol_cage_size]
+[com_31]
 type=Model
 x=8
 y=8
@@ -339,7 +339,7 @@ model1Id=22439
 modelZoom=1040
 modelXAn=420
 
-[com_32]
+[tol_cage_confirm]
 type=Model
 buttonType=Button
 x=232
@@ -352,7 +352,7 @@ modelZoom=528
 modelXAn=441
 eventCode=flag22
 
-[com_33]
+[tol_confirm_button]
 type=Layer
 x=227
 y=160
@@ -371,7 +371,7 @@ model1Id=22440
 modelZoom=528
 modelXAn=441
 
-[tol_cage_1_1]
+[com_35]
 type=Model
 x=72
 y=152
@@ -382,7 +382,7 @@ modelZoom=988
 modelXAn=546
 modelYAn=2047
 
-[tol_cage_1_2]
+[com_36]
 type=Text
 x=216
 y=216
@@ -393,14 +393,14 @@ hAlign=Center
 font=495
 text="Place bar"
 
-[tol_cage_1_3]
+[tol_horizontal_pipes]
 type=Layer
 x=40
 y=56
 width=150
 height=31
 
-[com_38]
+[tol_cage_horiz_bar]
 type=Model
 x=40
 y=8
@@ -412,14 +412,14 @@ modelZoom=656
 modelXAn=30
 modelYAn=189
 
-[tol_cage_2_1]
+[tol_vertical_pipes]
 type=Layer
 x=40
 y=88
 width=33
 height=167
 
-[tol_cage_2_2]
+[tol_cage_vert_bar]
 type=Model
 x=8
 y=104
@@ -431,7 +431,7 @@ modelZoom=656
 modelXAn=327
 modelYAn=33
 
-[tol_cage_2_3]
+[tol_cage_horiz]
 type=Model
 buttonType=Button
 x=88
@@ -444,7 +444,7 @@ modelZoom=528
 modelXAn=441
 eventCode=flag22
 
-[com_42]
+[tol_horizontal_select]
 type=Layer
 x=80
 y=112
@@ -452,7 +452,7 @@ width=46
 height=47
 hide=yes
 
-[tol_cage_3_1]
+[com_43]
 type=Model
 x=8
 y=8
@@ -463,7 +463,7 @@ model1Id=22440
 modelZoom=528
 modelXAn=441
 
-[tol_cage_3_2]
+[tol_cage_vert]
 type=Model
 buttonType=Button
 x=88
@@ -476,7 +476,7 @@ modelZoom=528
 modelXAn=441
 eventCode=flag22
 
-[tol_cage_3_3]
+[tol_vertical_select]
 type=Layer
 x=80
 y=144
@@ -495,7 +495,7 @@ model1Id=22440
 modelZoom=528
 modelXAn=441
 
-[tol_cage_4_1]
+[com_47]
 type=Text
 x=120
 y=120
@@ -505,7 +505,7 @@ hAlign=Center
 font=495
 text="Horizontal"
 
-[tol_cage_4_2]
+[com_48]
 type=Text
 x=120
 y=152
@@ -515,7 +515,7 @@ hAlign=Center
 font=495
 text="Vertical"
 
-[tol_cage_4_3]
+[tol_cage_minus]
 type=Model
 buttonType=Button
 x=88
@@ -528,7 +528,7 @@ modelZoom=1424
 modelXAn=441
 eventCode=flag22
 
-[com_50]
+[tol_minus]
 type=Layer
 x=80
 y=208
@@ -547,7 +547,7 @@ model1Id=22443
 modelZoom=1424
 modelXAn=441
 
-[com_52]
+[tol_cage_plus]
 type=Model
 buttonType=Button
 x=88
@@ -560,7 +560,7 @@ modelZoom=1424
 modelXAn=441
 eventCode=flag22
 
-[tol_cage_horiz_bar]
+[tol_plus]
 type=Layer
 x=80
 y=176
@@ -568,7 +568,7 @@ width=39
 height=36
 hide=yes
 
-[tol_cage_vert_bar]
+[com_54]
 type=Model
 x=8
 y=8
@@ -587,7 +587,7 @@ width=23
 height=20
 colour=0x3E0400
 
-[com_56]
+[tol_cage_size]
 type=Text
 x=120
 y=232
@@ -606,7 +606,7 @@ height=23
 overLayerId=59
 graphic=541
 
-[bespoke_window_background]
+[com_58]
 type=Sprite
 buttonType=Close
 x=8
@@ -617,7 +617,7 @@ layerId=33357883
 graphic=542
 buttonText="Ok"
 
-[bespoke_window_content]
+[tol_cage_close_button]
 type=Layer
 x=464
 width=32

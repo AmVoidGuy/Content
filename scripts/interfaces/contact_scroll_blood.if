@@ -1,4 +1,4 @@
-[mainmodal_window]
+[com_0]
 type=Model
 x=240
 y=139
@@ -8,7 +8,7 @@ model1Id=3032
 modelZoom=604
 modelXAn=400
 
-[mainmodal_window_background]
+[contact_scroll_text]
 type=Text
 x=99
 y=93
@@ -21,7 +21,7 @@ font=495
 shadow=yes
 text="Kaleef<br><br>Your mission is to contact our agent inside Menaphos.<br>Use the tunnels beneath the temple of lesser gods.<br>Be vigilant of traps and the hostile natives.<br> They're about as welcoming as the Menaphites only slightly better looking.<br><br>Os"
 
-[mainmodal_window_content]
+[com_2]
 type=Model
 x=234
 y=135
@@ -51,7 +51,7 @@ layerId=32636933
 graphic=538
 buttonText="Ok"
 
-[contact_scroll_text]
+[contact_scroll_blood_close]
 type=Layer
 x=376
 y=72

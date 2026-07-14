@@ -1,4 +1,4 @@
-[hourglass_layer]
+[com_0]
 type=Model
 x=386
 y=261
@@ -7,7 +7,7 @@ height=32
 model1Id=16350
 modelZoom=784
 
-[bottom]
+[com_1]
 type=Text
 x=311
 y=245
@@ -20,7 +20,7 @@ text="Room %1 of 8 <br>Thieving  level required: %2"
 script1op1=varbit,varbit_2377
 script2op1=varbit,varbit_2376
 
-[sand]
+[com_2]
 type=Rectangle
 x=310
 y=280
@@ -32,7 +32,7 @@ fill=yes
 script1=gt,0
 script1op1=varbit,varbit_2375
 
-[top]
+[com_3]
 type=Rectangle
 x=317
 y=280
@@ -44,7 +44,7 @@ fill=yes
 script1=gt,20
 script1op1=varbit,varbit_2375
 
-[roomnumber]
+[com_4]
 type=Rectangle
 x=324
 y=280
@@ -56,7 +56,7 @@ fill=yes
 script1=gt,40
 script1op1=varbit,varbit_2375
 
-[levelreq]
+[com_5]
 type=Rectangle
 x=331
 y=280
@@ -68,7 +68,7 @@ fill=yes
 script1=gt,60
 script1op1=varbit,varbit_2375
 
-[timerbar_layer]
+[com_6]
 type=Rectangle
 x=338
 y=280
@@ -92,7 +92,7 @@ fill=yes
 script1=gt,100
 script1op1=varbit,varbit_2375
 
-[border]
+[com_8]
 type=Rectangle
 x=352
 y=280
@@ -104,7 +104,7 @@ fill=yes
 script1=gt,120
 script1op1=varbit,varbit_2375
 
-[timerbar_container]
+[com_9]
 type=Rectangle
 x=359
 y=280
@@ -116,7 +116,7 @@ fill=yes
 script1=gt,140
 script1op1=varbit,varbit_2375
 
-[timerbar]
+[com_10]
 type=Rectangle
 x=366
 y=280

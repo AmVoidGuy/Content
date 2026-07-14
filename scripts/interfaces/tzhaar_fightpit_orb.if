@@ -38,7 +38,7 @@ width=36
 height=36
 graphic=178
 
-[tzhaar_fightpit_orb_centre]
+[tzhaar_fightpit_orb_off]
 type=Text
 clientCode=205
 x=43
@@ -57,7 +57,7 @@ opName0="Exit"
 onmouseover=45,component.parentId,16776960
 onmouseleave=45,component.parentId,16777215
 
-[tzhaar_fightpit_orb_n]
+[com_6]
 type=Model
 x=81
 y=99
@@ -70,7 +70,7 @@ modelXAn=166
 modelYAn=63
 discardedModelField=0
 
-[tzhaar_fightpit_orb_e]
+[com_7]
 type=Model
 x=25
 y=46
@@ -83,7 +83,7 @@ modelXAn=166
 modelYAn=63
 discardedModelField=0
 
-[tzhaar_fightpit_orb_s]
+[com_8]
 type=Model
 x=137
 y=46
@@ -96,7 +96,7 @@ modelXAn=166
 modelYAn=63
 discardedModelField=0
 
-[tzhaar_fightpit_orb_w]
+[com_9]
 type=Model
 x=25
 y=152
@@ -109,7 +109,7 @@ modelXAn=166
 modelYAn=63
 discardedModelField=0
 
-[bluebronze_tab_layer]
+[com_10]
 type=Model
 x=137
 y=152
@@ -122,7 +122,7 @@ modelXAn=166
 modelYAn=63
 discardedModelField=0
 
-[bluebronze_tab_on_layer]
+[tzhaar_fightpit_orb_centre]
 type=Text
 x=60
 y=119
@@ -140,7 +140,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[bluebronze_tab_over_layer]
+[tzhaar_fightpit_orb_nw]
 type=Text
 x=5
 y=66
@@ -156,7 +156,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[bluebronze_tab_selected_layer]
+[tzhaar_fightpit_orb_ne]
 type=Text
 x=102
 y=66
@@ -173,7 +173,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[bluebronze_tab_hit_layer]
+[tzhaar_fightpit_orb_se]
 type=Text
 x=98
 y=173
@@ -190,7 +190,7 @@ opName0="View"
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,16750623
 
-[tzhaar_fightpit_orb_off]
+[tzhaar_fightpit_orb_sw]
 type=Text
 x=4
 y=172

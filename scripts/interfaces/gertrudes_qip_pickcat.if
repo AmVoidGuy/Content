@@ -1,4 +1,4 @@
-[window]
+[com_0]
 type=Text
 x=171
 y=3
@@ -25,7 +25,7 @@ width=57
 height=13
 graphic=302
 
-[com_3]
+[kittenhead]
 type=Model
 x=25
 y=39
@@ -38,7 +38,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pick me"
 
-[com_4]
+[kittenhead_light]
 type=Model
 x=105
 y=38
@@ -51,7 +51,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pick me"
 
-[com_5]
+[kittenhead_brown]
 type=Model
 x=185
 y=39
@@ -64,7 +64,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pick me"
 
-[com_6]
+[kittenhead_black]
 type=Model
 x=265
 y=39
@@ -77,7 +77,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pick me"
 
-[0]
+[com_7]
 type=Model
 x=344
 y=38
@@ -90,7 +90,7 @@ discardedModelField=0
 eventCode=hasOp(1)
 opName0="Pick me"
 
-[1]
+[com_8]
 type=Model
 x=425
 y=39

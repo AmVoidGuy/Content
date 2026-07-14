@@ -1,4 +1,4 @@
-[universe]
+[background]
 type=Model
 width=512
 height=334
@@ -8,7 +8,7 @@ modelZoom=577
 modelXAn=512
 discardedModelField=0
 
-[com_1]
+[background_layer]
 type=Layer
 width=512
 height=334
@@ -25,7 +25,7 @@ modelZoom=1000
 discardedModelField=0
 ontimer=66,0,1,0,component.parentId
 
-[com_3]
+[foreground_layer]
 type=Layer
 x=20
 y=-56

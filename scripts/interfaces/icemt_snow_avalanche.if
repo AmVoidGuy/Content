@@ -1,4 +1,4 @@
-[layer_1]
+[snow]
 type=Model
 x=-148
 y=-504
@@ -12,7 +12,7 @@ modelXOf=-129
 modelYOf=215
 discardedModelField=0
 
-[snow]
+[fade_to_black]
 type=Model
 x=-32
 y=-4

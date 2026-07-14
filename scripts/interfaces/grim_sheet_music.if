@@ -1,4 +1,4 @@
-[scroll]
+[background]
 type=Rectangle
 x=1
 width=512
@@ -7,7 +7,7 @@ trans=160
 colour=0x46341D
 fill=yes
 
-[line_1]
+[scroll]
 type=Model
 x=234
 y=112
@@ -19,7 +19,7 @@ modelXAn=483
 modelYAn=2044
 discardedModelField=0
 
-[line_2]
+[line_1]
 type=Rectangle
 x=69
 y=48
@@ -28,7 +28,7 @@ height=2
 colour=0x46320A
 fill=yes
 
-[line_3]
+[line_2]
 type=Rectangle
 x=69
 y=58
@@ -37,7 +37,7 @@ height=2
 colour=0x46320A
 fill=yes
 
-[line_4]
+[line_3]
 type=Rectangle
 x=69
 y=67
@@ -46,7 +46,7 @@ height=2
 colour=0x46320A
 fill=yes
 
-[line_5]
+[line_4]
 type=Rectangle
 x=70
 y=77
@@ -55,7 +55,7 @@ height=2
 colour=0x46320A
 fill=yes
 
-[treble_clef]
+[line_5]
 type=Rectangle
 x=69
 y=88
@@ -64,7 +64,7 @@ height=2
 colour=0x46320A
 fill=yes
 
-[notes_e_f_e_d]
+[treble_clef]
 type=Sprite
 x=66
 y=39
@@ -72,7 +72,7 @@ width=29
 height=66
 graphic=865
 
-[notes_c]
+[notes_e_f_e_d]
 type=Sprite
 x=109
 y=28
@@ -80,7 +80,7 @@ width=45
 height=36
 graphic=862
 
-[notes_a]
+[notes_c]
 type=Sprite
 x=143
 y=37
@@ -88,7 +88,7 @@ width=45
 height=36
 graphic=863
 
-[notes_e]
+[notes_a]
 type=Sprite
 x=168
 y=46
@@ -96,7 +96,7 @@ width=45
 height=36
 graphic=863
 
-[notes_g]
+[notes_e]
 type=Sprite
 x=197
 y=61
@@ -104,7 +104,7 @@ width=45
 height=36
 graphic=863
 
-[notes_a2]
+[notes_g]
 type=Sprite
 x=230
 y=51
@@ -112,7 +112,7 @@ width=45
 height=36
 graphic=863
 
-[e]
+[notes_a2]
 type=Sprite
 x=261
 y=46
@@ -120,7 +120,7 @@ width=45
 height=36
 graphic=863
 
-[f]
+[e]
 type=Text
 x=110
 y=94
@@ -131,7 +131,7 @@ font=495
 shadow=yes
 text="E"
 
-[e_2]
+[f]
 type=Text
 x=120
 y=94
@@ -142,7 +142,7 @@ font=495
 shadow=yes
 text="F"
 
-[d]
+[e_2]
 type=Text
 x=130
 y=94
@@ -153,7 +153,7 @@ font=495
 shadow=yes
 text="E"
 
-[c]
+[d]
 type=Text
 x=143
 y=94
@@ -164,7 +164,7 @@ font=495
 shadow=yes
 text="D"
 
-[a]
+[c]
 type=Text
 x=157
 y=94
@@ -175,7 +175,7 @@ font=495
 shadow=yes
 text="C"
 
-[e_3]
+[a]
 type=Text
 x=183
 y=94
@@ -186,7 +186,7 @@ font=495
 shadow=yes
 text="A"
 
-[g]
+[e_3]
 type=Text
 x=214
 y=94
@@ -197,7 +197,7 @@ font=495
 shadow=yes
 text="E"
 
-[a_2]
+[g]
 type=Text
 x=246
 y=94
@@ -208,7 +208,7 @@ font=495
 shadow=yes
 text="G"
 
-[piano_keys]
+[a_2]
 type=Text
 x=277
 y=94
@@ -219,7 +219,7 @@ font=495
 shadow=yes
 text="A"
 
-[key_c]
+[piano_keys]
 type=Model
 x=214
 y=209
@@ -231,7 +231,7 @@ modelXAn=249
 modelYAn=2044
 discardedModelField=0
 
-[key_d]
+[key_c]
 type=Text
 x=63
 y=229
@@ -242,7 +242,7 @@ font=496
 shadow=yes
 text="C"
 
-[key_e]
+[key_d]
 type=Text
 x=79
 y=229
@@ -254,7 +254,7 @@ font=496
 shadow=yes
 text="D"
 
-[key_f]
+[key_e]
 type=Text
 x=107
 y=229
@@ -266,7 +266,7 @@ font=496
 shadow=yes
 text="E"
 
-[key_g]
+[key_f]
 type=Text
 x=139
 y=229
@@ -278,7 +278,7 @@ font=496
 shadow=yes
 text="F"
 
-[key_a]
+[key_g]
 type=Text
 x=168
 y=229
@@ -290,7 +290,7 @@ font=496
 shadow=yes
 text="G"
 
-[key_b]
+[key_a]
 type=Text
 x=193
 y=229
@@ -302,7 +302,7 @@ font=496
 shadow=yes
 text="A"
 
-[key_d2]
+[key_b]
 type=Text
 x=220
 y=229
@@ -314,7 +314,7 @@ font=496
 shadow=yes
 text="B"
 
-[key_c2]
+[key_d2]
 type=Text
 x=276
 y=229
@@ -326,7 +326,7 @@ font=496
 shadow=yes
 text="D"
 
-[key_e2]
+[key_c2]
 type=Text
 x=248
 y=229
@@ -338,7 +338,7 @@ font=496
 shadow=yes
 text="C"
 
-[key_f2]
+[key_e2]
 type=Text
 x=304
 y=229
@@ -350,7 +350,7 @@ font=496
 shadow=yes
 text="E"
 
-[key_g2]
+[key_f2]
 type=Text
 x=333
 y=229
@@ -362,7 +362,7 @@ font=496
 shadow=yes
 text="F"
 
-[key_a2]
+[key_g2]
 type=Text
 x=361
 y=229
@@ -374,7 +374,7 @@ font=496
 shadow=yes
 text="G"
 
-[key_b2]
+[key_a2]
 type=Text
 x=389
 y=229
@@ -386,7 +386,7 @@ font=496
 shadow=yes
 text="A"
 
-[upper]
+[key_b2]
 type=Text
 x=418
 y=229
@@ -398,7 +398,7 @@ font=496
 shadow=yes
 text="B"
 
-[lower]
+[upper]
 type=Text
 x=372
 y=33
@@ -408,7 +408,7 @@ colour=0x46320A
 font=496
 text="UPPER"
 
-[grim_close_button]
+[lower]
 type=Text
 x=372
 y=93
@@ -418,7 +418,7 @@ colour=0x46320A
 font=496
 text="LOWER"
 
-[content_layer]
+[opquantity_upgrade]
 type=Sprite
 x=417
 y=20

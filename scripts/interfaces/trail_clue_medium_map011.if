@@ -1553,7 +1553,7 @@ modelZoom=1639
 modelXAn=464
 modelYAn=1919
 
-[mainmodal_window]
+[com_142]
 type=Model
 x=309
 y=224
@@ -1564,7 +1564,7 @@ modelZoom=1615
 modelXAn=556
 modelYAn=2007
 
-[mainmodal_window_background]
+[com_143]
 type=Model
 x=240
 y=204
@@ -1575,7 +1575,7 @@ modelZoom=1639
 modelXAn=464
 modelYAn=1919
 
-[mainmodal_window_content]
+[com_144]
 type=Model
 x=260
 y=204
@@ -1586,7 +1586,7 @@ modelZoom=1615
 modelXAn=554
 modelYAn=105
 
-[mainmodal_window_border]
+[com_145]
 type=Model
 x=319
 y=143
@@ -1597,7 +1597,7 @@ modelZoom=1639
 modelXAn=464
 modelYAn=1919
 
-[mainmodal_window_close_button]
+[com_146]
 type=Model
 x=339
 y=143

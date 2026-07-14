@@ -335,7 +335,7 @@ modelZoom=400
 modelXAn=228
 modelYAn=2047
 
-[close_button]
+[com_32]
 type=Sprite
 x=473
 y=13

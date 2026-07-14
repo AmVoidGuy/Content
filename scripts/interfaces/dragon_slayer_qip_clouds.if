@@ -1,4 +1,4 @@
-[layer_1]
+[com_0]
 type=Rectangle
 x=-1
 y=-1
@@ -7,7 +7,7 @@ height=40
 colour=0x0A2133
 fill=yes
 
-[cloud1]
+[com_1]
 type=Rectangle
 y=39
 width=514
@@ -15,7 +15,7 @@ height=40
 colour=0x0E2537
 fill=yes
 
-[cloud1_1]
+[com_2]
 type=Rectangle
 x=-1
 y=79
@@ -24,7 +24,7 @@ height=40
 colour=0x12293B
 fill=yes
 
-[cloud1_2]
+[com_3]
 type=Rectangle
 x=-1
 y=119
@@ -33,7 +33,7 @@ height=25
 colour=0x162D3F
 fill=yes
 
-[lightning_cloud]
+[com_4]
 type=Rectangle
 x=-1
 y=144
@@ -105,7 +105,7 @@ height=25
 colour=0x364D5F
 fill=yes
 
-[com_12]
+[cloud1]
 type=Model
 x=198
 y=154
@@ -116,7 +116,7 @@ modelAnim=dragon_slayer_qip_cloud
 modelZoom=656
 discardedModelField=0
 
-[com_13]
+[cloud1_1]
 type=Model
 x=70
 y=135
@@ -127,7 +127,7 @@ modelAnim=dragon_slayer_qip_cloud
 modelZoom=784
 discardedModelField=0
 
-[com_14]
+[cloud1_2]
 type=Model
 x=239
 y=203
@@ -138,7 +138,7 @@ modelAnim=dragon_slayer_qip_cloud
 modelZoom=912
 discardedModelField=0
 
-[com_15]
+[lightning_cloud]
 type=Model
 x=260
 y=134

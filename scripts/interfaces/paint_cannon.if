@@ -1,4 +1,4 @@
-[toad_gun_left]
+[target_background]
 type=Model
 x=290
 y=154
@@ -9,7 +9,7 @@ modelZoom=117
 modelXAn=520
 modelYAn=504
 
-[toad_gun_right]
+[toad_gun_left]
 type=Text
 buttonType=Button
 x=377
@@ -22,7 +22,7 @@ shadow=yes
 buttonText="Aim left"
 eventCode=flag22
 
-[toad_gun_up]
+[toad_gun_right]
 type=Text
 buttonType=Button
 x=471
@@ -35,7 +35,7 @@ shadow=yes
 buttonText="Aim right"
 eventCode=flag22
 
-[toad_gun_down]
+[toad_gun_up]
 type=Text
 buttonType=Button
 x=410
@@ -48,7 +48,7 @@ shadow=yes
 buttonText="Aim up"
 eventCode=flag22
 
-[toad_gun_fire]
+[toad_gun_down]
 type=Text
 buttonType=Button
 x=412
@@ -61,7 +61,7 @@ shadow=yes
 buttonText="Aim down"
 eventCode=flag22
 
-[toad_gun_fire_alt]
+[toad_gun_fire]
 type=Text
 buttonType=Button
 x=429
@@ -105,7 +105,7 @@ modelZoom=514
 modelXAn=199
 modelYAn=1950
 
-[close_button]
+[com_9]
 type=Sprite
 buttonType=Close
 x=468

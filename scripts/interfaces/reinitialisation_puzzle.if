@@ -1,4 +1,4 @@
-[main_layer]
+[mm_puzzle_complete_layer1]
 type=Layer
 x=163
 y=48
@@ -8,7 +8,7 @@ hide=yes
 script1=eq,2
 script1op1=varp,if1
 
-[board_layer]
+[mm_puzzleback]
 type=Model
 x=247
 y=145
@@ -18,7 +18,7 @@ model1Id=3437
 modelZoom=430
 modelXAn=512
 
-[mm_puzzleback]
+[com_2]
 type=Inventory
 x=171
 y=54
@@ -40,7 +40,7 @@ model1Id=4695
 modelZoom=444
 modelXAn=512
 
-[inv_layer]
+[com_4]
 type=Sprite
 x=484
 y=4
@@ -49,7 +49,7 @@ height=23
 overLayerId=6
 graphic=539
 
-[column1_row1]
+[com_5]
 type=Sprite
 buttonType=Close
 x=4
@@ -60,7 +60,7 @@ layerId=18808838
 graphic=540
 buttonText="Ok"
 
-[column2_row1]
+[com_6]
 type=Layer
 x=480
 y=1

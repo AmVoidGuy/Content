@@ -1,4 +1,4 @@
-[zep_controls]
+[zep_sandbag]
 type=Model
 x=31
 y=54
@@ -7,7 +7,7 @@ height=32
 model1Id=19723
 modelZoom=600
 
-[zep_bounding_box]
+[zep_log_1]
 type=Model
 x=24
 y=20
@@ -17,7 +17,7 @@ layerId=30867460
 model1Id=19721
 modelZoom=800
 
-[logs]
+[zep_log_1_1]
 type=Model
 x=13
 y=20
@@ -27,7 +27,7 @@ layerId=30867460
 model1Id=19721
 modelZoom=800
 
-[arrow_2]
+[zep_log_1_2]
 type=Model
 x=18
 y=6
@@ -37,14 +37,14 @@ layerId=30867460
 model1Id=19721
 modelZoom=800
 
-[logs_model]
+[zep_logs]
 type=Layer
 x=11
 y=97
 width=74
 height=53
 
-[zep_btn_logs]
+[x]
 type=Text
 x=5
 y=4
@@ -56,7 +56,7 @@ font=645
 shadow=yes
 text="X"
 
-[zep_if_logs]
+[x2]
 type=Text
 x=5
 y=55
@@ -68,7 +68,7 @@ font=645
 shadow=yes
 text="X"
 
-[x2]
+[zep_if_sandbags]
 type=Text
 x=35
 y=4
@@ -81,7 +81,7 @@ shadow=yes
 text="%1"
 script1op1=varbit,varbit_2880
 
-[sand_bag]
+[zep_if_logs]
 type=Text
 x=35
 y=54
@@ -106,7 +106,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[arrow]
+[zep_btn_relax]
 type=Text
 buttonType=Button
 x=6
@@ -121,7 +121,7 @@ shadow=yes
 text="Relax"
 eventCode=flag22
 
-[arrow_1]
+[zep_btn_tug]
 type=Text
 buttonType=Button
 x=34
@@ -133,7 +133,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[zep_sandbag]
+[zep_btn_tug_emerg]
 type=Text
 buttonType=Button
 x=106
@@ -145,7 +145,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[x]
+[arrow]
 type=Model
 x=51
 y=31
@@ -154,7 +154,7 @@ height=32
 model1Id=19720
 modelZoom=2000
 
-[zep_if_sandbags]
+[arrow_1]
 type=Model
 x=51
 y=58
@@ -163,7 +163,7 @@ height=32
 model1Id=19720
 modelZoom=2000
 
-[bail_out]
+[arrow_2]
 type=Model
 x=72
 y=102
@@ -172,7 +172,7 @@ height=32
 model1Id=19720
 modelZoom=2000
 
-[zep_btn_close]
+[arrow_3]
 type=Model
 x=57
 y=188
@@ -182,7 +182,7 @@ model1Id=19720
 modelZoom=2000
 modelXAn=1024
 
-[bail_basket]
+[arrow_4]
 type=Model
 x=130
 y=176
@@ -192,7 +192,7 @@ model1Id=19720
 modelZoom=2000
 modelXAn=1024
 
-[red_rope]
+[arrow_5]
 type=Model
 x=130
 y=206
@@ -202,7 +202,7 @@ model1Id=19720
 modelZoom=2000
 modelXAn=1024
 
-[zep_btn_tug_emerg]
+[arrow_6]
 type=Model
 x=67
 y=140
@@ -211,7 +211,7 @@ height=32
 model1Id=19719
 modelZoom=2000
 
-[arrow_4]
+[zep_rope_red]
 type=Model
 x=112
 y=192
@@ -220,7 +220,7 @@ height=32
 model1Id=19718
 modelZoom=800
 
-[arrow_5]
+[bail_basket]
 type=Model
 x=152
 y=138
@@ -231,7 +231,7 @@ modelZoom=1680
 modelXAn=477
 modelYAn=2041
 
-[zep_rope_red]
+[zep_rope]
 type=Model
 x=41
 y=191
@@ -240,14 +240,14 @@ height=32
 model1Id=19722
 modelZoom=800
 
-[brown_rope]
+[com_23]
 type=Layer
 x=108
 y=46
 width=70
 height=91
 
-[relax]
+[zep_controls]
 type=Text
 x=18
 y=-2
@@ -258,7 +258,7 @@ font=645
 shadow=yes
 text="Balloon Controls"
 
-[zep_btn_relax]
+[zep_btn_close]
 type=Text
 buttonType=Button
 x=103
@@ -273,7 +273,7 @@ shadow=yes
 text="Bail "
 eventCode=flag22
 
-[arrow_6]
+[zep_btn_logs]
 type=Text
 buttonType=Button
 x=9
@@ -285,7 +285,7 @@ font=495
 shadow=yes
 eventCode=flag22
 
-[zep_btn_tug]
+[com_27]
 type=Tooltip
 x=34
 y=175
@@ -293,7 +293,7 @@ width=51
 height=73
 text="Move down."
 
-[arrow_3]
+[com_28]
 type=Tooltip
 x=105
 y=175
@@ -301,7 +301,7 @@ width=53
 height=73
 text="Move down more."
 
-[zep_rope]
+[com_29]
 type=Tooltip
 x=106
 y=46

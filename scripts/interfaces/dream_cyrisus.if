@@ -1,4 +1,4 @@
-[dream_health_bar]
+[com_0]
 type=Rectangle
 x=12
 y=17
@@ -7,7 +7,7 @@ height=307
 trans=200
 fill=yes
 
-[health_target]
+[com_1]
 type=Sprite
 x=12
 y=20
@@ -16,7 +16,7 @@ height=295
 graphic=297
 tiling=yes
 
-[bar_back]
+[com_2]
 type=Sprite
 x=5
 y=13
@@ -24,7 +24,7 @@ width=32
 height=32
 graphic=824
 
-[bar_container]
+[com_3]
 type=Sprite
 x=5
 y=34
@@ -32,7 +32,7 @@ width=32
 height=32
 graphic=829
 
-[bar]
+[com_4]
 type=Sprite
 x=-8
 y=55
@@ -41,7 +41,7 @@ height=243
 graphic=821
 tiling=yes
 
-[dream_health_text]
+[com_5]
 type=Sprite
 x=469
 y=34
@@ -49,7 +49,7 @@ width=32
 height=32
 graphic=830
 
-[dream_health_name]
+[com_6]
 type=Sprite
 x=481
 y=55
@@ -58,7 +58,7 @@ height=246
 graphic=823
 tiling=yes
 
-[health_bar]
+[com_7]
 type=Sprite
 x=35
 width=442
@@ -66,7 +66,7 @@ height=20
 graphic=820
 tiling=yes
 
-[spirit_bar]
+[com_8]
 type=Sprite
 x=31
 y=302
@@ -75,7 +75,7 @@ height=28
 graphic=822
 tiling=yes
 
-[armament_bar]
+[com_9]
 type=Sprite
 x=5
 y=290
@@ -83,7 +83,7 @@ width=32
 height=32
 graphic=826
 
-[chathead]
+[com_10]
 type=Sprite
 x=469
 y=13
@@ -91,7 +91,7 @@ width=32
 height=32
 graphic=825
 
-[back]
+[com_11]
 type=Sprite
 x=469
 y=290
@@ -99,7 +99,7 @@ width=32
 height=32
 graphic=827
 
-[chathead_container]
+[com_12]
 type=Sprite
 x=14
 y=32
@@ -108,7 +108,7 @@ height=33
 graphic=828
 tiling=yes
 
-[cyrisus_chathead_unconcious_model]
+[cyrisusclose]
 type=Sprite
 x=473
 y=25
@@ -121,7 +121,7 @@ onmouseover=44,component.parentId,832
 onmouseleave=44,component.parentId,831
 onclick=29
 
-[mainmodal_window]
+[title]
 type=Text
 x=41
 y=23
@@ -134,7 +134,7 @@ font=496
 shadow=yes
 text="Guidance System"
 
-[mainmodal_window_background]
+[cyrisus_close]
 type=Layer
 x=464
 y=24
@@ -142,14 +142,14 @@ width=32
 height=32
 hide=yes
 
-[mainmodal_window_content]
+[dream_health_lay]
 type=Layer
 x=41
 y=93
 width=210
 height=43
 
-[status]
+[dream_health_bar]
 type=Rectangle
 x=-195
 y=6
@@ -160,7 +160,7 @@ trans=100
 colour=0x158B0D
 fill=yes
 
-[back_1]
+[com_18]
 type=Rectangle
 x=199
 y=95
@@ -170,7 +170,7 @@ trans=225
 colour=0x666666
 fill=yes
 
-[info]
+[com_19]
 type=Rectangle
 x=148
 y=99
@@ -180,7 +180,7 @@ trans=200
 colour=0x666666
 fill=yes
 
-[dream_info_box]
+[com_20]
 type=Rectangle
 x=97
 y=97
@@ -190,7 +190,7 @@ trans=175
 colour=0x666666
 fill=yes
 
-[mainmodal_window_border]
+[com_21]
 type=Rectangle
 x=46
 y=99
@@ -200,14 +200,14 @@ trans=150
 colour=0x666666
 fill=yes
 
-[mainmodal_window_close_button]
+[dream_health_lay_20]
 type=Layer
 x=79
 y=94
 width=16
 height=44
 
-[bar_1]
+[dream_health_goal_20]
 type=Model
 x=-8
 y=22
@@ -218,14 +218,14 @@ model1Id=24994
 modelZoom=400
 discardedModelField=0
 
-[bar_2]
+[dream_health_lay_40]
 type=Layer
 x=118
 y=94
 width=16
 height=40
 
-[bar_container_1]
+[dream_health_goal_40]
 type=Model
 x=-8
 y=23
@@ -236,14 +236,14 @@ model1Id=24994
 modelZoom=400
 discardedModelField=0
 
-[dream_spirit_text]
+[dream_health_lay_70]
 type=Layer
 x=179
 y=95
 width=16
 height=40
 
-[dream_spirit_name]
+[dream_health_goal_70]
 type=Model
 x=-8
 y=23
@@ -254,14 +254,14 @@ model1Id=24994
 modelZoom=400
 discardedModelField=0
 
-[bar_3]
+[dream_health_lay_100]
 type=Layer
 x=235
 y=93
 width=16
 height=40
 
-[bar_4]
+[dream_health_goal_100]
 type=Model
 x=-8
 y=23
@@ -272,7 +272,7 @@ model1Id=24994
 modelZoom=400
 discardedModelField=0
 
-[bar_container_2]
+[com_30]
 type=Model
 x=130
 y=114
@@ -282,7 +282,7 @@ model1Id=24993
 modelZoom=528
 discardedModelField=0
 
-[dream_armament_text]
+[dream_health_text]
 type=Text
 x=202
 y=73
@@ -293,7 +293,7 @@ font=496
 shadow=yes
 text="100%"
 
-[dream_armament_name]
+[dream_health_name]
 type=Text
 x=50
 y=72
@@ -309,14 +309,14 @@ opName0="Health Info"
 onmouseover=45,component.parentId,16168038
 onmouseleave=45,component.parentId,16750623
 
-[dream_spirit_bar]
+[dream_spirit_lay]
 type=Layer
 x=41
 y=164
 width=210
 height=43
 
-[spirit_target]
+[dream_spirit_bar]
 type=Rectangle
 x=-195
 y=8
@@ -327,7 +327,7 @@ trans=100
 colour=0x158B0D
 fill=yes
 
-[dream_armament_bar]
+[com_35]
 type=Rectangle
 x=200
 y=164
@@ -337,7 +337,7 @@ trans=225
 colour=0x666666
 fill=yes
 
-[armament_target]
+[com_36]
 type=Rectangle
 x=149
 y=168
@@ -347,7 +347,7 @@ trans=200
 colour=0x666666
 fill=yes
 
-[cyrisus_chathead_very_ill_model]
+[com_37]
 type=Rectangle
 x=98
 y=166
@@ -357,7 +357,7 @@ trans=175
 colour=0x666666
 fill=yes
 
-[cyrisus_chathead_ill_model]
+[com_38]
 type=Rectangle
 x=47
 y=168
@@ -367,14 +367,14 @@ trans=150
 colour=0x666666
 fill=yes
 
-[cyrisus_chathead_normal_model]
+[dream_spirit_lay_32]
 type=Layer
 x=100
 y=166
 width=16
 height=44
 
-[com_40]
+[dream_spirit_goal_32]
 type=Model
 x=-8
 y=24
@@ -385,14 +385,14 @@ model1Id=24994
 modelZoom=400
 discardedModelField=0
 
-[com_41]
+[dream_spirit_lay_72]
 type=Layer
 x=182
 y=165
 width=16
 height=44
 
-[com_42]
+[dream_spirit_goal_72]
 type=Model
 x=-8
 y=24
@@ -403,14 +403,14 @@ model1Id=24994
 modelZoom=400
 discardedModelField=0
 
-[com_43]
+[dream_spirit_lay_100]
 type=Layer
 x=235
 y=169
 width=16
 height=40
 
-[com_44]
+[dream_spirit_goal_100]
 type=Model
 x=-8
 y=23
@@ -431,7 +431,7 @@ model1Id=24993
 modelZoom=528
 discardedModelField=0
 
-[com_46]
+[dream_spirit_text]
 type=Text
 x=202
 y=146
@@ -442,7 +442,7 @@ font=496
 shadow=yes
 text="100%"
 
-[com_47]
+[dream_spirit_name]
 type=Text
 x=49
 y=144
@@ -458,14 +458,14 @@ opName0="Spirit Info"
 onmouseover=45,component.parentId,16168038
 onmouseleave=45,component.parentId,16750623
 
-[com_48]
+[dream_armament_lay]
 type=Layer
 x=40
 y=238
 width=210
 height=43
 
-[com_49]
+[dream_armament_bar]
 type=Rectangle
 x=-194
 y=6
@@ -516,14 +516,14 @@ trans=150
 colour=0x666666
 fill=yes
 
-[com_54]
+[dream_armament_lay_100]
 type=Layer
 x=233
 y=242
 width=16
 height=40
 
-[com_55]
+[dream_armament_goal_100]
 type=Model
 x=-8
 y=23
@@ -544,7 +544,7 @@ model1Id=24993
 modelZoom=528
 discardedModelField=0
 
-[com_57]
+[dream_armament_text]
 type=Text
 x=203
 y=218
@@ -555,7 +555,7 @@ font=496
 shadow=yes
 text="100%"
 
-[com_58]
+[dream_armament_name]
 type=Text
 x=50
 y=217
@@ -571,7 +571,7 @@ opName0="Armament Info"
 onmouseover=45,component.parentId,16168038
 onmouseleave=45,component.parentId,16750623
 
-[com_59]
+[chatbg_grad_1]
 type=Rectangle
 x=278
 y=62
@@ -580,7 +580,7 @@ height=10
 colour=0x3B322D
 fill=yes
 
-[com_60]
+[chatbg_grad_2]
 type=Rectangle
 x=278
 y=72
@@ -589,7 +589,7 @@ height=10
 colour=0x3A312C
 fill=yes
 
-[com_61]
+[chatbg_grad_3]
 type=Rectangle
 x=278
 y=82
@@ -598,7 +598,7 @@ height=10
 colour=0x39302C
 fill=yes
 
-[com_62]
+[chatbg_grad_4]
 type=Rectangle
 x=278
 y=92
@@ -607,7 +607,7 @@ height=10
 colour=0x382F2B
 fill=yes
 
-[com_63]
+[chatbg_grad_5]
 type=Rectangle
 x=278
 y=102
@@ -616,7 +616,7 @@ height=10
 colour=0x372E29
 fill=yes
 
-[com_64]
+[chatbg_grad_6]
 type=Rectangle
 x=278
 y=112
@@ -625,7 +625,7 @@ height=10
 colour=0x362D28
 fill=yes
 
-[com_65]
+[chatbg_grad_7]
 type=Rectangle
 x=278
 y=122
@@ -634,7 +634,7 @@ height=10
 colour=0x352D27
 fill=yes
 
-[com_66]
+[chatbg_grad_8]
 type=Rectangle
 x=278
 y=132
@@ -643,7 +643,7 @@ height=10
 colour=0x342C26
 fill=yes
 
-[com_67]
+[chatbg_grad_9]
 type=Rectangle
 x=278
 y=142
@@ -652,7 +652,7 @@ height=10
 colour=0x332B25
 fill=yes
 
-[com_68]
+[chatbg_grad_10]
 type=Rectangle
 x=278
 y=152
@@ -661,7 +661,7 @@ height=10
 colour=0x322A24
 fill=yes
 
-[com_69]
+[chatbg_grad_11]
 type=Rectangle
 x=278
 y=162
@@ -670,14 +670,14 @@ height=9
 colour=0x312923
 fill=yes
 
-[com_70]
+[cyrisus_chathead_unconcious]
 type=Layer
 x=315
 y=63
 width=125
 height=107
 
-[com_71]
+[cyrisus_chathead_unconcious_model]
 type=Model
 x=38
 y=46
@@ -690,7 +690,7 @@ modelXAn=57
 modelYAn=141
 discardedModelField=0
 
-[com_72]
+[cyrisus_chathead_very_ill]
 type=Layer
 x=315
 y=63
@@ -698,7 +698,7 @@ width=125
 height=107
 hide=yes
 
-[com_73]
+[cyrisus_chathead_very_ill_model]
 type=Model
 x=39
 y=53
@@ -712,7 +712,7 @@ modelXAn=57
 modelYAn=141
 discardedModelField=0
 
-[com_74]
+[cyrisus_chathead_ill]
 type=Layer
 x=315
 y=63
@@ -720,7 +720,7 @@ width=125
 height=107
 hide=yes
 
-[com_75]
+[cyrisus_chathead_ill_model]
 type=Model
 x=39
 y=53
@@ -734,7 +734,7 @@ modelXAn=57
 modelYAn=141
 discardedModelField=0
 
-[com_76]
+[cyrisus_chathead_normal]
 type=Layer
 x=315
 y=63
@@ -742,7 +742,7 @@ width=125
 height=107
 hide=yes
 
-[com_77]
+[cyrisus_chathead_normal_model]
 type=Model
 x=39
 y=53
@@ -765,7 +765,7 @@ height=131
 colour=0x312923
 fill=yes
 
-[com_79]
+[info]
 type=Text
 x=285
 y=183
@@ -776,7 +776,7 @@ font=495
 shadow=yes
 text="--- Stat ---"
 
-[com_80]
+[dream_info_box]
 type=Text
 x=285
 y=203

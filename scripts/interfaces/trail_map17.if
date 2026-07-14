@@ -723,7 +723,7 @@ modelZoom=1351
 modelXAn=552
 modelYAn=650
 
-[mainmodal_window]
+[com_66]
 type=Model
 x=227
 y=113
@@ -734,7 +734,7 @@ modelZoom=1351
 modelXAn=512
 modelYAn=1110
 
-[mainmodal_window_background]
+[com_67]
 type=Model
 x=258
 y=207
@@ -745,7 +745,7 @@ modelZoom=1351
 modelXAn=552
 modelYAn=650
 
-[mainmodal_window_content]
+[com_68]
 type=Model
 x=266
 y=209
@@ -756,7 +756,7 @@ modelZoom=1351
 modelXAn=552
 modelYAn=624
 
-[mainmodal_window_border]
+[com_69]
 type=Model
 x=283
 y=211
@@ -767,7 +767,7 @@ modelZoom=1351
 modelXAn=579
 modelYAn=545
 
-[mainmodal_window_close_button]
+[com_70]
 type=Model
 x=291
 y=213
@@ -925,7 +925,7 @@ height=23
 overLayerId=86
 graphic=539
 
-[com_85]
+[trail_map17_close]
 type=Sprite
 buttonType=Close
 x=3
@@ -936,7 +936,7 @@ layerId=23724118
 graphic=540
 buttonText="Ok"
 
-[com_86]
+[trail_map17_close_button]
 type=Layer
 x=470
 y=9

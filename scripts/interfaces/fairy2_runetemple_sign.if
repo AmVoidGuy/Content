@@ -22,7 +22,7 @@ font=648
 shadow=yes
 text="COSMIC<br>RUNEe<br>ALTAR"
 
-[close_button]
+[com_2]
 type=Sprite
 x=461
 y=21
@@ -42,7 +42,7 @@ layerId=27852804
 graphic=542
 buttonText="Ok"
 
-[com_4]
+[fairy2_runetemple_sign_close]
 type=Layer
 x=457
 y=17

@@ -1,10 +1,10 @@
-[myq3_castle_sketch_01_1]
+[com_0]
 type=Rectangle
 width=520
 height=340
 fill=yes
 
-[myq3_castle_sketch_01_1_1]
+[myq3_castle_sketch_01_1]
 type=Model
 x=256
 y=110
@@ -14,7 +14,7 @@ model1Id=18151
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_2]
+[myq3_castle_sketch_01_1_1]
 type=Model
 x=256
 y=110
@@ -24,7 +24,7 @@ model1Id=18145
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_3]
+[myq3_castle_sketch_01_1_2]
 type=Model
 x=256
 y=110
@@ -34,7 +34,7 @@ model1Id=18147
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_4]
+[myq3_castle_sketch_01_1_3]
 type=Model
 x=256
 y=110
@@ -44,7 +44,7 @@ model1Id=18148
 modelZoom=570
 modelXAn=495
 
-[myq3_castle_sketch_01_1_5]
+[myq3_castle_sketch_01_1_4]
 type=Model
 x=256
 y=110
@@ -54,7 +54,7 @@ model1Id=18149
 modelZoom=570
 modelXAn=495
 
-[com_6]
+[myq3_castle_sketch_01_1_5]
 type=Model
 x=256
 y=110
@@ -64,7 +64,7 @@ model1Id=18150
 modelZoom=570
 modelXAn=495
 
-[layer_1]
+[com_7]
 type=Sprite
 x=426
 y=14
@@ -85,7 +85,7 @@ overLayerId=9
 graphic=538
 buttonText="Ok"
 
-[com_9]
+[myq3_castle_sketch_south_close_button]
 type=Layer
 x=423
 y=9

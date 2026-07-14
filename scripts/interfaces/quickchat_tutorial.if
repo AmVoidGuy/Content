@@ -1,4 +1,4 @@
-[title]
+[com_0]
 type=Rectangle
 x=17
 y=25
@@ -7,7 +7,7 @@ height=305
 trans=200
 fill=yes
 
-[pagecontrols]
+[com_1]
 type=Sprite
 x=14
 y=25
@@ -16,7 +16,7 @@ height=300
 graphic=297
 tiling=yes
 
-[main]
+[com_2]
 type=Sprite
 x=13
 y=53
@@ -25,7 +25,7 @@ height=241
 graphic=955
 tiling=yes
 
-[text]
+[com_3]
 type=Sprite
 x=13
 y=20
@@ -33,7 +33,7 @@ width=32
 height=32
 graphic=958
 
-[scrollbar]
+[com_4]
 type=Sprite
 x=468
 y=51
@@ -42,7 +42,7 @@ height=243
 graphic=957
 tiling=yes
 
-[buttoncontrol]
+[com_5]
 type=Sprite
 x=44
 y=20
@@ -51,7 +51,7 @@ height=7
 graphic=954
 tiling=yes
 
-[button_active]
+[com_6]
 type=Sprite
 x=45
 y=294
@@ -60,7 +60,7 @@ height=32
 graphic=956
 tiling=yes
 
-[pagecount]
+[com_7]
 type=Sprite
 x=13
 y=294
@@ -68,7 +68,7 @@ width=32
 height=32
 graphic=960
 
-[button_next]
+[com_8]
 type=Sprite
 x=468
 y=20
@@ -76,7 +76,7 @@ width=32
 height=32
 graphic=959
 
-[button_back]
+[com_9]
 type=Sprite
 x=468
 y=294
@@ -84,7 +84,7 @@ width=32
 height=32
 graphic=961
 
-[mainmodal_window]
+[com_10]
 type=Sprite
 x=24
 y=49
@@ -93,7 +93,7 @@ height=6
 graphic=962
 tiling=yes
 
-[mainmodal_window_background]
+[com_11]
 type=Sprite
 x=13
 y=37
@@ -101,7 +101,7 @@ width=32
 height=32
 graphic=963
 
-[mainmodal_window_content]
+[com_12]
 type=Sprite
 x=468
 y=37
@@ -109,7 +109,7 @@ width=32
 height=32
 graphic=964
 
-[content_layer]
+[closebutton]
 type=Sprite
 x=473
 y=30
@@ -123,7 +123,7 @@ onmouseleave=44,component.parentId,831
 onop=29
 onclick=29
 
-[mainmodal_window_border]
+[title]
 type=Text
 x=21
 y=30
@@ -134,7 +134,7 @@ hAlign=Center
 font=496
 shadow=yes
 
-[mainmodal_window_close_button]
+[com_15]
 type=Sprite
 x=19
 y=275
@@ -152,7 +152,7 @@ height=20
 layerId=10289169
 graphic=1161
 
-[com_17]
+[pagecontrols]
 type=Layer
 x=176
 y=287
@@ -180,7 +180,7 @@ layerId=10289169
 graphic=1163
 tiling=yes
 
-[com_20]
+[pagecount]
 type=Text
 x=18
 y=10
@@ -193,7 +193,7 @@ font=496
 shadow=yes
 text="Page 1 of 7"
 
-[com_21]
+[button_next]
 type=Sprite
 x=147
 y=9
@@ -206,7 +206,7 @@ opName0=" Continue"
 onmouseover=44,component.parentId,1175
 onmouseleave=44,component.parentId,1174
 
-[com_22]
+[button_back]
 type=Sprite
 x=3
 y=9
@@ -219,7 +219,7 @@ opName0=" Continue"
 onmouseover=44,component.parentId,1173
 onmouseleave=44,component.parentId,1172
 
-[com_23]
+[main]
 type=Layer
 width=512
 height=334
@@ -227,14 +227,14 @@ onload=15
 onvartransmit=783
 onvartransmitlist=1231
 
-[com_24]
+[scrollbar]
 type=Layer
 x=477
 y=54
 width=16
 height=235
 
-[com_25]
+[text]
 type=Layer
 x=19
 y=54
@@ -278,7 +278,7 @@ height=24
 layerId=10289187
 graphic=917
 
-[com_30]
+[button]
 type=Text
 x=26
 y=5
@@ -330,7 +330,7 @@ height=9
 layerId=10289187
 graphic=916
 
-[com_35]
+[buttoncontrol]
 type=Layer
 x=344
 y=288

@@ -95,7 +95,7 @@ font=495
 shadow=yes
 text="Collector"
 
-[barbassault_plstat_att_nxtlv]
+[com_9]
 type=Text
 x=378
 y=109
@@ -107,10 +107,21 @@ font=495
 shadow=yes
 text="Points for next level"
 
-[barbassault_plstat_def_nxtlv]
+[barbassault_plstat_att_nxtlv]
 type=Text
 x=398
 y=145
+width=8
+height=14
+colour=0xFF981F
+font=495
+shadow=yes
+text="0"
+
+[barbassault_plstat_def_nxtlv]
+type=Text
+x=398
+y=184
 width=8
 height=14
 colour=0xFF981F
@@ -121,7 +132,7 @@ text="0"
 [barbassault_plstat_col_nxtlv]
 type=Text
 x=398
-y=184
+y=224
 width=8
 height=14
 colour=0xFF981F
@@ -132,17 +143,6 @@ text="0"
 [barbassault_plstat_heal_nxtlv]
 type=Text
 x=398
-y=224
-width=8
-height=14
-colour=0xFF981F
-font=495
-shadow=yes
-text="0"
-
-[com_13]
-type=Text
-x=398
 y=263
 width=8
 height=14
@@ -151,7 +151,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_attlv]
+[com_14]
 type=Text
 x=234
 y=110
@@ -162,7 +162,7 @@ font=495
 shadow=yes
 text="Level"
 
-[barbassault_plstat_deflv]
+[barbassault_plstat_attlv]
 type=Text
 x=245
 y=145
@@ -173,7 +173,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_collv]
+[barbassault_plstat_deflv]
 type=Text
 x=245
 y=184
@@ -184,7 +184,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_heallv]
+[barbassault_plstat_collv]
 type=Text
 x=245
 y=224
@@ -195,7 +195,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_name]
+[barbassault_plstat_heallv]
 type=Text
 x=245
 y=263
@@ -206,7 +206,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_totxp_att]
+[barbassault_plstat_name]
 type=Text
 x=245
 y=75
@@ -217,7 +217,7 @@ font=495
 shadow=yes
 text="null"
 
-[barbassault_plstat_totxp_def]
+[barbassault_plstat_totxp_att]
 type=Text
 x=175
 y=144
@@ -228,7 +228,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_totxp_col]
+[barbassault_plstat_totxp_def]
 type=Text
 x=175
 y=183
@@ -239,7 +239,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_totxp_heal]
+[barbassault_plstat_totxp_col]
 type=Text
 x=175
 y=223
@@ -250,7 +250,7 @@ font=495
 shadow=yes
 text="0"
 
-[com_23]
+[barbassault_plstat_totxp_heal]
 type=Text
 x=175
 y=262
@@ -261,7 +261,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_curwave]
+[com_24]
 type=Text
 x=346
 y=75
@@ -272,7 +272,7 @@ font=495
 shadow=yes
 text="Current wave :"
 
-[com_25]
+[barbassault_plstat_curwave]
 type=Text
 x=433
 y=75
@@ -283,7 +283,7 @@ font=495
 shadow=yes
 text="0"
 
-[barbassault_plstat_rew_def]
+[com_26]
 type=Text
 x=275
 y=109
@@ -306,7 +306,7 @@ font=495
 shadow=yes
 text="-----------"
 
-[barbassault_plstat_rew_col]
+[barbassault_plstat_rew_def]
 type=Text
 x=279
 y=183
@@ -317,7 +317,7 @@ font=495
 shadow=yes
 text="-----------"
 
-[barbassault_plstat_rew_heal]
+[barbassault_plstat_rew_col]
 type=Text
 x=279
 y=218
@@ -329,7 +329,7 @@ font=495
 shadow=yes
 text="-----------"
 
-[com_30]
+[barbassault_plstat_rew_heal]
 type=Text
 x=279
 y=262
@@ -360,7 +360,7 @@ layerId=32112673
 graphic=540
 buttonText="Ok"
 
-[com_33]
+[barbassault_playerstat_close_button]
 type=Layer
 x=466
 y=30

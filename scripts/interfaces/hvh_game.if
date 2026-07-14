@@ -1,4 +1,4 @@
-[com_0]
+[timer_tradebacking]
 type=Sprite
 x=306
 y=263
@@ -8,7 +8,7 @@ layerId=47841307
 graphic=297
 tiling=yes
 
-[charge]
+[timer_corner1]
 type=Sprite
 x=299
 y=256
@@ -17,7 +17,7 @@ height=32
 layerId=47841307
 graphic=824
 
-[player_state]
+[timer_corner2]
 type=Sprite
 x=299
 y=264
@@ -26,7 +26,7 @@ height=32
 layerId=47841307
 graphic=826
 
-[target_name]
+[timer_corner3]
 type=Sprite
 x=471
 y=256
@@ -35,7 +35,7 @@ height=32
 layerId=47841307
 graphic=825
 
-[layer]
+[timer_corner4]
 type=Sprite
 x=471
 y=264
@@ -44,7 +44,7 @@ height=32
 layerId=47841307
 graphic=827
 
-[game_state_window]
+[timer_top]
 type=Sprite
 x=329
 y=243
@@ -54,7 +54,7 @@ layerId=47841307
 graphic=820
 tiling=yes
 
-[game_time_window]
+[timer_bottom]
 type=Sprite
 x=331
 y=276
@@ -64,7 +64,7 @@ layerId=47841307
 graphic=822
 tiling=yes
 
-[pickup_stone]
+[info_tradebacking]
 type=Sprite
 x=336
 y=17
@@ -73,7 +73,7 @@ height=50
 graphic=297
 tiling=yes
 
-[game_state_window_background]
+[info_corner1]
 type=Sprite
 x=330
 y=10
@@ -81,7 +81,7 @@ width=32
 height=32
 graphic=824
 
-[game_state_window_content]
+[info_corner2]
 type=Sprite
 x=330
 y=39
@@ -89,7 +89,7 @@ width=32
 height=32
 graphic=826
 
-[game_state_window_border]
+[info_corner3]
 type=Sprite
 x=470
 y=10
@@ -97,7 +97,7 @@ width=32
 height=32
 graphic=825
 
-[game_time_window_background]
+[info_corner4]
 type=Sprite
 x=470
 y=39
@@ -105,7 +105,7 @@ width=32
 height=32
 graphic=827
 
-[game_time_window_content]
+[info_top]
 type=Sprite
 x=362
 y=-3
@@ -114,7 +114,7 @@ height=32
 graphic=820
 tiling=yes
 
-[green_large_progress_layer]
+[info_bottom]
 type=Sprite
 x=362
 y=51
@@ -123,7 +123,7 @@ height=32
 graphic=822
 tiling=yes
 
-[game_time_window_border]
+[info_divider]
 type=Sprite
 x=339
 y=21
@@ -131,7 +131,7 @@ width=153
 height=32
 graphic=1074
 
-[com_15]
+[pickup_stone]
 type=Text
 x=3
 y=13
@@ -144,7 +144,7 @@ font=496
 shadow=yes
 text="Please pick up a stone!"
 
-[com_16]
+[layer_pickup]
 type=Layer
 x=299
 y=224
@@ -152,7 +152,7 @@ width=204
 height=32
 layerId=47841299
 
-[com_17]
+[charge]
 type=Text
 x=339
 y=18
@@ -164,7 +164,7 @@ font=495
 shadow=yes
 text="Charge:"
 
-[green_large_progress_value_bounds_layer]
+[target_name]
 type=Text
 x=396
 y=43
@@ -177,7 +177,7 @@ font=495
 shadow=yes
 text="Name"
 
-[green_large_progress_value_layer]
+[layer]
 type=Layer
 width=512
 height=334
@@ -185,7 +185,7 @@ baseOpName="m"
 oninvtransmit=955
 oninvtransmitlist=93
 
-[left_colour]
+[hunter_text]
 type=Text
 x=41
 y=33
@@ -197,7 +197,7 @@ font=495
 shadow=yes
 text="Hunting:"
 
-[right_colour]
+[hunter_layer]
 type=Layer
 x=298
 y=10
@@ -205,7 +205,7 @@ width=204
 height=64
 layerId=47841299
 
-[middle_colour]
+[hunted_text]
 type=Text
 x=41
 y=33
@@ -217,7 +217,7 @@ font=495
 shadow=yes
 text="Hunted by:"
 
-[com_23]
+[hunted_layer]
 type=Layer
 x=298
 y=10
@@ -238,7 +238,7 @@ font=495
 shadow=yes
 text="Time left:"
 
-[com_25]
+[time_line]
 type=Line
 x=310
 y=283
@@ -249,7 +249,7 @@ lineWidth=6
 onvartransmit=954
 onvartransmitlist=1215
 
-[com_26]
+[bar_backing]
 type=Sprite
 x=309
 y=279
@@ -259,7 +259,7 @@ layerId=47841307
 trans=128
 graphic=1072
 
-[com_27]
+[layer_timer]
 type=Layer
 width=512
 height=334

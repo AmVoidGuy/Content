@@ -1,4 +1,4 @@
-[mainmodal_window]
+[king_letter]
 type=Model
 x=153
 width=231
@@ -8,7 +8,7 @@ modelZoom=860
 modelXAn=512
 modelYAn=512
 
-[mainmodal_window_background]
+[com_1]
 type=Model
 x=206
 y=27
@@ -19,7 +19,7 @@ model2Id=18669
 modelZoom=650
 modelXAn=512
 
-[mainmodal_window_content]
+[com_2]
 type=Sprite
 x=297
 y=43
@@ -39,7 +39,7 @@ layerId=30539780
 graphic=538
 buttonText="Ok"
 
-[com_4]
+[interfacename_close]
 type=Layer
 x=294
 y=39
