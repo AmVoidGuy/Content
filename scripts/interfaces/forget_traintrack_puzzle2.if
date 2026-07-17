@@ -482,7 +482,7 @@ modelXAn=350
 script1=eq,2
 script1op1=varbit,forget_if7
 
-[questscroll_champions_scroll_model]
+[com_40]
 type=Layer
 x=243
 y=131

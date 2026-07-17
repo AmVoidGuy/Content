@@ -6491,7 +6491,7 @@
 6490=forget_traintrack_puzzle2:2switch_f
 6491=forget_traintrack_puzzle2:com_38
 6492=forget_traintrack_puzzle2:2switch_g
-6493=forget_traintrack_puzzle2:questscroll_champions_scroll_model
+6493=forget_traintrack_puzzle2:com_40
 6494=forget_traintrack_puzzle2:2switch_h
 6495=forget_traintrack_puzzle2:com_42
 6496=forget_traintrack_puzzle2:2switch_i
@@ -23884,7 +23884,7 @@
 23883=interface_591:com_29
 23884=interface_591:com_30
 23885=interface_591:com_31
-23886=interface_591:banner_password__proc_area_task_complete_
+23886=interface_591:com_32
 23887=interface_591:com_33
 23888=interface_591:com_34
 23889=interface_591:com_35
@@ -23961,7 +23961,7 @@
 23960=interface_591:com_106
 23961=interface_591:com_107
 23962=interface_591:com_108
-23963=interface_591:trail_map13__clientscript_objdialog_close_
+23963=interface_591:com_109
 23964=interface_591:com_110
 23965=interface_591:com_111
 23966=interface_591:com_112
@@ -23985,7 +23985,7 @@
 23984=interface_591:com_130
 23985=interface_591:com_131
 23986=interface_591:com_132
-23987=interface_591:tai_bwo_wannai_post_luc2_henge_door_cutscene
+23987=interface_591:com_133
 23988=interface_591:com_134
 23989=interface_591:com_135
 23990=interface_591:com_136
@@ -24185,7 +24185,7 @@
 24184=interface_592:com_29
 24185=interface_592:com_30
 24186=interface_592:com_31
-24187=interface_592:banner_password__proc_area_task_complete_
+24187=interface_592:com_32
 24188=interface_592:com_33
 24189=interface_592:com_34
 24190=interface_592:com_35
@@ -24419,7 +24419,7 @@
 24418=interface_593:com_29
 24419=interface_593:com_30
 24420=interface_593:com_31
-24421=interface_593:banner_password__proc_area_task_complete_
+24421=interface_593:com_32
 24422=interface_593:com_33
 24423=interface_593:com_34
 24424=interface_593:com_35
@@ -24486,7 +24486,7 @@
 24485=interface_593:com_96
 24486=interface_593:com_97
 24487=interface_593:com_98
-24488=interface_593:trail_map13__clientscript_objdialog_close_
+24488=interface_593:com_99
 24489=interface_593:com_100
 24490=interface_593:com_101
 24491=interface_593:com_102
@@ -24573,7 +24573,7 @@
 24572=interface_594:com_29
 24573=interface_594:com_30
 24574=interface_594:com_31
-24575=interface_594:banner_password__proc_area_task_complete_
+24575=interface_594:com_32
 24576=interface_594:com_33
 24577=interface_594:com_34
 24578=interface_594:com_35
@@ -24641,7 +24641,7 @@
 24640=interface_594:com_97
 24641=interface_594:com_98
 24642=interface_594:com_99
-24643=interface_594:trail_map13__clientscript_objdialog_close_
+24643=interface_594:com_100
 24644=interface_594:com_101
 24645=interface_594:com_102
 24646=interface_594:com_103
@@ -24665,7 +24665,7 @@
 24664=interface_594:com_121
 24665=interface_594:com_122
 24666=interface_594:com_123
-24667=interface_594:tai_bwo_wannai_post_luc2_henge_door_cutscene
+24667=interface_594:com_124
 24668=interface_594:com_125
 24669=interface_594:com_126
 24670=interface_594:com_127
@@ -24875,7 +24875,7 @@
 24874=interface_595:com_29
 24875=interface_595:com_30
 24876=interface_595:com_31
-24877=interface_595:banner_password__proc_area_task_complete_
+24877=interface_595:com_32
 24878=interface_595:com_33
 24879=interface_595:com_34
 24880=interface_595:com_35
@@ -24942,7 +24942,7 @@
 24941=interface_595:com_96
 24942=interface_595:com_97
 24943=interface_595:com_98
-24944=interface_595:trail_map13__clientscript_objdialog_close_
+24944=interface_595:com_99
 24945=interface_595:com_100
 24946=interface_595:com_101
 24947=interface_595:com_102
@@ -25029,7 +25029,7 @@
 25028=interface_596:com_29
 25029=interface_596:com_30
 25030=interface_596:com_31
-25031=interface_596:banner_password__proc_area_task_complete_
+25031=interface_596:com_32
 25032=interface_596:com_33
 25033=interface_596:com_34
 25034=interface_596:com_35
@@ -25680,7 +25680,7 @@
 25679=lotg_goblin_changing_room:com_29
 25680=lotg_goblin_changing_room:com_30
 25681=lotg_goblin_changing_room:com_31
-25682=lotg_goblin_changing_room:banner_password__proc_area_task_complete_
+25682=lotg_goblin_changing_room:com_32
 25683=lotg_goblin_changing_room:com_33
 25684=lotg_goblin_changing_room:com_34
 25685=lotg_goblin_changing_room:com_35

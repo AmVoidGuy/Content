@@ -5353,7 +5353,6 @@
 129:35=forget_traintrack_puzzle2:2switch_e
 129:37=forget_traintrack_puzzle2:2switch_f
 129:39=forget_traintrack_puzzle2:2switch_g
-129:40=forget_traintrack_puzzle2:questscroll_champions_scroll_model
 129:41=forget_traintrack_puzzle2:2switch_h
 129:43=forget_traintrack_puzzle2:2switch_i
 129:45=forget_traintrack_puzzle2:2switch_j
@@ -19863,7 +19862,6 @@
 591:6=interface_591:border_lower
 591:11=interface_591:border_t_left
 591:12=interface_591:border_t_right
-591:32=interface_591:banner_password__proc_area_task_complete_
 591:39=interface_591:listbg_1
 591:40=interface_591:listbg_2
 591:41=interface_591:listbg_3
@@ -19896,8 +19894,6 @@
 591:75=interface_591:clothes_checkbutton_5
 591:77=interface_591:listitem_6
 591:78=interface_591:clothes_checkbutton_6
-591:109=interface_591:trail_map13__clientscript_objdialog_close_
-591:133=interface_591:tai_bwo_wannai_post_luc2_henge_door_cutscene
 591:173=interface_591:listlayer
 591:174=interface_591:tops_scrollbar
 591:180=interface_591:paybutton
@@ -19927,7 +19923,6 @@
 592:6=interface_592:border_lower
 592:11=interface_592:border_t_left
 592:12=interface_592:border_t_right
-592:32=interface_592:banner_password__proc_area_task_complete_
 592:39=interface_592:listbg_1
 592:40=interface_592:listbg_2
 592:41=interface_592:listbg_3
@@ -19993,7 +19988,6 @@
 593:6=interface_593:border_lower
 593:11=interface_593:border_t_left
 593:12=interface_593:border_t_right
-593:32=interface_593:banner_password__proc_area_task_complete_
 593:38=interface_593:listbg_1
 593:39=interface_593:listbg_2
 593:40=interface_593:listbg_3
@@ -20026,7 +20020,6 @@
 593:86=interface_593:clothes_checkbutton_5
 593:88=interface_593:listitem_6
 593:89=interface_593:clothes_checkbutton_6
-593:99=interface_593:trail_map13__clientscript_objdialog_close_
 593:115=interface_593:listlayer
 593:117=interface_593:paybutton
 593:136=interface_593:close_button
@@ -20053,7 +20046,6 @@
 594:6=interface_594:border_lower
 594:11=interface_594:border_t_left
 594:12=interface_594:border_t_right
-594:32=interface_594:banner_password__proc_area_task_complete_
 594:39=interface_594:listbg_1
 594:40=interface_594:listbg_2
 594:41=interface_594:listbg_3
@@ -20086,8 +20078,6 @@
 594:75=interface_594:clothes_checkbutton_5
 594:77=interface_594:listitem_6
 594:78=interface_594:clothes_checkbutton_6
-594:100=interface_594:trail_map13__clientscript_objdialog_close_
-594:124=interface_594:tai_bwo_wannai_post_luc2_henge_door_cutscene
 594:173=interface_594:listlayer
 594:174=interface_594:tops_scrollbar
 594:181=interface_594:paybutton
@@ -20117,7 +20107,6 @@
 595:6=interface_595:border_lower
 595:11=interface_595:border_t_left
 595:12=interface_595:border_t_right
-595:32=interface_595:banner_password__proc_area_task_complete_
 595:38=interface_595:listbg_1
 595:39=interface_595:listbg_2
 595:40=interface_595:listbg_3
@@ -20150,7 +20139,6 @@
 595:86=interface_595:clothes_checkbutton_5
 595:88=interface_595:listitem_6
 595:89=interface_595:clothes_checkbutton_6
-595:99=interface_595:trail_map13__clientscript_objdialog_close_
 595:115=interface_595:listlayer
 595:117=interface_595:paybutton
 595:136=interface_595:close_button
@@ -20177,7 +20165,6 @@
 596:6=interface_596:border_lower
 596:11=interface_596:border_t_left
 596:12=interface_596:border_t_right
-596:32=interface_596:banner_password__proc_area_task_complete_
 596:39=interface_596:listbg_1
 596:40=interface_596:listbg_2
 596:41=interface_596:listbg_3
@@ -20569,7 +20556,6 @@
 625:6=lotg_goblin_changing_room:border_lower
 625:11=lotg_goblin_changing_room:border_t_left
 625:12=lotg_goblin_changing_room:border_t_right
-625:32=lotg_goblin_changing_room:banner_password__proc_area_task_complete_
 625:39=lotg_goblin_changing_room:goblin_model1
 625:40=lotg_goblin_changing_room:com_40
 625:41=lotg_goblin_changing_room:com_41

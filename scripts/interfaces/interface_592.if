@@ -300,7 +300,7 @@ layerId=38797350
 colour=0x362D28
 fill=yes
 
-[banner_password__proc_area_task_complete_]
+[com_32]
 type=Rectangle
 x=-1
 y=185

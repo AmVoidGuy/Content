@@ -281,7 +281,7 @@ layerId=38928422
 colour=0x362D28
 fill=yes
 
-[banner_password__proc_area_task_complete_]
+[com_32]
 type=Rectangle
 y=188
 width=130
@@ -932,7 +932,7 @@ height=36
 layerId=38928559
 graphic=180
 
-[trail_map13__clientscript_objdialog_close_]
+[com_100]
 type=Layer
 x=3
 y=27
@@ -1172,7 +1172,7 @@ height=36
 layerId=38928559
 graphic=180
 
-[tai_bwo_wannai_post_luc2_henge_door_cutscene]
+[com_124]
 type=Layer
 x=4
 y=240
