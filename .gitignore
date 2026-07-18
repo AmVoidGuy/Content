@@ -4,7 +4,6 @@
 pack/script.pack
 pack/category.pack
 pack/struct.pack
-pack/mesanim.pack
 pack/dbtable.pack
 pack/dbrow.pack
 pack/hunt.pack
