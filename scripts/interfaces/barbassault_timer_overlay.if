@@ -5,7 +5,7 @@ y=5
 width=70
 height=15
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="XX"
 
@@ -17,7 +17,7 @@ width=125
 height=15
 colour=0xFF981F
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Time until next wave:"
 
@@ -28,6 +28,6 @@ y=18
 width=116
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="(exit room to cancel)"

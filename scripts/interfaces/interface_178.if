@@ -75,7 +75,7 @@ y=40
 width=280
 height=14
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="Click arrow buttons to move taper."
 
@@ -86,7 +86,7 @@ y=56
 width=280
 height=50
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="Press the Light button to light the candles."
 

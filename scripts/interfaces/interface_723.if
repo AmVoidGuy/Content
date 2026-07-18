@@ -51,7 +51,7 @@ height=17
 colour=0xCC9900
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 text="~ What is this? ~"
 
 [text_layer]
@@ -86,7 +86,7 @@ height=30
 colour=0xCC9900
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 
 [text]
 type=Text
@@ -94,7 +94,7 @@ width=170
 height=17
 layerId=47382534
 colour=0xFFFFFF
-font=307
+font=tutorial_font
 
 [closebutton]
 type=Sprite

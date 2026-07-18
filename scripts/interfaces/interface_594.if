@@ -547,7 +547,7 @@ width=469
 height=15
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Thessalia's Makeovers"
 
@@ -559,7 +559,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Striped sweater"
 
@@ -607,7 +607,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Woollen vest"
 
@@ -619,7 +619,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Frilled blouse"
 
@@ -649,7 +649,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Bodice"
 
@@ -679,7 +679,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Fine shirt"
 
@@ -709,7 +709,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Ragged top"
 
@@ -739,7 +739,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Plain top"
 
@@ -769,7 +769,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Crop-top"
 
@@ -799,7 +799,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Simple"
 
@@ -829,7 +829,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Polo neck"
 
@@ -859,7 +859,7 @@ width=124
 height=16
 layerId=38928557
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Torn"
 
@@ -889,7 +889,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Striped arms"
 
@@ -919,7 +919,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Frilled sleeves"
 
@@ -949,7 +949,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Fine cuffs"
 
@@ -979,7 +979,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Woollen arms"
 
@@ -1009,7 +1009,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Ragged sleeves"
 
@@ -1039,7 +1039,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Tattered sleeves"
 
@@ -1069,7 +1069,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Long sleeves"
 
@@ -1099,7 +1099,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Short sleeves"
 
@@ -1129,7 +1129,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Muscly"
 
@@ -1159,7 +1159,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Large cuffs"
 
@@ -1189,7 +1189,7 @@ width=124
 height=16
 layerId=38928559
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Bare arms"
 
@@ -1219,7 +1219,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Fine skirt"
 
@@ -1249,7 +1249,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Frilled skirt"
 
@@ -1279,7 +1279,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Layered skirt"
 
@@ -1309,7 +1309,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Long, narrow skirt"
 
@@ -1339,7 +1339,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Ragged skirt"
 
@@ -1369,7 +1369,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Tattered skirt"
 
@@ -1399,7 +1399,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Short skirt"
 
@@ -1429,7 +1429,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Sashed skirt"
 
@@ -1459,7 +1459,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Fitted skirt"
 
@@ -1489,7 +1489,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Torn trousers"
 
@@ -1519,7 +1519,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Long skirt"
 
@@ -1549,7 +1549,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Turn-ups"
 
@@ -1579,7 +1579,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Flares"
 
@@ -1609,7 +1609,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Plain trousers"
 
@@ -1639,7 +1639,7 @@ width=124
 height=16
 layerId=38928561
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Shorts"
 
@@ -1730,7 +1730,7 @@ width=77
 height=32
 layerId=38928566
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="1,000 Coins"
 

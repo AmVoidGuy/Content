@@ -83,7 +83,7 @@ width=140
 height=17
 colour=0x2B1C0F
 hAlign=Center
-font=497
+font=q8_full
 text="Ta Quir Priw"
 
 [varrocktext2]
@@ -93,7 +93,7 @@ y=89
 width=103
 height=17
 colour=0x2B1C0F
-font=497
+font=q8_full
 text="Lemanto Andra"
 
 [mountainstext]
@@ -104,7 +104,7 @@ width=90
 height=17
 colour=0x2B1C0F
 hAlign=Center
-font=497
+font=q8_full
 text="Sindarpos"
 
 [jungle]
@@ -115,7 +115,7 @@ width=83
 height=17
 colour=0x2B1C0F
 hAlign=Center
-font=497
+font=q8_full
 text="Gandius"
 
 [deserttext]
@@ -126,7 +126,7 @@ width=95
 height=17
 colour=0x3B1C0F
 hAlign=Center
-font=497
+font=q8_full
 text="Kar-Hewo"
 
 [com_12]
@@ -137,7 +137,7 @@ width=100
 height=17
 colour=0x2B1C0F
 hAlign=Center
-font=497
+font=q8_full
 text="Lemantolly"
 
 [com_13]
@@ -148,7 +148,7 @@ width=60
 height=17
 colour=0x2B1C0F
 hAlign=Center
-font=497
+font=q8_full
 text="Undri"
 
 [com_14]

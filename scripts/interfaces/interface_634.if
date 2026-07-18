@@ -137,7 +137,7 @@ width=450
 height=16
 colour=0xE1981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="You are Victorious!"
 
@@ -160,7 +160,7 @@ layerId=41549838
 colour=0x008000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Claim!"
 eventCode=hasOp(1)
@@ -176,7 +176,7 @@ y=67
 width=109
 height=14
 colour=0xBF751D
-font=495
+font=p12_full
 shadow=yes
 text="The Spoils:"
 
@@ -188,7 +188,7 @@ width=122
 height=15
 layerId=41549858
 colour=0xBF751D
-font=495
+font=p12_full
 shadow=yes
 text="The Defeated:"
 
@@ -200,7 +200,7 @@ width=51
 height=14
 layerId=41549858
 colour=0xBF751D
-font=495
+font=p12_full
 shadow=yes
 text="Name:"
 
@@ -212,7 +212,7 @@ width=36
 height=17
 layerId=41549858
 colour=0xBF751D
-font=495
+font=p12_full
 shadow=yes
 text="Combat Level:"
 
@@ -224,7 +224,7 @@ width=31
 height=13
 layerId=41549858
 colour=0xAAAAAA
-font=495
+font=p12_full
 shadow=yes
 text="126"
 
@@ -236,7 +236,7 @@ width=70
 height=14
 layerId=41549858
 colour=0xAAAAAA
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy"
 

@@ -30,7 +30,7 @@ colour=0xFF981F
 colour2=0xFFB359
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Off"
 
@@ -78,7 +78,7 @@ width=162
 height=14
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="House Options"
 
@@ -171,7 +171,7 @@ height=14
 colour=0xFF981F
 colour2=0xFFB359
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Leave House"
 
@@ -184,7 +184,7 @@ height=15
 colour=0xFF981F
 colour2=0xFFB359
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Building Mode"
 
@@ -197,7 +197,7 @@ height=14
 colour=0xFF981F
 colour2=0xFFB359
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Expel Guests"
 
@@ -211,7 +211,7 @@ colour=0xFF981F
 colour2=0xFFB359
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="On"
 
@@ -224,7 +224,7 @@ height=14
 colour=0xFF981F
 colour2=0xFFB359
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Number Of Rooms: %1"
 script1op1=varp,if2

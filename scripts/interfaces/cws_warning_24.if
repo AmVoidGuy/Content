@@ -125,7 +125,7 @@ height=21
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Warning!"
 
@@ -138,7 +138,7 @@ height=87
 colour=0xFF7D1F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Danger! Death Plateau is not named that for<br> a joke! If you continue down this path you will<br> be assailed by trolls! If you are not prepared<br> for that you should turn back now!"
 
@@ -168,7 +168,7 @@ layerId=38076435
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Don't show me this again"
 

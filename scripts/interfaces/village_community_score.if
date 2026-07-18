@@ -28,7 +28,7 @@ width=29
 height=12
 layerId=24707075
 colour=0xFFFF00
-font=494
+font=p11_full
 shadow=yes
 text="%1 %"
 script1op1=varbit,favour_percentage
@@ -50,6 +50,6 @@ layerId=24707075
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="<col=00ff00>* <col=ffff00>Tai Bwo Favour <col=00ff00>*"

@@ -43,7 +43,7 @@ width=329
 height=17
 layerId=35127299
 colour=0x46320A
-font=497
+font=q8_full
 text="Shrink-Me-Quick Recipe"
 
 [grim_instructions]
@@ -54,7 +54,7 @@ width=297
 height=136
 layerId=35127299
 colour=0x46320A
-font=497
+font=q8_full
 text="1x leaf of tarromin,                        1x shrunken ogleroot.                                                                 Mix the tarromin in a vial of water, then add the shrunken ogleroot. Drink when standing within an area prepared with glyphs for this potion to have full effect. Take one dose only, for a new perspective on the world..."
 
 [close_button]

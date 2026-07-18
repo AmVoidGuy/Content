@@ -16,7 +16,7 @@ height=6
 layerId=24969218
 colour=0xE1981D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 ontimer=54
 

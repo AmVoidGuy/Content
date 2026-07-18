@@ -6,7 +6,7 @@ width=240
 height=11
 colour=0xCCCCCC
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Current Champion: TzHaar-Xil-Huz"
 
@@ -18,7 +18,7 @@ height=12
 layerId=24444930
 colour=0xFF0000
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Foes Remaining:"
 onvartransmit=70

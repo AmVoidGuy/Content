@@ -541,7 +541,7 @@ y=58
 width=140
 height=25
 colour=0xFFAA44
-font=495
+font=p12_full
 shadow=yes
 text="Insert a very long name here!"
 
@@ -608,7 +608,7 @@ y=75
 width=14
 height=14
 colour=0xAAAAAA
-font=495
+font=p12_full
 shadow=yes
 text="vs"
 
@@ -619,7 +619,7 @@ y=89
 width=140
 height=25
 colour=0xFFAA44
-font=495
+font=p12_full
 shadow=yes
 text="Insert a very long name here!"
 
@@ -719,7 +719,7 @@ width=44
 height=31
 colour=0xFFAA44
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Turn:"
 
@@ -753,7 +753,7 @@ y=29
 width=176
 height=17
 colour=0xFFAA44
-font=496
+font=b12_full
 shadow=yes
 text="Runeversi"
 
@@ -779,7 +779,7 @@ colour=0x800000
 colourOver=0xFF0000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Resign"
 
@@ -806,7 +806,7 @@ colour=0x888800
 colourOver=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Offer draw"
 
@@ -844,7 +844,7 @@ y=127
 width=111
 height=31
 colour=0xAAAAAA
-font=495
+font=p12_full
 shadow=yes
 text="A very long name"
 
@@ -1255,7 +1255,7 @@ width=169
 height=11
 colour=0xAAAAAA
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
@@ -1309,7 +1309,7 @@ width=169
 height=11
 colour=0xAAAAAA
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Blah blah blah blah blah blah blah!"
 
@@ -1321,7 +1321,7 @@ width=160
 height=14
 colour=0xAAAAAA
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Blah blah blah blah blah!"
 
@@ -1353,7 +1353,7 @@ height=14
 layerId=2883734
 colour=0x800000
 colourOver=0xFF0000
-font=495
+font=p12_full
 shadow=yes
 text="Close"
 

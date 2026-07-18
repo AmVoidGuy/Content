@@ -17,7 +17,7 @@ width=85
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Both"
 
 [giantdwarf_argh_text]
@@ -27,7 +27,7 @@ y=39
 width=85
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Argh!"
 
 [com_3]

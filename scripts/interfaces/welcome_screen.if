@@ -102,7 +102,7 @@ width=467
 height=16
 colour=0xFF0000
 hAlign=Center
-font=497
+font=q8_full
 text="Welcome to RuneScape"
 
 [lastlogin]
@@ -112,7 +112,7 @@ y=39
 width=467
 height=14
 hAlign=Center
-font=495
+font=p12_full
 
 [recovery]
 type=Text
@@ -123,7 +123,7 @@ height=90
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 
 [com_15]
 type=Text
@@ -134,7 +134,7 @@ height=49
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Jagex Staff will NEVER email you. We use the message centre on this website instead."
 
@@ -147,7 +147,7 @@ height=42
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [com_17]
@@ -159,7 +159,7 @@ height=90
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [com_18]
@@ -171,7 +171,7 @@ height=90
 colour=0xFFFFFF
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="CLICK HERE TO PLAY"
 
@@ -184,7 +184,7 @@ height=90
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [com_20]

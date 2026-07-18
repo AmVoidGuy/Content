@@ -717,7 +717,7 @@ width=372
 height=15
 colour=0xFF841F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Furniture Creation Menu"
 
@@ -728,7 +728,7 @@ y=60
 width=331
 height=17
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Select a piece of furniture to build."
 
@@ -739,7 +739,7 @@ y=96
 width=117
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -750,7 +750,7 @@ y=108
 width=75
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -761,7 +761,7 @@ y=120
 width=75
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -772,7 +772,7 @@ y=132
 width=75
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -783,7 +783,7 @@ y=144
 width=75
 height=10
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -794,7 +794,7 @@ y=171
 width=119
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -805,7 +805,7 @@ y=183
 width=83
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -816,7 +816,7 @@ y=195
 width=83
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -827,7 +827,7 @@ y=207
 width=83
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -838,7 +838,7 @@ y=219
 width=83
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -849,7 +849,7 @@ y=246
 width=113
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -860,7 +860,7 @@ y=258
 width=78
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -871,7 +871,7 @@ y=270
 width=78
 height=10
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -882,7 +882,7 @@ y=282
 width=78
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -893,7 +893,7 @@ y=294
 width=78
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -947,7 +947,7 @@ width=50
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -959,7 +959,7 @@ width=53
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -971,7 +971,7 @@ width=47
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 

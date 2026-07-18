@@ -34,7 +34,7 @@ height=26
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Clockwork Toys - A Clockwork Mechanism, Chapter 1.0"
 
@@ -73,7 +73,7 @@ y=172
 width=206
 height=116
 colour=0x534A41
-font=496
+font=b12_full
 text="Making a clockwork toy is very simple and a good place to start for new crafters. Simply create a clockwork mechanism on your Crafting table, then use it and a wood plank to make a toy soldier or a doll. Wind them up and watch them go!"
 
 [description02]
@@ -83,7 +83,7 @@ y=73
 width=129
 height=45
 colour=0x302C27
-font=496
+font=b12_full
 text="Multi-rotation head for lifelike simulation"
 
 [description03]
@@ -93,7 +93,7 @@ y=121
 width=121
 height=33
 colour=0x302C27
-font=496
+font=b12_full
 text="A well-hidden clockwork system"
 
 [clockwork_mechanism]
@@ -113,7 +113,7 @@ y=81
 width=79
 height=41
 colour=0x302C27
-font=496
+font=b12_full
 text="The clockwork mechanism."
 
 [paper_note]
@@ -135,7 +135,7 @@ width=188
 height=120
 colour=0x000041
 lineHeight=12
-font=764
+font=barbassault_font
 text="It would be simple to alter the design by adding a piece of silk to the wooden frame and clockwork mechanism. You could make a suit that could be controlled from the inside."
 
 [paperclip]

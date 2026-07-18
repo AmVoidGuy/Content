@@ -16,7 +16,7 @@ width=350
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Name"
 
 [chat1a]
@@ -26,7 +26,7 @@ y=40
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [chat1next]
@@ -37,7 +37,7 @@ width=350
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

@@ -5,7 +5,7 @@ width=480
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Title"
 
 [tut2_a]
@@ -14,7 +14,7 @@ y=26
 width=480
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [tut2_b]
@@ -23,7 +23,7 @@ y=42
 width=480
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [tut2_c]
@@ -32,7 +32,7 @@ y=58
 width=480
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [tut2_d]
@@ -41,5 +41,5 @@ y=74
 width=480
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line4"

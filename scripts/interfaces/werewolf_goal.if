@@ -39,7 +39,7 @@ width=64
 height=18
 colour=0xFEA924
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Time"
 
@@ -51,7 +51,7 @@ width=38
 height=18
 colour=0xF4BE68
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="4:17"
 
@@ -63,7 +63,7 @@ width=23
 height=14
 colour=0xF4BE68
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="300"
 
@@ -75,7 +75,7 @@ width=108
 height=17
 colour=0xFEA924
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="XP score"
 

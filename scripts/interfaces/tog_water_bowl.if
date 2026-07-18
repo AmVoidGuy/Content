@@ -286,7 +286,7 @@ height=17
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Water Collected"
 
@@ -299,7 +299,7 @@ height=14
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Time Left"
 
@@ -321,7 +321,7 @@ y=216
 width=17
 height=14
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="%1"
 script1op1=varbit,tog_tears_collected

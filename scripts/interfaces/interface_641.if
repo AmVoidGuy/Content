@@ -94,7 +94,7 @@ y=30
 width=30
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Style:"
 
@@ -105,7 +105,7 @@ y=30
 width=50
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Options:"
 
@@ -238,7 +238,7 @@ width=80
 height=12
 layerId=42008602
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Tourn. Size:"
 
@@ -250,7 +250,7 @@ width=75
 height=12
 layerId=42008602
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -263,7 +263,7 @@ height=16
 layerId=42008602
 colour=0xCC9900
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Round Time:"
 
@@ -275,7 +275,7 @@ width=80
 height=16
 layerId=42008602
 colour=0xCC9900
-font=495
+font=p12_full
 shadow=yes
 
 [com_32]
@@ -286,7 +286,7 @@ width=63
 height=12
 colour=0xCC9900
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Tourn. Value:"
 
@@ -297,7 +297,7 @@ y=90
 width=80
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 
 [opponent_txt]
@@ -309,7 +309,7 @@ height=12
 layerId=42008602
 colour=0xCC9900
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Opponent:"
 
@@ -321,7 +321,7 @@ width=80
 height=12
 layerId=42008602
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 
 [rank_txt]
@@ -331,7 +331,7 @@ y=54
 width=92
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Tourn. Rank:"
 
@@ -342,7 +342,7 @@ y=66
 width=60
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="0"
 onvartransmit=564,component.parentId
@@ -355,7 +355,7 @@ y=293
 width=254
 height=32
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 
 [tooltip]

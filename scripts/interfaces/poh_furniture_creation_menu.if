@@ -806,7 +806,7 @@ width=159
 height=15
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Armchairs"
 
@@ -818,7 +818,7 @@ width=159
 height=17
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Bookcases"
 
@@ -830,7 +830,7 @@ width=159
 height=15
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Beer Barrels"
 
@@ -842,7 +842,7 @@ width=159
 height=16
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Kitchen Tables"
 
@@ -854,7 +854,7 @@ width=159
 height=19
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Dining Tables"
 
@@ -866,7 +866,7 @@ width=160
 height=17
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Dining Benches"
 
@@ -878,7 +878,7 @@ width=159
 height=17
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Beds"
 
@@ -890,7 +890,7 @@ width=160
 height=18
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Dressers"
 
@@ -902,7 +902,7 @@ width=160
 height=16
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Wardrobes"
 
@@ -914,7 +914,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Clocks"
 
@@ -926,7 +926,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Cape Racks"
 
@@ -938,7 +938,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Magic Wardrobes"
 
@@ -950,7 +950,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Armour cases "
 
@@ -962,7 +962,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Treasure trail chests"
 
@@ -974,7 +974,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Fancy dress boxes "
 
@@ -986,7 +986,7 @@ width=160
 height=14
 layerId=26017862
 colour=0xCCCCFF
-font=495
+font=p12_full
 shadow=yes
 text="Toy boxes "
 
@@ -1237,7 +1237,7 @@ y=60
 width=380
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Select a piece of furniture to build"
 
@@ -1281,7 +1281,7 @@ width=408
 height=13
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Furniture  Creation Menu"
 

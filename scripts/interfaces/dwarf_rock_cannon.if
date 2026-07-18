@@ -46,7 +46,7 @@ height=17
 layerId=7340040
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Name"
 
@@ -59,7 +59,7 @@ height=17
 layerId=7340040
 colour=0xC9C980
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [dwarf_rock_zoom_npchead]
@@ -83,7 +83,7 @@ height=17
 layerId=7340041
 colour=0xC9C980
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [dwarf_rock_zoom_npclayer]

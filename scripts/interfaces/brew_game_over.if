@@ -196,7 +196,7 @@ width=382
 height=17
 colour=0x333308
 hAlign=Center
-font=497
+font=q8_full
 text="Congratulations!  Your team won!"
 
 [brew_score]
@@ -207,7 +207,7 @@ width=170
 height=34
 colour=0x333308
 hAlign=Center
-font=497
+font=q8_full
 text="The final score was:"
 
 [brew_pieces_of_eight]
@@ -218,7 +218,7 @@ width=168
 height=51
 colour=0x333308
 hAlign=Center
-font=497
+font=q8_full
 text="You were awarded 999 Pieces of Eight!"
 
 [brew_dan_final_score]
@@ -228,7 +228,7 @@ y=131
 width=16
 height=14
 colour=0xFF0000
-font=497
+font=q8_full
 text="99"
 
 [brew_san_final_score]
@@ -238,7 +238,7 @@ y=131
 width=16
 height=14
 colour=0x0000FF
-font=497
+font=q8_full
 text="99"
 
 [extra_text]
@@ -248,7 +248,7 @@ y=132
 width=4
 height=14
 colour=0x333308
-font=497
+font=q8_full
 text=":"
 
 [brew_xpreward]
@@ -259,7 +259,7 @@ width=158
 height=28
 colour=0x333308
 hAlign=Center
-font=497
+font=q8_full
 
 [com_26]
 type=Sprite

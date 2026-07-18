@@ -43,7 +43,7 @@ height=27
 colour=0x46320A
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 
 [congratulations_]
 type=Text
@@ -54,7 +54,7 @@ height=23
 colour=0x46320A
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 text="Congratulations!"
 
 [subsection_title]
@@ -66,7 +66,7 @@ height=12
 colour=0x46320A
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 
 [icons]
 type=Sprite

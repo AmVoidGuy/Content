@@ -15,7 +15,7 @@ y=108
 width=287
 height=94
 vAlign=3
-font=497
+font=q8_full
 
 [kings_letter_signature]
 type=Text
@@ -24,7 +24,7 @@ y=216
 width=157
 height=46
 hAlign=Center
-font=497
+font=q8_full
 
 [com_3]
 type=Sprite

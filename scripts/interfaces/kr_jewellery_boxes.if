@@ -70,7 +70,7 @@ width=276
 height=276
 layerId=25559047
 colour=0x46320A
-font=497
+font=q8_full
 
 [kr_riddle_text_layer]
 type=Layer
@@ -89,7 +89,7 @@ height=71
 colour=0xD2BE64
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Show riddle"
 eventCode=hasOp(1)
 opName0="Show"

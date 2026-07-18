@@ -659,7 +659,7 @@ width=469
 height=15
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Reinald's Smithing Emporium"
 
@@ -671,7 +671,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Bare arms"
 
@@ -701,7 +701,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Silver wristguards"
 
@@ -731,7 +731,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Silver clasps"
 
@@ -761,7 +761,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Silver bangles"
 
@@ -791,7 +791,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Silver banding"
 
@@ -821,7 +821,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Silver bands"
 
@@ -851,7 +851,7 @@ width=124
 height=16
 layerId=38994035
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Silver armguards"
 
@@ -881,7 +881,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Bare arms"
 
@@ -911,7 +911,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Gold wristguards"
 
@@ -941,7 +941,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Gold clasps"
 
@@ -971,7 +971,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Gold bangles"
 
@@ -1001,7 +1001,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Gold banding"
 
@@ -1031,7 +1031,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Gold bands"
 
@@ -1061,7 +1061,7 @@ width=124
 height=16
 layerId=38994036
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Gold armguards"
 
@@ -1118,7 +1118,7 @@ width=70
 height=32
 layerId=38994039
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="500 Coins"
 

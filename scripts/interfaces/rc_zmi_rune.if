@@ -516,7 +516,7 @@ height=30
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Pay Bank Charge With..."
 
@@ -530,7 +530,7 @@ layerId=40566826
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 
 [mind_fade]

@@ -184,7 +184,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Are you sure you want to fight this duel?"
 
@@ -211,7 +211,7 @@ height=15
 layerId=41025557
 colour=0xBF751D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="You are about to stake:"
 baseOpName=" "
@@ -225,7 +225,7 @@ height=15
 layerId=41025558
 colour=0xBF751D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Your opponent will stake:"
 
@@ -238,7 +238,7 @@ height=11
 layerId=41025557
 colour=0x77736A
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Absolutely nothing!"
 
@@ -251,7 +251,7 @@ height=11
 layerId=41025558
 colour=0x77736A
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Absolutely nothing!"
 
@@ -262,7 +262,7 @@ y=55
 width=221
 height=12
 colour=0xBF751D
-font=494
+font=p11_full
 shadow=yes
 text="Before the duel starts:"
 
@@ -273,7 +273,7 @@ y=80
 width=231
 height=13
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -284,7 +284,7 @@ y=92
 width=231
 height=13
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -295,7 +295,7 @@ y=104
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -306,7 +306,7 @@ y=116
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -317,7 +317,7 @@ y=129
 width=223
 height=11
 colour=0xBF751D
-font=494
+font=p11_full
 shadow=yes
 text="During the duel:"
 
@@ -328,7 +328,7 @@ y=142
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -339,7 +339,7 @@ y=154
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -350,7 +350,7 @@ y=166
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -361,7 +361,7 @@ y=178
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -372,7 +372,7 @@ y=190
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -383,7 +383,7 @@ y=202
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -394,7 +394,7 @@ y=214
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -405,7 +405,7 @@ y=226
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -416,7 +416,7 @@ y=68
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="Lots of y's and g's"
 
@@ -427,7 +427,7 @@ y=238
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -438,7 +438,7 @@ y=250
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -449,7 +449,7 @@ y=262
 width=232
 height=11
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -461,7 +461,7 @@ width=243
 height=15
 colour=0x77736A
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Waiting for other player..."
 
@@ -473,7 +473,7 @@ width=188
 height=200
 layerId=41025584
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 
 [opponent_text]
@@ -484,7 +484,7 @@ width=188
 height=200
 layerId=41025585
 colour=0xAAAAAA
-font=494
+font=p11_full
 shadow=yes
 
 [minigamefools]
@@ -543,7 +543,7 @@ colour=0x00CC00
 hAlign=Center
 vAlign=Center
 lineHeight=12
-font=495
+font=p12_full
 shadow=yes
 text="Accept"
 eventCode=hasOp(1)
@@ -573,7 +573,7 @@ colour=0xCC0000
 hAlign=Center
 vAlign=Center
 lineHeight=12
-font=495
+font=p12_full
 shadow=yes
 text="Decline"
 eventCode=hasOp(1)

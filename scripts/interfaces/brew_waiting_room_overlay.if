@@ -22,7 +22,7 @@ y=291
 width=9
 height=14
 colour=0x990000
-font=496
+font=b12_full
 text="0"
 
 [blue_count]
@@ -32,7 +32,7 @@ y=291
 width=9
 height=14
 colour=0x0000CC
-font=496
+font=b12_full
 text="0"
 
 [time_text]
@@ -43,7 +43,7 @@ width=155
 height=18
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Next Game In :"
 
@@ -54,5 +54,5 @@ y=274
 width=116
 height=16
 hAlign=Center
-font=495
+font=p12_full
 text="Players waiting"

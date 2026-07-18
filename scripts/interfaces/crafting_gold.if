@@ -130,7 +130,7 @@ height=24
 colour=0xFF991F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="What would you like to make?"
 
@@ -162,7 +162,7 @@ width=378
 height=36
 layerId=29229070
 colour=0xFF991F
-font=495
+font=p12_full
 shadow=yes
 text="You need a ring mould to craft rings."
 
@@ -173,7 +173,7 @@ y=66
 width=394
 height=25
 colour=0xFF9900
-font=496
+font=b12_full
 shadow=yes
 text="Rings"
 
@@ -433,7 +433,7 @@ width=378
 height=36
 layerId=29229092
 colour=0xFF991F
-font=495
+font=p12_full
 shadow=yes
 text="You need a necklace mould to craft necklaces."
 
@@ -444,7 +444,7 @@ y=127
 width=394
 height=25
 colour=0xFF9900
-font=496
+font=b12_full
 shadow=yes
 text="Necklaces"
 
@@ -651,7 +651,7 @@ width=378
 height=36
 layerId=29229111
 colour=0xFF991F
-font=495
+font=p12_full
 shadow=yes
 text="You need an amulet mould to craft amulets."
 
@@ -662,7 +662,7 @@ y=188
 width=394
 height=25
 colour=0xFF9900
-font=496
+font=b12_full
 shadow=yes
 text="Amulets"
 
@@ -869,7 +869,7 @@ width=378
 height=36
 layerId=29229130
 colour=0xFF991F
-font=495
+font=p12_full
 shadow=yes
 text="You need a bracelet mould to craft bracelets."
 
@@ -880,7 +880,7 @@ y=249
 width=394
 height=25
 colour=0xFF9900
-font=496
+font=b12_full
 shadow=yes
 text="Bracelets"
 

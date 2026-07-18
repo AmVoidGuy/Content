@@ -6,7 +6,7 @@ width=416
 height=27
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 
 [text3]
 type=Text
@@ -16,7 +16,7 @@ width=416
 height=30
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 
 [text2]
 type=Text
@@ -26,7 +26,7 @@ width=416
 height=37
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Open your stats menu and click on the flashing icon for more information."
 
 [close]
@@ -37,7 +37,7 @@ width=416
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

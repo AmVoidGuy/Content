@@ -5,7 +5,7 @@ y=29
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [mes1next]
@@ -16,7 +16,7 @@ width=350
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

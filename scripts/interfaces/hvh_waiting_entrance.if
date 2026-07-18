@@ -74,7 +74,7 @@ layerId=47906824
 colour=0xFF9900
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Rating"
 
@@ -161,7 +161,7 @@ layerId=47906833
 colour=0xFF9900
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Text"
 
@@ -246,7 +246,7 @@ height=20
 layerId=47906842
 colour=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="The following item is not allowed in the arena:"
 

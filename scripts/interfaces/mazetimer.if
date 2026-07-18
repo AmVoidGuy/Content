@@ -6,7 +6,7 @@ width=370
 height=21
 colour=0xEAEAEA
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Complete the Maze as fast as possible!"
 
@@ -19,7 +19,7 @@ height=18
 layerId=13697028
 colour=0xD1D1D1
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="There is..."
 
@@ -32,7 +32,7 @@ height=16
 layerId=13697028
 colour=0x948000
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="%1%"
 script1op1=varp,macro_transmit
@@ -46,7 +46,7 @@ height=19
 layerId=13697028
 colour=0xD1D1D1
 hAlign=Right
-font=497
+font=q8_full
 shadow=yes
 text="... of the Reward left!"
 

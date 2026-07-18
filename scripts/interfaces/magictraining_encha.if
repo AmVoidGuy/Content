@@ -16,7 +16,7 @@ width=139
 height=19
 colour=0x9E7144
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Enchantment"
 
@@ -29,7 +29,7 @@ height=23
 colour=0x996600
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Pizazz Points:"
 
@@ -40,7 +40,7 @@ y=38
 width=28
 height=12
 colour=0xCC6600
-font=494
+font=p11_full
 shadow=yes
 text="9999"
 
@@ -133,6 +133,6 @@ height=36
 colour=0x996600
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Bonus:"

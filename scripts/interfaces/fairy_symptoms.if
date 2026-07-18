@@ -16,7 +16,7 @@ width=293
 height=17
 colour=0xFFFF00
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="List of Fairy Queen's Symptoms."
 
@@ -36,7 +36,7 @@ y=129
 width=259
 height=140
 colour=0xFFFF99
-font=497
+font=q8_full
 shadow=yes
 text=" Extremely weak<br>Slow discorporation of ethereal body<br>Drifting in and out of coma<br>Shallow breath<br>Fading magical energy<br>High fever"
 

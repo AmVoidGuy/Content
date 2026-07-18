@@ -105,7 +105,7 @@ height=15
 colour=0xE1961F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Upcoming Tournament Rules: Registrar #"
 
@@ -353,7 +353,7 @@ y=48
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Tournament Value:"
 
@@ -364,7 +364,7 @@ y=67
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Rank Required:"
 
@@ -375,7 +375,7 @@ y=86
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Entry Fee:"
 
@@ -386,7 +386,7 @@ y=105
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Potions:"
 
@@ -397,7 +397,7 @@ y=124
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Food:"
 
@@ -408,7 +408,7 @@ y=143
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Prayer:"
 
@@ -419,7 +419,7 @@ y=162
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Special Attacks:"
 
@@ -430,7 +430,7 @@ y=181
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Obstacles:"
 
@@ -441,7 +441,7 @@ y=200
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Ranged:"
 
@@ -452,7 +452,7 @@ y=219
 width=100
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Melee:"
 
@@ -463,7 +463,7 @@ y=238
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Magic:"
 
@@ -474,7 +474,7 @@ y=257
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Heal Between Rounds:"
 
@@ -485,7 +485,7 @@ y=276
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Weapon Slots Only:"
 
@@ -496,7 +496,7 @@ y=295
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="Summoning:"
 
@@ -507,7 +507,7 @@ y=48
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -518,7 +518,7 @@ y=67
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="rank"
 
@@ -529,7 +529,7 @@ y=86
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="fee"
 
@@ -540,7 +540,7 @@ y=105
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="fee"
 
@@ -551,7 +551,7 @@ y=124
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="fee"
 
@@ -562,7 +562,7 @@ y=143
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="fee"
 
@@ -573,7 +573,7 @@ y=162
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="spec"
 
@@ -584,7 +584,7 @@ y=181
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="obstacles"
 
@@ -595,7 +595,7 @@ y=200
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="ranged"
 
@@ -606,7 +606,7 @@ y=219
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="melee"
 
@@ -617,7 +617,7 @@ y=238
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="magic"
 
@@ -628,7 +628,7 @@ y=257
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="heal"
 
@@ -639,7 +639,7 @@ y=276
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="weapon"
 
@@ -650,6 +650,6 @@ y=295
 width=100
 height=12
 colour=0xE1961F
-font=494
+font=p11_full
 shadow=yes
 text="summon"

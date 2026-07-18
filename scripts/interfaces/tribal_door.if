@@ -382,7 +382,7 @@ width=9
 height=17
 colour=0xFF9933
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="A"
 
@@ -394,7 +394,7 @@ width=9
 height=17
 colour=0xFF9933
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="A"
 
@@ -406,7 +406,7 @@ width=9
 height=17
 colour=0xFF9933
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="A"
 
@@ -418,7 +418,7 @@ width=9
 height=17
 colour=0xFF9933
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="A"
 
@@ -519,7 +519,7 @@ height=16
 colour=0xFF9933
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Combination Lock Door"
 
@@ -543,7 +543,7 @@ height=28
 colour=0xFF9933
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Enter"
 

@@ -48,7 +48,7 @@ width=9
 height=14
 layerId=27197440
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -60,7 +60,7 @@ width=9
 height=14
 layerId=27197440
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -72,7 +72,7 @@ width=9
 height=14
 layerId=27197440
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -454,7 +454,7 @@ y=288
 width=9
 height=14
 colour=0x990000
-font=496
+font=b12_full
 text="0"
 
 [blue_score]
@@ -464,7 +464,7 @@ y=287
 width=9
 height=14
 colour=0x0000CC
-font=496
+font=b12_full
 text="0"
 
 [red_bottle_off]
@@ -591,7 +591,7 @@ y=23
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -602,7 +602,7 @@ y=23
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -613,7 +613,7 @@ y=23
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -624,7 +624,7 @@ y=23
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -635,7 +635,7 @@ y=23
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -646,7 +646,7 @@ y=23
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -657,7 +657,7 @@ y=24
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -668,7 +668,7 @@ y=24
 width=9
 height=14
 colour=0x910000
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -681,7 +681,7 @@ height=14
 layerId=27197482
 colour=0xFFFF00
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Current Score"
 
@@ -693,6 +693,6 @@ width=141
 height=14
 colour=0xFFFF00
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Time Left : 20 Mins"

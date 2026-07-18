@@ -19,7 +19,7 @@ x=53
 y=56
 width=297
 height=17
-font=497
+font=q8_full
 text="List of needed items:"
 
 [mourning_deathalter_item1]
@@ -29,7 +29,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item1"
 
 [com_4]
@@ -51,7 +51,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item2"
 
 [mourning_deathalter_item3]
@@ -62,7 +62,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item3"
 
 [mourning_deathalter_item4]
@@ -73,7 +73,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item4"
 
 [mourning_deathalter_item5]
@@ -84,7 +84,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item5"
 
 [mourning_deathalter_item6]
@@ -95,7 +95,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item6"
 
 [mourning_deathalter_item7]
@@ -106,7 +106,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item7"
 
 [mourning_deathalter_item8]
@@ -117,7 +117,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item8"
 
 [mourning_deathalter_item9]
@@ -128,7 +128,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item9"
 
 [mourning_deathalter_item10]
@@ -139,7 +139,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item10"
 
 [mourning_deathalter_item11]
@@ -150,7 +150,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item11"
 
 [mourning_deathalter_item12]
@@ -161,7 +161,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item12"
 
 [mourning_deathalter_item13]
@@ -172,7 +172,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item13"
 
 [mourning_deathalter_item14]
@@ -183,7 +183,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item14"
 
 [mourning_deathalter_item15]
@@ -194,7 +194,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item15"
 
 [mourning_deathalter_item16]
@@ -205,7 +205,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item16"
 
 [mourning_deathalter_item17]
@@ -216,7 +216,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item17"
 
 [mourning_deathalter_item18]
@@ -227,7 +227,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item18"
 
 [mourning_deathalter_item19]
@@ -238,7 +238,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item19"
 
 [mourning_deathalter_item20]
@@ -249,7 +249,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item20"
 
 [mourning_deathalter_item21]
@@ -260,7 +260,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item21"
 
 [mourning_deathalter_item22]
@@ -271,7 +271,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item22"
 
 [mourning_deathalter_item23]
@@ -282,7 +282,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item23"
 
 [mourning_deathalter_item24]
@@ -293,7 +293,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item24"
 
 [mourning_deathalter_item25]
@@ -304,7 +304,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item25"
 
 [mourning_deathalter_item26]
@@ -315,7 +315,7 @@ width=330
 height=15
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item26"
 
 [mourning_deathalter_item27]
@@ -326,7 +326,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item27"
 
 [mourning_deathalter_item28]
@@ -337,7 +337,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item28"
 
 [mourning_deathalter_item29]
@@ -348,7 +348,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item29"
 
 [mourning_deathalter_item30]
@@ -359,7 +359,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item30"
 
 [mourning_deathalter_item31]
@@ -370,7 +370,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item31"
 
 [mourning_deathalter_item32]
@@ -381,7 +381,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item32"
 
 [mourning_deathalter_item33]
@@ -392,7 +392,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item33"
 
 [mourning_deathalter_item34]
@@ -403,7 +403,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item34"
 
 [mourning_deathalter_item35]
@@ -414,7 +414,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item35"
 
 [mourning_deathalter_item36]
@@ -425,7 +425,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item36"
 
 [mourning_deathalter_item37]
@@ -436,7 +436,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item37"
 
 [mourning_deathalter_item38]
@@ -447,7 +447,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item38"
 
 [mourning_deathalter_item39]
@@ -458,7 +458,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item39"
 
 [mourning_deathalter_item40]
@@ -469,7 +469,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item40"
 
 [mourning_deathalter_item41]
@@ -480,7 +480,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item41"
 
 [mourning_deathalter_item42]
@@ -491,7 +491,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item42"
 
 [mourning_deathalter_item43]
@@ -502,7 +502,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item43"
 
 [mourning_deathalter_item44]
@@ -513,7 +513,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item44"
 
 [mourning_deathalter_item45]
@@ -524,7 +524,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item45"
 
 [mourning_deathalter_item46]
@@ -535,7 +535,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item46"
 
 [mourning_deathalter_item47]
@@ -546,7 +546,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item47"
 
 [mourning_deathalter_item48]
@@ -557,7 +557,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item48"
 
 [mourning_deathalter_item49]
@@ -568,7 +568,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item49"
 
 [mourning_deathalter_item50]
@@ -579,7 +579,7 @@ width=331
 height=14
 layerId=14876673
 hAlign=Center
-font=495
+font=p12_full
 text="mourning_deathalter_item50"
 
 [com_54]

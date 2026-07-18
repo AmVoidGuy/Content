@@ -271,7 +271,7 @@ width=47
 height=14
 layerId=23986196
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="Water:"
 
@@ -283,7 +283,7 @@ height=14
 layerId=23986196
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Net:"
 
@@ -296,7 +296,7 @@ height=14
 layerId=23986196
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Catch:"
 
@@ -309,7 +309,7 @@ height=14
 layerId=23986196
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Time left:"
 
@@ -331,7 +331,7 @@ width=28
 height=14
 layerId=23986196
 colour=0x00FF24
-font=495
+font=p12_full
 shadow=yes
 text="Okay"
 
@@ -343,7 +343,7 @@ width=66
 height=14
 layerId=23986196
 colour=0xFF0000
-font=495
+font=p12_full
 shadow=yes
 text="Ripped!"
 
@@ -355,7 +355,7 @@ width=44
 height=14
 layerId=23986196
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="Nothing"
 
@@ -367,6 +367,6 @@ width=75
 height=14
 layerId=23986196
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="10 mins"

@@ -710,7 +710,7 @@ width=474
 height=15
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Yrsa's Shoe Store"
 
@@ -724,7 +724,7 @@ height=17
 colour=0x00FF00
 colourOver=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="CONFIRM (500 GOLD)"
 eventCode=flag22

@@ -35,7 +35,7 @@ width=180
 height=14
 colour=0xFF9933
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Ignore List"
 
@@ -70,7 +70,7 @@ height=33
 colour=0xFF9933
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Add Name"
 
@@ -83,7 +83,7 @@ height=30
 colour=0xFF9933
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Del Name"
 
@@ -114,5 +114,5 @@ height=100
 colour=0xFFFFFF
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes

@@ -18,7 +18,7 @@ y=103
 width=119
 height=46
 colour=0xBF751D
-font=496
+font=b12_full
 shadow=yes
 text="Tok-Xil-Im"
 
@@ -29,7 +29,7 @@ y=149
 width=119
 height=46
 colour=0xBF751D
-font=496
+font=b12_full
 shadow=yes
 text="Tok-Ket-Hurt"
 
@@ -40,7 +40,7 @@ y=195
 width=119
 height=46
 colour=0xBF751D
-font=496
+font=b12_full
 shadow=yes
 text="TokJal-Hurt"
 
@@ -51,7 +51,7 @@ y=105
 width=32
 height=32
 colour=0xBF751D
-font=776
+font=tzhaar_numbers
 shadow=yes
 text="a"
 
@@ -62,7 +62,7 @@ y=151
 width=32
 height=32
 colour=0xBF751D
-font=776
+font=tzhaar_numbers
 shadow=yes
 text="ah"
 
@@ -73,7 +73,7 @@ y=196
 width=32
 height=32
 colour=0xBF751D
-font=776
+font=tzhaar_numbers
 shadow=yes
 text="ac"
 

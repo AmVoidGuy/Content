@@ -710,7 +710,7 @@ width=472
 height=17
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Thessalia's Makeovers (Torso)"
 
@@ -956,7 +956,7 @@ height=17
 colour=0x00FF00
 colourOver=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="CONFIRM (500 gold)"
 eventCode=flag22
@@ -1129,7 +1129,7 @@ width=468
 height=18
 colour=0xC9800D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Select body style"
 
@@ -1141,7 +1141,7 @@ width=470
 height=16
 colour=0xC9800D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Select arms style"
 
@@ -1153,7 +1153,7 @@ width=468
 height=17
 colour=0xC9800D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Select colour"
 

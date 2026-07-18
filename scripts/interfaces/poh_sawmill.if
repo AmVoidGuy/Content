@@ -710,7 +710,7 @@ width=464
 height=19
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 text="What wood do you want converting to planks?"
 
 [woodplanks]
@@ -793,7 +793,7 @@ width=97
 height=38
 colour=0x00CFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Wood <br> Cost = 100"
 
@@ -805,7 +805,7 @@ width=96
 height=38
 colour=0x00CFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Oak <br> Cost = 250         "
 
@@ -817,7 +817,7 @@ width=96
 height=37
 colour=0x00CFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Teak <br> Cost = 500"
 
@@ -829,7 +829,7 @@ width=96
 height=37
 colour=0x00CFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Mahogany <br> Cost = 1500"
 
@@ -847,7 +847,7 @@ width=96
 height=90
 layerId=26411109
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 buttonText="Buy <col=ff7000>All"
 eventCode=flag22
@@ -859,7 +859,7 @@ width=96
 height=90
 layerId=26411109
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>X"
 eventCode=flag22
 
@@ -870,7 +870,7 @@ width=96
 height=90
 layerId=26411109
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>10"
 eventCode=flag22
 
@@ -881,7 +881,7 @@ width=96
 height=90
 layerId=26411109
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>5"
 eventCode=flag22
 
@@ -901,7 +901,7 @@ width=96
 height=90
 layerId=26411109
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>1"
 eventCode=flag22
 
@@ -919,7 +919,7 @@ width=96
 height=90
 layerId=26411116
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 buttonText="Buy <col=ff7000>All"
 eventCode=flag22
@@ -931,7 +931,7 @@ width=96
 height=90
 layerId=26411116
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>X"
 eventCode=flag22
 
@@ -942,7 +942,7 @@ width=96
 height=90
 layerId=26411116
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>10"
 eventCode=flag22
 
@@ -953,7 +953,7 @@ width=96
 height=90
 layerId=26411116
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>5"
 eventCode=flag22
 
@@ -964,7 +964,7 @@ width=96
 height=90
 layerId=26411116
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>1"
 eventCode=flag22
 
@@ -982,7 +982,7 @@ width=96
 height=90
 layerId=26411122
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 buttonText="Buy <col=ff7000>All"
 eventCode=flag22
@@ -994,7 +994,7 @@ width=96
 height=90
 layerId=26411122
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>X"
 eventCode=flag22
 
@@ -1005,7 +1005,7 @@ width=96
 height=90
 layerId=26411122
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>10"
 eventCode=flag22
 
@@ -1016,7 +1016,7 @@ width=96
 height=90
 layerId=26411122
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>5"
 eventCode=flag22
 
@@ -1027,7 +1027,7 @@ width=96
 height=90
 layerId=26411122
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>1"
 eventCode=flag22
 
@@ -1045,7 +1045,7 @@ width=96
 height=90
 layerId=26411128
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 buttonText="Buy <col=ff7000>All"
 eventCode=flag22
@@ -1057,7 +1057,7 @@ width=96
 height=90
 layerId=26411128
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>X"
 eventCode=flag22
 
@@ -1068,7 +1068,7 @@ width=96
 height=90
 layerId=26411128
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>10"
 eventCode=flag22
 
@@ -1079,7 +1079,7 @@ width=96
 height=90
 layerId=26411128
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>5"
 eventCode=flag22
 
@@ -1090,7 +1090,7 @@ width=96
 height=90
 layerId=26411128
 colour=0xFFFF00
-font=495
+font=p12_full
 buttonText="Buy <col=ff7000>1"
 eventCode=flag22
 

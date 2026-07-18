@@ -253,7 +253,7 @@ height=21
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Gravestones"
 
@@ -265,7 +265,7 @@ width=140
 height=30
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 
 [info_text]
@@ -276,7 +276,7 @@ width=140
 height=114
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [menu_layer]
@@ -320,7 +320,7 @@ colour=0xBF751D
 hAlign=Center
 vAlign=Center
 lineHeight=15
-font=496
+font=b12_full
 shadow=yes
 onmouseover=45,42729507,14784543
 onmouseleave=45,42729507,12547357

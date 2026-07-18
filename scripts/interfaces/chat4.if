@@ -16,7 +16,7 @@ width=350
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Name"
 
 [chat4a]
@@ -26,7 +26,7 @@ y=16
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [chat4b]
@@ -36,7 +36,7 @@ y=32
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [chat4c]
@@ -46,7 +46,7 @@ y=48
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [chat4d]
@@ -56,7 +56,7 @@ y=64
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line4"
 
 [chat4next]
@@ -67,7 +67,7 @@ width=350
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

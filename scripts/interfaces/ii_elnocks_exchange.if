@@ -606,7 +606,7 @@ width=315
 height=18
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Elnock's Exchange"
 
@@ -618,7 +618,7 @@ width=476
 height=19
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Make your selection and press confirm"
 
@@ -769,7 +769,7 @@ y=104
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x3"
 
@@ -788,7 +788,7 @@ y=103
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x2"
 
@@ -807,7 +807,7 @@ y=104
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1"
 
@@ -826,7 +826,7 @@ y=156
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x3"
 
@@ -845,7 +845,7 @@ y=155
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x2"
 
@@ -864,7 +864,7 @@ y=156
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1"
 
@@ -883,7 +883,7 @@ y=208
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x3"
 
@@ -902,7 +902,7 @@ y=207
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x2"
 
@@ -921,7 +921,7 @@ y=208
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1"
 
@@ -940,7 +940,7 @@ y=255
 width=224
 height=18
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1 of any impling type"
 
@@ -973,7 +973,7 @@ y=112
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1"
 
@@ -1006,7 +1006,7 @@ y=162
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1"
 
@@ -1039,7 +1039,7 @@ y=212
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x1"
 
@@ -1072,7 +1072,7 @@ y=265
 width=20
 height=16
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="x3"
 

@@ -16,7 +16,7 @@ width=73
 height=16
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Runeversi"
 
@@ -28,7 +28,7 @@ width=74
 height=11
 colour=0xAAAAAA
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Rank: %1"
 script1op1=varp,boardgames_runeversi_rank

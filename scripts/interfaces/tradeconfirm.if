@@ -281,7 +281,7 @@ height=16
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="You are about to give:"
 
@@ -294,7 +294,7 @@ height=16
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="In return you will receive:"
 
@@ -307,7 +307,7 @@ height=13
 colour=0x00FFFF
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Are you sure you want to make this trade?"
 
@@ -320,7 +320,7 @@ height=11
 colour=0xFFFFFF
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There is <col=ff0000>NO WAY<col=ffffff> to reverse a trade if you change your mind."
 
@@ -333,7 +333,7 @@ height=20
 colour=0x00C000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Accept"
 
@@ -346,7 +346,7 @@ height=19
 colour=0xC00000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Decline"
 
@@ -359,7 +359,7 @@ height=14
 hide=yes
 colour=0xFFFFFF
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Item"
 
@@ -372,7 +372,7 @@ height=14
 hide=yes
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Item"
 
@@ -385,7 +385,7 @@ height=14
 hide=yes
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Item"
 
@@ -398,7 +398,7 @@ height=14
 hide=yes
 colour=0xFFFFFF
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Item"
 
@@ -411,7 +411,7 @@ height=14
 hide=yes
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Item"
 
@@ -424,7 +424,7 @@ height=14
 hide=yes
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Item"
 
@@ -446,7 +446,7 @@ colour=0x00FFFF
 hAlign=Center
 vAlign=Bottom
 lineHeight=14
-font=496
+font=b12_full
 shadow=yes
 text="Trading with:<br>Unknown"
 onload=142
@@ -460,7 +460,7 @@ height=16
 hide=yes
 colour=0xFF0000
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Trade modified"
 
@@ -473,6 +473,6 @@ height=16
 hide=yes
 colour=0xFF0000
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Trade modified"

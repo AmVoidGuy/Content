@@ -606,7 +606,7 @@ width=471
 height=16
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Hairdresser's Salon"
 
@@ -814,7 +814,7 @@ height=15
 colour=0x00FF00
 colourOver=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="CONFIRM"
 eventCode=flag22
@@ -943,7 +943,7 @@ width=459
 height=15
 colour=0xC9800D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Please select colour"
 

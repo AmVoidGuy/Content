@@ -62,7 +62,7 @@ y=10
 width=139
 height=16
 colour=0xFFCCCC
-font=495
+font=p12_full
 shadow=yes
 text="Players waiting (need X):"
 
@@ -74,7 +74,7 @@ width=22
 height=16
 colour=0xFF6666
 hAlign=Right
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -94,7 +94,7 @@ width=105
 height=16
 layerId=42991624
 colour=0xFF3333
-font=495
+font=p12_full
 shadow=yes
 text="Game starting in:"
 
@@ -107,6 +107,6 @@ height=16
 layerId=42991624
 colour=0xFF6666
 hAlign=Right
-font=496
+font=b12_full
 shadow=yes
 text="100 Sec"

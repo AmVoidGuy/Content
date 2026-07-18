@@ -13,7 +13,7 @@ width=69
 height=32
 colour=0xFF981F
 hAlign=Right
-font=764
+font=barbassault_font
 shadow=yes
 text="Wave 1"
 
@@ -33,7 +33,7 @@ width=108
 height=32
 colour=0xFF981F
 hAlign=Right
-font=764
+font=barbassault_font
 shadow=yes
 text="Poison tofu"
 
@@ -53,7 +53,7 @@ width=46
 height=32
 colour=0xFF981F
 hAlign=Right
-font=764
+font=barbassault_font
 shadow=yes
 text="Tofu"
 
@@ -73,7 +73,7 @@ width=84
 height=32
 colour=0xFF981F
 hAlign=Right
-font=764
+font=barbassault_font
 shadow=yes
 text="Defender"
 
@@ -100,7 +100,7 @@ width=117
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Alex"
 
@@ -111,7 +111,7 @@ y=315
 width=86
 height=15
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="HP 50/78"
 
@@ -171,7 +171,7 @@ width=117
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Tim"
 
@@ -182,7 +182,7 @@ y=315
 width=90
 height=15
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="HP 88/88"
 
@@ -226,7 +226,7 @@ width=117
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Matt"
 
@@ -237,7 +237,7 @@ y=315
 width=90
 height=15
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="HP 24/54"
 
@@ -281,7 +281,7 @@ width=117
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Martin"
 
@@ -292,7 +292,7 @@ y=315
 width=90
 height=15
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="HP 61/62"
 

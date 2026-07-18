@@ -1603,7 +1603,7 @@ y=224
 width=32
 height=32
 colour=0x99FF99
-font=495
+font=p12_full
 shadow=yes
 text="1"
 
@@ -1614,7 +1614,7 @@ y=227
 width=32
 height=32
 colour=0x99FF99
-font=495
+font=p12_full
 shadow=yes
 text="2"
 
@@ -1625,7 +1625,7 @@ y=228
 width=32
 height=32
 colour=0x99FF99
-font=495
+font=p12_full
 shadow=yes
 text="3"
 
@@ -1636,7 +1636,7 @@ y=243
 width=32
 height=32
 colour=0x99FF99
-font=495
+font=p12_full
 shadow=yes
 text="4"
 
@@ -1649,7 +1649,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Use the valves"
 
@@ -1662,7 +1662,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="and the levers to"
 
@@ -1675,7 +1675,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="get the balls in"
 
@@ -1688,7 +1688,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="the holes, and "
 
@@ -1701,7 +1701,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="then increase the"
 
@@ -1714,7 +1714,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="pressure to fill"
 
@@ -1727,6 +1727,6 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="the pipes!"

@@ -4,7 +4,7 @@ x=21
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [mes5b]
@@ -14,7 +14,7 @@ y=16
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [mes5c]
@@ -24,7 +24,7 @@ y=32
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [mes5d]
@@ -34,7 +34,7 @@ y=48
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line4"
 
 [mes5e]
@@ -44,7 +44,7 @@ y=64
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line5"
 
 [mes5next]
@@ -55,7 +55,7 @@ width=350
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

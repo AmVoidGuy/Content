@@ -41,7 +41,7 @@ height=80
 colourOver=0xFFFFFF
 hAlign=Center
 vAlign=Bottom
-font=497
+font=q8_full
 eventCode=pauseButton
 
 [com_5]
@@ -54,7 +54,7 @@ height=79
 colourOver=0xFFFFFF
 hAlign=Center
 vAlign=Bottom
-font=497
+font=q8_full
 eventCode=pauseButton
 
 [com_6]
@@ -67,7 +67,7 @@ height=80
 colourOver=0xFFFFFF
 hAlign=Center
 vAlign=Bottom
-font=497
+font=q8_full
 eventCode=pauseButton
 
 [com_7]
@@ -78,7 +78,7 @@ width=464
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Select an Option"
 
 [com_8]

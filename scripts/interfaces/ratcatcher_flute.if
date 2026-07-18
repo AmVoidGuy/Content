@@ -106,7 +106,7 @@ y=35
 width=163
 height=19
 hAlign=Center
-font=497
+font=q8_full
 text="Page 1 of 8"
 
 [rc_flute_up_octave]
@@ -263,7 +263,7 @@ height=21
 colour=0xFF981F
 colourOver=0xFF0000
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="PLAY"
 buttonText="Play your tune."

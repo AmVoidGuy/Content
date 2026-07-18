@@ -71,7 +71,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=flag22
 
@@ -84,7 +84,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=flag22
 
@@ -97,7 +97,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=flag22
 
@@ -110,7 +110,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=flag22
 
@@ -123,7 +123,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=flag22
 
@@ -136,7 +136,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=flag22
 
@@ -149,7 +149,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=flag22
 
@@ -162,7 +162,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=flag22
 
@@ -175,7 +175,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=flag22
 
@@ -188,7 +188,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=flag22
 
@@ -201,7 +201,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=flag22
 
@@ -214,7 +214,7 @@ width=79
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=flag22
 
@@ -227,7 +227,7 @@ width=83
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=flag22
 
@@ -240,7 +240,7 @@ width=83
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=flag22
 
@@ -253,7 +253,7 @@ width=83
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=flag22
 
@@ -266,7 +266,7 @@ width=83
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=flag22
 
@@ -279,7 +279,7 @@ width=80
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=flag22
 
@@ -292,7 +292,7 @@ width=80
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=flag22
 
@@ -305,7 +305,7 @@ width=80
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=flag22
 
@@ -318,7 +318,7 @@ width=80
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=flag22
 
@@ -330,7 +330,7 @@ width=461
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="What would you like to make?"
 
 [com_29]
@@ -342,7 +342,7 @@ width=83
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=flag22
 
@@ -355,7 +355,7 @@ width=83
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=flag22
 
@@ -368,7 +368,7 @@ width=82
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=flag22
 
@@ -381,6 +381,6 @@ width=82
 height=80
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=flag22

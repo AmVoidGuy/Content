@@ -18,7 +18,7 @@ colour=0xCCCCCC
 colour2=0x666666
 hAlign=Center
 vAlign=Center
-font=648
+font=lunar_alphabet_lrg
 shadow=yes
 text="COSMIC<br>RUNEe<br>ALTAR"
 

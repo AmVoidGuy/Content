@@ -218,7 +218,7 @@ width=146
 height=19
 colour=0xE19900
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="WARNING!"
 
@@ -231,7 +231,7 @@ height=126
 colour=0xFF7D1F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="You are about to enter the Bounty Hunter minigame.<br><br>This is not a safe area - it involves player versus player combat and, if you die, you will lose all the items you are carrying!<br><br>If you kill players that are not your target, you will not be able to use the Protect Item prayer. Also you cannot drop items on the floor worth over 1000 gp."
 
@@ -245,7 +245,7 @@ colour=0xC8C8C8
 hAlign=Center
 vAlign=Center
 lineHeight=16
-font=496
+font=b12_full
 shadow=yes
 text="Enter<br>Crater"
 
@@ -258,7 +258,7 @@ height=56
 colour=0xC8C8C8
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Don't go"
 
@@ -271,7 +271,7 @@ height=15
 layerId=43057180
 colour=0xFF981F
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Don't ask me this again"
 

@@ -13,7 +13,7 @@ y=29
 width=458
 height=14
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Equip Your Character..."
 
@@ -217,7 +217,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Attack bonus"
 
@@ -229,7 +229,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Defence bonus"
 
@@ -241,7 +241,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Stab: +120"
 
@@ -253,7 +253,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Slash:+120"
 
@@ -265,7 +265,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Crush:+120"
 
@@ -277,7 +277,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Magic: +120"
 
@@ -289,7 +289,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Range: +120"
 
@@ -301,7 +301,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Stab: +120"
 
@@ -313,7 +313,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Slash: +120"
 
@@ -325,7 +325,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Crush: +120"
 
@@ -337,7 +337,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Magic: +120"
 
@@ -349,7 +349,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Range: +120"
 
@@ -361,7 +361,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Summoning: +120"
 
@@ -373,7 +373,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Other bonuses"
 
@@ -385,7 +385,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Strength: +120"
 
@@ -397,7 +397,7 @@ width=111
 height=15
 layerId=43712533
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Prayer: +120"
 
@@ -409,7 +409,7 @@ width=62
 height=17
 colour=0xFF9800
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="%1kg"
 

@@ -16,7 +16,7 @@ width=450
 height=20
 colour=0x666FFF
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Text"
 
@@ -28,6 +28,6 @@ width=450
 height=29
 colour=0x666FFF
 hAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Text"

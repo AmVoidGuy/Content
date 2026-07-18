@@ -37,7 +37,7 @@ y=133
 width=175
 height=14
 colour=0x1E1E2D
-font=496
+font=b12_full
 text="Question:"
 
 [sops_header]
@@ -47,7 +47,7 @@ y=38
 width=300
 height=65
 colour=0x232330
-font=645
+font=quill_oblique_large
 text="Player Safety Test"
 
 [duel_close_button]
@@ -70,7 +70,7 @@ y=148
 width=388
 height=32
 colour=0x242330
-font=497
+font=q8_full
 text="You are asked for your full name and date of birth by a player that you have been chatting with for a short while. Should you give them these details?"
 
 [com_7]
@@ -80,7 +80,7 @@ y=198
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="No. The player could use my information to steal my identity. I don't want anyone pretending to be me"
 
 [com_8]
@@ -90,7 +90,7 @@ y=252
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Yes. There's no harm in telling someone my full name and my birthday. Maybe they want to buy me a birthday present!"
 
 [sops_box1]
@@ -322,7 +322,7 @@ width=32
 height=32
 layerId=46530591
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Correct!"
 
@@ -334,7 +334,7 @@ width=388
 height=105
 layerId=46530591
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="Correct! Personal details given out while chatting could be used by someone who wishes to pretend to be you. Use the Report Abuse button to report anyone asking for your personal details."
 
@@ -355,7 +355,7 @@ width=32
 height=32
 layerId=46530594
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -367,7 +367,7 @@ width=390
 height=105
 layerId=46530594
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="Wrong. Never give out personal details, such as your full name and date of birth, to other players. Personal details that you give out while chatting could be used by someone so that they can pretend to be you. Use the Report Abuse button to report anyone asking  for your personal details."
 
@@ -406,6 +406,6 @@ layerId=46530597
 colour=0x909061
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Next"

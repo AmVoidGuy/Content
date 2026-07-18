@@ -70,7 +70,7 @@ y=133
 width=175
 height=14
 colour=0x1E1E2D
-font=496
+font=b12_full
 text="Question:"
 
 [sops_header]
@@ -80,7 +80,7 @@ y=38
 width=300
 height=65
 colour=0x232330
-font=645
+font=quill_oblique_large
 text="Player Safety Test"
 
 [duel_close_button]
@@ -103,7 +103,7 @@ y=148
 width=388
 height=32
 colour=0x242330
-font=497
+font=q8_full
 text="You are approached in the game by a player named JagMod999. This player claims to be a member of Jagex and asks for your personal details. What should you do?"
 
 [com_9]
@@ -113,7 +113,7 @@ y=201
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Do not answer any questions and report the player using the Report Abuse button at the bottom of the game screen"
 
 [com_10]
@@ -123,7 +123,7 @@ y=250
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Give them my details; they are a member of Jagex after all"
 
 [box1]
@@ -322,7 +322,7 @@ width=32
 height=32
 layerId=46333983
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Correct!"
 
@@ -334,7 +334,7 @@ width=388
 height=105
 layerId=46333983
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="Correct! A real Jagex Moderator would never ask for a player's personal details. You can always tell who an official moderator is as a gold crown will appear before anything they say in the chat window. You can report any player who claims to be a member of Jagex Staff by using the Report Abuse button. You can also use the ignore function, which can be found at the bottom of your game window. If you are at all "
 
@@ -346,7 +346,7 @@ width=320
 height=32
 layerId=46333983
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="concerned about the incident, speak to a parent, friend or adult that you trust."
 
@@ -367,7 +367,7 @@ width=32
 height=32
 layerId=46333987
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -379,7 +379,7 @@ width=390
 height=105
 layerId=46333987
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="A real Jagex Moderator would never ask for any of your personal details, so we would advise you keep them to yourself. You can report any player who claims to be a Jagex Moderator by using the Report Abuse button."
 
@@ -418,6 +418,6 @@ layerId=46333990
 colour=0x909061
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Next"

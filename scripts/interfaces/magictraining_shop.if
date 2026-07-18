@@ -36,7 +36,7 @@ height=39
 colour=0x3B223B
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Magic Training Arena Shop"
 
 [com_4]
@@ -48,7 +48,7 @@ height=14
 colour=0x5686C3
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Telekinetic Pizazz Points"
 
@@ -61,7 +61,7 @@ height=13
 colour=0x9E7144
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Enchantment Pizazz Points"
 
@@ -74,7 +74,7 @@ height=13
 colour=0x999999
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Graveyard Pizazz Points"
 
@@ -87,7 +87,7 @@ height=13
 colour=0x8CCC39
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Alchemist Pizazz Points"
 
@@ -98,7 +98,7 @@ y=296
 width=35
 height=12
 colour=0x66CCFF
-font=494
+font=p11_full
 shadow=yes
 text="99999"
 
@@ -109,7 +109,7 @@ y=312
 width=35
 height=12
 colour=0xCC6600
-font=494
+font=p11_full
 shadow=yes
 text="99999"
 
@@ -120,7 +120,7 @@ y=312
 width=35
 height=12
 colour=0x33CC00
-font=494
+font=p11_full
 shadow=yes
 text="99999"
 
@@ -131,7 +131,7 @@ y=296
 width=35
 height=12
 colour=0xCCCCCC
-font=494
+font=p11_full
 shadow=yes
 text="99999"
 
@@ -144,7 +144,7 @@ height=20
 colour=0xCC99FF
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="(Upgrade)"
 
@@ -157,7 +157,7 @@ height=20
 colour=0xCC99FF
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="(Upgrade)"
 
@@ -170,7 +170,7 @@ height=20
 colour=0xCC99FF
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="(Upgrade)"
 

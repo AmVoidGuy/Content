@@ -17,7 +17,7 @@ height=17
 colour=0xF5B405
 colour2=0x453C26
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Congratulations!"
 
@@ -29,7 +29,7 @@ width=320
 height=14
 colour=0x004000
 hAlign=Center
-font=495
+font=p12_full
 text="Well done, you defeated the Champion!"
 
 [champions_scroll_model]
@@ -62,7 +62,7 @@ width=180
 height=14
 colour=0x400000
 hAlign=Center
-font=495
+font=p12_full
 text="You are awarded:"
 
 [com_6]
@@ -73,7 +73,7 @@ width=170
 height=14
 colour=0x004000
 hAlign=Center
-font=495
+font=p12_full
 text="%1 Slayer Xp"
 script1op1=varp,varp_621
 
@@ -85,7 +85,7 @@ width=170
 height=14
 colour=0x004000
 hAlign=Center
-font=495
+font=p12_full
 text="%1 Hitpoint Xp"
 script1op1=varp,varp_620
 

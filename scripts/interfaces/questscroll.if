@@ -16,7 +16,7 @@ width=292
 height=19
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Congratulations!"
 
@@ -27,7 +27,7 @@ width=512
 height=2
 colour=0xFFFF00
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_3]
@@ -48,7 +48,7 @@ width=89
 height=26
 colour=0x0099FF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Total Points:"
 
@@ -60,7 +60,7 @@ width=17
 height=14
 colour=0x0099FF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="%1"
 script1op1=varp,qp
@@ -83,7 +83,7 @@ width=121
 height=16
 colour=0x00C000
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="You are awarded"
 
@@ -95,7 +95,7 @@ width=8
 height=14
 colour=0xFF0000
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -107,7 +107,7 @@ width=120
 height=16
 colour=0x00C000
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Quest points."
 

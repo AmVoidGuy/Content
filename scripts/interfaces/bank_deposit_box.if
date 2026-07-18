@@ -486,7 +486,7 @@ width=343
 height=16
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="The Bank of RuneScape - Deposit Box"
 

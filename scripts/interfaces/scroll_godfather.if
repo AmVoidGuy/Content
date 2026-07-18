@@ -16,7 +16,7 @@ width=344
 height=17
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 text="I (insert full name here) do hereby swear fealty   "
 
 [messagescroll2_gf]
@@ -27,7 +27,7 @@ width=344
 height=17
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 text="and indebtedness to the Fairy Godfather until"
 
 [messagescroll3_gf]
@@ -38,7 +38,7 @@ width=295
 height=17
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 text="such time as he releases me from my bond."
 
 [messagescroll4_gf]
@@ -49,7 +49,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll5_gf]
 type=Text
@@ -59,7 +59,7 @@ width=44
 height=17
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 text="Signed"
 
 [messagescroll6_gf]
@@ -70,7 +70,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll7_gf]
 type=Text
@@ -80,7 +80,7 @@ width=214
 height=17
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 text="(insert full name and date here)"
 
 [messagescroll8_gf]
@@ -91,7 +91,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [com_9]
 type=Sprite

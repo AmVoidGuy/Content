@@ -33,7 +33,7 @@ y=149
 width=39
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="8-East"
 
@@ -44,7 +44,7 @@ y=130
 width=47
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="6-South"
 
@@ -56,7 +56,7 @@ width=46
 height=14
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="2-North"
 
@@ -67,7 +67,7 @@ y=188
 width=38
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="4-East"
 
@@ -78,7 +78,7 @@ y=207
 width=55
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="22-South"
 
@@ -90,7 +90,7 @@ width=162
 height=22
 colour=0x9A9A54
 hAlign=Center
-font=497
+font=q8_full
 text="X marks the start!"
 
 [com_9]
@@ -101,7 +101,7 @@ width=103
 height=56
 colour=0x9A9A54
 hAlign=Center
-font=497
+font=q8_full
 text="Dragontooth Island"
 
 [com_10]

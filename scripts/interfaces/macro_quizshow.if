@@ -90,6 +90,6 @@ height=29
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Pick the odd one out."

@@ -51,7 +51,7 @@ width=32
 height=32
 colour=0x676725
 hAlign=Right
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Rum"
 
@@ -63,6 +63,6 @@ width=32
 height=32
 colour=0x676725
 vAlign=Bottom
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Deal"

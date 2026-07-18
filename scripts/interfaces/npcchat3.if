@@ -15,7 +15,7 @@ width=350
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Name"
 
 [npcchat3a]
@@ -25,7 +25,7 @@ y=20
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [npcchat3b]
@@ -35,7 +35,7 @@ y=40
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [npcchat3c]
@@ -45,7 +45,7 @@ y=60
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [npcchat3next]
@@ -58,6 +58,6 @@ height=17
 colour=0x0000FF
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton

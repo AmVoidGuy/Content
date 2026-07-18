@@ -391,7 +391,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [rdb]
@@ -402,7 +402,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [rdc]
@@ -413,7 +413,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [rdd]
@@ -424,7 +424,7 @@ width=10
 height=13
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [rda_left]
@@ -515,7 +515,7 @@ width=322
 height=14
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Combination Lock Door"
 
@@ -539,7 +539,7 @@ height=32
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 text="E N T E R"
 
 [com_58]

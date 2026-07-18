@@ -30,7 +30,7 @@ height=36
 colour=0x999999
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Choose the stat you wish to be advanced!"
 
@@ -306,7 +306,7 @@ width=93
 height=14
 colour=0x666666
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Confirm"
 eventCode=hasOp(1)

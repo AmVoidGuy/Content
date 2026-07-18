@@ -37,7 +37,7 @@ width=139
 height=17
 colour=0x0F172F
 hAlign=Center
-font=497
+font=q8_full
 text="Misthalin & Asgarnia"
 
 [northpointer]
@@ -647,7 +647,7 @@ width=139
 height=17
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Lumbridge"
 
 [draynortext]
@@ -658,7 +658,7 @@ width=101
 height=17
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Draynor"
 
 [varrocktext]
@@ -669,7 +669,7 @@ width=120
 height=20
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Varrock"
 
 [faladortext]
@@ -680,7 +680,7 @@ width=93
 height=17
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Falador"
 
 [portsarimtext]
@@ -691,7 +691,7 @@ width=77
 height=17
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Port"
 
 [sarimtext]
@@ -702,7 +702,7 @@ width=113
 height=17
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Sarim"
 
 [rimmington_text]
@@ -713,7 +713,7 @@ width=127
 height=18
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Rimmington"
 
 [edgeville_text]
@@ -724,7 +724,7 @@ width=123
 height=21
 colour=0xC9A041
 hAlign=Center
-font=497
+font=q8_full
 text="Edgeville"
 
 [al_kharid_text]
@@ -735,7 +735,7 @@ width=124
 height=16
 colour=0xC9A341
 hAlign=Center
-font=497
+font=q8_full
 text="Al Kharid"
 
 [com_56]
@@ -811,7 +811,7 @@ width=73
 height=29
 colour=0xABA346
 hAlign=Center
-font=495
+font=p12_full
 text="Show Tutors"
 
 [com_63]

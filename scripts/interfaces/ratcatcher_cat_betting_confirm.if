@@ -35,7 +35,7 @@ height=36
 colour=0x11D311
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="YES"
 
@@ -48,7 +48,7 @@ height=36
 colour=0xAC1414
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="NO"
 
@@ -60,5 +60,5 @@ width=300
 height=16
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 text="Do you really want to bet X!"

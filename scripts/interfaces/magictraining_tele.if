@@ -17,7 +17,7 @@ height=18
 colour=0x5686C3
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Telekinetic"
 
@@ -29,7 +29,7 @@ width=79
 height=28
 colour=0x4D7CB6
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Pizazz Points:"
 
@@ -40,7 +40,7 @@ y=40
 width=42
 height=12
 colour=0x66CCFF
-font=494
+font=p11_full
 shadow=yes
 text="999999"
 
@@ -63,7 +63,7 @@ width=24
 height=14
 colour=0x66CCFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="999"
 
@@ -75,6 +75,6 @@ width=88
 height=22
 colour=0x66CCFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Solved :"

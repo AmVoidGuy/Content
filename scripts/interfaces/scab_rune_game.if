@@ -647,7 +647,7 @@ y=294
 width=32
 height=32
 colour=0xBF751D
-font=645
+font=quill_oblique_large
 shadow=yes
 
 [counter_02]
@@ -657,5 +657,5 @@ y=294
 width=32
 height=32
 colour=0xBF751D
-font=645
+font=quill_oblique_large
 shadow=yes

@@ -17,7 +17,7 @@ width=400
 height=40
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 
 [com_2]
 type=Model
@@ -55,5 +55,5 @@ width=400
 height=19
 colour=0x800000
 hAlign=Center
-font=495
+font=p12_full
 text="Message of the week"

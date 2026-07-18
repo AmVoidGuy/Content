@@ -12,6 +12,6 @@ width=505
 height=82
 colour=0xFFFFFF
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Text"

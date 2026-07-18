@@ -763,7 +763,7 @@ height=24
 colour=0xFFAA44
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Target View"
 
@@ -928,7 +928,7 @@ width=67
 height=15
 colour=0xFFAA44
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Shots"
 
@@ -940,7 +940,7 @@ width=79
 height=17
 colour=0xFFAA44
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Score:"
 
@@ -952,7 +952,7 @@ width=17
 height=14
 colour=0x00FF99
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="%1"
 script1op1=varp,targetscore
@@ -964,7 +964,7 @@ y=86
 width=63
 height=15
 colour=0xFFAA44
-font=495
+font=p12_full
 shadow=yes
 text="Left:"
 
@@ -975,7 +975,7 @@ y=156
 width=14
 height=14
 colour=0x00FF99
-font=495
+font=p12_full
 shadow=yes
 text="10"
 
@@ -986,7 +986,7 @@ y=156
 width=16
 height=14
 colour=0x00CCFF
-font=495
+font=p12_full
 shadow=yes
 text="20"
 
@@ -997,7 +997,7 @@ y=156
 width=15
 height=14
 colour=0x00CC00
-font=495
+font=p12_full
 shadow=yes
 text="30"
 
@@ -1008,7 +1008,7 @@ y=156
 width=15
 height=14
 colour=0x0088FF
-font=495
+font=p12_full
 shadow=yes
 text="50"
 
@@ -1032,7 +1032,7 @@ y=156
 width=22
 height=14
 colour=0xFF0000
-font=495
+font=p12_full
 shadow=yes
 text="100"
 
@@ -1149,6 +1149,6 @@ height=17
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Missed!"

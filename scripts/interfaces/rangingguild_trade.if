@@ -709,7 +709,7 @@ y=29
 width=399
 height=15
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Ranging Guild Ticket Exchange"
 

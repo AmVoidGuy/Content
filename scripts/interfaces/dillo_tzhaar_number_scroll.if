@@ -27,7 +27,7 @@ width=271
 height=34
 colour=0x330000
 hAlign=Center
-font=645
+font=quill_oblique_large
 text="TzHaar Numbers"
 
 [close_button]
@@ -48,7 +48,7 @@ y=87
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="a"
 
 [1]
@@ -58,7 +58,7 @@ y=82
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 1 "
 
 [14]
@@ -68,7 +68,7 @@ y=117
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 13"
 
 [15]
@@ -78,7 +78,7 @@ y=134
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 14"
 
 [16]
@@ -88,7 +88,7 @@ y=151
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 15"
 
 [17]
@@ -98,7 +98,7 @@ y=175
 width=85
 height=36
 colour=0x330000
-font=497
+font=q8_full
 text="etc."
 
 [2]
@@ -108,7 +108,7 @@ y=99
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 2"
 
 [3]
@@ -118,7 +118,7 @@ y=117
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 3"
 
 [4]
@@ -128,7 +128,7 @@ y=135
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 4"
 
 [5]
@@ -138,7 +138,7 @@ y=152
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 5"
 
 [6]
@@ -148,7 +148,7 @@ y=170
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 6"
 
 [7]
@@ -158,7 +158,7 @@ y=187
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 7"
 
 [8]
@@ -168,7 +168,7 @@ y=205
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 8"
 
 [9]
@@ -178,7 +178,7 @@ y=82
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 1 "
 
 [10]
@@ -188,7 +188,7 @@ y=222
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 9"
 
 [11]
@@ -198,7 +198,7 @@ y=240
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 10"
 
 [12]
@@ -208,7 +208,7 @@ y=82
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 11"
 
 [13]
@@ -218,7 +218,7 @@ y=100
 width=32
 height=32
 colour=0x330000
-font=497
+font=q8_full
 text="= 12"
 
 [b]
@@ -228,7 +228,7 @@ y=105
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="b"
 
 [b_1]
@@ -238,7 +238,7 @@ y=123
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="c"
 
 [b_2]
@@ -248,7 +248,7 @@ y=141
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="d"
 
 [b_3]
@@ -258,7 +258,7 @@ y=159
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="e"
 
 [b_4]
@@ -268,7 +268,7 @@ y=176
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="f"
 
 [b_5]
@@ -278,7 +278,7 @@ y=193
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="g"
 
 [b_6]
@@ -288,7 +288,7 @@ y=211
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="h"
 
 [b_7]
@@ -298,7 +298,7 @@ y=228
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="i"
 
 [b_8]
@@ -308,7 +308,7 @@ y=245
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="j"
 
 [b_9]
@@ -318,7 +318,7 @@ y=87
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="k"
 
 [b_10]
@@ -328,7 +328,7 @@ y=105
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="l"
 
 [b_11]
@@ -338,7 +338,7 @@ y=122
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="aa"
 
 [b_12]
@@ -348,7 +348,7 @@ y=140
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="ab"
 
 [b_13]
@@ -358,5 +358,5 @@ y=158
 width=32
 height=32
 colour=0x330000
-font=776
+font=tzhaar_numbers
 text="ac"

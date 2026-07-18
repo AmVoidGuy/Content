@@ -141,7 +141,7 @@ height=13
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Items Kept on Death"
 
@@ -161,7 +161,7 @@ width=117
 height=16
 layerId=6684690
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Items you will keep on death if not skulled:"
 
@@ -188,7 +188,7 @@ width=117
 height=16
 layerId=6684693
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Items you will lose on death if not skulled:"
 
@@ -231,7 +231,7 @@ y=49
 width=133
 height=15
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Information:"
 
@@ -250,7 +250,7 @@ width=149
 height=193
 colour=0xFF981F
 lineHeight=12
-font=494
+font=p11_full
 shadow=yes
 text="This is where the information goes, This is where the information goes, This is where the information goes, This is where the information goes, This is where the information goes, This is where the information goes"
 
@@ -263,7 +263,7 @@ height=46
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="put information in here,put information in here,put information in"
 
@@ -285,6 +285,6 @@ layerId=6684701
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here, Informatio ngoes in here, informatio ngoes in here,"

@@ -167,7 +167,7 @@ height=14
 colour=0xAA8822
 colour2=0xAA3322
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Schematic 1"
 
@@ -180,7 +180,7 @@ height=14
 colour=0xAA8822
 colour2=0xAA3322
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Schematic 2"
 
@@ -193,7 +193,7 @@ height=14
 colour=0xAA8822
 colour2=0xAA3322
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Schematic 3"
 
@@ -204,7 +204,7 @@ y=152
 width=130
 height=14
 colour=0xAA8822
-font=495
+font=p12_full
 shadow=yes
 text="Show/Select"
 

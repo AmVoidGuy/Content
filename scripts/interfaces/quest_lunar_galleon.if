@@ -25,7 +25,7 @@ height=50
 colour=0x2E2125
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Pirates'<br> Cove"
 
 [com_3]
@@ -37,7 +37,7 @@ height=66
 colour=0x2E2125
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Moonclan<br> Island"
 
 [lunar_galleon_map]

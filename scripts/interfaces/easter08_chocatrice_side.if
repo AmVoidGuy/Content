@@ -311,7 +311,7 @@ layerId=46923798
 colour=0xCC9900
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 text="Chocatrice"
 
 [action_text]
@@ -324,7 +324,7 @@ layerId=46923798
 colour=0xCC9900
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 text="Waiting"
 
 [target_tooltip]

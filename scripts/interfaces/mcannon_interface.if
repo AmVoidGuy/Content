@@ -79,7 +79,7 @@ width=203
 height=31
 colour=0x73725A
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Choose a tool to use on each of the moving parts."
 

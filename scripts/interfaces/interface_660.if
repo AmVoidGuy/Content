@@ -789,7 +789,7 @@ colour=0xFF981F
 hAlign=Center
 vAlign=Center
 lineHeight=16
-font=496
+font=b12_full
 shadow=yes
 text="Welcome to RuneScape<br>Use the buttons below to design your player"
 
@@ -823,7 +823,7 @@ height=32
 colour=0x00C000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Accept"
 
@@ -867,7 +867,7 @@ width=153
 height=13
 colour=0xFFFFFF
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Design"
 
@@ -1034,7 +1034,7 @@ height=234
 colour=0xFF981F
 hAlign=Center
 lineHeight=35
-font=495
+font=p12_full
 shadow=yes
 text="Head<br>Jaw<br>Torso<br>Arms<br>Hands<br>Legs<br>Feet"
 
@@ -1046,7 +1046,7 @@ width=146
 height=13
 colour=0xFFFFFF
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Colour"
 
@@ -1169,7 +1169,7 @@ height=166
 colour=0xFF981F
 hAlign=Center
 lineHeight=35
-font=495
+font=p12_full
 shadow=yes
 text="Hair<br>Torso<br>Legs<br>Feet<br>Skin"
 
@@ -1197,7 +1197,7 @@ width=117
 height=12
 colour=0xFFFFFF
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Gender"
 
@@ -1232,7 +1232,7 @@ height=36
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Male"
 
@@ -1245,6 +1245,6 @@ height=36
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Female"

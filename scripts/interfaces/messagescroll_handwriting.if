@@ -16,7 +16,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll2_hw]
 type=Text
@@ -26,7 +26,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll3_hw]
 type=Text
@@ -36,7 +36,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll4_hw]
 type=Text
@@ -46,7 +46,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll5_hw]
 type=Text
@@ -56,7 +56,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll6_hw]
 type=Text
@@ -66,7 +66,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll7_hw]
 type=Text
@@ -76,7 +76,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll8_hw]
 type=Text
@@ -86,7 +86,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll9_hw]
 type=Text
@@ -96,7 +96,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [messagescroll10_hw]
 type=Text
@@ -106,7 +106,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [chatting_duelling_02]
 type=Text
@@ -116,7 +116,7 @@ width=340
 height=16
 colour=0x362407
 hAlign=Center
-font=497
+font=q8_full
 
 [com_12]
 type=Sprite

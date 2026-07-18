@@ -13,7 +13,7 @@ width=505
 height=14
 colour=0xFFFFFF
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="There's no place like home..."
 

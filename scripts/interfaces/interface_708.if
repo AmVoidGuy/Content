@@ -70,7 +70,7 @@ y=133
 width=175
 height=14
 colour=0x1E1E2D
-font=496
+font=b12_full
 text="Question:"
 
 [sops_header]
@@ -80,7 +80,7 @@ y=38
 width=300
 height=65
 colour=0x232330
-font=645
+font=quill_oblique_large
 text="Player Safety Test"
 
 [duel_close_button]
@@ -103,7 +103,7 @@ y=148
 width=388
 height=32
 colour=0x242330
-font=497
+font=q8_full
 text="How long should you play RuneScape for at any one time?"
 
 [com_9]
@@ -113,7 +113,7 @@ y=211
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="As long as I like. I'm having fun and don't want to stop"
 
 [com_10]
@@ -123,7 +123,7 @@ y=248
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="I should take regular breaks in order to stay healthy"
 
 [box1]
@@ -322,7 +322,7 @@ width=32
 height=32
 layerId=46399519
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Correct!"
 
@@ -334,7 +334,7 @@ width=388
 height=105
 layerId=46399519
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="It's very important to remain healthy by taking regular breaks and spending time doing other activities. "
 
@@ -355,7 +355,7 @@ width=32
 height=32
 layerId=46399522
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -367,7 +367,7 @@ width=390
 height=105
 layerId=46399522
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="Spending too much time on the computer can be harmful to your health. It's very important to take breaks, exercise and eat properly in order to stay healthy. While it's great to play RuneScape, it's also important to maintain a balanced lifestyle by socialising and spending time away from your computer. For more information, please look at our Responsible Gaming Policy on the RuneScape Knowledge Base."
 
@@ -406,6 +406,6 @@ layerId=46399525
 colour=0x909061
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Next"

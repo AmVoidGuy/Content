@@ -49,7 +49,7 @@ y=92
 width=299
 height=49
 colour=0x4A4028
-font=497
+font=q8_full
 text="Use rope to repair the Trawler's nets."
 
 [trawlertext2]
@@ -60,7 +60,7 @@ width=301
 height=48
 colour=0x4A4028
 lineHeight=20
-font=497
+font=q8_full
 text="Use Swamp Paste to repair leaks in the Ship's hull."
 
 [trawlertext3]
@@ -71,7 +71,7 @@ width=235
 height=47
 colour=0x4A4028
 lineHeight=20
-font=497
+font=q8_full
 text="If all else fails you can always try and bail the water out as well!"
 
 [trawlertext6]
@@ -83,7 +83,7 @@ height=17
 colour=0xE5BD5D
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="How to play:"
 

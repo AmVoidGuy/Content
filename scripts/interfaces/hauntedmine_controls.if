@@ -710,7 +710,7 @@ width=202
 height=14
 colour=0x908070
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Points Settings"
 
@@ -1995,7 +1995,7 @@ width=71
 height=14
 colour=0x908070
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="< To Lift"
 
@@ -2018,7 +2018,7 @@ width=89
 height=14
 colour=0x908070
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Controls"
 
@@ -2197,7 +2197,7 @@ colour2=0xFF0000
 colourOver=0xFF0000
 colour2Over=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="START"
 buttonText="Set cart in motion"
@@ -2224,7 +2224,7 @@ width=94
 height=14
 colour=0x908070
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Controls"
 
@@ -2236,7 +2236,7 @@ width=78
 height=26
 colour=0x908070
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="You are<br>here"
 
@@ -2335,7 +2335,7 @@ y=195
 width=8
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="A"
 
@@ -2346,7 +2346,7 @@ y=164
 width=7
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="B"
 
@@ -2357,7 +2357,7 @@ y=263
 width=7
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="C"
 
@@ -2368,7 +2368,7 @@ y=144
 width=7
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="D"
 
@@ -2379,7 +2379,7 @@ y=162
 width=6
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="E"
 
@@ -2390,7 +2390,7 @@ y=77
 width=6
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="F"
 
@@ -2401,7 +2401,7 @@ y=263
 width=8
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="G"
 
@@ -2412,7 +2412,7 @@ y=163
 width=7
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="H"
 
@@ -2423,7 +2423,7 @@ y=263
 width=4
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="I"
 
@@ -2434,7 +2434,7 @@ y=129
 width=7
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="J"
 
@@ -2445,7 +2445,7 @@ y=129
 width=7
 height=14
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="K"
 

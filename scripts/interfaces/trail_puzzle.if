@@ -45,7 +45,7 @@ height=17
 layerId=23789572
 colour=0xFAD782
 vAlign=Center
-font=494
+font=p11_full
 text="Hint"
 
 [puzzle_complete_layer2]

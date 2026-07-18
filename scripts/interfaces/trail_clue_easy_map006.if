@@ -901,7 +901,7 @@ y=168
 width=11
 height=12
 colour=0x2F2A25
-font=494
+font=p11_full
 text="1S"
 
 [com_83]
@@ -911,5 +911,5 @@ y=181
 width=11
 height=12
 colour=0x2F2A25
-font=494
+font=p11_full
 text="3E"

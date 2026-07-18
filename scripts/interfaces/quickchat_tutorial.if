@@ -131,7 +131,7 @@ width=471
 height=16
 colour=0xCC9800
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 
 [com_15]
@@ -189,7 +189,7 @@ height=16
 layerId=10289169
 colour=0xFFA861
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Page 1 of 7"
 
@@ -288,7 +288,7 @@ layerId=10289187
 colour=0xFFFFFF
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Shortcut keys"
 onmouseover=1026

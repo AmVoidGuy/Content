@@ -116,7 +116,7 @@ width=175
 height=14
 colour=0xBF751D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Last fifty duels on this world:"
 
@@ -128,7 +128,7 @@ width=472
 height=19
 colour=0xE1981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Duel Scoreboard"
 
@@ -149,7 +149,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -162,7 +162,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -175,7 +175,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -188,7 +188,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -201,7 +201,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -214,7 +214,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -227,7 +227,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -240,7 +240,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -253,7 +253,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -266,7 +266,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -279,7 +279,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -292,7 +292,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -305,7 +305,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -318,7 +318,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -331,7 +331,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -344,7 +344,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -357,7 +357,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -370,7 +370,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -383,7 +383,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -396,7 +396,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -409,7 +409,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -422,7 +422,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -435,7 +435,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -448,7 +448,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -461,7 +461,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -474,7 +474,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -487,7 +487,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -500,7 +500,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -513,7 +513,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -526,7 +526,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -539,7 +539,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -552,7 +552,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -565,7 +565,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -578,7 +578,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -591,7 +591,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -604,7 +604,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -617,7 +617,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -630,7 +630,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -643,7 +643,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -656,7 +656,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -669,7 +669,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -682,7 +682,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -695,7 +695,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -708,7 +708,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -721,7 +721,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -734,7 +734,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -747,7 +747,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -760,7 +760,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -773,7 +773,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 
@@ -786,7 +786,7 @@ height=14
 layerId=41418767
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Crunchy (126) beat Crunchy2 (126)"
 

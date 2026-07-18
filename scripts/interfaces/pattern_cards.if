@@ -710,7 +710,7 @@ width=98
 height=157
 colour=0xD1CDCA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Text for testing, remove at will. Text for testing, remove at will. Text for testing, remove at will. Text for testing, remove at will. Text for testing, remove at will. Text for testing, remove at will. "
 

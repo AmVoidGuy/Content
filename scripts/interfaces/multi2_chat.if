@@ -5,7 +5,7 @@ width=480
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Select an Option"
 
 [multi2a_chat]
@@ -16,7 +16,7 @@ width=480
 height=17
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="option1"
 eventCode=pauseButton
 
@@ -28,7 +28,7 @@ width=480
 height=17
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="option2"
 eventCode=pauseButton
 

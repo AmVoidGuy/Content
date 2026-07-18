@@ -31,7 +31,7 @@ width=363
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10 sets"
 eventCode=pauseButton
 
@@ -44,7 +44,7 @@ width=363
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5 sets"
 eventCode=pauseButton
 
@@ -57,7 +57,7 @@ width=363
 height=79
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1 set"
 eventCode=pauseButton
 
@@ -68,6 +68,6 @@ width=479
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="How many would you like to make?"
 eventCode=pauseButton

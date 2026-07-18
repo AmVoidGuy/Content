@@ -30,7 +30,7 @@ x=208
 y=8
 width=286
 height=169
-font=497
+font=q8_full
 text="While you are in the area, you will be able to see your points total in the top-right corner of your screen. Your points are saved, so you can leave if you wish and return another time to pick up from where you left off."
 
 [paragraph02]
@@ -39,7 +39,7 @@ x=14
 y=190
 width=286
 height=169
-font=497
+font=q8_full
 text="You can trade your points in for prizes or Farming experience by speaking to Mrs. Winkin in the Winkin shop."
 
 [seed]
@@ -88,7 +88,7 @@ y=11
 width=46
 height=16
 colour=0x999999
-font=494
+font=p11_full
 shadow=yes
 text="Points"
 
@@ -100,7 +100,7 @@ width=65
 height=17
 colour=0xFFFFFF
 hAlign=Right
-font=494
+font=p11_full
 shadow=yes
 text="234,567"
 onload=862
@@ -128,7 +128,7 @@ y=158
 width=33
 height=32
 colour=0x00CC00
-font=645
+font=quill_oblique_large
 shadow=yes
 text="XP"
 

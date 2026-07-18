@@ -16,7 +16,7 @@ width=103
 height=14
 colour=0xFFFF00
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Gnomeball"
 
@@ -28,7 +28,7 @@ width=103
 height=14
 colour=0xFFFF00
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Score"
 
@@ -40,7 +40,7 @@ width=103
 height=14
 colour=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="%1"
 script1op1=varp,score_gnomeball_game

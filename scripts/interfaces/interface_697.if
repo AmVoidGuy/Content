@@ -86,7 +86,7 @@ y=133
 width=175
 height=14
 colour=0x1E1E2D
-font=496
+font=b12_full
 text="Question:"
 
 [sops_header]
@@ -96,7 +96,7 @@ y=38
 width=300
 height=65
 colour=0x232330
-font=645
+font=quill_oblique_large
 text="Player Safety Test"
 
 [duel_close_button]
@@ -119,7 +119,7 @@ y=148
 width=397
 height=32
 colour=0x242330
-font=497
+font=q8_full
 text="A player has just asked you for your personal details, including your phone number, home address and email address. What should you do?"
 
 [com_10]
@@ -129,7 +129,7 @@ y=215
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Give them my personal details"
 
 [com_11]
@@ -139,7 +139,7 @@ y=251
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Say \"No\" or ignore them"
 
 [com_12]
@@ -149,7 +149,7 @@ y=286
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Say \"No\" and ask for their details instead"
 
 [box1]
@@ -382,7 +382,7 @@ width=32
 height=32
 layerId=45678629
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Correct!"
 
@@ -394,7 +394,7 @@ width=388
 height=105
 layerId=45678629
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="Be polite and say no, but if the other player is persistent you can also use the report abuse button and ignore functions, which can both be found at the bottom of your game window. If you are at all concerned, speak to a parent, friend or adult that you trust."
 
@@ -415,7 +415,7 @@ width=32
 height=32
 layerId=45678632
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -427,7 +427,7 @@ width=390
 height=105
 layerId=45678632
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="Giving out personal information to another player is dangerous, as you can never be sure who you are talking to. It's best to keep your personal details to yourself."
 
@@ -448,7 +448,7 @@ width=32
 height=32
 layerId=45678635
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -460,7 +460,7 @@ width=389
 height=105
 layerId=45678635
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="Asking for another player's personal details is against the RuneScape Rules of Conduct. Doing so would put your account at risk of being banned."
 
@@ -499,6 +499,6 @@ layerId=45678638
 colour=0x909061
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Next"

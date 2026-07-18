@@ -486,7 +486,7 @@ width=344
 height=16
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Imp Release Negotiation Form"
 
@@ -511,7 +511,7 @@ width=352
 height=26
 colour=0xFFFFFF
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Select an item or stack of items to deposit.<br><col=ff7000>You can deposit up to 2 items or stacks."
 

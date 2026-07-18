@@ -22,7 +22,7 @@ width=464
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="What would you like to smelt?"
 
 [com_3]
@@ -142,7 +142,7 @@ y=28
 width=51
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Bronze"
 eventCode=flag22
@@ -155,7 +155,7 @@ y=28
 width=51
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Bronze"
 eventCode=flag22
@@ -168,7 +168,7 @@ y=28
 width=51
 height=88
 hAlign=Center
-font=495
+font=p12_full
 buttonText="Smelt 5 <col=ff9040>Bronze"
 eventCode=flag22
 
@@ -181,7 +181,7 @@ width=51
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Bronze"
 buttonText="Smelt 1 <col=ff9040>Bronze"
 eventCode=flag22
@@ -196,7 +196,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Blurite"
 eventCode=flag22
@@ -209,7 +209,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Blurite"
 eventCode=flag22
@@ -222,7 +222,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Blurite"
 eventCode=flag22
@@ -236,7 +236,7 @@ width=48
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Blurite"
 buttonText="Smelt 1 <col=ff9040>Blurite"
 eventCode=flag22
@@ -249,7 +249,7 @@ y=28
 width=49
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Iron"
 eventCode=flag22
@@ -262,7 +262,7 @@ y=28
 width=49
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Iron"
 eventCode=flag22
@@ -275,7 +275,7 @@ y=28
 width=49
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Iron"
 eventCode=flag22
@@ -289,7 +289,7 @@ width=49
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Iron"
 buttonText="Smelt 1 <col=ff9040>Iron"
 eventCode=flag22
@@ -304,7 +304,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Silver"
 eventCode=flag22
@@ -317,7 +317,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Silver"
 eventCode=flag22
@@ -330,7 +330,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Silver"
 eventCode=flag22
@@ -344,7 +344,7 @@ width=48
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Silver"
 buttonText="Smelt 1 <col=ff9040>Silver"
 eventCode=flag22
@@ -359,7 +359,7 @@ y=28
 width=46
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Steel"
 eventCode=flag22
@@ -372,7 +372,7 @@ y=28
 width=46
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Steel"
 eventCode=flag22
@@ -385,7 +385,7 @@ y=28
 width=46
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Steel"
 eventCode=flag22
@@ -399,7 +399,7 @@ width=46
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Steel"
 buttonText="Smelt 1 <col=ff9040>Steel"
 eventCode=flag22
@@ -414,7 +414,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Gold"
 eventCode=flag22
@@ -427,7 +427,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Gold"
 eventCode=flag22
@@ -440,7 +440,7 @@ y=28
 width=48
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Gold"
 eventCode=flag22
@@ -454,7 +454,7 @@ width=48
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Gold"
 buttonText="Smelt 1 <col=ff9040>Gold"
 eventCode=flag22
@@ -469,7 +469,7 @@ y=28
 width=50
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Mithril"
 eventCode=flag22
@@ -482,7 +482,7 @@ y=28
 width=50
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Mithril"
 eventCode=flag22
@@ -495,7 +495,7 @@ y=28
 width=50
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Mithril"
 eventCode=flag22
@@ -509,7 +509,7 @@ width=50
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Mithril"
 buttonText="Smelt 1 <col=ff9040>Mithril"
 eventCode=flag22
@@ -524,7 +524,7 @@ y=28
 width=53
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Adamant"
 eventCode=flag22
@@ -537,7 +537,7 @@ y=28
 width=53
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Adamant"
 eventCode=flag22
@@ -550,7 +550,7 @@ y=28
 width=53
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Adamant"
 eventCode=flag22
@@ -564,7 +564,7 @@ width=53
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Adamant"
 buttonText="Smelt 1 <col=ff9040>Adamant"
 eventCode=flag22
@@ -579,7 +579,7 @@ y=28
 width=55
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt X <col=ff9040>Rune"
 eventCode=flag22
@@ -592,7 +592,7 @@ y=28
 width=55
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 10 <col=ff9040>Rune"
 eventCode=flag22
@@ -605,7 +605,7 @@ y=28
 width=55
 height=88
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 buttonText="Smelt 5 <col=ff9040>Rune"
 eventCode=flag22
@@ -619,7 +619,7 @@ width=55
 height=88
 colour=0xA00000
 hAlign=Center
-font=494
+font=p11_full
 text="<br><br><br><br>Rune"
 buttonText="Smelt 1 <col=ff9040>Rune"
 eventCode=flag22

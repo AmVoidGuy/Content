@@ -15,7 +15,7 @@ y=44
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom1"
 
 [wom2]
@@ -25,7 +25,7 @@ y=60
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom2"
 
 [wom3]
@@ -35,7 +35,7 @@ y=76
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom3"
 
 [wom4]
@@ -45,7 +45,7 @@ y=92
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom4"
 
 [wom5]
@@ -55,7 +55,7 @@ y=108
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom5"
 
 [wom6]
@@ -65,7 +65,7 @@ y=124
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom6"
 
 [wom7]
@@ -75,7 +75,7 @@ y=140
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom7"
 
 [wom8]
@@ -85,7 +85,7 @@ y=156
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom8"
 
 [wom9]
@@ -95,7 +95,7 @@ y=172
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom9"
 
 [wom10]
@@ -105,7 +105,7 @@ y=188
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom10"
 
 [wom11]
@@ -115,7 +115,7 @@ y=204
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom11"
 
 [wom12]
@@ -125,7 +125,7 @@ y=220
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom12"
 
 [wom13]
@@ -135,7 +135,7 @@ y=236
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom13"
 
 [wom14]
@@ -145,7 +145,7 @@ y=252
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom14"
 
 [wom15]
@@ -155,7 +155,7 @@ y=268
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom15"
 
 [wom16]
@@ -165,7 +165,7 @@ y=284
 width=335
 height=17
 colour=0xF0BB5E
-font=497
+font=q8_full
 text="wom16"
 
 [com_17]

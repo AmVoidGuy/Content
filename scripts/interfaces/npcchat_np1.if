@@ -15,7 +15,7 @@ width=350
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Name"
 
 [npcchat_np1a]
@@ -26,5 +26,5 @@ width=350
 height=67
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Line1"

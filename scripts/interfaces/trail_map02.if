@@ -253,7 +253,7 @@ width=11
 height=11
 layerId=22741036
 colour=0x4C3D26
-font=494
+font=p11_full
 text="1N"
 
 [map01paces2]
@@ -264,7 +264,7 @@ width=12
 height=11
 layerId=22741036
 colour=0x4C3D26
-font=494
+font=p11_full
 text="6E"
 
 [map01paces4]
@@ -275,7 +275,7 @@ width=16
 height=11
 layerId=22741036
 colour=0x4C3D26
-font=494
+font=p11_full
 text="2W"
 
 [map01paces3]
@@ -286,7 +286,7 @@ width=14
 height=11
 layerId=22741036
 colour=0x4C3D26
-font=494
+font=p11_full
 text="6N"
 
 [map02fence01]

@@ -134,7 +134,7 @@ width=200
 height=15
 colour=0xB5D0D0
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Select a Snowman Hat"
 
@@ -152,7 +152,7 @@ width=55
 height=25
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text=" Barbarian hat"
 
@@ -164,7 +164,7 @@ width=55
 height=25
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Dragon hat"
 
@@ -176,7 +176,7 @@ width=55
 height=25
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Dwarf hat"
 baseOpName=" "
@@ -189,7 +189,7 @@ width=55
 height=25
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Pirate hat"
 
@@ -201,7 +201,7 @@ width=55
 height=25
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Top hat"
 
@@ -557,7 +557,7 @@ height=25
 layerId=43122741
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Holly Bow"
 
@@ -570,7 +570,7 @@ height=25
 layerId=43122741
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Winter Staff"
 
@@ -583,7 +583,7 @@ height=25
 layerId=43122741
 colour=0xB2E0E4
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Ice Sword"
 

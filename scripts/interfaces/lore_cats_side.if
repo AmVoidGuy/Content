@@ -164,7 +164,7 @@ layerId=43450395
 colour=0xC4B074
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="100%"
 onmouseleave=40,43450394
@@ -193,7 +193,7 @@ layerId=43450395
 colour=0xC4B074
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="9999"
 onmouseleave=40,43450394
@@ -264,7 +264,7 @@ height=22
 colour=0xCC9900
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 
 [build_layer]
 type=Layer

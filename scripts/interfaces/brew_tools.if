@@ -204,7 +204,7 @@ width=75
 height=29
 colour=0xB99116
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Bamboo pipe"
 
@@ -217,7 +217,7 @@ height=29
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Bridge section"
 
@@ -230,7 +230,7 @@ height=29
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Bucket"
 
@@ -243,7 +243,7 @@ height=30
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Torch"
 
@@ -256,7 +256,7 @@ height=29
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Lumber patch"
 
@@ -269,7 +269,7 @@ height=29
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Jar"
 
@@ -282,7 +282,7 @@ height=30
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Bowl"
 
@@ -295,7 +295,7 @@ height=30
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Tinderbox"
 
@@ -308,7 +308,7 @@ height=30
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Meat"
 
@@ -321,7 +321,7 @@ height=30
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Knife"
 
@@ -334,7 +334,7 @@ height=30
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Net"
 
@@ -347,7 +347,7 @@ height=29
 colour=0xB99116
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Axe"
 
@@ -358,7 +358,7 @@ y=145
 width=8
 height=14
 colour=0xB99116
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -369,7 +369,7 @@ y=144
 width=8
 height=14
 colour=0xB99116
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -380,7 +380,7 @@ y=145
 width=8
 height=14
 colour=0xB99116
-font=495
+font=p12_full
 shadow=yes
 text="0"
 

@@ -24,7 +24,7 @@ width=69
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Ape"
 
@@ -36,7 +36,7 @@ width=100
 height=19
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Asgarnia"
 
@@ -48,7 +48,7 @@ width=98
 height=19
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Karamja"
 
@@ -60,7 +60,7 @@ width=83
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Crandor"
 
@@ -72,7 +72,7 @@ width=91
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Entrana"
 
@@ -84,7 +84,7 @@ width=63
 height=16
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Port"
 
@@ -96,7 +96,7 @@ width=80
 height=16
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Sarim"
 
@@ -152,7 +152,7 @@ width=78
 height=18
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Port"
 
@@ -164,7 +164,7 @@ width=91
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Khazard"
 
@@ -176,7 +176,7 @@ width=73
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Ship"
 
@@ -188,7 +188,7 @@ width=81
 height=18
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Yard"
 
@@ -222,7 +222,7 @@ width=69
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Cairn"
 
@@ -234,7 +234,7 @@ width=69
 height=16
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Isle"
 
@@ -257,7 +257,7 @@ width=105
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Brimhaven"
 
@@ -269,7 +269,7 @@ width=109
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Ardougne"
 
@@ -291,7 +291,7 @@ y=8
 width=302
 height=19
 colour=0xFF981F
-font=497
+font=q8_full
 shadow=yes
 text="You Journey on the ship...."
 
@@ -551,7 +551,7 @@ width=74
 height=16
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Atoll"
 
@@ -585,7 +585,7 @@ width=84
 height=17
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Feldip"
 
@@ -597,7 +597,7 @@ width=78
 height=16
 colour=0xF3CC99
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Hills"
 
@@ -609,7 +609,7 @@ width=301
 height=17
 layerId=19595316
 colour=0xC4A135
-font=497
+font=q8_full
 shadow=yes
 text="The ogres follow the scent of the chompy.... "
 
@@ -621,7 +621,7 @@ width=247
 height=17
 layerId=19595315
 colour=0xC4A135
-font=497
+font=q8_full
 shadow=yes
 text="The ogres travel back with the goods"
 

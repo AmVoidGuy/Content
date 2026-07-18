@@ -127,7 +127,7 @@ width=66
 height=17
 colour=0xA0A075
 hAlign=Right
-font=497
+font=q8_full
 text="Canifis"
 
 [mort_myre_swamp]
@@ -138,7 +138,7 @@ width=79
 height=32
 colour=0xA0A075
 hAlign=Center
-font=497
+font=q8_full
 text="Mort Myre<br>Swamp"
 
 [hollows]
@@ -148,7 +148,7 @@ y=99
 width=65
 height=16
 colour=0xA0A075
-font=497
+font=q8_full
 text="Hollows"
 
 [mort_ton]
@@ -159,7 +159,7 @@ width=94
 height=17
 colour=0xA0A075
 hAlign=Center
-font=497
+font=q8_full
 text="Mort'ton"
 
 [graveyard]
@@ -170,7 +170,7 @@ width=104
 height=19
 colour=0xA0A075
 hAlign=Center
-font=497
+font=q8_full
 text="Graveyard"
 
 [temple]
@@ -181,7 +181,7 @@ width=71
 height=19
 colour=0xA0A075
 hAlign=Center
-font=497
+font=q8_full
 text="Temple"
 
 [player_icon_model]
@@ -229,7 +229,7 @@ width=53
 height=17
 colour=0x341B10
 hAlign=Center
-font=497
+font=q8_full
 text="Route 1"
 
 [route1_hi]
@@ -241,7 +241,7 @@ height=17
 layerId=3342364
 colour=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="Route 1"
 
 [route2scroll]
@@ -267,7 +267,7 @@ width=56
 height=17
 colour=0x341B10
 hAlign=Center
-font=497
+font=q8_full
 text="Route 2"
 
 [route2_hi]
@@ -279,7 +279,7 @@ height=17
 layerId=3342365
 colour=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="Route 2"
 
 [com_25]
@@ -300,7 +300,7 @@ width=158
 height=107
 layerId=3342364
 colour=0x341B10
-font=497
+font=q8_full
 text="Route 1:<br><br>Take the route through<br>Canifis.<br><br>Shorter but potentially<br>more dangerous."
 
 [route_2_desc]
@@ -311,7 +311,7 @@ width=158
 height=107
 layerId=3342365
 colour=0x341B10
-font=497
+font=q8_full
 text="Route 2:<br><br>Take the route through<br>Mort Myre Swamp.<br><br>Longer but less likely<br>to be attacked."
 
 [route1_hi_layer]
@@ -351,7 +351,7 @@ width=83
 height=41
 colour=0xA0A075
 hAlign=Center
-font=497
+font=q8_full
 text="Burgh de<br>Rott"
 
 [burgh_choose_text]
@@ -363,7 +363,7 @@ height=40
 colour=0x341B10
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Choose your path"
 
 [com_33]

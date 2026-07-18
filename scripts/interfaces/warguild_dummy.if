@@ -17,7 +17,7 @@ width=148
 height=16
 colour=0xFF6600
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Attack Dummy Key"
 
@@ -102,7 +102,7 @@ width=90
 height=15
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Accurate"
 
@@ -114,7 +114,7 @@ width=55
 height=13
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Slash"
 
@@ -126,7 +126,7 @@ width=79
 height=14
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Aggressive"
 
@@ -138,7 +138,7 @@ width=79
 height=15
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Controlled"
 
@@ -150,7 +150,7 @@ width=51
 height=15
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Crush"
 
@@ -162,7 +162,7 @@ width=55
 height=16
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Stab"
 
@@ -174,7 +174,7 @@ width=84
 height=14
 colour=0xFFFFFF
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Defensive "
 
@@ -186,7 +186,7 @@ width=138
 height=194
 colour=0xFFFF00
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="<br><br>These are the types<br>of attack to use on<br>each of the dummies<br>that pop up from<br>the floor.<br><br>You will find that you<br>need more than one<br>weapon to be<br>successful."
 

@@ -168,6 +168,6 @@ height=14
 layerId=30146578
 colour=0xFFFF00
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="That's it, it all makes sense now! "

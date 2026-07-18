@@ -6,7 +6,7 @@ width=480
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Select an Option"
 
 [option1]
@@ -16,7 +16,7 @@ y=51
 width=480
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="option1"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
@@ -29,7 +29,7 @@ y=78
 width=480
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="option2"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

@@ -273,7 +273,7 @@ width=61
 height=43
 colour=0x888888
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="% Done"
 
@@ -285,7 +285,7 @@ width=199
 height=14
 colour=0xFFFF00
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Tutorial Island Progress"
 
@@ -324,5 +324,5 @@ width=389
 height=49
 layerId=24313880
 hAlign=Center
-font=496
+font=b12_full
 text="Please follow the instructions below to advance in the tutorial."

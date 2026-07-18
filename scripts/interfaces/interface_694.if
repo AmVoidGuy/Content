@@ -70,7 +70,7 @@ y=133
 width=175
 height=14
 colour=0x1E1E2D
-font=496
+font=b12_full
 text="Question:"
 
 [sops_header]
@@ -80,7 +80,7 @@ y=38
 width=300
 height=65
 colour=0x232330
-font=645
+font=quill_oblique_large
 text="Player Safety Test"
 
 [duel_close_button]
@@ -103,7 +103,7 @@ y=148
 width=388
 height=32
 colour=0x242330
-font=497
+font=q8_full
 text="A friend you met playing RuneScape has asked to meet you in real life. What should you do?"
 
 [com_9]
@@ -113,7 +113,7 @@ y=210
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Meet them. They've been a friend in-game for a while now and they're really nice"
 
 [com_10]
@@ -123,7 +123,7 @@ y=252
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Say no and do not meet them"
 
 [box1]
@@ -322,7 +322,7 @@ width=32
 height=32
 layerId=45482015
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Correct!"
 
@@ -334,7 +334,7 @@ width=388
 height=105
 layerId=45482015
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="Be polite and say no, but if the other player is persistent you can use the report abuse button and ignore functions, which can both be found at the bottom of your game window. If you are at all concerned, speak to a parent, friend or adult that you trust."
 
@@ -355,7 +355,7 @@ width=32
 height=32
 layerId=45482018
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -367,7 +367,7 @@ width=390
 height=105
 layerId=45482018
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="However nice your friend is in RuneScape, they are still a stranger to you in real life. We would suggest that you have fun and enjoy the player's company in-game, but leave it there. If you are at all concerned, speak to a parent, friend or adult that you trust."
 
@@ -406,6 +406,6 @@ layerId=45482021
 colour=0x909061
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Next"

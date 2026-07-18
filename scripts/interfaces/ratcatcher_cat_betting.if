@@ -96,7 +96,7 @@ width=142
 height=18
 colour=0x46320A
 hAlign=Center
-font=497
+font=q8_full
 text="Player's Cat"
 
 [vc_p2_name]
@@ -107,7 +107,7 @@ width=142
 height=19
 colour=0x46320A
 hAlign=Center
-font=497
+font=q8_full
 text="Opponent's Cat"
 
 [ratcatchers_vs]
@@ -118,7 +118,7 @@ width=94
 height=15
 colour=0x46320A
 hAlign=Center
-font=496
+font=b12_full
 text="Vs"
 
 [ratcatcher_cat_accept]
@@ -130,7 +130,7 @@ height=36
 colour=0x11D311
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="ACCEPT"
 eventCode=hasOp(1)
@@ -145,7 +145,7 @@ height=36
 colour=0xAC1414
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="DECLINE"
 eventCode=hasOp(1)
@@ -159,7 +159,7 @@ width=142
 height=16
 colour=0xBF751D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Amount"
 
@@ -171,7 +171,7 @@ width=142
 height=16
 colour=0xBF751D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Amount"
 
@@ -183,7 +183,7 @@ width=100
 height=14
 colour=0xE1981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -195,7 +195,7 @@ width=100
 height=14
 colour=0xE1981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -270,7 +270,7 @@ y=10
 width=58
 height=32
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="Your Limit:"
 
@@ -281,7 +281,7 @@ y=47
 width=59
 height=32
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="Their Limit:"
 
@@ -292,7 +292,7 @@ y=11
 width=32
 height=32
 colour=0x009900
-font=496
+font=b12_full
 shadow=yes
 text="1000"
 
@@ -303,6 +303,6 @@ y=48
 width=32
 height=32
 colour=0x009900
-font=496
+font=b12_full
 shadow=yes
 text="1000"

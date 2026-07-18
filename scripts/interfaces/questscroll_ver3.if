@@ -18,7 +18,7 @@ height=18
 colour=0xFF9933
 colour2=0x453C26
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Congratulations!"
 
@@ -32,7 +32,7 @@ colour=0x3B2E22
 hAlign=Center
 vAlign=Center
 lineHeight=14
-font=495
+font=p12_full
 text="You have completed Death Plateau!"
 
 [quest_model_ver3]
@@ -53,7 +53,7 @@ width=131
 height=15
 colour=0xFF9933
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Quest Points:"
 
@@ -65,7 +65,7 @@ width=17
 height=15
 colour=0xFF9933
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="%1"
 script1op1=varp,qp
@@ -88,7 +88,7 @@ width=213
 height=16
 colour=0x3B242C
 hAlign=Center
-font=495
+font=p12_full
 text="You are awarded:"
 
 [quest_reward1_ver3]
@@ -99,7 +99,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [quest_reward2_ver3]
 type=Text
@@ -109,7 +109,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [quest_reward3_ver3]
 type=Text
@@ -119,7 +119,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [skullduration_tab]
 type=Text
@@ -129,7 +129,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [quest_reward5_ver3]
 type=Text
@@ -139,7 +139,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [quest_reward6_ver3]
 type=Text
@@ -149,7 +149,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [quest_reward7_ver3]
 type=Text
@@ -159,7 +159,7 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full
 
 [com_15]
 type=Sprite
@@ -197,4 +197,4 @@ width=213
 height=14
 colour=0x3B2E22
 hAlign=Center
-font=495
+font=p12_full

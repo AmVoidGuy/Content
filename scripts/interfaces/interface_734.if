@@ -230,7 +230,7 @@ height=45
 colour=0x402000
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Choose a combination"
 
 [confirm_now]
@@ -242,7 +242,7 @@ height=53
 colour=0x402000
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Teleport to this location"
 eventCode=hasOp(1)
 opName0="Teleport"
@@ -259,7 +259,7 @@ hide=yes
 colour=0x402000
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Teleport to this location"
 eventCode=hasOp(1)
 opName0="Teleport"

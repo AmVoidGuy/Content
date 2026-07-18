@@ -22,7 +22,7 @@ width=228
 height=79
 hAlign=Center
 vAlign=Bottom
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -35,7 +35,7 @@ width=234
 height=79
 hAlign=Center
 vAlign=Bottom
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -48,7 +48,7 @@ width=464
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Select an Option"
 
 [graphical_multi_pic2a]

@@ -15,7 +15,7 @@ width=354
 height=14
 colour=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [mm_ms1]
@@ -26,7 +26,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms2]
 type=Text
@@ -36,7 +36,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms3]
 type=Text
@@ -46,7 +46,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms4]
 type=Text
@@ -56,7 +56,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms5]
 type=Text
@@ -66,7 +66,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms6]
 type=Text
@@ -76,7 +76,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms7]
 type=Text
@@ -86,7 +86,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms8]
 type=Text
@@ -96,7 +96,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms9]
 type=Text
@@ -106,7 +106,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms10]
 type=Text
@@ -116,7 +116,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [mm_ms11]
 type=Text
@@ -126,7 +126,7 @@ width=354
 height=14
 colour=0xCCCCCC
 hAlign=Center
-font=497
+font=q8_full
 
 [com_13]
 type=Sprite

@@ -15,7 +15,7 @@ width=404
 height=16
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Pop the correct balloon animal to find a key"
 

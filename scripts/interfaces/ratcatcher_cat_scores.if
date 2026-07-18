@@ -6,7 +6,7 @@ width=109
 height=17
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Text"
 
@@ -18,7 +18,7 @@ width=110
 height=18
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Text"
 
@@ -55,7 +55,7 @@ y=43
 width=14
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="10"
 
@@ -66,7 +66,7 @@ y=91
 width=14
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="10"
 
@@ -106,7 +106,7 @@ width=124
 height=17
 layerId=18415623
 hAlign=Center
-font=497
+font=q8_full
 text="Your cat has been"
 
 [ratpits_credits_winner]
@@ -116,5 +116,5 @@ y=49
 width=59
 height=17
 layerId=18415623
-font=497
+font=q8_full
 text="Defeated"

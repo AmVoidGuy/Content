@@ -711,7 +711,7 @@ height=23
 colour=0xF99B15
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Teleport Option"
 
@@ -723,7 +723,7 @@ width=185
 height=14
 colour=0xF99B15
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="%1"
 
@@ -736,7 +736,7 @@ height=42
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="...wants to teleport you to..."
 
@@ -748,7 +748,7 @@ width=187
 height=15
 colour=0xF99B15
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="%2"
 
@@ -760,7 +760,7 @@ width=187
 height=27
 colour=0xFFFF00
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Do you accept?"
 
@@ -816,7 +816,7 @@ layerId=21364831
 colour=0x00C000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Accept"
 
@@ -842,7 +842,7 @@ layerId=21364832
 colour=0xC00000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Decline"
 

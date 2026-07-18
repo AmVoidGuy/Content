@@ -15,7 +15,7 @@ width=72
 height=17
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Runelink"
 
@@ -27,7 +27,7 @@ width=72
 height=13
 colour=0xAAAAAA
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Rank: %1"
 script1op1=varp,boardgames_runelink_rank

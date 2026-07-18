@@ -40,7 +40,7 @@ y=49
 width=291
 height=34
 colour=0x46320A
-font=645
+font=quill_oblique_large
 text="Defeat!"
 
 [subsection_title]
@@ -50,7 +50,7 @@ y=93
 width=291
 height=13
 colour=0x46320A
-font=497
+font=q8_full
 text="Your clan has been defeated."
 
 [com_5]

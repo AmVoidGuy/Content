@@ -159,7 +159,7 @@ y=29
 width=176
 height=17
 colour=0xFFAA44
-font=496
+font=b12_full
 shadow=yes
 text="Draughts"
 
@@ -188,7 +188,7 @@ y=58
 width=140
 height=25
 colour=0xFFAA44
-font=495
+font=p12_full
 shadow=yes
 
 [com_22]
@@ -199,7 +199,7 @@ width=22
 height=14
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="vs"
 
@@ -210,7 +210,7 @@ y=89
 width=140
 height=25
 colour=0xFFAA44
-font=495
+font=p12_full
 shadow=yes
 
 [com_24]
@@ -222,7 +222,7 @@ height=30
 colour=0x800000
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Close"
 onmouseover=45,component.parentId,16711680
@@ -260,7 +260,7 @@ width=169
 height=27
 colour=0xAAAAAA
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 
 [text_2]
@@ -271,7 +271,7 @@ width=169
 height=50
 colour=0xAAAAAA
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 
 [board]

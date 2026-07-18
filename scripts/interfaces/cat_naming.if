@@ -114,7 +114,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [catb]
@@ -125,7 +125,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [catc]
@@ -136,7 +136,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [catd]
@@ -147,7 +147,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [cate]
@@ -158,7 +158,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [catf]
@@ -169,7 +169,7 @@ width=9
 height=14
 colour=0x505050
 hAlign=Center
-font=496
+font=b12_full
 text="A"
 
 [cat_collar]
@@ -325,7 +325,7 @@ width=206
 height=14
 colour=0xFFAA44
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Name Your Cat"
 
@@ -348,7 +348,7 @@ width=114
 height=14
 colour=0xFFAA44
 hAlign=Center
-font=496
+font=b12_full
 text="E N T E R"
 
 [cathead1]

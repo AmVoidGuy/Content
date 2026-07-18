@@ -17,7 +17,7 @@ width=380
 height=69
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [doubleobjboxmodel2]
@@ -39,7 +39,7 @@ width=380
 height=17
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215

@@ -620,7 +620,7 @@ width=88
 height=14
 colour=0xF99B15
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Trawler Catch"
 
@@ -634,7 +634,7 @@ height=12
 colour=0xAA4444
 colourOver=0xFFFFFF
 hAlign=Right
-font=494
+font=p11_full
 shadow=yes
 text="Dump Items"
 buttonText="Ok"
@@ -648,7 +648,7 @@ height=17
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Click Dump Items to close the window and discard remaining items."
 

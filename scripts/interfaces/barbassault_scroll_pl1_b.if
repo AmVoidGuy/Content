@@ -24,7 +24,7 @@ y=48
 width=260
 height=17
 colour=0xFF9833
-font=496
+font=b12_full
 shadow=yes
 text="Player 1 Interface Screen"
 
@@ -37,7 +37,7 @@ width=40
 height=14
 colour=0xC8C800
 colourOver=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="Decline"
 buttonText="Decline"
@@ -64,7 +64,7 @@ width=39
 height=14
 colour=0xC8C800
 colourOver=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 text="Accept"
 buttonText="Accept"
@@ -78,7 +78,7 @@ width=159
 height=18
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Player 2 selected role:"
 
@@ -90,7 +90,7 @@ width=85
 height=17
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Waiting ..."
 
@@ -101,7 +101,7 @@ y=81
 width=191
 height=20
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="The team:"
 
@@ -113,7 +113,7 @@ width=63
 height=15
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Name"
 
@@ -125,7 +125,7 @@ width=64
 height=14
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Role"
 
@@ -136,7 +136,7 @@ y=144
 width=6
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="1"
 
@@ -147,7 +147,7 @@ y=176
 width=8
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="2"
 
@@ -158,7 +158,7 @@ y=208
 width=7
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="3"
 
@@ -169,7 +169,7 @@ y=240
 width=7
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="4"
 
@@ -180,7 +180,7 @@ y=272
 width=7
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="5"
 
@@ -192,7 +192,7 @@ width=76
 height=25
 colour=0xFF981F
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -204,7 +204,7 @@ width=76
 height=25
 colour=0xFF981F
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -216,7 +216,7 @@ width=76
 height=25
 colour=0xFF981F
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -228,7 +228,7 @@ width=76
 height=25
 colour=0xFF981F
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -240,7 +240,7 @@ width=76
 height=25
 colour=0xFF981F
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -253,7 +253,7 @@ height=25
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -266,7 +266,7 @@ height=25
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -279,7 +279,7 @@ height=25
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -292,7 +292,7 @@ height=25
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -305,7 +305,7 @@ height=25
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="none set"
 
@@ -317,7 +317,7 @@ width=34
 height=14
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Wave"
 
@@ -328,7 +328,7 @@ y=144
 width=8
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -382,7 +382,7 @@ width=63
 height=14
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Remove?"
 
@@ -393,7 +393,7 @@ y=176
 width=8
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -404,7 +404,7 @@ y=208
 width=8
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -415,7 +415,7 @@ y=236
 width=8
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -426,7 +426,7 @@ y=272
 width=8
 height=14
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -531,7 +531,7 @@ width=85
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Level in role:"
 
@@ -543,7 +543,7 @@ width=85
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Waiting ..."
 

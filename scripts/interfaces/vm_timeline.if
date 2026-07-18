@@ -25,7 +25,7 @@ width=275
 height=329
 colour=0xFF981F
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Text"
 
@@ -617,7 +617,7 @@ height=22
 layerId=34996288
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Asgarnia"
 
@@ -630,7 +630,7 @@ height=22
 layerId=34996288
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Misthalin"
 
@@ -643,7 +643,7 @@ height=11
 layerId=34996288
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Avarrocka"
 
@@ -656,7 +656,7 @@ height=11
 layerId=34996288
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Ghost Town"
 
@@ -669,7 +669,7 @@ height=11
 layerId=34996288
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Karamja"
 
@@ -682,7 +682,7 @@ height=11
 layerId=34996288
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Entrana"
 
@@ -866,7 +866,7 @@ width=120
 height=16
 colour=0xFF981F
 hAlign=Right
-font=496
+font=b12_full
 shadow=yes
 text="Display number"
 
@@ -877,6 +877,6 @@ y=306
 width=32
 height=16
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="03"

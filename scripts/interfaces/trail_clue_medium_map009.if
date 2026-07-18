@@ -1184,7 +1184,7 @@ y=214
 width=14
 height=12
 colour=0x2F2A25
-font=494
+font=p11_full
 text="8N"
 
 [com_113]
@@ -1194,7 +1194,7 @@ y=153
 width=16
 height=12
 colour=0x2F2A25
-font=494
+font=p11_full
 text="6W"
 
 [com_114]
@@ -1204,5 +1204,5 @@ y=173
 width=14
 height=12
 colour=0x2F2A25
-font=494
+font=p11_full
 text="2S"

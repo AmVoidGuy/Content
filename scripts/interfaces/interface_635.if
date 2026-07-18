@@ -89,7 +89,7 @@ width=32
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Style:"
 
@@ -101,7 +101,7 @@ width=32
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Options:"
 
@@ -224,7 +224,7 @@ width=254
 height=32
 layerId=41615387
 colour=0xCC0000
-font=494
+font=p11_full
 shadow=yes
 
 [com_26]
@@ -250,7 +250,7 @@ width=80
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Registrar:"
 
@@ -262,7 +262,7 @@ width=75
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 
 [tourn_rank_txt]
@@ -272,7 +272,7 @@ y=54
 width=80
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Tourn. Rank:"
 
@@ -283,7 +283,7 @@ y=66
 width=60
 height=12
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 onvartransmit=564,component.parentId
 onvartransmitlist=1105
@@ -296,7 +296,7 @@ width=80
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Tourn. Value:"
 
@@ -308,7 +308,7 @@ width=75
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 
 [com_34]
@@ -319,7 +319,7 @@ width=80
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Entry Fee:"
 
@@ -331,7 +331,7 @@ width=75
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 
 [com_36]
@@ -342,7 +342,7 @@ width=80
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes
 text="Time left:"
 
@@ -354,5 +354,5 @@ width=75
 height=12
 layerId=41615387
 colour=0xCC9900
-font=494
+font=p11_full
 shadow=yes

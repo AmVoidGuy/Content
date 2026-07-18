@@ -56,7 +56,7 @@ layerId=25493509
 colour=0xA05A00
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 
 [com_7]
 type=Text
@@ -69,7 +69,7 @@ colour=0xA05A00
 hAlign=Center
 vAlign=Center
 lineHeight=15
-font=494
+font=p11_full
 text="To search for an item, start by typing part of its name.<br>Then, simply select the item you want from the results on display."
 
 [resultscrollbar]
@@ -85,7 +85,7 @@ y=111
 width=457
 height=15
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 
 [closebutton]

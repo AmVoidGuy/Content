@@ -224,6 +224,6 @@ width=404
 height=17
 colour=0xCC6600
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Rage level. "

@@ -140,7 +140,7 @@ height=17
 layerId=47841296
 colour=0xFF0000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Please pick up a stone!"
 
@@ -160,7 +160,7 @@ width=61
 height=16
 layerId=47841299
 colour=0xC8AA64
-font=495
+font=p12_full
 shadow=yes
 text="Charge:"
 
@@ -173,7 +173,7 @@ height=16
 layerId=47841299
 colour=0x77736A
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="Name"
 
@@ -193,7 +193,7 @@ width=78
 height=16
 layerId=47841301
 colour=0xC8AA64
-font=495
+font=p12_full
 shadow=yes
 text="Hunting:"
 
@@ -213,7 +213,7 @@ width=78
 height=16
 layerId=47841303
 colour=0xC8AA64
-font=495
+font=p12_full
 shadow=yes
 text="Hunted by:"
 
@@ -234,7 +234,7 @@ width=182
 height=32
 layerId=47841307
 colour=0xC8AA64
-font=495
+font=p12_full
 shadow=yes
 text="Time left:"
 

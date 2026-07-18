@@ -174,7 +174,7 @@ layerId=40632346
 colour=0xBF751D
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Player Stock"
 
@@ -197,7 +197,7 @@ layerId=40632349
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Main Stock"
 
@@ -210,7 +210,7 @@ height=22
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Lowe's Archery Emporium"
 
@@ -266,7 +266,7 @@ height=32
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Right-click on an item in the shop or your inventory to see the available options.<br>Compare the prices between the Main and Player Stock to find the best deals!"
 
@@ -297,7 +297,7 @@ layerId=40632347
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Player Stock"
 
@@ -310,7 +310,7 @@ height=14
 layerId=40632345
 colour=0xBF751D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Main Stock"
 

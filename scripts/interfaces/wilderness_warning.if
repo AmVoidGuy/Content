@@ -218,7 +218,7 @@ width=146
 height=19
 colour=0xE19900
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="WARNING!"
 
@@ -231,7 +231,7 @@ height=144
 colour=0xFF7D1F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="If you go any further you will enter the Wilderness. This is a very dangerous area, haunted by ghosts! The further north you go, the more dangerous it becomes."
 
@@ -244,7 +244,7 @@ height=55
 colour=0xC8C8C8
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Enter Wilderness"
 
@@ -257,7 +257,7 @@ height=56
 colour=0xC8C8C8
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Don't go"
 
@@ -270,7 +270,7 @@ height=15
 layerId=25034780
 colour=0xFF981F
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Don't ask me this again"
 

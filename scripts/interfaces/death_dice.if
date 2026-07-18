@@ -60,7 +60,7 @@ width=102
 height=19
 colour=0x333333
 hAlign=Center
-font=497
+font=q8_full
 text="Harold"
 
 [death_gamble_playername]
@@ -71,7 +71,7 @@ width=103
 height=23
 colour=0x333333
 hAlign=Center
-font=497
+font=q8_full
 text="Player"
 
 [death_gamble_harold_gold1]
@@ -353,7 +353,7 @@ layerId=6488091
 colour=0x333333
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="Roll Dice!"
 eventCode=flag22
 
@@ -376,7 +376,7 @@ layerId=6488093
 colour=0x333333
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="Continue..."
 buttonText="Continue"
 eventCode=pauseButton
@@ -389,7 +389,7 @@ width=9
 height=17
 colour=0x333333
 hAlign=Center
-font=497
+font=q8_full
 text="0"
 
 [death_gamble_player_stake]
@@ -400,7 +400,7 @@ width=9
 height=17
 colour=0x333333
 hAlign=Center
-font=497
+font=q8_full
 text="0"
 
 [death_gamble_result]
@@ -411,7 +411,7 @@ width=143
 height=21
 colour=0x880000
 hAlign=Center
-font=497
+font=q8_full
 text="You win!"
 
 [com_34]

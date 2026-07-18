@@ -6,7 +6,7 @@ width=132
 height=18
 colour=0xAA0000
 hAlign=Center
-font=497
+font=q8_full
 text="Pick a Puppy"
 
 [com_1]

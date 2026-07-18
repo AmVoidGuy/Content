@@ -44,7 +44,7 @@ width=111
 height=13
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Wave Complete!"
 
@@ -56,7 +56,7 @@ width=56
 height=14
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Reward: "
 
@@ -68,7 +68,7 @@ width=128
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Runners that got past"
 
@@ -80,7 +80,7 @@ width=82
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Rangers killed"
 
@@ -92,7 +92,7 @@ width=82
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Fighters killed"
 
@@ -104,7 +104,7 @@ width=82
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Healers killed"
 
@@ -116,7 +116,7 @@ width=82
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Runners killed"
 
@@ -128,7 +128,7 @@ width=168
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Player hitpoints replenished"
 
@@ -140,7 +140,7 @@ width=146
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Wrong poison packs used"
 
@@ -152,7 +152,7 @@ width=168
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Eggs collected (min. exploded)"
 
@@ -164,7 +164,7 @@ width=132
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Failed Attacker attacks"
 
@@ -176,7 +176,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -188,7 +188,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -200,7 +200,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -212,7 +212,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -224,7 +224,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -236,7 +236,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -248,7 +248,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -260,7 +260,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -272,7 +272,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -284,7 +284,7 @@ width=27
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Total"
 
@@ -296,7 +296,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -308,7 +308,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -320,7 +320,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -332,7 +332,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -344,7 +344,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF991F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -356,7 +356,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -368,7 +368,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -380,7 +380,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -392,7 +392,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -404,7 +404,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -416,7 +416,7 @@ width=13
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="#"
 
@@ -429,7 +429,7 @@ height=26
 layerId=32571452
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Team Honour Points"
 
@@ -442,7 +442,7 @@ height=15
 layerId=32571452
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Role:"
 
@@ -455,7 +455,7 @@ height=14
 layerId=32571452
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="None"
 
@@ -467,7 +467,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -479,7 +479,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -491,7 +491,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -503,7 +503,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -515,7 +515,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -527,7 +527,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -539,7 +539,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -551,7 +551,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -563,7 +563,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -575,7 +575,7 @@ width=8
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -587,7 +587,7 @@ width=156
 height=18
 layerId=32571452
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Honour Points reward :"
 
@@ -599,7 +599,7 @@ width=8
 height=18
 layerId=32571452
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="0"
 
@@ -611,7 +611,7 @@ width=6
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="-"
 
@@ -623,7 +623,7 @@ width=6
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="-"
 
@@ -635,7 +635,7 @@ width=6
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="-"
 
@@ -647,7 +647,7 @@ width=6
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="-"
 
@@ -659,7 +659,7 @@ width=6
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="-"
 
@@ -671,7 +671,7 @@ width=6
 height=14
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="-"
 
@@ -684,7 +684,7 @@ height=25
 layerId=32571452
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Total Honour Points in role:"
 
@@ -697,7 +697,7 @@ height=14
 layerId=32571452
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -709,7 +709,7 @@ width=82
 height=25
 layerId=32571452
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Individual Honour Points"
 
@@ -739,7 +739,7 @@ layerId=32571453
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="The Queen is dead!"
 
@@ -752,7 +752,7 @@ height=19
 layerId=32571453
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Reward:"
 
@@ -765,7 +765,7 @@ height=145
 layerId=32571453
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="--Points output--"
 
@@ -778,7 +778,7 @@ height=16
 layerId=32571462
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="-Role-"
 
@@ -793,7 +793,7 @@ layerId=32571452
 colour=0xFF981F
 colourOver=0xFFFF66
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Simple breakdown"
 eventCode=flag22
@@ -807,7 +807,7 @@ height=16
 layerId=32571462
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Honour Points Reward:"
 
@@ -820,7 +820,7 @@ height=16
 layerId=32571462
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -833,7 +833,7 @@ height=16
 layerId=32571462
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="0"
 
@@ -855,7 +855,7 @@ layerId=32571462
 colour=0xFF981F
 colourOver=0xFFFF66
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Advanced Breakdown"
 eventCode=flag22
@@ -869,7 +869,7 @@ height=16
 layerId=32571462
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Total Honour Points in role:"
 
@@ -925,7 +925,7 @@ colour=0x83551B
 colourOver=0xFFFF66
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Level<br>up"
 
@@ -961,7 +961,7 @@ colour=0xFF981F
 colourOver=0xFFFF66
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Level<br>up"
 

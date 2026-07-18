@@ -445,7 +445,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_1]
@@ -467,7 +467,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_2]
@@ -489,7 +489,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_3]
@@ -511,7 +511,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_4]
@@ -533,7 +533,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_5]
@@ -555,7 +555,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_6]
@@ -577,7 +577,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_7]
@@ -599,7 +599,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_8]
@@ -621,7 +621,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_9]
@@ -643,7 +643,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_10]
@@ -665,7 +665,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_11]
@@ -687,7 +687,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_12]
@@ -709,7 +709,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_13]
@@ -731,7 +731,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_14]
@@ -753,7 +753,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_15]
@@ -775,7 +775,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_16]
@@ -797,7 +797,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_17]
@@ -819,7 +819,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_18]
@@ -841,7 +841,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_19]
@@ -863,7 +863,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_20]
@@ -885,7 +885,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_21]
@@ -907,7 +907,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_22]
@@ -929,7 +929,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_23]
@@ -951,7 +951,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_24]
@@ -973,7 +973,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_25]
@@ -995,7 +995,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_26]
@@ -1017,7 +1017,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_27]
@@ -1039,7 +1039,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_28]
@@ -1061,7 +1061,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_29]
@@ -1083,7 +1083,7 @@ width=162
 height=15
 layerId=30605365
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 
 [r_30]
@@ -2096,7 +2096,7 @@ width=417
 height=13
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 
 [com_226]

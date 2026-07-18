@@ -154,7 +154,7 @@ width=76
 height=14
 layerId=6225943
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Port Tyras"
 
@@ -164,7 +164,7 @@ width=90
 height=14
 layerId=6225944
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Port Phasmatys"
 
@@ -174,7 +174,7 @@ width=52
 height=14
 layerId=6225945
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Catherby"
 
@@ -186,7 +186,7 @@ width=85
 height=20
 layerId=6225946
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Shipyard"
 
@@ -197,7 +197,7 @@ width=109
 height=17
 layerId=6225947
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text=" Karamja"
 
@@ -208,7 +208,7 @@ width=59
 height=14
 layerId=6225948
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Brimhaven"
 
@@ -220,7 +220,7 @@ width=74
 height=14
 layerId=6225949
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Port Khazard"
 
@@ -231,7 +231,7 @@ width=119
 height=15
 layerId=6225950
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Port Sarim"
 
@@ -243,7 +243,7 @@ width=92
 height=14
 layerId=6225951
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Mos Le'Harmless"
 
@@ -253,7 +253,7 @@ width=61
 height=14
 layerId=6225952
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Crandor"
 
@@ -264,7 +264,7 @@ width=76
 height=14
 layerId=6225953
 colour=0xFF981F
-font=495
+font=p12_full
 shadow=yes
 text="Oo'glog"
 

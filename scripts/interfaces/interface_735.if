@@ -100,7 +100,7 @@ layerId=48168960
 colour=0xFF9900
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Travel Log"
 
@@ -137,7 +137,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_aiq]
@@ -147,7 +147,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_air]
@@ -157,7 +157,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ais]
@@ -167,7 +167,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ajp]
@@ -177,7 +177,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ajq]
@@ -187,7 +187,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ajr]
@@ -197,7 +197,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ajs]
@@ -207,7 +207,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_akp]
@@ -217,7 +217,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_akq]
@@ -227,7 +227,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_akr]
@@ -237,7 +237,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_aks]
@@ -247,7 +247,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_alp]
@@ -257,7 +257,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_alq]
@@ -267,7 +267,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_alr]
@@ -277,7 +277,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_als]
@@ -287,7 +287,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bip]
@@ -297,7 +297,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_biq]
@@ -307,7 +307,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bir]
@@ -317,7 +317,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bis]
@@ -327,7 +327,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bjp]
@@ -337,7 +337,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bjq]
@@ -347,7 +347,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bjr]
@@ -357,7 +357,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bjs]
@@ -367,7 +367,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bkp]
@@ -377,7 +377,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bkq]
@@ -387,7 +387,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bkr]
@@ -397,7 +397,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bks]
@@ -407,7 +407,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_blp]
@@ -417,7 +417,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_blq]
@@ -427,7 +427,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_blr]
@@ -437,7 +437,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_bls]
@@ -447,7 +447,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cip]
@@ -457,7 +457,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ciq]
@@ -467,7 +467,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cir]
@@ -477,7 +477,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cis]
@@ -487,7 +487,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cjp]
@@ -497,7 +497,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cjq]
@@ -507,7 +507,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cjr]
@@ -517,7 +517,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cjs]
@@ -527,7 +527,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ckp]
@@ -537,7 +537,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ckq]
@@ -547,7 +547,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_ckr]
@@ -557,7 +557,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cks]
@@ -567,7 +567,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_clp]
@@ -577,7 +577,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_clq]
@@ -587,7 +587,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_clr]
@@ -597,7 +597,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_cls]
@@ -607,7 +607,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dip]
@@ -617,7 +617,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_diq]
@@ -627,7 +627,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dir]
@@ -637,7 +637,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dis]
@@ -647,7 +647,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_djp]
@@ -657,7 +657,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_djq]
@@ -667,7 +667,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_djr]
@@ -677,7 +677,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_djs]
@@ -687,7 +687,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dkp]
@@ -697,7 +697,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dkq]
@@ -707,7 +707,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dkr]
@@ -717,7 +717,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dks]
@@ -727,7 +727,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dlp]
@@ -737,7 +737,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dlq]
@@ -747,7 +747,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dlr]
@@ -757,7 +757,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [text_dls]
@@ -767,7 +767,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [com_78]
@@ -777,7 +777,7 @@ width=166
 height=15
 layerId=48168973
 colour=0xFF9900
-font=495
+font=p12_full
 shadow=yes
 
 [scrollbar]

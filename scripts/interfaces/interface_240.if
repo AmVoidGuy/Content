@@ -286,7 +286,7 @@ width=76
 height=15
 colour=0x909069
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Tries = 3"
 
@@ -298,7 +298,7 @@ y=199
 width=43
 height=45
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -310,7 +310,7 @@ y=52
 width=32
 height=39
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -322,7 +322,7 @@ y=162
 width=40
 height=51
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -334,7 +334,7 @@ y=110
 width=47
 height=36
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -346,7 +346,7 @@ y=110
 width=47
 height=36
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 

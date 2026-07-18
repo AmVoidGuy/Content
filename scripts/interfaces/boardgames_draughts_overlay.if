@@ -16,7 +16,7 @@ width=75
 height=15
 colour=0xAAAAAA
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Draughts"
 
@@ -28,7 +28,7 @@ width=75
 height=15
 colour=0xAAAAAA
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Rank: %1"
 script1op1=varp,boardgames_draughts_rank

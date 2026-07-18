@@ -131,7 +131,7 @@ height=22
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Farmer Blinkin's Vinesweeper Instructions"
 
@@ -142,7 +142,7 @@ y=59
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="1. Speak to either Mrs. Winkin in the barn or Farmer Blinkin outside to buy some flags."
 
@@ -153,7 +153,7 @@ y=80
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="2. When you have some flags, head out into the farmyard area over any of the 4 stiles."
 
@@ -164,7 +164,7 @@ y=101
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="3. Use your spade to dig up any of the holes around the farmyard. This will uncover what was in that hole. The aim is to place your flags in holes where you believe seeds are planted."
 
@@ -175,7 +175,7 @@ y=141
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="4. If the hole has nothing in it, then it will uncover a radius of 2 holes in all directions"
 
@@ -186,7 +186,7 @@ y=171
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="5. If you uncover a number from 1-8, this means that there are that many seeds planted in the 8 holes surrounding the one that you have dug up."
 
@@ -197,7 +197,7 @@ y=201
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="6. When you have a square that you are certain contains a seed, either right-click and select the 'Flag' option or use a flag on the hole."
 
@@ -208,7 +208,7 @@ y=231
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="7. When a farmer sees a flag, he will come over to check beneath it. He will collect the flag and give points out if there was a seed there. If you have successfully found a seed, you will be able to get the flag back for free from either Mrs. Winkin or Farmer Blinkin."
 
@@ -219,6 +219,6 @@ y=279
 width=450
 height=32
 colour=0xFFFFFF
-font=494
+font=p11_full
 shadow=yes
 text="8. Rabbits roam the area and will attempt to eat seeds where flags are planted or where they have been dug up. Use the ogleroots that you find on them to make them disappear."

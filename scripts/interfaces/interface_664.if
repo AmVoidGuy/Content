@@ -6,7 +6,7 @@ width=180
 height=17
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="%1"
 
@@ -93,7 +93,7 @@ height=13
 layerId=43515915
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Summon"
 
@@ -117,7 +117,7 @@ height=42
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Auto-retaliate <br>(Off)"
 
@@ -303,7 +303,7 @@ width=117
 height=11
 layerId=43515918
 colour=0x000010
-font=494
+font=p11_full
 text="S P E C I A L  A T T A C K"
 
 [com_27]
@@ -314,7 +314,7 @@ width=180
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Combat Lvl: %1"
 onvartransmit=749
@@ -329,7 +329,7 @@ width=70
 height=13
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Bash"
 
@@ -341,7 +341,7 @@ width=70
 height=13
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Pound"
 
@@ -353,7 +353,7 @@ width=70
 height=13
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Focus"
 

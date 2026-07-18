@@ -27,7 +27,7 @@ width=180
 height=15
 colour=0x381F0A
 hAlign=Center
-font=496
+font=b12_full
 text="To the NORTH"
 
 [aide_north_text_2]
@@ -39,7 +39,7 @@ height=71
 colour=0x381F0A
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="To the NORTH"
 
 [aide_scroll_east]
@@ -72,7 +72,7 @@ width=118
 height=15
 colour=0x381F0A
 hAlign=Center
-font=496
+font=b12_full
 text="To the EAST"
 
 [aide_south_text_1]
@@ -83,7 +83,7 @@ width=177
 height=15
 colour=0x381F0A
 hAlign=Center
-font=496
+font=b12_full
 text="To the SOUTH"
 
 [aide_east_text_2]
@@ -95,7 +95,7 @@ height=137
 colour=0x381F0A
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="To the EAST"
 
 [aide_south_text_2]
@@ -107,7 +107,7 @@ height=66
 colour=0x381F0A
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="To the SOUTH"
 
 [aide_scroll_west]
@@ -128,7 +128,7 @@ width=114
 height=14
 colour=0x381F0A
 hAlign=Center
-font=496
+font=b12_full
 text="To the WEST"
 
 [aide_west_text_2]
@@ -140,7 +140,7 @@ height=138
 colour=0x381F0A
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="To the WEST"
 
 [com_13]

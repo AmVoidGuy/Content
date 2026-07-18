@@ -388,7 +388,7 @@ width=181
 height=17
 layerId=17039404
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Cyrisus's Bank"
 
@@ -411,7 +411,7 @@ height=17
 layerId=17039404
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Chest"
 

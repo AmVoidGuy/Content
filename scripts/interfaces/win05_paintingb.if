@@ -272,7 +272,7 @@ width=122
 height=19
 colour=0xFFFF00
 hAlign=Center
-font=497
+font=q8_full
 text="Pick a colour"
 
 [win05_bauble_red]

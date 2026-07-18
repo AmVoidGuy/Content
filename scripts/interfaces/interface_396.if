@@ -767,7 +767,7 @@ width=478
 height=19
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Select a piece of furniture to build. "
 
@@ -778,7 +778,7 @@ y=55
 width=202
 height=14
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text2="Select a piece of furniture to build."
 
@@ -789,7 +789,7 @@ y=62
 width=116
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -800,7 +800,7 @@ y=73
 width=72
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -811,7 +811,7 @@ y=83
 width=71
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -822,7 +822,7 @@ y=94
 width=71
 height=14
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -833,7 +833,7 @@ y=107
 width=71
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -844,7 +844,7 @@ y=127
 width=117
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -855,7 +855,7 @@ y=138
 width=75
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -866,7 +866,7 @@ y=148
 width=75
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -877,7 +877,7 @@ y=158
 width=75
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -888,7 +888,7 @@ y=168
 width=75
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -899,7 +899,7 @@ y=192
 width=117
 height=11
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -910,7 +910,7 @@ y=202
 width=72
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -921,7 +921,7 @@ y=213
 width=72
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -932,7 +932,7 @@ y=225
 width=72
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -943,7 +943,7 @@ y=235
 width=72
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -954,7 +954,7 @@ y=257
 width=111
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -965,7 +965,7 @@ y=268
 width=76
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -976,7 +976,7 @@ y=279
 width=76
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -987,7 +987,7 @@ y=291
 width=76
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -998,7 +998,7 @@ y=303
 width=76
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1009,7 +1009,7 @@ y=62
 width=120
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -1020,7 +1020,7 @@ y=73
 width=71
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -1031,7 +1031,7 @@ y=83
 width=71
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1042,7 +1042,7 @@ y=93
 width=71
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1053,7 +1053,7 @@ y=104
 width=72
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1064,7 +1064,7 @@ y=127
 width=120
 height=12
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -1075,7 +1075,7 @@ y=138
 width=73
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -1086,7 +1086,7 @@ y=149
 width=73
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1097,7 +1097,7 @@ y=161
 width=73
 height=13
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1108,7 +1108,7 @@ y=173
 width=73
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1119,7 +1119,7 @@ y=192
 width=120
 height=13
 colour=0xFF981F
-font=494
+font=p11_full
 shadow=yes
 text="Wooden Chair"
 
@@ -1130,7 +1130,7 @@ y=204
 width=76
 height=12
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="5 Wood"
 
@@ -1141,7 +1141,7 @@ y=215
 width=76
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1152,7 +1152,7 @@ y=225
 width=76
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1163,7 +1163,7 @@ y=235
 width=76
 height=11
 colour=0xCCCCFF
-font=494
+font=p11_full
 shadow=yes
 text="2 Oak"
 
@@ -1258,7 +1258,7 @@ width=50
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -1270,7 +1270,7 @@ width=50
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -1282,7 +1282,7 @@ width=50
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -1294,7 +1294,7 @@ width=50
 height=11
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -1306,7 +1306,7 @@ width=50
 height=12
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -1318,7 +1318,7 @@ width=50
 height=13
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 
@@ -1330,7 +1330,7 @@ width=50
 height=13
 colour=0xFF981F
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Level"
 

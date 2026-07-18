@@ -55,7 +55,7 @@ width=115
 height=80
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=pauseButton
 
@@ -68,7 +68,7 @@ width=115
 height=80
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=pauseButton
 
@@ -81,7 +81,7 @@ width=115
 height=80
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=pauseButton
 
@@ -94,7 +94,7 @@ width=115
 height=80
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=pauseButton
 
@@ -107,7 +107,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=pauseButton
 
@@ -120,7 +120,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=pauseButton
 
@@ -133,7 +133,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=pauseButton
 
@@ -146,7 +146,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=pauseButton
 
@@ -159,7 +159,7 @@ width=122
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=pauseButton
 
@@ -172,7 +172,7 @@ width=122
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=pauseButton
 
@@ -185,7 +185,7 @@ width=122
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=pauseButton
 
@@ -198,7 +198,7 @@ width=122
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=pauseButton
 
@@ -211,7 +211,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make X"
 eventCode=pauseButton
 
@@ -224,7 +224,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 10"
 eventCode=pauseButton
 
@@ -237,7 +237,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 5"
 eventCode=pauseButton
 
@@ -250,7 +250,7 @@ width=120
 height=81
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 buttonText="Make 1"
 eventCode=pauseButton
 
@@ -262,5 +262,5 @@ width=464
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="What would you like to make?"

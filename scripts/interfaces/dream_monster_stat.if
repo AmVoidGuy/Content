@@ -6,7 +6,7 @@ width=123
 height=51
 colour=0xFFC71F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Monster name"
 
@@ -18,7 +18,7 @@ width=164
 height=39
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Line1"
 
@@ -30,7 +30,7 @@ width=164
 height=39
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Line2"
 
@@ -42,7 +42,7 @@ width=164
 height=37
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Line3"
 
@@ -54,7 +54,7 @@ width=164
 height=38
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Line4"
 

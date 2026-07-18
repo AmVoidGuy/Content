@@ -30,7 +30,7 @@ x=208
 y=8
 width=278
 height=170
-font=497
+font=q8_full
 text="Farmers wander the area looking for seeds that have been dug up by mistake. They will also collect any flags you have placed, resetting the nearby area and giving you points if the flag is in the right place."
 
 [paragraph02]
@@ -39,7 +39,7 @@ x=14
 y=190
 width=286
 height=169
-font=497
+font=q8_full
 text="If you place a flag over a seed, you will be able to get the flag back from Mrs. Winkin or Farmer Blinkin. If you placed a flag wrongly, you will have to pay 500gp for a new one."
 
 [farmer]

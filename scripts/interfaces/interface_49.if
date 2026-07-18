@@ -344,7 +344,7 @@ height=26
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="book title"
 
@@ -804,7 +804,7 @@ x=60
 y=80
 width=175
 height=17
-font=497
+font=q8_full
 text="line1"
 
 [bookmacro1b]
@@ -813,7 +813,7 @@ x=58
 y=96
 width=177
 height=17
-font=497
+font=q8_full
 text="line2"
 
 [bookmacro1c]
@@ -822,7 +822,7 @@ x=56
 y=112
 width=179
 height=17
-font=497
+font=q8_full
 text="line3"
 
 [bookmacro1d]
@@ -831,7 +831,7 @@ x=54
 y=128
 width=181
 height=17
-font=497
+font=q8_full
 text="line4"
 
 [com_91]
@@ -840,7 +840,7 @@ x=51
 y=144
 width=184
 height=17
-font=497
+font=q8_full
 text="line5"
 
 [com_92]
@@ -849,7 +849,7 @@ x=49
 y=160
 width=186
 height=17
-font=497
+font=q8_full
 text="line6"
 
 [bookmacro1g]
@@ -858,7 +858,7 @@ x=47
 y=176
 width=188
 height=17
-font=497
+font=q8_full
 text="line7"
 
 [bookmacro1h]
@@ -867,7 +867,7 @@ x=45
 y=192
 width=190
 height=17
-font=497
+font=q8_full
 text="line8"
 
 [bookmacro1i]
@@ -876,7 +876,7 @@ x=42
 y=208
 width=193
 height=17
-font=497
+font=q8_full
 text="line9"
 
 [com_96]
@@ -885,7 +885,7 @@ x=40
 y=224
 width=195
 height=17
-font=497
+font=q8_full
 text="line10"
 
 [com_97]
@@ -894,7 +894,7 @@ x=38
 y=240
 width=197
 height=17
-font=497
+font=q8_full
 text="line11"
 
 [com_98]
@@ -903,7 +903,7 @@ x=283
 y=80
 width=175
 height=17
-font=497
+font=q8_full
 text="line12"
 
 [bookmacro1m]
@@ -912,7 +912,7 @@ x=283
 y=96
 width=177
 height=17
-font=497
+font=q8_full
 text="line13"
 
 [bookmacro1n]
@@ -921,7 +921,7 @@ x=283
 y=112
 width=179
 height=17
-font=497
+font=q8_full
 text="line14"
 
 [bookmacro1o]
@@ -930,7 +930,7 @@ x=283
 y=128
 width=181
 height=17
-font=497
+font=q8_full
 text="line15"
 
 [com_102]
@@ -939,7 +939,7 @@ x=283
 y=144
 width=183
 height=17
-font=497
+font=q8_full
 text="line16"
 
 [com_103]
@@ -948,7 +948,7 @@ x=283
 y=160
 width=185
 height=17
-font=497
+font=q8_full
 text="line17"
 
 [bookmacro1r]
@@ -957,7 +957,7 @@ x=283
 y=176
 width=187
 height=17
-font=497
+font=q8_full
 text="line18"
 
 [bookmacro1s]
@@ -966,7 +966,7 @@ x=283
 y=192
 width=189
 height=17
-font=497
+font=q8_full
 text="line19"
 
 [bookmacro1t]
@@ -975,7 +975,7 @@ x=283
 y=208
 width=191
 height=17
-font=497
+font=q8_full
 text="line20"
 
 [bookmacro1u]
@@ -984,7 +984,7 @@ x=283
 y=224
 width=193
 height=17
-font=497
+font=q8_full
 text="line21"
 
 [bookmacro1v]
@@ -993,7 +993,7 @@ x=283
 y=240
 width=195
 height=17
-font=497
+font=q8_full
 text="line22"
 
 [com_109]
@@ -1002,7 +1002,7 @@ x=29
 y=270
 width=90
 height=17
-font=497
+font=q8_full
 text="Page%1"
 
 [com_110]
@@ -1012,7 +1012,7 @@ y=270
 width=90
 height=17
 hAlign=Right
-font=497
+font=q8_full
 text="Page%2"
 
 [com_111]

@@ -104,7 +104,7 @@ height=32
 colour=0xBF751D
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Step 4 : With your items placed on the Grand Exchange system, just wait a while and we will let you know when your items are traded."
 
@@ -127,7 +127,7 @@ y=21
 width=106
 height=16
 colour=0xBF751D
-font=495
+font=p12_full
 text="Click to continue"
 eventCode=hasOp(1)
 opName0="Continue"

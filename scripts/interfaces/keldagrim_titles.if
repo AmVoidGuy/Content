@@ -52,7 +52,7 @@ layerId=9961474
 colour=0x8B1313
 hAlign=Center
 lineHeight=42
-font=646
+font=quill_caps_large
 shadow=yes
 text="The Giant<br>Dwarf"
 
@@ -65,7 +65,7 @@ height=22
 layerId=9961472
 colour=0x990000
 hAlign=Center
-font=646
+font=quill_caps_large
 shadow=yes
 text="Keldagrim"
 
@@ -78,7 +78,7 @@ height=13
 layerId=9961472
 colour=0x990000
 hAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Grand Capital<br> of the Dwarven realm"
 
@@ -91,7 +91,7 @@ layerId=9961473
 colour=0x990000
 hAlign=Center
 lineHeight=36
-font=646
+font=quill_caps_large
 shadow=yes
 text="Rise of the<br>Red Axe"
 
@@ -104,7 +104,7 @@ height=16
 layerId=9961473
 colour=0x990000
 hAlign=Center
-font=646
+font=quill_caps_large
 shadow=yes
 text="Part 1"
 
@@ -118,7 +118,7 @@ layerId=9961475
 colour=0x990000
 hAlign=Center
 lineHeight=42
-font=646
+font=quill_caps_large
 shadow=yes
 text="Keldagrim<br>Palace"
 
@@ -132,7 +132,7 @@ layerId=9961475
 colour=0x990000
 hAlign=Center
 lineHeight=23
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Consortium<br>Meeting"
 
@@ -145,7 +145,7 @@ height=16
 layerId=9961476
 colour=0x990000
 hAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="A little while later"
 
@@ -159,7 +159,7 @@ layerId=9961477
 colour=0x990000
 hAlign=Center
 lineHeight=42
-font=646
+font=quill_caps_large
 shadow=yes
 text="Rise of the<br>Red Axe"
 
@@ -172,7 +172,7 @@ height=18
 layerId=9961477
 colour=0x990000
 hAlign=Center
-font=646
+font=quill_caps_large
 shadow=yes
 text="Part II"
 
@@ -187,6 +187,6 @@ colour=0x990000
 hAlign=Center
 vAlign=Center
 lineHeight=33
-font=646
+font=quill_caps_large
 shadow=yes
 text="Forgettable Tale<br> of a<br>Drunken Dwarf"

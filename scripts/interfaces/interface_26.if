@@ -41,7 +41,7 @@ width=497
 height=23
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="title"
 
@@ -654,7 +654,7 @@ x=10
 y=299
 width=80
 height=20
-font=497
+font=q8_full
 text="page%1"
 
 [bookmacro_big_pnumber_right]
@@ -664,7 +664,7 @@ y=300
 width=80
 height=20
 hAlign=Right
-font=497
+font=q8_full
 text="page%2"
 
 [com_70]
@@ -701,7 +701,7 @@ x=27
 y=70
 width=202
 height=17
-font=497
+font=q8_full
 text="line2"
 
 [bookmacro_big1c]
@@ -710,7 +710,7 @@ x=27
 y=86
 width=202
 height=17
-font=497
+font=q8_full
 text="line3"
 
 [bookmacro_big1d]
@@ -719,7 +719,7 @@ x=27
 y=102
 width=202
 height=17
-font=497
+font=q8_full
 text="line4"
 
 [bookmacro_big1e]
@@ -728,7 +728,7 @@ x=27
 y=118
 width=202
 height=17
-font=497
+font=q8_full
 text="line5"
 
 [bookmacro_big1f]
@@ -737,7 +737,7 @@ x=27
 y=134
 width=202
 height=17
-font=497
+font=q8_full
 text="line6"
 
 [bookmacro_big1g]
@@ -746,7 +746,7 @@ x=27
 y=150
 width=202
 height=17
-font=497
+font=q8_full
 text="line7"
 
 [bookmacro_big1h]
@@ -755,7 +755,7 @@ x=27
 y=166
 width=202
 height=17
-font=497
+font=q8_full
 text="line8"
 
 [bookmacro_big1i]
@@ -764,7 +764,7 @@ x=27
 y=182
 width=202
 height=17
-font=497
+font=q8_full
 text="line9"
 
 [bookmacro_big1j]
@@ -773,7 +773,7 @@ x=27
 y=198
 width=202
 height=17
-font=497
+font=q8_full
 text="line10"
 
 [bookmacro_big1k]
@@ -782,7 +782,7 @@ x=27
 y=214
 width=202
 height=17
-font=497
+font=q8_full
 text="line11"
 
 [bookmacro_big1l]
@@ -791,7 +791,7 @@ x=27
 y=230
 width=202
 height=17
-font=497
+font=q8_full
 text="line12"
 
 [com_84]
@@ -800,7 +800,7 @@ x=27
 y=246
 width=202
 height=17
-font=497
+font=q8_full
 text="line13"
 
 [bookmacro_big1n]
@@ -809,7 +809,7 @@ x=27
 y=262
 width=202
 height=17
-font=497
+font=q8_full
 text="line14"
 
 [bookmacro_big1o]
@@ -818,7 +818,7 @@ x=27
 y=278
 width=202
 height=17
-font=497
+font=q8_full
 text="line15"
 
 [bookmacro_big2a]
@@ -827,7 +827,7 @@ x=283
 y=54
 width=202
 height=17
-font=497
+font=q8_full
 text="line16"
 
 [bookmacro_big2b]
@@ -836,7 +836,7 @@ x=283
 y=70
 width=202
 height=17
-font=497
+font=q8_full
 text="line17"
 
 [bookmacro_big2c]
@@ -845,7 +845,7 @@ x=283
 y=86
 width=202
 height=17
-font=497
+font=q8_full
 text="line18"
 
 [bookmacro_big2d]
@@ -854,7 +854,7 @@ x=283
 y=102
 width=202
 height=17
-font=497
+font=q8_full
 text="line19"
 
 [bookmacro_big2e]
@@ -863,7 +863,7 @@ x=283
 y=118
 width=202
 height=17
-font=497
+font=q8_full
 text="line20"
 
 [bookmacro_big2f]
@@ -872,7 +872,7 @@ x=283
 y=134
 width=202
 height=17
-font=497
+font=q8_full
 text="line21"
 
 [bookmacro_big2g]
@@ -881,7 +881,7 @@ x=283
 y=150
 width=202
 height=17
-font=497
+font=q8_full
 text="line22"
 
 [bookmacro_big2h]
@@ -890,7 +890,7 @@ x=283
 y=166
 width=202
 height=17
-font=497
+font=q8_full
 text="line23"
 
 [com_95]
@@ -899,7 +899,7 @@ x=283
 y=182
 width=202
 height=17
-font=497
+font=q8_full
 text="line24"
 
 [com_96]
@@ -908,7 +908,7 @@ x=283
 y=198
 width=202
 height=17
-font=497
+font=q8_full
 text="line25"
 
 [com_97]
@@ -917,7 +917,7 @@ x=283
 y=214
 width=202
 height=17
-font=497
+font=q8_full
 text="line26"
 
 [com_98]
@@ -926,7 +926,7 @@ x=283
 y=230
 width=202
 height=17
-font=497
+font=q8_full
 text="line27"
 
 [com_99]
@@ -935,7 +935,7 @@ x=283
 y=246
 width=202
 height=17
-font=497
+font=q8_full
 text="line28"
 
 [com_100]
@@ -944,7 +944,7 @@ x=283
 y=262
 width=202
 height=17
-font=497
+font=q8_full
 text="line28"
 
 [com_101]
@@ -953,7 +953,7 @@ x=283
 y=278
 width=202
 height=17
-font=497
+font=q8_full
 text="line29"
 
 [bookmacro_big1a]
@@ -962,5 +962,5 @@ x=27
 y=54
 width=202
 height=17
-font=497
+font=q8_full
 text="line1"

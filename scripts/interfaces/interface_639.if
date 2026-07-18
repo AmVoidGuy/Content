@@ -133,7 +133,7 @@ height=18
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Are you sure you want to fight this duel?"
 
@@ -146,7 +146,7 @@ height=12
 colour=0xBF751D
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Before the duel starts:"
 
@@ -159,7 +159,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Lots of y's and g's"
 
@@ -172,7 +172,7 @@ height=13
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -185,7 +185,7 @@ height=13
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -198,7 +198,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -211,7 +211,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -224,7 +224,7 @@ height=11
 colour=0xBF751D
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="During the duel:"
 
@@ -237,7 +237,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -250,7 +250,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -263,7 +263,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -276,7 +276,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -289,7 +289,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -302,7 +302,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -315,7 +315,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -328,7 +328,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -341,7 +341,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -354,7 +354,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -367,7 +367,7 @@ height=11
 colour=0xAAAAAA
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="There will be obstacles in the arena."
 
@@ -378,7 +378,7 @@ y=303
 width=140
 height=15
 colour=0x77736A
-font=494
+font=p11_full
 shadow=yes
 text="Waiting for other player..."
 
@@ -401,7 +401,7 @@ colour=0x00CC00
 hAlign=Center
 vAlign=Center
 lineHeight=12
-font=495
+font=p12_full
 shadow=yes
 text="Accept"
 eventCode=hasOp(1)
@@ -429,7 +429,7 @@ colour=0xCC0000
 hAlign=Center
 vAlign=Center
 lineHeight=12
-font=495
+font=p12_full
 shadow=yes
 text="Decline"
 eventCode=hasOp(1)

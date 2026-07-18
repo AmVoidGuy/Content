@@ -37,7 +37,7 @@ y=133
 width=175
 height=14
 colour=0x1E1E2D
-font=496
+font=b12_full
 text="Question:"
 
 [sops_header]
@@ -47,7 +47,7 @@ y=38
 width=300
 height=65
 colour=0x232330
-font=645
+font=quill_oblique_large
 text="Player Safety Test"
 
 [duel_close_button]
@@ -70,7 +70,7 @@ y=148
 width=388
 height=32
 colour=0x242330
-font=497
+font=q8_full
 text="A player that you do not know sends you a private message that is offensive. What should you do?"
 
 [com_7]
@@ -80,7 +80,7 @@ y=199
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Nothing. I can't report anything that is said in private chat"
 
 [com_8]
@@ -90,7 +90,7 @@ y=236
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Send the player an offensive message back"
 
 [com_9]
@@ -100,7 +100,7 @@ y=266
 width=363
 height=32
 colour=0x191930
-font=497
+font=q8_full
 text="Use the Report Abuse button to report the player and then add them to my Ignore List"
 
 [sops_box1]
@@ -382,7 +382,7 @@ width=32
 height=32
 layerId=46202917
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Correct!"
 
@@ -394,7 +394,7 @@ width=388
 height=105
 layerId=46202917
 colour=0xA49279
-font=497
+font=q8_full
 shadow=yes
 text="Correct! You can use the Report Abuse button to report any chat that you find offensive, whether it is said in Public or Private Chat. Adding a player to your Ignore List will prevent them from sending you any further messages."
 
@@ -415,7 +415,7 @@ width=32
 height=32
 layerId=46202920
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -427,7 +427,7 @@ width=390
 height=105
 layerId=46202920
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="Wrong. You can use the Report Abuse button to report any chat that you find offensive, whether it is said in Public or Private Chat."
 
@@ -448,7 +448,7 @@ width=32
 height=32
 layerId=46202923
 colour=0xCCBE8E
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Incorrect!"
 
@@ -460,7 +460,7 @@ width=390
 height=105
 layerId=46202923
 colour=0xA49279
-font=495
+font=p12_full
 shadow=yes
 text="Wrong. Retaliating may cause you to get in trouble and be reported yourself!"
 
@@ -499,6 +499,6 @@ layerId=46202926
 colour=0x909061
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Next"

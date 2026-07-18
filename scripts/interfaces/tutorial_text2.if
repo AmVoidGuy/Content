@@ -13,7 +13,7 @@ height=17
 layerId=27590656
 colour=0x0000FF
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [tut3_b]
@@ -23,7 +23,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [tut3_c]
@@ -33,7 +33,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [tut3_d]
@@ -43,7 +43,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line4"
 
 [tut3_e]
@@ -53,7 +53,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line5"
 
 [tut3_f]
@@ -63,7 +63,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line6"
 
 [tut3_g]
@@ -73,7 +73,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line7"
 
 [tut3_h]
@@ -83,7 +83,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line8"
 
 [tut3_i]
@@ -93,7 +93,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line9"
 
 [tut3_j]
@@ -103,7 +103,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line10"
 
 [tut3_k]
@@ -113,7 +113,7 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line11"
 
 [tut3_l]
@@ -123,5 +123,5 @@ width=447
 height=17
 layerId=27590656
 hAlign=Center
-font=497
+font=q8_full
 text="Line12"

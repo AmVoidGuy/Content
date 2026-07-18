@@ -38,7 +38,7 @@ height=32
 colour=0xD4B082
 colour2=0xFF3333
 colourOver=0xFF3333
-font=645
+font=quill_oblique_large
 text="Castle"
 eventCode=flag22
 
@@ -49,7 +49,7 @@ y=251
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Wars"
 
 [grand]
@@ -60,7 +60,7 @@ width=32
 height=32
 colour=0xD4B082
 lineHeight=21
-font=645
+font=quill_oblique_large
 text="Grand"
 
 [tree]
@@ -70,7 +70,7 @@ y=146
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Tree"
 
 [varrock]
@@ -80,7 +80,7 @@ y=27
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Varrock"
 
 [entrana]
@@ -90,7 +90,7 @@ y=119
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Entrana"
 
 [taverley]
@@ -100,7 +100,7 @@ y=54
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Taverley"
 
 [crafting]
@@ -110,7 +110,7 @@ y=132
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Crafting"
 
 [guild]
@@ -120,7 +120,7 @@ y=151
 width=32
 height=32
 colour=0xD4B082
-font=645
+font=quill_oblique_large
 text="Guild"
 
 [zep_interface_balloon]
@@ -229,7 +229,7 @@ width=32
 height=32
 layerId=30736408
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Crafting"
 
 [com_23]
@@ -240,7 +240,7 @@ width=32
 height=32
 layerId=30736408
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Guild"
 
 [com_24]
@@ -259,7 +259,7 @@ width=32
 height=32
 layerId=30736410
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Varrock"
 
 [com_26]
@@ -285,7 +285,7 @@ width=32
 height=32
 layerId=30736411
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Taverley"
 
 [com_29]
@@ -303,7 +303,7 @@ width=32
 height=32
 layerId=30736413
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Entrana"
 
 [com_31]
@@ -322,7 +322,7 @@ width=32
 height=32
 layerId=30736415
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Grand"
 
 [com_33]
@@ -333,7 +333,7 @@ width=32
 height=32
 layerId=30736415
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Tree"
 
 [com_34]
@@ -352,7 +352,7 @@ width=32
 height=32
 layerId=30736418
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Castle"
 
 [com_36]
@@ -363,7 +363,7 @@ width=32
 height=32
 layerId=30736418
 colour=0xDBDBB7
-font=645
+font=quill_oblique_large
 text="Wars"
 
 [mod_craft]

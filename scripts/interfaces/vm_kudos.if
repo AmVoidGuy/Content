@@ -5,7 +5,7 @@ y=7
 width=101
 height=16
 colour=0xFF981F
-font=496
+font=b12_full
 shadow=yes
 text="Museum Kudos:"
 
@@ -17,7 +17,7 @@ width=45
 height=16
 colour=0xFF981F
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 onload=64
 onvartransmit=64

@@ -15,7 +15,7 @@ width=350
 height=17
 colour=0x800000
 hAlign=Center
-font=497
+font=q8_full
 text="Name"
 
 [npcchat4a]
@@ -25,7 +25,7 @@ y=16
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [npcchat4b]
@@ -35,7 +35,7 @@ y=32
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [npcchat4c]
@@ -45,7 +45,7 @@ y=48
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [npcchat4d]
@@ -55,7 +55,7 @@ y=64
 width=350
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line4"
 
 [npcchat4next]
@@ -68,6 +68,6 @@ height=17
 colour=0x0000FF
 colourOver=0xFFFFFF
 hAlign=Center
-font=497
+font=q8_full
 text="Click here to continue"
 eventCode=pauseButton

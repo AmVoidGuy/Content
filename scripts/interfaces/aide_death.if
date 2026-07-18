@@ -710,7 +710,7 @@ width=468
 height=17
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 text="Oh dear, you're dead, but don't despair!"
 
 [com_89]
@@ -723,7 +723,7 @@ height=17
 colour=0xCCCCCC
 colourOver=0x33FF33
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Never show me this again"
 text2="Never show me this again"
@@ -824,7 +824,7 @@ y=61
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="You can buy a new tinderbox from the general store."
 
@@ -835,7 +835,7 @@ y=119
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="You can buy a new axe from Bob's Axe shop in south Lumbridge."
 
@@ -846,7 +846,7 @@ y=176
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="You can pick up a pickaxe above the gates of Lumbridge Castle or buy one from Bob's Axe shop in south Lumbridge."
 
@@ -857,7 +857,7 @@ y=230
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="You can get a new net from the Fishing Tutor in Lumbridge Swamps."
 
@@ -868,7 +868,7 @@ y=61
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="You can get new combat equipment from the combat tutors north of Lumbridge Castle."
 
@@ -879,7 +879,7 @@ y=119
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="You can buy a new hammer from the general store."
 
@@ -890,7 +890,7 @@ y=177
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="If you need more gold, kill goblins for a short while or try a quest."
 
@@ -901,7 +901,7 @@ y=230
 width=170
 height=50
 colour=0xBE9664
-font=495
+font=p12_full
 shadow=yes
 text="Tutors can help you with skills and give you basic equipment. Look for this icon on your mini map."
 
@@ -913,7 +913,7 @@ width=442
 height=15
 colour=0xBE9664
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="More information is available in the manual on our website."
 

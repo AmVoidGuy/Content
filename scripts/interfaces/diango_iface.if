@@ -64,7 +64,7 @@ y=42
 width=299
 height=17
 colour=0xFF981F
-font=497
+font=q8_full
 text="Diango Item Return"
 
 [com_8]

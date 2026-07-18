@@ -36,7 +36,7 @@ width=148
 height=18
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Waterbirth <br>Island"
 
 [com_4]
@@ -47,7 +47,7 @@ width=120
 height=16
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Miscellania"
 
 [com_5]
@@ -58,7 +58,7 @@ width=92
 height=16
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Etceteria"
 
 [com_6]
@@ -68,7 +68,7 @@ y=282
 width=75
 height=18
 colour=0x282315
-font=497
+font=q8_full
 text="Rellekka"
 
 [com_7]
@@ -78,7 +78,7 @@ y=178
 width=135
 height=18
 colour=0x282315
-font=497
+font=q8_full
 text="Neitiznot & Jatizso"
 
 [com_8]
@@ -89,5 +89,5 @@ width=122
 height=18
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Keldagrim<br>entrance"

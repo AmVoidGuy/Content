@@ -737,7 +737,7 @@ height=16
 colour=0xFF981F
 colour2=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="The Bank of RuneScape"
 
@@ -783,7 +783,7 @@ width=134
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Withdraw as:"
 
@@ -795,7 +795,7 @@ width=62
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Item"
 
@@ -807,7 +807,7 @@ width=133
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Rearrange mode:"
 
@@ -819,7 +819,7 @@ width=62
 height=14
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Note"
 
@@ -857,7 +857,7 @@ width=61
 height=17
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Insert"
 
@@ -869,7 +869,7 @@ width=62
 height=15
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Swap"
 

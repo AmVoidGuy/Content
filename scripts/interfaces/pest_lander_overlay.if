@@ -121,7 +121,7 @@ y=23
 width=251
 height=17
 colour=0xCCCCCC
-font=495
+font=p12_full
 shadow=yes
 text="Next Departure: 5 min"
 
@@ -133,7 +133,7 @@ width=251
 height=16
 colour=0x59D231
 colour2=0xC31A0B
-font=495
+font=p12_full
 shadow=yes
 text="Players Ready: 5"
 
@@ -144,7 +144,7 @@ y=57
 width=249
 height=15
 colour=0xDED36A
-font=495
+font=p12_full
 shadow=yes
 text="(Need 5 to 25 players)"
 
@@ -155,7 +155,7 @@ y=73
 width=249
 height=15
 colour=0x99FFFF
-font=495
+font=p12_full
 shadow=yes
 text="Points:pest_points"
 
@@ -178,6 +178,6 @@ width=109
 height=16
 colour=0xFF9966
 hAlign=Right
-font=495
+font=p12_full
 shadow=yes
 text="eeeeeeeeeeeeee"

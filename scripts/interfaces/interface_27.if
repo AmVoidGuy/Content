@@ -58,7 +58,7 @@ y=294
 width=80
 height=20
 hAlign=Center
-font=497
+font=q8_full
 text="page%1"
 
 [com_7]
@@ -68,7 +68,7 @@ y=295
 width=80
 height=20
 hAlign=Center
-font=497
+font=q8_full
 text="page%2"
 
 [close_btn]
@@ -92,7 +92,7 @@ width=496
 height=19
 colour=0xFF981F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_10]
@@ -389,7 +389,7 @@ x=27
 y=54
 width=202
 height=17
-font=497
+font=q8_full
 text="line1"
 
 [com_40]
@@ -398,7 +398,7 @@ x=27
 y=70
 width=202
 height=17
-font=497
+font=q8_full
 text="line2"
 
 [com_41]
@@ -407,7 +407,7 @@ x=27
 y=86
 width=202
 height=17
-font=497
+font=q8_full
 text="line3"
 
 [com_42]
@@ -416,7 +416,7 @@ x=27
 y=102
 width=202
 height=17
-font=497
+font=q8_full
 text="line4"
 
 [com_43]
@@ -425,7 +425,7 @@ x=27
 y=118
 width=202
 height=17
-font=497
+font=q8_full
 text="line5"
 
 [com_44]
@@ -434,7 +434,7 @@ x=27
 y=134
 width=202
 height=17
-font=497
+font=q8_full
 text="line6"
 
 [com_45]
@@ -443,7 +443,7 @@ x=27
 y=150
 width=202
 height=17
-font=497
+font=q8_full
 text="line7"
 
 [com_46]
@@ -452,7 +452,7 @@ x=27
 y=166
 width=202
 height=17
-font=497
+font=q8_full
 text="line8"
 
 [com_47]
@@ -461,7 +461,7 @@ x=27
 y=182
 width=202
 height=17
-font=497
+font=q8_full
 text="line9"
 
 [com_48]
@@ -470,7 +470,7 @@ x=27
 y=198
 width=202
 height=17
-font=497
+font=q8_full
 text="line10"
 
 [com_49]
@@ -479,7 +479,7 @@ x=27
 y=214
 width=202
 height=17
-font=497
+font=q8_full
 text="line11"
 
 [com_50]
@@ -488,7 +488,7 @@ x=27
 y=230
 width=202
 height=17
-font=497
+font=q8_full
 text="line12"
 
 [com_51]
@@ -497,7 +497,7 @@ x=27
 y=246
 width=202
 height=17
-font=497
+font=q8_full
 text="line13"
 
 [com_52]
@@ -506,7 +506,7 @@ x=27
 y=262
 width=202
 height=17
-font=497
+font=q8_full
 text="line14"
 
 [com_53]
@@ -515,7 +515,7 @@ x=27
 y=278
 width=202
 height=17
-font=497
+font=q8_full
 text="line15"
 
 [com_54]
@@ -524,7 +524,7 @@ x=283
 y=54
 width=202
 height=17
-font=497
+font=q8_full
 text="line16"
 
 [com_55]
@@ -533,7 +533,7 @@ x=283
 y=70
 width=202
 height=17
-font=497
+font=q8_full
 text="line17"
 
 [com_56]
@@ -542,7 +542,7 @@ x=283
 y=86
 width=202
 height=17
-font=497
+font=q8_full
 text="line18"
 
 [com_57]
@@ -551,7 +551,7 @@ x=283
 y=102
 width=202
 height=17
-font=497
+font=q8_full
 text="line19"
 
 [com_58]
@@ -560,7 +560,7 @@ x=283
 y=118
 width=202
 height=17
-font=497
+font=q8_full
 text="line20"
 
 [com_59]
@@ -569,7 +569,7 @@ x=283
 y=134
 width=202
 height=17
-font=497
+font=q8_full
 text="line21"
 
 [com_60]
@@ -578,7 +578,7 @@ x=283
 y=150
 width=202
 height=17
-font=497
+font=q8_full
 text="line22"
 
 [com_61]
@@ -587,7 +587,7 @@ x=283
 y=166
 width=202
 height=17
-font=497
+font=q8_full
 text="line23"
 
 [com_62]
@@ -596,7 +596,7 @@ x=283
 y=182
 width=202
 height=17
-font=497
+font=q8_full
 text="line24"
 
 [com_63]
@@ -605,7 +605,7 @@ x=283
 y=198
 width=202
 height=17
-font=497
+font=q8_full
 text="line25"
 
 [com_64]
@@ -614,7 +614,7 @@ x=283
 y=214
 width=202
 height=17
-font=497
+font=q8_full
 text="line26"
 
 [com_65]
@@ -623,7 +623,7 @@ x=283
 y=230
 width=202
 height=17
-font=497
+font=q8_full
 text="line27"
 
 [com_66]
@@ -632,7 +632,7 @@ x=283
 y=246
 width=202
 height=17
-font=497
+font=q8_full
 text="line28"
 
 [com_67]
@@ -641,7 +641,7 @@ x=283
 y=262
 width=202
 height=17
-font=497
+font=q8_full
 text="line28"
 
 [com_68]
@@ -650,7 +650,7 @@ x=283
 y=278
 width=202
 height=17
-font=497
+font=q8_full
 text="line29"
 
 [com_69]
@@ -977,7 +977,7 @@ type=Text
 width=202
 height=16
 layerId=1769572
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -994,7 +994,7 @@ type=Text
 width=202
 height=16
 layerId=1769574
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1011,7 +1011,7 @@ type=Text
 width=202
 height=16
 layerId=1769576
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1028,7 +1028,7 @@ type=Text
 width=202
 height=16
 layerId=1769578
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1045,7 +1045,7 @@ type=Text
 width=202
 height=16
 layerId=1769580
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1062,7 +1062,7 @@ type=Text
 width=202
 height=16
 layerId=1769582
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1079,7 +1079,7 @@ type=Text
 width=202
 height=16
 layerId=1769584
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1096,7 +1096,7 @@ type=Text
 width=202
 height=16
 layerId=1769586
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1113,7 +1113,7 @@ type=Text
 width=202
 height=16
 layerId=1769588
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1130,7 +1130,7 @@ type=Text
 width=202
 height=16
 layerId=1769590
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1147,7 +1147,7 @@ type=Text
 width=202
 height=16
 layerId=1769592
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1164,7 +1164,7 @@ type=Text
 width=202
 height=16
 layerId=1769594
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1181,7 +1181,7 @@ type=Text
 width=202
 height=16
 layerId=1769596
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1198,7 +1198,7 @@ type=Text
 width=202
 height=16
 layerId=1769598
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1215,7 +1215,7 @@ type=Text
 width=202
 height=16
 layerId=1769600
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1232,7 +1232,7 @@ type=Text
 width=202
 height=16
 layerId=1769602
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1249,7 +1249,7 @@ type=Text
 width=202
 height=16
 layerId=1769604
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1266,7 +1266,7 @@ type=Text
 width=202
 height=16
 layerId=1769606
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1283,7 +1283,7 @@ type=Text
 width=202
 height=16
 layerId=1769608
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1300,7 +1300,7 @@ type=Text
 width=202
 height=16
 layerId=1769610
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1317,7 +1317,7 @@ type=Text
 width=202
 height=16
 layerId=1769612
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1334,7 +1334,7 @@ type=Text
 width=202
 height=16
 layerId=1769614
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1351,7 +1351,7 @@ type=Text
 width=202
 height=16
 layerId=1769616
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1368,7 +1368,7 @@ type=Text
 width=202
 height=16
 layerId=1769618
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1385,7 +1385,7 @@ type=Text
 width=202
 height=16
 layerId=1769620
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1402,7 +1402,7 @@ type=Text
 width=202
 height=16
 layerId=1769622
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1419,7 +1419,7 @@ type=Text
 width=202
 height=16
 layerId=1769624
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1436,7 +1436,7 @@ type=Text
 width=202
 height=16
 layerId=1769626
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1453,7 +1453,7 @@ type=Text
 width=202
 height=16
 layerId=1769628
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1470,7 +1470,7 @@ type=Text
 width=202
 height=16
 layerId=1769630
-font=497
+font=q8_full
 eventCode=pauseButton
 onmouseover=45,component.parentId,16777215
 onmouseleave=45,component.parentId,0
@@ -1484,7 +1484,7 @@ height=14
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Index"
 eventCode=pauseButton
@@ -1518,5 +1518,5 @@ width=220
 height=21
 colour=0x493217
 hAlign=Center
-font=645
+font=quill_oblique_large
 text="Book Title"

@@ -232,7 +232,7 @@ layerId=46989333
 colour=0xFFCC00
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Temperature reached!<br><br>New target<br>temperature set."
 

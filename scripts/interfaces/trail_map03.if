@@ -407,7 +407,7 @@ y=85
 width=16
 height=11
 colour=0x4C3D26
-font=494
+font=p11_full
 text="2W"
 
 [map03paces02]
@@ -417,7 +417,7 @@ y=117
 width=12
 height=11
 colour=0x4C3D26
-font=494
+font=p11_full
 text="4S"
 
 [map03paces03]
@@ -427,7 +427,7 @@ y=130
 width=11
 height=11
 colour=0x4C3D26
-font=494
+font=p11_full
 text="3E"
 
 [map03paces04]
@@ -437,7 +437,7 @@ y=155
 width=13
 height=11
 colour=0x4C3D26
-font=494
+font=p11_full
 text="3S"
 
 [com_40]

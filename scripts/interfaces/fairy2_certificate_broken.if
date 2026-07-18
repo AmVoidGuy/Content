@@ -16,7 +16,7 @@ width=276
 height=17
 colour=0xEB9A2F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Certificate of Advanced Healing"
 
@@ -28,7 +28,7 @@ width=276
 height=17
 colour=0xEB9A2F
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="From PoxStead College."
 
@@ -41,7 +41,7 @@ height=41
 colour=0xEB9A2F
 hAlign=Center
 lineHeight=14
-font=494
+font=p11_full
 shadow=yes
 text="Signed Dr Foster-MMD, PRD <br> Head of<br>Magical Healing."
 

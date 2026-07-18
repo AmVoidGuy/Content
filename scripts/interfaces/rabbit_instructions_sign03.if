@@ -30,7 +30,7 @@ x=208
 y=8
 width=273
 height=172
-font=497
+font=q8_full
 text="Watch out for rabbits wandering around the farmyard. They are hungry and will look for flags, as they often mean hidden food! If a rabbit eats the seed under a flag, you will not get any points for it and will lose the flag. "
 
 [paragraph02]
@@ -39,7 +39,7 @@ x=14
 y=190
 width=286
 height=169
-font=497
+font=q8_full
 text="You can improve your Hunter skill by finding ogleroots in the farmyard and feeding them to the rabbits. Ogleroots are magical vegetables and will cause the rabbit to disappear for a short amount of time."
 
 [rabbit]

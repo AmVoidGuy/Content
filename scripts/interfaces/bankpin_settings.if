@@ -365,7 +365,7 @@ width=496
 height=17
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Bank PIN Settings"
 
@@ -377,7 +377,7 @@ width=162
 height=15
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Messages"
 
@@ -389,7 +389,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_2]
 type=Text
@@ -399,7 +399,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_3]
 type=Text
@@ -409,7 +409,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_4]
 type=Text
@@ -419,7 +419,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_5]
 type=Text
@@ -429,7 +429,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_6]
 type=Text
@@ -439,7 +439,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_7]
 type=Text
@@ -449,7 +449,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_8]
 type=Text
@@ -459,7 +459,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_9]
 type=Text
@@ -469,7 +469,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_10]
 type=Text
@@ -479,7 +479,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_11]
 type=Text
@@ -489,7 +489,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_12]
 type=Text
@@ -499,7 +499,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 
 [bankpin_message_13]
 type=Text
@@ -509,7 +509,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [bankpin_message_14]
@@ -520,7 +520,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [bankpin_message_15]
@@ -531,7 +531,7 @@ width=160
 height=14
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [bankpin_message_16]
@@ -542,7 +542,7 @@ width=161
 height=10
 colour=0xFFFF7F
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 
 [com_58]
@@ -571,7 +571,7 @@ height=17
 layerId=917562
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Set a PIN"
 eventCode=hasOp(1)
@@ -588,7 +588,7 @@ height=16
 layerId=917562
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Change your recovery delay"
 eventCode=hasOp(1)
@@ -603,7 +603,7 @@ height=16
 layerId=917562
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Change your PIN"
 eventCode=hasOp(1)
@@ -620,7 +620,7 @@ height=15
 layerId=917562
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Delete your PIN"
 eventCode=hasOp(1)
@@ -637,7 +637,7 @@ height=15
 layerId=917562
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Change your recovery delay"
 eventCode=hasOp(1)
@@ -654,7 +654,7 @@ height=15
 layerId=917562
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Cancel the PIN that's pending"
 eventCode=hasOp(1)
@@ -688,7 +688,7 @@ height=17
 layerId=917571
 colour=0xFFFFFF
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Your Bank PIN status:"
 
@@ -702,7 +702,7 @@ layerId=917571
 colour=0x990000
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Unknown"
 
@@ -716,7 +716,7 @@ layerId=917571
 colour=0xFFFFFF
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Recovery delay:"
 
@@ -729,7 +729,7 @@ height=14
 layerId=917571
 colour=0x990000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="X days"
 
@@ -750,7 +750,7 @@ height=17
 layerId=917591
 colour=0x990000
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Do you really wish to do that?"
 baseOpName=" "
@@ -882,7 +882,7 @@ height=35
 colour=0xBF751D
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Use the buttons below to change your PIN settings"
 
@@ -909,7 +909,7 @@ width=478
 height=17
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Yes, I really want to do that."
 eventCode=hasOp(1)
@@ -933,7 +933,7 @@ width=478
 height=17
 colour=0xBF751D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="No, forget I asked."
 eventCode=hasOp(1)

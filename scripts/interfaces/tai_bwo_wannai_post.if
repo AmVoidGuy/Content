@@ -42,7 +42,7 @@ width=286
 height=26
 colour=0xFFFF00
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="<col=ffff00>Tai Bwo Wannai <col=ff0000> Parcel Service"
 

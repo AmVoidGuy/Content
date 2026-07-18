@@ -131,7 +131,7 @@ width=471
 height=16
 colour=0xCC9800
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Grand Exchange"
 
@@ -202,7 +202,7 @@ width=159
 height=16
 colour=0xCC9800
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Buy Offer"
 
@@ -256,7 +256,7 @@ height=16
 colour=0x999900
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="1,281 gp"
 
@@ -267,7 +267,7 @@ y=66
 width=250
 height=16
 colour=0xCC9900
-font=496
+font=b12_full
 shadow=yes
 text="Choose an item to exchange"
 
@@ -280,7 +280,7 @@ height=16
 colour=0xCC9800
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Quantity:"
 
@@ -319,7 +319,7 @@ height=16
 colour=0xFFA861
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="2"
 
@@ -332,7 +332,7 @@ height=16
 colour=0xCC9800
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Price per item:"
 
@@ -370,7 +370,7 @@ width=136
 height=16
 colour=0xFFA861
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="1,281 gp"
 
@@ -407,7 +407,7 @@ height=25
 colour=0xCC9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="1"
 
@@ -428,7 +428,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="10"
 
@@ -449,7 +449,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="100"
 
@@ -470,7 +470,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="500"
 
@@ -491,7 +491,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="..."
 
@@ -536,7 +536,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 
 [com_57]
@@ -564,7 +564,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 
 [com_60]
@@ -592,7 +592,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 
 [com_63]
@@ -612,7 +612,7 @@ height=25
 colour=0xFF9800
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="..."
 
@@ -650,7 +650,7 @@ width=136
 height=16
 colour=0xDBD884
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="2,562 gp"
 
@@ -664,7 +664,7 @@ colour=0xEBE573
 hAlign=Center
 vAlign=Center
 lineHeight=13
-font=496
+font=b12_full
 shadow=yes
 
 [makeofferbutton]
@@ -684,7 +684,7 @@ height=43
 colour=0xCC9800
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Confirm Offer"
 
@@ -894,7 +894,7 @@ y=96
 width=298
 height=64
 colour=0xFFFFFF
-font=495
+font=p12_full
 shadow=yes
 text="Jetzt ist Ihr Angebot eingegangen! Sie können jederzeit darauf klicken, um sich die Einzelheiten anzuschauen. Unten wird der Fortschritt mit einem Balken angezeigt. "
 
@@ -922,7 +922,7 @@ y=143
 width=106
 height=16
 colour=0x0000FF
-font=495
+font=p12_full
 text="Click to continue"
 eventCode=hasOp(1)
 opName0="Continue"

@@ -140,7 +140,7 @@ height=22
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Grand Exchange Item Sets"
 
@@ -160,7 +160,7 @@ width=453
 height=24
 colour=0xC8AB4A
 hAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Click on a set you wish to purchase here<br>or click on a set in your inventory that you wish to sell."
 

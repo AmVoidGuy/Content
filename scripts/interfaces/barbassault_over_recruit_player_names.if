@@ -37,7 +37,7 @@ y=8
 width=165
 height=16
 colour=0xFFA81F
-font=496
+font=b12_full
 shadow=yes
 text="Current team"
 
@@ -48,7 +48,7 @@ y=27
 width=111
 height=16
 colour=0xFFA81F
-font=495
+font=p12_full
 shadow=yes
 text="-----"
 
@@ -59,7 +59,7 @@ y=42
 width=111
 height=16
 colour=0xFFA81F
-font=495
+font=p12_full
 shadow=yes
 text="-----"
 
@@ -70,7 +70,7 @@ y=57
 width=111
 height=16
 colour=0xFFA81F
-font=495
+font=p12_full
 shadow=yes
 text="-----"
 
@@ -81,7 +81,7 @@ y=72
 width=111
 height=16
 colour=0xFFA81F
-font=495
+font=p12_full
 shadow=yes
 text="-----"
 
@@ -92,7 +92,7 @@ y=87
 width=111
 height=16
 colour=0xFFA81F
-font=495
+font=p12_full
 shadow=yes
 text="-----"
 
@@ -103,7 +103,7 @@ y=27
 width=46
 height=16
 colour=0xFFA800
-font=495
+font=p12_full
 shadow=yes
 text="Leader:"
 
@@ -114,7 +114,7 @@ y=42
 width=46
 height=16
 colour=0xFFA800
-font=495
+font=p12_full
 shadow=yes
 text="Player 1:"
 
@@ -125,7 +125,7 @@ y=57
 width=46
 height=16
 colour=0xFFA800
-font=495
+font=p12_full
 shadow=yes
 text="Player 2:"
 
@@ -136,7 +136,7 @@ y=72
 width=46
 height=16
 colour=0xFFA800
-font=495
+font=p12_full
 shadow=yes
 text="Player 3:"
 
@@ -147,7 +147,7 @@ y=87
 width=46
 height=16
 colour=0xFFA800
-font=495
+font=p12_full
 shadow=yes
 text="Player 4:"
 

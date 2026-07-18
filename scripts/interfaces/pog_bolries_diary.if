@@ -71,7 +71,7 @@ height=26
 colour=0x493217
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 text="Bolrie's Diary"
 
 [chapter1]
@@ -81,7 +81,7 @@ y=54
 width=197
 height=54
 colour=0x46320A
-font=645
+font=quill_oblique_large
 text="Chapter 1. Bad advice"
 eventCode=hasOp(1)
 baseOpName="chapter 1"
@@ -96,7 +96,7 @@ y=108
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="In which Bolrie is advised by"
 
 [bookmacro1c]
@@ -106,7 +106,7 @@ y=124
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="a mysterious stranger, and"
 
 [bookmacro1d]
@@ -116,7 +116,7 @@ y=140
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="ambition is fed."
 
 [com_12]
@@ -126,7 +126,7 @@ y=156
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 
 [chapter2]
 type=Text
@@ -135,7 +135,7 @@ y=172
 width=197
 height=52
 colour=0x46320A
-font=645
+font=quill_oblique_large
 text="Chapter 2. The King is dead"
 eventCode=hasOp(1)
 baseOpName="chapter 2"
@@ -150,7 +150,7 @@ y=224
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="In which a great king dies"
 
 [bookmacro1h]
@@ -160,7 +160,7 @@ y=240
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="and the search for a new"
 
 [bookmacro1i]
@@ -170,7 +170,7 @@ y=256
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="one begins."
 
 [com_17]
@@ -180,7 +180,7 @@ y=272
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 
 [com_18]
 type=Text
@@ -189,7 +189,7 @@ y=288
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 
 [chapter3]
 type=Text
@@ -198,7 +198,7 @@ y=54
 width=197
 height=58
 colour=0x46320A
-font=645
+font=quill_oblique_large
 text="Chapter 3. Eyes opened"
 eventCode=hasOp(1)
 baseOpName="chapter 3"
@@ -213,7 +213,7 @@ y=112
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="In which a secret is revealed,"
 
 [bookmacro1n]
@@ -223,7 +223,7 @@ y=128
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="an old foe reappears and"
 
 [bookmacro1o]
@@ -233,7 +233,7 @@ y=144
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="ambitions end."
 
 [com_23]
@@ -243,7 +243,7 @@ y=160
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 
 [chapter4]
 type=Text
@@ -252,7 +252,7 @@ y=176
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="Finally, I understand my"
 
 [bookmacro1r]
@@ -262,7 +262,7 @@ y=192
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="failings and my true enemies."
 baseOpName="my failings"
 
@@ -273,7 +273,7 @@ y=208
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="I dedicate the rest of my"
 
 [bookmacro1t]
@@ -283,7 +283,7 @@ y=224
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="shattered life to the task of"
 
 [bookmacro1u]
@@ -293,7 +293,7 @@ y=240
 width=197
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text="eradicating them both."
 
 [bookmacro1v]
@@ -303,6 +303,6 @@ y=267
 width=48
 height=17
 colour=0x46320A
-font=497
+font=q8_full
 text=" Bolrie"
 baseOpName="m"

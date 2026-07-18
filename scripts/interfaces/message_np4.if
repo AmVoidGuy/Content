@@ -5,7 +5,7 @@ y=9
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line1"
 
 [com_1]
@@ -15,7 +15,7 @@ y=25
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line2"
 
 [com_2]
@@ -25,7 +25,7 @@ y=41
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line3"
 
 [com_3]
@@ -35,5 +35,5 @@ y=57
 width=441
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="Line4"

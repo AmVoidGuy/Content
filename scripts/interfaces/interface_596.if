@@ -609,7 +609,7 @@ width=469
 height=15
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Hairdresser's Salon"
 
@@ -621,7 +621,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Bald"
 
@@ -651,7 +651,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Dreadlocks"
 
@@ -681,7 +681,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Long hair"
 
@@ -711,7 +711,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Medium hair"
 
@@ -741,7 +741,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Monk"
 
@@ -771,7 +771,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Short"
 
@@ -801,7 +801,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Close-cropped"
 
@@ -831,7 +831,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Wild spikes"
 
@@ -861,7 +861,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Spikes"
 
@@ -891,7 +891,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Mohawk"
 
@@ -921,7 +921,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Wind braids"
 
@@ -951,7 +951,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Quiff"
 
@@ -981,7 +981,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Samurai"
 
@@ -1011,7 +1011,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Prince"
 
@@ -1041,7 +1041,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Curtains"
 
@@ -1071,7 +1071,7 @@ width=124
 height=16
 layerId=39059614
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Long curtains"
 
@@ -1101,7 +1101,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goatee"
 
@@ -1131,7 +1131,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Long beard"
 
@@ -1161,7 +1161,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Medium beard"
 
@@ -1191,7 +1191,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Moustache"
 
@@ -1221,7 +1221,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Clean shaven"
 
@@ -1251,7 +1251,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Short beard"
 
@@ -1281,7 +1281,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Short full"
 
@@ -1311,7 +1311,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Split"
 
@@ -1341,7 +1341,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Handlebar"
 
@@ -1371,7 +1371,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Mutton"
 
@@ -1401,7 +1401,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Full mutton"
 
@@ -1431,7 +1431,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Full moustache"
 
@@ -1461,7 +1461,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Waxed"
 
@@ -1491,7 +1491,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Dali"
 
@@ -1521,7 +1521,7 @@ width=124
 height=16
 layerId=39059615
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Vizier"
 
@@ -1578,7 +1578,7 @@ width=80
 height=32
 layerId=39059618
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="2,000 Coins"
 

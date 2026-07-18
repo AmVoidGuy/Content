@@ -29,7 +29,7 @@ width=342
 height=21
 colour=0x2B210F
 hAlign=Center
-font=497
+font=q8_full
 text="Blast Furnace Plan"
 
 [com_3]
@@ -41,7 +41,7 @@ height=32
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Stove"
 
@@ -54,7 +54,7 @@ height=32
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Air Pump"
 
@@ -67,7 +67,7 @@ height=33
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Temp Gauge"
 
@@ -80,7 +80,7 @@ height=28
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Furnace"
 
@@ -93,7 +93,7 @@ height=35
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Dispenser"
 
@@ -106,7 +106,7 @@ height=38
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Conveyor<br>Belt"
 
@@ -119,7 +119,7 @@ height=29
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Cogs"
 
@@ -132,7 +132,7 @@ height=27
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Pipes"
 
@@ -145,7 +145,7 @@ height=24
 colour=0xFAC864
 hAlign=Center
 vAlign=Center
-font=494
+font=p11_full
 shadow=yes
 text="Coke"
 

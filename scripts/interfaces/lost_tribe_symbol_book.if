@@ -222,7 +222,7 @@ height=71
 layerId=11993103
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Drogokishuun-<br>Goblins of the<br>Fierce Blades"
 
 [com_22]
@@ -234,7 +234,7 @@ height=88
 layerId=11993103
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Huzamogaarb-<br>Live-Flesh Eaters<br>of the Chaos God"
 
 [com_23]
@@ -246,7 +246,7 @@ height=88
 layerId=11993103
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Saragorgak-<br>Footsoldiers of<br>Holy Wrath"
 
 [com_24]
@@ -258,7 +258,7 @@ height=73
 layerId=11993103
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Dorgeshuun-<br>Goblins of the<br>Strong Spears"
 
 [com_25]
@@ -270,7 +270,7 @@ height=85
 layerId=11993103
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Horogothgar-<br>Eaters of<br>Manflesh"
 
 [com_26]
@@ -282,7 +282,7 @@ height=70
 layerId=11993103
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Yurkolgokh-<br>The Flatulent"
 
 [com_27]
@@ -294,7 +294,7 @@ height=73
 layerId=11993104
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Thorobshuun-<br>Goblins of the<br>Hills"
 
 [com_28]
@@ -306,7 +306,7 @@ height=80
 layerId=11993104
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Garagorshuun-<br>Goblins of the<br>Sea"
 
 [com_29]
@@ -318,7 +318,7 @@ height=73
 layerId=11993104
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Rekeshuun-<br>Goblins of the<br>North"
 
 [com_30]
@@ -330,7 +330,7 @@ height=83
 layerId=11993104
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Ekeleshuun-<br>Goblins of the<br>East"
 
 [com_31]
@@ -342,7 +342,7 @@ height=78
 layerId=11993104
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Idithuun-<br>Goblins of the<br>South"
 
 [com_32]
@@ -354,7 +354,7 @@ height=76
 layerId=11993104
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="-Narogoshuun-<br>Goblins of the<br>West"
 
 [a_history]
@@ -366,7 +366,7 @@ height=245
 layerId=11993122
 colour=0x343422
 hAlign=Center
-font=645
+font=quill_oblique_large
 text="A History of the Goblin Race"
 
 [lost_tribe_titles]
@@ -382,7 +382,7 @@ width=187
 height=116
 layerId=11993127
 vAlign=Center
-font=497
+font=q8_full
 text="Goblin tradition holds that<br>their race was created by<br>a war-god in order to<br>fight a war against other<br>gods."
 
 [com_36]
@@ -393,7 +393,7 @@ width=191
 height=131
 layerId=11993127
 vAlign=Center
-font=497
+font=q8_full
 text="(They never name their<br>god, so whether it is the<br>same as any of the gods<br>worshipped by the other<br>races is unknown.)"
 
 [com_37]
@@ -404,7 +404,7 @@ width=183
 height=128
 layerId=11993127
 vAlign=Center
-font=497
+font=q8_full
 text="The legends also speak<br>of goblins fighting<br>against goblins during<br>the wars, so it is likely<br>that gods other than<br>their creators used<br>them as footsoldiers."
 
 [com_38]
@@ -415,7 +415,7 @@ width=191
 height=123
 layerId=11993127
 vAlign=Center
-font=497
+font=q8_full
 text="Although goblins are still<br>warlike, it is probable<br>that in earlier ages<br>they were more<br>organised than they<br>are now,"
 
 [lost_tribe_page_1]
@@ -433,7 +433,7 @@ height=96
 layerId=11993131
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="especially if they were<br>under the direct<br>command of one or<br>more gods."
 
 [com_41]
@@ -445,7 +445,7 @@ height=133
 layerId=11993131
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="This is corroborated<br>by finds unearthed<br>at various<br>archaeological sites,<br>including the large<br>excavation east of<br>Varrock."
 
 [com_42]
@@ -457,7 +457,7 @@ height=132
 layerId=11993131
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Armour and weapons<br>have been found,<br>obviously made to fit<br>goblins but far more<br>well-made than their<br>current equipment."
 
 [lost_tribe_page_2]
@@ -473,7 +473,7 @@ y=43
 width=184
 height=235
 layerId=11993135
-font=497
+font=q8_full
 text="Almost every piece of<br>ancient goblin equipment<br>has one of a number<br>of symbols on it,<br>and by correlating these<br>symbols with the<br>sketchy records that<br>survive from the<br>Third Age it has been<br>possible to identify<br>twelve distinct goblin tribes<br>or regiments."
 
 [com_45]
@@ -483,7 +483,7 @@ y=44
 width=182
 height=148
 layerId=11993135
-font=497
+font=q8_full
 text="The separate identities of<br>the tribes have long<br>since dissolved and<br>no goblins remember the<br>symbols, although their<br>generals may still<br>recognize the ancient<br>tribal names."
 
 [com_46]
@@ -493,7 +493,7 @@ y=192
 width=192
 height=89
 layerId=11993135
-font=497
+font=q8_full
 text="In the following pages<br>I present a list of<br>the tribes and their<br>symbols."
 
 [lost_tribe_page_3]
@@ -539,5 +539,5 @@ height=74
 layerId=11993122
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 text2="(A History<br>of the<br>Goblin race)"

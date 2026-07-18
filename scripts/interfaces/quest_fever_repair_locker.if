@@ -96,7 +96,7 @@ width=65
 height=50
 overLayerId=13
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -109,7 +109,7 @@ width=53
 height=56
 overLayerId=16
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -122,7 +122,7 @@ width=47
 height=47
 overLayerId=19
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -135,7 +135,7 @@ width=61
 height=59
 overLayerId=22
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -148,7 +148,7 @@ width=50
 height=45
 overLayerId=25
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 eventCode=flag22
 
@@ -180,7 +180,7 @@ height=32
 layerId=32899085
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Rope"
 
 [hammer_banner]
@@ -211,7 +211,7 @@ height=32
 layerId=32899088
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Hammer"
 
 [tack_banner]
@@ -242,7 +242,7 @@ height=32
 layerId=32899091
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Tack"
 
 [plank_banner]
@@ -271,7 +271,7 @@ y=13
 width=32
 height=32
 layerId=32899094
-font=497
+font=q8_full
 text="Plank"
 
 [swamp_paste_banner]
@@ -302,7 +302,7 @@ height=32
 layerId=32899097
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Swamp paste"
 
 [com_28]

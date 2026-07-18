@@ -52,7 +52,7 @@ width=376
 height=31
 colour=0x7D7D4B
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Which is the next shape in the above sequence?"
 
@@ -95,7 +95,7 @@ width=9
 height=14
 layerId=1638413
 colour=0x7D7D4B
-font=495
+font=p12_full
 shadow=yes
 text="1."
 
@@ -106,7 +106,7 @@ width=11
 height=14
 layerId=1638413
 colour=0x7D7D4B
-font=495
+font=p12_full
 shadow=yes
 text="2."
 
@@ -117,7 +117,7 @@ width=10
 height=14
 layerId=1638413
 colour=0x7D7D4B
-font=495
+font=p12_full
 shadow=yes
 text="3."
 
@@ -128,7 +128,7 @@ width=10
 height=14
 layerId=1638413
 colour=0x7D7D4B
-font=495
+font=p12_full
 shadow=yes
 text="4."
 

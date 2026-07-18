@@ -25,7 +25,7 @@ width=148
 height=18
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Waterbirth Island"
 
 [com_3]
@@ -36,7 +36,7 @@ width=120
 height=16
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Miscellania"
 
 [com_4]
@@ -47,7 +47,7 @@ width=92
 height=16
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Etceteria"
 
 [com_5]
@@ -57,7 +57,7 @@ y=276
 width=75
 height=18
 colour=0x282315
-font=497
+font=q8_full
 text="Rellekka"
 
 [com_6]
@@ -68,7 +68,7 @@ width=122
 height=18
 colour=0x282315
 hAlign=Center
-font=497
+font=q8_full
 text="Neitiznot & Jatizso"
 
 [misc_shipmodel]

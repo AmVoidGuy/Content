@@ -390,7 +390,7 @@ width=73
 height=16
 colour=0xFF981F
 hAlign=Center
-font=495
+font=p12_full
 text="Place bar"
 
 [tol_horizontal_pipes]
@@ -502,7 +502,7 @@ y=120
 width=93
 height=14
 hAlign=Center
-font=495
+font=p12_full
 text="Horizontal"
 
 [com_48]
@@ -512,7 +512,7 @@ y=152
 width=90
 height=14
 hAlign=Center
-font=495
+font=p12_full
 text="Vertical"
 
 [tol_cage_minus]
@@ -594,7 +594,7 @@ y=232
 width=23
 height=15
 hAlign=Center
-font=495
+font=p12_full
 text="1"
 
 [com_57]

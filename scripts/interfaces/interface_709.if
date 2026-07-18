@@ -131,7 +131,7 @@ width=175
 height=14
 colour=0xBF751D
 hAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="End of Exam"
 
@@ -142,7 +142,7 @@ y=30
 width=472
 height=19
 colour=0xE1981F
-font=496
+font=b12_full
 shadow=yes
 text="Player Safety Exam 101"
 
@@ -166,7 +166,7 @@ y=159
 width=373
 height=62
 colour=0xFFFFFF
-font=496
+font=b12_full
 shadow=yes
 text="Congratulations!                                                                               You have completed the Player Safety exam!"
 

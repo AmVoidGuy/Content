@@ -167,7 +167,7 @@ colour=0xFFFF00
 colourOver=0xFFFFFF
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Rotate mirror."
 

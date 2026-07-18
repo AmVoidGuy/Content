@@ -26,7 +26,7 @@ height=100
 colour=0x46320A
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 text="Change of address form for the citizens of Seers' Village."
 
 [line]

@@ -18,7 +18,7 @@ y=75
 width=248
 height=32
 colour=0x362407
-font=645
+font=quill_oblique_large
 text="Dear friend,"
 
 [messagescroll2]
@@ -28,7 +28,7 @@ y=135
 width=339
 height=115
 colour=0x362407
-font=497
+font=q8_full
 text="Come and meet me at the entrance to the Legends' Guild as soon as possible. There are things I would like to discuss with you, but it is difficult to talk in Witchaven..."
 
 [messagescroll3]
@@ -39,7 +39,7 @@ width=340
 height=31
 colour=0x362407
 hAlign=Right
-font=645
+font=quill_oblique_large
 text="~Kent"
 
 [com_4]

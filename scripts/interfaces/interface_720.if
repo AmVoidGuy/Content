@@ -28,6 +28,6 @@ height=157
 colour=0xFFFF00
 hAlign=Center
 vAlign=Center
-font=645
+font=quill_oblique_large
 shadow=yes
 text="Here, the player will see an interface anim of the chocatrice hatching."

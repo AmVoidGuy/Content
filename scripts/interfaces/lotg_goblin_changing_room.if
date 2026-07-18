@@ -405,7 +405,7 @@ y=74
 width=154
 height=31
 colour=0xD0830D
-font=495
+font=p12_full
 shadow=yes
 text="Please select your goblin from the options below:"
 
@@ -603,7 +603,7 @@ width=469
 height=15
 colour=0xC9800D
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Select your Goblin"
 
@@ -615,7 +615,7 @@ width=124
 height=16
 layerId=40960086
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goblin 1"
 
@@ -648,7 +648,7 @@ width=124
 height=16
 layerId=40960086
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goblin 2"
 
@@ -681,7 +681,7 @@ width=124
 height=16
 layerId=40960086
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goblin 3"
 
@@ -714,7 +714,7 @@ width=124
 height=16
 layerId=40960086
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goblin 4"
 
@@ -747,7 +747,7 @@ width=124
 height=16
 layerId=40960086
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goblin 5"
 
@@ -780,7 +780,7 @@ width=124
 height=16
 layerId=40960086
 colour=0xC9800D
-font=495
+font=p12_full
 shadow=yes
 text="Goblin 6"
 
@@ -969,7 +969,7 @@ height=15
 colour=0xC9800D
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Confirm"
 

@@ -19,7 +19,7 @@ width=70
 height=14
 layerId=39190529
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="NPC Killcount"
 
@@ -31,7 +31,7 @@ width=84
 height=15
 layerId=39190529
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Armadyl kills"
 
@@ -43,7 +43,7 @@ width=84
 height=15
 layerId=39190529
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Bandos kills"
 
@@ -55,7 +55,7 @@ width=95
 height=15
 layerId=39190529
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Saradomin kills"
 
@@ -67,7 +67,7 @@ width=87
 height=15
 layerId=39190529
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Zamorak kills"
 
@@ -79,7 +79,7 @@ width=32
 height=15
 layerId=39190529
 colour=0x66FFFF
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -91,7 +91,7 @@ width=32
 height=15
 layerId=39190529
 colour=0x66FFFF
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -103,7 +103,7 @@ width=32
 height=15
 layerId=39190529
 colour=0x66FFFF
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -115,6 +115,6 @@ width=32
 height=15
 layerId=39190529
 colour=0x66FFFF
-font=494
+font=p11_full
 shadow=yes
 text="0"

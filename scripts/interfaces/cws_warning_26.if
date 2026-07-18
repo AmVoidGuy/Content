@@ -125,7 +125,7 @@ height=21
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Warning!"
 
@@ -138,7 +138,7 @@ height=87
 colour=0xFF7D1F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Duelling is an honourable pastime. Anyone leaving a duel or tournament by ANY means, accidentally or deliberately, will lose their duel and their stake. No exceptions."
 
@@ -168,7 +168,7 @@ layerId=41091091
 colour=0xFF981F
 hAlign=Center
 vAlign=Center
-font=495
+font=p12_full
 shadow=yes
 text="Don't show me this again"
 

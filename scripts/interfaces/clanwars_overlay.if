@@ -29,7 +29,7 @@ y=19
 width=94
 height=15
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Clan A's name"
 
@@ -40,7 +40,7 @@ y=19
 width=95
 height=15
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Players remaining:"
 
@@ -51,7 +51,7 @@ y=33
 width=90
 height=15
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Opposing clan"
 
@@ -62,7 +62,7 @@ y=33
 width=95
 height=15
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Players remaining:"
 
@@ -73,7 +73,7 @@ y=19
 width=32
 height=15
 colour=0xB17037
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -84,7 +84,7 @@ y=33
 width=32
 height=15
 colour=0xB27037
-font=494
+font=p11_full
 shadow=yes
 text="0"
 
@@ -95,7 +95,7 @@ y=48
 width=84
 height=15
 colour=0xFF9933
-font=494
+font=p11_full
 shadow=yes
 text="Time till start"
 
@@ -106,6 +106,6 @@ y=48
 width=70
 height=15
 colour=0xB27037
-font=494
+font=p11_full
 shadow=yes
 text="0 secs"

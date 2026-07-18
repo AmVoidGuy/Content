@@ -24,7 +24,7 @@ width=145
 height=730
 layerId=34734081
 colour=0x1B1B1B
-font=497
+font=q8_full
 text="Text"
 
 [back_page_scroll_right]
@@ -43,7 +43,7 @@ width=145
 height=730
 layerId=34734083
 colour=0x1B1B1B
-font=497
+font=q8_full
 text="Text"
 
 [front_page]
@@ -62,7 +62,7 @@ width=151
 height=199
 layerId=34734085
 colour=0x1B1B1B
-font=497
+font=q8_full
 text="This is an interface type test."
 
 [front_page_text_right]
@@ -73,7 +73,7 @@ width=151
 height=199
 layerId=34734085
 colour=0x1B1B1B
-font=497
+font=q8_full
 text="This is an interface type test."
 
 [com_8]

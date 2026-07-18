@@ -70,7 +70,7 @@ width=166
 height=102
 overLayerId=9
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 
 [pipe_button]
@@ -81,7 +81,7 @@ width=108
 height=111
 overLayerId=12
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 
 [plank_button]
@@ -92,7 +92,7 @@ width=131
 height=103
 overLayerId=15
 colour=0xFFFF00
-font=495
+font=p12_full
 shadow=yes
 
 [bridge_banner]
@@ -124,7 +124,7 @@ height=35
 layerId=27262985
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Bridge Section"
 
 [pipe_banner]
@@ -156,7 +156,7 @@ height=35
 layerId=27262988
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Pipe Section"
 
 [planks_banner]
@@ -188,7 +188,7 @@ height=40
 layerId=27262991
 hAlign=Center
 vAlign=Center
-font=497
+font=q8_full
 text="Wooden Planks"
 
 [com_18]

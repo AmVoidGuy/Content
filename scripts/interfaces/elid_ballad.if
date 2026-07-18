@@ -45,7 +45,7 @@ width=266
 height=17
 colour=0xD9A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 text="Title"
 
@@ -64,7 +64,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_7]
@@ -75,7 +75,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_8]
@@ -86,7 +86,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_9]
@@ -97,7 +97,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_10]
@@ -108,7 +108,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_11]
@@ -119,7 +119,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_12]
@@ -130,7 +130,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_13]
@@ -141,7 +141,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_14]
@@ -152,7 +152,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_15]
@@ -163,7 +163,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_16]
@@ -174,7 +174,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_17]
@@ -185,7 +185,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_18]
@@ -196,7 +196,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_19]
@@ -207,7 +207,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_20]
@@ -218,7 +218,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_21]
@@ -229,7 +229,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_22]
@@ -240,7 +240,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_23]
@@ -251,7 +251,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_24]
@@ -262,7 +262,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_25]
@@ -273,7 +273,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_26]
@@ -284,7 +284,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_27]
@@ -295,7 +295,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_28]
@@ -306,7 +306,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_29]
@@ -317,7 +317,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_30]
@@ -328,7 +328,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_31]
@@ -339,7 +339,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_32]
@@ -350,7 +350,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_33]
@@ -361,7 +361,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_34]
@@ -372,7 +372,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_35]
@@ -383,7 +383,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_36]
@@ -394,7 +394,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_37]
@@ -405,7 +405,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_38]
@@ -416,7 +416,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_39]
@@ -427,7 +427,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_40]
@@ -438,7 +438,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_41]
@@ -449,7 +449,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_42]
@@ -460,7 +460,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_43]
@@ -471,7 +471,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_44]
@@ -482,7 +482,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_45]
@@ -493,7 +493,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_46]
@@ -504,7 +504,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_47]
@@ -515,7 +515,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_48]
@@ -526,7 +526,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_49]
@@ -537,7 +537,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_50]
@@ -548,7 +548,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_51]
@@ -559,7 +559,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_52]
@@ -570,7 +570,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_53]
@@ -581,7 +581,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_54]
@@ -592,7 +592,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_55]
@@ -603,7 +603,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_56]
@@ -614,7 +614,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_57]
@@ -625,7 +625,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_58]
@@ -636,7 +636,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_59]
@@ -647,7 +647,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_60]
@@ -658,7 +658,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_61]
@@ -669,7 +669,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_62]
@@ -680,7 +680,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_63]
@@ -691,7 +691,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_64]
@@ -702,7 +702,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_65]
@@ -713,7 +713,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_66]
@@ -724,7 +724,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_67]
@@ -735,7 +735,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_68]
@@ -746,7 +746,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_69]
@@ -757,7 +757,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_70]
@@ -768,7 +768,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_71]
@@ -779,7 +779,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_72]
@@ -790,7 +790,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_73]
@@ -801,7 +801,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_74]
@@ -812,7 +812,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_75]
@@ -823,7 +823,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_76]
@@ -834,7 +834,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_77]
@@ -845,7 +845,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_78]
@@ -856,7 +856,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_79]
@@ -867,7 +867,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_80]
@@ -878,7 +878,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_81]
@@ -889,7 +889,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_82]
@@ -900,7 +900,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_83]
@@ -911,7 +911,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_84]
@@ -922,7 +922,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_85]
@@ -933,7 +933,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_86]
@@ -944,7 +944,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_87]
@@ -955,7 +955,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_88]
@@ -966,7 +966,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_89]
@@ -977,7 +977,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_90]
@@ -988,7 +988,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_91]
@@ -999,7 +999,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_92]
@@ -1010,7 +1010,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_93]
@@ -1021,7 +1021,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_94]
@@ -1032,7 +1032,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_95]
@@ -1043,7 +1043,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_96]
@@ -1054,7 +1054,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_97]
@@ -1065,7 +1065,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_98]
@@ -1076,7 +1076,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_99]
@@ -1087,7 +1087,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_100]
@@ -1098,7 +1098,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_101]
@@ -1109,7 +1109,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_102]
@@ -1120,7 +1120,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_103]
@@ -1131,7 +1131,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_104]
@@ -1142,7 +1142,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [com_105]
@@ -1153,7 +1153,7 @@ height=17
 layerId=7602181
 colour=0xD5A34D
 hAlign=Center
-font=497
+font=q8_full
 shadow=yes
 
 [elid_ballad_close_button]

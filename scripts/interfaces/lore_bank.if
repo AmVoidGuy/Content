@@ -132,7 +132,7 @@ width=234
 height=13
 colour=0xFF981F
 hAlign=Center
-font=496
+font=b12_full
 shadow=yes
 text="Familiar Inventory"
 

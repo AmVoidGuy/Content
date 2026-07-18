@@ -34,7 +34,7 @@ y=67
 width=198
 height=17
 hAlign=Center
-font=496
+font=b12_full
 text="Certificate of Qualification"
 
 [com_4]
@@ -44,7 +44,7 @@ y=89
 width=197
 height=44
 hAlign=Center
-font=497
+font=q8_full
 text="Earth Sciences Level 2<br>This is to certify that"
 
 [examname]
@@ -54,7 +54,7 @@ y=152
 width=47
 height=17
 hAlign=Center
-font=497
+font=q8_full
 text="<name>"
 
 [com_6]
@@ -64,7 +64,7 @@ y=185
 width=201
 height=32
 hAlign=Center
-font=497
+font=q8_full
 text="has passed the Level 2<br>Earth Sciences exam."
 
 [com_7]
