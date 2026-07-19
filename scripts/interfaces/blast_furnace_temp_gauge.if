@@ -16,7 +16,7 @@ x=303
 y=174
 width=32
 height=32
-model1Id=9096
+model1Id=game_blast_furnace_if_temp_gauge_flags_fuel_low
 modelZoom=908
 
 [clock_crazy_1]
@@ -25,7 +25,7 @@ x=172
 y=181
 width=32
 height=32
-model1Id=9097
+model1Id=game_blast_furnace_if_temp_gauge_flags_pipe_broken
 modelZoom=960
 
 [temp_gauge_needle]
@@ -34,7 +34,7 @@ x=235
 y=150
 width=32
 height=32
-model1Id=9083
+model1Id=game_blast_furnace_if_temp_gauge
 modelZoom=172
 
 [com_4]

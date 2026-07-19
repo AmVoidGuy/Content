@@ -4,7 +4,7 @@ x=415
 y=17
 width=32
 height=32
-model1Id=10567
+model1Id=area_mage_arena_if_backing_wide
 modelZoom=843
 modelXAn=421
 
@@ -50,7 +50,7 @@ x=469
 y=308
 width=32
 height=32
-model1Id=10588
+model1Id=area_mage_arena_inv_mini_tele_guardian
 modelZoom=1395
 modelXAn=79
 modelYAn=142

@@ -4,7 +4,7 @@ x=242
 y=165
 width=32
 height=32
-model1Id=9853
+model1Id=if_scroll_big
 modelZoom=800
 modelXAn=514
 
@@ -14,7 +14,7 @@ x=388
 y=180
 width=32
 height=32
-model1Id=15665
+model1Id=game_brew_cut_throat_tatty_flag
 modelZoom=400
 
 [brew_tatty_guilded_smile]
@@ -23,7 +23,7 @@ x=94
 y=180
 width=32
 height=32
-model1Id=15664
+model1Id=game_brew_guilded_smile_tatty_flag
 modelZoom=400
 
 [brew_poe1]
@@ -32,7 +32,7 @@ x=401
 y=264
 width=32
 height=32
-model1Id=15719
+model1Id=game_brew_poe1
 modelZoom=400
 modelXAn=514
 
@@ -42,7 +42,7 @@ x=357
 y=259
 width=32
 height=32
-model1Id=15720
+model1Id=game_brew_poe2
 modelZoom=400
 modelXAn=514
 
@@ -52,7 +52,7 @@ x=331
 y=236
 width=32
 height=32
-model1Id=15721
+model1Id=game_brew_poe3
 modelZoom=400
 modelXAn=514
 
@@ -62,7 +62,7 @@ x=177
 y=256
 width=32
 height=32
-model1Id=15719
+model1Id=game_brew_poe1
 modelZoom=400
 modelXAn=514
 
@@ -72,7 +72,7 @@ x=129
 y=249
 width=32
 height=32
-model1Id=15720
+model1Id=game_brew_poe2
 modelZoom=400
 modelXAn=514
 
@@ -82,7 +82,7 @@ x=151
 y=232
 width=32
 height=32
-model1Id=15721
+model1Id=game_brew_poe3
 modelZoom=400
 modelXAn=514
 
@@ -92,7 +92,7 @@ x=327
 y=262
 width=32
 height=32
-model1Id=15719
+model1Id=game_brew_poe1
 modelZoom=400
 modelXAn=514
 
@@ -102,7 +102,7 @@ x=94
 y=264
 width=32
 height=32
-model1Id=15720
+model1Id=game_brew_poe2
 modelZoom=400
 modelXAn=514
 
@@ -112,7 +112,7 @@ x=289
 y=247
 width=32
 height=32
-model1Id=15721
+model1Id=game_brew_poe3
 modelZoom=400
 modelXAn=514
 
@@ -122,7 +122,7 @@ x=136
 y=265
 width=32
 height=32
-model1Id=15719
+model1Id=game_brew_poe1
 modelZoom=600
 modelXAn=514
 
@@ -132,7 +132,7 @@ x=259
 y=261
 width=32
 height=32
-model1Id=15720
+model1Id=game_brew_poe2
 modelZoom=400
 modelXAn=514
 
@@ -142,7 +142,7 @@ x=194
 y=253
 width=32
 height=32
-model1Id=15721
+model1Id=game_brew_poe3
 modelZoom=400
 modelXAn=514
 modelYAn=918
@@ -153,7 +153,7 @@ x=429
 y=265
 width=32
 height=32
-model1Id=15720
+model1Id=game_brew_poe2
 modelZoom=400
 modelXAn=514
 
@@ -163,7 +163,7 @@ x=41
 y=259
 width=32
 height=32
-model1Id=15721
+model1Id=game_brew_poe3
 modelZoom=400
 modelXAn=514
 modelYAn=883
@@ -174,7 +174,7 @@ x=154
 y=266
 width=32
 height=32
-model1Id=15719
+model1Id=game_brew_poe1
 modelZoom=600
 modelXAn=514
 
@@ -184,7 +184,7 @@ x=234
 y=261
 width=32
 height=32
-model1Id=15719
+model1Id=game_brew_poe1
 modelZoom=600
 modelXAn=514
 

@@ -29,7 +29,7 @@ type=Model
 y=89
 width=32
 height=32
-model1Id=4858
+model1Id=if_game_castlewars_saradomin_banner
 modelZoom=2134
 
 [com_3]
@@ -37,7 +37,7 @@ type=Model
 y=124
 width=32
 height=32
-model1Id=4862
+model1Id=if_game_castlewars_zamorak_banner
 modelZoom=2134
 
 [com_4]
@@ -104,7 +104,7 @@ y=4
 width=32
 height=32
 layerId=3801094
-model1Id=4855
+model1Id=if_game_castlewars_door_icon
 modelZoom=1244
 modelXAn=512
 
@@ -115,7 +115,7 @@ y=35
 width=32
 height=32
 layerId=3801094
-model1Id=4859
+model1Id=if_game_castlewars_sidedoor_icon
 modelZoom=1165
 modelXAn=512
 
@@ -141,7 +141,7 @@ y=59
 width=32
 height=32
 layerId=3801094
-model1Id=4861
+model1Id=if_game_castlewars_tunnel_icon
 modelZoom=2063
 modelXAn=512
 
@@ -166,7 +166,7 @@ x=1
 y=264
 width=32
 height=32
-model1Id=4861
+model1Id=if_game_castlewars_tunnel_icon
 modelZoom=2063
 modelXAn=512
 
@@ -191,7 +191,7 @@ y=111
 width=32
 height=32
 layerId=3801094
-model1Id=4853
+model1Id=if_game_castlewars_catapult_icon
 modelZoom=1135
 modelXAn=512
 

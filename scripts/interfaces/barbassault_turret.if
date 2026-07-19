@@ -4,7 +4,7 @@ x=30
 y=68
 width=32
 height=32
-model1Id=20551
+model1Id=trail17_dragon_mask_blue_m
 modelZoom=1800
 
 [com_1]
@@ -13,7 +13,7 @@ x=-3
 y=17
 width=32
 height=32
-model1Id=20544
+model1Id=trail17_reward_tuxedo_m_hands
 modelZoom=912
 
 [com_2]
@@ -22,7 +22,7 @@ x=-3
 y=48
 width=32
 height=32
-model1Id=20545
+model1Id=trail17_reward_tuxedo_m_legs
 modelZoom=912
 
 [com_3]
@@ -31,7 +31,7 @@ x=-2
 y=79
 width=32
 height=32
-model1Id=20543
+model1Id=trail17_reward_tuxedo_m_feet
 modelZoom=912
 
 [com_4]
@@ -88,7 +88,7 @@ x=129
 y=68
 width=32
 height=32
-model1Id=20556
+model1Id=trail17_dragon_mask_iron_m
 modelZoom=1800
 
 [com_8]
@@ -97,7 +97,7 @@ x=96
 y=17
 width=32
 height=32
-model1Id=20544
+model1Id=trail17_reward_tuxedo_m_hands
 modelZoom=912
 
 [com_9]
@@ -106,7 +106,7 @@ x=96
 y=48
 width=32
 height=32
-model1Id=20545
+model1Id=trail17_reward_tuxedo_m_legs
 modelZoom=912
 
 [com_10]
@@ -115,7 +115,7 @@ x=97
 y=79
 width=32
 height=32
-model1Id=20543
+model1Id=trail17_reward_tuxedo_m_feet
 modelZoom=912
 
 [barbassault_poison_runner]
@@ -172,7 +172,7 @@ x=224
 y=68
 width=32
 height=32
-model1Id=20548
+model1Id=trail17_reward_ballgown_m_torso
 modelZoom=1800
 
 [com_15]
@@ -181,7 +181,7 @@ x=193
 y=17
 width=32
 height=32
-model1Id=20544
+model1Id=trail17_reward_tuxedo_m_hands
 modelZoom=912
 
 [com_16]
@@ -190,7 +190,7 @@ x=193
 y=48
 width=32
 height=32
-model1Id=20545
+model1Id=trail17_reward_tuxedo_m_legs
 modelZoom=912
 
 [vm_kudos_conq_side_command]
@@ -199,7 +199,7 @@ x=194
 y=79
 width=32
 height=32
-model1Id=20543
+model1Id=trail17_reward_tuxedo_m_feet
 modelZoom=912
 
 [barbassault_poison_fighter]
@@ -256,7 +256,7 @@ x=319
 y=68
 width=32
 height=32
-model1Id=20555
+model1Id=trail17_dragon_mask_hydrix_m
 modelZoom=1800
 
 [com_22]
@@ -265,7 +265,7 @@ x=289
 y=17
 width=32
 height=32
-model1Id=20544
+model1Id=trail17_reward_tuxedo_m_hands
 modelZoom=912
 
 [com_23]
@@ -274,7 +274,7 @@ x=289
 y=48
 width=32
 height=32
-model1Id=20545
+model1Id=trail17_reward_tuxedo_m_legs
 modelZoom=912
 
 [com_24]
@@ -283,7 +283,7 @@ x=290
 y=79
 width=32
 height=32
-model1Id=20543
+model1Id=trail17_reward_tuxedo_m_feet
 modelZoom=912
 
 [barbassault_poison_ranger]
@@ -340,7 +340,7 @@ x=418
 y=68
 width=32
 height=32
-model1Id=20553
+model1Id=trail17_dragon_mask_dragonstone_m
 modelZoom=1800
 
 [com_29]
@@ -349,7 +349,7 @@ x=384
 y=79
 width=32
 height=32
-model1Id=20572
+model1Id=trail17_dragon_mask_red_m
 modelZoom=912
 
 [barbassault_omega_queen]

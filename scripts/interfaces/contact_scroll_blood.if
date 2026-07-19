@@ -4,7 +4,7 @@ x=240
 y=139
 width=32
 height=28
-model1Id=3032
+model1Id=if_questscroll
 modelZoom=604
 modelXAn=400
 
@@ -27,7 +27,7 @@ x=234
 y=135
 width=32
 height=32
-model1Id=20733
+model1Id=if_scroll_bloodstain
 modelZoom=604
 modelXAn=406
 

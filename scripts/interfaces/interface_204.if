@@ -720,7 +720,7 @@ x=65
 y=95
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -730,7 +730,7 @@ x=150
 y=95
 width=32
 height=32
-model1Id=49
+model1Id=chat_male_head_dredlocks
 modelZoom=1200
 modelYAn=200
 
@@ -740,7 +740,7 @@ x=235
 y=95
 width=32
 height=32
-model1Id=52
+model1Id=chat_male_head_longhair
 modelZoom=1200
 modelYAn=200
 
@@ -750,7 +750,7 @@ x=320
 y=95
 width=32
 height=32
-model1Id=55
+model1Id=chat_male_head_mediumhair
 modelZoom=1200
 modelYAn=200
 
@@ -760,7 +760,7 @@ x=405
 y=95
 width=32
 height=32
-model1Id=59
+model1Id=chat_male_head_priest
 modelZoom=1200
 modelYAn=200
 
@@ -770,7 +770,7 @@ x=65
 y=175
 width=32
 height=32
-model1Id=53
+model1Id=chat_male_head_shorthair
 modelZoom=1200
 modelYAn=200
 
@@ -780,7 +780,7 @@ x=150
 y=175
 width=32
 height=32
-model1Id=67
+model1Id=chat_male_head_shorthair2
 modelZoom=1200
 modelYAn=200
 
@@ -790,7 +790,7 @@ x=235
 y=175
 width=32
 height=32
-model1Id=46
+model1Id=chat_male_head_spikeyhair
 modelZoom=1200
 modelYAn=200
 
@@ -800,7 +800,7 @@ x=320
 y=175
 width=32
 height=32
-model1Id=45
+model1Id=chat_male_head_spikeyhair2
 modelZoom=1200
 modelYAn=200
 

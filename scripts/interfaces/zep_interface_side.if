@@ -4,7 +4,7 @@ x=31
 y=54
 width=32
 height=32
-model1Id=19723
+model1Id=zep_sandbag_icon
 modelZoom=600
 
 [zep_log_1]
@@ -14,7 +14,7 @@ y=20
 width=32
 height=32
 layerId=30867460
-model1Id=19721
+model1Id=build_imp_grand_exchange_entrance_lower_litter_var
 modelZoom=800
 
 [zep_log_1_1]
@@ -24,7 +24,7 @@ y=20
 width=32
 height=32
 layerId=30867460
-model1Id=19721
+model1Id=build_imp_grand_exchange_entrance_lower_litter_var
 modelZoom=800
 
 [zep_log_1_2]
@@ -34,7 +34,7 @@ y=6
 width=32
 height=32
 layerId=30867460
-model1Id=19721
+model1Id=build_imp_grand_exchange_entrance_lower_litter_var
 modelZoom=800
 
 [zep_logs]
@@ -151,7 +151,7 @@ x=51
 y=31
 width=32
 height=32
-model1Id=19720
+model1Id=zep_arrow_icon
 modelZoom=2000
 
 [arrow_1]
@@ -160,7 +160,7 @@ x=51
 y=58
 width=32
 height=32
-model1Id=19720
+model1Id=zep_arrow_icon
 modelZoom=2000
 
 [arrow_2]
@@ -169,7 +169,7 @@ x=72
 y=102
 width=32
 height=32
-model1Id=19720
+model1Id=zep_arrow_icon
 modelZoom=2000
 
 [arrow_3]
@@ -178,7 +178,7 @@ x=57
 y=188
 width=32
 height=32
-model1Id=19720
+model1Id=zep_arrow_icon
 modelZoom=2000
 modelXAn=1024
 
@@ -188,7 +188,7 @@ x=130
 y=176
 width=32
 height=32
-model1Id=19720
+model1Id=zep_arrow_icon
 modelZoom=2000
 modelXAn=1024
 
@@ -198,7 +198,7 @@ x=130
 y=206
 width=32
 height=32
-model1Id=19720
+model1Id=zep_arrow_icon
 modelZoom=2000
 modelXAn=1024
 
@@ -208,7 +208,7 @@ x=67
 y=140
 width=32
 height=32
-model1Id=19719
+model1Id=zep_arrow2_icon
 modelZoom=2000
 
 [zep_rope_red]
@@ -217,7 +217,7 @@ x=112
 y=192
 width=32
 height=32
-model1Id=19718
+model1Id=zep_red_rope_icon
 modelZoom=800
 
 [bail_basket]
@@ -226,7 +226,7 @@ x=152
 y=138
 width=32
 height=32
-model1Id=19484
+model1Id=zep_bail_button
 modelZoom=1680
 modelXAn=477
 modelYAn=2041
@@ -237,7 +237,7 @@ x=41
 y=191
 width=32
 height=32
-model1Id=19722
+model1Id=zep_rope_icon
 modelZoom=800
 
 [com_23]

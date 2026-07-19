@@ -4,6 +4,6 @@ x=240
 y=151
 width=32
 height=32
-model1Id=24421
+model1Id=slice_flare
 modelAnim=slice_flash
 modelZoom=450

@@ -10,7 +10,7 @@ x=256
 y=110
 width=32
 height=32
-model1Id=18151
+model1Id=if_myq3_sketch_01_scroll
 modelZoom=570
 modelXAn=495
 
@@ -20,7 +20,7 @@ x=256
 y=110
 width=32
 height=32
-model1Id=18145
+model1Id=if_myq3_sketch_01_layer
 modelZoom=570
 modelXAn=495
 
@@ -30,7 +30,7 @@ x=256
 y=110
 width=32
 height=32
-model1Id=18147
+model1Id=if_myq3_sketch_01_layer_02
 modelZoom=570
 modelXAn=495
 
@@ -40,7 +40,7 @@ x=256
 y=110
 width=32
 height=32
-model1Id=18148
+model1Id=if_myq3_sketch_01_layer_03
 modelZoom=570
 modelXAn=495
 
@@ -50,7 +50,7 @@ x=256
 y=110
 width=32
 height=32
-model1Id=18149
+model1Id=if_myq3_sketch_01_layer_04
 modelZoom=570
 modelXAn=495
 
@@ -60,7 +60,7 @@ x=256
 y=110
 width=32
 height=32
-model1Id=18150
+model1Id=if_myq3_sketch_01_layer_05
 modelZoom=570
 modelXAn=495
 

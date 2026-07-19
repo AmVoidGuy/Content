@@ -1163,7 +1163,7 @@ x=50
 y=180
 width=32
 height=32
-model1Id=456
+model1Id=woman_torso_basic
 modelZoom=800
 
 [com_127]
@@ -1172,7 +1172,7 @@ x=145
 y=180
 width=32
 height=32
-model1Id=469
+model1Id=woman_torso_basic2
 modelZoom=800
 
 [com_128]
@@ -1181,7 +1181,7 @@ x=240
 y=180
 width=32
 height=32
-model1Id=470
+model1Id=woman_torso_basic3
 modelZoom=800
 
 [com_129]
@@ -1190,7 +1190,7 @@ x=325
 y=180
 width=32
 height=32
-model1Id=471
+model1Id=woman_torso_basic4
 modelZoom=800
 
 [com_130]
@@ -1199,7 +1199,7 @@ x=420
 y=180
 width=32
 height=32
-model1Id=474
+model1Id=woman_torso_tatty
 modelZoom=800
 
 [com_131]
@@ -1208,7 +1208,7 @@ x=50
 y=260
 width=32
 height=32
-model1Id=456
+model1Id=woman_torso_basic
 modelZoom=800
 
 [com_132]
@@ -1217,7 +1217,7 @@ x=145
 y=260
 width=32
 height=32
-model1Id=456
+model1Id=woman_torso_basic
 modelZoom=800
 
 [com_133]
@@ -1226,7 +1226,7 @@ x=240
 y=260
 width=32
 height=32
-model1Id=456
+model1Id=woman_torso_basic
 modelZoom=800
 
 [com_134]
@@ -1235,7 +1235,7 @@ x=325
 y=260
 width=32
 height=32
-model1Id=456
+model1Id=woman_torso_basic
 modelZoom=800
 
 [com_135]
@@ -1244,7 +1244,7 @@ x=420
 y=260
 width=32
 height=32
-model1Id=456
+model1Id=woman_torso_basic
 modelZoom=800
 
 [com_136]
@@ -1253,7 +1253,7 @@ x=50
 y=180
 width=32
 height=32
-model1Id=332
+model1Id=woman_arms_basic
 modelZoom=800
 
 [com_137]
@@ -1262,7 +1262,7 @@ x=145
 y=180
 width=32
 height=32
-model1Id=332
+model1Id=woman_arms_basic
 modelZoom=800
 
 [com_138]
@@ -1271,7 +1271,7 @@ x=240
 y=180
 width=32
 height=32
-model1Id=332
+model1Id=woman_arms_basic
 modelZoom=800
 
 [com_139]
@@ -1280,7 +1280,7 @@ x=325
 y=180
 width=32
 height=32
-model1Id=332
+model1Id=woman_arms_basic
 modelZoom=800
 
 [com_140]
@@ -1289,7 +1289,7 @@ x=420
 y=180
 width=32
 height=32
-model1Id=332
+model1Id=woman_arms_basic
 modelZoom=800
 
 [com_141]
@@ -1298,7 +1298,7 @@ x=50
 y=260
 width=32
 height=32
-model1Id=332
+model1Id=woman_arms_basic
 modelZoom=800
 
 [com_142]
@@ -1307,7 +1307,7 @@ x=145
 y=260
 width=32
 height=32
-model1Id=351
+model1Id=woman_arms_bare
 modelZoom=800
 
 [com_143]
@@ -1316,7 +1316,7 @@ x=240
 y=260
 width=32
 height=32
-model1Id=346
+model1Id=woman_arms_buff
 modelZoom=800
 
 [com_144]
@@ -1325,7 +1325,7 @@ x=325
 y=260
 width=32
 height=32
-model1Id=348
+model1Id=woman_arms_longsleeves
 modelZoom=800
 
 [com_145]
@@ -1334,7 +1334,7 @@ x=420
 y=260
 width=32
 height=32
-model1Id=343
+model1Id=woman_arms_longsleeves2
 modelZoom=800
 
 [com_146]

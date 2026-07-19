@@ -4,7 +4,7 @@ x=255
 y=166
 width=32
 height=32
-model1Id=13374
+model1Id=clan_custom_sundial_upgrade_01
 modelZoom=600
 
 [foregroundgrave]
@@ -13,7 +13,7 @@ x=208
 y=231
 width=32
 height=32
-model1Id=13373
+model1Id=macroevents_grave_digger_coffin_if
 modelZoom=309
 modelXAn=190
 modelYAn=373

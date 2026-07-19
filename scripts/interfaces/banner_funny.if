@@ -4,7 +4,7 @@ x=369
 y=424
 width=32
 height=32
-model1Id=9630
+model1Id=human_building_ruins_regular_trim
 modelZoom=692
 modelXAn=512
 
@@ -35,7 +35,7 @@ x=71
 y=484
 width=32
 height=32
-model1Id=10224
+model1Id=jaro_surface_root
 modelZoom=632
 modelYAn=1954
 
@@ -45,6 +45,6 @@ x=670
 y=484
 width=32
 height=32
-model1Id=10224
+model1Id=jaro_surface_root
 modelZoom=632
 modelYAn=122

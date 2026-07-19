@@ -349,7 +349,7 @@ x=54
 y=116
 width=32
 height=32
-model1Id=3041
+model1Id=if_combinationlock
 modelZoom=550
 modelXAn=400
 
@@ -359,7 +359,7 @@ x=178
 y=116
 width=32
 height=32
-model1Id=3041
+model1Id=if_combinationlock
 modelZoom=550
 modelXAn=400
 
@@ -369,7 +369,7 @@ x=302
 y=116
 width=32
 height=32
-model1Id=3041
+model1Id=if_combinationlock
 modelZoom=550
 modelXAn=400
 
@@ -379,7 +379,7 @@ x=426
 y=116
 width=32
 height=32
-model1Id=3041
+model1Id=if_combinationlock
 modelZoom=550
 modelXAn=400
 

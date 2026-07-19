@@ -720,7 +720,7 @@ x=65
 y=95
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -730,7 +730,7 @@ x=150
 y=95
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -740,7 +740,7 @@ x=235
 y=95
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -750,7 +750,7 @@ x=320
 y=95
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -760,7 +760,7 @@ x=405
 y=95
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -770,7 +770,7 @@ x=150
 y=175
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -780,7 +780,7 @@ x=235
 y=175
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -790,7 +790,7 @@ x=320
 y=175
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=1200
 modelYAn=200
 
@@ -800,7 +800,7 @@ x=65
 y=95
 width=32
 height=32
-model1Id=82
+model1Id=chat_male_jaw_long
 modelZoom=1200
 modelYAn=200
 
@@ -810,7 +810,7 @@ x=150
 y=95
 width=32
 height=32
-model1Id=81
+model1Id=chat_male_jaw_goaty
 modelZoom=1200
 modelYAn=200
 
@@ -820,7 +820,7 @@ x=235
 y=95
 width=32
 height=32
-model1Id=79
+model1Id=chat_male_jaw_moustache
 modelZoom=1200
 modelYAn=200
 
@@ -830,7 +830,7 @@ x=320
 y=95
 width=32
 height=32
-model1Id=80
+model1Id=chat_male_jaw_short
 modelZoom=1200
 modelYAn=200
 
@@ -840,7 +840,7 @@ x=405
 y=95
 width=32
 height=32
-model1Id=84
+model1Id=chat_male_jaw_split
 modelZoom=1200
 modelYAn=200
 
@@ -850,7 +850,7 @@ x=150
 y=175
 width=32
 height=32
-model1Id=83
+model1Id=chat_male_jaw_medium
 modelZoom=1200
 modelYAn=200
 
@@ -860,7 +860,7 @@ x=320
 y=175
 width=32
 height=32
-model1Id=85
+model1Id=chat_male_jaw_short2
 modelZoom=1200
 modelYAn=200
 

@@ -160,7 +160,7 @@ x=27
 y=256
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_up
 modelZoom=400
 
@@ -170,7 +170,7 @@ x=149
 y=256
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_up
 modelZoom=400
 
@@ -180,7 +180,7 @@ x=271
 y=256
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_up
 modelZoom=400
 
@@ -190,7 +190,7 @@ x=394
 y=256
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_up
 modelZoom=400
 
@@ -200,7 +200,7 @@ x=333
 y=152
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_down
 modelZoom=400
 
@@ -210,7 +210,7 @@ x=456
 y=152
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_down
 modelZoom=400
 
@@ -220,7 +220,7 @@ x=89
 y=152
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_down
 modelZoom=400
 
@@ -230,7 +230,7 @@ x=211
 y=152
 width=32
 height=32
-model1Id=13353
+model1Id=human_building_ruins_regular_wall_windowframe_medium
 modelAnim=guide_interface_down
 modelZoom=400
 

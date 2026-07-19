@@ -16,7 +16,7 @@ y=144
 width=32
 height=32
 layerId=29753345
-model1Id=18141
+model1Id=if_myq3_boat_map_scroll
 modelZoom=984
 modelXAn=476
 
@@ -27,6 +27,6 @@ y=144
 width=32
 height=32
 layerId=29753345
-model1Id=18142
+model1Id=if_myq3_boat_map
 modelZoom=984
 modelXAn=476

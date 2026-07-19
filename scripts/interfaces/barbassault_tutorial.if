@@ -12,7 +12,7 @@ x=247
 y=165
 width=32
 height=32
-model1Id=19339
+model1Id=barbassault_scroll_new
 modelZoom=730
 modelXAn=524
 
@@ -213,7 +213,7 @@ x=112
 y=182
 width=32
 height=32
-model1Id=20620
+model1Id=trail17_robinhood_blue_m_legs
 modelZoom=528
 
 [com_17]
@@ -222,5 +222,5 @@ x=380
 y=182
 width=32
 height=32
-model1Id=20620
+model1Id=trail17_robinhood_blue_m_legs
 modelZoom=528

@@ -5,7 +5,7 @@ y=230
 width=32
 height=32
 layerId=10
-model1Id=13369
+model1Id=if_hundred_guide_question_100
 modelAnim=guide_if_question
 modelZoom=756
 
@@ -16,8 +16,8 @@ y=238
 width=32
 height=32
 layerId=11
-model1Id=13355
-model2Id=13354
+model1Id=if_hundred_guide_eggs_plain
+model2Id=clan_custom_sundial_grand_04
 modelAnim=guide_egg_spin
 modelZoom=934
 
@@ -28,7 +28,7 @@ y=230
 width=32
 height=32
 layerId=12
-model1Id=13369
+model1Id=if_hundred_guide_question_100
 modelAnim=guide_if_question
 modelZoom=756
 
@@ -39,8 +39,8 @@ y=242
 width=32
 height=32
 layerId=13
-model1Id=13355
-model2Id=13354
+model1Id=if_hundred_guide_eggs_plain
+model2Id=clan_custom_sundial_grand_04
 modelAnim=guide_egg_spin
 modelZoom=934
 
@@ -51,7 +51,7 @@ y=260
 width=32
 height=32
 layerId=14
-model1Id=13369
+model1Id=if_hundred_guide_question_100
 modelAnim=guide_if_question
 modelZoom=756
 
@@ -62,8 +62,8 @@ y=264
 width=32
 height=32
 layerId=15
-model1Id=13355
-model2Id=13354
+model1Id=if_hundred_guide_eggs_plain
+model2Id=clan_custom_sundial_grand_04
 modelAnim=guide_egg_spin
 modelZoom=756
 
@@ -74,7 +74,7 @@ y=259
 width=32
 height=32
 layerId=16
-model1Id=13369
+model1Id=if_hundred_guide_question_100
 modelAnim=guide_if_question
 modelZoom=756
 
@@ -85,8 +85,8 @@ y=262
 width=32
 height=32
 layerId=17
-model1Id=13355
-model2Id=13354
+model1Id=if_hundred_guide_eggs_plain
+model2Id=clan_custom_sundial_grand_04
 modelAnim=guide_egg_spin
 modelZoom=756
 
@@ -97,7 +97,7 @@ y=284
 width=32
 height=32
 layerId=18
-model1Id=13369
+model1Id=if_hundred_guide_question_100
 modelAnim=guide_if_question
 modelZoom=656
 
@@ -108,8 +108,8 @@ y=289
 width=32
 height=32
 layerId=19
-model1Id=13355
-model2Id=13354
+model1Id=if_hundred_guide_eggs_plain
+model2Id=clan_custom_sundial_grand_04
 modelAnim=guide_egg_spin
 modelZoom=656
 

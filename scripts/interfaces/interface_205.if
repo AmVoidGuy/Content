@@ -731,7 +731,7 @@ x=90
 y=160
 width=32
 height=32
-model1Id=63
+model1Id=chat_male_head_bald
 modelZoom=500
 modelYAn=1800
 
@@ -741,7 +741,7 @@ x=380
 y=165
 width=32
 height=32
-model1Id=103
+model1Id=chat_female_head_bun
 modelZoom=500
 modelYAn=200
 
@@ -751,7 +751,7 @@ x=90
 y=160
 width=32
 height=32
-model1Id=81
+model1Id=chat_male_jaw_goaty
 modelZoom=500
 modelYAn=1800
 

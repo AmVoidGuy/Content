@@ -2235,14 +2235,14 @@ modelZoom=2576
 type=Model
 width=24
 height=24
-model1Id=19517
+model1Id=zep_air_balloon_top_tile
 modelZoom=2576
 
 [zep_if_balloon2]
 type=Model
 width=24
 height=24
-model1Id=19518
+model1Id=zep_air_balloon_tile
 modelZoom=2576
 
 [border]
@@ -2272,7 +2272,7 @@ x=13
 y=8
 width=120
 height=48
-model1Id=19573
+model1Id=zep_top_cloud1_tile
 modelZoom=2698
 
 [com_283]
@@ -2281,7 +2281,7 @@ x=133
 y=8
 width=120
 height=48
-model1Id=19573
+model1Id=zep_top_cloud1_tile
 modelZoom=2698
 
 [com_284]
@@ -2290,7 +2290,7 @@ x=253
 y=8
 width=120
 height=48
-model1Id=19573
+model1Id=zep_top_cloud1_tile
 modelZoom=2698
 
 [com_285]
@@ -2299,7 +2299,7 @@ x=373
 y=8
 width=120
 height=48
-model1Id=19573
+model1Id=zep_top_cloud1_tile
 modelZoom=2698
 
 [border_1]

@@ -26,7 +26,7 @@ x=350
 y=39
 width=32
 height=32
-model1Id=15285
+model1Id=game_pest_if_portal_1
 modelZoom=5000
 
 [pest_status_port2]
@@ -35,7 +35,7 @@ x=387
 y=39
 width=32
 height=32
-model1Id=15286
+model1Id=game_pest_if_portal_2
 modelZoom=5000
 
 [pest_status_port3]
@@ -44,7 +44,7 @@ x=425
 y=39
 width=32
 height=32
-model1Id=15287
+model1Id=game_pest_if_portal_3
 modelZoom=5000
 
 [pest_status_port4]
@@ -53,7 +53,7 @@ x=463
 y=39
 width=32
 height=32
-model1Id=15288
+model1Id=game_pest_if_portal_4
 modelZoom=5000
 
 [com_6]
@@ -61,7 +61,7 @@ type=Model
 y=76
 width=32
 height=32
-model1Id=15289
+model1Id=game_pest_if_void
 modelZoom=1800
 modelXAn=3
 
@@ -71,7 +71,7 @@ x=350
 y=24
 width=32
 height=32
-model2Id=4856
+model2Id=model_4856
 modelZoom=3000
 modelXAn=540
 script1=gt,0
@@ -83,7 +83,7 @@ x=387
 y=24
 width=32
 height=32
-model2Id=4856
+model2Id=model_4856
 modelZoom=3000
 modelXAn=540
 script1=gt,0
@@ -95,7 +95,7 @@ x=425
 y=24
 width=32
 height=32
-model2Id=4856
+model2Id=model_4856
 modelZoom=3000
 modelXAn=546
 script1=gt,0
@@ -107,7 +107,7 @@ x=463
 y=24
 width=32
 height=32
-model2Id=4856
+model2Id=model_4856
 modelZoom=3000
 modelXAn=540
 script1=gt,0
@@ -129,7 +129,7 @@ type=Model
 y=49
 width=32
 height=32
-model1Id=15284
+model1Id=game_pest_if_damage
 modelZoom=2056
 modelXAn=579
 
@@ -182,7 +182,7 @@ type=Model
 width=32
 height=32
 layerId=26738706
-model1Id=27167
+model1Id=dsf_minnow_5_inv
 modelZoom=3500
 
 [purple_shield]
@@ -197,7 +197,7 @@ type=Model
 width=32
 height=32
 layerId=26738708
-model1Id=27167
+model1Id=dsf_minnow_5_inv
 modelZoom=3500
 
 [blue_shield]
@@ -212,7 +212,7 @@ type=Model
 width=32
 height=32
 layerId=26738710
-model1Id=27167
+model1Id=dsf_minnow_5_inv
 modelZoom=3500
 
 [yellow_shield]
@@ -227,7 +227,7 @@ type=Model
 width=32
 height=32
 layerId=26738712
-model1Id=27167
+model1Id=dsf_minnow_5_inv
 modelZoom=3500
 
 [red_shield]

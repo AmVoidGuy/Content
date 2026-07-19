@@ -42,7 +42,7 @@ x=226
 y=175
 width=32
 height=32
-model1Id=27109
+model1Id=pattern_blackboard
 modelZoom=356
 
 [com_5]
@@ -50,7 +50,7 @@ type=Model
 width=32
 height=32
 layerId=36634631
-model1Id=27108
+model1Id=pattern_blackboard_btn_highlight
 modelZoom=400
 
 [btn]
@@ -60,7 +60,7 @@ y=31
 width=32
 height=32
 overLayerId=7
-model1Id=27105
+model1Id=pattern_blackboard_btn
 modelZoom=400
 
 [com_7]
@@ -80,7 +80,7 @@ y=56
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_1]
@@ -90,7 +90,7 @@ y=56
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_2]
@@ -100,7 +100,7 @@ y=56
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_3]
@@ -110,7 +110,7 @@ y=56
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_4]
@@ -120,7 +120,7 @@ y=56
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_5]
@@ -130,7 +130,7 @@ y=147
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_6]
@@ -140,7 +140,7 @@ y=147
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_7]
@@ -150,7 +150,7 @@ y=147
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_8]
@@ -160,7 +160,7 @@ y=147
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_9]
@@ -170,7 +170,7 @@ y=147
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_10]
@@ -180,7 +180,7 @@ y=238
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_11]
@@ -190,7 +190,7 @@ y=238
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_12]
@@ -200,7 +200,7 @@ y=238
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_13]
@@ -210,7 +210,7 @@ y=238
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbg_14]
@@ -220,7 +220,7 @@ y=238
 width=32
 height=32
 layerId=36634647
-model1Id=27106
+model1Id=pattern_card
 modelZoom=720
 
 [cardbglyr]
@@ -360,7 +360,7 @@ y=56
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_1]
@@ -370,7 +370,7 @@ y=56
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_2]
@@ -380,7 +380,7 @@ y=56
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_3]
@@ -390,7 +390,7 @@ y=56
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_4]
@@ -400,7 +400,7 @@ y=56
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_5]
@@ -410,7 +410,7 @@ y=147
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_6]
@@ -420,7 +420,7 @@ y=147
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_7]
@@ -430,7 +430,7 @@ y=147
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_8]
@@ -440,7 +440,7 @@ y=147
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_9]
@@ -450,7 +450,7 @@ y=147
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_10]
@@ -460,7 +460,7 @@ y=238
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_11]
@@ -470,7 +470,7 @@ y=238
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_12]
@@ -480,7 +480,7 @@ y=238
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_13]
@@ -490,7 +490,7 @@ y=238
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [cardshn_14]
@@ -500,7 +500,7 @@ y=238
 width=32
 height=32
 layerId=36634663
-model1Id=27107
+model1Id=pattern_card_shine
 modelZoom=709
 
 [pattern_pick_card_1]

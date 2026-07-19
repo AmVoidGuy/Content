@@ -4,7 +4,7 @@ x=186
 y=306
 width=32
 height=32
-model1Id=18879
+model1Id=poh_range_scroll
 modelZoom=1360
 modelXAn=512
 
@@ -14,7 +14,7 @@ x=186
 y=284
 width=32
 height=32
-model1Id=18879
+model1Id=poh_range_scroll
 modelZoom=1360
 modelXAn=512
 
@@ -24,7 +24,7 @@ x=186
 y=261
 width=32
 height=32
-model1Id=18878
+model1Id=poh_range_scroll_larger
 modelZoom=1360
 modelXAn=512
 

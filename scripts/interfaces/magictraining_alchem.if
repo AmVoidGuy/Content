@@ -4,7 +4,7 @@ x=415
 y=15
 width=32
 height=32
-model1Id=10566
+model1Id=area_mage_arena_if_backing_long
 modelZoom=843
 modelXAn=484
 
@@ -203,7 +203,7 @@ y=-8
 width=32
 height=32
 layerId=12713998
-model1Id=10568
+model1Id=area_mage_arena_if_pointer
 modelZoom=500
 modelXAn=496
 
@@ -213,7 +213,7 @@ y=-7
 width=32
 height=32
 layerId=12713999
-model1Id=10568
+model1Id=area_mage_arena_if_pointer
 modelZoom=500
 modelXAn=490
 
@@ -223,7 +223,7 @@ y=1
 width=32
 height=32
 layerId=12714000
-model1Id=10568
+model1Id=area_mage_arena_if_pointer
 modelZoom=500
 modelXAn=496
 
@@ -233,7 +233,7 @@ x=-1
 width=32
 height=32
 layerId=12714001
-model1Id=10568
+model1Id=area_mage_arena_if_pointer
 modelZoom=500
 modelXAn=490
 
@@ -243,6 +243,6 @@ y=8
 width=32
 height=32
 layerId=12714002
-model1Id=10568
+model1Id=area_mage_arena_if_pointer
 modelZoom=500
 modelXAn=496

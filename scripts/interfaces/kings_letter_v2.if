@@ -4,7 +4,7 @@ x=243
 y=138
 width=35
 height=35
-model1Id=3032
+model1Id=if_questscroll
 modelZoom=650
 modelXAn=400
 
@@ -60,7 +60,7 @@ x=369
 y=207
 width=32
 height=32
-model1Id=3037
+model1Id=if_rosette
 modelZoom=800
 modelXAn=473
 modelYAn=1991

@@ -14,7 +14,7 @@ x=247
 y=145
 width=32
 height=32
-model1Id=3437
+model1Id=if_slidingpuzzle_trail_puzzlebox_back
 modelZoom=430
 modelXAn=512
 
@@ -36,7 +36,7 @@ x=247
 y=145
 width=32
 height=32
-model1Id=4695
+model1Id=model_4695
 modelZoom=444
 modelXAn=512
 

@@ -4,7 +4,7 @@ x=202
 y=111
 width=32
 height=32
-model1Id=25719
+model1Id=qip_soa_arrav_certificate_background
 modelZoom=400
 modelXAn=512
 
@@ -14,7 +14,7 @@ x=237
 y=155
 width=32
 height=32
-model1Id=25720
+model1Id=qip_soa_arrav_certificate
 modelZoom=451
 modelXAn=539
 
@@ -42,7 +42,7 @@ x=229
 y=137
 width=32
 height=32
-model1Id=25722
+model1Id=qip_soa_arrav_certificate_blocker_rht
 modelZoom=400
 modelXAn=512
 

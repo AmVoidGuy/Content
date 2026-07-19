@@ -17,7 +17,7 @@ y=367
 width=32
 height=32
 layerId=29622273
-model1Id=18143
+model1Id=if_myq3_painting_frame
 modelZoom=256
 modelYAn=507
 
@@ -28,7 +28,7 @@ y=290
 width=32
 height=32
 layerId=29622273
-model1Id=17616
+model1Id=area_sanguine_ghetto_myq3_fem_vamp_statue
 modelZoom=455
 
 [myq3_painting_key]
@@ -39,7 +39,7 @@ width=32
 height=32
 layerId=29622273
 trans=255
-model1Id=17642
+model1Id=area_sanguine_ghetto_myq3_fem_vamp_statue_key
 modelZoom=455
 
 [com_5]

@@ -648,7 +648,7 @@ y=9
 width=49
 height=34
 layerId=32178255
-model1Id=20522
+model1Id=trail17_cavalier_hat_black_highwaymask_m
 modelZoom=2372
 
 [barbassault_attacker_lvl_button]
@@ -749,7 +749,7 @@ y=59
 width=49
 height=34
 layerId=32178255
-model1Id=20526
+model1Id=trail17_elemental_halo_earth_m
 modelZoom=2500
 
 [barbassault_collector_lvl_button]
@@ -834,7 +834,7 @@ y=109
 width=49
 height=34
 layerId=32178255
-model1Id=20531
+model1Id=trail17_samurai_bamboo_m_hat
 modelZoom=2500
 
 [barbassault_defender_lvl_button]
@@ -919,7 +919,7 @@ y=159
 width=49
 height=34
 layerId=32178255
-model1Id=20538
+model1Id=trail17_pyjamas_m_feet
 modelZoom=2500
 
 [barbassault_healer_lvl_button]
@@ -1004,7 +1004,7 @@ y=209
 width=49
 height=34
 layerId=32178255
-model1Id=20536
+model1Id=trail17_reaper_necklace_m
 modelZoom=2500
 
 [barbassault_penance_fighter_hat_button]
@@ -1088,7 +1088,7 @@ y=259
 width=49
 height=34
 layerId=32178255
-model1Id=20550
+model1Id=trail17_dragon_mask_black_m
 modelZoom=2500
 
 [barbassault_penance_ranger_hat_button]
@@ -1172,7 +1172,7 @@ y=309
 width=49
 height=34
 layerId=32178255
-model1Id=20554
+model1Id=trail17_dragon_mask_green_m
 modelZoom=2500
 
 [herbs_59]
@@ -1256,7 +1256,7 @@ y=359
 width=49
 height=34
 layerId=32178255
-model1Id=20547
+model1Id=trail17_reward_ballgown_m_legs
 modelZoom=2500
 
 [barbassault_penance_healer_hat_button]
@@ -1340,7 +1340,7 @@ y=409
 width=49
 height=34
 layerId=32178255
-model1Id=20557
+model1Id=trail17_dragon_mask_mithril_m
 modelZoom=2500
 
 [barbassault_penance_torso_button]
@@ -1424,7 +1424,7 @@ y=460
 width=49
 height=34
 layerId=32178255
-model1Id=20552
+model1Id=trail17_dragon_mask_bronze_m
 modelZoom=2500
 
 [barbassault_penance_legs_button]
@@ -1508,7 +1508,7 @@ y=510
 width=49
 height=34
 layerId=32178255
-model1Id=20546
+model1Id=trail17_reward_tuxedo_m_torso
 modelZoom=2500
 
 [barbassault_penance_boots_button]
@@ -1593,7 +1593,7 @@ y=560
 width=49
 height=34
 layerId=32178255
-model1Id=20549
+model1Id=trail17_dragon_mask_adamant_m
 modelZoom=2500
 
 [barbassault_penance_gloves_button]
@@ -1678,7 +1678,7 @@ y=611
 width=49
 height=34
 layerId=32178255
-model1Id=20537
+model1Id=trail17_reaper_necklace_ornamental_m
 modelZoom=2500
 
 [barbassault_granite_button]
@@ -1762,7 +1762,7 @@ y=661
 width=49
 height=34
 layerId=32178255
-model1Id=20535
+model1Id=trail17_amulet_of_souls_ornamental_m
 modelZoom=2500
 
 [barbassault_gamble_50_button]
@@ -1847,7 +1847,7 @@ y=712
 width=49
 height=34
 layerId=32178255
-model1Id=20535
+model1Id=trail17_amulet_of_souls_ornamental_m
 modelZoom=2500
 
 [com_181]
@@ -1932,7 +1932,7 @@ y=762
 width=49
 height=34
 layerId=32178255
-model1Id=20535
+model1Id=trail17_amulet_of_souls_ornamental_m
 modelZoom=2500
 
 [barbassault_gamble_250_button]
@@ -2166,7 +2166,7 @@ x=448
 y=278
 width=32
 height=32
-model1Id=8685
+model1Id=trh132_faceless_assassin_cape_green
 modelZoom=1680
 modelXAn=444
 modelYAn=2020

@@ -4,7 +4,7 @@ x=151
 y=143
 width=31
 height=32
-model1Id=7748
+model1Id=human_construction_signs_poor_v2
 modelAnim=bear_headless_beast_walk
 modelZoom=256
 
@@ -14,7 +14,7 @@ x=151
 y=143
 width=31
 height=32
-model1Id=7754
+model1Id=human_subcomp_poor_beam_small_v2
 modelAnim=bear_headless_beast_walk
 modelZoom=255
 
@@ -24,7 +24,7 @@ x=151
 y=143
 width=31
 height=32
-model1Id=7749
+model1Id=human_construction_winch_poor_wood
 modelAnim=bear_headless_beast_walk
 modelZoom=256
 
@@ -34,7 +34,7 @@ x=64
 y=60
 width=31
 height=32
-model1Id=7753
+model1Id=human_subcomp_poor_beam_small
 modelZoom=420
 modelXAn=1900
 
@@ -44,7 +44,7 @@ x=151
 y=60
 width=31
 height=32
-model1Id=7750
+model1Id=mah5_floor_slide_center_0
 modelZoom=420
 modelXAn=1900
 
@@ -54,7 +54,7 @@ x=238
 y=60
 width=31
 height=32
-model1Id=7753
+model1Id=human_subcomp_poor_beam_small
 modelZoom=420
 modelXAn=1900
 
@@ -64,7 +64,7 @@ x=60
 y=143
 width=31
 height=32
-model1Id=7753
+model1Id=human_subcomp_poor_beam_small
 modelZoom=420
 
 [macro_combilock_model_5]
@@ -73,7 +73,7 @@ x=151
 y=143
 width=31
 height=32
-model1Id=7753
+model1Id=human_subcomp_poor_beam_small
 modelZoom=420
 
 [macro_combilock_model_6]
@@ -82,7 +82,7 @@ x=242
 y=143
 width=31
 height=32
-model1Id=7751
+model1Id=human_subcomp_poor_beam_large
 modelZoom=420
 
 [com_9]
@@ -91,7 +91,7 @@ x=64
 y=229
 width=31
 height=32
-model1Id=7752
+model1Id=human_subcomp_poor_beam_large_v2
 modelZoom=420
 modelXAn=150
 
@@ -101,7 +101,7 @@ x=150
 y=230
 width=31
 height=32
-model1Id=7753
+model1Id=human_subcomp_poor_beam_small
 modelZoom=420
 modelXAn=150
 
@@ -111,7 +111,7 @@ x=239
 y=230
 width=31
 height=32
-model1Id=7753
+model1Id=human_subcomp_poor_beam_small
 modelZoom=420
 modelXAn=150
 
@@ -121,7 +121,7 @@ x=151
 y=139
 width=31
 height=32
-model1Id=7747
+model1Id=human_construction_signs_poor_v1
 modelZoom=256
 
 [com_13]
@@ -130,7 +130,7 @@ x=60
 y=139
 width=31
 height=32
-model1Id=7747
+model1Id=human_construction_signs_poor_v1
 modelZoom=256
 
 [com_14]
@@ -139,7 +139,7 @@ x=242
 y=139
 width=31
 height=32
-model1Id=7747
+model1Id=human_construction_signs_poor_v1
 modelZoom=256
 
 [com_15]

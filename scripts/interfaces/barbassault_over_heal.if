@@ -129,7 +129,7 @@ x=87
 width=32
 height=32
 layerId=31981580
-model1Id=20559
+model1Id=barbassault_medic_flash
 modelAnim=barbassault_healer_interface_medic_flash
 modelZoom=3000
 
@@ -159,7 +159,7 @@ x=87
 width=32
 height=32
 layerId=31981584
-model1Id=20559
+model1Id=barbassault_medic_flash
 modelAnim=barbassault_healer_interface_medic_flash
 modelZoom=3000
 
@@ -214,7 +214,7 @@ x=87
 width=32
 height=32
 layerId=31981590
-model1Id=20559
+model1Id=barbassault_medic_flash
 modelAnim=barbassault_healer_interface_medic_flash
 modelZoom=3000
 
@@ -269,7 +269,7 @@ x=87
 width=32
 height=32
 layerId=31981596
-model1Id=20559
+model1Id=barbassault_medic_flash
 modelAnim=barbassault_healer_interface_medic_flash
 modelZoom=3000
 

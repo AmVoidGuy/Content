@@ -713,7 +713,7 @@ x=158
 y=289
 width=32
 height=32
-model1Id=4612
+model1Id=if_sand_timer
 modelZoom=2048
 
 [com_88]
@@ -912,7 +912,7 @@ x=336
 y=253
 width=32
 height=32
-model1Id=4608
+model1Id=if_connectfour
 modelZoom=134
 
 [boardgames_runelink_runeflash]
@@ -921,7 +921,7 @@ x=229
 y=57
 width=32
 height=32
-model1Id=4611
+model1Id=if_runeflash
 modelAnim=runeflash_off
 modelZoom=768
 modelXAn=512
@@ -1155,7 +1155,7 @@ x=20
 y=57
 width=20
 height=20
-model1Id=2399
+model1Id=inv_firerune
 modelZoom=1024
 modelXAn=512
 modelYAn=1024
@@ -1166,7 +1166,7 @@ x=20
 y=87
 width=20
 height=20
-model1Id=2652
+model1Id=inv_waterrune
 modelZoom=1024
 modelXAn=512
 modelYAn=1024

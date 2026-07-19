@@ -1163,7 +1163,7 @@ x=50
 y=185
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_127]
@@ -1172,7 +1172,7 @@ x=114
 y=185
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_128]
@@ -1181,7 +1181,7 @@ x=176
 y=185
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_129]
@@ -1190,7 +1190,7 @@ x=240
 y=185
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_130]
@@ -1199,7 +1199,7 @@ x=302
 y=185
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_131]
@@ -1208,7 +1208,7 @@ x=358
 y=185
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_132]
@@ -1217,7 +1217,7 @@ x=420
 y=185
 width=32
 height=32
-model1Id=297
+model1Id=man_torso_elf
 modelZoom=800
 
 [com_133]
@@ -1226,7 +1226,7 @@ x=50
 y=265
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_134]
@@ -1235,7 +1235,7 @@ x=114
 y=265
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_135]
@@ -1244,7 +1244,7 @@ x=176
 y=265
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_136]
@@ -1253,7 +1253,7 @@ x=240
 y=265
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_137]
@@ -1262,7 +1262,7 @@ x=302
 y=265
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_138]
@@ -1271,7 +1271,7 @@ x=358
 y=265
 width=32
 height=32
-model1Id=292
+model1Id=man_torso_basic
 modelZoom=800
 
 [com_139]
@@ -1280,7 +1280,7 @@ x=50
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_140]
@@ -1289,7 +1289,7 @@ x=114
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_141]
@@ -1298,7 +1298,7 @@ x=176
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_142]
@@ -1307,7 +1307,7 @@ x=240
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_143]
@@ -1316,7 +1316,7 @@ x=302
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_144]
@@ -1325,7 +1325,7 @@ x=358
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_145]
@@ -1334,7 +1334,7 @@ x=420
 y=185
 width=32
 height=32
-model1Id=173
+model1Id=man_arms_bare
 modelZoom=800
 
 [com_146]
@@ -1343,7 +1343,7 @@ x=50
 y=265
 width=32
 height=32
-model1Id=151
+model1Id=man_arms_basic
 modelZoom=800
 
 [com_147]
@@ -1352,7 +1352,7 @@ x=114
 y=265
 width=32
 height=32
-model1Id=167
+model1Id=man_arms_buff
 modelZoom=800
 
 [com_148]
@@ -1361,7 +1361,7 @@ x=176
 y=265
 width=32
 height=32
-model1Id=170
+model1Id=man_arms_longsleeves
 modelZoom=800
 
 [com_149]
@@ -1370,7 +1370,7 @@ x=240
 y=265
 width=32
 height=32
-model1Id=162
+model1Id=man_arms_longsleeves2
 modelZoom=800
 
 [com_150]
@@ -1379,7 +1379,7 @@ x=302
 y=265
 width=32
 height=32
-model1Id=163
+model1Id=man_arms_longsleeves3
 modelZoom=800
 
 [com_151]
@@ -1388,7 +1388,7 @@ x=358
 y=265
 width=32
 height=32
-model1Id=158
+model1Id=man_arms_elf
 modelZoom=800
 
 [com_152]
@@ -1397,7 +1397,7 @@ x=113
 y=185
 width=32
 height=32
-model1Id=322
+model1Id=man_torsoextra_buttons
 modelZoom=800
 
 [com_153]
@@ -1406,7 +1406,7 @@ x=175
 y=185
 width=32
 height=32
-model1Id=320
+model1Id=man_torsoextra_jacket
 modelZoom=800
 
 [com_154]
@@ -1415,7 +1415,7 @@ x=239
 y=185
 width=32
 height=32
-model1Id=326
+model1Id=man_torsoextra_buttons2
 modelZoom=800
 
 [com_155]
@@ -1424,7 +1424,7 @@ x=301
 y=185
 width=32
 height=32
-model1Id=324
+model1Id=man_torsoextra_pattern1
 modelZoom=800
 
 [com_156]
@@ -1433,7 +1433,7 @@ x=357
 y=185
 width=32
 height=32
-model1Id=327
+model1Id=man_torsoextra_shirt
 modelZoom=800
 
 [com_157]

@@ -12,7 +12,7 @@ x=173
 y=156
 width=32
 height=32
-model1Id=22337
+model1Id=tol_interface_pipe_machine01
 modelZoom=1050
 
 [tol_pipe_connections]
@@ -29,7 +29,7 @@ y=19
 width=32
 height=32
 layerId=33488898
-model1Id=22351
+model1Id=tol_interface_pipe_machine_connection01
 modelZoom=1050
 
 [tol_pipe_connection02]
@@ -39,7 +39,7 @@ y=19
 width=32
 height=32
 layerId=33488898
-model1Id=22352
+model1Id=tol_interface_pipe_machine_connection02
 modelZoom=1050
 
 [tol_pipe_connection03]
@@ -49,7 +49,7 @@ y=19
 width=32
 height=32
 layerId=33488898
-model1Id=22351
+model1Id=tol_interface_pipe_machine_connection01
 modelZoom=1050
 
 [tol_pipe_connection04]
@@ -59,7 +59,7 @@ y=19
 width=32
 height=32
 layerId=33488898
-model1Id=22352
+model1Id=tol_interface_pipe_machine_connection02
 modelZoom=1050
 
 [tol_pipe_connection05]
@@ -69,7 +69,7 @@ y=214
 width=32
 height=32
 layerId=33488898
-model1Id=22353
+model1Id=tol_interface_pipe_machine_connection03
 modelZoom=1050
 
 [tol_pipe_rotate_button01]
@@ -80,7 +80,7 @@ y=3
 width=32
 height=32
 layerId=33488910
-model1Id=22346
+model1Id=tol_interface_pipe_button_rotate02
 modelZoom=1256
 modelXAn=54
 modelYAn=2002
@@ -94,7 +94,7 @@ x=410
 y=153
 width=65
 height=161
-model1Id=22544
+model1Id=tol_interface_pipe_machine_piece03_c
 modelZoom=1050
 buttonText="Choose branching pipe"
 eventCode=flag22
@@ -106,7 +106,7 @@ x=356
 y=30
 width=35
 height=89
-model1Id=22526
+model1Id=tol_interface_pipe_machine_piece01_a
 modelZoom=1050
 buttonText="Choose 't' pipe"
 eventCode=flag22
@@ -118,7 +118,7 @@ x=323
 y=230
 width=44
 height=95
-model1Id=22546
+model1Id=tol_interface_pipe_machine_piece04_a
 modelZoom=1050
 buttonText="Choose junction pipe"
 eventCode=flag22
@@ -130,7 +130,7 @@ x=449
 y=62
 width=58
 height=63
-model1Id=22554
+model1Id=tol_interface_pipe_machine_piece05_a
 modelZoom=1050
 buttonText="Choose large bend pipe"
 eventCode=flag22
@@ -142,7 +142,7 @@ x=327
 y=171
 width=53
 height=60
-model1Id=22530
+model1Id=tol_interface_pipe_machine_piece02_a
 modelZoom=1042
 buttonText="Choose small bend pipe"
 eventCode=flag22
@@ -162,7 +162,7 @@ y=3
 width=32
 height=32
 layerId=33488912
-model1Id=22348
+model1Id=tol_interface_pipe_button_rotate_highlight02
 modelZoom=1256
 modelXAn=54
 modelYAn=2002
@@ -212,7 +212,7 @@ y=1
 width=32
 height=32
 layerId=33488917
-model1Id=22340
+model1Id=tol_interface_pipe_button_left01
 modelZoom=1000
 buttonText="Move left"
 eventCode=flag22
@@ -232,7 +232,7 @@ y=1
 width=32
 height=32
 layerId=33488919
-model1Id=22343
+model1Id=tol_interface_pipe_button_left_highlight01
 modelZoom=1000
 
 [tol_move_left_highlight_layer01]
@@ -251,7 +251,7 @@ y=-5
 width=32
 height=32
 layerId=33488921
-model1Id=22338
+model1Id=tol_interface_pipe_button_right01
 modelZoom=1000
 buttonText="Move right"
 eventCode=flag22
@@ -271,7 +271,7 @@ y=-5
 width=32
 height=32
 layerId=33488923
-model1Id=22344
+model1Id=tol_interface_pipe_button_right_highlight01
 modelZoom=1000
 
 [tol_move_right_highlight_layer01]
@@ -290,7 +290,7 @@ y=15
 width=32
 height=32
 layerId=33488925
-model1Id=22349
+model1Id=tol_interface_pipe_button_up01
 modelZoom=1000
 buttonText="Move up"
 eventCode=flag22
@@ -310,7 +310,7 @@ y=16
 width=32
 height=32
 layerId=33488927
-model1Id=22350
+model1Id=tol_interface_pipe_button_up_highlight01
 modelZoom=1000
 
 [tol_move_up_highlight_layer01]
@@ -329,7 +329,7 @@ y=12
 width=32
 height=32
 layerId=33488929
-model1Id=22339
+model1Id=tol_interface_pipe_button_down01
 modelZoom=1000
 buttonText="Move down"
 eventCode=flag22
@@ -349,7 +349,7 @@ y=12
 width=32
 height=32
 layerId=33488931
-model1Id=22341
+model1Id=tol_interface_pipe_button_down_highlight01
 modelZoom=1000
 
 [tol_move_down_highlight_layer01]

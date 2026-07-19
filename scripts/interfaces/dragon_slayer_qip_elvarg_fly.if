@@ -111,7 +111,7 @@ x=359
 y=238
 width=32
 height=32
-model1Id=26577
+model1Id=dragon_slayer_qip_cloud
 modelZoom=528
 discardedModelField=0
 
@@ -121,7 +121,7 @@ x=58
 y=212
 width=32
 height=32
-model1Id=26577
+model1Id=dragon_slayer_qip_cloud
 modelZoom=528
 discardedModelField=0
 
@@ -131,7 +131,7 @@ x=356
 y=108
 width=32
 height=32
-model1Id=26577
+model1Id=dragon_slayer_qip_cloud
 modelZoom=656
 discardedModelField=0
 
@@ -141,7 +141,7 @@ x=342
 y=177
 width=32
 height=32
-model1Id=26455
+model1Id=clan_keep_wall_ext_lvl2_tier_2_basic_top_end_1
 modelAnim=clan_player_ring_charging
 modelZoom=1112
 modelXAn=69

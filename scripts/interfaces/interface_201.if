@@ -1139,7 +1139,7 @@ x=90
 y=180
 width=32
 height=32
-model1Id=419
+model1Id=woman_legs_basic
 modelZoom=600
 
 [com_125]
@@ -1148,7 +1148,7 @@ x=142
 y=180
 width=32
 height=32
-model1Id=433
+model1Id=woman_legs_basic2
 modelZoom=600
 
 [com_126]
@@ -1157,7 +1157,7 @@ x=195
 y=180
 width=32
 height=32
-model1Id=431
+model1Id=woman_legs_flares
 modelZoom=600
 
 [com_127]
@@ -1166,7 +1166,7 @@ x=248
 y=180
 width=32
 height=32
-model1Id=421
+model1Id=woman_legs_longskirt_narrow
 modelZoom=600
 
 [com_128]
@@ -1175,7 +1175,7 @@ x=300
 y=180
 width=32
 height=32
-model1Id=428
+model1Id=woman_legs_longskirt
 modelZoom=600
 
 [com_129]
@@ -1184,7 +1184,7 @@ x=350
 y=180
 width=32
 height=32
-model1Id=437
+model1Id=woman_legs_turnups
 modelZoom=600
 
 [com_130]
@@ -1193,7 +1193,7 @@ x=400
 y=180
 width=32
 height=32
-model1Id=429
+model1Id=woman_legs_shortskirt
 modelZoom=600
 
 [com_131]
