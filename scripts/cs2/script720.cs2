@@ -1,0 +1,15 @@
+// 720
+[clientscript,script720]
+def_int $int0 = 1;
+def_enum $enum1 = enum_1136;
+if (mouse_gety = 1) {
+	$int0 = 1;
+	$enum1 = enum_1137;
+}
+if (%varcint93 = 0) {
+	%varcint93 = $int0;
+} else {
+	%varcint93 = calc(%varcint93 - 1);
+}
+idk_changepart(6, enum(int, idkit, $enum1, %varcint93));
+~script703;

@@ -1,0 +1,4 @@
+// 127
+[clientscript,script127]
+if_setonfriendtransmit("script128", ignore2:ignorebox);
+~script129;

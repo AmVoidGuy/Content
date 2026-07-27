@@ -1,0 +1,12 @@
+// 561
+[clientscript,duel2_select_type_vartrans]
+if (%varbit_4157 = 1) {
+	if_setgraphic("radio_buttons_1", duel2_select_type:friendly_duel2);
+} else {
+	if_setgraphic("radio_buttons_0", duel2_select_type:friendly_duel2);
+}
+if (%varbit_4157 = 2) {
+	if_setgraphic("radio_buttons_1", duel2_select_type:staked_duel2);
+} else {
+	if_setgraphic("radio_buttons_0", duel2_select_type:staked_duel2);
+}

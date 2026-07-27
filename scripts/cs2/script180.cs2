@@ -1,0 +1,13 @@
+// 180
+[proc,script180](int $int0)
+if ($int0 = %varcint41) {
+	return;
+}
+if ($int0 = 3 & %var287 = 1) {
+	return;
+}
+if (~script179($int0) > 24) {
+	return;
+}
+~script183($int0, 249);
+if_setontimer("chat_alert_flash($int0)", enum(int, component, enum_683, $int0));

@@ -1,0 +1,9 @@
+// 573
+[proc,script573]
+cc_deleteall(objdialog:resultlist);
+if_sethide(false, toplevel:mes_layer_hide);
+if_sethide(true, toplevel:mes_layer);
+if_sethide(true, toplevel:mes_layer_large);
+if_setonkey(null, objdialog:searchtext);
+if_setondialogabort(null, objdialog:searchtext);
+if_setontimer(null, objdialog:searchtext);

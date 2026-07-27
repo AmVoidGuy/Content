@@ -1,0 +1,11 @@
+// 551
+[clientscript,script551]
+if (%varbit_4110 = 15) {
+	sound_synth(tob_nylocas_hit, 1, 0);
+	return;
+}
+%varbit_4110 = calc(%varbit_4110 + 1);
+def_int $y0 = calc((15 - %varbit_4110) * 6);
+if_setposition(0, $y0, lotg_fairy_ring_power_interface:meter_2);
+if_settext(tostring(%varbit_4110), lotg_fairy_ring_power_interface:counter2);
+sound_synth(earthsurge_hit, 1, 0);

@@ -1,0 +1,24 @@
+// 1079
+[proc,quickchat_phrase_setobj](int $int0)
+switch_int ($int0) {
+	case 0 :
+		qc_set_dynamic_alt(0, %varcint145);
+	case 1 :
+		qc_set_dynamic_alt(1, %varcint146);
+	case 2 :
+		qc_set_dynamic_alt(2, %varcint147);
+	case 3 :
+		qc_set_dynamic_alt(3, %varcint148);
+	case 4 :
+		qc_set_dynamic_alt(4, %varcint149);
+	case 5 :
+		qc_set_dynamic_alt(5, %varcint150);
+	case 6 :
+		qc_set_dynamic_alt(6, %varcint151);
+	case 7 :
+		qc_set_dynamic_alt(7, %varcint152);
+	case 8 :
+		qc_set_dynamic_alt(8, %varcint153);
+	case 9 :
+		qc_set_dynamic_alt(9, %varcint154);
+}

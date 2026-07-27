@@ -1,0 +1,27 @@
+// 1072
+[proc,quickchat_phrase_setup](component $component0, int $int1)
+def_int $int2 = qc_get_phrase_length($int1);
+def_int $int3 = 0;
+if ($int2 > 0) {
+	while (%varcint134 < $int2 & %varcint134 < 10) {
+		$int3 = qc_get_phrase_dynamiccommand($int1, %varcint134);
+		if ($int3 = 0) {
+			~script1044($int1);
+			return;
+		}
+		if ($int3 = 1) {
+			~script1037($int1, false);
+			return;
+		}
+		if ($int3 = 10) {
+			~script1037($int1, true);
+			return;
+		}
+		if ($int3 = 2) {
+			~script1047($int1);
+			return;
+		}
+		%varcint134 = calc(%varcint134 + 1);
+	}
+}
+~script1077($int1);

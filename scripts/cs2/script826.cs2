@@ -1,0 +1,5 @@
+// 826
+[clientscript,script826]
+def_int $clock0 = clientclock;
+if_setontimer("script827($clock0)", afr_newspaper_interface:title);
+sound_synth(mory_vanstrom_appear_1, 1, 58);

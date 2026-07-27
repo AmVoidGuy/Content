@@ -1,0 +1,4 @@
+// 114
+[clientscript,script114]
+if_setonkey("script116(event_key)", toplevel:backhmid1_hide);
+if_setonvartransmit("script117{var1021}", toplevel:backhmid1_hide);

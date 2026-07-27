@@ -1,0 +1,20 @@
+// 808
+[clientscript,script808]
+if_sethide(false, toplevel:96);
+def_int $int0 = ~topstat_calculate_percent(hitpoints);
+def_int $int1 = calc(clientclock % 32);
+if ($int0 > 25) {
+	if (if_gettrans(toplevel:96) ! 0) {
+		if_settrans(0, toplevel:96);
+	} else {
+		return;
+	}
+} else if ($int1 < 8) {
+	if_settrans(0, toplevel:96);
+} else if ($int1 < 16) {
+	if_settrans(85, toplevel:96);
+} else if ($int1 < 24) {
+	if_settrans(255, toplevel:96);
+} else {
+	if_settrans(85, toplevel:96);
+}

@@ -1,2 +1,2 @@
-[logout,_]()(boolean)
-return (true);
+[logout,_]()(int)
+return (^true);

@@ -1,0 +1,10 @@
+// 916
+[clientscript,script916](component $component0)
+sound_synth(lore_giant_ant_hit, 1, 0);
+if (%varbit_4536 = 0) {
+	if_setop(1, "Turn on", $component0);
+	if_setgraphic("sprite_782", $component0);
+} else {
+	if_setop(1, "Turn off", $component0);
+	if_setgraphic("sprite_781", $component0);
+}

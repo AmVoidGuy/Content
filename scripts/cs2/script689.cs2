@@ -1,0 +1,23 @@
+// 689
+[clientscript,script689]
+if_settext(tostring(%varbit_4194), clanwars_overlay:6);
+if_settext(tostring(%varbit_4195), clanwars_overlay:7);
+if (%varbit_4197 = 1) {
+	if_settext("<col=ff9b00><clan_getchatdisplayname></col>", clanwars_overlay:2);
+} else {
+	if_settext("<col=ff9b00>Friend's clan</col>", clanwars_overlay:2);
+}
+if_setonclantransmit("script692(event_com)", clanwars_overlay:2);
+if (%varbit_4196 = 0) {
+	if_setsize(if_getwidth(clanwars_overlay:background), 39, clanwars_overlay:background);
+	if_setsize(if_getwidth(clanwars_overlay:outline), 39, clanwars_overlay:outline);
+	if_settext("", clanwars_overlay:8);
+	if_settext("", clanwars_overlay:9);
+	if_setontimer(null, clanwars_overlay:9);
+} else {
+	if_setsize(if_getwidth(clanwars_overlay:background), 54, clanwars_overlay:background);
+	if_setsize(if_getwidth(clanwars_overlay:outline), 54, clanwars_overlay:outline);
+	if_settext("Time till start", clanwars_overlay:8);
+	~script690(calc(%varbit_4196 * 60 / 100));
+	if_setontimer("script691(calc(%varbit_4196 * 60 / 100), clientclock)", clanwars_overlay:9);
+}

@@ -1,0 +1,37 @@
+// 956
+[clientscript,script956]
+if_setopbase("<col=ff981f>Druidic Mage Top</col>", hvh_rewards:2);
+if_setopbase("<col=ff981f>Druidic Mage Bottom</col>", hvh_rewards:7);
+if_setopbase("<col=ff981f>Druidic Mage Hood</col>", hvh_rewards:12);
+if_setopbase("<col=ff981f>Combat Robe Top</col>", hvh_rewards:19);
+if_setopbase("<col=ff981f>Combat Robe Bottom</col>", hvh_rewards:lore_bank_side_mapfunction_sep_15);
+if_setopbase("<col=ff981f>Combat Hood</col>", hvh_rewards:29);
+if_setopbase("<col=ff981f>Battle Robe Top</col>", hvh_rewards:36);
+if_setopbase("<col=ff981f>Battle Robe Bottom</col>", hvh_rewards:41);
+if_setopbase("<col=ff981f>Battle Hood</col>", hvh_rewards:46);
+if_setopbase("<col=ff981f>Green D'Hide Coif</col>", hvh_rewards:53);
+if_setopbase("<col=ff981f>Blue D'Hide Coif</col>", hvh_rewards:58);
+if_setopbase("<col=ff981f>Red D'Hide Coif</col>", hvh_rewards:63);
+if_setopbase("<col=ff981f>Black D'Hide Coif</col>", hvh_rewards:68);
+if_setopbase("<col=ff981f>Bronze Gauntlets</col>", hvh_rewards:75);
+if_setopbase("<col=ff981f>Iron Gauntlets</col>", hvh_rewards:80);
+if_setopbase("<col=ff981f>Steel Gauntlets</col>", hvh_rewards:85);
+if_setopbase("<col=ff981f>Black Gauntlets</col>", hvh_rewards:90);
+if_setopbase("<col=ff981f>Mithril Gauntlets</col>", hvh_rewards:95);
+if_setopbase("<col=ff981f>Adamant Gauntlets</col>", hvh_rewards:100);
+if_setopbase("<col=ff981f>Rune Gauntlets</col>", hvh_rewards:105);
+if_setopbase("<col=ff981f>Dragon Gauntlets</col>", hvh_rewards:110);
+if_setopbase("<col=ff981f>Adamant Spikeshield</col>", hvh_rewards:117);
+if_setopbase("<col=ff981f>Adamant Berserker Shield</col>", hvh_rewards:122);
+if_setopbase("<col=ff981f>Rune Spikeshield</col>", hvh_rewards:127);
+if_setopbase("<col=ff981f>Rune Berserker Shield</col>", hvh_rewards:132);
+if_setopbase("<col=ff981f>Irit Gloves</col>", hvh_rewards:139);
+if_setopbase("<col=ff981f>Avantoe Gloves</col>", hvh_rewards:144);
+if_setopbase("<col=ff981f>Kwuarm Gloves</col>", hvh_rewards:149);
+if_setopbase("<col=ff981f>Cadantine Gloves</col>", hvh_rewards:154);
+if_setopbase("<col=ff981f>Swordfish Gloves</col>", hvh_rewards:161);
+if_setopbase("<col=ff981f>Shark Gloves</col>", hvh_rewards:166);
+if_setopbase("<col=ff981f>Dragon Slayer Gloves</col>", hvh_rewards:171);
+if_setopbase("<col=ff981f>Air Runecrafting Gloves</col>", hvh_rewards:176);
+if_setopbase("<col=ff981f>Water Runecrafting Gloves</col>", hvh_rewards:181);
+if_setopbase("<col=ff981f>Earth Runecrafting Gloves</col>", hvh_rewards:186);

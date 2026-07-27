@@ -1,0 +1,15 @@
+// 939
+[clientscript,script939]
+if (%varbit_4538 >= 91) {
+	mes("The game has ended.");
+	if_close;
+	return;
+}
+~script940(%varbit_4538, 0);
+if (%varbit_4538 = calc(91 - 1)) {
+	sound_jingle(110, 6656);
+	if_settext("Souchong wins!", interface_727:text_1);
+	if_settext("Opponent has no pieces left.", interface_727:text_2);
+	return;
+}
+~script928(%varbit_4538, interface_727:text_1, "Lapsang", "Souchong");

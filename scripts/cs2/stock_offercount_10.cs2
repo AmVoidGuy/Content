@@ -1,0 +1,11 @@
+// 599
+[clientscript,stock_offercount_10]
+if (%var1113 = 0) {
+	if (%varcint84 <= 2147483637) {
+		%varcint84 = calc(%varcint84 + 10);
+	}
+} else {
+	%varcint84 = 10;
+}
+if_settext(~tostring_spacer(%varcint84, ","), stockmarket:offercount);
+~sm_offercount_settimer;

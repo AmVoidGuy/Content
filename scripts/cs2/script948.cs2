@@ -1,0 +1,11 @@
+// 948
+[clientscript,script948]
+if (%varbit_4538 >= 61) {
+	mes("The game has ended.");
+	if_close;
+	return;
+}
+~script949(%varbit_4538, 1);
+if (%varbit_4538 < calc(61 - 1)) {
+	~script928(%varbit_4538, interface_726:text_1, "Teapotspout", "Hotwater");
+}

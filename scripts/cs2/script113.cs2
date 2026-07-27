@@ -1,0 +1,145 @@
+// 113
+[proc,script113]
+if (if_hassub(toplevel:chatmodallarge) = true) {
+	if_sethide(false, toplevel:chatmodallarge);
+	if_sethide(true, toplevel:chatmodal);
+	if_sethide(true, toplevel:chatoverlaylarge);
+	if_sethide(true, toplevel:chatoverlay);
+	if_sethide(true, toplevel:chatdefault);
+} else if (if_hassub(toplevel:chatmodal) = true) {
+	if_sethide(true, toplevel:chatmodallarge);
+	if_sethide(false, toplevel:chatmodal);
+	if_sethide(true, toplevel:chatoverlaylarge);
+	if_sethide(true, toplevel:chatoverlay);
+	if_sethide(true, toplevel:chatdefault);
+} else if (if_hassub(toplevel:chatoverlaylarge) = true) {
+	if_sethide(true, toplevel:chatmodallarge);
+	if_sethide(true, toplevel:chatmodal);
+	if_sethide(false, toplevel:chatoverlaylarge);
+	if_sethide(true, toplevel:chatoverlay);
+	if_sethide(true, toplevel:chatdefault);
+} else if (if_hassub(toplevel:chatoverlay) = true) {
+	if_sethide(true, toplevel:chatmodallarge);
+	if_sethide(true, toplevel:chatmodal);
+	if_sethide(true, toplevel:chatoverlaylarge);
+	if_sethide(false, toplevel:chatoverlay);
+	if_sethide(true, toplevel:chatdefault);
+} else if (if_hassub(toplevel:chatdefault) = true) {
+	if_sethide(true, toplevel:chatmodallarge);
+	if_sethide(true, toplevel:chatmodal);
+	if_sethide(true, toplevel:chatoverlaylarge);
+	if_sethide(true, toplevel:chatoverlay);
+	if_sethide(false, toplevel:chatdefault);
+}
+if (if_hassub(toplevel:sidemodal) = true) {
+	if_sethide(true, toplevel:backbase2_hide);
+	if_sethide(true, toplevel:backhmid1_hide);
+	if_sethide(true, toplevel:side_hide);
+} else {
+	if_sethide(false, toplevel:backbase2_hide);
+	if_sethide(false, toplevel:backhmid1_hide);
+	if_sethide(false, toplevel:side_hide);
+}
+if (if_hassub(toplevel:side0) = true) {
+	if_sethide(false, toplevel:icon0);
+	if_sethide(false, toplevel:stone0);
+} else {
+	if_sethide(true, toplevel:icon0);
+	if_sethide(true, toplevel:stone0);
+}
+if (if_hassub(toplevel:side1) = true) {
+	if_sethide(false, toplevel:icon1);
+	if_sethide(false, toplevel:stone1);
+} else {
+	if_sethide(true, toplevel:icon1);
+	if_sethide(true, toplevel:stone1);
+}
+if (if_hassub(toplevel:side2) = true) {
+	if_sethide(false, toplevel:icon2);
+	if_sethide(false, toplevel:stone2);
+} else {
+	if_sethide(true, toplevel:icon2);
+	if_sethide(true, toplevel:stone2);
+}
+if (if_hassub(toplevel:side3) = true) {
+	if_sethide(false, toplevel:icon3);
+	if_sethide(false, toplevel:stone3);
+} else {
+	if_sethide(true, toplevel:icon3);
+	if_sethide(true, toplevel:stone3);
+}
+if (if_hassub(toplevel:side4) = true) {
+	if_sethide(false, toplevel:icon4);
+	if_sethide(false, toplevel:stone4);
+} else {
+	if_sethide(true, toplevel:icon4);
+	if_sethide(true, toplevel:stone4);
+}
+if (if_hassub(toplevel:side5) = true) {
+	if_sethide(false, toplevel:icon5);
+	if_sethide(false, toplevel:stone5);
+} else {
+	if_sethide(true, toplevel:icon5);
+	if_sethide(true, toplevel:stone5);
+}
+if (if_hassub(toplevel:side6) = true) {
+	if_sethide(false, toplevel:icon6);
+	if_sethide(false, toplevel:stone6);
+} else {
+	if_sethide(true, toplevel:icon6);
+	if_sethide(true, toplevel:stone6);
+}
+if (if_hassub(toplevel:side7) = true) {
+	if_sethide(false, toplevel:icon7);
+	if_sethide(false, toplevel:stone7);
+} else {
+	if_sethide(true, toplevel:icon7);
+	if_sethide(true, toplevel:stone7);
+}
+if (if_hassub(toplevel:side8) = true) {
+	if_sethide(false, toplevel:icon8);
+	if_sethide(false, toplevel:stone8);
+} else {
+	if_sethide(true, toplevel:icon8);
+	if_sethide(true, toplevel:stone8);
+}
+if (if_hassub(toplevel:side9) = true) {
+	if_sethide(false, toplevel:icon9);
+	if_sethide(false, toplevel:stone9);
+} else {
+	if_sethide(true, toplevel:icon9);
+	if_sethide(true, toplevel:stone9);
+}
+if (if_hassub(toplevel:side10) = true) {
+	if_sethide(false, toplevel:icon10);
+	if_sethide(false, toplevel:stone10);
+} else {
+	if_sethide(true, toplevel:icon10);
+	if_sethide(true, toplevel:stone10);
+}
+if (if_hassub(toplevel:side11) = true) {
+	if_sethide(false, toplevel:icon11);
+	if_sethide(false, toplevel:stone11);
+} else {
+	if_sethide(true, toplevel:icon11);
+	if_sethide(true, toplevel:stone11);
+}
+if (if_hassub(toplevel:side12) = true) {
+	if_sethide(false, toplevel:icon12);
+	if_sethide(false, toplevel:stone12);
+} else {
+	if_sethide(true, toplevel:icon12);
+	if_sethide(true, toplevel:stone12);
+}
+if (if_hassub(toplevel:side13) = true) {
+	if_sethide(false, toplevel:icon13);
+	if_sethide(false, toplevel:stone13);
+} else {
+	if_sethide(true, toplevel:icon13);
+	if_sethide(true, toplevel:stone13);
+}
+if (if_hassub(toplevel:sidemodal) = true) {
+	if_sethide(true, toplevel:logoutbutton);
+} else {
+	if_sethide(false, toplevel:logoutbutton);
+}

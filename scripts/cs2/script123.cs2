@@ -1,0 +1,5 @@
+// 123
+[clientscript,script123]
+if_settext("Friends List - RuneScape <tostring(map_world)>", friends2:friends_title);
+if_setonfriendtransmit("script124", friends2:friendbox);
+~script125;

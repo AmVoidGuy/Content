@@ -1,0 +1,30 @@
+// 530
+[proc,script530](component $component0)(int, string)
+if ($component0 = assister_interface:runecrafting_event_area) {
+	return(%varbit_4090, "Runecrafting");
+}
+if ($component0 = assister_interface:crafting_event_area) {
+	return(%varbit_4091, "Crafting");
+}
+if ($component0 = assister_interface:fletching_event_area) {
+	return(%varbit_4093, "Fletching");
+}
+if ($component0 = assister_interface:construction_event_area) {
+	return(%varbit_4095, "Construction");
+}
+if ($component0 = assister_interface:farming_event_area) {
+	return(%varbit_4096, "Farming");
+}
+if ($component0 = assister_interface:magic_event_area) {
+	return(%varbit_4098, "Magic");
+}
+if ($component0 = assister_interface:smithing_event_area) {
+	return(%varbit_4100, "Smithing");
+}
+if ($component0 = assister_interface:cooking_event_area) {
+	return(%varbit_4101, "Cooking");
+}
+if ($component0 = assister_interface:herblore_event_area) {
+	return(%varbit_4102, "Herblore");
+}
+return(0, "");

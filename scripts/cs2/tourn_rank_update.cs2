@@ -1,0 +1,3 @@
+// 564
+[clientscript,tourn_rank_update](component $component0)
+if_settext(tostring(%var1105), $component0);

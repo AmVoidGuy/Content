@@ -1,0 +1,16 @@
+// 107
+[proc,script107](string $username0)
+if (%varcint11 = 1) {
+	mes("You can't do that while you're reporting abuse.");
+	return;
+}
+%varcstring23 = $username0;
+if_sethide(false, toplevel:mes_layer);
+if_sethide(true, toplevel:mes_layer_large);
+if_sethide(true, toplevel:mes_layer_hide);
+if_settext("Enter message to send to <%varcstring23>", toplevel:mes_text);
+if_settext("*", toplevel:mes_text2);
+%varcint5 = 6;
+%varcstring22 = "";
+if_setonclick(null, toplevel:mes_layer);
+if_setonkey("script112(event_key, event_keychar)", toplevel:mes_text2);

@@ -1,0 +1,4 @@
+// 317
+[clientscript,script317]
+if_setscrollsize(200, 580, interface_592:listlayer);
+~script31(interface_592:136, interface_592:listlayer, "scrollbar_dragger_v2_3", "scrollbar_dragger_v2_0", "scrollbar_dragger_v2_1", "scrollbar_dragger_v2_2", "scrollbar_v2_0", "scrollbar_v2_1");

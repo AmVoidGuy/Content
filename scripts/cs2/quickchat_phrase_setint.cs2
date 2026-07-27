@@ -1,0 +1,24 @@
+// 1078
+[proc,quickchat_phrase_setint](int $int0)
+switch_int ($int0) {
+	case 0 :
+		qc_set_dynamic(0, %varcint135);
+	case 1 :
+		qc_set_dynamic(1, %varcint136);
+	case 2 :
+		qc_set_dynamic(2, %varcint137);
+	case 3 :
+		qc_set_dynamic(3, %varcint138);
+	case 4 :
+		qc_set_dynamic(4, %varcint139);
+	case 5 :
+		qc_set_dynamic(5, %varcint140);
+	case 6 :
+		qc_set_dynamic(6, %varcint141);
+	case 7 :
+		qc_set_dynamic(7, %varcint142);
+	case 8 :
+		qc_set_dynamic(8, %varcint143);
+	case 9 :
+		qc_set_dynamic(9, %varcint144);
+}

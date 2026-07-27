@@ -1,0 +1,4 @@
+// 804
+[proc,script804]
+if_setcolour(~script806, toplevel:105);
+if_settext(tostring(runenergy_visible), toplevel:105);

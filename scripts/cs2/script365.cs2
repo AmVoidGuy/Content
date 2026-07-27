@@ -1,0 +1,24 @@
+// 365
+[proc,script365]
+if_setgraphic("miscgraphics_10", interface_592:clothes_checkbutton_1);
+if_setgraphic("miscgraphics_10", interface_592:clothes_checkbutton_2);
+if_setgraphic("miscgraphics_10", interface_592:clothes_checkbutton_3);
+if_setgraphic("miscgraphics_10", interface_592:clothes_checkbutton_4);
+if_setgraphic("miscgraphics_10", interface_592:clothes_checkbutton_5);
+if_setgraphic("miscgraphics_10", interface_592:clothes_checkbutton_6);
+if_setgraphic("miscgraphics_10", interface_592:84);
+if_setgraphic("miscgraphics_10", interface_592:87);
+if_setgraphic("miscgraphics_10", interface_592:90);
+if_setgraphic("miscgraphics_10", interface_592:93);
+if_setgraphic("miscgraphics_10", interface_592:96);
+if_setgraphic("miscgraphics_10", interface_592:99);
+if_setgraphic("miscgraphics_10", interface_592:102);
+if_setgraphic("miscgraphics_10", interface_592:105);
+if_setgraphic("miscgraphics_10", interface_592:108);
+if_setgraphic("miscgraphics_10", interface_592:111);
+if_setgraphic("miscgraphics_10", interface_592:114);
+if_setgraphic("miscgraphics_10", interface_592:117);
+if_setgraphic("miscgraphics_10", interface_592:120);
+if_setgraphic("miscgraphics_10", interface_592:123);
+if_setgraphic("miscgraphics_10", interface_592:126);
+if_setgraphic("miscgraphics_10", interface_592:129);

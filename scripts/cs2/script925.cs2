@@ -1,0 +1,13 @@
+// 925
+[clientscript,script925]
+if (%varbit_4538 >= 43) {
+	return;
+}
+if_settext("Earlgrey (1000)", interface_725:20);
+if_settext("Fairtrade (1000)", interface_725:22);
+~script928(%varbit_4538, interface_725:text_1, "Earlgrey", "Fairtrade");
+def_int $int0 = 1;
+while ($int0 < %varbit_4538) {
+	~script927($int0, 0);
+	$int0 = calc($int0 + 1);
+}

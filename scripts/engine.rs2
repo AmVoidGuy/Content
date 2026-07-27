@@ -474,6 +474,8 @@
 [command,playermember]()(int)
 // info: set an option for a player
 [command,set_player_op](string $text, int $index, int $primary)
+// info: Run a clientscript for the player
+[command,runclientscript](hook $script)
 
 [command,if_opentop](interface $if)
 [command,if_opensub](interface $if, component $com, int $type)

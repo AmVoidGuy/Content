@@ -1,0 +1,12 @@
+// 736
+[proc,script736]
+%varcint94 = 0;
+%varcint95 = 0;
+%varcint96 = 0;
+%varcint97 = 0;
+%varcint98 = 0;
+idk_changecolour(0, 0);
+idk_changecolour(1, 0);
+idk_changecolour(2, 0);
+idk_changecolour(3, 0);
+idk_changecolour(4, 0);

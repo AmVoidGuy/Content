@@ -1,0 +1,16 @@
+// 774
+[clientscript,script774](component $component0, component $component1, int $int2, graphic $graphic3, graphic $graphic4, int $int5, namedobj $namedobj6, int $int7, obj $obj8, int $int9, obj $obj10, int $int11, obj $obj12, int $int13, string $string0, string $string1)
+if ($namedobj6 = lore_bull_rush_12461) {
+	$int5, $string0, $namedobj6 = ~script775($namedobj6);
+}
+if_setopbase("<col=00ff00><$string0>", $component0);
+$string0 = append($string0, " (<tostring(%varbit_4288)> Special Move points)");
+~script773($component0, lore_stats_side:build_layer, $graphic3, $graphic4, $int5, $namedobj6, $int7, $obj8, $int9, $obj10, $int11, $obj12, $int13);
+if_setonmouserepeat("script10($component0, lore_stats_side:build_layer, $int5, $string0, $string1, $namedobj6, $int7, $obj8, $int9, $obj10, $int11, $obj12, $int13)", $component0);
+if_setonmouseleave("lore_deltooltip(lore_stats_side:build_layer)", $component0);
+if (if_gettargetmask($component0) ! 0) {
+	if_setontargetenter("script17($component0)", $component0);
+	if_setontargetleave("magic_leavetargetmode($component0)", $component0);
+}
+if_setoninvtransmit("script772($component0, $component1, $graphic3, $graphic4, $int5, $namedobj6, $int7, $obj8, $int9, $obj10, $int11, $obj12, $int13){inv}", $component0);
+if_setonstattransmit("script772($component0, $component1, $graphic3, $graphic4, $int5, $namedobj6, $int7, $obj8, $int9, $obj10, $int11, $obj12, $int13){summoning}", $component0);

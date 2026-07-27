@@ -1,0 +1,42 @@
+// 80
+[clientscript,script80]
+if_setonkey("script73(event_key, event_keychar)", chatdefault:input);
+if_setonchattransmit("script81", toplevel:chat);
+if_setonmisctransmit("script82", toplevel:chat);
+%varcstring1 = "";
+%varcint42 = -1;
+%varcint41 = 0;
+%varcint43 = chat_gethistorylength;
+%varcint3 = -1;
+%varcint4 = 0;
+%varcstring2 = "";
+%varcstring3 = "";
+%varcstring4 = "";
+%varcstring5 = "";
+%varcstring6 = "";
+%varcstring7 = "";
+%varcstring8 = "";
+%varcstring9 = "";
+%varcstring10 = "";
+%varcstring11 = "";
+%varcstring12 = "";
+%varcstring13 = "";
+%varcstring14 = "";
+%varcstring15 = "";
+%varcstring16 = "";
+%varcstring17 = "";
+%varcstring18 = "";
+%varcstring19 = "";
+%varcstring20 = "";
+%varcstring21 = "";
+if (underage = true | map_quickchat = true) {
+	if_settext("Left-click here to enter Public Quick Chat or right-click for Clan Quick Chat.", chatdefault:input);
+	if_setposition(if_getx(chatdefault:input), if_gety(chatdefault:input), chatdefault:quickchat_op);
+	if_setsize(parawidth("Left-click here to enter Public Quick Chat or right-click for Clan Quick Chat.", if_getwidth(chatdefault:input), p12_full), if_getheight(chatdefault:input), chatdefault:quickchat_op);
+} else {
+	if_settext("<chat_playername><img=3>: <col=0000ff><escape(%varcstring1)>*", chatdefault:input);
+	if_setposition(if_getx(chatdefault:input), if_gety(chatdefault:input), chatdefault:quickchat_op);
+	if_setsize(parawidth("<chat_playername><img=3>:", if_getwidth(chatdefault:input), p12_full), if_getheight(chatdefault:input), chatdefault:quickchat_op);
+}
+~script178;
+%varcstring0 = "";

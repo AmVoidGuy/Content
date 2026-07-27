@@ -1,0 +1,8 @@
+// 704
+[clientscript,script704]
+%varcint86 = calc(%varcint86 - 1);
+if (%varcint86 > 0) {
+	return;
+}
+if_setontimer(null, interface_660:layer);
+~script705;

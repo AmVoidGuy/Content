@@ -1,0 +1,84 @@
+// 990
+[proc,script990](int $int0, int $int1)(int, namedobj, string, string)
+switch_int ($int0) {
+	case 0 :
+		switch_int ($int1) {
+			case 0 :
+				return(1, logs_1511, "Normal tree", "You can now chop down <col=000080>normal trees</col>.");
+			case 1 :
+				return(1, achey_tree_logs_2862, "Members: Achey tree", "Members can now chop down <col=000080>achey trees</col>.");
+			case 2 :
+				return(10, thatching_spar_light_6281, "Members: Light jungle<br> (after Jungle Potion)", "Members now have the Woodcutting level required to clear <col=000080>light jungle</col> in the Tai Bwo Wannai Clean-up minigame (after Jungle Potion).");
+			case 3 :
+				return(15, oak_logs_1521, "Oak tree", "You can now chop down <col=000080>oak trees</col>.");
+			case 4 :
+				return(20, thatching_spar_med_6283, "Members: Medium jungle<br> (after Jungle Potion)", "Members now have the Woodcutting level required to clear <col=000080>medium jungle</col> in the Tai Bwo Wannai Clean-up minigame (after Jungle Potion).");
+			case 5 :
+				return(30, willow_logs_1519, "Willow tree", "You can now chop down <col=000080>willow trees</col>.");
+			case 6 :
+				return(35, thatching_spar_dense_6285, "Members: Dense jungle<br> (after Jungle Potion)", "Members now have the Woodcutting level required to clear <col=000080>dense jungle</col> in the Tai Bwo Wannai Clean-up minigame (after Jungle Potion).");
+			case 7 :
+				return(35, teak_logs_6333, "Members: Teak tree<br> (after Jungle Potion)", "Members now have the Woodcutting level required to chop down <col=000080>teak trees</col> (after Jungle Potion).");
+			case 8 :
+				return(45, maple_logs_1517, "Members: Maple tree", "Members can now chop down <col=000080>maple trees</col>.");
+			case 9 :
+				return(45, hollow_bark_3239, "Members: Hollow tree", "Members can now chop down <col=000080>hollow trees</col>.");
+			case 10 :
+				return(50, mahogany_logs_6332, "Members: Mahogany tree<br> (after Jungle Potion)", "Members now have the Woodcutting level required to chop down <col=000080>mahogany trees</col> (after Jungle Potion).");
+			case 11 :
+				return(54, arctic_pine_log_10810, "Members: Arctic pine tree", "Members can now chop down <col=000080>arctic pine trees</col>.");
+			case 12 :
+				return(58, eucalyptus_logs_12581, "Members: Eucalyptus tree", "Members can now chop down <col=000080>eucalyptus trees</col>.");
+			case 13 :
+				return(60, yew_logs_1515, "Yew tree", "You can now chop down <col=000080>yew trees</col>.");
+			case 14 :
+				return(75, magic_logs_1513, "Members: Magic tree", "Members can now chop down <col=000080>magic trees</col>.");
+		}
+	case 1 :
+		switch_int ($int1) {
+			case 0 :
+				return(1, bronze_axe_1351, "Bronze axe", "You can now use <col=000080>bronze axes</col>.");
+			case 1 :
+				return(1, iron_axe_1349, "Iron axe", "You can now use <col=000080>iron axes</col>.");
+			case 2 :
+				return(6, steel_axe_1353, "Steel axe", "You can now use <col=000080>steel axes</col>.");
+			case 3 :
+				return(6, black_axe_1361, "Black axe", "You can now use <col=000080>black axes</col>.");
+			case 4 :
+				return(21, mithril_axe_1355, "Mithril axe", "You can now use <col=000080>mithril axes</col>.");
+			case 5 :
+				return(31, adamant_axe_1357, "Adamant axe", "You can now use <col=000080>adamant axes</col>.");
+			case 6 :
+				return(41, rune_axe_1359, "Rune axe", "You can now use <col=000080>rune axes</col>.");
+			case 7 :
+				return(61, dragon_axe_6739, "Members: Dragon axe", "Members can now use <col=000080>dragon axes</col>.");
+		}
+	case 2 :
+		switch_int ($int1) {
+			case 0 :
+				return(12, canoeing_paddle_7414, "Log canoe", "Members can now make <col=000080>log canoes</col>.");
+			case 1 :
+				return(27, canoeing_paddle_7414, "Dugout canoe", "Members can now make <col=000080>dugout canoes</col>.");
+			case 2 :
+				return(42, canoeing_paddle_7414, "Stable dugout canoe", "Members can now make <col=000080>stable dugout canoes</col>.");
+			case 3 :
+				return(57, canoeing_paddle_7414, "Waka canoe", "Members can now make <col=000080>waka canoes</col>.");
+		}
+	case 3 :
+		if ($int1 = 0) {
+			return(44, ramble_lumberjack_top_10939, "Lumberjack clothing", "Members can now wear the <col=000080>undead lumberjack</col> clothing.");
+		} else if ($int1 = 1) {
+			return(56, fremmenik_round_shield_10826, "Fremennik round shield", "Members can now make <col=000080>Fremennik round shields</col>.");
+		} else if ($int1 = 2) {
+			return(56, arctic_pine_split_10812, "Split arctic pine logs", "Members can now split <col=000080>arctic pine logs</col>.");
+		}
+	case 4 :
+		if ($int1 = 0) {
+			return(19, guide_icon_dummy_5079, "Woodcutting Tutor - new info", "There is new information available from the <col=000080>Woodcutting Tutor</col> in <col=000080>Lumbridge</col>.");
+		} else if ($int1 = 1) {
+			return(29, guide_icon_dummy_5079, "Woodcutting Tutor - new info", "There is new information available from the <col=000080>Woodcutting Tutor</col> in <col=000080>Lumbridge</col>.");
+		} else if ($int1 = 2) {
+			return(99, skillcape_woodcutting_9807, "Skill mastery", "<col=000080>Congratulations! You are now a master of <col=800000>Woodcutting<col=000080>. Why not visit <col=800000>Wilfred<col=000080>, near <col=800000>Lumbridge<col=000080>. He has something special that is only available to true masters of the <col=800000>Woodcutting<col=000080> skill!");
+		}
+}
+return(0, null, "", "");

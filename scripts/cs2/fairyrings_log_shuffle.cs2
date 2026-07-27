@@ -1,0 +1,9 @@
+// 958
+[clientscript,fairyrings_log_shuffle](component $component0, component $component1, component $component2)
+if (%varbit_4618 = 0) {
+	~script959($component0, $component1, 1);
+	if_setgraphic("grand_exchange_misc_graphics_7", $component2);
+} else {
+	~script959($component0, $component1, 0);
+	if_setgraphic("grand_exchange_misc_graphics_6", $component2);
+}

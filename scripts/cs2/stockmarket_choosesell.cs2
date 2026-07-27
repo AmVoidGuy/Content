@@ -1,0 +1,4 @@
+// 595
+[clientscript,stockmarket_choosesell]
+%var1113 = 1;
+~script621;

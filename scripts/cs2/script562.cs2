@@ -1,0 +1,18 @@
+// 562
+[clientscript,script562]
+def_int $int0 = 0;
+def_int $int1 = 0;
+$int0 = if_getscrolly(interface_631:your_stake);
+$int1 = if_getscrolly(interface_631:opponent_stake);
+if_setscrollsize(0, 15, interface_631:your_stake);
+~script31(interface_631:your_stake_scroll, interface_631:your_stake, "scrollbar_dragger_v2_3", "scrollbar_dragger_v2_0", "scrollbar_dragger_v2_1", "scrollbar_dragger_v2_2", "scrollbar_v2_0", "scrollbar_v2_1");
+~script157(interface_631:your_stake_scroll, interface_631:your_stake, $int0, 1);
+if_setscrollsize(0, 15, interface_631:opponent_stake);
+~script31(interface_631:opponent_stake_scroll, interface_631:opponent_stake, "scrollbar_dragger_v2_3", "scrollbar_dragger_v2_0", "scrollbar_dragger_v2_1", "scrollbar_dragger_v2_2", "scrollbar_v2_0", "scrollbar_v2_1");
+~script157(interface_631:opponent_stake_scroll, interface_631:opponent_stake, $int1, 1);
+if (map_members = ^true) {
+	if_setscrollsize(0, 221, interface_631:option_button_lay);
+	~script31(interface_631:options_scroll, interface_631:option_button_lay, "scrollbar_dragger_v2_3", "scrollbar_dragger_v2_0", "scrollbar_dragger_v2_1", "scrollbar_dragger_v2_2", "scrollbar_v2_0", "scrollbar_v2_1");
+} else {
+	if_sethide(true, interface_631:55);
+}

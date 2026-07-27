@@ -1,0 +1,194 @@
+// 23
+[clientscript,script23]
+def_int $int0 = 0;
+def_string $text0 = "";
+$text0, $int0 = ~script12(%varbit_3288);
+if_settext($text0, skill_guide_v2:title_text);
+def_string $string1 = "";
+def_int $int1 = 0;
+if ($int0 > 1) {
+	$string1, $int1 = ~script13(%varbit_3288, 0);
+	if_settext($string1, skill_guide_v2:subsection_button_1);
+	if_sethide(false, skill_guide_v2:subsection_button_1);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_1);
+	if_sethide(true, skill_guide_v2:subsection_button_1);
+}
+if ($int0 >= 2) {
+	$string1, $int1 = ~script13(%varbit_3288, 1);
+	if_settext($string1, skill_guide_v2:subsection_button_2);
+	if_setposition(353, 101, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_2);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_2);
+	if_sethide(true, skill_guide_v2:subsection_button_2);
+}
+if ($int0 >= 3) {
+	$string1, $int1 = ~script13(%varbit_3288, 2);
+	if_settext($string1, skill_guide_v2:subsection_button_3);
+	if_setposition(353, 118, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_3);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_3);
+	if_sethide(true, skill_guide_v2:subsection_button_3);
+}
+if ($int0 >= 4) {
+	$string1, $int1 = ~script13(%varbit_3288, 3);
+	if_settext($string1, skill_guide_v2:subsection_button_4);
+	if_setposition(353, 137, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_4);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_4);
+	if_sethide(true, skill_guide_v2:subsection_button_4);
+}
+if ($int0 >= 5) {
+	$string1, $int1 = ~script13(%varbit_3288, 4);
+	if_settext($string1, skill_guide_v2:subsection_button_5);
+	if_setposition(353, 152, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_5);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_5);
+	if_sethide(true, skill_guide_v2:subsection_button_5);
+}
+if ($int0 >= 6) {
+	$string1, $int1 = ~script13(%varbit_3288, 5);
+	if_settext($string1, skill_guide_v2:subsection_button_6);
+	if_setposition(353, 169, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_6);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_6);
+	if_sethide(true, skill_guide_v2:subsection_button_6);
+}
+if ($int0 >= 7) {
+	$string1, $int1 = ~script13(%varbit_3288, 6);
+	if_settext($string1, skill_guide_v2:subsection_button_7);
+	if_setposition(353, 186, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_7);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_7);
+	if_sethide(true, skill_guide_v2:subsection_button_7);
+}
+if ($int0 >= 8) {
+	$string1, $int1 = ~script13(%varbit_3288, 7);
+	if_settext($string1, skill_guide_v2:subsection_button_8);
+	if_setposition(353, 203, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_8);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_8);
+	if_sethide(true, skill_guide_v2:subsection_button_8);
+}
+if ($int0 >= 9) {
+	$string1, $int1 = ~script13(%varbit_3288, 8);
+	if_settext($string1, skill_guide_v2:subsection_button_9);
+	if_setposition(353, 220, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_9);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_9);
+	if_sethide(true, skill_guide_v2:subsection_button_9);
+}
+if ($int0 >= 10) {
+	$string1, $int1 = ~script13(%varbit_3288, 9);
+	if_settext($string1, skill_guide_v2:subsection_button_10);
+	if_setposition(353, 237, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_10);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_10);
+	if_sethide(true, skill_guide_v2:subsection_button_10);
+}
+if ($int0 >= 11) {
+	$string1, $int1 = ~script13(%varbit_3288, 10);
+	if_settext($string1, skill_guide_v2:subsection_button_11);
+	if_setposition(353, 254, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_11);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_11);
+	if_sethide(true, skill_guide_v2:subsection_button_11);
+}
+if ($int0 >= 12) {
+	$string1, $int1 = ~script13(%varbit_3288, 11);
+	if_settext($string1, skill_guide_v2:subsection_button_12);
+	if_setposition(353, 271, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_12);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_12);
+	if_sethide(true, skill_guide_v2:subsection_button_12);
+}
+if ($int0 >= 13) {
+	$string1, $int1 = ~script13(%varbit_3288, 12);
+	if_settext($string1, skill_guide_v2:subsection_button_13);
+	if_setposition(353, 288, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_13);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_13);
+	if_sethide(true, skill_guide_v2:subsection_button_13);
+}
+if ($int0 >= 14) {
+	$string1, $int1 = ~script13(%varbit_3288, 13);
+	if_settext($string1, skill_guide_v2:subsection_button_14);
+	if_setposition(353, 305, skill_guide_v2:skill_guide_v2_scroll_bottom);
+	if_sethide(false, skill_guide_v2:subsection_button_14);
+} else {
+	if_settext("", skill_guide_v2:subsection_button_14);
+	if_sethide(true, skill_guide_v2:subsection_button_14);
+}
+if ($int0 < 2) {
+	if_sethide(true, skill_guide_v2:skill_guide_v2_scroll_top);
+	if_sethide(true, skill_guide_v2:skill_guide_v2_scroll_middle);
+	if_sethide(true, skill_guide_v2:skill_guide_v2_scroll_bottom);
+} else {
+	if_sethide(false, skill_guide_v2:skill_guide_v2_scroll_top);
+	if_sethide(false, skill_guide_v2:skill_guide_v2_scroll_middle);
+	if_sethide(false, skill_guide_v2:skill_guide_v2_scroll_bottom);
+}
+if ($int0 = 2) {
+	if_setmodel(human_worker_explorer_archaeologist_bag_f_20838, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 3) {
+	if_setmodel(human_worker_explorer_archaeologist_bandana_f_20839, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 4) {
+	if_setmodel(human_worker_explorer_archaeologist_body_f_20840, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 5) {
+	if_setmodel(human_worker_explorer_archaeologist_body_vest_f_20841, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 6) {
+	if_setmodel(human_worker_explorer_archaeologist_hat_f_20842, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 7) {
+	if_setmodel(human_worker_explorer_archaeologist_helmet_f_20843, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 8) {
+	if_setmodel(human_worker_explorer_archaeologist_legs2_f_20844, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 9) {
+	if_setmodel(human_worker_explorer_archaeologist_legs_f_20845, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 10) {
+	if_setmodel(human_worker_explorer_archaeologist_bag_20846, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 11) {
+	if_setmodel(human_worker_explorer_archaeologist_bandana_20847, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 12) {
+	if_setmodel(human_worker_explorer_archaeologist_body_m_20848, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 13) {
+	if_setmodel(human_worker_explorer_archaeologist_body_vest_m_20849, skill_guide_v2:skill_guide_v2_scroll_middle);
+} else if ($int0 = 14) {
+	if_setmodel(human_worker_explorer_archaeologist_feet_20850, skill_guide_v2:skill_guide_v2_scroll_middle);
+}
+$string1, $int1 = ~script13(%varbit_3288, %varbit_3289);
+if_settext($string1, skill_guide_v2:subsection_title);
+if ($int1 = 0) {
+	if_settext($string1, skill_guide_v2:subsection_title);
+} else {
+	if_settext(append($string1, " - Members Only"), skill_guide_v2:subsection_title);
+}
+cc_deleteall(skill_guide_v2:info);
+cc_deleteall(skill_guide_v2:info_scrollbar);
+def_int $int2 = 0;
+def_int $int3 = 3;
+def_int $int4 = 0;
+def_namedobj $namedobj5 = invis_rod_7620;
+def_string $string2 = "";
+def_string $string3 = "";
+while ($namedobj5 ! null) {
+	$int4, $namedobj5, $string2, $string3 = ~script14(%varbit_3288, %varbit_3289, $int2);
+	$int3 = calc($int3 + ~script24($int4, $namedobj5, $int2, $int3, $string2));
+	$int2 = calc($int2 + 1);
+}
+if_setscrollpos(0, 0, skill_guide_v2:info);
+if_setscrollsize(296, $int3, skill_guide_v2:info);
+if ($int3 > 240) {
+	~script31(skill_guide_v2:info_scrollbar, skill_guide_v2:info, "scrollbar_parchment_dragger_v2_3", "scrollbar_parchment_dragger_v2_0", "scrollbar_parchment_dragger_v2_1", "scrollbar_parchment_dragger_v2_2", "scrollbar_parchment_v2_0", "scrollbar_parchment_v2_1");
+}

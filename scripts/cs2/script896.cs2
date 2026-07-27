@@ -1,0 +1,9 @@
+// 896
+[proc,script896]
+def_int $int0 = calc(116 / 12);
+def_int $int1 = calc($int0 * %varbit_4527);
+def_int $int2 = calc($int0 * %varbit_4526);
+if_setposition(if_getx(easter08_incubator_side:water_indicator), calc(122 + (116 - $int1)), easter08_incubator_side:water_indicator);
+if_setposition(if_getx(easter08_incubator_side:coal_indicator), calc(122 + (116 - $int2)), easter08_incubator_side:coal_indicator);
+if_setsize(27, $int1, easter08_incubator_side:water_indicator);
+if_setsize(27, $int2, easter08_incubator_side:coal_indicator);

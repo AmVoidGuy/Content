@@ -1,0 +1,6 @@
+// 512
+[clientscript,script512]
+if_setmodel(if_fadetoblack_4835, pog_door_hatch:fade);
+%varcint50 = if_getmodelzoom(pog_door_hatch:fade);
+if_setmodelangle(0, 0, 512, 0, 0, 132, pog_door_hatch:fade);
+if_setmodelanim(seq_1378_1378, pog_door_hatch:fade);

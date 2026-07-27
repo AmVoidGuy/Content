@@ -1,0 +1,156 @@
+// 980
+[proc,script980](int $int0, int $int1)(int, namedobj, string, string)
+switch_int ($int0) {
+	case 0 :
+		switch_int ($int1) {
+			case 0 :
+				return(1, bronze_arrow_882, "Bronze arrow", "You can now fletch <col=000080>bronze arrows</col>.");
+			case 1 :
+				return(5, ogre_arrow_2866, "Ogre arrow<br> (after starting Big Chompy Bird Hunting)", "You now have the Fletching level required to fletch <col=000080>ogre arrows</col> (after starting Big Chompy Bird Hunting).");
+			case 2 :
+				return(7, zogre_brutal_bronze_4773, "Bronze 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>bronze 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 3 :
+				return(15, iron_arrow_884, "Iron arrow", "You can now fletch <col=000080>iron arrows</col>.");
+			case 4 :
+				return(18, zogre_brutal_iron_4778, "Iron 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>iron 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 5 :
+				return(30, steel_arrow_886, "Steel arrow", "You can now fletch <col=000080>steel arrows</col>.");
+			case 6 :
+				return(33, zogre_brutal_steel_4783, "Steel 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>steel 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 7 :
+				return(38, zogre_brutal_black_4788, "Black 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>black 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 8 :
+				return(45, mithril_arrow_888, "Mithril arrow", "You can now fletch <col=000080>mithril arrows</col>.");
+			case 9 :
+				return(49, zogre_brutal_mithril_4793, "Mithril 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>mithril 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 10 :
+				return(52, slayer_broad_arrow_head_13278, "Broad leaf arrows<br> (after Smoking Kills)", "You can now fletch <col=000080>broad leaf arrows</col> (after Smoking Kills).");
+			case 11 :
+				return(60, adamant_arrow_890, "Adamant arrow", "You can now fletch <col=000080>adamant arrows</col>.");
+			case 12 :
+				return(62, zogre_brutal_adamant_4798, "Adamant 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>adamant 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 13 :
+				return(75, rune_arrow_892, "Rune arrow", "You can now fletch <col=000080>rune arrows</col>.");
+			case 14 :
+				return(77, zogre_brutal_rune_4803, "Rune 'brutal' arrow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>rune 'brutal' arrows</col> (after starting Zogre Flesh Eaters).");
+			case 15 :
+				return(90, dragon_arrow_11212, "Dragon arrow", "You can now fletch <col=000080>dragon arrows</col>.");
+		}
+	case 1 :
+		switch_int ($int1) {
+			case 0 :
+				return(5, shortbow_841, "Shortbow", "You can now fletch <col=000080>shortbows</col>.");
+			case 1 :
+				return(10, longbow_839, "Longbow", "You can now fletch <col=000080>longbows</col>.");
+			case 2 :
+				return(20, oak_shortbow_843, "Oak shortbow", "You can now fletch <col=000080>oak shortbows</col>.");
+			case 3 :
+				return(25, oak_longbow_845, "Oak longbow", "You can now fletch <col=000080>oak longbows</col>.");
+			case 4 :
+				return(30, zogre_bow_4827, "Ogre composite bow<br> (after starting Zogre Flesh Eaters)", "You now have the Fletching level required to fletch <col=000080>ogre composite bows</col> (after starting Zogre Flesh Eaters).");
+			case 5 :
+				return(35, willow_shortbow_849, "Willow shortbow", "You can now fletch <col=000080>willow shortbows</col>.");
+			case 6 :
+				return(40, willow_longbow_847, "Willow longbow", "You can now fletch <col=000080>willow longbows</col>.");
+			case 7 :
+				return(50, maple_shortbow_853, "Maple shortbow", "You can now fletch <col=000080>maple shortbows</col>.");
+			case 8 :
+				return(55, maple_longbow_851, "Maple longbow", "You can now fletch <col=000080>maple longbows</col>.");
+			case 9 :
+				return(65, yew_shortbow_857, "Yew shortbow", "You can now fletch <col=000080>yew shortbows</col>.");
+			case 10 :
+				return(70, yew_longbow_855, "Yew longbow", "You can now fletch <col=000080>yew longbows</col>.");
+			case 11 :
+				return(80, magic_shortbow_861, "Magic shortbow", "You can now fletch <col=000080>magic shortbows</col>.");
+			case 12 :
+				return(85, magic_longbow_859, "Magic longbow", "You can now fletch <col=000080>magic longbows</col>.");
+		}
+	case 2 :
+		switch_int ($int1) {
+			case 0 :
+				return(9, bolt_877, "Bronze bolt", "You can now fletch <col=000080>bronze bolts</col>.");
+			case 1 :
+				return(11, opal_bolt_879, "Opal-tipped bronze bolt", "You can now fletch <col=000080>opal-tipped bronze bolts</col>.");
+			case 2 :
+				return(24, xbows_crossbow_bolts_blurite_9139, "Blurite bolt<br> (after The Knight's Sword)", "You now have the Fletching level required to fletch <col=000080>blurite bolts</col> (after The Knight's Sword).");
+			case 3 :
+				return(26, xbows_crossbow_bolts_blurite_tipped_jade_9335, "Jade-tipped blurite bolt<br> (after The Knight's Sword)", "You now have the Fletching level required to fletch <col=000080>jade-tipped blurite bolts</col> (after The Knight's Sword).");
+			case 4 :
+				return(32, huntingbow_bolts_10158, "Kebbit-tipped hunting bolt", "You can now fletch <col=000080>kebbit-tipped hunting bolts</col>.");
+			case 5 :
+				return(39, xbows_crossbow_bolts_iron_9140, "Iron bolt", "You can now fletch <col=000080>iron bolts</col>.");
+			case 6 :
+				return(41, pearl_bolt_880, "Pearl-tipped iron bolt", "You can now fletch <col=000080>pearl-tipped iron bolts</col>.");
+			case 7 :
+				return(42, huntingbow_bigbolts_10159, "Long kebbit-tipped hunting bolt", "You can now fletch <col=000080>long kebbit-tipped hunting bolts</col>.");
+			case 8 :
+				return(43, xbows_crossbow_bolts_silver_9145, "Silver bolt", "You can now fletch <col=000080>silver bolts</col>.");
+			case 9 :
+				return(46, xbows_crossbow_bolts_steel_9141, "Steel bolt", "You can now fletch <col=000080>steel bolts</col>.");
+			case 10 :
+				return(48, xbows_crossbow_bolts_steel_tipped_redtopaz_9336, "Red topaz-tipped steel bolt", "You can now fletch <col=000080>red topaz-tipped steel bolts</col>.");
+			case 11 :
+				return(51, barbed_bolt_881, "Barbed bolts", "You can now fletch <col=000080>barbed bolts</col>.");
+			case 12 :
+				return(54, xbows_crossbow_bolts_mithril_9142, "Mithril bolt", "You can now fletch <col=000080>mithril bolts</col>.");
+			case 13 :
+				return(55, xbows_slayer_bolts_unfinished_13279, "Broad leaf bolts<br> (after Smoking Kills)", "You can now fletch <col=000080>broad leaf bolts</col> (after Smoking Kills).");
+			case 14 :
+				return(56, xbows_crossbow_bolts_mithril_tipped_sapphire_9337, "Sapphire-tipped mithril bolt", "You can now fletch <col=000080>sapphire-tipped mithril bolts</col>.");
+			case 15 :
+				return(58, xbows_crossbow_bolts_mithril_tipped_emerald_9338, "Emerald-tipped mithril bolt", "You can now fletch <col=000080>emerald-tipped mithril bolts</col>.");
+			case 16 :
+				return(59, xbows_grapple_tip_bolt_mithril_9418, "Mithril grapple-tipped bolt", "You can now fletch <col=000080>mithril grapple-tipped bolts</col>.");
+			case 17 :
+				return(61, xbows_crossbow_bolts_adamantite_9143, "Adamantite bolt", "You can now fletch <col=000080>adamantite bolts</col>.");
+			case 18 :
+				return(63, xbows_crossbow_bolts_adamantite_tipped_ruby_9339, "Ruby-tipped adamantite bolt", "You can now fletch <col=000080>ruby-tipped adamantite bolts</col>.");
+			case 19 :
+				return(65, xbows_crossbow_bolts_adamantite_tipped_diamond_9340, "Diamond-tipped adamantite bolt", "You can now fletch <col=000080>diamond-tipped adamantite bolts</col>.");
+			case 20 :
+				return(69, xbows_crossbow_bolts_runite_9144, "Runite bolt", "You can now fletch <col=000080>runite bolts</col>.");
+			case 21 :
+				return(71, xbows_crossbow_bolts_runite_tipped_dragonstone_9341, "Dragonstone-tipped runite bolt", "You can now fletch <col=000080>dragonstone-tipped runite bolts</col>.");
+			case 22 :
+				return(73, xbows_crossbow_bolts_runite_tipped_onyx_9342, "Onyx-tipped runite bolt", "You can now fletch <col=000080>onyx-tipped runite bolts</col>.");
+		}
+	case 3 :
+		switch_int ($int1) {
+			case 0 :
+				return(1, bronze_dart_806, "Bronze dart", "You can now fletch <col=000080>bronze darts</col>.");
+			case 1 :
+				return(22, iron_dart_807, "Iron dart", "You can now fletch <col=000080>iron darts</col>.");
+			case 2 :
+				return(37, steel_dart_808, "Steel dart", "You can now fletch <col=000080>steel darts</col>.");
+			case 3 :
+				return(52, mithril_dart_809, "Mithril dart", "You can now fletch <col=000080>mithril darts</col>.");
+			case 4 :
+				return(67, adamant_dart_810, "Adamant dart", "You can now fletch <col=000080>adamant darts</col>.");
+			case 5 :
+				return(81, rune_dart_811, "Rune dart", "You can now fletch <col=000080>rune darts</col>.");
+			case 6 :
+				return(95, dragon_dart_11230, "Dragon dart", "You can now fletch <col=000080>dragon darts</col>.");
+		}
+	case 4 :
+		switch_int ($int1) {
+			case 0 :
+				return(9, xbows_crossbow_stock_wood_9440, "Bronze/wooden crossbow", "You can now fletch <col=000080>bronze and wooden crossbows</col>.");
+			case 1 :
+				return(24, xbows_crossbow_stock_oak_9442, "Blurite/oak crossbow<br> (after The Knight's Sword)", "You now have the Fletching level required to fletch <col=000080>blurite and oak crossbows</col> (after The Knight's Sword).");
+			case 2 :
+				return(39, xbows_crossbow_stock_willow_9444, "Iron/willow crossbow", "You can now fletch <col=000080>iron and willow crossbows</col>.");
+			case 3 :
+				return(46, xbows_crossbow_stock_teak_9446, "Steel/teak crossbow", "You can now fletch <col=000080>steel and teak crossbows</col>.");
+			case 4 :
+				return(54, xbows_crossbow_stock_maple_9448, "Mithril/maple crossbow", "You can now fletch <col=000080>mithril and maple crossbows</col>.");
+			case 5 :
+				return(61, xbows_crossbow_stock_mahogany_9450, "Adamantite/mahogany crossbow", "You can now fletch <col=000080>adamantite and mahogany crossbows</col>.");
+			case 6 :
+				return(69, xbows_crossbow_stock_yew_9452, "Runite/yew crossbow", "You can now fletch <col=000080>runite and yew crossbows</col>.");
+		}
+	case 5 :
+		if ($int1 = 0) {
+			return(99, skillcape_fletching_9783, "Skill mastery", "<col=000080>Congratulations! You are now a master of <col=800000>Fletching<col=000080>. Why not visit <col=800000>Hickton<col=000080> who runs the <col=800000>bow and arrow shop<col=000080> in <col=800000>Catherby<col=000080>? He has something special that is only available to true masters of the <col=800000>Fletching<col=000080> skill!");
+		}
+}
+return(0, null, "", "");

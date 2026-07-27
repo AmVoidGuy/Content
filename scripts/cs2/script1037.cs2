@@ -1,0 +1,33 @@
+// 1037
+[proc,script1037](int $int0, boolean $boolean1)
+%varcint161 = $boolean1;
+%varcint128 = -1;
+%varcint129 = 0;
+%varcstring30 = "";
+def_string $text0 = qc_get_phrase_text($int0);
+if (%varcint126 = 1) {
+	$text0 = "To <%varcstring27>: <col=800000><$text0>";
+} else if (%varcint126 = 2) {
+	$text0 = "[<col=0000ff><clan_getchatdisplayname><col=000000>]: <col=800000><$text0>";
+} else {
+	$text0 = "<col=0000ff><$text0>";
+}
+if_sethide(true, chatdefault:chat);
+if_setonkey(null, chatdefault:input);
+if_sethide(false, chatdefault:quickchat);
+if_sethide(true, chatdefault:quickchat_countdialog);
+if_sethide(true, chatdefault:quickchat_listdialog);
+if_sethide(false, chatdefault:quickchat_objdialog);
+if_sethide(true, chatdefault:quickchat_menu);
+if_sethide(true, chatdefault:quickchat_path);
+if_sethide(false, chatdefault:quickchat_title);
+if_setcolour(^black, chatdefault:quickchat_title);
+if_settextfont(p12_full, chatdefault:quickchat_title);
+if_settextalign(^settextalign_left, ^settextalign_centre, 0, chatdefault:quickchat_title);
+if_settext($text0, chatdefault:quickchat_title);
+if_settextshadow(false, chatdefault:quickchat_title);
+cc_deleteall(chatdefault:quickchat_objdialog_search);
+if_settext("Search for: *", chatdefault:quickchat_objdialog_input);
+if_setonkey("script1038(event_key, event_keychar, chatdefault:quickchat_path, chatdefault:quickchat_objdialog_input, chatdefault:quickchat_objdialog_search, chatdefault:quickchat_objdialog_scroll, $int0, 0)", chatdefault:quickchat_objdialog);
+if_setscrollsize(0, 0, chatdefault:quickchat_objdialog_search);
+~script72(chatdefault:quickchat_objdialog_scroll, chatdefault:quickchat_objdialog_search, 0);

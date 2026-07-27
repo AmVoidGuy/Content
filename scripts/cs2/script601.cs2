@@ -1,0 +1,7 @@
+// 601
+[clientscript,script601]
+if (%varbit_4466 = 1) {
+	if_setgraphic("radio_buttons_1", clansetup:opt_coinshare);
+} else if (%varbit_4466 = 0) {
+	if_setgraphic("radio_buttons_0", clansetup:opt_coinshare);
+}

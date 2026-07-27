@@ -1,0 +1,5 @@
+// 955
+[clientscript,script955]
+if (%varbit_4540 = 3 & inv_total(worn, hvh_stone_5_6_12845) = 0 & inv_total(inv, hvh_stone_5_6_12845) = 0 & inv_total(worn, hvh_stone_4_12846) = 0 & inv_total(inv, hvh_stone_4_12846) = 0 & inv_total(worn, hvh_stone_3_12847) = 0 & inv_total(inv, hvh_stone_3_12847) = 0 & inv_total(worn, hvh_stone_2_12848) = 0 & inv_total(inv, hvh_stone_2_12848) = 0 & inv_total(worn, hvh_stone_1_12849) = 0 & inv_total(inv, hvh_stone_1_12849) = 0) {
+	if_sethide(false, hvh_game:layer_pickup);
+}

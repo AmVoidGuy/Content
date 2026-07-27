@@ -1,0 +1,4 @@
+// 441
+[clientscript,script441]
+~script503;
+if_setgraphic("miscgraphics_11", interface_591:clothes_checkbutton_6);

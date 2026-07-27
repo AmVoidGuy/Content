@@ -1,0 +1,16 @@
+// 1051
+[proc,script1051](int $int0, string $string0)
+%varcint126 = $int0;
+%varcstring27 = $string0;
+%varcint127 = 1;
+if_sethide(true, chatdefault:chat);
+if_setonkey(null, chatdefault:input);
+if_sethide(false, chatdefault:quickchat);
+if_sethide(true, chatdefault:quickchat_countdialog);
+if_sethide(true, chatdefault:quickchat_listdialog);
+if_sethide(true, chatdefault:quickchat_objdialog);
+if_sethide(false, chatdefault:quickchat_menu);
+if_sethide(false, chatdefault:quickchat_path);
+if_sethide(true, chatdefault:quickchat_title);
+if_setscrollpos(0, 0, chatdefault:quickchat_menu);
+~script1062(chatdefault:quickchat_path, 0, ~script1036, -1);

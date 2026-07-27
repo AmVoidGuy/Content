@@ -1,0 +1,21 @@
+// 56
+[proc,script56](int $int0)(int)
+if ($int0 = 0) {
+	if (calc(%varbit_3578 + %varbit_3599 + %varbit_3611) = 6) {
+		return(2);
+	}
+	if (%varbit_3576 = 0) {
+		return(0);
+	}
+	return(1);
+}
+if ($int0 = 1) {
+	if (calc(%varbit_3982 + %varbit_3983 + %varbit_3984) = 3) {
+		return(2);
+	}
+	if (%varbit_3981 = 0) {
+		return(0);
+	}
+	return(1);
+}
+return(-1);

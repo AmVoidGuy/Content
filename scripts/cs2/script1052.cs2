@@ -1,0 +1,19 @@
+// 1052
+[proc,script1052](int $int0, int $int1, string $username0)
+if ($int1 = -1 | qc_get_phrase_autoresponsecount($int1) = 0) {
+	return;
+}
+%varcint126 = $int0;
+%varcstring27 = $username0;
+%varcint127 = 1;
+if_sethide(true, chatdefault:chat);
+if_setonkey(null, chatdefault:input);
+if_sethide(false, chatdefault:quickchat);
+if_sethide(true, chatdefault:quickchat_countdialog);
+if_sethide(true, chatdefault:quickchat_listdialog);
+if_sethide(true, chatdefault:quickchat_objdialog);
+if_sethide(false, chatdefault:quickchat_menu);
+if_sethide(false, chatdefault:quickchat_path);
+if_sethide(true, chatdefault:quickchat_title);
+if_setscrollpos(0, 0, chatdefault:quickchat_menu);
+~script1063(chatdefault:quickchat_path, $int1);

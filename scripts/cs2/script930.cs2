@@ -1,0 +1,36 @@
+// 930
+[clientscript,script930]
+if (%varbit_4538 >= 60) {
+	mes("The game has ended.");
+	if_close;
+	return;
+}
+~script931(%varbit_4538, 0);
+def_int $int0 = 224;
+def_int $int1 = 0;
+def_int $int2 = 0;
+if (%varbit_4538 = calc(60 - 1)) {
+	while ($int0 <= 287) {
+		if (cc_find(interface_724:board, $int0) = ^true) {
+			if (cc_getinvobject = deathrune_560) {
+				$int1 = calc($int1 + 1);
+			} else if (cc_getinvobject = bloodrune_565) {
+				$int2 = calc($int2 + 1);
+			}
+		}
+		$int0 = calc($int0 + 1);
+	}
+	if ($int1 > $int2) {
+		sound_jingle(110, 6656);
+		if_settext("Sliceoflemon wins!", interface_724:text_1);
+	} else if ($int2 > $int1) {
+		sound_jingle(110, 6656);
+		if_settext("Milknosugar wins!", interface_724:text_1);
+	} else {
+		sound_jingle(108, 6449);
+		if_settext("It's a draw.", interface_724:text_1);
+	}
+	if_settext("The board is full.", interface_724:text_2);
+	return;
+}
+~script928(%varbit_4538, interface_724:text_1, "Sliceoflemon", "Milknosugar");

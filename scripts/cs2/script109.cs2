@@ -1,0 +1,12 @@
+// 109
+[clientscript,script109](string $text0)
+if_sethide(false, toplevel:mes_layer);
+if_sethide(true, toplevel:mes_layer_large);
+if_sethide(true, toplevel:mes_layer_hide);
+if_settext($text0, toplevel:mes_text);
+if_settext("*", toplevel:mes_text2);
+%varcint5 = 8;
+%varcstring22 = "";
+if_setonclick(null, toplevel:mes_layer);
+if_setonkey("script112(event_key, event_keychar)", toplevel:mes_text2);
+if_setondialogabort("script138", toplevel:mes_text2);

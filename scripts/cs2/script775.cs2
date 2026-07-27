@@ -1,0 +1,21 @@
+// 775
+[proc,script775](namedobj $namedobj0)(int, string, namedobj)
+if (%var448 = lore_minotaur_12073) {
+	return(36, "Bronze Bull Rush", lore_bull_rush_12461);
+}
+if (%var448 = lore_minotaur_2_12075) {
+	return(46, "Iron Bull Rush", lore_bull_rush_2_12462);
+}
+if (%var448 = lore_minotaur_3_12077) {
+	return(56, "Steel Bull Rush", lore_bull_rush_3_12463);
+}
+if (%var448 = lore_minotaur_4_12079) {
+	return(66, "Mithril Bull Rush", lore_bull_rush_4_12464);
+}
+if (%var448 = lore_minotaur_5_12081) {
+	return(76, "Adamant Bull Rush", lore_bull_rush_5_12465);
+}
+if (%var448 = lore_minotaur_6_12083) {
+	return(86, "Rune Bull Rush", lore_bull_rush_6_12466);
+}
+return(0, "", null);

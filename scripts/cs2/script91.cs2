@@ -1,0 +1,22 @@
+// 91
+[proc,script91](int $int0)(int)
+def_int $chattype1 = chat_gethistory_byuid($int0);
+if ($chattype1 = ^chattype_modprivatechat) {
+	return(1);
+}
+if ($chattype1 = ^chattype_privatechat | $chattype1 = 18) {
+	if (chat_getfilter_private = ^chatfilter_on) {
+		return(1);
+	}
+	if (chat_getfilter_private = ^chatfilter_friends & friend_test(chat_gethistory_username($int0)) = true) {
+		return(1);
+	}
+	return(0);
+}
+if ($chattype1 = ^chattype_loginlogoutnotification | $chattype1 = ^chattype_privatechatout | $chattype1 = 19) {
+	if (chat_getfilter_private < ^chatfilter_off) {
+		return(1);
+	}
+	return(0);
+}
+return(0);

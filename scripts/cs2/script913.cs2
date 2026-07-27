@@ -1,0 +1,20 @@
+// 913
+[clientscript,script913](component $component0)
+if_sethide(true, interface_728:first);
+if_sethide(true, interface_728:back);
+if_sethide(true, interface_728:forward);
+if_sethide(true, interface_728:last);
+if_sethide(true, interface_728:17);
+if_sethide(true, interface_728:text_1);
+if_sethide(true, interface_728:text_2);
+if_sethide(true, interface_728:text_3);
+if_sethide(true, interface_728:text_4);
+if_sethide(true, interface_728:text_5);
+if_sethide(true, interface_728:text_6);
+if_sethide(true, interface_728:text_7);
+if_sethide(true, interface_728:text_8);
+if_sethide(true, interface_728:text_9);
+if_sethide(true, interface_728:text_10);
+if_sethide(true, interface_728:14);
+~deltooltip_action(interface_728:tooltip);
+if_sethide(true, $component0);

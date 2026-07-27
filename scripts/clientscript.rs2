@@ -1,0 +1,3275 @@
+// 0
+[clientscript,quicksort](componentarray $componentarray0, int $int1, int $int2)
+
+// 1
+[clientscript,inv_total_available](inv $inv0, obj $obj1)// (int)
+
+// 2
+[clientscript,script2](int $int0)// (string, int)
+
+// 3
+[clientscript,script3](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 4
+[clientscript,script4](int $int0)// (int)
+
+// 5
+[clientscript,script5](int $int0)// (int)
+
+// 6
+[clientscript,script6](component $component0, component $component1, graphic $graphic2, graphic $graphic3, int $int4, obj $obj5, int $int6, obj $obj7, int $int8, obj $obj9, int $int10, obj $obj11, int $int12, string $string0, string $string1)
+
+// 7
+[clientscript,script7]
+
+// 8
+[clientscript,script8](int $int0)
+
+// 9
+[clientscript,script9](int $int0)
+
+// 10
+[clientscript,script10](component $component0, component $component1, int $int2, string $string0, string $string1, obj $obj3, int $int4, obj $obj5, int $int6, obj $obj7, int $int8, obj $obj9, int $int10)
+
+// 11
+[clientscript,magic_deltooltip](component $component0)
+
+// 12
+[clientscript,script12](int $int0)// (string, int)
+
+// 13
+[clientscript,script13](int $int0, int $int1)// (string, int)
+
+// 14
+[clientscript,script14](int $int0, int $int1, int $int2)// (int, namedobj, string, string)
+
+// 15
+[clientscript,quickchat_tutorial_init]
+
+// 16
+[clientscript,magic_updateicon](component $component0, graphic $graphic1, graphic $graphic2, int $int3, obj $obj4, int $int5, obj $obj6, int $int7, obj $obj8, int $int9, obj $obj10, int $int11)
+
+// 17
+[clientscript,script17](component $component0)
+
+// 18
+[clientscript,magic_leavetargetmode](component $component0)
+
+// 19
+[clientscript,script19](obj $obj0)// (int)
+
+// 20
+[clientscript,magic_tostring](int $int0)// (string)
+
+// 21
+[clientscript,script21](component $component0, graphic $graphic1, graphic $graphic2, int $int3, obj $obj4, int $int5, obj $obj6, int $int7, obj $obj8, int $int9, obj $obj10, int $int11)
+
+// 22
+[clientscript,script22]
+
+// 23
+[clientscript,script23]
+
+// 24
+[clientscript,script24](int $int0, namedobj $namedobj1, int $int2, int $y3, string $string0)// (int)
+
+// 25
+[clientscript,script25](int $int0, enum $enum1)
+
+// 26
+[clientscript,script26]
+
+// 27
+[clientscript,magictraining_shop_points]
+
+// 28
+[clientscript,script28]
+
+// 29
+[clientscript,if_close]
+
+// 30
+[clientscript,script30](component $component0, component $component1)
+
+// 31
+[clientscript,script31](component $component0, component $component1, graphic $graphic2, graphic $graphic3, graphic $graphic4, graphic $graphic5, graphic $graphic6, graphic $graphic7)
+
+// 32
+[clientscript,script32](component $component0, component $component1)
+
+// 33
+[clientscript,script33](component $component0, component $component1)
+
+// 34
+[clientscript,script34](component $component0, component $component1, int $mousey2)
+
+// 35
+[clientscript,script35](component $component0, component $component1, int $int2, boolean $boolean3)
+
+// 36
+[clientscript,script36](component $component0, component $component1, int $mousey2)
+
+// 37
+[clientscript,script37](component $component0, component $component1, int $int2, boolean $boolean3)
+
+// 38
+[clientscript,script38](component $component0, component $component1, string $string0, int $int2, int $width3)
+
+// 39
+[clientscript,script39](component $component0, component $component1, int $int2, int $width3, string $string0)
+
+// 40
+[clientscript,deltooltip](component $component0)
+
+// 41
+[clientscript,deltooltip_action](component $component0)
+
+// 42
+[clientscript,script42](component $component0, int $comsubid1, component $component2, int $int3, int $width4, string $string0)
+
+// 43
+[clientscript,script43](component $component0, int $comsubid1, component $component2, int $int3, int $width4, string $string0)
+
+// 44
+[clientscript,graphic_swapper](component $component0, graphic $graphic1)
+
+// 45
+[clientscript,text_colour_swapper](component $component0, int $colour1)
+
+// 46
+[clientscript,tostring_spacer](int $int0, string $string0)// (string)
+
+// 47
+[clientscript,script47](int $int0)// (string)
+
+// 48
+[clientscript,script48]
+
+// 49
+[clientscript,script49](component $component0, component $component1)
+
+// 50
+[clientscript,script50](component $component0, component $component1)
+
+// 51
+[clientscript,script51](component $component0)// (int)
+
+// 52
+[clientscript,script52](int $lvl0, graphic $graphic1, graphic $graphic2, component $component3)
+
+// 53
+[clientscript,prayer_level](component $component0)
+
+// 54
+[clientscript,script54]
+
+// 55
+[clientscript,script55](int $int0)// (component)
+
+// 56
+[clientscript,script56](int $int0)// (int)
+
+// 57
+[clientscript,script57]
+
+// 58
+[clientscript,script58]
+
+// 59
+[clientscript,script59](int $int0)
+
+// 60
+[clientscript,script60]
+
+// 61
+[clientscript,script61]
+
+// 62
+[clientscript,quicksort_enum](componentarray $componentarray0, int $int1, int $int2, enum $enum3)
+
+// 63
+[clientscript,script63](component $component0, component $component1, graphic $graphic2, graphic $graphic3, graphic $graphic4, graphic $graphic5, graphic $graphic6, graphic $graphic7)
+
+// 64
+[clientscript,script64]
+
+// 65
+[clientscript,set_spinner](int $int0, int $int1, int $int2, component $component3)
+
+// 66
+[clientscript,spinner](int $int0, int $int1, int $int2, component $component3)
+
+// 67
+[clientscript,model_swapper](component $component0, model $model1)
+
+// 68
+[clientscript,text_swapper](component $component0, string $text0)
+
+// 69
+[clientscript,comp_sethide](boolean $boolean0, component $component1)
+
+// 70
+[clientscript,tzhaar_fightpit_foesremaining]
+
+// 71
+[clientscript,script71](int $int0)
+
+// 72
+[clientscript,script72](component $component0, component $component1, int $int2)
+
+// 73
+[clientscript,script73](int $key0, char $keychar1)
+
+// 74
+[clientscript,script74](int $int0, int $key1, char $keychar2, string $string0)// (string)
+
+// 75
+[clientscript,chatout_scrollup]
+
+// 76
+[clientscript,chatout_scrolldown]
+
+// 77
+[clientscript,chatout_add](string $string0)
+
+// 78
+[clientscript,chatout_set](int $int0, string $string0)
+
+// 79
+[clientscript,chatout_get](int $int0)// (string)
+
+// 80
+[clientscript,script80]
+
+// 81
+[clientscript,script81]
+
+// 82
+[clientscript,script82]
+
+// 83
+[clientscript,script83]
+
+// 84
+[clientscript,script84]
+
+// 85
+[clientscript,script85](component $component0)
+
+// 86
+[clientscript,script86](int $opindex0, string $opbase0, int $int1)
+
+// 87
+[clientscript,script87](component $component0)
+
+// 88
+[clientscript,script88](int $int0, string $string0)
+
+// 89
+[clientscript,script89]
+
+// 90
+[clientscript,script90](int $int0, int $int1)// (int)
+
+// 91
+[clientscript,script91](int $int0)// (int)
+
+// 92
+[clientscript,v2_stone_button](component $component0)
+
+// 93
+[clientscript,v2_stone_button_filled](component $component0)
+
+// 94
+[clientscript,script94](component $component0)
+
+// 95
+[clientscript,script95](component $component0)
+
+// 96
+[clientscript,script96](component $component0)
+
+// 97
+[clientscript,v2_stone_button_out_filled](component $component0)
+
+// 98
+[clientscript,script98](component $component0, int $comsubid1, graphic $graphic2, int $x3, int $y4, int $width5, int $height6)
+
+// 99
+[clientscript,script99]
+
+// 100
+[clientscript,script100](component $component0)
+
+// 101
+[clientscript,script101]
+
+// 102
+[clientscript,script102](string $text0)
+
+// 103
+[clientscript,script103]
+
+// 104
+[clientscript,script104]
+
+// 105
+[clientscript,script105]
+
+// 106
+[clientscript,script106]
+
+// 107
+[clientscript,script107](string $username0)
+
+// 108
+[clientscript,script108](string $text0)
+
+// 109
+[clientscript,script109](string $text0)
+
+// 110
+[clientscript,script110](string $text0)
+
+// 111
+[clientscript,script111]
+
+// 112
+[clientscript,script112](int $key0, char $keychar1)
+
+// 113
+[clientscript,script113]
+
+// 114
+[clientscript,script114]
+
+// 115
+[clientscript,script115](int $int0)
+
+// 116
+[clientscript,script116](int $key0)
+
+// 117
+[clientscript,script117]
+
+// 118
+[clientscript,script118](int $int0, int $int1, obj $obj2, obj $obj3, obj $obj4, obj $obj5, int $int6, int $int7)
+
+// 119
+[clientscript,component_pulse_start](component $component0)
+
+// 120
+[clientscript,script120]
+
+// 121
+[clientscript,script121](int $int0)// (component)
+
+// 122
+[clientscript,component_pulse_timer](component $component0)
+
+// 123
+[clientscript,script123]
+
+// 124
+[clientscript,script124]
+
+// 125
+[clientscript,script125]
+
+// 126
+[clientscript,script126](int $opindex0, string $opbase0, int $index1)
+
+// 127
+[clientscript,script127]
+
+// 128
+[clientscript,script128]
+
+// 129
+[clientscript,script129]
+
+// 130
+[clientscript,script130](string $opbase0)
+
+// 131
+[clientscript,snapshot_open](string $string0)
+
+// 132
+[clientscript,script132]
+
+// 133
+[clientscript,script133](int $key0, char $keychar1)
+
+// 134
+[clientscript,script134]
+
+// 135
+[clientscript,script135](int $int0)
+
+// 136
+[clientscript,script136](component $component0)
+
+// 137
+[clientscript,script137]
+
+// 138
+[clientscript,script138]
+
+// 139
+[clientscript,script139](component $component0)
+
+// 140
+[clientscript,script140]
+
+// 141
+[clientscript,script141]
+
+// 142
+[clientscript,script142]
+
+// 143
+[clientscript,script143](component $component0, int $int1, int $int2, int $int3)
+
+// 144
+[clientscript,interface_flash_fade](component $component0, int $comsubid1, int $int2, int $clock3)
+
+// 145
+[clientscript,script145](component $component0, int $clock1)
+
+// 146
+[clientscript,script146](int $int0)
+
+// 147
+[clientscript,script147](int $int0, int $clock1)
+
+// 148
+[clientscript,script148](int $int0)// (int)
+
+// 149
+[clientscript,script149](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4)
+
+// 150
+[clientscript,script150](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 151
+[clientscript,script151](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 152
+[clientscript,script152](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4)
+
+// 153
+[clientscript,script153](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 154
+[clientscript,script154](inv $inv0, int $slot1, component $component2, int $comsubid3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 155
+[clientscript,interface_inv_dragcomplete_swap_big](inv $inv0, int $comsubid1, int $dropsubid2, component $component3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 156
+[clientscript,interface_inv_dragcomplete_shuffle_big](inv $inv0, int $comsubid1, int $dropsubid2, component $component3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 157
+[clientscript,script157](component $component0, component $component1, int $int2, int $int3)
+
+// 158
+[clientscript,script158](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4)
+
+// 159
+[clientscript,script159](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 160
+[clientscript,script160](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 161
+[clientscript,interface_invother_draw_slot_big](inv $inv0, int $slot1, component $component2, int $comsubid3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 162
+[clientscript,script162](int $comsubid0, component $component1, component $component2, int $int3)
+
+// 163
+[clientscript,cws_toggle](component $component0)
+
+// 164
+[clientscript,cws_graphic_swap](component $component0, int $int1)
+
+// 165
+[clientscript,cws_graphic_swap_2](component $component0, int $int1)
+
+// 166
+[clientscript,script166](int $int0)// (int)
+
+// 167
+[clientscript,cws_mouseover](component $component0, int $colour1)
+
+// 168
+[clientscript,script168](int $int0)
+
+// 169
+[clientscript,kr_mouseleave_colour](int $int0, component $component1)
+
+// 170
+[clientscript,kr_tumbler_height]
+
+// 171
+[clientscript,script171]
+
+// 172
+[clientscript,script172]
+
+// 173
+[clientscript,chat_button_select](int $int0)
+
+// 174
+[clientscript,chat_button_deselect](int $int0)
+
+// 175
+[clientscript,script175](int $int0, int $int1)
+
+// 176
+[clientscript,script176]
+
+// 177
+[clientscript,redraw_chat_buttons]
+
+// 178
+[clientscript,script178]
+
+// 179
+[clientscript,script179](int $int0)// (int)
+
+// 180
+[clientscript,script180](int $int0)
+
+// 181
+[clientscript,chat_alert_reset](int $int0)
+
+// 182
+[clientscript,chat_alert_flash](int $int0)
+
+// 183
+[clientscript,script183](int $int0, int $int1)
+
+// 184
+[clientscript,script184](int $int0, int $chatfilter1)
+
+// 185
+[clientscript,script185](int $int0)// (int)
+
+// 186
+[clientscript,small_button_pressed](component $component0)
+
+// 187
+[clientscript,small_button_blue](component $component0)
+
+// 188
+[clientscript,clientscript_large_button_highlight](component $component0)
+
+// 189
+[clientscript,proc_large_button_highlight](component $component0)
+
+// 190
+[clientscript,clientscript_large_button](component $component0)
+
+// 191
+[clientscript,proc_large_button](component $component0)
+
+// 192
+[clientscript,script192]
+
+// 193
+[clientscript,script193](int $int0)// (int)
+
+// 194
+[clientscript,joinchat_onop](int $int0)
+
+// 195
+[clientscript,script195](int $int0)
+
+// 196
+[clientscript,script196](component $component0)
+
+// 197
+[clientscript,script197](component $component0)
+
+// 198
+[clientscript,getclanicon](int $rank0)// (graphic)
+
+// 199
+[clientscript,script199](string $username0, int $opindex0)
+
+// 200
+[clientscript,script200](component $component0, component $component1)
+
+// 201
+[clientscript,script201](component $component0, component $component1)
+
+// 202
+[clientscript,script202](component $component0, component $component1)
+
+// 203
+[clientscript,script203](int $rank0)// (string)
+
+// 204
+[clientscript,script204](int $count0, int $opindex1)
+
+// 205
+[clientscript,script205]
+
+// 206
+[clientscript,duel_confirm_text]
+
+// 207
+[clientscript,duel_addtostring](int $int0, int $int1, obj $obj2)// (string)
+
+// 208
+[clientscript,script208]
+
+// 209
+[clientscript,script209]
+
+// 210
+[clientscript,script210]
+
+// 211
+[clientscript,script211]
+
+// 212
+[clientscript,script212]
+
+// 213
+[clientscript,script213]
+
+// 214
+[clientscript,script214]
+
+// 215
+[clientscript,script215]
+
+// 216
+[clientscript,script216]
+
+// 217
+[clientscript,script217]
+
+// 218
+[clientscript,script218]
+
+// 219
+[clientscript,script219]
+
+// 220
+[clientscript,script220]
+
+// 221
+[clientscript,script221]
+
+// 222
+[clientscript,script222]
+
+// 223
+[clientscript,script223]
+
+// 224
+[clientscript,script224]
+
+// 225
+[clientscript,script225]
+
+// 226
+[clientscript,script226]
+
+// 227
+[clientscript,script227]
+
+// 228
+[clientscript,script228]
+
+// 229
+[clientscript,script229]
+
+// 230
+[clientscript,script230]
+
+// 231
+[clientscript,script231]
+
+// 232
+[clientscript,script232]
+
+// 233
+[clientscript,script233]
+
+// 234
+[clientscript,script234]
+
+// 235
+[clientscript,script235]
+
+// 236
+[clientscript,script236]
+
+// 237
+[clientscript,script237]
+
+// 238
+[clientscript,script238]
+
+// 239
+[clientscript,script239]
+
+// 240
+[clientscript,script240]
+
+// 241
+[clientscript,script241]
+
+// 242
+[clientscript,script242]
+
+// 243
+[clientscript,script243]
+
+// 244
+[clientscript,script244]
+
+// 245
+[clientscript,script245]
+
+// 246
+[clientscript,script246]
+
+// 247
+[clientscript,script247]
+
+// 248
+[clientscript,script248]
+
+// 249
+[clientscript,script249]
+
+// 250
+[clientscript,script250]
+
+// 251
+[clientscript,script251]
+
+// 252
+[clientscript,script252]
+
+// 253
+[clientscript,script253]
+
+// 254
+[clientscript,script254]
+
+// 255
+[clientscript,script255]
+
+// 256
+[clientscript,script256]
+
+// 257
+[clientscript,script257]
+
+// 258
+[clientscript,script258]
+
+// 259
+[clientscript,script259]
+
+// 260
+[clientscript,script260]
+
+// 261
+[clientscript,script261]
+
+// 262
+[clientscript,script262]
+
+// 263
+[clientscript,script263]
+
+// 264
+[clientscript,script264]
+
+// 265
+[clientscript,script265]
+
+// 266
+[clientscript,script266]
+
+// 267
+[clientscript,script267]
+
+// 268
+[clientscript,script268]
+
+// 269
+[clientscript,script269]
+
+// 270
+[clientscript,script270]
+
+// 271
+[clientscript,script271]
+
+// 272
+[clientscript,script272]
+
+// 273
+[clientscript,script273]
+
+// 274
+[clientscript,script274]
+
+// 275
+[clientscript,script275]
+
+// 276
+[clientscript,script276]
+
+// 277
+[clientscript,script277]
+
+// 278
+[clientscript,script278]
+
+// 279
+[clientscript,script279]
+
+// 280
+[clientscript,script280]
+
+// 281
+[clientscript,script281]
+
+// 282
+[clientscript,script282]
+
+// 283
+[clientscript,script283]
+
+// 284
+[clientscript,script284]
+
+// 285
+[clientscript,script285]
+
+// 286
+[clientscript,script286]
+
+// 287
+[clientscript,script287]
+
+// 288
+[clientscript,script288]
+
+// 289
+[clientscript,script289]
+
+// 290
+[clientscript,script290]
+
+// 291
+[clientscript,script291]
+
+// 292
+[clientscript,script292]
+
+// 293
+[clientscript,script293]
+
+// 294
+[clientscript,script294]
+
+// 295
+[clientscript,script295]
+
+// 296
+[clientscript,script296]
+
+// 297
+[clientscript,script297]
+
+// 298
+[clientscript,script298]
+
+// 299
+[clientscript,deltooltip_graphic_swapper](component $component0, component $component1, graphic $graphic2)
+
+// 300
+[clientscript,script300]
+
+// 301
+[clientscript,script301]
+
+// 302
+[clientscript,script302]
+
+// 303
+[clientscript,script303]
+
+// 304
+[clientscript,script304]
+
+// 305
+[clientscript,script305]
+
+// 306
+[clientscript,script306]
+
+// 307
+[clientscript,script307]
+
+// 308
+[clientscript,script308]
+
+// 309
+[clientscript,script309]
+
+// 310
+[clientscript,script310]
+
+// 311
+[clientscript,script311]
+
+// 312
+[clientscript,script312]
+
+// 313
+[clientscript,script313]
+
+// 314
+[clientscript,script314]
+
+// 315
+[clientscript,script315]
+
+// 316
+[clientscript,script316]
+
+// 317
+[clientscript,script317]
+
+// 318
+[clientscript,script318]
+
+// 319
+[clientscript,script319]
+
+// 320
+[clientscript,script320]
+
+// 321
+[clientscript,script321]
+
+// 322
+[clientscript,script322]
+
+// 323
+[clientscript,script323]
+
+// 324
+[clientscript,script324]
+
+// 325
+[clientscript,script325]
+
+// 326
+[clientscript,script326]
+
+// 327
+[clientscript,script327]
+
+// 328
+[clientscript,script328]
+
+// 329
+[clientscript,script329]
+
+// 330
+[clientscript,script330]
+
+// 331
+[clientscript,script331]
+
+// 332
+[clientscript,script332]
+
+// 333
+[clientscript,script333]
+
+// 334
+[clientscript,script334]
+
+// 335
+[clientscript,script335]
+
+// 336
+[clientscript,script336]
+
+// 337
+[clientscript,script337]
+
+// 338
+[clientscript,script338]
+
+// 339
+[clientscript,script339]
+
+// 340
+[clientscript,script340]
+
+// 341
+[clientscript,script341]
+
+// 342
+[clientscript,script342]
+
+// 343
+[clientscript,script343]
+
+// 344
+[clientscript,script344]
+
+// 345
+[clientscript,script345]
+
+// 346
+[clientscript,script346]
+
+// 347
+[clientscript,script347]
+
+// 348
+[clientscript,script348]
+
+// 349
+[clientscript,script349]
+
+// 350
+[clientscript,script350]
+
+// 351
+[clientscript,script351]
+
+// 352
+[clientscript,script352]
+
+// 353
+[clientscript,script353]
+
+// 354
+[clientscript,script354]
+
+// 355
+[clientscript,script355]
+
+// 356
+[clientscript,script356]
+
+// 357
+[clientscript,script357]
+
+// 358
+[clientscript,script358]
+
+// 359
+[clientscript,script359]
+
+// 360
+[clientscript,script360]
+
+// 361
+[clientscript,script361]
+
+// 362
+[clientscript,script362]
+
+// 363
+[clientscript,script363]
+
+// 364
+[clientscript,script364]
+
+// 365
+[clientscript,script365]
+
+// 366
+[clientscript,script366]
+
+// 367
+[clientscript,script367]
+
+// 368
+[clientscript,script368]
+
+// 369
+[clientscript,script369]
+
+// 370
+[clientscript,script370]
+
+// 371
+[clientscript,script371]
+
+// 372
+[clientscript,script372]
+
+// 373
+[clientscript,script373]
+
+// 374
+[clientscript,script374]
+
+// 375
+[clientscript,script375]
+
+// 376
+[clientscript,script376]
+
+// 377
+[clientscript,script377]
+
+// 378
+[clientscript,script378]
+
+// 379
+[clientscript,script379]
+
+// 380
+[clientscript,script380]
+
+// 381
+[clientscript,script381]
+
+// 382
+[clientscript,script382]
+
+// 383
+[clientscript,script383]
+
+// 384
+[clientscript,script384]
+
+// 385
+[clientscript,script385]
+
+// 386
+[clientscript,script386]
+
+// 387
+[clientscript,script387]
+
+// 388
+[clientscript,script388]
+
+// 389
+[clientscript,script389]
+
+// 390
+[clientscript,script390]
+
+// 391
+[clientscript,script391]
+
+// 392
+[clientscript,script392]
+
+// 393
+[clientscript,script393]
+
+// 394
+[clientscript,script394]
+
+// 395
+[clientscript,script395]
+
+// 396
+[clientscript,script396]
+
+// 397
+[clientscript,script397]
+
+// 398
+[clientscript,script398]
+
+// 399
+[clientscript,script399]
+
+// 400
+[clientscript,script400]
+
+// 401
+[clientscript,script401]
+
+// 402
+[clientscript,script402]
+
+// 403
+[clientscript,script403]
+
+// 404
+[clientscript,script404]
+
+// 405
+[clientscript,script405]
+
+// 406
+[clientscript,script406]
+
+// 407
+[clientscript,script407]
+
+// 408
+[clientscript,script408]
+
+// 409
+[clientscript,script409]
+
+// 410
+[clientscript,script410]
+
+// 411
+[clientscript,script411]
+
+// 412
+[clientscript,script412]
+
+// 413
+[clientscript,script413]
+
+// 414
+[clientscript,script414]
+
+// 415
+[clientscript,script415]
+
+// 416
+[clientscript,script416]
+
+// 417
+[clientscript,script417]
+
+// 418
+[clientscript,script418]
+
+// 419
+[clientscript,script419]
+
+// 420
+[clientscript,script420]
+
+// 421
+[clientscript,script421]
+
+// 422
+[clientscript,script422]
+
+// 423
+[clientscript,script423]
+
+// 424
+[clientscript,script424]
+
+// 425
+[clientscript,script425]
+
+// 426
+[clientscript,script426]
+
+// 427
+[clientscript,script427]
+
+// 428
+[clientscript,script428]
+
+// 429
+[clientscript,script429]
+
+// 430
+[clientscript,script430]
+
+// 431
+[clientscript,script431]
+
+// 432
+[clientscript,script432]
+
+// 433
+[clientscript,script433]
+
+// 434
+[clientscript,script434]
+
+// 435
+[clientscript,script435]
+
+// 436
+[clientscript,script436]
+
+// 437
+[clientscript,script437]
+
+// 438
+[clientscript,script438]
+
+// 439
+[clientscript,script439]
+
+// 440
+[clientscript,script440]
+
+// 441
+[clientscript,script441]
+
+// 442
+[clientscript,script442]
+
+// 443
+[clientscript,script443]
+
+// 444
+[clientscript,script444]
+
+// 445
+[clientscript,script445]
+
+// 446
+[clientscript,script446]
+
+// 447
+[clientscript,script447]
+
+// 448
+[clientscript,script448]
+
+// 449
+[clientscript,script449]
+
+// 450
+[clientscript,script450]
+
+// 451
+[clientscript,script451]
+
+// 452
+[clientscript,script452]
+
+// 453
+[clientscript,script453]
+
+// 454
+[clientscript,script454]
+
+// 455
+[clientscript,script455]
+
+// 456
+[clientscript,script456]
+
+// 457
+[clientscript,script457]
+
+// 458
+[clientscript,script458]
+
+// 459
+[clientscript,script459]
+
+// 460
+[clientscript,script460]
+
+// 461
+[clientscript,script461]
+
+// 462
+[clientscript,script462]
+
+// 463
+[clientscript,script463]
+
+// 464
+[clientscript,script464]
+
+// 465
+[clientscript,script465]
+
+// 466
+[clientscript,script466]
+
+// 467
+[clientscript,script467]
+
+// 468
+[clientscript,script468]
+
+// 469
+[clientscript,script469]
+
+// 470
+[clientscript,script470]
+
+// 471
+[clientscript,script471]
+
+// 472
+[clientscript,script472]
+
+// 473
+[clientscript,script473]
+
+// 474
+[clientscript,script474]
+
+// 475
+[clientscript,script475]
+
+// 476
+[clientscript,script476]
+
+// 477
+[clientscript,script477]
+
+// 478
+[clientscript,script478]
+
+// 479
+[clientscript,script479]
+
+// 480
+[clientscript,script480]
+
+// 481
+[clientscript,script481]
+
+// 482
+[clientscript,script482]
+
+// 483
+[clientscript,script483]
+
+// 484
+[clientscript,script484]
+
+// 485
+[clientscript,script485]
+
+// 486
+[clientscript,script486]
+
+// 487
+[clientscript,script487]
+
+// 488
+[clientscript,script488]
+
+// 489
+[clientscript,script489]
+
+// 490
+[clientscript,script490]
+
+// 491
+[clientscript,script491]
+
+// 492
+[clientscript,script492]
+
+// 493
+[clientscript,script493]
+
+// 494
+[clientscript,script494]
+
+// 495
+[clientscript,script495]
+
+// 496
+[clientscript,script496]
+
+// 497
+[clientscript,script497]
+
+// 498
+[clientscript,script498]
+
+// 499
+[clientscript,script499]
+
+// 500
+[clientscript,script500]
+
+// 501
+[clientscript,script501]
+
+// 502
+[clientscript,script502]
+
+// 503
+[clientscript,script503]
+
+// 504
+[clientscript,script504]
+
+// 505
+[clientscript,script505]
+
+// 506
+[clientscript,script506](int $int0)// (int)
+
+// 507
+[clientscript,script507](string $string0)
+
+// 508
+[clientscript,script508]
+
+// 509
+[clientscript,script509](component $component0)
+
+// 510
+[clientscript,script510]
+
+// 511
+[clientscript,script511]
+
+// 512
+[clientscript,script512]
+
+// 513
+[clientscript,script513]
+
+// 514
+[clientscript,script514]
+
+// 515
+[clientscript,script515]
+
+// 516
+[clientscript,script516]
+
+// 517
+[clientscript,script517]
+
+// 518
+[clientscript,script518]
+
+// 519
+[clientscript,script519]
+
+// 520
+[clientscript,script520](intarray $intarray0, int $int1, int $int2, int $int3)
+
+// 521
+[clientscript,initialise_stat_xp]
+
+// 522
+[clientscript,assist_skill_update](component $component0, stat $stat1)
+
+// 523
+[clientscript,enum_var](stat $stat0)// (int)
+
+// 524
+[clientscript,script524](component $component0, component $component1)
+
+// 525
+[clientscript,stats_stat](component $component0, stat $stat1)
+
+// 526
+[clientscript,script526](boolean $boolean0, component $component1, component $component2)
+
+// 527
+[clientscript,script527]
+
+// 528
+[clientscript,assist_set_icon](int $int0, graphic $graphic1, graphic $graphic2, component $component3, component $component4)
+
+// 529
+[clientscript,script529](component $component0)
+
+// 530
+[clientscript,script530](component $component0)// (int, string)
+
+// 531
+[clientscript,script531](component $component0, graphic $graphic1, graphic $graphic2, component $component3)
+
+// 532
+[clientscript,stats_statbase](component $component0, stat $stat1)
+
+// 533
+[clientscript,assist_flash_button](component $component0)
+
+// 534
+[clientscript,assist_clear_button](component $component0)
+
+// 535
+[clientscript,script535](component $component0)
+
+// 536
+[clientscript,script536]
+
+// 537
+[clientscript,script537](int $clock0, int $clock1)
+
+// 538
+[clientscript,script538](component $component0, obj $obj1, int $int2)
+
+// 539
+[clientscript,xbows_bolts_update](component $component0, obj $obj1)
+
+// 540
+[clientscript,xbows_level](component $component0, int $int1)
+
+// 541
+[clientscript,crafting_level](component $component0, int $int1)
+
+// 542
+[clientscript,crafting_level_hide](component $component0, int $int1)
+
+// 543
+[clientscript,assist_switch_var](int $int0)// (int)
+
+// 544
+[clientscript,script544](component $component0)
+
+// 545
+[clientscript,stats_mouseover](component $component0, stat $stat1, component $component2)
+
+// 546
+[clientscript,stats_mouseoff](component $component0)
+
+// 547
+[clientscript,script547](component $component0, stat $stat1, component $component2)
+
+// 548
+[clientscript,script548](int $comsubid0, int $comsubid1, int $comsubid2, stat $stat3, component $component4, component $component5)
+
+// 549
+[clientscript,script549]
+
+// 550
+[clientscript,script550]
+
+// 551
+[clientscript,script551]
+
+// 552
+[clientscript,script552]
+
+// 553
+[clientscript,script553]
+
+// 554
+[clientscript,script554]
+
+// 555
+[clientscript,script555]
+
+// 556
+[clientscript,script556](int $int0)
+
+// 557
+[clientscript,script557]
+
+// 558
+[clientscript,script558](int $int0)
+
+// 559
+[clientscript,script559](component $component0)
+
+// 560
+[clientscript,script560]
+
+// 561
+[clientscript,duel2_select_type_vartrans]
+
+// 562
+[clientscript,script562]
+
+// 563
+[clientscript,script563]
+
+// 564
+[clientscript,tourn_rank_update](component $component0)
+
+// 565
+[clientscript,script565]
+
+// 566
+[clientscript,script566]
+
+// 567
+[clientscript,script567]
+
+// 568
+[clientscript,script568](component $component0, int $comsubid1, component $component2, string $string0, int $int3, int $width4)
+
+// 569
+[clientscript,script569](component $component0, int $comsubid1, component $component2, int $int3, int $width4, string $string0)
+
+// 570
+[clientscript,script570](string $text0)
+
+// 571
+[clientscript,objdialog_close]
+
+// 572
+[clientscript,objdialog_ondialogabort]
+
+// 573
+[clientscript,script573]
+
+// 574
+[clientscript,objdialog_onkey](int $key0, char $keychar1)
+
+// 575
+[clientscript,objdialog_delay_timer]
+
+// 576
+[clientscript,script576]
+
+// 577
+[clientscript,script577](string $string0)
+
+// 578
+[clientscript,script578]
+
+// 579
+[clientscript,script579](int $int0, obj $obj1)
+
+// 580
+[clientscript,objdialog_select](obj $obj0)
+
+// 581
+[clientscript,stockmarket_chooseoption_corner](component $component0)
+
+// 582
+[clientscript,script582](component $component0)
+
+// 583
+[clientscript,script583](component $component0, string $text0)
+
+// 584
+[clientscript,script584](component $component0, string $text0)
+
+// 585
+[clientscript,stockmarket_onload]
+
+// 586
+[clientscript,stockmarket_onstocktransmit]
+
+// 587
+[clientscript,stockmarket_onvartransmit]
+
+// 588
+[clientscript,script588]
+
+// 589
+[clientscript,stockmarket_oninvtransmit]
+
+// 590
+[clientscript,stockmarket_offerbutton](int $int0, int $int1)
+
+// 591
+[clientscript,stockmarket_choosecancel]
+
+// 592
+[clientscript,stockmarket_choosebuy]
+
+// 593
+[clientscript,script593](int $int0)
+
+// 594
+[clientscript,script594](int $int0, obj $obj1, int $int2, int $int3)
+
+// 595
+[clientscript,stockmarket_choosesell]
+
+// 596
+[clientscript,stock_offercount_minus]
+
+// 597
+[clientscript,stock_offercount_plus]
+
+// 598
+[clientscript,stockmarket_sessions_diary]
+
+// 599
+[clientscript,stock_offercount_10]
+
+// 600
+[clientscript,stock_offercount_100]
+
+// 601
+[clientscript,script601]
+
+// 602
+[clientscript,sm_offercount_settimer]
+
+// 603
+[clientscript,script603]
+
+// 604
+[clientscript,stock_offerprice_minus]
+
+// 605
+[clientscript,stock_offerprice_plus]
+
+// 606
+[clientscript,stock_offerprice_min]
+
+// 607
+[clientscript,stock_offerprice_market]
+
+// 608
+[clientscript,stock_offerprice_max]
+
+// 609
+[clientscript,sm_offerprice_settimer]
+
+// 610
+[clientscript,script610]
+
+// 611
+[clientscript,script611](component $component0)
+
+// 612
+[clientscript,script612](component $component0)
+
+// 613
+[clientscript,script613](component $component0)
+
+// 614
+[clientscript,script614](component $component0)
+
+// 615
+[clientscript,script615](component $component0)
+
+// 616
+[clientscript,script616](component $component0)
+
+// 617
+[clientscript,script617](component $component0)
+
+// 618
+[clientscript,script618](component $component0)
+
+// 619
+[clientscript,script619](component $component0)
+
+// 620
+[clientscript,script620](component $component0)
+
+// 621
+[clientscript,script621]
+
+// 622
+[clientscript,sm_hideall]
+
+// 623
+[clientscript,script623](int $int0)// (component)
+
+// 624
+[clientscript,script624](int $int0)// (component)
+
+// 625
+[clientscript,script625](int $int0)// (component)
+
+// 626
+[clientscript,script626](int $int0)// (component)
+
+// 627
+[clientscript,script627](int $int0)// (component)
+
+// 628
+[clientscript,script628]
+
+// 629
+[clientscript,script629](int $int0)
+
+// 630
+[clientscript,script630](int $int0)
+
+// 631
+[clientscript,script631](int $int0)
+
+// 632
+[clientscript,script632](int $int0)
+
+// 633
+[clientscript,script633](component $component0, int $trans1, int $trans2, int $int3)
+
+// 634
+[clientscript,script634](component $component0, int $trans1, int $trans2, int $int3)
+
+// 635
+[clientscript,script635](component $component0)
+
+// 636
+[clientscript,script636](component $component0)
+
+// 637
+[clientscript,script637](component $component0)
+
+// 638
+[clientscript,script638](component $component0)
+
+// 639
+[clientscript,script639](component $component0)
+
+// 640
+[clientscript,script640](component $component0)
+
+// 641
+[clientscript,script641](component $component0)
+
+// 642
+[clientscript,script642](component $component0)
+
+// 643
+[clientscript,script643](component $component0)
+
+// 644
+[clientscript,script644](component $component0)
+
+// 645
+[clientscript,script645](component $component0)
+
+// 646
+[clientscript,script646](component $component0)
+
+// 647
+[clientscript,script647](component $component0, component $component1, int $int2, int $width3, string $string0)
+
+// 648
+[clientscript,script648](component $component0, int $comsubid1, component $component2, string $string0, int $int3, int $width4)
+
+// 649
+[clientscript,sm_offer_addtooltip](component $component0, component $component1, string $string0, int $int2, int $width3)
+
+// 650
+[clientscript,script650](component $component0, int $comsubid1, component $component2, int $int3, int $width4, string $string0)
+
+// 651
+[clientscript,script651](int $int0)
+
+// 652
+[clientscript,script652](int $int0, int $int1, int $int2, int $int3, int $int4, component $component5, int $int6, component $component7, int $int8)
+
+// 653
+[clientscript,stock_v2_stone_button_filled](component $component0)
+
+// 654
+[clientscript,stockcollect_onload]
+
+// 655
+[clientscript,stockcollect_onstocktransmit]
+
+// 656
+[clientscript,stockcollect_oninvtransmit]
+
+// 657
+[clientscript,script657]
+
+// 658
+[clientscript,script658](int $int0)// (component)
+
+// 659
+[clientscript,script659](int $int0)// (inv)
+
+// 660
+[clientscript,script660](int $int0)// (component)
+
+// 661
+[clientscript,script661](int $int0)// (component)
+
+// 662
+[clientscript,script662](int $int0)
+
+// 663
+[clientscript,script663](component $component0, component $component1)
+
+// 664
+[clientscript,script664](component $component0, int $comsubid1)
+
+// 665
+[clientscript,script665](component $component0, int $comsubid1)
+
+// 666
+[clientscript,script666](int $int0)// (component)
+
+// 667
+[clientscript,script667](int $int0)// (component)
+
+// 668
+[clientscript,script668](int $int0)// (component)
+
+// 669
+[clientscript,stock_tutorial_onload]
+
+// 670
+[clientscript,script670]
+
+// 671
+[clientscript,script671]
+
+// 672
+[clientscript,script672]
+
+// 673
+[clientscript,script673](int $int0, int $int1, int $int2, int $int3, int $int4, namedobj $namedobj5, int $int6, int $int7, int $int8, int $int9)
+
+// 674
+[clientscript,script674](int $int0, int $int1, int $int2, int $int3, int $int4, component $component5, int $int6, int $int7, int $int8, int $int9, int $int10, int $int11)
+
+// 675
+[clientscript,script675]
+
+// 676
+[clientscript,script676]
+
+// 677
+[clientscript,script677]
+
+// 678
+[clientscript,script678]
+
+// 679
+[clientscript,script679](component $component0)
+
+// 680
+[clientscript,script680](component $component0)
+
+// 681
+[clientscript,script681](component $component0, component $component1, component $component2, component $component3, component $component4, component $component5)
+
+// 682
+[clientscript,script682](component $component0, int $int1, int $int2, component $component3, component $component4, component $component5, component $component6)
+
+// 683
+[clientscript,script683](int $int0)
+
+// 684
+[clientscript,script684](int $int0, int $int1)
+
+// 685
+[clientscript,script685](component $component0, int $comsubid1, int $int2, int $int3, int $int4, int $int5)
+
+// 686
+[clientscript,script686](int $int0, int $int1)// (int)
+
+// 687
+[clientscript,script687](int $int0, component $component1, int $comsubid2, component $component3, component $component4, component $component5, component $component6)
+
+// 688
+[clientscript,cc_graphic_swapper](component $component0, int $comsubid1, graphic $graphic2)
+
+// 689
+[clientscript,script689]
+
+// 690
+[clientscript,script690](int $int0)
+
+// 691
+[clientscript,script691](int $int0, int $clock1)
+
+// 692
+[clientscript,script692](component $component0)
+
+// 693
+[clientscript,rgb_to_hex](int $flags0, int $flags1, int $flags2)// (int)
+
+// 694
+[clientscript,script694](string $string0, string $string1, string $string2)
+
+// 695
+[clientscript,script695](component $component0, inv $inv1, int $int2, int $int3, int $int4, component $component5, string $string0, string $string1, string $string2, string $string3, string $string4, string $string5, string $string6, string $string7, string $string8)
+
+// 696
+[clientscript,script696]
+
+// 697
+[clientscript,bankpin_digits](component $component0, int $int1)
+
+// 698
+[clientscript,bankpin_instructions](component $component0)
+
+// 699
+[clientscript,script699](component $component0)
+
+// 700
+[clientscript,bankpin_buttonnumber](component $component0)
+
+// 701
+[clientscript,script701]
+
+// 702
+[clientscript,script702]
+
+// 703
+[clientscript,script703]
+
+// 704
+[clientscript,script704]
+
+// 705
+[clientscript,script705]
+
+// 706
+[clientscript,script706]
+
+// 707
+[clientscript,script707]
+
+// 708
+[clientscript,script708]
+
+// 709
+[clientscript,script709]
+
+// 710
+[clientscript,script710]
+
+// 711
+[clientscript,script711]
+
+// 712
+[clientscript,script712]
+
+// 713
+[clientscript,script713]
+
+// 714
+[clientscript,script714]
+
+// 715
+[clientscript,script715]
+
+// 716
+[clientscript,script716]
+
+// 717
+[clientscript,script717]
+
+// 718
+[clientscript,script718]
+
+// 719
+[clientscript,script719]
+
+// 720
+[clientscript,script720]
+
+// 721
+[clientscript,script721]
+
+// 722
+[clientscript,script722]
+
+// 723
+[clientscript,script723]
+
+// 724
+[clientscript,script724]
+
+// 725
+[clientscript,script725]
+
+// 726
+[clientscript,script726]
+
+// 727
+[clientscript,script727]
+
+// 728
+[clientscript,script728]
+
+// 729
+[clientscript,script729]
+
+// 730
+[clientscript,script730]
+
+// 731
+[clientscript,script731]
+
+// 732
+[clientscript,script732]
+
+// 733
+[clientscript,script733]
+
+// 734
+[clientscript,script734]
+
+// 735
+[clientscript,script735]
+
+// 736
+[clientscript,script736]
+
+// 737
+[clientscript,script737](int $int0)
+
+// 738
+[clientscript,script738]
+
+// 739
+[clientscript,script739](int $int0)// (int)
+
+// 740
+[clientscript,script740]
+
+// 741
+[clientscript,script741]
+
+// 742
+[clientscript,script742]
+
+// 743
+[clientscript,script743]
+
+// 744
+[clientscript,script744]
+
+// 745
+[clientscript,script745]
+
+// 746
+[clientscript,script746]
+
+// 747
+[clientscript,script747]
+
+// 748
+[clientscript,script748](int $int0, int $int1)
+
+// 749
+[clientscript,script749]
+
+// 750
+[clientscript,script750](int $int0)// (int)
+
+// 751
+[clientscript,script751]
+
+// 752
+[clientscript,script752]
+
+// 753
+[clientscript,script753]
+
+// 754
+[clientscript,script754](int $int0, int $int1)
+
+// 755
+[clientscript,script755]
+
+// 756
+[clientscript,script756]
+
+// 757
+[clientscript,script757](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4, string $op5)
+
+// 758
+[clientscript,script758](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4, string $op5)
+
+// 759
+[clientscript,script759](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4, string $op5)
+
+// 760
+[clientscript,lore_interface_inv_draw_slot](obj $obj0, obj $obj1, component $component2, int $comsubid3, string $op0, string $op1, string $op2, string $op3, string $op4, string $op5)
+
+// 761
+[clientscript,script761](int $int0)// (int)
+
+// 762
+[clientscript,script762](int $int0)// (int)
+
+// 763
+[clientscript,script763](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 764
+[clientscript,script764](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 765
+[clientscript,script765](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 766
+[clientscript,script766](obj $obj0)// (int)
+
+// 767
+[clientscript,script767](obj $obj0)// (obj, obj, obj, obj, obj, obj, obj, obj, obj, int, int, int, int, int, int, int, int, int)
+
+// 768
+[clientscript,lore_magic_pouch_checker](obj $obj0, obj $obj1)// (int)
+
+// 769
+[clientscript,script769]
+
+// 770
+[clientscript,script770](int $comsubid0, component $component1, component $component2, int $int3, string $string0, obj $obj4, int $int5, obj $obj6, int $int7, obj $obj8, int $int9, obj $obj10, int $int11, obj $obj12, int $int13, obj $obj14, int $int15, obj $obj16, int $int17, obj $obj18, int $int19, obj $obj20, int $int21, obj $obj22, int $int23)
+
+// 771
+[clientscript,script771](obj $obj0)// (int)
+
+// 772
+[clientscript,script772](component $component0, component $component1, graphic $graphic2, graphic $graphic3, int $int4, obj $obj5, int $int6, obj $obj7, int $int8, obj $obj9, int $int10, obj $obj11, int $int12)
+
+// 773
+[clientscript,script773](component $component0, component $component1, graphic $graphic2, graphic $graphic3, int $int4, obj $obj5, int $int6, obj $obj7, int $int8, obj $obj9, int $int10, obj $obj11, int $int12)
+
+// 774
+[clientscript,script774](component $component0, component $component1, int $int2, graphic $graphic3, graphic $graphic4, int $int5, namedobj $namedobj6, int $int7, obj $obj8, int $int9, obj $obj10, int $int11, obj $obj12, int $int13, string $string0, string $string1)
+
+// 775
+[clientscript,script775](namedobj $namedobj0)// (int, string, namedobj)
+
+// 776
+[clientscript,script776](component $component0)
+
+// 777
+[clientscript,script777](component $component0, component $component1, int $int2, int $int3)
+
+// 778
+[clientscript,lore_deltooltip](component $component0)
+
+// 779
+[clientscript,script779](component $component0, component $component1, int $int2, int $int3, string $string0)
+
+// 780
+[clientscript,lore_tostring](int $int0)// (string)
+
+// 781
+[clientscript,lore_tostring_pouch](int $int0)// (string)
+
+// 782
+[clientscript,script782](int $comsubid0, component $component1, component $component2, int $int3, string $string0)
+
+// 783
+[clientscript,quickchat_tutorial_loadcontent]
+
+// 784
+[clientscript,quickchat_tutorial_showpage](enum $enum0, int $int1, int $int2)
+
+// 785
+[clientscript,script785]
+
+// 786
+[clientscript,script786]
+
+// 787
+[clientscript,script787]
+
+// 788
+[clientscript,script788](component $component0, int $int1, int $int2)// (int, int)
+
+// 789
+[clientscript,script789](component $component0)
+
+// 790
+[clientscript,script790]
+
+// 791
+[clientscript,script791](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 792
+[clientscript,script792](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 793
+[clientscript,script793](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 794
+[clientscript,script794](obj $obj0, obj $obj1, component $component2, int $comsubid3, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 795
+[clientscript,wolf_pouch_checker](obj $obj0)// (int)
+
+// 796
+[clientscript,script796](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 797
+[clientscript,script797](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 798
+[clientscript,script798](component $component0, int $int1, int $int2, string $op0, string $op1, string $op2, string $op3, string $op4)
+
+// 799
+[clientscript,wolf_magic_pouch_checker](obj $obj0)// (int)
+
+// 800
+[clientscript,script800](int $comsubid0, component $component1, component $component2, int $int3, string $text0)
+
+// 801
+[clientscript,script801](component $component0, stat $stat1)
+
+// 802
+[clientscript,script802]
+
+// 803
+[clientscript,script803]
+
+// 804
+[clientscript,script804]
+
+// 805
+[clientscript,script805](stat $stat0)// (int)
+
+// 806
+[clientscript,script806]()// (int)
+
+// 807
+[clientscript,topstat_calculate_percent](stat $stat0)// (int)
+
+// 808
+[clientscript,script808]
+
+// 809
+[clientscript,script809]
+
+// 810
+[clientscript,script810]
+
+// 811
+[clientscript,script811]
+
+// 812
+[clientscript,script812]
+
+// 813
+[clientscript,script813]
+
+// 814
+[clientscript,script814]
+
+// 815
+[clientscript,script815]
+
+// 816
+[clientscript,script816](int $int0, stat $stat1)
+
+// 817
+[clientscript,script817](stat $stat0)
+
+// 818
+[clientscript,script818]
+
+// 819
+[clientscript,script819]
+
+// 820
+[clientscript,script820]
+
+// 821
+[clientscript,script821]()// (string)
+
+// 822
+[clientscript,script822](int $int0, int $int1, string $string0)// (string)
+
+// 823
+[clientscript,script823](int $int0, string $string0)// (string)
+
+// 824
+[clientscript,script824](int $int0, string $string0)// (string)
+
+// 825
+[clientscript,script825](component $component0, component $component1, graphic $graphic2, graphic $graphic3, graphic $graphic4, graphic $graphic5, graphic $graphic6, graphic $graphic7)
+
+// 826
+[clientscript,script826]
+
+// 827
+[clientscript,script827](int $clock0)
+
+// 828
+[clientscript,script828]
+
+// 829
+[clientscript,script829](int $comsubid0, component $component1)
+
+// 830
+[clientscript,script830](int $int0, component $component1)
+
+// 831
+[clientscript,script831](int $int0, component $component1)
+
+// 832
+[clientscript,script832]
+
+// 833
+[clientscript,script833](int $opindex0, int $int1)
+
+// 834
+[clientscript,script834]
+
+// 835
+[clientscript,script835]
+
+// 836
+[clientscript,script836]
+
+// 837
+[clientscript,script837](int $int0)// (int)
+
+// 838
+[clientscript,script838]
+
+// 839
+[clientscript,script839]
+
+// 840
+[clientscript,script840]
+
+// 841
+[clientscript,script841](int $int0)
+
+// 842
+[clientscript,script842]
+
+// 843
+[clientscript,script843]
+
+// 844
+[clientscript,script844]
+
+// 845
+[clientscript,script845]
+
+// 846
+[clientscript,script846](int $int0, int $int1)
+
+// 847
+[clientscript,script847]
+
+// 848
+[clientscript,script848]
+
+// 849
+[clientscript,script849](int $int0, int $int1)
+
+// 850
+[clientscript,script850](int $int0)// (int)
+
+// 851
+[clientscript,script851](int $int0)// (int)
+
+// 852
+[clientscript,script852](int $int0)// (int)
+
+// 853
+[clientscript,script853](int $int0)// (int)
+
+// 854
+[clientscript,script854](int $int0)// (int)
+
+// 855
+[clientscript,script855](int $int0)// (int)
+
+// 856
+[clientscript,script856]
+
+// 857
+[clientscript,script857]
+
+// 858
+[clientscript,script858]
+
+// 859
+[clientscript,script859]
+
+// 860
+[clientscript,script860]
+
+// 861
+[clientscript,script861]
+
+// 862
+[clientscript,script862]
+
+// 863
+[clientscript,script863]
+
+// 864
+[clientscript,script864]
+
+// 865
+[clientscript,stock_offercount_1000]
+
+// 866
+[clientscript,script866](component $component0)
+
+// 867
+[clientscript,script867](component $component0)
+
+// 868
+[clientscript,script868](component $component0)
+
+// 869
+[clientscript,script869](component $component0)
+
+// 870
+[clientscript,script870](component $component0, component $component1, graphic $graphic2, graphic $graphic3, graphic $graphic4, graphic $graphic5, graphic $graphic6, graphic $graphic7)
+
+// 871
+[clientscript,script871]
+
+// 872
+[clientscript,script872](component $component0)
+
+// 873
+[clientscript,script873](component $component0)
+
+// 874
+[clientscript,script874](component $component0)
+
+// 875
+[clientscript,script875](component $component0)
+
+// 876
+[clientscript,script876](component $component0)
+
+// 877
+[clientscript,script877](component $component0)
+
+// 878
+[clientscript,script878](component $component0)
+
+// 879
+[clientscript,script879](component $component0)
+
+// 880
+[clientscript,script880](component $component0)
+
+// 881
+[clientscript,script881](component $component0)
+
+// 882
+[clientscript,script882](component $component0)
+
+// 883
+[clientscript,script883](component $component0)
+
+// 884
+[clientscript,script884](component $component0)
+
+// 885
+[clientscript,script885](component $component0)
+
+// 886
+[clientscript,script886](component $component0)
+
+// 887
+[clientscript,script887](component $component0)
+
+// 888
+[clientscript,script888](component $component0)
+
+// 889
+[clientscript,script889](component $component0)
+
+// 890
+[clientscript,script890](component $component0)
+
+// 891
+[clientscript,script891](component $component0)
+
+// 892
+[clientscript,script892](component $component0)
+
+// 893
+[clientscript,script893]
+
+// 894
+[clientscript,script894]
+
+// 895
+[clientscript,script895]
+
+// 896
+[clientscript,script896]
+
+// 897
+[clientscript,script897]
+
+// 898
+[clientscript,script898]
+
+// 899
+[clientscript,script899]
+
+// 900
+[clientscript,script900]
+
+// 901
+[clientscript,script901]
+
+// 902
+[clientscript,script902]
+
+// 903
+[clientscript,script903]
+
+// 904
+[clientscript,script904]
+
+// 905
+[clientscript,script905]
+
+// 906
+[clientscript,script906]
+
+// 907
+[clientscript,script907]
+
+// 908
+[clientscript,script908]
+
+// 909
+[clientscript,script909]
+
+// 910
+[clientscript,script910]
+
+// 911
+[clientscript,script911]
+
+// 912
+[clientscript,script912](component $component0)
+
+// 913
+[clientscript,script913](component $component0)
+
+// 914
+[clientscript,script914]
+
+// 915
+[clientscript,script915](component $component0)
+
+// 916
+[clientscript,script916](component $component0)
+
+// 917
+[clientscript,script917](component $component0, component $component1)
+
+// 918
+[clientscript,script918](component $component0, component $component1, int $int2, component $component3, component $component4, component $component5, component $component6)
+
+// 919
+[clientscript,script919](component $component0, component $component1, component $component2, component $component3, component $component4, component $component5)
+
+// 920
+[clientscript,script920](string $string0, string $string1)
+
+// 921
+[clientscript,script921](int $int0)
+
+// 922
+[clientscript,script922](component $component0, component $component1, component $component2, component $component3, component $component4)
+
+// 923
+[clientscript,script923](component $component0)
+
+// 924
+[clientscript,script924](component $component0, component $component1)
+
+// 925
+[clientscript,script925]
+
+// 926
+[clientscript,script926]
+
+// 927
+[clientscript,script927](int $int0, int $int1)
+
+// 928
+[clientscript,script928](int $int0, component $component1, string $string0, string $string1)
+
+// 929
+[clientscript,script929]
+
+// 930
+[clientscript,script930]
+
+// 931
+[clientscript,script931](int $int0, int $int1)
+
+// 932
+[clientscript,script932](int $int0, int $int1, int $int2, int $int3, int $int4, int $int5, int $int6, int $int7, int $int8, int $int9, int $int10, int $int11, int $int12, int $int13, int $int14, int $int15, int $int16)
+
+// 933
+[clientscript,script933](int $int0, int $int1, int $int2, int $int3, int $int4, int $int5, int $int6, int $int7, int $int8, int $int9, int $int10, int $int11, int $int12, int $int13, int $int14)
+
+// 934
+[clientscript,script934](int $clock0, int $int1, int $int2, int $int3, int $int4, int $int5, int $int6, int $int7, int $int8, int $int9, int $int10, int $int11, int $int12, int $int13, int $int14, int $int15)
+
+// 935
+[clientscript,script935](int $int0, int $int1, int $int2)
+
+// 936
+[clientscript,script936](int $int0, int $int1, int $int2)
+
+// 937
+[clientscript,script937](int $comsubid0, int $clock1)
+
+// 938
+[clientscript,script938]
+
+// 939
+[clientscript,script939]
+
+// 940
+[clientscript,script940](int $int0, int $int1)
+
+// 941
+[clientscript,script941](int $comsubid0, int $int1, int $int2, int $int3, int $int4, int $int5, int $int6, int $int7, int $int8)
+
+// 942
+[clientscript,script942](int $comsubid0, int $int1, int $int2, int $int3)
+
+// 943
+[clientscript,script943](int $int0, int $int1, int $int2, int $int3, int $int4, int $int5)
+
+// 944
+[clientscript,script944](int $comsubid0, int $clock1, int $int2, int $int3, int $int4, int $int5, int $int6, int $int7, int $int8, int $int9, int $int10)
+
+// 945
+[clientscript,script945](int $comsubid0, int $clock1, int $int2)
+
+// 946
+[clientscript,script946](int $int0)// (int, int)
+
+// 947
+[clientscript,script947]
+
+// 948
+[clientscript,script948]
+
+// 949
+[clientscript,script949](int $int0, int $int1)
+
+// 950
+[clientscript,script950](int $int0, int $int1, int $int2, int $int3, namedobj $namedobj4)
+
+// 951
+[clientscript,script951](component $component0)// (int, int)
+
+// 952
+[clientscript,script952](int $int0, int $int1)// (component)
+
+// 953
+[clientscript,script953](component $component0, component $component1)
+
+// 954
+[clientscript,script954]
+
+// 955
+[clientscript,script955]
+
+// 956
+[clientscript,script956]
+
+// 957
+[clientscript,fairyrings_log_init](component $component0, component $component1, component $component2)
+
+// 958
+[clientscript,fairyrings_log_shuffle](component $component0, component $component1, component $component2)
+
+// 959
+[clientscript,script959](component $component0, component $component1, int $int2)
+
+// 960
+[clientscript,script960](component $component0)
+
+// 961
+[clientscript,rand_herbburner_onexit](component $component0)
+
+// 962
+[clientscript,fairyrings_clockwise](int $int0)
+
+// 963
+[clientscript,fairyrings_anticlockwise](int $int0)
+
+// 964
+[clientscript,fairyrings_vartransmit]
+
+// 965
+[clientscript,fairyrings_rotate](component $component0, component $component1, component $component2, component $component3, component $component4, component $component5, component $component6, component $component7, component $component8, component $component9, component $component10, component $component11, component $component12, component $component13, component $component14, component $component15, component $component16)
+
+// 966
+[clientscript,fairyrings_rotate_component](component $component0, int $int1)
+
+// 967
+[clientscript,script967](int $int0, int $int1)// (int)
+
+// 968
+[clientscript,script968](component $component0)
+
+// 969
+[clientscript,script969](component $component0)
+
+// 970
+[clientscript,script970](component $component0)// (int)
+
+// 971
+[clientscript,script971]
+
+// 972
+[clientscript,script972]
+
+// 973
+[clientscript,script973]
+
+// 974
+[clientscript,script974](int $int0, int $y1, namedobj $namedobj2, string $string0)// (int)
+
+// 975
+[clientscript,script975](int $int0, int $int1)// (int)
+
+// 976
+[clientscript,script976](int $int0)// (int, namedobj, string)
+
+// 977
+[clientscript,script977](int $int0)// (string, int)
+
+// 978
+[clientscript,script978](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 979
+[clientscript,script979](int $int0)// (string, int)
+
+// 980
+[clientscript,script980](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 981
+[clientscript,script981](int $int0)// (string, int)
+
+// 982
+[clientscript,script982](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 983
+[clientscript,script983](int $int0)// (string, int)
+
+// 984
+[clientscript,script984](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 985
+[clientscript,script985](int $int0)// (string, int)
+
+// 986
+[clientscript,script986](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 987
+[clientscript,script987](int $int0)// (string, int)
+
+// 988
+[clientscript,script988](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 989
+[clientscript,script989](int $int0)// (string, int)
+
+// 990
+[clientscript,script990](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 991
+[clientscript,script991](int $int0)// (string, int)
+
+// 992
+[clientscript,script992](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 993
+[clientscript,skill_advance_guide_subsection_title_hitpoints](int $int0)// (string, int)
+
+// 994
+[clientscript,script994](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 995
+[clientscript,script995](int $int0)// (string, int)
+
+// 996
+[clientscript,script996](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 997
+[clientscript,script997](int $int0)// (string, int)
+
+// 998
+[clientscript,script998](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 999
+[clientscript,script999](int $int0)// (string, int)
+
+// 1000
+[clientscript,script1000](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1001
+[clientscript,skill_advance_guide_subsection_title_slayer](int $int0)// (string, int)
+
+// 1002
+[clientscript,script1002](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1003
+[clientscript,script1003](int $int0)// (string, int)
+
+// 1004
+[clientscript,script1004](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1005
+[clientscript,skill_advance_guide_subsection_title_farming](int $int0)// (string, int)
+
+// 1006
+[clientscript,script1006](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1007
+[clientscript,script1007](int $int0)// (string, int)
+
+// 1008
+[clientscript,script1008](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1009
+[clientscript,script1009](int $int0)// (string, int)
+
+// 1010
+[clientscript,script1010](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1011
+[clientscript,script1011](int $int0)// (string, int)
+
+// 1012
+[clientscript,script1012](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1013
+[clientscript,skill_advance_guide_subsection_title_agility](int $int0)// (string, int)
+
+// 1014
+[clientscript,script1014](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1015
+[clientscript,script1015](int $int0)// (string, int)
+
+// 1016
+[clientscript,script1016](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1017
+[clientscript,script1017](int $int0)// (string, int)
+
+// 1018
+[clientscript,script1018](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1019
+[clientscript,script1019](int $int0)// (string, int)
+
+// 1020
+[clientscript,script1020](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1021
+[clientscript,script1021](int $int0)// (string, int)
+
+// 1022
+[clientscript,script1022](int $int0, int $int1)// (int, namedobj, string, string)
+
+// 1023
+[clientscript,script1023](stat $stat0, int $int1)// (string, namedobj, int)
+
+// 1024
+[clientscript,script1024](int $int0)// (int)
+
+// 1025
+[clientscript,lvl_quest_report](stat $stat0, int $lvl1, int $int2)// (string, namedobj, int)
+
+// 1026
+[clientscript,quickchat_tutorial_button_mouseover]
+
+// 1027
+[clientscript,quickchat_tutorial_button_mouseleave]
+
+// 1028
+[clientscript,script1028]
+
+// 1029
+[clientscript,script1029](enum $enum0, int $int1)
+
+// 1030
+[clientscript,script1030](int $int0)
+
+// 1031
+[clientscript,script1031]
+
+// 1032
+[clientscript,script1032](enum $enum0, int $int1, int $int2)
+
+// 1033
+[clientscript,script1033](string $string0)
+
+// 1034
+[clientscript,script1034](int $comsubid0, int $x1, int $y2, int $width3, int $height4, int $colour5, string $text0)
+
+// 1035
+[clientscript,script1035](int $int0, int $int1, int $int2, int $int3, string $text0)
+
+// 1036
+[clientscript,script1036]()// (int)
+
+// 1037
+[clientscript,script1037](int $int0, boolean $boolean1)
+
+// 1038
+[clientscript,script1038](int $key0, char $keychar1, component $component2, component $component3, component $component4, component $component5, int $int6, int $int7)
+
+// 1039
+[clientscript,script1039](component $component0, component $component1, component $component2, int $int3)
+
+// 1040
+[clientscript,script1040](component $component0, component $component1, component $component2, component $component3, int $int4)
+
+// 1041
+[clientscript,script1041](component $component0, component $component1, component $component2, int $int3)
+
+// 1042
+[clientscript,script1042](component $component0, component $component1)
+
+// 1043
+[clientscript,script1043](int $int0, component $component1)
+
+// 1044
+[clientscript,script1044](int $int0)
+
+// 1045
+[clientscript,script1045](int $comsubid0, component $component1, int $int2)
+
+// 1046
+[clientscript,script1046](intarray $intarray0, char $keychar1, component $component2, component $component3, component $component4, int $int5, int $int6, int $int7)
+
+// 1047
+[clientscript,script1047](int $int0)
+
+// 1048
+[clientscript,script1048](int $key0, char $keychar1, component $component2, component $component3, int $int4)
+
+// 1049
+[clientscript,quickchat_open_onop](int $int0)
+
+// 1050
+[clientscript,script1050](int $int0, string $string0)
+
+// 1051
+[clientscript,script1051](int $int0, string $string0)
+
+// 1052
+[clientscript,script1052](int $int0, int $int1, string $username0)
+
+// 1053
+[clientscript,quickchat_close]
+
+// 1054
+[clientscript,script1054]
+
+// 1055
+[clientscript,quickchat_closebutton_mouseover](component $component0)
+
+// 1056
+[clientscript,quickchat_closebutton_mouseleave](component $component0)
+
+// 1057
+[clientscript,script1057](component $component0)
+
+// 1058
+[clientscript,script1058](component $component0)
+
+// 1059
+[clientscript,script1059](int $key0, char $char1, component $component2, int $int3, int $int4, int $int5, int $int6)
+
+// 1060
+[clientscript,quickchat_menu_select](component $component0, component $component1, int $int2, component $component3, int $int4, int $int5)
+
+// 1061
+[clientscript,script1061](component $component0, component $component1, int $int2, component $component3, int $int4, int $int5)
+
+// 1062
+[clientscript,script1062](component $component0, int $int1, int $int2, int $int3)
+
+// 1063
+[clientscript,script1063](component $component0, int $int1)
+
+// 1064
+[clientscript,proc_quickchat_menu_scroll](int $int0)
+
+// 1065
+[clientscript,clientscript_quickchat_menu_scroll](component $layer0, int $x1)
+
+// 1066
+[clientscript,script1066](component $component0, int $int1)
+
+// 1067
+[clientscript,quickchat_return](component $component0, int $int1)
+
+// 1068
+[clientscript,script1068](component $component0, int $int1)
+
+// 1069
+[clientscript,script1069]
+
+// 1070
+[clientscript,clientscript_quickchat_phrase](component $component0, int $int1, int $int2)
+
+// 1071
+[clientscript,proc_quickchat_phrase](component $component0, int $int1, int $int2)
+
+// 1072
+[clientscript,quickchat_phrase_setup](component $component0, int $int1)
+
+// 1073
+[clientscript,clientscript_quickchat_phrase_int](component $component0, int $int1, int $int2)
+
+// 1074
+[clientscript,proc_quickchat_phrase_int](component $component0, int $int1, int $int2)
+
+// 1075
+[clientscript,clientscript_quickchat_phrase_obj](component $component0, int $int1, obj $obj2)
+
+// 1076
+[clientscript,proc_quickchat_phrase_obj](component $component0, int $int1, obj $obj2)
+
+// 1077
+[clientscript,script1077](int $int0)
+
+// 1078
+[clientscript,quickchat_phrase_setint](int $int0)
+
+// 1079
+[clientscript,quickchat_phrase_setobj](int $int0)
+
+// 1080
+[clientscript,script1080](component $component0, int $comsubid1)
+
+// 1081
+[clientscript,script1081](component $component0, int $comsubid1)
+
+// 1082
+[clientscript,script1082](int $int0, component $component1, int $int2)
+
+// 1083
+[clientscript,script1083](int $int0, component $component1, int $comsubid2)
+
+// 1084
+[clientscript,script1084](int $int0, component $component1, int $comsubid2)
+
+// 1085
+[clientscript,script1085](component $component0, int $y1, int $y2, int $y3)
+
+// 1086
+[clientscript,script1086](component $component0, int $y1, int $y2, int $y3)
+
+// 1087
+[clientscript,script1087](component $component0, int $int1)
+
+// 1088
+[clientscript,script1088](component $component0, int $int1)
+
+// 1089
+[clientscript,script1089]
+
+// 1090
+[clientscript,quickchat_friend_status](string $username0)// (int)
+
+// 1091
+[clientscript,script1091](component $component0, obj $obj1)

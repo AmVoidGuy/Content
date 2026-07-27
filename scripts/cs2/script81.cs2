@@ -1,0 +1,8 @@
+// 81
+[clientscript,script81]
+if (if_hassub(toplevel:chatoverlay) = true & chat_gethistory_byuid(0) = ^chattype_gamemessage) {
+	~script102(chat_gethistory_bytypeandline(0));
+}
+~script84;
+~script89;
+~script192;

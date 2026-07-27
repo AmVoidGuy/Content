@@ -1,0 +1,49 @@
+// 43
+[proc,script43](component $component0, int $comsubid1, component $component2, int $int3, int $width4, string $string0)
+def_int $x5 = 0;
+def_int $y6 = 0;
+if (%varcint1 < calc(clientclock + $int3)) {
+	if (%varcint1 < clientclock) {
+		%varcint1 = clientclock;
+	}
+	%varcint1 = calc(%varcint1 + 2);
+	return;
+}
+%varcint1 = calc(clientclock + $int3 + 10);
+if (%varcint2 = 0) {
+	if ($width4 > if_getwidth(if_getlayer($component2))) {
+		$width4 = if_getwidth(if_getlayer($component2));
+	}
+	$width4 = calc($width4 - 4);
+	if_setsize(calc(4 + parawidth($string0, $width4, p12_full)), calc(4 + 13 * paraheight($string0, $width4, p12_full)), $component2);
+	if (cc_find($component0, $comsubid1) = ^true) {
+		$x5 = calc(cc_getx + 5);
+		$y6 = calc(cc_gety + if_getheight($component0) + 5);
+		if (if_getlayer($component2) ! null) {
+			if ($x5 > calc(if_getwidth(if_getlayer($component2)) - if_getwidth($component2))) {
+				$x5 = calc(if_getwidth(if_getlayer($component2)) - if_getwidth($component2));
+			}
+			if ($y6 > calc(if_getheight(if_getlayer($component2)) - if_getheight($component2))) {
+				$y6 = calc(cc_gety - if_getheight($component2) - 5);
+			}
+		}
+	}
+	if_setposition($x5, $y6, $component2);
+	cc_deleteall($component2);
+	cc_create($component2, ^iftype_rectangle, 0);
+	cc_setsize(if_getwidth($component2), if_getheight($component2));
+	cc_setfill(true);
+	cc_setcolour(0xffffa0);
+	cc_create($component2, ^iftype_rectangle, 1);
+	cc_setsize(if_getwidth($component2), if_getheight($component2));
+	cc_setfill(false);
+	cc_setcolour(^black);
+	cc_create($component2, ^iftype_text, 2);
+	cc_setsize($width4, if_getheight($component2));
+	cc_setposition(2, 0);
+	cc_settext($string0);
+	cc_settextalign(^settextalign_left, ^settextalign_centre, 0);
+	cc_settextfont(p12_full);
+	cc_setcolour(^black);
+	%varcint2 = 1;
+}

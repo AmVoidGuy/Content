@@ -1,0 +1,373 @@
+// 1020
+[proc,script1020](int $int0, int $int1)(int, namedobj, string, string)
+switch_int ($int0) {
+	case 0 :
+		switch_int ($int1) {
+			case 0 :
+				return(1, lore_wolf_12047, "Spirit wolf - Attack XP<br>Gold charm, wolf bones, 7 shards", "You can now infuse <col=000080>spirit wolf pouches</col>.");
+			case 1 :
+				return(4, lore_dreadfowl_12043, "Dreadfowl - Magic XP<br>Gold charm, raw chicken, 8 shards", "You can now infuse <col=000080>dreadfowl pouches</col>.");
+			case 2 :
+				return(10, lore_spider_12059, "Spirit spider - controlled XP<br>Gold charm, spider carcass, 8 shards", "You can now infuse <col=000080>spirit spider pouches</col>.");
+			case 3 :
+				return(13, lore_snail_12019, "Thorny snail - Ranged XP<br>Gold charm, raw thin snail, 9 shards", "You can now infuse <col=000080>thorny snail pouches</col>.");
+			case 4 :
+				return(16, lore_rock_crab_12009, "Granite crab - Defence XP<br>Gold charm, iron ore, 7 shards", "You can now infuse <col=000080>granite crab pouches</col>.");
+			case 5 :
+				return(17, lore_mosquito_12778, "Spirit mosquito - Attack XP<br>Gold charm, proboscis, 1 shard", "You can infuse <col=000080>spirit mosquito pouches</col>.");
+			case 6 :
+				return(18, lore_desert_worm_12049, "Desert wyrm - Strength XP<br>Green charm, bucket of sand, 45 shards", "You can now infuse <col=000080>desert wyrm pouches</col>.");
+			case 7 :
+				return(19, lore_scorpion_12055, "Spirit scorpion - controlled XP<br>Crimson charm, bronze claws, 57 shards", "You can now infuse <col=000080>spirit scorpion pouches</col>.");
+			case 8 :
+				return(22, lore_tz_kih_12808, "Spirit Tz-Kih - Magic XP<br>Crimson charm, obsidian charm, 64 shards", "You can now infuse <col=000080>spirit Tz-Kih pouches</col>.");
+			case 9 :
+				return(23, lore_giant_rat_12067, "Albino rat - Attack XP<br>Blue charm, raw rat meat, 75 shards", "You can now infuse <col=000080>albino rat pouches</col>.");
+			case 10 :
+				return(25, lore_kalphite_12063, "Spirit kalphite - Defence XP<br>Blue charm, potato cactus, 51 shards", "You can now infuse <col=000080>spirit kalphite pouches</col>.");
+			case 11 :
+				return(28, lore_compost_mound_12091, "Compost mound - Strength XP<br>Green charm, compost, 47 shards", "You can now infuse <col=000080>compost mound pouches</col>.");
+			case 12 :
+				return(29, lore_chinchompa_12800, "Giant chinchompa - Ranged XP<br>Blue charm, chinchompa, 84 shards", "You can now infuse <col=000080>giant chinchompa pouches</col>.");
+			case 13 :
+				return(31, lore_vampire_bat_12053, "Vampire bat - controlled XP<br>Crimson charm, vampire dust, 81 shards", "You can now infuse <col=000080>vampire bat pouches</col>.");
+			case 14 :
+				return(32, lore_honey_badger_12065, "Honey badger - Strength XP<br>Crimson charm, honeycomb, 84 shards", "You can now infuse <col=000080>honey badger pouches</col>.");
+			case 15 :
+				return(33, lore_beaver_12021, "Beaver<br>Green charm, willow logs, 72 shards", "You can now infuse <col=000080>beaver pouches</col>.");
+			case 16 :
+				return(34, lore_ravager_12818, "Void ravager - Strength XP<br>Green charm, ravager charm, 74 shards", "You can now infuse <col=000080>void ravager pouches</col>.");
+			case 17 :
+				return(34, lore_spinner_12780, "Void spinner - Defence XP<br>Blue charm, spinner charm, 74 shards", "You can now infuse <col=000080>void spinner pouches</col>.");
+			case 18 :
+				return(34, lore_torcher_12798, "Void torcher - Magic XP<br>Blue charm, torcher charm, 74 shards", "You can now infuse <col=000080>void torcher pouches</col>.");
+			case 19 :
+				return(34, lore_shifter_12814, "Void shifter - Attack XP<br>Blue charm, shifter charm, 74 shards", "You can now infuse <col=000080>void shifter pouches</col>.");
+			case 20 :
+				return(36, lore_minotaur_12073, "Bronze minotaur - Defence XP<br>Blue charm, bronze bar, 102 shards", "You can now infuse <col=000080>bronze minotaur pouches</col>.");
+			case 21 :
+				return(40, lore_giant_ant_12087, "Bull ant - controlled XP<br>Gold charm, marigolds, 11 shards", "You can now infuse <col=000080>bull ant pouches</col>.");
+			case 22 :
+				return(41, lore_macaw_12071, "Macaw<br>Green charm, guam, 78 shards", "You can now infuse <col=000080>macaw pouches</col>.");
+			case 23 :
+				return(42, lore_turnip_12051, "Evil turnip - Ranged XP<br>Crimson charm, carved turnip, 104 shards", "You can now infuse <col=000080>evil turnip pouches</col>.");
+			case 24 :
+				return(43, lore_cockatrice_12095, "Spirit cockatrice - Magic XP<br>Green charm, cockatrice egg, 88 shards", "You can now infuse <col=000080>spirit cockatrice pouches</col>.");
+			case 25 :
+				return(43, lore_cockatrice_2_12097, "Spirit guthatrice - Magic XP<br>Green charm, guthatrice egg, 88 shards", "You can now infuse <col=000080>spirit guthatrice pouches</col>.");
+			case 26 :
+				return(43, lore_cockatrice_3_12099, "Spirit saratrice - Magic XP<br>Green charm, saratrice egg, 88 shards", "You can now infuse <col=000080>spirit saratrice pouches</col>.");
+			case 27 :
+				return(43, lore_cockatrice_4_12101, "Spirit zamatrice - Magic XP<br>Green charm, zamatrice egg, 88 shards", "You can now infuse <col=000080>spirit zamatrice pouches</col>.");
+			case 28 :
+				return(43, lore_cockatrice_5_12103, "Spirit pengatrice - Magic XP<br>Green charm, pengatrice egg, 88 shards", "You can now infuse <col=000080>spirit pengatrice pouches</col>.");
+			case 29 :
+				return(43, lore_cockatrice_6_12105, "Spirit coraxatrice - Magic XP<br>Green charm, coraxatrice egg, 88 shards", "You can now infuse <col=000080>spirit coraxatrice pouches</col>.");
+			case 30 :
+				return(43, lore_cockatrice_7_12107, "Spirit vulatrice - Magic XP<br>Green charm, vulatrice egg, 88 shards", "You can now infuse <col=000080>spirit vulatrice pouches</col>.");
+			case 31 :
+				return(46, lore_minotaur_2_12075, "Iron minotaur - Defence XP<br>Blue charm, iron bar, 125 shards", "You can now infuse <col=000080>iron minotaur pouches</col>.");
+			case 32 :
+				return(46, lore_pyrefiend_12816, "Pyrelord - Strength XP<br>Crimson charm, tinderbox, 111 shards", "You can now infuse <col=000080>pyrelord</col> pouches.");
+			case 33 :
+				return(47, lore_magpie_12041, "Magpie<br>Green charm, gold ring, 88 shards", "You can now infuse <col=000080>magpie pouches</col>.");
+			case 34 :
+				return(49, lore_leech_12061, "Bloated leech - Attack XP<br>Crimson charm, raw beef, 117 shards", "You can now infuse <col=000080>bloated leech pouches</col>.");
+			case 35 :
+				return(52, lore_terrorbird_12007, "Spirit terrorbird - controlled XP<br>Gold charm, raw bird meat, 12 shards", "You can now infuse <col=000080>spirit terrorbird pouches</col>.");
+			case 36 :
+				return(54, lore_abyssal_leech_12035, "Abyssal parasite - Magic XP<br>Green charm, abyssal charm, 106 shards", "You can now infuse <col=000080>abyssal parasite pouches</col>.");
+			case 37 :
+				return(55, lore_jelly_12027, "Spirit jelly - Strength XP<br>Blue charm, jug of water, 151 shards", "You can now infuse <col=000080>spirit jelly pouches</col>.");
+			case 38 :
+				return(56, lore_minotaur_3_12077, "Steel minotaur - Defence XP<br>Blue charm, steel bar, 141 shards", "You can now infuse <col=000080>steel minotaur pouches</col>.");
+			case 39 :
+				return(56, lore_stork_12531, "Ibis<br>Green charm, harpoon, 109 shards", "You can now infuse <col=000080>ibis pouches</col>.");
+			case 40 :
+				return(57, lore_kyatt_12812, "Spirit kyatt - Attack XP<br>Blue charm, kyatt fur, 153 shards", "You can now infuse <col=000080>spirit kyatt pouches</col>.");
+			case 41 :
+				return(57, lore_larupita_12784, "Spirit larupia - controlled XP<br>Blue charm, larupia fur, 155 shards", "You can now infuse <col=000080>spirit larupia pouches</col>.");
+			case 42 :
+				return(57, lore_graahk_12810, "Spirit graahk - Strength XP<br>Blue charm, graahk fur, 154 shards", "You can now infuse <col=000080>spirit graahk pouches</col>.");
+			case 43 :
+				return(58, lore_karamthulhu_12023, "Karamthulhu overlord - Ranged XP<br>Blue charm, empty fishbowl, 144 shards", "You can now infuse <col=000080>karamthulhu overlord pouches</col>.");
+			case 44 :
+				return(61, lore_dust_devil_12085, "Smoke devil - Magic XP<br>Crimson charm, goat's horn dust, 141 shards", "You can now infuse <col=000080>smoke devil pouches</col>.");
+			case 45 :
+				return(62, lore_abyssal_lurker_12037, "Abyssal lurker - controlled XP<br>Green charm, abyssal charm, 119 shards", "You can now infuse <col=000080>abyssal lurker pouches</col>.");
+			case 46 :
+				return(63, lore_snake_12015, "Spirit cobra - Attack XP<br>Crimson charm, snake hide, 116 shards", "You can now infuse <col=000080>spirit cobra pouches</col>.");
+			case 47 :
+				return(64, lore_stranger_plant_12045, "Stranger plant - controlled XP<br>Crimson charm, bagged plant, 128 shards", "You can now infuse <col=000080>stranger plant pouches</col>.");
+			case 48 :
+				return(66, lore_minotaur_4_12079, "Mithril minotaur - Defence XP<br>Blue charm, mithril bar, 152 shards", "You can now infuse <col=000080>mithril minotaur pouches</col>.");
+			case 49 :
+				return(66, lore_barker_toad_12123, "Barker toad - Strength XP<br>Gold charm, swamp toad, 11 shards", "You can now infuse <col=000080>barker toad pouches</col>.");
+			case 50 :
+				return(67, lore_war_turtle_12031, "War tortoise - Defence XP<br>Gold charm, tortoise shell, 1 shard", "You can now infuse <col=000080>war tortoise pouches</col>.");
+			case 51 :
+				return(68, lore_bunyip_12029, "Bunyip - Attack XP<br>Green charm, raw shark, 110 shards", "You can now infuse <col=000080>bunyip pouches</col>.");
+			case 52 :
+				return(69, lore_fruit_bat_12033, "Fruit bat<br>Green charm, banana, 130 shards", "You can now infuse <col=000080>fruit bat pouches</col>.");
+			case 53 :
+				return(70, lore_locust_12820, "Ravenous locust - Attack XP<br>Crimson charm, pot of flour, 79 shards", "You can now infuse <col=000080>ravenous locust pouches</col>.");
+			case 54 :
+				return(71, lore_polar_bear_12057, "Arctic bear - controlled XP<br>Gold charm, polar kebbit fur, 14 shards", "You can now infuse <col=000080>arctic bear pouches</col>.");
+			case 55 :
+				return(73, lore_obsidian_golem_12792, "Obsidian golem - Strength XP<br>Blue charm, obsidian charm, 195 shards", "You can now infuse <col=000080>obsidian golem pouches</col>.");
+			case 56 :
+				return(74, lore_rock_lobster_12069, "Granite lobster - Defence XP<br>Crimson charm, granite (500g), 166 shards", "You can now infuse <col=000080>granite lobster pouches</col>.");
+			case 57 :
+				return(75, lore_praying_mantis_12011, "Praying mantis - Attack XP<br>Crimson charm, red flowers, 168 shards", "You can now infuse <col=000080>praying mantis pouches</col>.");
+			case 58 :
+				return(76, lore_flaming_prince_12782, "Forge regent - Ranged XP<br>Green charm, ruby harvest, 141 shards", "You can now infuse <col=000080>forge regent pouches</col>.");
+			case 59 :
+				return(76, lore_minotaur_5_12081, "Adamant minotaur - Defence XP<br>Blue charm, adamantite bar, 144 shards", "You can now infuse <col=000080>adamant minotaur pouches</col>.");
+			case 60 :
+				return(77, lore_nail_beast_12794, "Talon beast - Strength XP<br>Crimson charm, nail beast charm, 174 shards", "You can now infuse <col=000080>talon beast pouches</col>.");
+			case 61 :
+				return(78, lore_ent_12013, "Giant ent - controlled XP<br>Green charm, willow branch, 124 shards", "You can now infuse <col=000080>giant ent pouches</col>.");
+			case 62 :
+				return(79, lore_fire_titan_12802, "Fire titan - Magic XP<br>Blue charm, fire talisman, 198 shards", "You can now infuse <col=000080>fire titan pouches</col>.");
+			case 63 :
+				return(79, lore_moss_titan_12804, "Moss titan - Strength XP<br>Blue charm, earth talisman, 202 shards", "You can now infuse <col=000080>moss titan pouches</col>.");
+			case 64 :
+				return(79, lore_ice_titan_12806, "Ice titan - Attack XP<br>Blue charm, air talisman, water talisman, 198 shards", "You can now infuse <col=000080>ice titan pouches</col>.");
+			case 65 :
+				return(80, lore_hydra_12025, "Hydra - Ranged XP<br>Green charm, water orb, 128 shards", "You can now infuse <col=000080>hydra pouches</col>.");
+			case 66 :
+				return(83, lore_dagganoth_12017, "Spirit dagannoth - controlled XP<br>Crimson charm, dagannoth hide, 1 shard", "You can now infuse <col=000080>spirit dagannoth pouches</col>.");
+			case 67 :
+				return(83, lore_lava_titan_12788, "Lava titan - Strength XP<br>Blue charm, obsidian charm, 219 shards", "You can now infuse <col=000080>lava titan pouches</col>.");
+			case 68 :
+				return(85, lore_swamp_titan_12776, "Swamp titan - Attack XP<br>Crimson charm, swamp lizard, 150 shards", "You can now infuse <col=000080>swamp titan pouches</col>.");
+			case 69 :
+				return(86, lore_minotaur_6_12083, "Rune minotaur - Defence XP<br>Blue charm, runite bar, 1 shard", "You can now infuse <col=000080>rune minotaur pouches</col>.");
+			case 70 :
+				return(88, lore_unicorn_12039, "Unicorn stallion - controlled XP<br>Green charm, unicorn horn, 140 shards", "You can now infuse <col=000080>unicorn stallion pouches</col>.");
+			case 71 :
+				return(89, lore_geyser_titan_12786, "Geyser titan - Ranged XP<br>Blue charm, water talisman, 222 shards", "You can now infuse <col=000080>geyser titan pouches</col>.");
+			case 72 :
+				return(92, lore_wolpertinger_12089, "Wolpertinger - Magic XP<br>Crimson charm, raw rabbit, wolf bones, 203 shards", "You can now infuse <col=000080>wolpertinger pouches</col>.");
+			case 73 :
+				return(93, lore_abyssal_titan_12796, "Abyssal titan - Attack XP<br>Green charm, abyssal charm, 113 shards", "You can now infuse <col=000080>abyssal titan pouches</col>.");
+			case 74 :
+				return(95, lore_iron_titan_12822, "Iron titan - Defence XP<br>Crimson charm, iron platebody, 198 shards", "You can now infuse <col=000080>iron titan pouches</col>.");
+			case 75 :
+				return(96, lore_pack_yak_12093, "Pack yak - Strength XP<br>Crimson charm, yak hide, 211 shards", "You can now infuse <col=000080>pack yak pouches</col>.");
+			case 76 :
+				return(99, lore_steel_titan_12790, "Steel titan - Ranged XP<br>Crimson charm, steel platebody, 178 shards", "You can now infuse <col=000080>steel titan pouches</col>.");
+		}
+	case 1 :
+		switch_int ($int1) {
+			case 0 :
+				return(1, lore_howl_12425, "Howl", "You can now use <col=000080>Howl scrolls</col>.");
+			case 1 :
+				return(4, lore_dreadfowl_strike_12445, "Dreadfowl Strike", "You can now use <col=000080>Dreadfowl Strike scrolls</col>.");
+			case 2 :
+				return(10, lore_egg_spawn_12428, "Egg Spawn", "You can now use <col=000080>Egg Spawn scrolls</col>.");
+			case 3 :
+				return(13, lore_slime_trail_12459, "Slime Spray", "You can now use <col=000080>Slime Spray scrolls</col>.");
+			case 4 :
+				return(16, lore_stony_shell_12533, "Stony Shell", "You can now use <col=000080>Stony Shell scrolls</col>.");
+			case 5 :
+				return(17, lore_mosquito_attack_12838, "Pester", "You can now use <col=000080>Pester scrolls</col>.");
+			case 6 :
+				return(18, lore_electric_lash_12460, "Electric Lash", "You can now use <col=000080>Electric Lash scrolls</col>.");
+			case 7 :
+				return(19, lore_envenom_weapon_12432, "Venom Shot", "You can now use <col=000080>Venom Shot scrolls</col>.");
+			case 8 :
+				return(22, lore_lava_assault_12839, "Fireball Assault", "You can now use <col=000080>Fireball Assault scrolls</col>.");
+			case 9 :
+				return(23, lore_cheese_feast_12430, "Cheese Feast", "You can now use <col=000080>Cheese Feast scrolls</col>.");
+			case 10 :
+				return(25, lore_sandstorm_12446, "Sandstorm", "You can now use <col=000080>Sandstorm scrolls</col>.");
+			case 11 :
+				return(28, lore_generate_compost_12440, "Generate Compost", "You can now use <col=000080>Generate Compost scrolls</col>.");
+			case 12 :
+				return(29, lore_explode_12834, "Explode", "You can now use <col=000080>Explode scrolls</col>.");
+			case 13 :
+				return(31, lore_vampire_touch_12447, "Vampire Touch", "You can now use <col=000080>Vampire Touch scrolls</col>.");
+			case 14 :
+				return(32, lore_insane_ferocity_12433, "Insane Ferocity", "You can now use <col=000080>Insane Ferocity scrolls</col>.");
+			case 15 :
+				return(33, lore_multichop_12429, "Multichop", "You can now use <col=000080>Multichop scrolls</col>.");
+			case 16 :
+				return(34, lore_call_to_arms_12443, "Call to Arms", "You can now use <col=000080>Call to Arms scrolls</col>.");
+			case 17 :
+				return(36, lore_bull_rush_12461, "Bronze Bull Rush", "You can now use <col=000080>Bronze Bull Rush scrolls</col>.");
+			case 18 :
+				return(40, lore_unburden_12431, "Unburden", "You can now use <col=000080>Unburden scrolls</col>.");
+			case 19 :
+				return(41, lore_herbcall_12422, "Herbcall", "You can now use <col=000080>Herbcall scrolls</col>.");
+			case 20 :
+				return(42, lore_evil_flames_12448, "Evil Flames", "You can now use <col=000080>Evil Flames scrolls</col>.");
+			case 21 :
+				return(43, lore_petrify_12458, "Petrifying Gaze", "You can now use <col=000080>Petrifying Gaze scrolls</col>.");
+			case 22 :
+				return(46, lore_bull_rush_12461, "Iron Bull Rush", "You can now use <col=000080>Iron Bull Rush scrolls</col>.");
+			case 23 :
+				return(46, lore_immense_heat_12829, "Immense Heat", "You can now use <col=000080>Immense Heat scrolls</col>.");
+			case 24 :
+				return(47, lore_thieving_fingers_12426, "Thieving Fingers", "You can now use <col=000080>Thieving Fingers scrolls</col>.");
+			case 25 :
+				return(49, lore_blood_drain_12444, "Blood Drain", "You can now use <col=000080>Blood Drain scrolls</col>.");
+			case 26 :
+				return(52, lore_tireless_run_12441, "Tireless Run", "You can now use <col=000080>Tireless Run scrolls</col>.");
+			case 27 :
+				return(54, lore_abyssal_drain_12454, "Abyssal Drain", "You can now use <col=000080>Abyssal Drain scrolls</col>.");
+			case 28 :
+				return(55, lore_dissolve_12453, "Dissolve", "You can now use <col=000080>Dissolve scrolls</col>.");
+			case 29 :
+				return(56, lore_bull_rush_12461, "Steel Bull Rush", "You can now use <col=000080>Steel Bull Rush scrolls</col>.");
+			case 30 :
+				return(56, lore_fish_rain_12424, "Fish Rain", "You can now use <col=000080>Fish Rain scrolls</col>.");
+			case 31 :
+				return(57, lore_ambush_12836, "Ambush", "You can now use <col=000080>Ambush scrolls</col>.");
+			case 32 :
+				return(57, lore_rending_12840, "Rending", "You can now use <col=000080>Rending scrolls</col>.");
+			case 33 :
+				return(57, lore_goad_12835, "Goad", "You can now use <col=000080>Goad scrolls</col>.");
+			case 34 :
+				return(58, lore_overwhelming_waters_12455, "Doomsphere Device", "You can now use <col=000080>Doomsphere Device scrolls</col>.");
+			case 35 :
+				return(61, lore_dust_cloud_12468, "Dust Cloud", "You can now use <col=000080>Dust Cloud scrolls</col>.");
+			case 36 :
+				return(62, lore_abyssal_stealth_12427, "Abyssal Stealth", "You can now use <col=000080>Abyssal Stealth scrolls</col>.");
+			case 37 :
+				return(63, lore_ophedian_incubation_12436, "Ophidian Incubation", "You can now use <col=000080>Ophidian Incubation scrolls</col>.");
+			case 38 :
+				return(64, lore_poisonous_blast_12467, "Poisonous Blast", "You can now use <col=000080>Poisonous Blast scrolls</col>.");
+			case 39 :
+				return(66, lore_bull_rush_12461, "Mithril Bull Rush", "You can now use <col=000080>Mithril Bull Rush scrolls</col>.");
+			case 40 :
+				return(66, lore_toad_bark_12452, "Toad Bark", "You can now use <col=000080>Toad Bark scrolls</col>.");
+			case 41 :
+				return(67, lore_adamantite_shell_12439, "Testudo", "You can now use <col=000080>Testudo scrolls</col>.");
+			case 42 :
+				return(68, lore_swallow_whole_12438, "Swallow Whole", "You can now use <col=000080>Swallow Whole scrolls</col>.");
+			case 43 :
+				return(69, lore_fruitfall_12423, "Fruitfall", "You can now use <col=000080>Fruitfall scrolls</col>.");
+			case 44 :
+				return(70, lore_famine_12830, "Famine", "You can now use <col=000080>Famine scrolls</col>.");
+			case 45 :
+				return(71, lore_arctic_blast_12451, "Arctic Blast", "You can now use <col=000080>Arctic Blast scrolls</col>.");
+			case 46 :
+				return(73, lore_mountain_strength_12826, "Volcanic Strength", "You can now use <col=000080>Volcanic Strength scrolls</col>.");
+			case 47 :
+				return(74, lore_crushing_claw_12449, "Crushing Claw", "You can now use <col=000080>Crushing Claw scrolls</col>.");
+			case 48 :
+				return(75, lore_mantis_strike_12450, "Mantis Strike", "You can now use <col=000080>Mantis Strike scrolls</col>.");
+			case 49 :
+				return(76, lore_inferno_12841, "Inferno", "You can now use <col=000080>Inferno scrolls</col>.");
+			case 50 :
+				return(76, lore_bull_rush_12461, "Adamant Bull Rush", "You can now use <col=000080>Adamant Bull Rush scrolls</col>.");
+			case 51 :
+				return(77, lore_deadly_claw_12831, "Deadly Claw", "You can now use <col=000080>Deadly Claw scrolls</col>.");
+			case 52 :
+				return(78, lore_nesting_12457, "Acorn Missile", "You can now use <col=000080>Acorn Missile scrolls</col>.");
+			case 53 :
+				return(79, lore_titans_constitution_12824, "Titan's Constitution", "You can now use <col=000080>Titan's Constitution scrolls</col>.");
+			case 54 :
+				return(80, lore_regrowth_12442, "Regrowth", "You can now use <col=000080>Regrowth scrolls</col>.");
+			case 55 :
+				return(83, lore_spike_shot_12456, "Spike Shot", "You can now use <col=000080>Spike Shot scrolls</col>.");
+			case 56 :
+				return(83, lore_obsidian_thunder_12837, "Ebon Thunder", "You can now use <col=000080>Ebon Thunder scrolls</col>.");
+			case 57 :
+				return(85, lore_swamp_plague_12832, "Swamp Plague", "You can now use <col=000080>Swamp Plague scrolls</col>.");
+			case 58 :
+				return(86, lore_bull_rush_12461, "Rune Bull Rush", "You can now use <col=000080>Rune Bull Rush scrolls</col>.");
+			case 59 :
+				return(88, lore_healing_aura_12434, "Healing Aura", "You can now use <col=000080>Healing Aura scrolls</col>.");
+			case 60 :
+				return(89, lore_boil_12833, "Boil", "You can now use <col=000080>Boil scrolls</col>.");
+			case 61 :
+				return(92, lore_magic_might_12437, "Magic Focus", "You can now use <col=000080>Magic Focus scrolls</col>.");
+			case 62 :
+				return(93, lore_chaotic_runecrafting_12827, "Essence Shipment", "You can now use <col=000080>Essence Shipment scrolls</col>.");
+			case 63 :
+				return(95, lore_iron_within_12828, "Iron Within", "You can now use <col=000080>Iron Within scrolls</col>.");
+			case 64 :
+				return(96, lore_winter_storage_12435, "Winter Storage", "You can now use <col=000080>Winter Storage scrolls</col>.");
+			case 65 :
+				return(99, lore_steel_of_legends_12825, "Steel of Legends", "You can now use <col=000080>Steel of Legends scrolls</col>.");
+		}
+	case 2 :
+		switch_int ($int1) {
+			case 0 :
+				return(4, lore_inventory_bulldog_12196, "Bulldog", "You can now raise <col=000080>bulldogs</col>.");
+			case 1 :
+				return(4, lore_inventory_dalmation_12194, "Dalmatian", "You can now raise <col=000080>dalmatians</col>.");
+			case 2 :
+				return(4, lore_inventory_greyhound_12192, "Greyhound", "You can now raise <col=000080>greyhounds</col>.");
+			case 3 :
+				return(4, lore_inventory_labrador_12193, "Labrador", "You can now raise <col=000080>labradors</col>.");
+			case 4 :
+				return(4, lore_inventory_sheepdog_12195, "Sheepdog", "You can now raise <col=000080>sheepdogs</col>.");
+			case 5 :
+				return(4, lore_inventory_terrier_12191, "Terrier", "You can now raise <col=000080>terriers</col>.");
+			case 6 :
+				return(10, lore_baby_gecko_1_12488, "Gecko", "You can now raise <col=000080>geckos</col>.");
+			case 7 :
+				return(10, afr_lore_inventory_platypus_12547, "Platypus<br> (after As a First Resort...)", "You can now raise <col=000080>platypodes</col> (after As a First Resort...).");
+			case 8 :
+				return(30, lore_inventory_penguin_12188, "Penguin", "You can now raise <col=000080>penguins</col>.");
+			case 9 :
+				return(40, lore_inventory_crab_12198, "Giant crab", "You can now raise <col=000080>giant crabs</col>.");
+			case 10 :
+				return(50, lore_raven_1_12485, "Raven", "You can now raise <col=000080>ravens</col>.");
+			case 11 :
+				return(60, lore_inventory_squirrel_12200, "Squirrel", "You can now raise <col=000080>squirrels</col>.");
+			case 12 :
+				return(70, lore_inventory_bird_sara_12185, "Saradomin owl", "You can now raise <col=000080>Saradomin owls</col>.");
+			case 13 :
+				return(70, lore_inventory_bird_guthix_12187, "Guthix raptor", "You can now raise <col=000080>Guthix raptors</col>.");
+			case 14 :
+				return(70, lore_inventory_bird_zamorak_12186, "Zamorak hawk", "You can now raise <col=000080>Zamorak hawks</col>.");
+			case 15 :
+				return(71, lore_inventory_ex_ex_parrot_13336, "Ex-Ex-Parrot<br> (after Rocking Out...)", "You can now raise <col=000080>ex-ex-parrots</col> (after Rocking Out...).");
+			case 16 :
+				return(80, lore_inventory_raccoon_12199, "Raccoon", "You can now raise <col=000080>raccoons</col>.");
+			case 17 :
+				return(85, lore_inventory_vulture_12190, "Vulture", "You can now raise <col=000080>vultures</col>.");
+			case 18 :
+				return(90, lore_inventory_chameleon_12203, "Chameleon", "You can now raise <col=000080>chameleons</col>.");
+			case 19 :
+				return(95, lore_inventory_monkey_12201, "Monkey", "You can now raise <col=000080>monkeys</col>.");
+			case 20 :
+				return(99, lore_inventory_dragon_12197, "Dragon", "You can now raise <col=000080>dragons</col>.");
+		}
+	case 3 :
+		switch_int ($int1) {
+			case 0 :
+				return(10, lore_antlers_12204, "Antlers", "You can now use <col=000080>antlers</col>.");
+			case 1 :
+				return(20, adamant_full_helm_1161, "Adamant full helm<br> (with 30 Defence)", "You can now have <col=000080>adamant full helms</col> enchanted to hold Summoning scrolls. (You also need level 30 Defence).");
+			case 2 :
+				return(20, snakeskin_bandana_6326, "Snakeskin bandana<br> (with 30 Defence and 30 Ranged)", "You can now have <col=000080>snakeskin bandanas</col> enchanted to hold Summoning scrolls. (You also need level 30 Defence and level 30 Ranged).");
+			case 3 :
+				return(30, lore_lizard_skull_12207, "Lizard skull", "You can now use <col=000080>lizard skulls</col>.");
+			case 4 :
+				return(30, splitbark_helm_3385, "Splitbark helm<br> (with 40 Defence and 40 Magic)", "You can now have <col=000080>splitbark helms</col> enchanted to hold Summoning scrolls. (You also need level 40 Defence and level 40 Magic).");
+			case 5 :
+				return(30, rune_full_helm_1163, "Rune full helm<br> (with 40 Defence)", "You can now have <col=000080>rune full helms</col> enchanted to hold Summoning scrolls. (You also need level 40 Defence).");
+			case 6 :
+				return(35, viking_helmet_3748, "Fremennik helm<br> (after Fremennik Trials with 45 Defence)", "You can now have <col=000080>Fremennik helms</col> enchanted to hold Summoning scrolls. (After Fremennik Trials and with level 45 Defence).");
+			case 7 :
+				return(45, fris_kingly_helm_10828, "Helm of Neitiznot<br> (after Fremennik Isles)", "You can now have the <col=000080>Helm of Neitiznot</col> enchanted to hold Summoning scrolls (after Fremennik Isles).");
+			case 8 :
+				return(50, lore_feathered_headdress_1_12210, "Feather headdress", "You can now use <col=000080>feather headdresses</col>. (You also need Level 79 Crafting to make feather headdresses).");
+			case 9 :
+				return(50, dragon_med_helm_1149, "Dragon medium helm<br> (with 60 Defence)", "You can now have <col=000080>dragon medium helms</col> enchanted to hold Summoning scrolls. (You also need level 60 Defence.)");
+			case 10 :
+				return(55, lunar_helmet_9096, "Lunar helm<br> (with 40 Defence and 65 Magic)", "You can now have <col=000080>lunar helms</col> enchanted to hold Summoning scrolls. (You also need level 40 Defence and level 65 Magic.)");
+			case 11 :
+				return(60, godwars_armor_armadyl_helmet_11718, "Armadyl helm<br> (with 70 Defence and 70 Ranged)", "You can now have <col=000080>Armadyl helms</col> enchanted to hold Summoning scrolls. (You also need level 70 Defence and level 70 Ranged.)");
+		}
+	case 4 :
+		if ($int1 = 0) {
+			return(99, skillcape_summoning_12169, "Skill mastery", "<col=000080>Congratulations! You are now a master of <col=800000>Summoning<col=000080>.  Why not visit <col=800000>Pikkupstix<col=000080> in <col=800000>Taverley<col=000080>? He has something special only available to true masters of the <col=800000>Summoning<col=000080> skill!");
+		}
+}
+return(0, null, "", "");

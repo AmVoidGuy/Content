@@ -1,0 +1,92 @@
+// 71
+[proc,script71](int $int0)
+if_setgraphic(null, toplevel:stone0);
+if_setgraphic(null, toplevel:stone1);
+if_setgraphic(null, toplevel:stone2);
+if_setgraphic(null, toplevel:stone3);
+if_setgraphic(null, toplevel:stone4);
+if_setgraphic(null, toplevel:stone5);
+if_setgraphic(null, toplevel:stone6);
+if_setgraphic(null, toplevel:stone7);
+if_setgraphic(null, toplevel:stone8);
+if_setgraphic(null, toplevel:stone9);
+if_setgraphic(null, toplevel:stone10);
+if_setgraphic(null, toplevel:stone11);
+if_setgraphic(null, toplevel:stone12);
+if_setgraphic(null, toplevel:stone13);
+if_setgraphic("topstat_close_button_2", toplevel:logoutbutton);
+if_sethide(true, toplevel:side0);
+if_sethide(true, toplevel:side1);
+if_sethide(true, toplevel:side2);
+if_sethide(true, toplevel:side3);
+if_sethide(true, toplevel:side4);
+if_sethide(true, toplevel:side5);
+if_sethide(true, toplevel:side6);
+if_sethide(true, toplevel:side7);
+if_sethide(true, toplevel:side8);
+if_sethide(true, toplevel:side9);
+if_sethide(true, toplevel:side10);
+if_sethide(true, toplevel:side11);
+if_sethide(true, toplevel:side12);
+if_sethide(true, toplevel:side13);
+if_sethide(true, toplevel:side99);
+if ($int0 = 0) {
+	if_setgraphic("side_stone_highlights_0", toplevel:stone0);
+	if_sethide(false, toplevel:side0);
+}
+if ($int0 = 1) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone1);
+	if_sethide(false, toplevel:side1);
+}
+if ($int0 = 2) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone2);
+	if_sethide(false, toplevel:side2);
+}
+if ($int0 = 3) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone3);
+	if_sethide(false, toplevel:side3);
+}
+if ($int0 = 4) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone4);
+	if_sethide(false, toplevel:side4);
+}
+if ($int0 = 5) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone5);
+	if_sethide(false, toplevel:side5);
+}
+if ($int0 = 6) {
+	if_setgraphic("side_stone_highlights_1", toplevel:stone6);
+	if_sethide(false, toplevel:side6);
+}
+if ($int0 = 7) {
+	if_setgraphic("side_stone_highlights_2", toplevel:stone7);
+	if_sethide(false, toplevel:side7);
+}
+if ($int0 = 8) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone8);
+	if_sethide(false, toplevel:side8);
+}
+if ($int0 = 9) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone9);
+	if_sethide(false, toplevel:side9);
+}
+if ($int0 = 10) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone10);
+	if_sethide(false, toplevel:side10);
+}
+if ($int0 = 11) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone11);
+	if_sethide(false, toplevel:side11);
+}
+if ($int0 = 12) {
+	if_setgraphic("side_stone_highlights_4", toplevel:stone12);
+	if_sethide(false, toplevel:side12);
+}
+if ($int0 = 13) {
+	if_setgraphic("side_stone_highlights_3", toplevel:stone13);
+	if_sethide(false, toplevel:side13);
+}
+if ($int0 = 99) {
+	if_setgraphic("topstat_close_button_3", toplevel:logoutbutton);
+	if_sethide(false, toplevel:side99);
+}

@@ -1,0 +1,6 @@
+// 1069
+[proc,script1069]
+%varcint126 = %varcint131;
+%varcstring27 = %varcstring28;
+%varcint127 = 0;
+~quickchat_phrase(chatdefault:quickchat_path, %varcint130, -1);

@@ -1,0 +1,8 @@
+// 117
+[clientscript,script117]
+if (%varbit_3756 < 1 | %varbit_3756 > 14) {
+	if_setontimer(null, toplevel:backhmid1_hide);
+	~script113;
+	return;
+}
+if_setontimer("script120", toplevel:backhmid1_hide);

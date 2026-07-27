@@ -1,0 +1,6 @@
+// 356
+[clientscript,script356]
+~script429;
+if_setgraphic("sprite_1043", interface_592:201);
+if_setonmouseleave("deltooltip(interface_592:232)", interface_592:201);
+if_setonmouseover(null, interface_592:201);

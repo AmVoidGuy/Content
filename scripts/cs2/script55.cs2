@@ -1,0 +1,12 @@
+// 55
+[proc,script55](int $int0)(component)
+if ($int0 = 0) {
+	return(area_task:area_task_0);
+}
+if ($int0 = 1) {
+	return(area_task:area_task_1);
+}
+if ($int0 = 2) {
+	return(area_task:area_task_2);
+}
+return(null);

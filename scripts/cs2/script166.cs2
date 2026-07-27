@@ -1,0 +1,87 @@
+// 166
+[proc,script166](int $int0)(int)
+if ($int0 = 1) {
+	return(%varbit_3851);
+}
+if ($int0 = 2) {
+	return(%varbit_3852);
+}
+if ($int0 = 3) {
+	return(%varbit_3853);
+}
+if ($int0 = 4) {
+	return(%varbit_3854);
+}
+if ($int0 = 5) {
+	return(%varbit_3855);
+}
+if ($int0 = 6) {
+	return(%varbit_3856);
+}
+if ($int0 = 7) {
+	return(%varbit_3857);
+}
+if ($int0 = 8) {
+	return(%varbit_3858);
+}
+if ($int0 = 9) {
+	return(%varbit_3859);
+}
+if ($int0 = 10) {
+	return(%varbit_3860);
+}
+if ($int0 = 11) {
+	return(%varbit_3861);
+}
+if ($int0 = 12) {
+	return(%varbit_3862);
+}
+if ($int0 = 13) {
+	return(%varbit_3863);
+}
+if ($int0 = 14) {
+	return(%varbit_3864);
+}
+if ($int0 = 15) {
+	return(%varbit_3865);
+}
+if ($int0 = 16) {
+	return(%varbit_3866);
+}
+if ($int0 = 17) {
+	return(%varbit_3867);
+}
+if ($int0 = 18) {
+	return(%varbit_3868);
+}
+if ($int0 = 19) {
+	return(%varbit_3869);
+}
+if ($int0 = 20) {
+	return(%varbit_3870);
+}
+if ($int0 = 21) {
+	return(%varbit_4199);
+}
+if ($int0 = 23) {
+	return(%varbit_3871);
+}
+if ($int0 = 24) {
+	return(%varbit_3872);
+}
+if ($int0 = 25) {
+	return(%varbit_3946);
+}
+if ($int0 = 26) {
+	return(%varbit_4132);
+}
+if ($int0 = 27) {
+	return(%varbit_4307);
+}
+if ($int0 = 28) {
+	return(%varbit_4308);
+}
+if ($int0 = 29) {
+	return(%varbit_4309);
+}
+return(0);

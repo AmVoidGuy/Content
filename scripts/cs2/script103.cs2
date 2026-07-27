@@ -1,0 +1,14 @@
+// 103
+[clientscript,script103]
+if (%varcint11 = 1) {
+	if_close;
+}
+if_sethide(false, toplevel:mes_layer);
+if_sethide(true, toplevel:mes_layer_large);
+if_sethide(true, toplevel:mes_layer_hide);
+if_settext("Enter name of friend to add to list", toplevel:mes_text);
+if_settext("*", toplevel:mes_text2);
+%varcint5 = 2;
+%varcstring22 = "";
+if_setonclick(null, toplevel:mes_layer);
+if_setonkey("script112(event_key, event_keychar)", toplevel:mes_text2);

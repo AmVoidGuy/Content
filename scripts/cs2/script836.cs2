@@ -1,0 +1,10 @@
+// 836
+[clientscript,script836]
+if (%varbit_4393 = 1 | %cutscene_status = 1) {
+	return;
+}
+if (%var19 = 1) {
+	~script39(music_v3:11, music_v3:music_tooltip_layer, 25, 189, "Track loop on.");
+} else {
+	~script39(music_v3:11, music_v3:music_tooltip_layer, 25, 189, "Track loop off.");
+}

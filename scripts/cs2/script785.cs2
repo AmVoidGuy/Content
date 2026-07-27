@@ -1,0 +1,7 @@
+// 785
+[clientscript,script785]
+if (%varbit_4275 = 1) {
+	if_setposition(472, 266, duel2_challengeoverlay:duel_icon);
+} else {
+	if_setposition(472, 296, duel2_challengeoverlay:duel_icon);
+}

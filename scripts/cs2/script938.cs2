@@ -1,0 +1,32 @@
+// 938
+[clientscript,script938]
+if (%varbit_4538 >= 91) {
+	return;
+}
+if_settext("Lapsang (1000)", interface_727:21);
+if_settext("Souchong (1000)", interface_727:23);
+~script928(%varbit_4538, interface_727:text_1, "Lapsang", "Souchong");
+def_int $int0 = 0;
+while ($int0 < 12) {
+	cc_create(interface_727:board, ^iftype_graphic, $int0);
+	cc_setsize(36, 32);
+	cc_setposition(~script946(calc($int0 + 1)));
+	cc_setobject(soulrune_566, -1);
+	cc_setoutline(1);
+	cc_setgraphicshadow(^black);
+	$int0 = calc($int0 + 1);
+}
+while ($int0 < 24) {
+	cc_create(interface_727:board, ^iftype_graphic, $int0);
+	cc_setsize(36, 32);
+	cc_setposition(~script946(calc($int0 + 9)));
+	cc_setobject(chaosrune_562, -1);
+	cc_setoutline(1);
+	cc_setgraphicshadow(^black);
+	$int0 = calc($int0 + 1);
+}
+$int0 = 1;
+while ($int0 < %varbit_4538) {
+	~script940($int0, 1);
+	$int0 = calc($int0 + 1);
+}

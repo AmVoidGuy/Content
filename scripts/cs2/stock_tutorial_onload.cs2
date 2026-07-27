@@ -1,0 +1,9 @@
+// 669
+[clientscript,stock_tutorial_onload]
+if (%var1108 = 2) {
+	~script671;
+} else if (%var1108 = 5) {
+	~script672;
+} else {
+	~script670;
+}

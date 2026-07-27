@@ -1,0 +1,11 @@
+// 1071
+[proc,quickchat_phrase](component $component0, int $int1, int $int2)
+if ($int2 >= 0) {
+	~script1068($component0, $int2);
+}
+%varcint134 = 0;
+if (qc_get_phrase_length($int1) > 0) {
+	~quickchat_phrase_setup($component0, $int1);
+} else {
+	~script1077($int1);
+}

@@ -1,0 +1,11 @@
+// 527
+[clientscript,script527]
+~assist_set_icon(%varbit_4090, "staticons2_0", "staticons2_off_0", assister_interface:runecrafting_icon, assister_interface:checker_collect);
+~assist_set_icon(%varbit_4091, "staticons_10", "staticons_off_10", assister_interface:crafting_icon_on, assister_interface:crafting_selected_box);
+~assist_set_icon(%varbit_4093, "staticons_11", "staticons_off_11", assister_interface:fletching_icon_on, assister_interface:fletching_selected_box);
+~assist_set_icon(%varbit_4095, "staticons2_6", "staticons2_off_6", assister_interface:construction_icon_on, assister_interface:construction_selected_box);
+~assist_set_icon(%varbit_4096, "staticons2_2", "staticons2_off_2", assister_interface:farming_icon_on, assister_interface:farming_selected_box);
+~assist_set_icon(%varbit_4098, "staticons_5", "staticons_off_5", assister_interface:magic_icon_on, assister_interface:magic_selected_box);
+~assist_set_icon(%varbit_4100, "staticons_13", "staticons_off_13", assister_interface:smithing_icon_on, assister_interface:smithing_selected_box);
+~assist_set_icon(%varbit_4101, "staticons_15", "staticons_off_15", assister_interface:cooking_icon_on, assister_interface:cooking_selected_box);
+~assist_set_icon(%varbit_4102, "staticons_8", "staticons_off_8", assister_interface:herblore_icon_on, assister_interface:herblore_selected_box);

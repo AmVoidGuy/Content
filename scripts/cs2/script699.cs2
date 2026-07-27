@@ -1,0 +1,11 @@
+// 699
+[clientscript,script699](component $component0)
+if (%varbit_1009 < 2) {
+	if_settext("I don't know it.", $component0);
+	if_setop(1, "I don't know it.", $component0);
+	if_setposition(327, 252, bankpin_main:bankpin_cancel);
+} else {
+	if_settext("", $component0);
+	if_clearops($component0);
+	if_setposition(327, 263, bankpin_main:bankpin_cancel);
+}

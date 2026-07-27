@@ -1,0 +1,10 @@
+// 1036
+[proc,script1036]()(int)
+def_int $int0 = null;
+if (enum(int, int, enum_1548, %varbit_4758) > 0) {
+	$int0 = enum(int, int, enum_1549, %varbit_4758);
+	if ($int0 ! null) {
+		return($int0);
+	}
+}
+return(enum(int, int, enum_1483, %varbit_4759));

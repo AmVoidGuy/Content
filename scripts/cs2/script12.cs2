@@ -1,0 +1,75 @@
+// 12
+[proc,script12](int $int0)(string, int)
+if ($int0 = 1) {
+	return("Attack", 13);
+}
+if ($int0 = 2) {
+	return("Strength", 6);
+}
+if ($int0 = 5) {
+	return("Defence", 13);
+}
+if ($int0 = 3) {
+	return("Ranged", 9);
+}
+if ($int0 = 7) {
+	return("Prayer", 3);
+}
+if ($int0 = 4) {
+	return("Magic", 9);
+}
+if ($int0 = 6) {
+	return("Hitpoints", 2);
+}
+if ($int0 = 8) {
+	return("Agility", 5);
+}
+if ($int0 = 9) {
+	return("Herblore", 5);
+}
+if ($int0 = 10) {
+	return("Thieving", 6);
+}
+if ($int0 = 11) {
+	return("Crafting", 10);
+}
+if ($int0 = 19) {
+	return("Fletching", 6);
+}
+if ($int0 = 13) {
+	return("Mining", 4);
+}
+if ($int0 = 14) {
+	return("Smithing", 12);
+}
+if ($int0 = 15) {
+	return("Fishing", 4);
+}
+if ($int0 = 16) {
+	return("Cooking", 13);
+}
+if ($int0 = 17) {
+	return("Firemaking", 4);
+}
+if ($int0 = 18) {
+	return("Woodcutting", 5);
+}
+if ($int0 = 12) {
+	return("Runecrafting", 4);
+}
+if ($int0 = 20) {
+	return("Slayer", 4);
+}
+if ($int0 = 21) {
+	return("Farming", 10);
+}
+if ($int0 = 22) {
+	return("Construction", 14);
+}
+if ($int0 = 23) {
+	return("Hunter", 13);
+}
+if ($int0 = 24) {
+	return("Summoning", 5);
+}
+return("", -1);

@@ -1,0 +1,6 @@
+// 301
+[clientscript,script301]
+if_sethide(true, interface_593:listlayer);
+if_sethide(false, interface_593:116);
+if_setgraphic("player_kit_fancy_off_5", interface_593:120);
+if_setgraphic("player_kit_fancy_5", interface_593:121);

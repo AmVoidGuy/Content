@@ -1,0 +1,6 @@
+// 64
+[clientscript,script64]
+if_settext("<tostring(%varbit_3637)>/<tostring(153)>", vm_kudos:vm_kudos);
+if (%varbit_3637 = 153) {
+	if_setcolour(^green, vm_kudos:vm_kudos);
+}

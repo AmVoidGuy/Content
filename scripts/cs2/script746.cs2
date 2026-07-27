@@ -1,0 +1,5 @@
+// 746
+[clientscript,script746]
+if_setgraphic("combatboxes_0", interface_664:1);
+if_setgraphic("combatboxes_1", interface_664:3);
+if_setgraphic("combatboxes_0", interface_664:5);

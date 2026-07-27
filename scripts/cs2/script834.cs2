@@ -1,0 +1,11 @@
+// 834
+[clientscript,script834]
+if (%varbit_4393 = 1 | %cutscene_status = 1) {
+	if_setgraphic("music_icons_1", music_v3:11);
+	return;
+}
+if (%var19 = 1) {
+	if_setgraphic("music_icons_1", music_v3:11);
+} else if (%var19 = 0) {
+	if_setgraphic("music_icons_0", music_v3:11);
+}

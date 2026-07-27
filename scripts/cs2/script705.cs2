@@ -1,0 +1,15 @@
+// 705
+[proc,script705]
+%varcint87 = %varbit_4208;
+%varcint89 = %varbit_4210;
+%varcint90 = %varbit_4211;
+%varcint91 = %varbit_4212;
+%varcint92 = %varbit_4213;
+%varcint93 = %varbit_4214;
+%varcint94 = %varbit_4215;
+%varcint95 = %varbit_4216;
+%varcint96 = %varbit_4217;
+%varcint97 = %varbit_4218;
+%varcint98 = %varbit_4219;
+idk_changegender(%varbit_4220);
+~script706;

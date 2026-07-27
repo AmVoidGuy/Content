@@ -1,0 +1,4 @@
+// 243
+[clientscript,script243]
+~script298;
+if_setgraphic("miscgraphics_11", interface_594:99);

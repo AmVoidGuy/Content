@@ -1,0 +1,3 @@
+// 132
+[proc,script132]
+if_setonkey("script73(event_key, event_keychar)", chatdefault:input);

@@ -1,0 +1,10 @@
+// 731
+[clientscript,script731]
+if_setgraphic("combatboxes_1", interface_660:137);
+if_setgraphic("combatboxes_0", interface_660:138);
+if (mouse_gety = 0) {
+	~script703;
+	return;
+}
+~script733;
+~script703;

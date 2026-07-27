@@ -1,0 +1,5 @@
+// 702
+[clientscript,script702]
+if (%varcint86 <= 0) {
+	~script705;
+}

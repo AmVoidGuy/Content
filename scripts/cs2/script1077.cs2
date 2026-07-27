@@ -1,0 +1,44 @@
+// 1077
+[proc,script1077](int $int0)
+qc_start($int0);
+def_int $int1 = 0;
+def_int $int2 = qc_get_phrase_length($int0);
+def_int $int3 = -1;
+while ($int1 < $int2 & $int1 < 10) {
+	switch_int (qc_get_phrase_dynamiccommand($int0, $int1)) {
+		case 0 :
+			~quickchat_phrase_setint($int1);
+		case 1 :
+			~quickchat_phrase_setobj($int1);
+		case 10 :
+			~quickchat_phrase_setobj($int1);
+		case 2 :
+			~quickchat_phrase_setint($int1);
+	}
+	$int1 = calc($int1 + 1);
+}
+if (%varcint126 = 0 | %varcint126 = 4) {
+	qc_send_public;
+} else if (%varcint126 = 1) {
+	$int3 = ~quickchat_friend_status(%varcstring27);
+	if ($int3 = 1) {
+		qc_send_private(removetags(%varcstring27));
+		~script1089;
+	} else if ($int3 = -1) {
+		mes("Sorry, this user is not on your friends list.");
+	} else {
+		mes("Sorry, your friend is no longer playing RuneScape.");
+	}
+} else if (%varcint126 = 5) {
+	qc_send_private(removetags(%varcstring27));
+	~script1089;
+} else if (%varcint126 = 3 | %varcint126 = 7) {
+	qc_send_private(removetags(%varcstring27));
+	~script1089;
+} else if (%varcint126 = 2 | %varcint126 = 6) {
+	qc_send_public_alt;
+}
+%varcint130 = $int0;
+%varcint131 = %varcint126;
+%varcstring28 = %varcstring27;
+~script1054;

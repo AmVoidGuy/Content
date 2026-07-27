@@ -1,0 +1,84 @@
+// 51
+[proc,script51](component $component0)(int)
+if ($component0 = prayer:5) {
+	return(%var83);
+}
+if ($component0 = prayer:7) {
+	return(%var84);
+}
+if ($component0 = prayer:9) {
+	return(%var85);
+}
+if ($component0 = prayer:11) {
+	return(%var862);
+}
+if ($component0 = prayer:13) {
+	return(%var863);
+}
+if ($component0 = prayer:15) {
+	return(%var86);
+}
+if ($component0 = prayer:17) {
+	return(%var87);
+}
+if ($component0 = prayer:19) {
+	return(%var88);
+}
+if ($component0 = prayer:21) {
+	return(%var89);
+}
+if ($component0 = prayer:23) {
+	return(%var90);
+}
+if ($component0 = prayer:25) {
+	return(%var91);
+}
+if ($component0 = prayer:27) {
+	return(%var864);
+}
+if ($component0 = prayer:29) {
+	return(%var865);
+}
+if ($component0 = prayer:31) {
+	return(%var92);
+}
+if ($component0 = prayer:33) {
+	return(%var93);
+}
+if ($component0 = prayer:35) {
+	return(%var94);
+}
+if ($component0 = prayer:37) {
+	return(%var95);
+}
+if ($component0 = prayer:39) {
+	return(%var96);
+}
+if ($component0 = prayer:41) {
+	return(%var97);
+}
+if ($component0 = prayer:43) {
+	return(%var866);
+}
+if ($component0 = prayer:45) {
+	return(%var867);
+}
+if ($component0 = prayer:47) {
+	return(%var98);
+}
+if ($component0 = prayer:49) {
+	return(%var99);
+}
+if ($component0 = prayer:51) {
+	return(%var100);
+}
+if ($component0 = prayer:53) {
+	return(%var1168);
+}
+if ($component0 = prayer:55) {
+	return(%var1052);
+}
+if ($component0 = prayer:57) {
+	return(%var1053);
+}
+return(0);

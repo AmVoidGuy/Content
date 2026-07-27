@@ -1,0 +1,130 @@
+// 84
+[proc,script84]
+def_int $int0 = 0;
+def_int $int1 = 0;
+def_int $chattype2 = ^chattype_gamemessage;
+def_component $component3 = null;
+def_int $int4 = 0;
+if (%varcint41 = 3) {
+	$int4 = 1;
+}
+while ($int1 < 100) {
+	if (~script193($int1) = 1 & ~script90($int1, $int4) = 1) {
+		$int0 = calc($int0 + 1);
+	}
+	$int1 = calc($int1 + 1);
+}
+if ($int0 < 8) {
+	$int0 = 8;
+	~script85(chatdefault:line0);
+	~script85(chatdefault:line1);
+	~script85(chatdefault:line2);
+	~script85(chatdefault:line3);
+	~script85(chatdefault:line4);
+	~script85(chatdefault:line5);
+	~script85(chatdefault:line6);
+	~script85(chatdefault:line7);
+}
+if_setscrollsize(463, calc($int0 * 14 + 2), chatdefault:scrollarea);
+~script72(chatdefault:scrollbar, chatdefault:scrollarea, calc(%varcint7 + (if_getscrollheight(chatdefault:scrollarea) - %varcint8)));
+%varcint7 = if_getscrolly(chatdefault:scrollarea);
+%varcint8 = if_getscrollheight(chatdefault:scrollarea);
+if ($int0 < 100) {
+	~script85(enum(int, component, enum_579, $int0));
+}
+$int1 = 0;
+%varcint132 = -1;
+while ($int1 < 100) {
+	if (~script193($int1) = 1 & ~script90($int1, $int4) = 1) {
+		$int0 = calc($int0 - 1);
+		$component3 = enum(int, component, enum_579, $int0);
+		$chattype2 = chat_gethistory_byuid($int1);
+		if ($chattype2 = ^chattype_gamemessage | $chattype2 = ^chattype_friendschatnotification | $chattype2 = 12 | $chattype2 = 13) {
+			if_settext(chat_gethistory_bytypeandline($int1), $component3);
+		} else if ($chattype2 = ^chattype_modchat) {
+			if_settext("<chat_gethistory_username($int1)>: <col=0000ff><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_publicchat) {
+			if_settext("<chat_gethistory_username($int1)>: <col=0000ff><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_privatechat) {
+			if_settext("From <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_engine) {
+			if_settext("<col=800080><chat_gethistory_username($int1)> <chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_loginlogoutnotification) {
+			if_settext("<col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_privatechatout) {
+			if_settext("To <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_modprivatechat) {
+			if_settext("From <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = 8) {
+			if_settext("<col=7e3200><chat_gethistory_username($int1)> <chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = ^chattype_friendschat) {
+			if_settext("[<col=0000ff><chat_gethistory_displayname($int1)><col=000000>] <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = 10) {
+			if_settext("<col=8a2be2><chat_gethistory_username($int1)> is requesting your assistance.", $component3);
+		} else if ($chattype2 = ^chattype_broadcast) {
+			if_settext("<col=7e3200><chat_gethistory_username($int1)> wishes to duel with you (stake).", $component3);
+		} else if ($chattype2 = 15) {
+			if_settext("<col=7e3200><chat_gethistory_username($int1)> wishes to duel with you (friendly).", $component3);
+		} else if ($chattype2 = 16) {
+			if_settext("<col=7e3200><chat_gethistory_username($int1)> wishes to challenge your clan to a clan war.", $component3);
+		} else if ($chattype2 = 17) {
+			if (compare(chat_playername, removetags(chat_gethistory_username($int1))) ! 0 & qc_get_phrase_autoresponsecount(chat_gethistory_type($int1)) > 0) {
+				if_settext("<chat_gethistory_username($int1)><img=3>: <col=0000ff><chat_gethistory_bytypeandline($int1)>", $component3);
+			} else {
+				if_settext("<chat_gethistory_username($int1)>: <col=0000ff><chat_gethistory_bytypeandline($int1)>", $component3);
+			}
+		} else if ($chattype2 = 18) {
+			if (compare(chat_playername, removetags(chat_gethistory_username($int1))) ! 0 & qc_get_phrase_autoresponsecount(chat_gethistory_type($int1)) > 0) {
+				if_settext("From <chat_gethistory_username($int1)><img=3>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+			} else {
+				if_settext("From <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+			}
+		} else if ($chattype2 = 19) {
+			if_settext("To <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+		} else if ($chattype2 = 20) {
+			if (compare(chat_playername, removetags(chat_gethistory_username($int1))) ! 0 & qc_get_phrase_autoresponsecount(chat_gethistory_type($int1)) > 0) {
+				if_settext("[<col=0000ff><chat_gethistory_displayname($int1)><col=000000>] <chat_gethistory_username($int1)><img=3>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+			} else {
+				if_settext("[<col=0000ff><chat_gethistory_displayname($int1)><col=000000>] <chat_gethistory_username($int1)>: <col=800000><chat_gethistory_bytypeandline($int1)>", $component3);
+			}
+		}
+		if_clearops($component3);
+		if_setonop("script86(event_opindex, event_opbase, $int1)", $component3);
+		if ($chattype2 = ^chattype_modchat | $chattype2 = ^chattype_publicchat | $chattype2 = ^chattype_privatechat | $chattype2 = ^chattype_modprivatechat | $chattype2 = ^chattype_friendschat) {
+			if_setopbase("<col=ffffff><chat_gethistory_username($int1)>", $component3);
+			if_setop(6, "Add friend", $component3);
+			if_setop(7, "Add ignore", $component3);
+			if (staffmodlevel > 0 | playermod > false) {
+				if_setop(8, "Report abuse", $component3);
+			}
+		} else if ($chattype2 = ^chattype_engine) {
+			if_setopbase("<col=ffffff><chat_gethistory_username($int1)>", $component3);
+			if_setop(1, "Accept trade", $component3);
+		} else if ($chattype2 = 8 | $chattype2 = ^chattype_broadcast | $chattype2 = 15 | $chattype2 = 16) {
+			if_setopbase("<col=ffffff><chat_gethistory_username($int1)>", $component3);
+			if_setop(2, "Accept challenge", $component3);
+		} else if ($chattype2 = 10) {
+			if_setopbase("<col=ffffff><chat_gethistory_username($int1)>", $component3);
+			if_setop(3, "Give assistance", $component3);
+		} else if ($chattype2 = 17 | $chattype2 = 18 | $chattype2 = 20) {
+			if_setopbase("<col=ffffff><chat_gethistory_username($int1)>", $component3);
+			if_setop(6, "Add friend", $component3);
+			if_setop(7, "Add ignore", $component3);
+			if (compare(chat_playername, removetags(chat_gethistory_username($int1))) ! 0 & qc_get_phrase_autoresponsecount(chat_gethistory_type($int1)) > 0) {
+				if (%varcint132 = -1) {
+					%varcint132 = chat_gethistory_type($int1);
+					%varcstring29 = chat_gethistory_username($int1);
+					if ($chattype2 = 20) {
+						%varcint133 = 6;
+					} else if ($chattype2 = 18) {
+						%varcint133 = 5;
+					} else {
+						%varcint133 = 4;
+					}
+				}
+				if_setop(9, "Quick Response", $component3);
+			}
+		}
+	}
+	$int1 = calc($int1 + 1);
+}

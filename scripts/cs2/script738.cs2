@@ -1,0 +1,6 @@
+// 738
+[proc,script738]
+def_string $text0 = tostring(calc(%varcint105 / 10));
+def_string $text1 = tostring(calc(%varcint105 % 10));
+if_settext($text0, scab_rune_game:counter_01);
+if_settext($text1, scab_rune_game:counter_02);

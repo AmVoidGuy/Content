@@ -1,0 +1,25 @@
+// 1050
+[proc,script1050](int $int0, string $string0)
+if ($int0 = 2 & compare("", clan_getchatdisplayname) = 0) {
+	return;
+}
+if_sethide(true, chatdefault:chat);
+if_setonkey(null, chatdefault:input);
+if_sethide(false, chatdefault:quickchat);
+if_sethide(true, chatdefault:quickchat_countdialog);
+if_sethide(true, chatdefault:quickchat_listdialog);
+if_sethide(true, chatdefault:quickchat_objdialog);
+if_sethide(false, chatdefault:quickchat_menu);
+if_sethide(false, chatdefault:quickchat_path);
+if_sethide(true, chatdefault:quickchat_title);
+if_setscrollpos(0, 0, chatdefault:quickchat_menu);
+def_int $int1 = 85;
+def_chatcat $chatcat2 = ~script1036;
+if ($int0 = 3) {
+	$int1 = 32769;
+	$chatcat2 = -1;
+}
+%varcint126 = $int0;
+%varcstring27 = $string0;
+%varcint127 = 1;
+~script1062(chatdefault:quickchat_path, 0, $int1, $chatcat2);

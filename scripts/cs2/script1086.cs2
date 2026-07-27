@@ -1,0 +1,55 @@
+// 1086
+[proc,script1086](component $component0, int $y1, int $y2, int $y3)
+def_int $width4 = if_getwidth($component0);
+def_int $height5 = if_getheight($component0);
+def_int $int6 = 0;
+if ($y1 > 0) {
+	cc_create($component0, ^iftype_graphic, $int6);
+	cc_setposition(0, $y1);
+	cc_setsize($width4, 32);
+	cc_setgraphic("v2_borders_slim_13");
+	cc_settiling(true);
+	$int6 = calc($int6 + 1);
+}
+if ($y2 > 0) {
+	cc_create($component0, ^iftype_graphic, $int6);
+	cc_setposition(0, $y2);
+	cc_setsize($width4, 32);
+	cc_setgraphic("v2_borders_slim_13");
+	cc_settiling(true);
+	$int6 = calc($int6 + 1);
+}
+if ($y3 > 0) {
+	cc_create($component0, ^iftype_graphic, $int6);
+	cc_setposition(0, $y3);
+	cc_setsize($width4, 32);
+	cc_setgraphic("v2_borders_slim_13");
+	cc_settiling(true);
+	$int6 = calc($int6 + 1);
+}
+cc_create($component0, ^iftype_graphic, $int6);
+cc_setposition(0, 0);
+cc_setsize($width4, 32);
+cc_setgraphic("v2_borders_slim_13");
+cc_settiling(true);
+$int6 = calc($int6 + 1);
+cc_create($component0, ^iftype_graphic, $int6);
+cc_setposition(0, calc($height5 - 32));
+cc_setsize($width4, 32);
+cc_setgraphic("v2_borders_slim_13");
+cc_settiling(true);
+cc_setvflip(true);
+$int6 = calc($int6 + 1);
+cc_create($component0, ^iftype_graphic, $int6);
+cc_setposition(0, 1);
+cc_setsize(32, calc($height5 - 2));
+cc_setgraphic("v2_borders_slim_14");
+cc_settiling(true);
+$int6 = calc($int6 + 1);
+cc_create($component0, ^iftype_graphic, $int6);
+cc_setposition(calc($width4 - 32), 1);
+cc_setsize(32, calc($height5 - 2));
+cc_setgraphic("v2_borders_slim_14");
+cc_settiling(true);
+cc_sethflip(true);
+$int6 = calc($int6 + 1);

@@ -1,0 +1,12 @@
+// 102
+[proc,script102](string $text0)
+if (%varcint5 < 2) {
+	if_sethide(false, toplevel:mes_layer);
+	if_sethide(true, toplevel:mes_layer_large);
+	if_sethide(true, toplevel:mes_layer_hide);
+	if_settext($text0, toplevel:mes_text);
+	if_settext("Click to continue", toplevel:mes_text2);
+	%varcint5 = 1;
+	if_setonclick("script101", toplevel:mes_layer);
+	if_setonkey(null, toplevel:mes_text2);
+}

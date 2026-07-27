@@ -1,0 +1,6 @@
+// 404
+[clientscript,script404]
+~script505;
+if_setgraphic("sprite_1043", interface_596:226);
+if_setonmouseleave("deltooltip(interface_596:271)", interface_596:226);
+if_setonmouseover(null, interface_596:226);

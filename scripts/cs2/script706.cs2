@@ -1,0 +1,51 @@
+// 706
+[proc,script706]
+def_enum $enum0 = null;
+def_int $y1 = mouse_gety;
+if ($y1 = 1) {
+	if_setgraphic("combatboxes_0", interface_660:137);
+	if_setgraphic("combatboxes_1", interface_660:138);
+} else {
+	if_setgraphic("combatboxes_1", interface_660:137);
+	if_setgraphic("combatboxes_0", interface_660:138);
+}
+$enum0 = enum_1125;
+if ($y1 = 1) {
+	$enum0 = enum_1126;
+}
+idk_changepart(0, enum(int, idkit, $enum0, %varcint87));
+if ($y1 = 0) {
+	idk_changepart(1, enum(int, idkit, enum_1127, %varcint88));
+} else {
+	idk_changepart(1, -1);
+}
+$enum0 = enum_1128;
+if ($y1 = 1) {
+	$enum0 = enum_1129;
+}
+idk_changepart(2, enum(int, idkit, $enum0, %varcint89));
+$enum0 = enum_1130;
+if ($y1 = 1) {
+	$enum0 = enum_1131;
+}
+idk_changepart(3, enum(int, idkit, $enum0, %varcint90));
+$enum0 = enum_1132;
+if ($y1 = 1) {
+	$enum0 = enum_1133;
+}
+idk_changepart(4, enum(int, idkit, $enum0, %varcint91));
+$enum0 = enum_1134;
+if ($y1 = 1) {
+	$enum0 = enum_1135;
+}
+idk_changepart(5, enum(int, idkit, $enum0, %varcint92));
+$enum0 = enum_1136;
+if ($y1 = 1) {
+	$enum0 = enum_1137;
+}
+idk_changepart(6, enum(int, idkit, $enum0, %varcint93));
+idk_changecolour(0, %varcint94);
+idk_changecolour(1, %varcint95);
+idk_changecolour(2, %varcint96);
+idk_changecolour(3, %varcint97);
+idk_changecolour(4, %varcint98);

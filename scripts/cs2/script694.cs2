@@ -1,0 +1,10 @@
+// 694
+[clientscript,script694](string $string0, string $string1, string $string2)
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string0, 25, 180)", trademain:balance_text);
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string0, 25, 180)", trademain:pointer);
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string0, 25, 180)", trademain:pointer_off);
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string1, 25, 180)", trademain:42);
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string1, 25, 180)", trademain:limit_left);
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string2, 25, 180)", trademain:44);
+if_setonmouserepeat("script38(event_com, trademain:tooltip_layer, $string2, 25, 180)", trademain:limit_right);
+%varcint2 = 0;

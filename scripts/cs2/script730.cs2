@@ -1,0 +1,9 @@
+// 730
+[clientscript,script730]
+if (%varcint98 = 0) {
+	%varcint98 = 7;
+} else {
+	%varcint98 = calc(%varcint98 - 1);
+}
+idk_changecolour(4, %varcint98);
+~script703;

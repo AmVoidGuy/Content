@@ -1,0 +1,7 @@
+// 733
+[proc,script733]
+~script735;
+idk_changegender(false);
+if_setgraphic("combatboxes_1", interface_660:137);
+if_setgraphic("combatboxes_0", interface_660:138);
+~script706;

@@ -1,0 +1,8 @@
+// 138
+[clientscript,script138]
+if (%varcint5 = 7 | %varcint5 = 8 | %varcint5 = 9) {
+	if_sethide(true, toplevel:mes_layer);
+	if_sethide(true, toplevel:mes_layer_large);
+	if_sethide(false, toplevel:mes_layer_hide);
+	%varcint5 = 0;
+}

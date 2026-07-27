@@ -1,0 +1,17 @@
+// 753
+[clientscript,script753]
+if (%varbit_4286 ! 101) {
+	if_settext("<tostring(%varbit_4286)>%", lore_stats_side:hunger);
+	if (%varbit_4286 > 74) {
+		if_setcolour(^red, lore_stats_side:hunger);
+	} else {
+		if_setcolour(^white, lore_stats_side:hunger);
+	}
+} else {
+	if_settext("NA", lore_stats_side:hunger);
+}
+if (%varbit_4285 ! 101) {
+	if_settext("<tostring(%varbit_4285)>%", lore_stats_side:size_percentage);
+} else {
+	if_settext("NA", lore_stats_side:size_percentage);
+}

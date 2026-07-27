@@ -1,0 +1,14 @@
+// 508
+[clientscript,script508]
+if_setonkey("script133(event_key, event_keychar)", interface_553:name);
+if_setonkey(null, chatdefault:input);
+if_settext("<escape(%varcstring24)><col=ffff00>|", interface_553:name);
+%varcint6 = 0;
+if_settext("Moderator option: Mute player for 48 hours: <lt>OFF<gt>", interface_553:mutetoggle);
+%varcint11 = 1;
+if (if_gethide(toplevel:mes_layer) = false) {
+	if_sethide(true, toplevel:mes_layer);
+	if_sethide(false, toplevel:mes_layer_hide);
+	%varcint5 = 0;
+	%varcstring22 = "";
+}

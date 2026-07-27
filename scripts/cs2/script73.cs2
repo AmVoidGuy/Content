@@ -1,0 +1,73 @@
+// 73
+[clientscript,script73](int $key0, char $keychar1)
+if ($key0 = ^key_f9) {
+	if (%varcint132 ! -1) {
+		~script1052(%varcint133, %varcint132, %varcstring29);
+	}
+	return;
+}
+if ($key0 = ^key_f10) {
+	if (~script1036 ! null) {
+		~script1051(0, "");
+	}
+	return;
+}
+def_int $int2 = 0;
+def_int $int3 = 0;
+if ($key0 = ^key_f11) {
+	$int2 = 150;
+	$int3 = calc(clientclock - %varcint158);
+	if ($int3 > 1500) {
+		%varcint159 = 0;
+	}
+	if (%varcint159 >= 7) {
+		$int2 = 600;
+	} else if (%varcint159 >= 5) {
+		$int2 = 450;
+	} else if (%varcint159 >= 3) {
+		$int2 = 300;
+	}
+	if ($int3 >= $int2) {
+		%varcint158 = clientclock;
+		%varcint159 = calc(%varcint159 + 1);
+		if (%varcint130 ! -1) {
+			~script1069;
+		}
+		return;
+	}
+}
+if (staffmodlevel > 0) {
+	if ($key0 = ^key_page_up) {
+		~chatout_scrollup;
+	} else if ($key0 = ^key_page_down) {
+		~chatout_scrolldown;
+	}
+} else if (underage = true | map_quickchat = true) {
+	if ($key0 = ^key_return) {
+		~script1050(0, "");
+		return;
+	}
+	if (char_isprintable($keychar1) = true & compare("/", append_char("", $keychar1)) = 0) {
+		~script1050(2, "");
+		return;
+	}
+	return;
+}
+if ($key0 = ^key_return) {
+	if (string_length(%varcstring1) <= 0) {
+		%varcstring1 = "";
+		~script1050(0, "");
+		return;
+	}
+	if (compare("/", %varcstring1) = 0) {
+		%varcstring1 = "";
+		~script1050(2, "");
+		return;
+	}
+	chat_sendpublic(%varcstring1);
+	~chatout_add(%varcstring1);
+	%varcstring1 = "";
+} else {
+	%varcstring1 = ~script74(0, $key0, $keychar1, %varcstring1);
+}
+if_settext("<chat_playername><img=3>: <col=0000ff><escape(%varcstring1)>*", chatdefault:input);

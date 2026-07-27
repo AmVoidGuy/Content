@@ -1,0 +1,6 @@
+// 514
+[clientscript,script514]
+if (%varcint51 < 512) {
+	%varcint51 = calc(%varcint51 + 15);
+	if_setsize(%varcint51, 334, pog_door_hatch_close:shutter);
+}

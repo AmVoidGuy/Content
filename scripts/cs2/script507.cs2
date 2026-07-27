@@ -1,0 +1,6 @@
+// 507
+[clientscript,script507](string $string0)
+%varcstring0 = $string0;
+if (%varcint41 = 5) {
+	~script84;
+}
