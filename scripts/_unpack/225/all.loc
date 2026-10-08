@@ -7550,6 +7550,7 @@ length=2
 op1=Chop down
 op3=hidden
 mapscene=0
+param=ent,macro_ent_dramen
 
 [fallentree]
 name=Fallen tree
