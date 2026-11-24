@@ -153,21 +153,6 @@ stock0=oil_lantern_frame,1
 size=1
 stock0=bullseye_lantern_nolens,1
 
-[salesman_ranging]
-size=9
-stock0=steel_arrow,100
-stock1=mithril_arrow,30
-stock2=adamant_arrow,0
-stock3=oak_shortbow,10
-stock4=oak_longbow,10
-stock5=willow_shortbow,10
-stock6=willow_longbow,10
-stock7=maple_shortbow,10
-stock8=maple_longbow,10
-scope=shared
-restock=yes
-stackall=yes
-
 [mm_scimitar_shop2]
 size=5
 stock0=bronze_scimitar,10
@@ -1048,27 +1033,27 @@ size=1
 
 [silvercast_holysymbol]
 size=1
-stock0=nostringstar,1
+stock1=nostringstar,1
 
 [silvercast_unholysymbol]
 size=1
-stock0=nostringsnake,1
+stock1=nostringsnake,1
 
 [silvercast_sickle]
 size=1
-stock0=silver_sickle,1
+stock1=silver_sickle,1
 
 [silvercast_lightning]
 size=1
-stock0=fenk_conductor,1
+stock1=fenk_conductor,1
 
 [silvercast_tiara]
 size=1
-stock0=tiara,1
+stock1=tiara,1
 
 [silvercast_agrith]
 size=1
-stock0=agrith_sigil,1
+stock1=agrith_sigil,1
 
 [generalshopnardah]
 size=40
